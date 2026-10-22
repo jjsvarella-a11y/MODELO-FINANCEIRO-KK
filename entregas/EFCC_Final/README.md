@@ -5,7 +5,7 @@ Revisão premium de apresentação, navegação e impressão, sobre a base finan
 - [Abrir o modelo](KK01_V06_Executive_Master.xlsx) — 36.3 MB, 190 folhas: dez painéis executivos, auxiliares e motor atual. As 313 folhas V04 continuam fisicamente removidas; a V04 original permanece intacta em `../Arquivo/V04`.
 - [Entrega completa](KK01_EFCC_Entrega_Candidata.zip).
 - [Testes de todos os filtros](Matriz_Testes_Filtros.csv).
-- [Matriz de navegação](Matriz_Navegacao.csv) — 507 ligações verificadas estruturalmente.
+- [Matriz de navegação](Matriz_Navegacao.csv) — 607 ligações verificadas estruturalmente.
 - [Alterações gráficas](Relatorio_Alteracoes_Graficas.md).
 - [Integridade financeira](Relatorio_Integridade_Financeira.md).
 - [Compatibilidade Microsoft Excel 365](Compatibilidade_Excel365.md).
@@ -30,7 +30,7 @@ Os PDFs PT/EN foram gerados com LibreOffice; não são provas de impressão nati
 
 ## Integridade e limites
 
-O recálculo independente dos 69 cenários comparou 1,738,800 valores mensais com a referência Python: 0 erros e 0 divergências; diferença absoluta máxima 6e-08. Os testes atuais de controlos são 16/16 PASS. A verificação global abrange 50 controlos em 73 testes de escolhas/entradas, com resultados em `Matriz_Testes_Filtros.csv`.
+O recálculo independente dos 69 cenários comparou 1,738,800 valores mensais com a referência Python: 0 erros e 0 divergências; diferença absoluta máxima 6e-08. A bateria preservada de controlos apresenta 16/16 PASS. A verificação global abrange 50 controlos em 73 testes de escolhas/entradas, com resultados em `Matriz_Testes_Filtros.csv`.
 
 Trinta entradas foram transferidas para células canónicas nos painéis; os endereços antigos passaram a referenciar essas entradas. Quatro coeficientes residenciais antes fixos foram expostos como parâmetros, conservando exatamente a calibração original: ADR 225 EUR, ocupação inicial 58,1%, OPEX 35% e FF&E 4%. Esta ligação altera 48.960 expressões dos 68 motores ativos; o caso de referência permanece congelado. Todas as outras expressões dos motores e todos os valores iniciais foram preservados. Não se afirma que nenhuma fórmula financeira mudou: as quatro exposições são a alteração técnica necessária aos filtros pedidos.
 
@@ -38,4 +38,10 @@ Trinta entradas foram transferidas para células canónicas nos painéis; os end
 
 **Logótipo original:** as imagens da conversa não chegaram como JPG/PNG acessível. Foi mantida **V06 Identidade**, para inserir o original diretamente no livro, e reservados espaços nos cabeçalhos. O script Windows pode copiar essa imagem incorporada para os cabeçalhos, preservando proporções; essa rotina continua NOT TESTED. Não se redesenhou nem substituiu o logótipo oficial por uma aproximação.
 
-SHA256 do master: `9866fbbf0b0f252848e0d3c45358f7f838e9832d7bfb2b390a59ce925ecb6fad`.
+SHA256 do master: `94d0e1c511588a9a045e54f9259204a8c19ad9f3cb648357588c5d98a9f1fb40`.
+
+## Aderência ao mandato de navegação
+
+A revisão corrige o Menu, acrescenta dez acessos numerados na linha 6 imobilizada de cada dashboard, inclui RevPAR nos oito cartões Hotel e diferencia os cinco intervenientes na decisão final. A sidebar mantém títulos completos; em deslocação vertical, o menu compacto superior conserva acesso direto aos dez dashboards.
+
+`Restauro_Mandato.json` compara esta revisão com a publicada: fórmulas e caches dos 69 motores, bem como as 50 entradas e validações, são idênticos. Os 73 testes anteriores são evidência preservada; os ensaios executados nesta correção constam de `Testes_Restauro.json`. Consulte `Auditoria_Mandato.md`. A aceitação nativa Excel 365 e o logótipo original incorporado permanecem pendentes.

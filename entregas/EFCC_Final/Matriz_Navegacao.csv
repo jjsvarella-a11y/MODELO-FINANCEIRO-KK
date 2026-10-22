@@ -9,24 +9,34 @@ EXEC V06!B43;DASH 06 V06!A1;Excel internal link;PASS;NOT TESTED
 EXEC V06!B48;DASH 07 V06!A1;Excel internal link;PASS;NOT TESTED
 EXEC V06!B5;DASH 10 Centro!H7;Excel internal link;PASS;NOT TESTED
 EXEC V06!B53;DASH 10 Centro!A1;Excel internal link;PASS;NOT TESTED
-EXEC V06!B6;DASH 10 Centro!E21;Excel internal link;PASS;NOT TESTED
+EXEC V06!B6;EXEC V06!E6;Excel internal link;PASS;NOT TESTED
 EXEC V06!B60;V06 Identidade!B8;Excel internal link;PASS;NOT TESTED
 EXEC V06!B8;EXEC V06!A1;Excel internal link;PASS;NOT TESTED
 EXEC V06!E23;DASH 03 V06!H23;Excel internal link;PASS;NOT TESTED
 EXEC V06!E37;V06 Hipoteses!A4;Excel internal link;PASS;NOT TESTED
 EXEC V06!E5;EXEC V06!A1;Excel internal link;PASS;NOT TESTED
+EXEC V06!E6;EXEC V06!A1;Excel internal link;PASS;NOT TESTED
 EXEC V06!E89;DASH 10 Centro!A1;Excel internal link;PASS;NOT TESTED
+EXEC V06!F6;DASH 01 V06!A1;Excel internal link;PASS;NOT TESTED
+EXEC V06!G6;DASH 02 V06!A1;Excel internal link;PASS;NOT TESTED
 EXEC V06!H13;V06 Dicionario!A4;Excel internal link;PASS;NOT TESTED
 EXEC V06!H5;EXEC V06!H23;Excel internal link;PASS;NOT TESTED
+EXEC V06!H6;DASH 03 V06!A1;Excel internal link;PASS;NOT TESTED
 EXEC V06!H7;V06 Dicionario!A4;Excel internal link;PASS;NOT TESTED
+EXEC V06!I6;DASH 04A V06!A1;Excel internal link;PASS;NOT TESTED
+EXEC V06!J6;DASH 04B V06!A1;Excel internal link;PASS;NOT TESTED
 EXEC V06!K23;DASH 07 V06!N25;Excel internal link;PASS;NOT TESTED
 EXEC V06!K37;V06 Dicionario!A4;Excel internal link;PASS;NOT TESTED
 EXEC V06!K5;DASH 10 Centro!A1;Excel internal link;PASS;NOT TESTED
+EXEC V06!K6;DASH 05 V06!A1;Excel internal link;PASS;NOT TESTED
 EXEC V06!K89;EXEC V06!A1;Excel internal link;PASS;NOT TESTED
 EXEC V06!L13;V06 Dicionario!A4;Excel internal link;PASS;NOT TESTED
+EXEC V06!L6;DASH 06 V06!A1;Excel internal link;PASS;NOT TESTED
 EXEC V06!L7;V06 Dicionario!A4;Excel internal link;PASS;NOT TESTED
+EXEC V06!M6;DASH 07 V06!A1;Excel internal link;PASS;NOT TESTED
 EXEC V06!N2;V06 Identidade!B8;Excel internal link;PASS;NOT TESTED
 EXEC V06!N5;V06 PDF 01!A1;Excel internal link;PASS;NOT TESTED
+EXEC V06!N6;DASH 10 Centro!A1;Excel internal link;PASS;NOT TESTED
 EXEC V06!P13;V06 Dicionario!A4;Excel internal link;PASS;NOT TESTED
 EXEC V06!P7;V06 Dicionario!A4;Excel internal link;PASS;NOT TESTED
 DASH 01 V06!B13;DASH 01 V06!A1;Excel internal link;PASS;NOT TESTED
@@ -39,22 +49,32 @@ DASH 01 V06!B43;DASH 06 V06!A1;Excel internal link;PASS;NOT TESTED
 DASH 01 V06!B48;DASH 07 V06!A1;Excel internal link;PASS;NOT TESTED
 DASH 01 V06!B5;DASH 10 Centro!H7;Excel internal link;PASS;NOT TESTED
 DASH 01 V06!B53;DASH 10 Centro!A1;Excel internal link;PASS;NOT TESTED
-DASH 01 V06!B6;DASH 10 Centro!E21;Excel internal link;PASS;NOT TESTED
+DASH 01 V06!B6;DASH 01 V06!E6;Excel internal link;PASS;NOT TESTED
 DASH 01 V06!B60;V06 Identidade!B8;Excel internal link;PASS;NOT TESTED
 DASH 01 V06!B8;EXEC V06!A1;Excel internal link;PASS;NOT TESTED
 DASH 01 V06!E37;V06 Capitulos!A4;Excel internal link;PASS;NOT TESTED
 DASH 01 V06!E5;EXEC V06!A1;Excel internal link;PASS;NOT TESTED
+DASH 01 V06!E6;EXEC V06!A1;Excel internal link;PASS;NOT TESTED
 DASH 01 V06!E89;DASH 10 Centro!A1;Excel internal link;PASS;NOT TESTED
+DASH 01 V06!F6;DASH 01 V06!A1;Excel internal link;PASS;NOT TESTED
+DASH 01 V06!G6;DASH 02 V06!A1;Excel internal link;PASS;NOT TESTED
 DASH 01 V06!H13;V06 Dicionario!A4;Excel internal link;PASS;NOT TESTED
 DASH 01 V06!H5;DASH 01 V06!H23;Excel internal link;PASS;NOT TESTED
+DASH 01 V06!H6;DASH 03 V06!A1;Excel internal link;PASS;NOT TESTED
 DASH 01 V06!H7;V06 Dicionario!A4;Excel internal link;PASS;NOT TESTED
+DASH 01 V06!I6;DASH 04A V06!A1;Excel internal link;PASS;NOT TESTED
+DASH 01 V06!J6;DASH 04B V06!A1;Excel internal link;PASS;NOT TESTED
 DASH 01 V06!K37;V06 Dicionario!A4;Excel internal link;PASS;NOT TESTED
 DASH 01 V06!K5;DASH 10 Centro!A1;Excel internal link;PASS;NOT TESTED
+DASH 01 V06!K6;DASH 05 V06!A1;Excel internal link;PASS;NOT TESTED
 DASH 01 V06!K89;EXEC V06!A1;Excel internal link;PASS;NOT TESTED
 DASH 01 V06!L13;V06 Dicionario!A4;Excel internal link;PASS;NOT TESTED
+DASH 01 V06!L6;DASH 06 V06!A1;Excel internal link;PASS;NOT TESTED
 DASH 01 V06!L7;V06 Dicionario!A4;Excel internal link;PASS;NOT TESTED
+DASH 01 V06!M6;DASH 07 V06!A1;Excel internal link;PASS;NOT TESTED
 DASH 01 V06!N2;V06 Identidade!B8;Excel internal link;PASS;NOT TESTED
 DASH 01 V06!N5;V06 PDF 02!A1;Excel internal link;PASS;NOT TESTED
+DASH 01 V06!N6;DASH 10 Centro!A1;Excel internal link;PASS;NOT TESTED
 DASH 01 V06!P13;V06 Dicionario!A4;Excel internal link;PASS;NOT TESTED
 DASH 01 V06!P7;V06 Dicionario!A4;Excel internal link;PASS;NOT TESTED
 DASH 02 V06!B13;DASH 01 V06!A1;Excel internal link;PASS;NOT TESTED
@@ -67,22 +87,32 @@ DASH 02 V06!B43;DASH 06 V06!A1;Excel internal link;PASS;NOT TESTED
 DASH 02 V06!B48;DASH 07 V06!A1;Excel internal link;PASS;NOT TESTED
 DASH 02 V06!B5;DASH 10 Centro!H7;Excel internal link;PASS;NOT TESTED
 DASH 02 V06!B53;DASH 10 Centro!A1;Excel internal link;PASS;NOT TESTED
-DASH 02 V06!B6;DASH 10 Centro!E21;Excel internal link;PASS;NOT TESTED
+DASH 02 V06!B6;DASH 02 V06!E6;Excel internal link;PASS;NOT TESTED
 DASH 02 V06!B60;V06 Identidade!B8;Excel internal link;PASS;NOT TESTED
 DASH 02 V06!B8;EXEC V06!A1;Excel internal link;PASS;NOT TESTED
 DASH 02 V06!E37;V06 Controlos!A4;Excel internal link;PASS;NOT TESTED
 DASH 02 V06!E5;EXEC V06!A1;Excel internal link;PASS;NOT TESTED
+DASH 02 V06!E6;EXEC V06!A1;Excel internal link;PASS;NOT TESTED
 DASH 02 V06!E89;DASH 10 Centro!A1;Excel internal link;PASS;NOT TESTED
+DASH 02 V06!F6;DASH 01 V06!A1;Excel internal link;PASS;NOT TESTED
+DASH 02 V06!G6;DASH 02 V06!A1;Excel internal link;PASS;NOT TESTED
 DASH 02 V06!H13;V06 Dicionario!A4;Excel internal link;PASS;NOT TESTED
 DASH 02 V06!H5;DASH 02 V06!H23;Excel internal link;PASS;NOT TESTED
+DASH 02 V06!H6;DASH 03 V06!A1;Excel internal link;PASS;NOT TESTED
 DASH 02 V06!H7;V06 Dicionario!A4;Excel internal link;PASS;NOT TESTED
+DASH 02 V06!I6;DASH 04A V06!A1;Excel internal link;PASS;NOT TESTED
+DASH 02 V06!J6;DASH 04B V06!A1;Excel internal link;PASS;NOT TESTED
 DASH 02 V06!K37;V06 Dicionario!A4;Excel internal link;PASS;NOT TESTED
 DASH 02 V06!K5;DASH 10 Centro!A1;Excel internal link;PASS;NOT TESTED
+DASH 02 V06!K6;DASH 05 V06!A1;Excel internal link;PASS;NOT TESTED
 DASH 02 V06!K89;EXEC V06!A1;Excel internal link;PASS;NOT TESTED
 DASH 02 V06!L13;V06 Dicionario!A4;Excel internal link;PASS;NOT TESTED
+DASH 02 V06!L6;DASH 06 V06!A1;Excel internal link;PASS;NOT TESTED
 DASH 02 V06!L7;V06 Dicionario!A4;Excel internal link;PASS;NOT TESTED
+DASH 02 V06!M6;DASH 07 V06!A1;Excel internal link;PASS;NOT TESTED
 DASH 02 V06!N2;V06 Identidade!B8;Excel internal link;PASS;NOT TESTED
 DASH 02 V06!N5;V06 PDF 03!A1;Excel internal link;PASS;NOT TESTED
+DASH 02 V06!N6;DASH 10 Centro!A1;Excel internal link;PASS;NOT TESTED
 DASH 02 V06!P13;V06 Dicionario!A4;Excel internal link;PASS;NOT TESTED
 DASH 02 V06!P7;V06 Dicionario!A4;Excel internal link;PASS;NOT TESTED
 DASH 03 V06!B13;DASH 01 V06!A1;Excel internal link;PASS;NOT TESTED
@@ -95,22 +125,32 @@ DASH 03 V06!B43;DASH 06 V06!A1;Excel internal link;PASS;NOT TESTED
 DASH 03 V06!B48;DASH 07 V06!A1;Excel internal link;PASS;NOT TESTED
 DASH 03 V06!B5;DASH 10 Centro!H7;Excel internal link;PASS;NOT TESTED
 DASH 03 V06!B53;DASH 10 Centro!A1;Excel internal link;PASS;NOT TESTED
-DASH 03 V06!B6;DASH 10 Centro!E21;Excel internal link;PASS;NOT TESTED
+DASH 03 V06!B6;DASH 03 V06!E6;Excel internal link;PASS;NOT TESTED
 DASH 03 V06!B60;V06 Identidade!B8;Excel internal link;PASS;NOT TESTED
 DASH 03 V06!B8;EXEC V06!A1;Excel internal link;PASS;NOT TESTED
 DASH 03 V06!E37;V06 Anual!A4;Excel internal link;PASS;NOT TESTED
 DASH 03 V06!E5;EXEC V06!A1;Excel internal link;PASS;NOT TESTED
+DASH 03 V06!E6;EXEC V06!A1;Excel internal link;PASS;NOT TESTED
 DASH 03 V06!E89;DASH 10 Centro!A1;Excel internal link;PASS;NOT TESTED
+DASH 03 V06!F6;DASH 01 V06!A1;Excel internal link;PASS;NOT TESTED
+DASH 03 V06!G6;DASH 02 V06!A1;Excel internal link;PASS;NOT TESTED
 DASH 03 V06!H13;V06 Dicionario!A4;Excel internal link;PASS;NOT TESTED
 DASH 03 V06!H5;DASH 03 V06!H23;Excel internal link;PASS;NOT TESTED
+DASH 03 V06!H6;DASH 03 V06!A1;Excel internal link;PASS;NOT TESTED
 DASH 03 V06!H7;V06 Dicionario!A4;Excel internal link;PASS;NOT TESTED
+DASH 03 V06!I6;DASH 04A V06!A1;Excel internal link;PASS;NOT TESTED
+DASH 03 V06!J6;DASH 04B V06!A1;Excel internal link;PASS;NOT TESTED
 DASH 03 V06!K37;V06 Dicionario!A4;Excel internal link;PASS;NOT TESTED
 DASH 03 V06!K5;DASH 10 Centro!A1;Excel internal link;PASS;NOT TESTED
+DASH 03 V06!K6;DASH 05 V06!A1;Excel internal link;PASS;NOT TESTED
 DASH 03 V06!K89;EXEC V06!A1;Excel internal link;PASS;NOT TESTED
 DASH 03 V06!L13;V06 Dicionario!A4;Excel internal link;PASS;NOT TESTED
+DASH 03 V06!L6;DASH 06 V06!A1;Excel internal link;PASS;NOT TESTED
 DASH 03 V06!L7;V06 Dicionario!A4;Excel internal link;PASS;NOT TESTED
+DASH 03 V06!M6;DASH 07 V06!A1;Excel internal link;PASS;NOT TESTED
 DASH 03 V06!N2;V06 Identidade!B8;Excel internal link;PASS;NOT TESTED
 DASH 03 V06!N5;V06 PDF 04!A1;Excel internal link;PASS;NOT TESTED
+DASH 03 V06!N6;DASH 10 Centro!A1;Excel internal link;PASS;NOT TESTED
 DASH 03 V06!P13;V06 Dicionario!A4;Excel internal link;PASS;NOT TESTED
 DASH 03 V06!P7;V06 Dicionario!A4;Excel internal link;PASS;NOT TESTED
 DASH 04A V06!B13;DASH 01 V06!A1;Excel internal link;PASS;NOT TESTED
@@ -123,22 +163,32 @@ DASH 04A V06!B43;DASH 06 V06!A1;Excel internal link;PASS;NOT TESTED
 DASH 04A V06!B48;DASH 07 V06!A1;Excel internal link;PASS;NOT TESTED
 DASH 04A V06!B5;DASH 10 Centro!H7;Excel internal link;PASS;NOT TESTED
 DASH 04A V06!B53;DASH 10 Centro!A1;Excel internal link;PASS;NOT TESTED
-DASH 04A V06!B6;DASH 10 Centro!E21;Excel internal link;PASS;NOT TESTED
+DASH 04A V06!B6;DASH 04A V06!E6;Excel internal link;PASS;NOT TESTED
 DASH 04A V06!B60;V06 Identidade!B8;Excel internal link;PASS;NOT TESTED
 DASH 04A V06!B8;EXEC V06!A1;Excel internal link;PASS;NOT TESTED
 DASH 04A V06!E37;V06 Disponibilidade!A4;Excel internal link;PASS;NOT TESTED
 DASH 04A V06!E5;EXEC V06!A1;Excel internal link;PASS;NOT TESTED
+DASH 04A V06!E6;EXEC V06!A1;Excel internal link;PASS;NOT TESTED
 DASH 04A V06!E89;DASH 10 Centro!A1;Excel internal link;PASS;NOT TESTED
+DASH 04A V06!F6;DASH 01 V06!A1;Excel internal link;PASS;NOT TESTED
+DASH 04A V06!G6;DASH 02 V06!A1;Excel internal link;PASS;NOT TESTED
 DASH 04A V06!H13;V06 Dicionario!A4;Excel internal link;PASS;NOT TESTED
 DASH 04A V06!H5;DASH 04A V06!H23;Excel internal link;PASS;NOT TESTED
+DASH 04A V06!H6;DASH 03 V06!A1;Excel internal link;PASS;NOT TESTED
 DASH 04A V06!H7;V06 Dicionario!A4;Excel internal link;PASS;NOT TESTED
+DASH 04A V06!I6;DASH 04A V06!A1;Excel internal link;PASS;NOT TESTED
+DASH 04A V06!J6;DASH 04B V06!A1;Excel internal link;PASS;NOT TESTED
 DASH 04A V06!K37;V06 Dicionario!A4;Excel internal link;PASS;NOT TESTED
 DASH 04A V06!K5;DASH 10 Centro!A1;Excel internal link;PASS;NOT TESTED
+DASH 04A V06!K6;DASH 05 V06!A1;Excel internal link;PASS;NOT TESTED
 DASH 04A V06!K89;EXEC V06!A1;Excel internal link;PASS;NOT TESTED
 DASH 04A V06!L13;V06 Dicionario!A4;Excel internal link;PASS;NOT TESTED
+DASH 04A V06!L6;DASH 06 V06!A1;Excel internal link;PASS;NOT TESTED
 DASH 04A V06!L7;V06 Dicionario!A4;Excel internal link;PASS;NOT TESTED
+DASH 04A V06!M6;DASH 07 V06!A1;Excel internal link;PASS;NOT TESTED
 DASH 04A V06!N2;V06 Identidade!B8;Excel internal link;PASS;NOT TESTED
 DASH 04A V06!N5;V06 PDF 05!A1;Excel internal link;PASS;NOT TESTED
+DASH 04A V06!N6;DASH 10 Centro!A1;Excel internal link;PASS;NOT TESTED
 DASH 04A V06!P13;V06 Dicionario!A4;Excel internal link;PASS;NOT TESTED
 DASH 04A V06!P7;V06 Dicionario!A4;Excel internal link;PASS;NOT TESTED
 DASH 04B V06!B13;DASH 01 V06!A1;Excel internal link;PASS;NOT TESTED
@@ -151,23 +201,33 @@ DASH 04B V06!B43;DASH 06 V06!A1;Excel internal link;PASS;NOT TESTED
 DASH 04B V06!B48;DASH 07 V06!A1;Excel internal link;PASS;NOT TESTED
 DASH 04B V06!B5;DASH 10 Centro!H7;Excel internal link;PASS;NOT TESTED
 DASH 04B V06!B53;DASH 10 Centro!A1;Excel internal link;PASS;NOT TESTED
-DASH 04B V06!B6;DASH 10 Centro!E21;Excel internal link;PASS;NOT TESTED
+DASH 04B V06!B6;DASH 04B V06!E6;Excel internal link;PASS;NOT TESTED
 DASH 04B V06!B60;V06 Identidade!B8;Excel internal link;PASS;NOT TESTED
 DASH 04B V06!B8;EXEC V06!A1;Excel internal link;PASS;NOT TESTED
 DASH 04B V06!E33;V06 Operacao!A4;Excel internal link;PASS;NOT TESTED
 DASH 04B V06!E37;V06 Operacao!A4;Excel internal link;PASS;NOT TESTED
 DASH 04B V06!E5;EXEC V06!A1;Excel internal link;PASS;NOT TESTED
+DASH 04B V06!E6;EXEC V06!A1;Excel internal link;PASS;NOT TESTED
 DASH 04B V06!E89;DASH 10 Centro!A1;Excel internal link;PASS;NOT TESTED
+DASH 04B V06!F6;DASH 01 V06!A1;Excel internal link;PASS;NOT TESTED
+DASH 04B V06!G6;DASH 02 V06!A1;Excel internal link;PASS;NOT TESTED
 DASH 04B V06!H13;V06 Dicionario!A4;Excel internal link;PASS;NOT TESTED
 DASH 04B V06!H5;DASH 04B V06!H23;Excel internal link;PASS;NOT TESTED
+DASH 04B V06!H6;DASH 03 V06!A1;Excel internal link;PASS;NOT TESTED
 DASH 04B V06!H7;V06 Dicionario!A4;Excel internal link;PASS;NOT TESTED
+DASH 04B V06!I6;DASH 04A V06!A1;Excel internal link;PASS;NOT TESTED
+DASH 04B V06!J6;DASH 04B V06!A1;Excel internal link;PASS;NOT TESTED
 DASH 04B V06!K37;V06 Dicionario!A4;Excel internal link;PASS;NOT TESTED
 DASH 04B V06!K5;DASH 10 Centro!A1;Excel internal link;PASS;NOT TESTED
+DASH 04B V06!K6;DASH 05 V06!A1;Excel internal link;PASS;NOT TESTED
 DASH 04B V06!K89;EXEC V06!A1;Excel internal link;PASS;NOT TESTED
 DASH 04B V06!L13;V06 Dicionario!A4;Excel internal link;PASS;NOT TESTED
+DASH 04B V06!L6;DASH 06 V06!A1;Excel internal link;PASS;NOT TESTED
 DASH 04B V06!L7;V06 Dicionario!A4;Excel internal link;PASS;NOT TESTED
+DASH 04B V06!M6;DASH 07 V06!A1;Excel internal link;PASS;NOT TESTED
 DASH 04B V06!N2;V06 Identidade!B8;Excel internal link;PASS;NOT TESTED
 DASH 04B V06!N5;V06 PDF 06!A1;Excel internal link;PASS;NOT TESTED
+DASH 04B V06!N6;DASH 10 Centro!A1;Excel internal link;PASS;NOT TESTED
 DASH 04B V06!P13;V06 Dicionario!A4;Excel internal link;PASS;NOT TESTED
 DASH 04B V06!P7;V06 Dicionario!A4;Excel internal link;PASS;NOT TESTED
 DASH 05 V06!B13;DASH 01 V06!A1;Excel internal link;PASS;NOT TESTED
@@ -180,22 +240,32 @@ DASH 05 V06!B43;DASH 06 V06!A1;Excel internal link;PASS;NOT TESTED
 DASH 05 V06!B48;DASH 07 V06!A1;Excel internal link;PASS;NOT TESTED
 DASH 05 V06!B5;DASH 10 Centro!H7;Excel internal link;PASS;NOT TESTED
 DASH 05 V06!B53;DASH 10 Centro!A1;Excel internal link;PASS;NOT TESTED
-DASH 05 V06!B6;DASH 10 Centro!E21;Excel internal link;PASS;NOT TESTED
+DASH 05 V06!B6;DASH 05 V06!E6;Excel internal link;PASS;NOT TESTED
 DASH 05 V06!B60;V06 Identidade!B8;Excel internal link;PASS;NOT TESTED
 DASH 05 V06!B8;EXEC V06!A1;Excel internal link;PASS;NOT TESTED
 DASH 05 V06!E38;V06 Matriz ADR!B3;Excel internal link;PASS;NOT TESTED
 DASH 05 V06!E5;EXEC V06!A1;Excel internal link;PASS;NOT TESTED
+DASH 05 V06!E6;EXEC V06!A1;Excel internal link;PASS;NOT TESTED
 DASH 05 V06!E89;DASH 10 Centro!A1;Excel internal link;PASS;NOT TESTED
+DASH 05 V06!F6;DASH 01 V06!A1;Excel internal link;PASS;NOT TESTED
+DASH 05 V06!G6;DASH 02 V06!A1;Excel internal link;PASS;NOT TESTED
 DASH 05 V06!H13;V06 Dicionario!A4;Excel internal link;PASS;NOT TESTED
 DASH 05 V06!H5;DASH 05 V06!H23;Excel internal link;PASS;NOT TESTED
+DASH 05 V06!H6;DASH 03 V06!A1;Excel internal link;PASS;NOT TESTED
 DASH 05 V06!H7;V06 Dicionario!A4;Excel internal link;PASS;NOT TESTED
+DASH 05 V06!I6;DASH 04A V06!A1;Excel internal link;PASS;NOT TESTED
+DASH 05 V06!J6;DASH 04B V06!A1;Excel internal link;PASS;NOT TESTED
 DASH 05 V06!K38;V06 Operacao!A4;Excel internal link;PASS;NOT TESTED
 DASH 05 V06!K5;DASH 10 Centro!A1;Excel internal link;PASS;NOT TESTED
+DASH 05 V06!K6;DASH 05 V06!A1;Excel internal link;PASS;NOT TESTED
 DASH 05 V06!K89;EXEC V06!A1;Excel internal link;PASS;NOT TESTED
 DASH 05 V06!L13;V06 Dicionario!A4;Excel internal link;PASS;NOT TESTED
+DASH 05 V06!L6;DASH 06 V06!A1;Excel internal link;PASS;NOT TESTED
 DASH 05 V06!L7;V06 Dicionario!A4;Excel internal link;PASS;NOT TESTED
+DASH 05 V06!M6;DASH 07 V06!A1;Excel internal link;PASS;NOT TESTED
 DASH 05 V06!N2;V06 Identidade!B8;Excel internal link;PASS;NOT TESTED
 DASH 05 V06!N5;V06 PDF 07!A1;Excel internal link;PASS;NOT TESTED
+DASH 05 V06!N6;DASH 10 Centro!A1;Excel internal link;PASS;NOT TESTED
 DASH 05 V06!P13;V06 Dicionario!A4;Excel internal link;PASS;NOT TESTED
 DASH 05 V06!P7;V06 Dicionario!A4;Excel internal link;PASS;NOT TESTED
 DASH 06 V06!B13;DASH 01 V06!A1;Excel internal link;PASS;NOT TESTED
@@ -208,22 +278,32 @@ DASH 06 V06!B43;DASH 06 V06!A1;Excel internal link;PASS;NOT TESTED
 DASH 06 V06!B48;DASH 07 V06!A1;Excel internal link;PASS;NOT TESTED
 DASH 06 V06!B5;DASH 10 Centro!H7;Excel internal link;PASS;NOT TESTED
 DASH 06 V06!B53;DASH 10 Centro!A1;Excel internal link;PASS;NOT TESTED
-DASH 06 V06!B6;DASH 10 Centro!E21;Excel internal link;PASS;NOT TESTED
+DASH 06 V06!B6;DASH 06 V06!E6;Excel internal link;PASS;NOT TESTED
 DASH 06 V06!B60;V06 Identidade!B8;Excel internal link;PASS;NOT TESTED
 DASH 06 V06!B8;EXEC V06!A1;Excel internal link;PASS;NOT TESTED
 DASH 06 V06!E37;V06 Blocos!A4;Excel internal link;PASS;NOT TESTED
 DASH 06 V06!E5;EXEC V06!A1;Excel internal link;PASS;NOT TESTED
+DASH 06 V06!E6;EXEC V06!A1;Excel internal link;PASS;NOT TESTED
 DASH 06 V06!E89;DASH 10 Centro!A1;Excel internal link;PASS;NOT TESTED
+DASH 06 V06!F6;DASH 01 V06!A1;Excel internal link;PASS;NOT TESTED
+DASH 06 V06!G6;DASH 02 V06!A1;Excel internal link;PASS;NOT TESTED
 DASH 06 V06!H13;V06 Dicionario!A4;Excel internal link;PASS;NOT TESTED
 DASH 06 V06!H5;DASH 06 V06!H23;Excel internal link;PASS;NOT TESTED
+DASH 06 V06!H6;DASH 03 V06!A1;Excel internal link;PASS;NOT TESTED
 DASH 06 V06!H7;V06 Dicionario!A4;Excel internal link;PASS;NOT TESTED
+DASH 06 V06!I6;DASH 04A V06!A1;Excel internal link;PASS;NOT TESTED
+DASH 06 V06!J6;DASH 04B V06!A1;Excel internal link;PASS;NOT TESTED
 DASH 06 V06!K37;V06 Dicionario!A4;Excel internal link;PASS;NOT TESTED
 DASH 06 V06!K5;DASH 10 Centro!A1;Excel internal link;PASS;NOT TESTED
+DASH 06 V06!K6;DASH 05 V06!A1;Excel internal link;PASS;NOT TESTED
 DASH 06 V06!K89;EXEC V06!A1;Excel internal link;PASS;NOT TESTED
 DASH 06 V06!L13;V06 Dicionario!A4;Excel internal link;PASS;NOT TESTED
+DASH 06 V06!L6;DASH 06 V06!A1;Excel internal link;PASS;NOT TESTED
 DASH 06 V06!L7;V06 Dicionario!A4;Excel internal link;PASS;NOT TESTED
+DASH 06 V06!M6;DASH 07 V06!A1;Excel internal link;PASS;NOT TESTED
 DASH 06 V06!N2;V06 Identidade!B8;Excel internal link;PASS;NOT TESTED
 DASH 06 V06!N5;V06 PDF 08!A1;Excel internal link;PASS;NOT TESTED
+DASH 06 V06!N6;DASH 10 Centro!A1;Excel internal link;PASS;NOT TESTED
 DASH 06 V06!P13;V06 Dicionario!A4;Excel internal link;PASS;NOT TESTED
 DASH 06 V06!P7;V06 Dicionario!A4;Excel internal link;PASS;NOT TESTED
 DASH 07 V06!B13;DASH 01 V06!A1;Excel internal link;PASS;NOT TESTED
@@ -236,23 +316,33 @@ DASH 07 V06!B43;DASH 06 V06!A1;Excel internal link;PASS;NOT TESTED
 DASH 07 V06!B48;DASH 07 V06!A1;Excel internal link;PASS;NOT TESTED
 DASH 07 V06!B5;DASH 10 Centro!H7;Excel internal link;PASS;NOT TESTED
 DASH 07 V06!B53;DASH 10 Centro!A1;Excel internal link;PASS;NOT TESTED
-DASH 07 V06!B6;DASH 10 Centro!E21;Excel internal link;PASS;NOT TESTED
+DASH 07 V06!B6;DASH 07 V06!E6;Excel internal link;PASS;NOT TESTED
 DASH 07 V06!B60;V06 Identidade!B8;Excel internal link;PASS;NOT TESTED
 DASH 07 V06!B8;EXEC V06!A1;Excel internal link;PASS;NOT TESTED
 DASH 07 V06!E37;V06 Fluxos Invest!A4;Excel internal link;PASS;NOT TESTED
 DASH 07 V06!E5;EXEC V06!A1;Excel internal link;PASS;NOT TESTED
+DASH 07 V06!E6;EXEC V06!A1;Excel internal link;PASS;NOT TESTED
 DASH 07 V06!E89;DASH 10 Centro!A1;Excel internal link;PASS;NOT TESTED
+DASH 07 V06!F6;DASH 01 V06!A1;Excel internal link;PASS;NOT TESTED
+DASH 07 V06!G6;DASH 02 V06!A1;Excel internal link;PASS;NOT TESTED
 DASH 07 V06!H13;V06 Dicionario!A4;Excel internal link;PASS;NOT TESTED
 DASH 07 V06!H5;DASH 07 V06!H23;Excel internal link;PASS;NOT TESTED
+DASH 07 V06!H6;DASH 03 V06!A1;Excel internal link;PASS;NOT TESTED
 DASH 07 V06!H7;V06 Dicionario!A4;Excel internal link;PASS;NOT TESTED
+DASH 07 V06!I6;DASH 04A V06!A1;Excel internal link;PASS;NOT TESTED
+DASH 07 V06!J6;DASH 04B V06!A1;Excel internal link;PASS;NOT TESTED
 DASH 07 V06!K29;V06 Otimizacao!A4;Excel internal link;PASS;NOT TESTED
 DASH 07 V06!K37;V06 Dicionario!A4;Excel internal link;PASS;NOT TESTED
 DASH 07 V06!K5;DASH 10 Centro!A1;Excel internal link;PASS;NOT TESTED
+DASH 07 V06!K6;DASH 05 V06!A1;Excel internal link;PASS;NOT TESTED
 DASH 07 V06!K89;EXEC V06!A1;Excel internal link;PASS;NOT TESTED
 DASH 07 V06!L13;V06 Dicionario!A4;Excel internal link;PASS;NOT TESTED
+DASH 07 V06!L6;DASH 06 V06!A1;Excel internal link;PASS;NOT TESTED
 DASH 07 V06!L7;V06 Dicionario!A4;Excel internal link;PASS;NOT TESTED
+DASH 07 V06!M6;DASH 07 V06!A1;Excel internal link;PASS;NOT TESTED
 DASH 07 V06!N2;V06 Identidade!B8;Excel internal link;PASS;NOT TESTED
 DASH 07 V06!N5;V06 PDF 09!A1;Excel internal link;PASS;NOT TESTED
+DASH 07 V06!N6;DASH 10 Centro!A1;Excel internal link;PASS;NOT TESTED
 DASH 07 V06!P13;V06 Dicionario!A4;Excel internal link;PASS;NOT TESTED
 DASH 07 V06!P7;V06 Dicionario!A4;Excel internal link;PASS;NOT TESTED
 DASH 10 Centro!B13;DASH 01 V06!A1;Excel internal link;PASS;NOT TESTED
@@ -265,7 +355,7 @@ DASH 10 Centro!B43;DASH 06 V06!A1;Excel internal link;PASS;NOT TESTED
 DASH 10 Centro!B48;DASH 07 V06!A1;Excel internal link;PASS;NOT TESTED
 DASH 10 Centro!B5;DASH 10 Centro!H7;Excel internal link;PASS;NOT TESTED
 DASH 10 Centro!B53;DASH 10 Centro!A1;Excel internal link;PASS;NOT TESTED
-DASH 10 Centro!B6;DASH 10 Centro!E21;Excel internal link;PASS;NOT TESTED
+DASH 10 Centro!B6;DASH 10 Centro!E6;Excel internal link;PASS;NOT TESTED
 DASH 10 Centro!B60;V06 Identidade!B8;Excel internal link;PASS;NOT TESTED
 DASH 10 Centro!B8;EXEC V06!A1;Excel internal link;PASS;NOT TESTED
 DASH 10 Centro!E12;DASH 10 V06!A1;Excel internal link;PASS;NOT TESTED
@@ -281,14 +371,24 @@ DASH 10 Centro!E5;EXEC V06!A1;Excel internal link;PASS;NOT TESTED
 DASH 10 Centro!E50;DASH 10 V06!A421;Excel internal link;PASS;NOT TESTED
 DASH 10 Centro!E54;DASH 10 V06!A481;Excel internal link;PASS;NOT TESTED
 DASH 10 Centro!E58;DASH 10 V06!A541;Excel internal link;PASS;NOT TESTED
+DASH 10 Centro!E6;EXEC V06!A1;Excel internal link;PASS;NOT TESTED
 DASH 10 Centro!E64;V06 Brief!A1;Excel internal link;PASS;NOT TESTED
 DASH 10 Centro!E69;V06 Imprimir!A4;Excel internal link;PASS;NOT TESTED
+DASH 10 Centro!F6;DASH 01 V06!A1;Excel internal link;PASS;NOT TESTED
+DASH 10 Centro!G6;DASH 02 V06!A1;Excel internal link;PASS;NOT TESTED
 DASH 10 Centro!H5;DASH 10 Centro!H7;Excel internal link;PASS;NOT TESTED
+DASH 10 Centro!H6;DASH 03 V06!A1;Excel internal link;PASS;NOT TESTED
+DASH 10 Centro!I6;DASH 04A V06!A1;Excel internal link;PASS;NOT TESTED
+DASH 10 Centro!J6;DASH 04B V06!A1;Excel internal link;PASS;NOT TESTED
 DASH 10 Centro!K5;DASH 10 Centro!A1;Excel internal link;PASS;NOT TESTED
+DASH 10 Centro!K6;DASH 05 V06!A1;Excel internal link;PASS;NOT TESTED
 DASH 10 Centro!K64;DASH 10 V06!A1;Excel internal link;PASS;NOT TESTED
 DASH 10 Centro!K69;V06 Registo Ativo!A4;Excel internal link;PASS;NOT TESTED
+DASH 10 Centro!L6;DASH 06 V06!A1;Excel internal link;PASS;NOT TESTED
+DASH 10 Centro!M6;DASH 07 V06!A1;Excel internal link;PASS;NOT TESTED
 DASH 10 Centro!N2;V06 Identidade!B8;Excel internal link;PASS;NOT TESTED
 DASH 10 Centro!N5;V06 Imprimir!A23;Excel internal link;PASS;NOT TESTED
+DASH 10 Centro!N6;DASH 10 Centro!A1;Excel internal link;PASS;NOT TESTED
 V06 PDF 01!J1;V06 Identidade!B8;Excel internal link;PASS;NOT TESTED
 V06 PDF 01!M1;EXEC V06!A1;Excel internal link;PASS;NOT TESTED
 V06 PDF 01!N1;EXEC V06!A1;Excel internal link;PASS;NOT TESTED

@@ -97,10 +97,12 @@ def build():
    s.set_row(r,16)
    for c in range(17):s.write_blank(r,c,None,F['side'] if c<4 else F['bg'])
   s.merge_range('B2:C4','JS-CV\nCONSTRUÇÕES E\nINVESTIMENTOS, LDA.',F['brand']);text(s,'E2:M3','KK-01 | HOTEL & RESIDENCES','KK-01 | HOTEL & RESIDENCES','header');link(s,'N2:P3',('V06 Identidade','B8'),'Logótipo original','Original logo');text(s,'E4:P4',f'{i+1:02} — {DASHES[i][1]}',f'{i+1:02} — {DASHES[i][2]}','sub');merge(s,'E1:P1',"'V06 Hipoteses'!D29&\" · \"&'V06 Hipoteses'!D28",'EFCC-20261022-01 · 2026-10-22','note')
-  link(s,'B5:C5',(CENTER,'H7'),'PT | EN ▾','PT | EN ▾');link(s,'B6:C6',(CENTER,'E21'),'Menu de navegação','Navigation menu')
+  link(s,'B5:C5',(CENTER,'H7'),'PT | EN ▾','PT | EN ▾');link(s,'B6:C6',(sn,'E6'),'Menu de navegação','Navigation menu')
   link(s,'E5:G5',('EXEC V06','A1'),'⌂ Início','⌂ Home');link(s,'H5:J5',(sn,'H23' if i<9 else 'H7'),'Parâmetros ▾','Assumptions ▾');link(s,'K5:M5',(CENTER,'A1'),'Relatório 10','Report 10');link(s,'N5:P5',(f'V06 PDF {i+1:02}','A1') if i<9 else ('V06 Imprimir','A23'),'Imprimir / PDF','Print / PDF')
   for n,(target,pt,en) in enumerate(DASHES):
    rr=8+n*5;merge(s,f'B{rr}:C{rr+3}',f'HYPERLINK("#\'{target}\'!A1",{tr(f"{n+1:02}  {pt}",f"{n+1:02}  {en}")})',f'{n+1:02}  {pt}','active' if i==n else 'side');NAV.append({'origin_sheet':sn,'origin_cell':f'B{rr}','destination_sheet':target,'destination_cell':'A1','type':'sidebar','PT':pt,'EN':en})
+  for n,(target,pt,en) in enumerate(DASHES):
+   addr=f'{col(4+n)}6';s.write_formula(addr,f'=HYPERLINK("#\'{target}\'!A1","{n+1:02}")',F['active'] if n==i else F['nav'],f'{n+1:02}');s.write_comment(addr,pt+' / '+en);NAV.append({'origin_sheet':sn,'origin_cell':addr,'destination_sheet':target,'destination_cell':'A1','type':'frozen navigation menu','PT':pt,'EN':en})
   link(s,'B60:C62',('V06 Identidade','B8'),'Inserir logótipo original','Insert original logo')
   s.set_landscape();s.set_paper(8);s.fit_to_pages(1,1);s.set_margins(.25,.25,.3,.3);s.print_area('E7:P88');s.repeat_rows(1,3);s.set_footer('&LKK-01 | Executive Financial Control Center&R&P / &N');s.set_tab_color(P['red'] if i<9 else P['navy']);return s
  # Native chart data: projection of existing monthly engine outputs only.
@@ -150,9 +152,13 @@ def build():
    def annual(k):return f'SUMIFS(\'V06 Motor\'!{col(cc[k])}5:{col(cc[k])}184,\'V06 Motor\'!E5:E184,$N$23-1,\'V06 Motor\'!DL5:DL184,">0")',sum(r[k] for r in selected)
    # DL is available_room_nights (column 115 zero-based).
    assert col(cc['available_room_nights'])=='DL'
-   specs=[('Quartos disponíveis','Available rooms','available_room_nights','count',365),('Dormidas vendidas','Occupied room nights','occupied_room_nights','count',1),('Receita quartos','Room revenue','room_revenue','money',1),('Receita F&B','F&B revenue','fb_revenue','money',1),('Receita MICE','MICE revenue','mice_revenue','money',1),('Receita total','Total revenue','revenue','money',1),('GOP','GOP','gop','money',1),('EBITDA','EBITDA','ebitda','money',1)]
+   specs=[('Quartos disponíveis','Available rooms','available_room_nights','count',365),('Dormidas vendidas','Occupied room nights','occupied_room_nights','count',1),('Receita quartos','Room revenue','room_revenue','money',1),('Receita F&B','F&B revenue','fb_revenue','money',1),('Receita MICE','MICE revenue','mice_revenue','money',1),('Receita total','Total revenue','revenue','money',1),('RevPAR','RevPAR','revpar','money',1),('EBITDA','EBITDA','ebitda','money',1)]
    for n,(a,b,k,kind,d) in enumerate(specs):
-    rr=42+(n//4)*6;c=4+(n%4)*3;f,v=annual(k);text(s,f'{col(c)}{rr}:{col(c+2)}{rr+1}',a,b,'label');merge(s,f'{col(c)}{rr+2}:{col(c+2)}{rr+4}',f'({f})/{d}',v/d,kind)
+    rr=42+(n//4)*6;c=4+(n%4)*3
+    if k=='revpar':
+     rf,rv=annual('room_revenue');af,av=annual('available_room_nights');f=f'IF(({af})>0,({rf})/({af}),0)';v=rv/av if av else 0
+    else:f,v=annual(k)
+    text(s,f'{col(c)}{rr}:{col(c+2)}{rr+1}',a,b,'label');merge(s,f'{col(c)}{rr+2}:{col(c+2)}{rr+4}',f'({f})/{d}',v/d,kind)
    chart(s,'E55',[('room_revenue','Quartos','Rooms'),('fb_revenue','F&B','F&B'),('mice_revenue','MICE','MICE'),('other_revenue','Outras receitas','Other revenue')],type='column',stack=True,width=335,height=235);chart(s,'M55',[('ebitda','EBITDA','EBITDA')],type='column',width=335,height=235)
    for n,(key,a,b) in enumerate([('room_revenue','Quartos','Rooms'),('fb_revenue','F&B','F&B'),('mice_revenue','MICE','MICE'),('other_revenue','Outras receitas','Other revenue')]):
     data.write_formula(700+n,0,'='+tr(a,b),F['text'],a);f,v=annual(key);data.write_formula(700+n,1,'='+f.replace('$N$23',"'DASH 05 V06'!$N$23"),F['num'],v)

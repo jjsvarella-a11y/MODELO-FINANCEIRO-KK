@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "source_sha256": "9866fbbf0b0f252848e0d3c45358f7f838e9832d7bfb2b390a59ce925ecb6fad",
+  "result_sha256": "94d0e1c511588a9a045e54f9259204a8c19ad9f3cb648357588c5d98a9f1fb40",
+  "financial_engines_compared": 69,
+  "engine_formulas_compared": 1738873,
+  "all_engine_formulas_and_cached_values_identical": true,
+  "editable_inputs_and_validation_rules_unchanged": 50,
+  "changes": [
+    "Menu opens the dashboard menu rather than report chapters",
+    "Ten frozen numbered routes on every dashboard",
+    "Hotel annual KPI includes RevPAR, GOP retained in operating table",
+    "Decision report identifies developer, investors, lenders, buyers and operator"
+  ],
+  "native_excel365": "NOT TESTED",
+  "official_logo": "PENDING insertion of original image; existing identity area retained"
+}

@@ -1,0 +1,43 @@
+{
+  "status": "PASS",
+  "source_sha256": "94d0e1c511588a9a045e54f9259204a8c19ad9f3cb648357588c5d98a9f1fb40",
+  "tests": [
+    {
+      "test": "Hotel_Custom",
+      "status": "PASS",
+      "evidence": {
+        "npv": -10203553.6584507,
+        "cash30": 9486927.78068434,
+        "div54": 2444751.58852627,
+        "operator_fees": 21563302.0747953,
+        "expected_full_scenario": "ADR 200 Occ 65%",
+        "canonical_front_panel_mutated": true
+      }
+    },
+    {
+      "test": "Premium_EN",
+      "status": "PASS",
+      "evidence": {
+        "npv": -9604777.39034361,
+        "cash30": 9486927.78068434,
+        "div54": 2519840.75043494,
+        "operator_fees": 22441070.4980964,
+        "unchanged_engine_values": 25200,
+        "canonical_front_panel_mutated": true
+      }
+    },
+    {
+      "test": "Premium_SelectedYear",
+      "status": "PASS",
+      "evidence": {
+        "npv": -9604777.39034361,
+        "cash30": 9486927.78068434,
+        "div54": 2519840.75043494,
+        "operator_fees": 22441070.4980964,
+        "canonical_front_panel_mutated": true
+      }
+    }
+  ],
+  "platform": "LibreOffice cache-invalidated private labs",
+  "native_excel365": "NOT TESTED"
+}

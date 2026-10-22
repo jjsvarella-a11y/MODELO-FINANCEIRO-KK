@@ -198,12 +198,12 @@
     "V06 Registo Ativo"
   ],
   "current_total_worksheets": 190,
-  "sha256": "9866fbbf0b0f252848e0d3c45358f7f838e9832d7bfb2b390a59ce925ecb6fad",
+  "sha256": "94d0e1c511588a9a045e54f9259204a8c19ad9f3cb648357588c5d98a9f1fb40",
   "verification": "Integridade_Premium.json",
   "native_excel365": "NOT TESTED",
   "sha256_before_presentation_followup": "d48e89c5ebef86ba9c77686aae8e6ee824eab2e70faf92f957c7336302be4146",
   "current_master_worksheets": 190,
-  "current_master_sha256": "9866fbbf0b0f252848e0d3c45358f7f838e9832d7bfb2b390a59ce925ecb6fad",
+  "current_master_sha256": "94d0e1c511588a9a045e54f9259204a8c19ad9f3cb648357588c5d98a9f1fb40",
   "visible_current_count": 43,
   "first_ten": [
     "EXEC V06",

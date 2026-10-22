@@ -25,6 +25,7 @@ def verify_extra(name,result):
     for key,v in d.items():
      if old.number(v):old.near(m[col(old.REF['main_columns'][key])+str(r)],v)
    ev['unchanged_engine_values']=25200
+   assert 'Developer' in cells['DASH 10 V06']['A576'];assert 'Lenders' in cells['DASH 10 V06']['A580'];assert 'Buyers' in cells['DASH 10 V06']['A582'];assert 'Operator' in cells['DASH 10 V06']['A584']
   elif name in ['Premium_ReportBrief','Premium_ReportComplete']:
    value=str(cells['DASH 10 Centro']['E12']).lower();assert ('resumo' if name=='Premium_ReportBrief' else 'integral') in value,value
   elif name=='Premium_ResADR':old.near(m['AP35'],235);old.near(m['AR35'],old.REF['main_rows'][30]['res_revenue']*235/225)
@@ -35,7 +36,7 @@ def verify_extra(name,result):
   elif name=='Premium_SelectedYear':
    expected=sum(r['revenue'] for r in old.REF['main_rows'] if r['op_age']==5 and r['available_room_nights']>0);old.near(cells['DASH 05 V06']['H50'],expected);old.near(cells['V06 PDF 07']['G17'],expected);old.near(cells['DASH 10 V06']['I338'],expected)
    selected=[r for r in old.REF['main_rows'] if r['op_age']==5 and r['available_room_nights']>0]
-   old.near(cells['DASH 10 V06']['A312'],sum(r['adr'] for r in selected)/len(selected));old.near(cells['DASH 10 V06']['G312'],sum(r['occupancy'] for r in selected)/len(selected));old.near(cells['DASH 10 V06']['G317'],sum(r['ebitda'] for r in selected))
+   old.near(cells['DASH 10 V06']['A312'],sum(r['adr'] for r in selected)/len(selected));old.near(cells['DASH 10 V06']['G312'],sum(r['occupancy'] for r in selected)/len(selected));old.near(cells['DASH 10 V06']['G317'],sum(r['ebitda'] for r in selected));old.near(cells['DASH 05 V06']['K50'],sum(r['room_revenue'] for r in selected)/sum(r['available_room_nights'] for r in selected))
   result['evidence']['canonical_front_panel_mutated']=True
  except Exception as e:result={'test':name,'status':'FAIL','error':repr(e)}
  return result

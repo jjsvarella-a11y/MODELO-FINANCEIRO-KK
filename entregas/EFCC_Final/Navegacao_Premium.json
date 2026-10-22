@@ -20,8 +20,8 @@
   {
     "origin_sheet": "EXEC V06",
     "origin_cell": "B6",
-    "destination_sheet": "DASH 10 Centro",
-    "destination_cell": "E21",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "E6",
     "type": "Excel internal HYPERLINK",
     "PT": "Menu de navegação",
     "EN": "Navigation menu"
@@ -149,6 +149,96 @@
     "destination_sheet": "DASH 10 Centro",
     "destination_cell": "A1",
     "type": "sidebar",
+    "PT": "Relatório Executivo Consolidado de Viabilidade e Investimento",
+    "EN": "Consolidated Investment & Feasibility Report"
+  },
+  {
+    "origin_sheet": "EXEC V06",
+    "origin_cell": "E6",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "frozen navigation menu",
+    "PT": "Dashboard Executivo",
+    "EN": "Executive Dashboard"
+  },
+  {
+    "origin_sheet": "EXEC V06",
+    "origin_cell": "F6",
+    "destination_sheet": "DASH 01 V06",
+    "destination_cell": "A1",
+    "type": "frozen navigation menu",
+    "PT": "Investimento e Orçamento de Construção",
+    "EN": "Investment & Construction Budget"
+  },
+  {
+    "origin_sheet": "EXEC V06",
+    "origin_cell": "G6",
+    "destination_sheet": "DASH 02 V06",
+    "destination_cell": "A1",
+    "type": "frozen navigation menu",
+    "PT": "Fiscalidade, Incentivos e Seguros",
+    "EN": "Taxation, Incentives & Insurance"
+  },
+  {
+    "origin_sheet": "EXEC V06",
+    "origin_cell": "H6",
+    "destination_sheet": "DASH 03 V06",
+    "destination_cell": "A1",
+    "type": "frozen navigation menu",
+    "PT": "Desempenho Financeiro Consolidado",
+    "EN": "Consolidated Financial Performance"
+  },
+  {
+    "origin_sheet": "EXEC V06",
+    "origin_cell": "I6",
+    "destination_sheet": "DASH 04A V06",
+    "destination_cell": "A1",
+    "type": "frozen navigation menu",
+    "PT": "Promoção e Comercialização Imobiliária",
+    "EN": "Real Estate Development & Sales"
+  },
+  {
+    "origin_sheet": "EXEC V06",
+    "origin_cell": "J6",
+    "destination_sheet": "DASH 04B V06",
+    "destination_cell": "A1",
+    "type": "frozen navigation menu",
+    "PT": "Exploração Residencial e Sell & Leaseback",
+    "EN": "Residential Operations & Sell & Leaseback"
+  },
+  {
+    "origin_sheet": "EXEC V06",
+    "origin_cell": "K6",
+    "destination_sheet": "DASH 05 V06",
+    "destination_cell": "A1",
+    "type": "frozen navigation menu",
+    "PT": "Exploração Hoteleira e Centro MICE",
+    "EN": "Hotel & MICE Operations"
+  },
+  {
+    "origin_sheet": "EXEC V06",
+    "origin_cell": "L6",
+    "destination_sheet": "DASH 06 V06",
+    "destination_cell": "A1",
+    "type": "frozen navigation menu",
+    "PT": "Estrutura Acionista e Blocos de Investimento",
+    "EN": "Shareholding & Investment Blocks"
+  },
+  {
+    "origin_sheet": "EXEC V06",
+    "origin_cell": "M6",
+    "destination_sheet": "DASH 07 V06",
+    "destination_cell": "A1",
+    "type": "frozen navigation menu",
+    "PT": "Rentabilidade dos Acionistas e Distribuições",
+    "EN": "Equity Returns & Distributions"
+  },
+  {
+    "origin_sheet": "EXEC V06",
+    "origin_cell": "N6",
+    "destination_sheet": "DASH 10 Centro",
+    "destination_cell": "A1",
+    "type": "frozen navigation menu",
     "PT": "Relatório Executivo Consolidado de Viabilidade e Investimento",
     "EN": "Consolidated Investment & Feasibility Report"
   },
@@ -290,8 +380,8 @@
   {
     "origin_sheet": "DASH 01 V06",
     "origin_cell": "B6",
-    "destination_sheet": "DASH 10 Centro",
-    "destination_cell": "E21",
+    "destination_sheet": "DASH 01 V06",
+    "destination_cell": "E6",
     "type": "Excel internal HYPERLINK",
     "PT": "Menu de navegação",
     "EN": "Navigation menu"
@@ -424,6 +514,96 @@
   },
   {
     "origin_sheet": "DASH 01 V06",
+    "origin_cell": "E6",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "frozen navigation menu",
+    "PT": "Dashboard Executivo",
+    "EN": "Executive Dashboard"
+  },
+  {
+    "origin_sheet": "DASH 01 V06",
+    "origin_cell": "F6",
+    "destination_sheet": "DASH 01 V06",
+    "destination_cell": "A1",
+    "type": "frozen navigation menu",
+    "PT": "Investimento e Orçamento de Construção",
+    "EN": "Investment & Construction Budget"
+  },
+  {
+    "origin_sheet": "DASH 01 V06",
+    "origin_cell": "G6",
+    "destination_sheet": "DASH 02 V06",
+    "destination_cell": "A1",
+    "type": "frozen navigation menu",
+    "PT": "Fiscalidade, Incentivos e Seguros",
+    "EN": "Taxation, Incentives & Insurance"
+  },
+  {
+    "origin_sheet": "DASH 01 V06",
+    "origin_cell": "H6",
+    "destination_sheet": "DASH 03 V06",
+    "destination_cell": "A1",
+    "type": "frozen navigation menu",
+    "PT": "Desempenho Financeiro Consolidado",
+    "EN": "Consolidated Financial Performance"
+  },
+  {
+    "origin_sheet": "DASH 01 V06",
+    "origin_cell": "I6",
+    "destination_sheet": "DASH 04A V06",
+    "destination_cell": "A1",
+    "type": "frozen navigation menu",
+    "PT": "Promoção e Comercialização Imobiliária",
+    "EN": "Real Estate Development & Sales"
+  },
+  {
+    "origin_sheet": "DASH 01 V06",
+    "origin_cell": "J6",
+    "destination_sheet": "DASH 04B V06",
+    "destination_cell": "A1",
+    "type": "frozen navigation menu",
+    "PT": "Exploração Residencial e Sell & Leaseback",
+    "EN": "Residential Operations & Sell & Leaseback"
+  },
+  {
+    "origin_sheet": "DASH 01 V06",
+    "origin_cell": "K6",
+    "destination_sheet": "DASH 05 V06",
+    "destination_cell": "A1",
+    "type": "frozen navigation menu",
+    "PT": "Exploração Hoteleira e Centro MICE",
+    "EN": "Hotel & MICE Operations"
+  },
+  {
+    "origin_sheet": "DASH 01 V06",
+    "origin_cell": "L6",
+    "destination_sheet": "DASH 06 V06",
+    "destination_cell": "A1",
+    "type": "frozen navigation menu",
+    "PT": "Estrutura Acionista e Blocos de Investimento",
+    "EN": "Shareholding & Investment Blocks"
+  },
+  {
+    "origin_sheet": "DASH 01 V06",
+    "origin_cell": "M6",
+    "destination_sheet": "DASH 07 V06",
+    "destination_cell": "A1",
+    "type": "frozen navigation menu",
+    "PT": "Rentabilidade dos Acionistas e Distribuições",
+    "EN": "Equity Returns & Distributions"
+  },
+  {
+    "origin_sheet": "DASH 01 V06",
+    "origin_cell": "N6",
+    "destination_sheet": "DASH 10 Centro",
+    "destination_cell": "A1",
+    "type": "frozen navigation menu",
+    "PT": "Relatório Executivo Consolidado de Viabilidade e Investimento",
+    "EN": "Consolidated Investment & Feasibility Report"
+  },
+  {
+    "origin_sheet": "DASH 01 V06",
     "origin_cell": "B60",
     "destination_sheet": "V06 Identidade",
     "destination_cell": "B8",
@@ -542,8 +722,8 @@
   {
     "origin_sheet": "DASH 02 V06",
     "origin_cell": "B6",
-    "destination_sheet": "DASH 10 Centro",
-    "destination_cell": "E21",
+    "destination_sheet": "DASH 02 V06",
+    "destination_cell": "E6",
     "type": "Excel internal HYPERLINK",
     "PT": "Menu de navegação",
     "EN": "Navigation menu"
@@ -676,6 +856,96 @@
   },
   {
     "origin_sheet": "DASH 02 V06",
+    "origin_cell": "E6",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "frozen navigation menu",
+    "PT": "Dashboard Executivo",
+    "EN": "Executive Dashboard"
+  },
+  {
+    "origin_sheet": "DASH 02 V06",
+    "origin_cell": "F6",
+    "destination_sheet": "DASH 01 V06",
+    "destination_cell": "A1",
+    "type": "frozen navigation menu",
+    "PT": "Investimento e Orçamento de Construção",
+    "EN": "Investment & Construction Budget"
+  },
+  {
+    "origin_sheet": "DASH 02 V06",
+    "origin_cell": "G6",
+    "destination_sheet": "DASH 02 V06",
+    "destination_cell": "A1",
+    "type": "frozen navigation menu",
+    "PT": "Fiscalidade, Incentivos e Seguros",
+    "EN": "Taxation, Incentives & Insurance"
+  },
+  {
+    "origin_sheet": "DASH 02 V06",
+    "origin_cell": "H6",
+    "destination_sheet": "DASH 03 V06",
+    "destination_cell": "A1",
+    "type": "frozen navigation menu",
+    "PT": "Desempenho Financeiro Consolidado",
+    "EN": "Consolidated Financial Performance"
+  },
+  {
+    "origin_sheet": "DASH 02 V06",
+    "origin_cell": "I6",
+    "destination_sheet": "DASH 04A V06",
+    "destination_cell": "A1",
+    "type": "frozen navigation menu",
+    "PT": "Promoção e Comercialização Imobiliária",
+    "EN": "Real Estate Development & Sales"
+  },
+  {
+    "origin_sheet": "DASH 02 V06",
+    "origin_cell": "J6",
+    "destination_sheet": "DASH 04B V06",
+    "destination_cell": "A1",
+    "type": "frozen navigation menu",
+    "PT": "Exploração Residencial e Sell & Leaseback",
+    "EN": "Residential Operations & Sell & Leaseback"
+  },
+  {
+    "origin_sheet": "DASH 02 V06",
+    "origin_cell": "K6",
+    "destination_sheet": "DASH 05 V06",
+    "destination_cell": "A1",
+    "type": "frozen navigation menu",
+    "PT": "Exploração Hoteleira e Centro MICE",
+    "EN": "Hotel & MICE Operations"
+  },
+  {
+    "origin_sheet": "DASH 02 V06",
+    "origin_cell": "L6",
+    "destination_sheet": "DASH 06 V06",
+    "destination_cell": "A1",
+    "type": "frozen navigation menu",
+    "PT": "Estrutura Acionista e Blocos de Investimento",
+    "EN": "Shareholding & Investment Blocks"
+  },
+  {
+    "origin_sheet": "DASH 02 V06",
+    "origin_cell": "M6",
+    "destination_sheet": "DASH 07 V06",
+    "destination_cell": "A1",
+    "type": "frozen navigation menu",
+    "PT": "Rentabilidade dos Acionistas e Distribuições",
+    "EN": "Equity Returns & Distributions"
+  },
+  {
+    "origin_sheet": "DASH 02 V06",
+    "origin_cell": "N6",
+    "destination_sheet": "DASH 10 Centro",
+    "destination_cell": "A1",
+    "type": "frozen navigation menu",
+    "PT": "Relatório Executivo Consolidado de Viabilidade e Investimento",
+    "EN": "Consolidated Investment & Feasibility Report"
+  },
+  {
+    "origin_sheet": "DASH 02 V06",
     "origin_cell": "B60",
     "destination_sheet": "V06 Identidade",
     "destination_cell": "B8",
@@ -794,8 +1064,8 @@
   {
     "origin_sheet": "DASH 03 V06",
     "origin_cell": "B6",
-    "destination_sheet": "DASH 10 Centro",
-    "destination_cell": "E21",
+    "destination_sheet": "DASH 03 V06",
+    "destination_cell": "E6",
     "type": "Excel internal HYPERLINK",
     "PT": "Menu de navegação",
     "EN": "Navigation menu"
@@ -928,6 +1198,96 @@
   },
   {
     "origin_sheet": "DASH 03 V06",
+    "origin_cell": "E6",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "frozen navigation menu",
+    "PT": "Dashboard Executivo",
+    "EN": "Executive Dashboard"
+  },
+  {
+    "origin_sheet": "DASH 03 V06",
+    "origin_cell": "F6",
+    "destination_sheet": "DASH 01 V06",
+    "destination_cell": "A1",
+    "type": "frozen navigation menu",
+    "PT": "Investimento e Orçamento de Construção",
+    "EN": "Investment & Construction Budget"
+  },
+  {
+    "origin_sheet": "DASH 03 V06",
+    "origin_cell": "G6",
+    "destination_sheet": "DASH 02 V06",
+    "destination_cell": "A1",
+    "type": "frozen navigation menu",
+    "PT": "Fiscalidade, Incentivos e Seguros",
+    "EN": "Taxation, Incentives & Insurance"
+  },
+  {
+    "origin_sheet": "DASH 03 V06",
+    "origin_cell": "H6",
+    "destination_sheet": "DASH 03 V06",
+    "destination_cell": "A1",
+    "type": "frozen navigation menu",
+    "PT": "Desempenho Financeiro Consolidado",
+    "EN": "Consolidated Financial Performance"
+  },
+  {
+    "origin_sheet": "DASH 03 V06",
+    "origin_cell": "I6",
+    "destination_sheet": "DASH 04A V06",
+    "destination_cell": "A1",
+    "type": "frozen navigation menu",
+    "PT": "Promoção e Comercialização Imobiliária",
+    "EN": "Real Estate Development & Sales"
+  },
+  {
+    "origin_sheet": "DASH 03 V06",
+    "origin_cell": "J6",
+    "destination_sheet": "DASH 04B V06",
+    "destination_cell": "A1",
+    "type": "frozen navigation menu",
+    "PT": "Exploração Residencial e Sell & Leaseback",
+    "EN": "Residential Operations & Sell & Leaseback"
+  },
+  {
+    "origin_sheet": "DASH 03 V06",
+    "origin_cell": "K6",
+    "destination_sheet": "DASH 05 V06",
+    "destination_cell": "A1",
+    "type": "frozen navigation menu",
+    "PT": "Exploração Hoteleira e Centro MICE",
+    "EN": "Hotel & MICE Operations"
+  },
+  {
+    "origin_sheet": "DASH 03 V06",
+    "origin_cell": "L6",
+    "destination_sheet": "DASH 06 V06",
+    "destination_cell": "A1",
+    "type": "frozen navigation menu",
+    "PT": "Estrutura Acionista e Blocos de Investimento",
+    "EN": "Shareholding & Investment Blocks"
+  },
+  {
+    "origin_sheet": "DASH 03 V06",
+    "origin_cell": "M6",
+    "destination_sheet": "DASH 07 V06",
+    "destination_cell": "A1",
+    "type": "frozen navigation menu",
+    "PT": "Rentabilidade dos Acionistas e Distribuições",
+    "EN": "Equity Returns & Distributions"
+  },
+  {
+    "origin_sheet": "DASH 03 V06",
+    "origin_cell": "N6",
+    "destination_sheet": "DASH 10 Centro",
+    "destination_cell": "A1",
+    "type": "frozen navigation menu",
+    "PT": "Relatório Executivo Consolidado de Viabilidade e Investimento",
+    "EN": "Consolidated Investment & Feasibility Report"
+  },
+  {
+    "origin_sheet": "DASH 03 V06",
     "origin_cell": "B60",
     "destination_sheet": "V06 Identidade",
     "destination_cell": "B8",
@@ -1046,8 +1406,8 @@
   {
     "origin_sheet": "DASH 04A V06",
     "origin_cell": "B6",
-    "destination_sheet": "DASH 10 Centro",
-    "destination_cell": "E21",
+    "destination_sheet": "DASH 04A V06",
+    "destination_cell": "E6",
     "type": "Excel internal HYPERLINK",
     "PT": "Menu de navegação",
     "EN": "Navigation menu"
@@ -1180,6 +1540,96 @@
   },
   {
     "origin_sheet": "DASH 04A V06",
+    "origin_cell": "E6",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "frozen navigation menu",
+    "PT": "Dashboard Executivo",
+    "EN": "Executive Dashboard"
+  },
+  {
+    "origin_sheet": "DASH 04A V06",
+    "origin_cell": "F6",
+    "destination_sheet": "DASH 01 V06",
+    "destination_cell": "A1",
+    "type": "frozen navigation menu",
+    "PT": "Investimento e Orçamento de Construção",
+    "EN": "Investment & Construction Budget"
+  },
+  {
+    "origin_sheet": "DASH 04A V06",
+    "origin_cell": "G6",
+    "destination_sheet": "DASH 02 V06",
+    "destination_cell": "A1",
+    "type": "frozen navigation menu",
+    "PT": "Fiscalidade, Incentivos e Seguros",
+    "EN": "Taxation, Incentives & Insurance"
+  },
+  {
+    "origin_sheet": "DASH 04A V06",
+    "origin_cell": "H6",
+    "destination_sheet": "DASH 03 V06",
+    "destination_cell": "A1",
+    "type": "frozen navigation menu",
+    "PT": "Desempenho Financeiro Consolidado",
+    "EN": "Consolidated Financial Performance"
+  },
+  {
+    "origin_sheet": "DASH 04A V06",
+    "origin_cell": "I6",
+    "destination_sheet": "DASH 04A V06",
+    "destination_cell": "A1",
+    "type": "frozen navigation menu",
+    "PT": "Promoção e Comercialização Imobiliária",
+    "EN": "Real Estate Development & Sales"
+  },
+  {
+    "origin_sheet": "DASH 04A V06",
+    "origin_cell": "J6",
+    "destination_sheet": "DASH 04B V06",
+    "destination_cell": "A1",
+    "type": "frozen navigation menu",
+    "PT": "Exploração Residencial e Sell & Leaseback",
+    "EN": "Residential Operations & Sell & Leaseback"
+  },
+  {
+    "origin_sheet": "DASH 04A V06",
+    "origin_cell": "K6",
+    "destination_sheet": "DASH 05 V06",
+    "destination_cell": "A1",
+    "type": "frozen navigation menu",
+    "PT": "Exploração Hoteleira e Centro MICE",
+    "EN": "Hotel & MICE Operations"
+  },
+  {
+    "origin_sheet": "DASH 04A V06",
+    "origin_cell": "L6",
+    "destination_sheet": "DASH 06 V06",
+    "destination_cell": "A1",
+    "type": "frozen navigation menu",
+    "PT": "Estrutura Acionista e Blocos de Investimento",
+    "EN": "Shareholding & Investment Blocks"
+  },
+  {
+    "origin_sheet": "DASH 04A V06",
+    "origin_cell": "M6",
+    "destination_sheet": "DASH 07 V06",
+    "destination_cell": "A1",
+    "type": "frozen navigation menu",
+    "PT": "Rentabilidade dos Acionistas e Distribuições",
+    "EN": "Equity Returns & Distributions"
+  },
+  {
+    "origin_sheet": "DASH 04A V06",
+    "origin_cell": "N6",
+    "destination_sheet": "DASH 10 Centro",
+    "destination_cell": "A1",
+    "type": "frozen navigation menu",
+    "PT": "Relatório Executivo Consolidado de Viabilidade e Investimento",
+    "EN": "Consolidated Investment & Feasibility Report"
+  },
+  {
+    "origin_sheet": "DASH 04A V06",
     "origin_cell": "B60",
     "destination_sheet": "V06 Identidade",
     "destination_cell": "B8",
@@ -1298,8 +1748,8 @@
   {
     "origin_sheet": "DASH 04B V06",
     "origin_cell": "B6",
-    "destination_sheet": "DASH 10 Centro",
-    "destination_cell": "E21",
+    "destination_sheet": "DASH 04B V06",
+    "destination_cell": "E6",
     "type": "Excel internal HYPERLINK",
     "PT": "Menu de navegação",
     "EN": "Navigation menu"
@@ -1432,6 +1882,96 @@
   },
   {
     "origin_sheet": "DASH 04B V06",
+    "origin_cell": "E6",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "frozen navigation menu",
+    "PT": "Dashboard Executivo",
+    "EN": "Executive Dashboard"
+  },
+  {
+    "origin_sheet": "DASH 04B V06",
+    "origin_cell": "F6",
+    "destination_sheet": "DASH 01 V06",
+    "destination_cell": "A1",
+    "type": "frozen navigation menu",
+    "PT": "Investimento e Orçamento de Construção",
+    "EN": "Investment & Construction Budget"
+  },
+  {
+    "origin_sheet": "DASH 04B V06",
+    "origin_cell": "G6",
+    "destination_sheet": "DASH 02 V06",
+    "destination_cell": "A1",
+    "type": "frozen navigation menu",
+    "PT": "Fiscalidade, Incentivos e Seguros",
+    "EN": "Taxation, Incentives & Insurance"
+  },
+  {
+    "origin_sheet": "DASH 04B V06",
+    "origin_cell": "H6",
+    "destination_sheet": "DASH 03 V06",
+    "destination_cell": "A1",
+    "type": "frozen navigation menu",
+    "PT": "Desempenho Financeiro Consolidado",
+    "EN": "Consolidated Financial Performance"
+  },
+  {
+    "origin_sheet": "DASH 04B V06",
+    "origin_cell": "I6",
+    "destination_sheet": "DASH 04A V06",
+    "destination_cell": "A1",
+    "type": "frozen navigation menu",
+    "PT": "Promoção e Comercialização Imobiliária",
+    "EN": "Real Estate Development & Sales"
+  },
+  {
+    "origin_sheet": "DASH 04B V06",
+    "origin_cell": "J6",
+    "destination_sheet": "DASH 04B V06",
+    "destination_cell": "A1",
+    "type": "frozen navigation menu",
+    "PT": "Exploração Residencial e Sell & Leaseback",
+    "EN": "Residential Operations & Sell & Leaseback"
+  },
+  {
+    "origin_sheet": "DASH 04B V06",
+    "origin_cell": "K6",
+    "destination_sheet": "DASH 05 V06",
+    "destination_cell": "A1",
+    "type": "frozen navigation menu",
+    "PT": "Exploração Hoteleira e Centro MICE",
+    "EN": "Hotel & MICE Operations"
+  },
+  {
+    "origin_sheet": "DASH 04B V06",
+    "origin_cell": "L6",
+    "destination_sheet": "DASH 06 V06",
+    "destination_cell": "A1",
+    "type": "frozen navigation menu",
+    "PT": "Estrutura Acionista e Blocos de Investimento",
+    "EN": "Shareholding & Investment Blocks"
+  },
+  {
+    "origin_sheet": "DASH 04B V06",
+    "origin_cell": "M6",
+    "destination_sheet": "DASH 07 V06",
+    "destination_cell": "A1",
+    "type": "frozen navigation menu",
+    "PT": "Rentabilidade dos Acionistas e Distribuições",
+    "EN": "Equity Returns & Distributions"
+  },
+  {
+    "origin_sheet": "DASH 04B V06",
+    "origin_cell": "N6",
+    "destination_sheet": "DASH 10 Centro",
+    "destination_cell": "A1",
+    "type": "frozen navigation menu",
+    "PT": "Relatório Executivo Consolidado de Viabilidade e Investimento",
+    "EN": "Consolidated Investment & Feasibility Report"
+  },
+  {
+    "origin_sheet": "DASH 04B V06",
     "origin_cell": "B60",
     "destination_sheet": "V06 Identidade",
     "destination_cell": "B8",
@@ -1559,8 +2099,8 @@
   {
     "origin_sheet": "DASH 05 V06",
     "origin_cell": "B6",
-    "destination_sheet": "DASH 10 Centro",
-    "destination_cell": "E21",
+    "destination_sheet": "DASH 05 V06",
+    "destination_cell": "E6",
     "type": "Excel internal HYPERLINK",
     "PT": "Menu de navegação",
     "EN": "Navigation menu"
@@ -1693,6 +2233,96 @@
   },
   {
     "origin_sheet": "DASH 05 V06",
+    "origin_cell": "E6",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "frozen navigation menu",
+    "PT": "Dashboard Executivo",
+    "EN": "Executive Dashboard"
+  },
+  {
+    "origin_sheet": "DASH 05 V06",
+    "origin_cell": "F6",
+    "destination_sheet": "DASH 01 V06",
+    "destination_cell": "A1",
+    "type": "frozen navigation menu",
+    "PT": "Investimento e Orçamento de Construção",
+    "EN": "Investment & Construction Budget"
+  },
+  {
+    "origin_sheet": "DASH 05 V06",
+    "origin_cell": "G6",
+    "destination_sheet": "DASH 02 V06",
+    "destination_cell": "A1",
+    "type": "frozen navigation menu",
+    "PT": "Fiscalidade, Incentivos e Seguros",
+    "EN": "Taxation, Incentives & Insurance"
+  },
+  {
+    "origin_sheet": "DASH 05 V06",
+    "origin_cell": "H6",
+    "destination_sheet": "DASH 03 V06",
+    "destination_cell": "A1",
+    "type": "frozen navigation menu",
+    "PT": "Desempenho Financeiro Consolidado",
+    "EN": "Consolidated Financial Performance"
+  },
+  {
+    "origin_sheet": "DASH 05 V06",
+    "origin_cell": "I6",
+    "destination_sheet": "DASH 04A V06",
+    "destination_cell": "A1",
+    "type": "frozen navigation menu",
+    "PT": "Promoção e Comercialização Imobiliária",
+    "EN": "Real Estate Development & Sales"
+  },
+  {
+    "origin_sheet": "DASH 05 V06",
+    "origin_cell": "J6",
+    "destination_sheet": "DASH 04B V06",
+    "destination_cell": "A1",
+    "type": "frozen navigation menu",
+    "PT": "Exploração Residencial e Sell & Leaseback",
+    "EN": "Residential Operations & Sell & Leaseback"
+  },
+  {
+    "origin_sheet": "DASH 05 V06",
+    "origin_cell": "K6",
+    "destination_sheet": "DASH 05 V06",
+    "destination_cell": "A1",
+    "type": "frozen navigation menu",
+    "PT": "Exploração Hoteleira e Centro MICE",
+    "EN": "Hotel & MICE Operations"
+  },
+  {
+    "origin_sheet": "DASH 05 V06",
+    "origin_cell": "L6",
+    "destination_sheet": "DASH 06 V06",
+    "destination_cell": "A1",
+    "type": "frozen navigation menu",
+    "PT": "Estrutura Acionista e Blocos de Investimento",
+    "EN": "Shareholding & Investment Blocks"
+  },
+  {
+    "origin_sheet": "DASH 05 V06",
+    "origin_cell": "M6",
+    "destination_sheet": "DASH 07 V06",
+    "destination_cell": "A1",
+    "type": "frozen navigation menu",
+    "PT": "Rentabilidade dos Acionistas e Distribuições",
+    "EN": "Equity Returns & Distributions"
+  },
+  {
+    "origin_sheet": "DASH 05 V06",
+    "origin_cell": "N6",
+    "destination_sheet": "DASH 10 Centro",
+    "destination_cell": "A1",
+    "type": "frozen navigation menu",
+    "PT": "Relatório Executivo Consolidado de Viabilidade e Investimento",
+    "EN": "Consolidated Investment & Feasibility Report"
+  },
+  {
+    "origin_sheet": "DASH 05 V06",
     "origin_cell": "B60",
     "destination_sheet": "V06 Identidade",
     "destination_cell": "B8",
@@ -1811,8 +2441,8 @@
   {
     "origin_sheet": "DASH 06 V06",
     "origin_cell": "B6",
-    "destination_sheet": "DASH 10 Centro",
-    "destination_cell": "E21",
+    "destination_sheet": "DASH 06 V06",
+    "destination_cell": "E6",
     "type": "Excel internal HYPERLINK",
     "PT": "Menu de navegação",
     "EN": "Navigation menu"
@@ -1945,6 +2575,96 @@
   },
   {
     "origin_sheet": "DASH 06 V06",
+    "origin_cell": "E6",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "frozen navigation menu",
+    "PT": "Dashboard Executivo",
+    "EN": "Executive Dashboard"
+  },
+  {
+    "origin_sheet": "DASH 06 V06",
+    "origin_cell": "F6",
+    "destination_sheet": "DASH 01 V06",
+    "destination_cell": "A1",
+    "type": "frozen navigation menu",
+    "PT": "Investimento e Orçamento de Construção",
+    "EN": "Investment & Construction Budget"
+  },
+  {
+    "origin_sheet": "DASH 06 V06",
+    "origin_cell": "G6",
+    "destination_sheet": "DASH 02 V06",
+    "destination_cell": "A1",
+    "type": "frozen navigation menu",
+    "PT": "Fiscalidade, Incentivos e Seguros",
+    "EN": "Taxation, Incentives & Insurance"
+  },
+  {
+    "origin_sheet": "DASH 06 V06",
+    "origin_cell": "H6",
+    "destination_sheet": "DASH 03 V06",
+    "destination_cell": "A1",
+    "type": "frozen navigation menu",
+    "PT": "Desempenho Financeiro Consolidado",
+    "EN": "Consolidated Financial Performance"
+  },
+  {
+    "origin_sheet": "DASH 06 V06",
+    "origin_cell": "I6",
+    "destination_sheet": "DASH 04A V06",
+    "destination_cell": "A1",
+    "type": "frozen navigation menu",
+    "PT": "Promoção e Comercialização Imobiliária",
+    "EN": "Real Estate Development & Sales"
+  },
+  {
+    "origin_sheet": "DASH 06 V06",
+    "origin_cell": "J6",
+    "destination_sheet": "DASH 04B V06",
+    "destination_cell": "A1",
+    "type": "frozen navigation menu",
+    "PT": "Exploração Residencial e Sell & Leaseback",
+    "EN": "Residential Operations & Sell & Leaseback"
+  },
+  {
+    "origin_sheet": "DASH 06 V06",
+    "origin_cell": "K6",
+    "destination_sheet": "DASH 05 V06",
+    "destination_cell": "A1",
+    "type": "frozen navigation menu",
+    "PT": "Exploração Hoteleira e Centro MICE",
+    "EN": "Hotel & MICE Operations"
+  },
+  {
+    "origin_sheet": "DASH 06 V06",
+    "origin_cell": "L6",
+    "destination_sheet": "DASH 06 V06",
+    "destination_cell": "A1",
+    "type": "frozen navigation menu",
+    "PT": "Estrutura Acionista e Blocos de Investimento",
+    "EN": "Shareholding & Investment Blocks"
+  },
+  {
+    "origin_sheet": "DASH 06 V06",
+    "origin_cell": "M6",
+    "destination_sheet": "DASH 07 V06",
+    "destination_cell": "A1",
+    "type": "frozen navigation menu",
+    "PT": "Rentabilidade dos Acionistas e Distribuições",
+    "EN": "Equity Returns & Distributions"
+  },
+  {
+    "origin_sheet": "DASH 06 V06",
+    "origin_cell": "N6",
+    "destination_sheet": "DASH 10 Centro",
+    "destination_cell": "A1",
+    "type": "frozen navigation menu",
+    "PT": "Relatório Executivo Consolidado de Viabilidade e Investimento",
+    "EN": "Consolidated Investment & Feasibility Report"
+  },
+  {
+    "origin_sheet": "DASH 06 V06",
     "origin_cell": "B60",
     "destination_sheet": "V06 Identidade",
     "destination_cell": "B8",
@@ -2063,8 +2783,8 @@
   {
     "origin_sheet": "DASH 07 V06",
     "origin_cell": "B6",
-    "destination_sheet": "DASH 10 Centro",
-    "destination_cell": "E21",
+    "destination_sheet": "DASH 07 V06",
+    "destination_cell": "E6",
     "type": "Excel internal HYPERLINK",
     "PT": "Menu de navegação",
     "EN": "Navigation menu"
@@ -2192,6 +2912,96 @@
     "destination_sheet": "DASH 10 Centro",
     "destination_cell": "A1",
     "type": "sidebar",
+    "PT": "Relatório Executivo Consolidado de Viabilidade e Investimento",
+    "EN": "Consolidated Investment & Feasibility Report"
+  },
+  {
+    "origin_sheet": "DASH 07 V06",
+    "origin_cell": "E6",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "frozen navigation menu",
+    "PT": "Dashboard Executivo",
+    "EN": "Executive Dashboard"
+  },
+  {
+    "origin_sheet": "DASH 07 V06",
+    "origin_cell": "F6",
+    "destination_sheet": "DASH 01 V06",
+    "destination_cell": "A1",
+    "type": "frozen navigation menu",
+    "PT": "Investimento e Orçamento de Construção",
+    "EN": "Investment & Construction Budget"
+  },
+  {
+    "origin_sheet": "DASH 07 V06",
+    "origin_cell": "G6",
+    "destination_sheet": "DASH 02 V06",
+    "destination_cell": "A1",
+    "type": "frozen navigation menu",
+    "PT": "Fiscalidade, Incentivos e Seguros",
+    "EN": "Taxation, Incentives & Insurance"
+  },
+  {
+    "origin_sheet": "DASH 07 V06",
+    "origin_cell": "H6",
+    "destination_sheet": "DASH 03 V06",
+    "destination_cell": "A1",
+    "type": "frozen navigation menu",
+    "PT": "Desempenho Financeiro Consolidado",
+    "EN": "Consolidated Financial Performance"
+  },
+  {
+    "origin_sheet": "DASH 07 V06",
+    "origin_cell": "I6",
+    "destination_sheet": "DASH 04A V06",
+    "destination_cell": "A1",
+    "type": "frozen navigation menu",
+    "PT": "Promoção e Comercialização Imobiliária",
+    "EN": "Real Estate Development & Sales"
+  },
+  {
+    "origin_sheet": "DASH 07 V06",
+    "origin_cell": "J6",
+    "destination_sheet": "DASH 04B V06",
+    "destination_cell": "A1",
+    "type": "frozen navigation menu",
+    "PT": "Exploração Residencial e Sell & Leaseback",
+    "EN": "Residential Operations & Sell & Leaseback"
+  },
+  {
+    "origin_sheet": "DASH 07 V06",
+    "origin_cell": "K6",
+    "destination_sheet": "DASH 05 V06",
+    "destination_cell": "A1",
+    "type": "frozen navigation menu",
+    "PT": "Exploração Hoteleira e Centro MICE",
+    "EN": "Hotel & MICE Operations"
+  },
+  {
+    "origin_sheet": "DASH 07 V06",
+    "origin_cell": "L6",
+    "destination_sheet": "DASH 06 V06",
+    "destination_cell": "A1",
+    "type": "frozen navigation menu",
+    "PT": "Estrutura Acionista e Blocos de Investimento",
+    "EN": "Shareholding & Investment Blocks"
+  },
+  {
+    "origin_sheet": "DASH 07 V06",
+    "origin_cell": "M6",
+    "destination_sheet": "DASH 07 V06",
+    "destination_cell": "A1",
+    "type": "frozen navigation menu",
+    "PT": "Rentabilidade dos Acionistas e Distribuições",
+    "EN": "Equity Returns & Distributions"
+  },
+  {
+    "origin_sheet": "DASH 07 V06",
+    "origin_cell": "N6",
+    "destination_sheet": "DASH 10 Centro",
+    "destination_cell": "A1",
+    "type": "frozen navigation menu",
     "PT": "Relatório Executivo Consolidado de Viabilidade e Investimento",
     "EN": "Consolidated Investment & Feasibility Report"
   },
@@ -2730,7 +3540,7 @@
     "origin_sheet": "DASH 10 Centro",
     "origin_cell": "B6",
     "destination_sheet": "DASH 10 Centro",
-    "destination_cell": "E21",
+    "destination_cell": "E6",
     "type": "Excel internal HYPERLINK",
     "PT": "Menu de navegação",
     "EN": "Navigation menu"
@@ -2858,6 +3668,96 @@
     "destination_sheet": "DASH 10 Centro",
     "destination_cell": "A1",
     "type": "sidebar",
+    "PT": "Relatório Executivo Consolidado de Viabilidade e Investimento",
+    "EN": "Consolidated Investment & Feasibility Report"
+  },
+  {
+    "origin_sheet": "DASH 10 Centro",
+    "origin_cell": "E6",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "frozen navigation menu",
+    "PT": "Dashboard Executivo",
+    "EN": "Executive Dashboard"
+  },
+  {
+    "origin_sheet": "DASH 10 Centro",
+    "origin_cell": "F6",
+    "destination_sheet": "DASH 01 V06",
+    "destination_cell": "A1",
+    "type": "frozen navigation menu",
+    "PT": "Investimento e Orçamento de Construção",
+    "EN": "Investment & Construction Budget"
+  },
+  {
+    "origin_sheet": "DASH 10 Centro",
+    "origin_cell": "G6",
+    "destination_sheet": "DASH 02 V06",
+    "destination_cell": "A1",
+    "type": "frozen navigation menu",
+    "PT": "Fiscalidade, Incentivos e Seguros",
+    "EN": "Taxation, Incentives & Insurance"
+  },
+  {
+    "origin_sheet": "DASH 10 Centro",
+    "origin_cell": "H6",
+    "destination_sheet": "DASH 03 V06",
+    "destination_cell": "A1",
+    "type": "frozen navigation menu",
+    "PT": "Desempenho Financeiro Consolidado",
+    "EN": "Consolidated Financial Performance"
+  },
+  {
+    "origin_sheet": "DASH 10 Centro",
+    "origin_cell": "I6",
+    "destination_sheet": "DASH 04A V06",
+    "destination_cell": "A1",
+    "type": "frozen navigation menu",
+    "PT": "Promoção e Comercialização Imobiliária",
+    "EN": "Real Estate Development & Sales"
+  },
+  {
+    "origin_sheet": "DASH 10 Centro",
+    "origin_cell": "J6",
+    "destination_sheet": "DASH 04B V06",
+    "destination_cell": "A1",
+    "type": "frozen navigation menu",
+    "PT": "Exploração Residencial e Sell & Leaseback",
+    "EN": "Residential Operations & Sell & Leaseback"
+  },
+  {
+    "origin_sheet": "DASH 10 Centro",
+    "origin_cell": "K6",
+    "destination_sheet": "DASH 05 V06",
+    "destination_cell": "A1",
+    "type": "frozen navigation menu",
+    "PT": "Exploração Hoteleira e Centro MICE",
+    "EN": "Hotel & MICE Operations"
+  },
+  {
+    "origin_sheet": "DASH 10 Centro",
+    "origin_cell": "L6",
+    "destination_sheet": "DASH 06 V06",
+    "destination_cell": "A1",
+    "type": "frozen navigation menu",
+    "PT": "Estrutura Acionista e Blocos de Investimento",
+    "EN": "Shareholding & Investment Blocks"
+  },
+  {
+    "origin_sheet": "DASH 10 Centro",
+    "origin_cell": "M6",
+    "destination_sheet": "DASH 07 V06",
+    "destination_cell": "A1",
+    "type": "frozen navigation menu",
+    "PT": "Rentabilidade dos Acionistas e Distribuições",
+    "EN": "Equity Returns & Distributions"
+  },
+  {
+    "origin_sheet": "DASH 10 Centro",
+    "origin_cell": "N6",
+    "destination_sheet": "DASH 10 Centro",
+    "destination_cell": "A1",
+    "type": "frozen navigation menu",
     "PT": "Relatório Executivo Consolidado de Viabilidade e Investimento",
     "EN": "Consolidated Investment & Feasibility Report"
   },

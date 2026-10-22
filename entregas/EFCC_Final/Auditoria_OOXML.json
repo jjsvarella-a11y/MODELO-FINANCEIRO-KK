@@ -3,11 +3,11 @@
   "scope": "ZIP CRC, XML parsing, relationship targets, style/shared-string indices, numeric types, cell order, named scopes, formula length/references",
   "native_excel365": "NOT TESTED",
   "counts": {
-    "parts": 294,
-    "relationships": 250,
+    "parts": 315,
+    "relationships": 270,
     "worksheets": 190,
     "cells": 1942644,
-    "formulas": 1885884,
+    "formulas": 1885990,
     "charts": 31
   },
   "failures": [],

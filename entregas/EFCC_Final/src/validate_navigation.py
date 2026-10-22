@@ -29,6 +29,10 @@ def validate():
   for sn,_,_ in DASHES:
    for target,_,_ in DASHES:
     if not any(x['origin'].startswith(sn+'!B') and x['destination']==target+'!A1' for x in routes):fail.append([sn,'sidebar missing',target])
+   for n,(target,_,_) in enumerate(DASHES):
+    addr=__import__('xlsxwriter').utility.xl_col_to_name(4+n)+'6'
+    if not any(x['origin']==sn+'!'+addr and x['destination']==target+'!A1' for x in routes):fail.append([sn,'missing frozen route',target])
+   if not any(x['origin']==sn+'!B6' and x['destination']==sn+'!E6' for x in routes):fail.append([sn,'Menu must open frozen dashboard menu'])
    view=roots[sn].find(T('sheetViews')+'/'+T('sheetView'));pane=view.find(T('pane'))
    if pane is None or pane.get('xSplit')!='4' or pane.get('ySplit')!='6':fail.append([sn,'freeze panes'])
   for sn,owner in BACK.items():

@@ -35,3 +35,8 @@ Os passos anteriores documentam a construção histórica. Não executar separa�
 7. Atualizar os comprovativos de preservação/organização para o SHA atual, executar `write_premium_docs.py`, depois `package.py`.
 
 O código depende também dos módulos do repositório em `entregas/V06/src` e da base estável; o ZIP isolado não é um ambiente de reconstrução completo. Os PDFs são validação LibreOffice. Abertura, ativar edição, guardar/reabrir e cliques Excel 365 continuam NOT TESTED sem execução Windows.
+
+
+### Correção de navegação após 74e0ae4
+
+Para reproduzir a comparação direta, recuperar também `git show 74e0ae4:entregas/EFCC_Final/KK01_V06_Executive_Master.xlsx > /workspace/kk01_efcc/checkpoints/Before_Navigation_Restoration.xlsx`. Depois de gerar o master, executar `verify_restoration.py` e os ensaios de idioma, ano operacional e Custom da bateria premium. A matriz verifica também os dez links na linha 6 e o destino do comando Menu. A identidade dos 69 motores e das 50 entradas/regras permite conservar a evidência da bateria anterior, sem afirmar que as 73 mutações foram novamente executadas.

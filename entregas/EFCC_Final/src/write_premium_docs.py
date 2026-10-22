@@ -38,7 +38,7 @@ Os PDFs PT/EN foram gerados com LibreOffice; não são provas de impressão nati
 
 ## Integridade e limites
 
-O recálculo independente dos 69 cenários comparou {fin['numeric_monthly_comparisons']:,} valores mensais com a referência Python: {len(fin['errors'])} erros e {len(fin['differences'])} divergências; diferença absoluta máxima {fin['maximum_absolute_numeric_difference']:.2g}. Os testes atuais de controlos são {sum(x['status']=='PASS' for x in tests['tests'])}/{len(tests['tests'])} PASS. A verificação global abrange {filters['inputs_covered']} controlos em {len(filters['tests'])} testes de escolhas/entradas, com resultados em `Matriz_Testes_Filtros.csv`.
+O recálculo independente dos 69 cenários comparou {fin['numeric_monthly_comparisons']:,} valores mensais com a referência Python: {len(fin['errors'])} erros e {len(fin['differences'])} divergências; diferença absoluta máxima {fin['maximum_absolute_numeric_difference']:.2g}. A bateria preservada de controlos apresenta {sum(x['status']=='PASS' for x in tests['tests'])}/{len(tests['tests'])} PASS. A verificação global abrange {filters['inputs_covered']} controlos em {len(filters['tests'])} testes de escolhas/entradas, com resultados em `Matriz_Testes_Filtros.csv`.
 
 Trinta entradas foram transferidas para células canónicas nos painéis; os endereços antigos passaram a referenciar essas entradas. Quatro coeficientes residenciais antes fixos foram expostos como parâmetros, conservando exatamente a calibração original: ADR 225 EUR, ocupação inicial 58,1%, OPEX 35% e FF&E 4%. Esta ligação altera 48.960 expressões dos 68 motores ativos; o caso de referência permanece congelado. Todas as outras expressões dos motores e todos os valores iniciais foram preservados. Não se afirma que nenhuma fórmula financeira mudou: as quatro exposições são a alteração técnica necessária aos filtros pedidos.
 
@@ -48,6 +48,7 @@ Trinta entradas foram transferidas para células canónicas nos painéis; os end
 
 SHA256 do master: `{sha}`.
 '''
+ readme+='\n## Aderência ao mandato de navegação\n\nA revisão corrige o Menu, acrescenta dez acessos numerados na linha 6 imobilizada de cada dashboard, inclui RevPAR nos oito cartões Hotel e diferencia os cinco intervenientes na decisão final. A sidebar mantém títulos completos; em deslocação vertical, o menu compacto superior conserva acesso direto aos dez dashboards.\n\n`Restauro_Mandato.json` compara esta revisão com a publicada: fórmulas e caches dos 69 motores, bem como as 50 entradas e validações, são idênticos. Os 73 testes anteriores são evidência preservada; os ensaios executados nesta correção constam de `Testes_Restauro.json`. Consulte `Auditoria_Mandato.md`. A aceitação nativa Excel 365 e o logótipo original incorporado permanecem pendentes.\n'
  (ROOT/'README.md').write_text(readme)
  graphic='''# Alterações gráficas e navegação
 
