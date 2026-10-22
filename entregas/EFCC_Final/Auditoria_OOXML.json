@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "scope": "ZIP CRC, XML parsing, relationship targets, style/shared-string indices, numeric types, cell order, named scopes, formula length/references",
+  "native_excel365": "NOT TESTED",
+  "counts": {
+    "parts": 783,
+    "relationships": 690,
+    "worksheets": 492,
+    "cells": 3477415,
+    "formulas": 3369298,
+    "charts": 60
+  },
+  "failures": [],
+  "formulas_over_8192": []
+}

@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "platform": "LibreOffice independent recalculation after invalidating all formula caches",
+  "excel_native": "NOT TESTED",
+  "scenario_count": 69,
+  "numeric_monthly_comparisons": 1738800,
+  "maximum_absolute_numeric_difference": 5.960464477539063e-08,
+  "errors": [],
+  "differences": [],
+  "invariant_failures": [],
+  "formula_count": 1883901,
+  "max_formula_characters": 4201,
+  "sheets": 177
+}

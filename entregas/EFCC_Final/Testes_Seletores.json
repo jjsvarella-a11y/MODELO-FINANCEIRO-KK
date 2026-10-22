@@ -1,0 +1,146 @@
+{
+  "platform": "LibreOffice, actual input mutations and full cache invalidation",
+  "excel_native": "NOT TESTED",
+  "private_lab_optimisation": "Unrelated independent branches frozen; active/tested engines, calendars, dashboards and reports live; delivered workbook retains every formula.",
+  "tests": [
+    {
+      "test": "Hotel_Custom",
+      "status": "PASS",
+      "evidence": {
+        "npv": -10203553.6584507,
+        "cash30": 9486927.78068434,
+        "div54": 2444751.58852627,
+        "operator_fees": 21563302.0747953,
+        "expected_full_scenario": "ADR 200 Occ 65%"
+      }
+    },
+    {
+      "test": "EN",
+      "status": "PASS",
+      "evidence": {
+        "npv": -9604777.39034361,
+        "cash30": 9486927.78068434,
+        "div54": 2519840.75043494,
+        "operator_fees": 22441070.4980964,
+        "unchanged_engine_values": 25200
+      }
+    },
+    {
+      "test": "FFE_3",
+      "status": "PASS",
+      "evidence": {
+        "npv": -8878944.17434597,
+        "cash30": 9486927.78068434,
+        "div54": 2827481.65743494,
+        "operator_fees": 22441070.4980964
+      }
+    },
+    {
+      "test": "MICE_55",
+      "status": "PASS",
+      "evidence": {
+        "npv": -9303664.98164517,
+        "cash30": 9486927.78068434,
+        "div54": 2566088.49774819,
+        "operator_fees": 23038885.9007096
+      }
+    },
+    {
+      "test": "FFE_Spend_50",
+      "status": "PASS",
+      "evidence": {
+        "npv": -9604777.39034361,
+        "cash30": 9486927.78068434,
+        "div54": 2519840.75043494,
+        "operator_fees": 22441070.4980964,
+        "restricted_fund": 7260915.82121322
+      }
+    },
+    {
+      "test": "Hotel_Optimized",
+      "status": "PASS",
+      "evidence": {
+        "npv": -8015019.49144103,
+        "cash30": 9486927.78068434,
+        "div54": 2849122.86283544,
+        "operator_fees": 14707388.3800797,
+        "expected_full_scenario": "Hotel KK Optimized"
+      }
+    },
+    {
+      "test": "Reserve_Conservative",
+      "status": "PASS",
+      "evidence": {
+        "npv": -9606482.86292481,
+        "cash30": 10484291.5188488,
+        "div54": 2519840.75043494,
+        "operator_fees": 22441070.4980964,
+        "expected_full_scenario": "Reserve Conservative"
+      }
+    },
+    {
+      "test": "Residential_Optimized",
+      "status": "PASS",
+      "evidence": {
+        "npv": -9551821.55693732,
+        "cash30": 9486927.78068434,
+        "div54": 2542811.67276117,
+        "operator_fees": 22441070.4980964,
+        "expected_full_scenario": "Residential KK Optimized"
+      }
+    },
+    {
+      "test": "Matrix_IRR",
+      "status": "PASS",
+      "evidence": {
+        "npv": -9604777.39034361,
+        "cash30": 9486927.78068434,
+        "div54": 2519840.75043494,
+        "operator_fees": 22441070.4980964
+      }
+    },
+    {
+      "test": "Interest_8",
+      "status": "PASS",
+      "evidence": {
+        "npv": -9624871.53077474,
+        "cash30": 9465391.54603523,
+        "div54": 2519840.75043494,
+        "operator_fees": 22441070.4980964,
+        "expected_full_scenario": "Interest 8%"
+      }
+    },
+    {
+      "test": "Matrix_ADR155",
+      "status": "PASS",
+      "evidence": {
+        "npv": -9604777.39034361,
+        "cash30": 9486927.78068434,
+        "div54": 2519840.75043494,
+        "operator_fees": 22441070.4980964,
+        "matrix_npv": -15007472.7382843
+      }
+    },
+    {
+      "test": "Unit_Price",
+      "status": "PASS",
+      "evidence": {
+        "npv": -9604733.70598692,
+        "cash30": 9487131.87518901,
+        "div54": 2519827.23480994,
+        "operator_fees": 22441070.4980964
+      }
+    },
+    {
+      "test": "Reference_Report",
+      "status": "PASS",
+      "evidence": {
+        "npv": -9624871.53077474,
+        "cash30": 9465391.54603523,
+        "div54": 2519840.75043494,
+        "operator_fees": 22441070.4980964,
+        "report_reference_npv": -9604777.39034361
+      }
+    }
+  ]
+}

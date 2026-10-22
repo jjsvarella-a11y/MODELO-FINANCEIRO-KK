@@ -1,0 +1,134 @@
+[
+  {
+    "file": "PDF/PT/DASH_01_PT.pdf",
+    "pages": 1,
+    "paper": "A4 landscape",
+    "native_excel": "NOT TESTED"
+  },
+  {
+    "file": "PDF/PT/DASH_02_PT.pdf",
+    "pages": 1,
+    "paper": "A4 landscape",
+    "native_excel": "NOT TESTED"
+  },
+  {
+    "file": "PDF/PT/DASH_03_PT.pdf",
+    "pages": 1,
+    "paper": "A4 landscape",
+    "native_excel": "NOT TESTED"
+  },
+  {
+    "file": "PDF/PT/DASH_04_PT.pdf",
+    "pages": 1,
+    "paper": "A4 landscape",
+    "native_excel": "NOT TESTED"
+  },
+  {
+    "file": "PDF/PT/DASH_05_PT.pdf",
+    "pages": 1,
+    "paper": "A4 landscape",
+    "native_excel": "NOT TESTED"
+  },
+  {
+    "file": "PDF/PT/DASH_06_PT.pdf",
+    "pages": 1,
+    "paper": "A4 landscape",
+    "native_excel": "NOT TESTED"
+  },
+  {
+    "file": "PDF/PT/DASH_07_PT.pdf",
+    "pages": 1,
+    "paper": "A4 landscape",
+    "native_excel": "NOT TESTED"
+  },
+  {
+    "file": "PDF/PT/DASH_08_PT.pdf",
+    "pages": 1,
+    "paper": "A4 landscape",
+    "native_excel": "NOT TESTED"
+  },
+  {
+    "file": "PDF/PT/DASH_09_PT.pdf",
+    "pages": 1,
+    "paper": "A4 landscape",
+    "native_excel": "NOT TESTED"
+  },
+  {
+    "file": "PDF/PT/DASH_10_Integral_PT.pdf",
+    "pages": 10,
+    "paper": "A4 portrait",
+    "native_excel": "NOT TESTED"
+  },
+  {
+    "file": "PDF/PT/Executive_Brief_PT.pdf",
+    "pages": 2,
+    "paper": "A4 portrait",
+    "native_excel": "NOT TESTED"
+  },
+  {
+    "file": "PDF/EN/DASH_01_EN.pdf",
+    "pages": 1,
+    "paper": "A4 landscape",
+    "native_excel": "NOT TESTED"
+  },
+  {
+    "file": "PDF/EN/DASH_02_EN.pdf",
+    "pages": 1,
+    "paper": "A4 landscape",
+    "native_excel": "NOT TESTED"
+  },
+  {
+    "file": "PDF/EN/DASH_03_EN.pdf",
+    "pages": 1,
+    "paper": "A4 landscape",
+    "native_excel": "NOT TESTED"
+  },
+  {
+    "file": "PDF/EN/DASH_04_EN.pdf",
+    "pages": 1,
+    "paper": "A4 landscape",
+    "native_excel": "NOT TESTED"
+  },
+  {
+    "file": "PDF/EN/DASH_05_EN.pdf",
+    "pages": 1,
+    "paper": "A4 landscape",
+    "native_excel": "NOT TESTED"
+  },
+  {
+    "file": "PDF/EN/DASH_06_EN.pdf",
+    "pages": 1,
+    "paper": "A4 landscape",
+    "native_excel": "NOT TESTED"
+  },
+  {
+    "file": "PDF/EN/DASH_07_EN.pdf",
+    "pages": 1,
+    "paper": "A4 landscape",
+    "native_excel": "NOT TESTED"
+  },
+  {
+    "file": "PDF/EN/DASH_08_EN.pdf",
+    "pages": 1,
+    "paper": "A4 landscape",
+    "native_excel": "NOT TESTED"
+  },
+  {
+    "file": "PDF/EN/DASH_09_EN.pdf",
+    "pages": 1,
+    "paper": "A4 landscape",
+    "native_excel": "NOT TESTED"
+  },
+  {
+    "file": "PDF/EN/DASH_10_Integral_EN.pdf",
+    "pages": 10,
+    "paper": "A4 portrait",
+    "native_excel": "NOT TESTED"
+  },
+  {
+    "file": "PDF/EN/Executive_Brief_EN.pdf",
+    "pages": 2,
+    "paper": "A4 portrait",
+    "native_excel": "NOT TESTED"
+  }
+]

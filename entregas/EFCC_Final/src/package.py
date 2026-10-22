@@ -1,0 +1,24 @@
+from pathlib import Path
+from zipfile import ZipFile,ZIP_DEFLATED
+import hashlib,json,datetime
+import fitz
+ROOT=Path(__file__).resolve().parents[1]
+def package():
+ tests=[]
+ for name in ['Testes_Seletores.json','Testes_Seletores_Adicionais.json']:tests+=json.loads((ROOT/name).read_text())['tests']
+ assert len(tests)==17 and all(t['status']=='PASS' for t in tests)
+ for file in ['Compat_Paridade_Python.json','Compat_Recalculo.json','Validacao_Financeira.json','Auditoria_OOXML.json','Prova_Final_Identidade.json']:assert json.loads((ROOT/file).read_text())['status']=='PASS',file
+ pdfs=[]
+ for language in ['PT','EN']:
+  for p in sorted((ROOT/'PDF'/language).glob('*.pdf')):
+   d=fitz.open(p);expected=10 if 'Integral' in p.name else 2 if 'Brief' in p.name else 1;assert len(d)==expected,(p,len(d));paper='A4 portrait' if expected>1 else 'A4 landscape';pdfs.append({'file':str(p.relative_to(ROOT)),'pages':len(d),'paper':paper,'native_excel':'NOT TESTED'})
+ assert len(pdfs)==22,len(pdfs)
+ (ROOT/'PDF_Entrega_Final.json').write_text(json.dumps(pdfs,indent=2))
+ files=[p for p in ROOT.rglob('*') if p.is_file() and '__pycache__' not in p.parts and p.suffix not in ['.pyc','.zip'] and p.name not in ['Manifesto.json','SHA256SUMS.txt']]
+ manifest={'release':'EFCC-CANDIDATE-20261022','native_excel365':'NOT TESTED','reported_old_version_errors':'User video confirms #VALUE in four KPIs; cached values before edit are not evidence of native calculation.','logo_entry':'V06 Identidade: user inserts original JPG/PNG inside the workbook; optional header sync provided, native test pending.','files':[{'path':str(p.relative_to(ROOT)),'bytes':p.stat().st_size,'sha256':hashlib.sha256(p.read_bytes()).hexdigest()} for p in sorted(files)]}
+ (ROOT/'Manifesto.json').write_text(json.dumps(manifest,indent=2,ensure_ascii=False));files.append(ROOT/'Manifesto.json');(ROOT/'SHA256SUMS.txt').write_text(''.join(hashlib.sha256(p.read_bytes()).hexdigest()+'  '+str(p.relative_to(ROOT))+'\n' for p in sorted(files)));files.append(ROOT/'SHA256SUMS.txt');dest=ROOT/'KK01_EFCC_Entrega_Candidata.zip'
+ with ZipFile(dest,'w',ZIP_DEFLATED,compresslevel=9) as z:
+  for p in sorted(files):z.write(p,str(p.relative_to(ROOT)))
+ with ZipFile(dest) as z:assert z.testzip() is None
+ print('Package',dest,'files',len(files),'bytes',dest.stat().st_size)
+if __name__=='__main__':package()

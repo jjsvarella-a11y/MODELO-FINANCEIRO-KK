@@ -1,0 +1,6 @@
+{
+  "comparisons": 517500,
+  "differences": [],
+  "status": "PASS",
+  "scope": "25 scenarios x 180 months; all 115 original fields; Python reference parity only"
+}

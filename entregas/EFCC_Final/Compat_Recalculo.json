@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "recalculation": "LibreOffice, all formula caches invalidated before calculation",
+  "excel_native": "NOT TESTED",
+  "monthly_numeric_comparisons": 517500,
+  "errors": [],
+  "differences": [],
+  "xlsx": "/workspace/kk01_efcc/compat_recalc/out/C1_Compat_Modules.xlsx"
+}

@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "sheetData_blocks_compared": 480,
+  "changes": [],
+  "selected_sheets": [
+    "EXEC V06"
+  ],
+  "identity_sheet_present": true,
+  "financial_changes_from_logo_area": false,
+  "sha256": "d404ab94c7ea332fc9d65e16e10644ed116d3511da23860dc4fe40d204e5918b",
+  "native_excel365": "NOT TESTED"
+}

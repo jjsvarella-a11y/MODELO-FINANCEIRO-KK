@@ -1,0 +1,12 @@
+﻿Teste;Estado
+Reprodução anterior (Python + LibreOffice);PASS
+Recálculo 69 cenários (LibreOffice);PASS
+Seletores (LibreOffice);17/17 PASS
+Verificações estruturais OOXML;PASS
+Excel 365 — abertura normal;NOT TESTED
+Excel 365 — recálculo completo;NOT TESTED
+Excel 365 — erro #VALOR! eliminado;NOT TESTED
+Excel 365 — guardar/reabrir;NOT TESTED
+Excel 365 — exportação PDF;NOT TESTED
+Área de inserção do logótipo no XLSX;PASS
+Sincronização nativa do logótipo;NOT TESTED

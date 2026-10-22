@@ -1,0 +1,53 @@
+{
+  "platform": "LibreOffice, actual mutations, all formula caches invalidated",
+  "excel_native": "NOT TESTED",
+  "discount_test": "All 30 matrix NPVs checked from verified unchanged cash flows. Independent scenario flows need no recalculation when only the discount rate changes.",
+  "tests": [
+    {
+      "test": "Discount_8",
+      "status": "PASS",
+      "evidence": {
+        "npv": -858159.322365974,
+        "cash30": 9486927.78068434,
+        "div54": 2519840.75043494,
+        "operator_fees": 22441070.4980964,
+        "matrix_cells_compared": 30,
+        "discount": 0.08
+      }
+    },
+    {
+      "test": "Discount_Custom10",
+      "status": "PASS",
+      "evidence": {
+        "npv": -5828278.3693198,
+        "cash30": 9486927.78068434,
+        "div54": 2519840.75043494,
+        "operator_fees": 22441070.4980964,
+        "matrix_cells_compared": 30,
+        "discount": 0.1
+      }
+    },
+    {
+      "test": "Construction_6",
+      "status": "PASS",
+      "evidence": {
+        "npv": -9970021.48629157,
+        "cash30": 6918841.6,
+        "div54": 2454940.03704333,
+        "operator_fees": 21316322.4260773,
+        "expected_full_scenario": "Construction +6M"
+      }
+    },
+    {
+      "test": "VAT_18",
+      "status": "PASS",
+      "evidence": {
+        "npv": -9624085.76984637,
+        "cash30": 9465934.48115802,
+        "div54": 2519840.75043494,
+        "operator_fees": 22441070.4980964,
+        "expected_full_scenario": "VAT delayed"
+      }
+    }
+  ]
+}

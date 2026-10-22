@@ -1,0 +1,20 @@
+{
+  "legacy_parts_preserved_byte_for_byte": 551,
+  "modified_global_parts": [
+    "xl/styles.xml",
+    "xl/sharedStrings.xml",
+    "xl/workbook.xml",
+    "xl/_rels/workbook.xml.rels",
+    "[Content_Types].xml"
+  ],
+  "new_parts": 223,
+  "legacy_worksheets_unchanged": true,
+  "view_only_changes": [],
+  "legacy_cell_records_unchanged": true,
+  "legacy_sheets_preserved": 313,
+  "c0_sha256": "02cc696a831316711b76cf3b96dcec9524fa69701e7c1148b7574ba413ddfc06",
+  "result_sha256": "d404ab94c7ea332fc9d65e16e10644ed116d3511da23860dc4fe40d204e5918b",
+  "current_inputs_preserved": "Verified against C0 before generation; original V06 implementation extended from existing source",
+  "presentation_changes": "Compact rows, annual formula-only chart helper, bilingual report labels. Monthly engine and legacy financial cell records retained.",
+  "identity_financial_sheetData_unchanged": 480
+}
