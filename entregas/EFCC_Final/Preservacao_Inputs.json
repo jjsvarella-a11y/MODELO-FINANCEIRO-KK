@@ -3,5 +3,9 @@
   "source": "/workspace/kk01_efcc/checkpoints/C0_V06_DASH10.xlsx",
   "controls_checked": 77,
   "unit_price_sale_deed_checked": 282,
-  "differences": []
+  "differences": [],
+  "scope": "Historical base proof; current premium follow-up is documented separately.",
+  "current_premium_integrity": "Integridade_Premium.json",
+  "current_input_locations": "Parametros_Interface.json",
+  "current_sha256": "9866fbbf0b0f252848e0d3c45358f7f838e9832d7bfb2b390a59ce925ecb6fad"
 }

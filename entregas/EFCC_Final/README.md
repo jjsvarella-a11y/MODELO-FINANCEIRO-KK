@@ -1,61 +1,41 @@
-# KK-01 — Executive Financial Control Center (candidato)
+# KK-01 V06 — Executive Financial Control Center
 
-Revisão integrada do V06 existente; não é uma certificação Microsoft Excel 365.
+Revisão premium de apresentação, navegação e impressão, sobre a base financeira estável `4111b2c`. O ficheiro `KK01_V06_Executive_Master (2).xlsx` é mencionado no mandato, mas não foi fornecido como anexo acessível; foi usada a revisão estável do repositório que o utilizador indicou parecer ter resolvido o erro.
 
-## Ficheiros principais
-
-- `KK01_V06_Executive_Master.xlsx`: dez dashboards dinâmicos, 69 cenários de 180 meses, matriz ADR × ocupação, fees, reservas, disponibilidade, relatório integral e brief.
-- `PDF/PT` e `PDF/EN`: nove dashboards individuais, relatório DASH 10 com dez páginas A4 e brief com duas páginas A4.
-- `Excel365/Executar_Validacao.cmd`: teste nativo para Windows com Excel instalado, numa cópia do livro. Gera JSON, erros por célula, ambiente, mutações, exportações e teste guardar/reabrir. Nunca foi executado neste ambiente.
-- `Parametros_Ativos_EFCC.xlsx`: snapshot identificado dos parâmetros efetivos e seletores. O registo dinâmico permanece dentro do master, em `V06 Registo Ativo`.
-- `Relatorio_Auditoria_EFCC.pdf`, `Guia_Utilizacao.pdf`, registo de erros, evidências JSON e código-fonte.
-
-## Resultado financeiro de referência
-
-TIR investidores: **7,70%**. MOIC: **2.6867×**. VAL a 12%: **-9.604.777,39 €**. Equity Value de saída: **103.625.929,31 €**.
-
-O cenário Base Case reproduz a referência V06: ADR inicial 210 €, ocupação 64%, crescimento ADR 3%, FF&E 5%, fees Hotel 3%/3%/6%, fees residenciais 3%+5%, reserva geral flexível 2 M€ + HOTUSA 1 M€. Os números da imagem de formatação não foram usados como pressupostos.
-
-A 12%, 0 de 30 casos ADR 150–250 € / ocupação 50–75% alcançam VAL não negativo. Não se extrapolou equilíbrio fora da grelha.
-
-## Evidência e limites
-
-- PASS: paridade de 517.500 valores mensais dos 25 cenários anteriores após remoção das fórmulas matriciais extensas.
-- PASS: 1,738,800 comparações numéricas em 69 cenários; sem erros ou falhas de identidades/restrições nesse recálculo independente.
-- 17/17 testes de alteração real de seletores passaram em LibreOffice. Os testes da taxa de desconto comparam os 30 VAL da matriz com os fluxos de caixa originais.
-- OOXML: PASS, verificações estruturais descritas em `Auditoria_OOXML.json`. Não é validação pelo Open XML SDK nem prova de abertura sem reparações no Excel.
-- Microsoft Excel 365: **NOT TESTED**. Não há Excel Desktop/Windows nem conector Microsoft Excel neste ambiente Linux. A fórmula G5 enviada pelo utilizador contém oito operadores @: o resultado escalar de @SE é incompatível com o vetor de 30 pesos de SOMARPRODUTO. A revisão usa fórmulas escalares nos 69 motores; a eliminação de todos os erros no Excel permanece por confirmar.
-- Logótipo: área de inserção disponível em `V06 Identidade`, independente das fórmulas. O utilizador pode incorporar o JPG/PNG original no XLSX. A sincronização explícita de cabeçalhos pelo ensaio Windows ainda é NOT TESTED nativamente.
-- Contratos, recebimentos reais, calendários e capacidade/dias/eventos/participantes MICE carecem de documentação. O índice MICE normaliza 50% ao modelo original; 1.500 pessoas não representa presença média.
-- Dados documentais em falta aparecem como “Not documented” ou “Unknown”. Previsões não equivalem a vendas, recebimentos ou gastos comprovados.
+- [Abrir o modelo](KK01_V06_Executive_Master.xlsx) — 36.3 MB, 190 folhas: dez painéis executivos, auxiliares e motor atual. As 313 folhas V04 continuam fisicamente removidas; a V04 original permanece intacta em `../Arquivo/V04`.
+- [Entrega completa](KK01_EFCC_Entrega_Candidata.zip).
+- [Testes de todos os filtros](Matriz_Testes_Filtros.csv).
+- [Matriz de navegação](Matriz_Navegacao.csv) — 507 ligações verificadas estruturalmente.
+- [Alterações gráficas](Relatorio_Alteracoes_Graficas.md).
+- [Integridade financeira](Relatorio_Integridade_Financeira.md).
+- [Compatibilidade Microsoft Excel 365](Compatibilidade_Excel365.md).
 
 ## Utilização
 
-1. Abra `EXEC V06`. A barra PT/EN abaixo do cabeçalho abre o seletor global `V06 Controlos!B5`.
-2. Escolha pressupostos nos painéis dos dashboards. No Hotel, `Custom` ativa ADR/ocupação editáveis; `Base Case` conserva o cenário documentado. As células azuis são inputs e as restantes apresentam fórmulas.
-3. Fees Hotel: escolha o perfil; em Custom, marketing/distribuição são inputs no painel e base/sistemas/incentivo abrem os controlos existentes. Os 4%/3%/1,5% dos perfis são agregados de receita, não três cobranças repetidas. Incentivo usa GOP após base e agregado. Prioridade do proprietário desativada por defeito.
-4. A reserva geral é independente de HOTUSA, FF&E, impostos a pagar e outros compromissos. Reduzi-la não elimina os testes de dívida, lucros ou cobertura histórica 1,20×.
-5. `V06 Disponibilidade` filtra as 94 frações e separa estado documental e previsão. `V06 Cobrancas` guarda recebimentos documentais; o motor continua identificado como previsão. Meses relativos não são datas contratuais comprovadas.
-6. `V06 Hipoteses` contém cenário/data/ID do relatório e formato. `Reference Case` usa parâmetros e inventário congelados; `Active Scenario` acompanha o motor. O seletor Complete Report / Executive Brief abre a folha de dez / duas páginas.
-7. Para imprimir, use o controlo Imprimir/PDF, conclua o recálculo, prima Ctrl+P e escolha folhas ativas / PDF. O botão conduz a esse fluxo suportado; não executa uma falsa exportação automática.
-8. Para testar nativamente, extraia o pacote no Windows e execute `Excel365/Executar_Validacao.cmd`. Os resultados são guardados numa pasta nova e o original não é modificado. A aceitação visual, logótipo, eventuais avisos de reparação e paginação ainda exigem observação humana.
+Abra **EXEC V06**, que corresponde ao Dashboard 01. A sidebar contém os dez painéis numerados. Os nomes técnicos existentes foram conservados: por exemplo, **DASH 05 V06** é o painel funcional 07 — Hotel & MICE; **DASH 07 V06** é o painel funcional 09 — Equity Returns.
 
-## Reprodutibilidade
+O **DASH 10 Centro** reúne idioma global, formato integral/resumo, cenário ativo/referência, data e identificador. A escolha PT/EN é única; os atalhos de idioma abrem essa célula para evitar cópias editáveis concorrentes. **DASH 10 V06** continua a ser a folha técnica do relatório integral, com dez páginas; **V06 Brief** contém duas páginas.
 
-O código estende `entregas/V06/src/core.py` e reutiliza a fonte V04 no repositório. As fórmulas do master são autónomas e não dependem de Python para funcionar no Excel. `src/REBUILD.md` descreve a geração e testes neste ambiente. Os checkpoints anteriores V06 e V06_DASH10 permanecem no repositório. O master atual contém apenas 179 folhas V06. As 313 folhas legadas foram fisicamente removidas e a V04 original ficou intacta em `entregas/Arquivo/V04`, separada do livro operacional. Os 115 campos originais do motor V06 conservam as posições e recebem apenas campos adicionais no fim.
+Nos dashboards, as células azuis dos controlos são entradas editáveis; os valores ativos são apresentados em branco e os Custom não aplicados ficam a cinzento. Os controlos Hotel permanecem no painel 07. O residencial tem condições de gestão, yield, ADR, ocupação inicial, OPEX e FF&E. O painel 09 concentra as três políticas de reservas, dividendos, taxa de desconto e múltiplo de saída. Os pressupostos avançados continuam consultáveis por links, sem exigir busca pelas folhas do motor.
 
-Estado de entrega: **CANDIDATE — aceitação nativa pendente; área de inserção do logótipo disponível**.
+Cada auxiliar acessível tem Início e Voltar para o painel responsável. Nas folhas técnicas ocultas há uma ligação discreta ao executivo quando a primeira célula estava livre. As folhas não foram renomeadas. Freeze Panes conserva o cabeçalho e as colunas da sidebar; ao deslocar verticalmente a folha, os comandos compactos do cabeçalho mantêm acesso ao menu e aos parâmetros.
 
-## Logótipo no próprio modelo
+## Imprimir
 
-Abra **V06 Identidade** pelo link **Inserir logótipo** dos cabeçalhos. Use Inserir → Imagens → Este dispositivo, coloque um único JPG/PNG original em B8:H20 e guarde o livro. A imagem fica incorporada no XLSX, sem afetar o motor financeiro. A sincronização dos cabeçalhos é uma ação explícita fornecida no teste Windows/Excel, numa cópia; ainda NOT TESTED nativamente. Consulte `Excel365/LOGOTIPO.md`.
+Nos painéis, **Imprimir / PDF** abre a composição documental **V06 PDF 01–09**, com regresso ao respetivo dashboard. Prima **Ctrl+P**, escolha folhas ativas e use a área configurada. As nove composições são A3 horizontal, uma página cada, sem sidebar nem filtros de trabalho.
 
-## Erro ao ativar edição
+No centro do DASH 10, abra o relatório integral ou o resumo. Cada um possui área própria A4 vertical, com quebras de página e margens. Os comandos de navegação destas folhas ficam fora da área impressa. Antes de exportar, recalcule e confirme o cenário. Hiperligações Excel não abrem por si só a caixa de impressão: o procedimento nativo Ctrl+P está explicitamente descrito em **V06 Imprimir**.
 
-O utilizador confirmou que os valores guardados aparecem antes de editar, mas os #VALOR! surgem depois de ativar edição e reabrir. O ensaio nativo tenta Vista Protegida → Ativar Edição, regista os valores antes/depois e segue com recálculo completo, guardar e reabrir. Se a API de Vista Protegida não funcionar, esse passo fica NOT TESTED. Ver valores antes de editar não comprova o cálculo no Excel.
+Os PDFs PT/EN foram gerados com LibreOffice; não são provas de impressão nativa Excel. Os gráficos são objetos nativos e usam saídas do motor existente. As projeções anuais e os rácios de apresentação não constituem outro motor financeiro.
 
-## Livro operacional sem V04 incorporada
+## Integridade e limites
 
-As 313 folhas legadas foram removidas fisicamente. O master passou de 61,5 MB / 492 folhas para 36,1 MB / 179 folhas, uma redução de 41,3%. Foram retiradas 1.485.103 fórmulas antigas e os respetivos gráficos/partes sem uso. Os 179 XML de folhas V06 foram preservados byte a byte; não foram encontradas dependências para as folhas retiradas. A V04 original está no arquivo separado `entregas/Arquivo/V04`, fora do master e do ZIP operacional. Os dez dashboards atuais e os controlos permanecem acessíveis; os motores auxiliares atuais ficam ocultos. Ver `Separacao_V04.json` e `Reducao_Ficheiro.json`.
+O recálculo independente dos 69 cenários comparou 1,738,800 valores mensais com a referência Python: 0 erros e 0 divergências; diferença absoluta máxima 6e-08. Os testes atuais de controlos são 16/16 PASS. A verificação global abrange 50 controlos em 73 testes de escolhas/entradas, com resultados em `Matriz_Testes_Filtros.csv`.
 
-A primeira célula de erro reportada pelo utilizador é `V06 Motor!G5`. A ausência de #VALOR! no seu Excel ainda precisa de confirmação; esta redução de volume não é uma correção nativa certificada.
+Trinta entradas foram transferidas para células canónicas nos painéis; os endereços antigos passaram a referenciar essas entradas. Quatro coeficientes residenciais antes fixos foram expostos como parâmetros, conservando exatamente a calibração original: ADR 225 EUR, ocupação inicial 58,1%, OPEX 35% e FF&E 4%. Esta ligação altera 48.960 expressões dos 68 motores ativos; o caso de referência permanece congelado. Todas as outras expressões dos motores e todos os valores iniciais foram preservados. Não se afirma que nenhuma fórmula financeira mudou: as quatro exposições são a alteração técnica necessária aos filtros pedidos.
+
+**Microsoft Excel 365: NOT TESTED nesta revisão.** Não existe Excel Desktop/Windows neste ambiente. O utilizador observou que o problema anterior parecia resolvido; isso não certifica a nova revisão. Execute `Excel365/Executar_Validacao.cmd` numa cópia Windows para registar abertura, ativar edição, recálculo, navegação, PDF, guardar e reabrir. Os cliques não acessíveis à API permanecem NOT TESTED até observação humana. Não se apresenta estado Recalculated com base apenas em cache ou data.
+
+**Logótipo original:** as imagens da conversa não chegaram como JPG/PNG acessível. Foi mantida **V06 Identidade**, para inserir o original diretamente no livro, e reservados espaços nos cabeçalhos. O script Windows pode copiar essa imagem incorporada para os cabeçalhos, preservando proporções; essa rotina continua NOT TESTED. Não se redesenhou nem substituiu o logótipo oficial por uma aproximação.
+
+SHA256 do master: `9866fbbf0b0f252848e0d3c45358f7f838e9832d7bfb2b390a59ce925ecb6fad`.

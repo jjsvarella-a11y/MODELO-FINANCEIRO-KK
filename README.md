@@ -1,17 +1,15 @@
 # KK-01 — Modelo Financeiro
 
-A revisão mais recente está em [`entregas/EFCC_Final`](entregas/EFCC_Final/README.md).
+A revisão atual está em [EFCC Final](entregas/EFCC_Final/README.md).
 
-- [Modelo EFCC candidato](entregas/EFCC_Final/KK01_V06_Executive_Master.xlsx)
-- [Pacote de entrega](entregas/EFCC_Final/KK01_EFCC_Entrega_Candidata.zip)
-- [Diagnóstico pequeno para Excel](entregas/EFCC_Final/Excel365/Diagnostico_Formulas_Excel365.xlsx)
-- [Teste Windows / Excel e logótipo](entregas/EFCC_Final/Excel365/LOGOTIPO.md)
-- [Relatório integral PT](entregas/EFCC_Final/PDF/PT/DASH_10_Integral_PT.pdf)
+- [Modelo V06](entregas/EFCC_Final/KK01_V06_Executive_Master.xlsx) — 36.3 MB, 190 folhas, dez dashboards com navegação e filtros no painel.
+- [Entrega completa](entregas/EFCC_Final/KK01_EFCC_Entrega_Candidata.zip).
+- [Testes por filtro e escolha](entregas/EFCC_Final/Matriz_Testes_Filtros.csv).
+- [Matriz de navegação](entregas/EFCC_Final/Matriz_Navegacao.csv).
+- [Relatório integral PT](entregas/EFCC_Final/PDF/PT/DASH_10_Integral_PT.pdf).
 
-**Microsoft Excel 365: NOT TESTED no ambiente de desenvolvimento.** Os testes independentes passaram, mas a eliminação dos `#VALOR!` ao ativar edição/reabrir ainda exige confirmação nativa. O diagnóstico compara fórmulas anteriores de construção/vendas com as versões escalares; os valores guardados não comprovam o cálculo.
+Valores ativos e entradas Custom guardadas são identificados separadamente no Hotel, no residencial e no desconto. Os filtros continuam ligados ao motor central. Base Case conserva a calibração Hotel de referência, atualmente Favorável.
 
-O modelo contém `V06 Identidade`, onde o utilizador pode inserir o JPG/PNG original através de Inserir → Imagens → Este dispositivo. Essa área não interfere nos cálculos.
+As 313 folhas V04 foram fisicamente retiradas do master; a [V04 original](entregas/Arquivo/V04/README.md) permanece preservada em arquivo separado. O logótipo original pode ser inserido em **V06 Identidade**.
 
-As revisões anteriores [V06](entregas/V06/README.md) e [DASH 10](entregas/V06_DASH10/README.md) foram preservadas.
-
-O master operacional contém agora apenas o V06: **179 folhas, 36,1 MB**, sem as 313 folhas V04 incorporadas. A [V04 original](entregas/Arquivo/V04/README.md) está preservada num arquivo separado. A remoção das folhas legadas não comprova a resolução dos #VALOR! no Excel 365.
+**Microsoft Excel 365: NOT TESTED nesta revisão.** O recálculo e as mutações são verificados com Python/LibreOffice. A observação do utilizador de que o erro anterior parecia resolvido não substitui a abertura, edição, recálculo e guardar/reabrir desta revisão no Excel. [Procedimento Windows](entregas/EFCC_Final/Excel365/LOGOTIPO.md).

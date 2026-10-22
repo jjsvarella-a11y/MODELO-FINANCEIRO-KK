@@ -20,3 +20,18 @@ Atualização solicitada pelo utilizador: executar `src/print_edge.py` e depois 
 Último passo de apresentação: executar `organise_tabs.py` sobre o master final antes de atualizar manifestos e empacotar. Preserva todos os componentes exceto a visibilidade no workbook.xml; mantém V06 Motor acessível para diagnóstico.
 
 Separação definitiva: após organizar a interface, executar `separate_legacy.py` sobre o master. O script conserva uma cópia binária da V04 em `entregas/Arquivo/V04`, audita dependências, elimina as 313 folhas legadas do ZIP e as partes inacessíveis, remove nomes locais antigos e atualiza propriedades. Executar novamente a auditoria e o recálculo independente antes de empacotar.
+
+
+## Revisão premium atual
+
+Os passos anteriores documentam a construção histórica. Não executar separação V04 novamente sobre o master atual.
+
+1. Recuperar a base estável: `git show 4111b2c:entregas/EFCC_Final/KK01_V06_Executive_Master.xlsx > /workspace/kk01_efcc/checkpoints/C1_Stable_4111b2c.xlsx`.
+2. Executar `premium_ui.py`, depois `premium_integrate.py`. A fonte estável é imutável. A integração conserva os nomes técnicos, liga 30 entradas canónicas e expõe quatro coeficientes residenciais com a calibração original. Não usar o master já modificado como base.
+3. Executar `validate_navigation.py` e `audit_ooxml.py` sobre o master.
+4. Executar `entregas/V06/src/recalculate.py` para `/workspace/kk01_efcc/premium_final_recalc`, seguido de `validate_final.py` sobre a saída e `validate_premium_bindings.py`.
+5. Executar `test_premium_controls.py` e `test_all_dashboard_filters.py` sequencialmente: partilham o laboratório privado. Ambos invalidam caches antes de recalcular. O segundo produz a matriz por escolha e testa todos os controlos expostos. `--verify-existing` só reavalia saídas já recalculadas, não substitui a execução inicial.
+6. Executar `export_premium.py` com PT recalculado atual e EN recalculado atual do teste Premium_EN. Inspecionar as 22 saídas, incluindo as duas matrizes VAL, percentagens e ano operacional.
+7. Atualizar os comprovativos de preservação/organização para o SHA atual, executar `write_premium_docs.py`, depois `package.py`.
+
+O código depende também dos módulos do repositório em `entregas/V06/src` e da base estável; o ZIP isolado não é um ambiente de reconstrução completo. Os PDFs são validação LibreOffice. Abertura, ativar edição, guardar/reabrir e cliques Excel 365 continuam NOT TESTED sem execução Windows.

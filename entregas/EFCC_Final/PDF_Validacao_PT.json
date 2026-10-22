@@ -1,83 +1,88 @@
 {
-  "platform": "LibreOffice",
-  "native_excel": "NOT TESTED",
-  "files": [
-    {
-      "file": "PDF/PT/DASH_01_PT.pdf",
-      "pages": 1,
-      "paper": "A4 landscape",
-      "width": 841.8897705078125,
-      "height": 595.303955078125
-    },
-    {
-      "file": "PDF/PT/DASH_02_PT.pdf",
-      "pages": 1,
-      "paper": "A4 landscape",
-      "width": 841.8897705078125,
-      "height": 595.303955078125
-    },
-    {
-      "file": "PDF/PT/DASH_03_PT.pdf",
-      "pages": 1,
-      "paper": "A4 landscape",
-      "width": 841.8897705078125,
-      "height": 595.303955078125
-    },
-    {
-      "file": "PDF/PT/DASH_04_PT.pdf",
-      "pages": 1,
-      "paper": "A4 landscape",
-      "width": 841.8897705078125,
-      "height": 595.303955078125
-    },
-    {
-      "file": "PDF/PT/DASH_05_PT.pdf",
-      "pages": 1,
-      "paper": "A4 landscape",
-      "width": 841.8897705078125,
-      "height": 595.303955078125
-    },
-    {
-      "file": "PDF/PT/DASH_06_PT.pdf",
-      "pages": 1,
-      "paper": "A4 landscape",
-      "width": 841.8897705078125,
-      "height": 595.303955078125
-    },
-    {
-      "file": "PDF/PT/DASH_07_PT.pdf",
-      "pages": 1,
-      "paper": "A4 landscape",
-      "width": 841.8897705078125,
-      "height": 595.303955078125
-    },
-    {
-      "file": "PDF/PT/DASH_08_PT.pdf",
-      "pages": 1,
-      "paper": "A4 landscape",
-      "width": 841.8897705078125,
-      "height": 595.303955078125
-    },
-    {
-      "file": "PDF/PT/DASH_09_PT.pdf",
-      "pages": 1,
-      "paper": "A4 landscape",
-      "width": 841.8897705078125,
-      "height": 595.303955078125
-    },
-    {
-      "file": "PDF/PT/DASH_10_Integral_PT.pdf",
-      "pages": 10,
-      "paper": "A4 portrait",
-      "width": 595.303955078125,
-      "height": 841.8897705078125
-    },
-    {
-      "file": "PDF/PT/Executive_Brief_PT.pdf",
-      "pages": 2,
-      "paper": "A4 portrait",
-      "width": 595.303955078125,
-      "height": 841.8897705078125
-    }
-  ]
+  "scope": "Superseded historical PDF test",
+  "historical": {
+    "platform": "LibreOffice",
+    "native_excel": "NOT TESTED",
+    "files": [
+      {
+        "file": "PDF/PT/DASH_01_PT.pdf",
+        "pages": 1,
+        "paper": "A4 landscape",
+        "width": 841.8897705078125,
+        "height": 595.303955078125
+      },
+      {
+        "file": "PDF/PT/DASH_02_PT.pdf",
+        "pages": 1,
+        "paper": "A4 landscape",
+        "width": 841.8897705078125,
+        "height": 595.303955078125
+      },
+      {
+        "file": "PDF/PT/DASH_03_PT.pdf",
+        "pages": 1,
+        "paper": "A4 landscape",
+        "width": 841.8897705078125,
+        "height": 595.303955078125
+      },
+      {
+        "file": "PDF/PT/DASH_04_PT.pdf",
+        "pages": 1,
+        "paper": "A4 landscape",
+        "width": 841.8897705078125,
+        "height": 595.303955078125
+      },
+      {
+        "file": "PDF/PT/DASH_05_PT.pdf",
+        "pages": 1,
+        "paper": "A4 landscape",
+        "width": 841.8897705078125,
+        "height": 595.303955078125
+      },
+      {
+        "file": "PDF/PT/DASH_06_PT.pdf",
+        "pages": 1,
+        "paper": "A4 landscape",
+        "width": 841.8897705078125,
+        "height": 595.303955078125
+      },
+      {
+        "file": "PDF/PT/DASH_07_PT.pdf",
+        "pages": 1,
+        "paper": "A4 landscape",
+        "width": 841.8897705078125,
+        "height": 595.303955078125
+      },
+      {
+        "file": "PDF/PT/DASH_08_PT.pdf",
+        "pages": 1,
+        "paper": "A4 landscape",
+        "width": 841.8897705078125,
+        "height": 595.303955078125
+      },
+      {
+        "file": "PDF/PT/DASH_09_PT.pdf",
+        "pages": 1,
+        "paper": "A4 landscape",
+        "width": 841.8897705078125,
+        "height": 595.303955078125
+      },
+      {
+        "file": "PDF/PT/DASH_10_Integral_PT.pdf",
+        "pages": 10,
+        "paper": "A4 portrait",
+        "width": 595.303955078125,
+        "height": 841.8897705078125
+      },
+      {
+        "file": "PDF/PT/Executive_Brief_PT.pdf",
+        "pages": 2,
+        "paper": "A4 portrait",
+        "width": 595.303955078125,
+        "height": 841.8897705078125
+      }
+    ]
+  },
+  "current_validation": "PDF_Premium.json",
+  "native_excel365": "NOT TESTED"
 }

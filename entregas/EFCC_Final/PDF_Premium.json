@@ -1,0 +1,127 @@
+{
+  "status": "PASS",
+  "platform": "LibreOffice",
+  "native_excel365": "NOT TESTED",
+  "files": [
+    {
+      "file": "PDF/PT/DASH_01_PT.pdf",
+      "pages": 1,
+      "paper": "A3 landscape"
+    },
+    {
+      "file": "PDF/PT/DASH_02_PT.pdf",
+      "pages": 1,
+      "paper": "A3 landscape"
+    },
+    {
+      "file": "PDF/PT/DASH_03_PT.pdf",
+      "pages": 1,
+      "paper": "A3 landscape"
+    },
+    {
+      "file": "PDF/PT/DASH_04_PT.pdf",
+      "pages": 1,
+      "paper": "A3 landscape"
+    },
+    {
+      "file": "PDF/PT/DASH_05_PT.pdf",
+      "pages": 1,
+      "paper": "A3 landscape"
+    },
+    {
+      "file": "PDF/PT/DASH_06_PT.pdf",
+      "pages": 1,
+      "paper": "A3 landscape"
+    },
+    {
+      "file": "PDF/PT/DASH_07_PT.pdf",
+      "pages": 1,
+      "paper": "A3 landscape"
+    },
+    {
+      "file": "PDF/PT/DASH_08_PT.pdf",
+      "pages": 1,
+      "paper": "A3 landscape"
+    },
+    {
+      "file": "PDF/PT/DASH_09_PT.pdf",
+      "pages": 1,
+      "paper": "A3 landscape"
+    },
+    {
+      "file": "PDF/PT/Executive_Brief_PT.pdf",
+      "pages": 2,
+      "paper": "A4 portrait"
+    },
+    {
+      "file": "PDF/PT/DASH_10_Integral_PT.pdf",
+      "pages": 10,
+      "paper": "A4 portrait"
+    },
+    {
+      "file": "PDF/EN/DASH_01_EN.pdf",
+      "pages": 1,
+      "paper": "A3 landscape"
+    },
+    {
+      "file": "PDF/EN/DASH_02_EN.pdf",
+      "pages": 1,
+      "paper": "A3 landscape"
+    },
+    {
+      "file": "PDF/EN/DASH_03_EN.pdf",
+      "pages": 1,
+      "paper": "A3 landscape"
+    },
+    {
+      "file": "PDF/EN/DASH_04_EN.pdf",
+      "pages": 1,
+      "paper": "A3 landscape"
+    },
+    {
+      "file": "PDF/EN/DASH_05_EN.pdf",
+      "pages": 1,
+      "paper": "A3 landscape"
+    },
+    {
+      "file": "PDF/EN/DASH_06_EN.pdf",
+      "pages": 1,
+      "paper": "A3 landscape"
+    },
+    {
+      "file": "PDF/EN/DASH_07_EN.pdf",
+      "pages": 1,
+      "paper": "A3 landscape"
+    },
+    {
+      "file": "PDF/EN/DASH_08_EN.pdf",
+      "pages": 1,
+      "paper": "A3 landscape"
+    },
+    {
+      "file": "PDF/EN/DASH_09_EN.pdf",
+      "pages": 1,
+      "paper": "A3 landscape"
+    },
+    {
+      "file": "PDF/EN/DASH_10_Integral_EN.pdf",
+      "pages": 10,
+      "paper": "A4 portrait"
+    },
+    {
+      "file": "PDF/EN/Executive_Brief_EN.pdf",
+      "pages": 2,
+      "paper": "A4 portrait"
+    }
+  ],
+  "text_bounds_check": {
+    "status": "PASS",
+    "pages": 42,
+    "text_spans_outside_page": 0
+  },
+  "decision_page": {
+    "status": "PASS",
+    "complete_and_brief": "PT and EN contain investor NPV / IRR / MOIC, project NPV and six existing financial outputs"
+  },
+  "visual_review": "Report/dashboard contact sheets and readable Hotel/report6/7/9 inspection; final decision page inspected separately. Native Excel NOT TESTED."
+}

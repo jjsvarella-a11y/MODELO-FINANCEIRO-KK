@@ -1,12 +1,8 @@
-﻿Teste;Estado
-Reprodução anterior (Python + LibreOffice);PASS
-Recálculo 69 cenários (LibreOffice);PASS
-Seletores (LibreOffice);17/17 PASS
-Verificações estruturais OOXML;PASS
-Excel 365 — abertura normal;NOT TESTED
-Excel 365 — recálculo completo;NOT TESTED
-Excel 365 — erro #VALOR! eliminado;NOT TESTED
-Excel 365 — guardar/reabrir;NOT TESTED
-Excel 365 — exportação PDF;NOT TESTED
-Área de inserção do logótipo no XLSX;PASS
-Sincronização nativa do logótipo;NOT TESTED
+﻿Teste;Estado;Plataforma
+Navegação estrutural;PASS;OOXML
+69 cenários e reconciliação;PASS;Python + LibreOffice
+Controlos premium;PASS;LibreOffice
+Todos os filtros e presets;PASS;LibreOffice
+Abertura, edição e recálculo Excel 365;NOT TESTED;Excel Desktop indisponível
+Cliques nativos, impressão e guardar/reabrir;NOT TESTED;Exige Excel Windows
+Logótipo original incorporado;PENDENTE;Inserção pelo utilizador em V06 Identidade

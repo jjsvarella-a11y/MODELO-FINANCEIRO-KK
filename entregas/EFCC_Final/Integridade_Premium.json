@@ -1,0 +1,252 @@
+{
+  "status": "PASS",
+  "source_sha256": "d48e89c5ebef86ba9c77686aae8e6ee824eab2e70faf92f957c7336302be4146",
+  "sha256": "9866fbbf0b0f252848e0d3c45358f7f838e9832d7bfb2b390a59ce925ecb6fad",
+  "worksheets": 190,
+  "legacy_v04_sheets": 0,
+  "original_engine_formulas_preserved": 1689840,
+  "residential_coefficient_exposures": 48960,
+  "active_engines_with_direct_residential_controls": 68,
+  "all_existing_engine_caches_unchanged": true,
+  "frozen_reference_engine_unchanged_except_discreet_home_link": true,
+  "canonical_input_transfers": [
+    {
+      "source_sheet": "V06 Controlos",
+      "source_cell": "B38",
+      "destination_sheet": "DASH 01 V06",
+      "destination_cell": "H23",
+      "value": 0
+    },
+    {
+      "source_sheet": "V06 Controlos",
+      "source_cell": "B39",
+      "destination_sheet": "DASH 01 V06",
+      "destination_cell": "N23",
+      "value": 0
+    },
+    {
+      "source_sheet": "V06 Controlos",
+      "source_cell": "B75",
+      "destination_sheet": "DASH 01 V06",
+      "destination_cell": "H25",
+      "value": 0
+    },
+    {
+      "source_sheet": "V06 Controlos",
+      "source_cell": "B9",
+      "destination_sheet": "DASH 02 V06",
+      "destination_cell": "H23",
+      "value": 0.2
+    },
+    {
+      "source_sheet": "V06 Controlos",
+      "source_cell": "B6",
+      "destination_sheet": "DASH 02 V06",
+      "destination_cell": "N23",
+      "value": 0.15
+    },
+    {
+      "source_sheet": "V06 Controlos",
+      "source_cell": "B8",
+      "destination_sheet": "DASH 02 V06",
+      "destination_cell": "H25",
+      "value": 6
+    },
+    {
+      "source_sheet": "V06 Controlos",
+      "source_cell": "B10",
+      "destination_sheet": "DASH 02 V06",
+      "destination_cell": "N25",
+      "value": 0
+    },
+    {
+      "source_sheet": "V06 Controlos",
+      "source_cell": "B41",
+      "destination_sheet": "DASH 03 V06",
+      "destination_cell": "H23",
+      "value": 0.06
+    },
+    {
+      "source_sheet": "V06 Controlos",
+      "source_cell": "B42",
+      "destination_sheet": "DASH 03 V06",
+      "destination_cell": "N23",
+      "value": 42
+    },
+    {
+      "source_sheet": "V06 Controlos",
+      "source_cell": "B43",
+      "destination_sheet": "DASH 03 V06",
+      "destination_cell": "H25",
+      "value": 120
+    },
+    {
+      "source_sheet": "V06 Controlos",
+      "source_cell": "B44",
+      "destination_sheet": "DASH 03 V06",
+      "destination_cell": "N25",
+      "value": 1
+    },
+    {
+      "source_sheet": "V06 Controlos",
+      "source_cell": "B37",
+      "destination_sheet": "DASH 04A V06",
+      "destination_cell": "H23",
+      "value": 0
+    },
+    {
+      "source_sheet": "V06 Controlos",
+      "source_cell": "B72",
+      "destination_sheet": "DASH 04B V06",
+      "destination_cell": "H27",
+      "value": 0.0425
+    },
+    {
+      "source_sheet": "V06 Controlos",
+      "source_cell": "B73",
+      "destination_sheet": "DASH 04B V06",
+      "destination_cell": "N23",
+      "value": 0.0025
+    },
+    {
+      "source_sheet": "V06 Controlos",
+      "source_cell": "B68",
+      "destination_sheet": "DASH 05 V06",
+      "destination_cell": "H29",
+      "value": 0.03
+    },
+    {
+      "source_sheet": "V06 Controlos",
+      "source_cell": "B70",
+      "destination_sheet": "DASH 05 V06",
+      "destination_cell": "H30",
+      "value": 0.06
+    },
+    {
+      "source_sheet": "V06 Controlos",
+      "source_cell": "B69",
+      "destination_sheet": "DASH 05 V06",
+      "destination_cell": "N32",
+      "value": 0.03
+    },
+    {
+      "source_sheet": "V06 Controlos",
+      "source_cell": "B35",
+      "destination_sheet": "DASH 06 V06",
+      "destination_cell": "H23",
+      "value": 0
+    },
+    {
+      "source_sheet": "V06 Controlos",
+      "source_cell": "B36",
+      "destination_sheet": "DASH 06 V06",
+      "destination_cell": "N23",
+      "value": 1
+    },
+    {
+      "source_sheet": "V06 Controlos",
+      "source_cell": "B57",
+      "destination_sheet": "DASH 07 V06",
+      "destination_cell": "N23",
+      "value": "Auto"
+    },
+    {
+      "source_sheet": "V06 Controlos",
+      "source_cell": "B62",
+      "destination_sheet": "DASH 07 V06",
+      "destination_cell": "H25",
+      "value": 12
+    },
+    {
+      "source_sheet": "V06 Controlos",
+      "source_cell": "B65",
+      "destination_sheet": "DASH 07 V06",
+      "destination_cell": "N25",
+      "value": 0.12
+    },
+    {
+      "source_sheet": "V06 Controlos",
+      "source_cell": "B61",
+      "destination_sheet": "DASH 07 V06",
+      "destination_cell": "H27",
+      "value": 0.5
+    },
+    {
+      "source_sheet": "V06 Controlos",
+      "source_cell": "B58",
+      "destination_sheet": "DASH 07 V06",
+      "destination_cell": "N27",
+      "value": 1.2
+    },
+    {
+      "source_sheet": "V06 Matriz ADR",
+      "source_cell": "F3",
+      "destination_sheet": "DASH 07 V06",
+      "destination_cell": "H29",
+      "value": "12%"
+    },
+    {
+      "source_sheet": "V06 Controlos",
+      "source_cell": "B5",
+      "destination_sheet": "DASH 10 Centro",
+      "destination_cell": "H7",
+      "value": "PT"
+    },
+    {
+      "source_sheet": "V06 Hipoteses",
+      "source_cell": "D26",
+      "destination_sheet": "DASH 10 Centro",
+      "destination_cell": "H11",
+      "value": "Complete Report"
+    },
+    {
+      "source_sheet": "V06 Hipoteses",
+      "source_cell": "D27",
+      "destination_sheet": "DASH 10 Centro",
+      "destination_cell": "N11",
+      "value": "Active Scenario"
+    },
+    {
+      "source_sheet": "V06 Hipoteses",
+      "source_cell": "D28",
+      "destination_sheet": "DASH 10 Centro",
+      "destination_cell": "H15",
+      "value": "2026-10-22"
+    },
+    {
+      "source_sheet": "V06 Hipoteses",
+      "source_cell": "D29",
+      "destination_sheet": "DASH 10 Centro",
+      "destination_cell": "N15",
+      "value": "EFCC-20261022-01"
+    }
+  ],
+  "new_residential_controls": [
+    {
+      "key": "res_adr",
+      "sheet": "DASH 04B V06",
+      "cell": "N27",
+      "value": 225
+    },
+    {
+      "key": "res_occ",
+      "sheet": "DASH 04B V06",
+      "cell": "H29",
+      "value": 0.581
+    },
+    {
+      "key": "res_cost",
+      "sheet": "DASH 04B V06",
+      "cell": "N29",
+      "value": 0.35
+    },
+    {
+      "key": "res_ffe",
+      "sheet": "DASH 04B V06",
+      "cell": "N31",
+      "value": 0.04
+    }
+  ],
+  "native_excel365": "NOT TESTED",
+  "native_logo_bytes_available": false
+}

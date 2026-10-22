@@ -326,5 +326,9 @@
   "archive_sha256": "be8288ced2494ef31c2dbe1d31d77b8277a0753a1209a8df0a83c3a5d86dcdc0",
   "original_v04_byte_for_byte_preserved": true,
   "sha256": "d48e89c5ebef86ba9c77686aae8e6ee824eab2e70faf92f957c7336302be4146",
-  "native_excel365": "NOT TESTED"
+  "native_excel365": "NOT TESTED",
+  "scope": "Historical base proof; current premium follow-up is documented separately.",
+  "current_premium_integrity": "Integridade_Premium.json",
+  "current_input_locations": "Parametros_Interface.json",
+  "current_sha256": "9866fbbf0b0f252848e0d3c45358f7f838e9832d7bfb2b390a59ce925ecb6fad"
 }

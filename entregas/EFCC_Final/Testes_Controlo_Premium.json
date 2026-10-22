@@ -1,0 +1,200 @@
+{
+  "status": "PASS",
+  "platform": "LibreOffice, cache-invalidated private mutation labs",
+  "native_excel365": "NOT TESTED",
+  "private_lab_scope": "Unrelated scenario branches frozen and removed only in private labs; production keeps every financial formula.",
+  "tests": [
+    {
+      "test": "FFE_3",
+      "status": "PASS",
+      "evidence": {
+        "npv": -8878944.17434597,
+        "cash30": 9486927.78068434,
+        "div54": 2827481.65743494,
+        "operator_fees": 22441070.4980964,
+        "canonical_front_panel_mutated": true
+      }
+    },
+    {
+      "test": "Hotel_Custom",
+      "status": "PASS",
+      "evidence": {
+        "npv": -10203553.6584507,
+        "cash30": 9486927.78068434,
+        "div54": 2444751.58852627,
+        "operator_fees": 21563302.0747953,
+        "expected_full_scenario": "ADR 200 Occ 65%",
+        "canonical_front_panel_mutated": true
+      }
+    },
+    {
+      "test": "MICE_55",
+      "status": "PASS",
+      "evidence": {
+        "npv": -9303664.98164517,
+        "cash30": 9486927.78068434,
+        "div54": 2566088.49774819,
+        "operator_fees": 23038885.9007096,
+        "canonical_front_panel_mutated": true
+      }
+    },
+    {
+      "test": "Hotel_Optimized",
+      "status": "PASS",
+      "evidence": {
+        "npv": -8015019.49144102,
+        "cash30": 9486927.78068434,
+        "div54": 2849122.86283544,
+        "operator_fees": 14707388.3800797,
+        "expected_full_scenario": "Hotel KK Optimized",
+        "canonical_front_panel_mutated": true
+      }
+    },
+    {
+      "test": "Residential_Optimized",
+      "status": "PASS",
+      "evidence": {
+        "npv": -9551821.55693732,
+        "cash30": 9486927.78068434,
+        "div54": 2542811.67276117,
+        "operator_fees": 22441070.4980964,
+        "expected_full_scenario": "Residential KK Optimized",
+        "canonical_front_panel_mutated": true
+      }
+    },
+    {
+      "test": "Reserve_Conservative",
+      "status": "PASS",
+      "evidence": {
+        "npv": -9606482.8629248,
+        "cash30": 10484291.5188488,
+        "div54": 2519840.75043494,
+        "operator_fees": 22441070.4980964,
+        "expected_full_scenario": "Reserve Conservative",
+        "canonical_front_panel_mutated": true
+      }
+    },
+    {
+      "test": "Premium_ResADR",
+      "status": "PASS",
+      "evidence": {
+        "npv": -9513793.4442541,
+        "cash30": 9486927.78068434,
+        "div54": 2555701.46909239,
+        "operator_fees": 22441070.4980964,
+        "canonical_front_panel_mutated": true
+      }
+    },
+    {
+      "test": "Premium_EN",
+      "status": "PASS",
+      "evidence": {
+        "npv": -9604777.39034361,
+        "cash30": 9486927.78068434,
+        "div54": 2519840.75043494,
+        "operator_fees": 22441070.4980964,
+        "unchanged_engine_values": 25200,
+        "canonical_front_panel_mutated": true
+      }
+    },
+    {
+      "test": "Interest_8",
+      "status": "PASS",
+      "evidence": {
+        "npv": -9624871.53077473,
+        "cash30": 9465391.54603523,
+        "div54": 2519840.75043494,
+        "operator_fees": 22441070.4980964,
+        "expected_full_scenario": "Interest 8%",
+        "canonical_front_panel_mutated": true
+      }
+    },
+    {
+      "test": "Premium_ResOPEX",
+      "status": "PASS",
+      "evidence": {
+        "npv": -9790371.88112546,
+        "cash30": 9486927.78068434,
+        "div54": 2443873.46819999,
+        "operator_fees": 22441070.4980964,
+        "canonical_front_panel_mutated": true
+      }
+    },
+    {
+      "test": "Premium_ResOccupancy",
+      "status": "PASS",
+      "evidence": {
+        "npv": -9594324.04618998,
+        "cash30": 9486927.78068434,
+        "div54": 2545136.64305314,
+        "operator_fees": 22441070.4980964,
+        "canonical_front_panel_mutated": true
+      }
+    },
+    {
+      "test": "Premium_ResFFE",
+      "status": "PASS",
+      "evidence": {
+        "npv": -9641230.57201072,
+        "cash30": 9486927.78068434,
+        "div54": 2504526.80221745,
+        "operator_fees": 22441070.4980964,
+        "canonical_front_panel_mutated": true
+      }
+    },
+    {
+      "test": "Premium_SelectedYear",
+      "status": "PASS",
+      "evidence": {
+        "npv": -9604777.39034361,
+        "cash30": 9486927.78068434,
+        "div54": 2519840.75043494,
+        "operator_fees": 22441070.4980964,
+        "canonical_front_panel_mutated": true
+      }
+    },
+    {
+      "test": "Premium_ReportBrief",
+      "status": "PASS",
+      "evidence": {
+        "npv": -9604777.39034361,
+        "cash30": 9486927.78068434,
+        "div54": 2519840.75043494,
+        "operator_fees": 22441070.4980964,
+        "canonical_front_panel_mutated": true
+      }
+    },
+    {
+      "test": "Premium_ReportReference",
+      "status": "PASS",
+      "evidence": {
+        "npv": -9624871.53077473,
+        "cash30": 9465391.54603523,
+        "div54": 2519840.75043494,
+        "operator_fees": 22441070.4980964,
+        "canonical_front_panel_mutated": true
+      }
+    },
+    {
+      "test": "Premium_ReportComplete",
+      "status": "PASS",
+      "evidence": {
+        "npv": -9604777.39034361,
+        "cash30": 9486927.78068434,
+        "div54": 2519840.75043494,
+        "operator_fees": 22441070.4980964,
+        "canonical_front_panel_mutated": true
+      }
+    }
+  ],
+  "selected_year_report_checks": "Hotel UI, PDF07, report page6 ADR/occupancy/revenue/EBITDA",
+  "report_refresh": {
+    "tests": [
+      "Premium_ReportReference",
+      "Premium_EN",
+      "Premium_SelectedYear"
+    ],
+    "source_sha256": "9866fbbf0b0f252848e0d3c45358f7f838e9832d7bfb2b390a59ce925ecb6fad",
+    "reason": "Final decision page now includes existing financial outputs; no engine or control mapping changes."
+  }
+}

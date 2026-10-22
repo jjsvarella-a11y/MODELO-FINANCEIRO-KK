@@ -1,0 +1,8 @@
+{
+  "formats_checked": 63,
+  "status": "PASS",
+  "platform": "LibreOffice independent full recalculation and Python source values",
+  "native_excel365": "NOT TESTED",
+  "numeric_and_text_bindings_checked": 227,
+  "differences": []
+}

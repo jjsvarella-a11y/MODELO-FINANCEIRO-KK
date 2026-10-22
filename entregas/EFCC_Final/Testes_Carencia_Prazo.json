@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "baseline": "Filter_10_0: cash sweep disabled; only grace/tenor differ",
+  "tests": [
+    {
+      "test": "Filter_BankTenor",
+      "status": "PASS",
+      "evidence": {
+        "npv": -12476965.5471219,
+        "cash30": 24898166.8225935,
+        "div54": 0.0,
+        "operator_fees": 22441070.4980964
+      },
+      "engine_cells_changed_relative_to_same_no_sweep_scenario": 2700
+    },
+    {
+      "test": "Filter_BankGrace",
+      "status": "PASS",
+      "evidence": {
+        "npv": -12480168.6648067,
+        "cash30": 24898166.8225935,
+        "div54": 0.0,
+        "operator_fees": 22441070.4980964
+      },
+      "engine_cells_changed_relative_to_same_no_sweep_scenario": 2580
+    }
+  ],
+  "native_excel365": "NOT TESTED"
+}

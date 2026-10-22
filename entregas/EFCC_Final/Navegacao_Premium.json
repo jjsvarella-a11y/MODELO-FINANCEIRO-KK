@@ -1,0 +1,5105 @@
+[
+  {
+    "origin_sheet": "EXEC V06",
+    "origin_cell": "N2",
+    "destination_sheet": "V06 Identidade",
+    "destination_cell": "B8",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Logótipo original",
+    "EN": "Original logo"
+  },
+  {
+    "origin_sheet": "EXEC V06",
+    "origin_cell": "B5",
+    "destination_sheet": "DASH 10 Centro",
+    "destination_cell": "H7",
+    "type": "Excel internal HYPERLINK",
+    "PT": "PT | EN ▾",
+    "EN": "PT | EN ▾"
+  },
+  {
+    "origin_sheet": "EXEC V06",
+    "origin_cell": "B6",
+    "destination_sheet": "DASH 10 Centro",
+    "destination_cell": "E21",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Menu de navegação",
+    "EN": "Navigation menu"
+  },
+  {
+    "origin_sheet": "EXEC V06",
+    "origin_cell": "E5",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "Excel internal HYPERLINK",
+    "PT": "⌂ Início",
+    "EN": "⌂ Home"
+  },
+  {
+    "origin_sheet": "EXEC V06",
+    "origin_cell": "H5",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "H23",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Parâmetros ▾",
+    "EN": "Assumptions ▾"
+  },
+  {
+    "origin_sheet": "EXEC V06",
+    "origin_cell": "K5",
+    "destination_sheet": "DASH 10 Centro",
+    "destination_cell": "A1",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Relatório 10",
+    "EN": "Report 10"
+  },
+  {
+    "origin_sheet": "EXEC V06",
+    "origin_cell": "N5",
+    "destination_sheet": "V06 PDF 01",
+    "destination_cell": "A1",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Imprimir / PDF",
+    "EN": "Print / PDF"
+  },
+  {
+    "origin_sheet": "EXEC V06",
+    "origin_cell": "B8",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "sidebar",
+    "PT": "Dashboard Executivo",
+    "EN": "Executive Dashboard"
+  },
+  {
+    "origin_sheet": "EXEC V06",
+    "origin_cell": "B13",
+    "destination_sheet": "DASH 01 V06",
+    "destination_cell": "A1",
+    "type": "sidebar",
+    "PT": "Investimento e Orçamento de Construção",
+    "EN": "Investment & Construction Budget"
+  },
+  {
+    "origin_sheet": "EXEC V06",
+    "origin_cell": "B18",
+    "destination_sheet": "DASH 02 V06",
+    "destination_cell": "A1",
+    "type": "sidebar",
+    "PT": "Fiscalidade, Incentivos e Seguros",
+    "EN": "Taxation, Incentives & Insurance"
+  },
+  {
+    "origin_sheet": "EXEC V06",
+    "origin_cell": "B23",
+    "destination_sheet": "DASH 03 V06",
+    "destination_cell": "A1",
+    "type": "sidebar",
+    "PT": "Desempenho Financeiro Consolidado",
+    "EN": "Consolidated Financial Performance"
+  },
+  {
+    "origin_sheet": "EXEC V06",
+    "origin_cell": "B28",
+    "destination_sheet": "DASH 04A V06",
+    "destination_cell": "A1",
+    "type": "sidebar",
+    "PT": "Promoção e Comercialização Imobiliária",
+    "EN": "Real Estate Development & Sales"
+  },
+  {
+    "origin_sheet": "EXEC V06",
+    "origin_cell": "B33",
+    "destination_sheet": "DASH 04B V06",
+    "destination_cell": "A1",
+    "type": "sidebar",
+    "PT": "Exploração Residencial e Sell & Leaseback",
+    "EN": "Residential Operations & Sell & Leaseback"
+  },
+  {
+    "origin_sheet": "EXEC V06",
+    "origin_cell": "B38",
+    "destination_sheet": "DASH 05 V06",
+    "destination_cell": "A1",
+    "type": "sidebar",
+    "PT": "Exploração Hoteleira e Centro MICE",
+    "EN": "Hotel & MICE Operations"
+  },
+  {
+    "origin_sheet": "EXEC V06",
+    "origin_cell": "B43",
+    "destination_sheet": "DASH 06 V06",
+    "destination_cell": "A1",
+    "type": "sidebar",
+    "PT": "Estrutura Acionista e Blocos de Investimento",
+    "EN": "Shareholding & Investment Blocks"
+  },
+  {
+    "origin_sheet": "EXEC V06",
+    "origin_cell": "B48",
+    "destination_sheet": "DASH 07 V06",
+    "destination_cell": "A1",
+    "type": "sidebar",
+    "PT": "Rentabilidade dos Acionistas e Distribuições",
+    "EN": "Equity Returns & Distributions"
+  },
+  {
+    "origin_sheet": "EXEC V06",
+    "origin_cell": "B53",
+    "destination_sheet": "DASH 10 Centro",
+    "destination_cell": "A1",
+    "type": "sidebar",
+    "PT": "Relatório Executivo Consolidado de Viabilidade e Investimento",
+    "EN": "Consolidated Investment & Feasibility Report"
+  },
+  {
+    "origin_sheet": "EXEC V06",
+    "origin_cell": "B60",
+    "destination_sheet": "V06 Identidade",
+    "destination_cell": "B8",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Inserir logótipo original",
+    "EN": "Insert original logo"
+  },
+  {
+    "origin_sheet": "EXEC V06",
+    "origin_cell": "H7",
+    "destination_sheet": "V06 Dicionario",
+    "destination_cell": "A4",
+    "type": "Excel internal HYPERLINK",
+    "PT": "ⓘ",
+    "EN": "ⓘ"
+  },
+  {
+    "origin_sheet": "EXEC V06",
+    "origin_cell": "L7",
+    "destination_sheet": "V06 Dicionario",
+    "destination_cell": "A4",
+    "type": "Excel internal HYPERLINK",
+    "PT": "ⓘ",
+    "EN": "ⓘ"
+  },
+  {
+    "origin_sheet": "EXEC V06",
+    "origin_cell": "P7",
+    "destination_sheet": "V06 Dicionario",
+    "destination_cell": "A4",
+    "type": "Excel internal HYPERLINK",
+    "PT": "ⓘ",
+    "EN": "ⓘ"
+  },
+  {
+    "origin_sheet": "EXEC V06",
+    "origin_cell": "H13",
+    "destination_sheet": "V06 Dicionario",
+    "destination_cell": "A4",
+    "type": "Excel internal HYPERLINK",
+    "PT": "ⓘ",
+    "EN": "ⓘ"
+  },
+  {
+    "origin_sheet": "EXEC V06",
+    "origin_cell": "L13",
+    "destination_sheet": "V06 Dicionario",
+    "destination_cell": "A4",
+    "type": "Excel internal HYPERLINK",
+    "PT": "ⓘ",
+    "EN": "ⓘ"
+  },
+  {
+    "origin_sheet": "EXEC V06",
+    "origin_cell": "P13",
+    "destination_sheet": "V06 Dicionario",
+    "destination_cell": "A4",
+    "type": "Excel internal HYPERLINK",
+    "PT": "ⓘ",
+    "EN": "ⓘ"
+  },
+  {
+    "origin_sheet": "EXEC V06",
+    "origin_cell": "E23",
+    "destination_sheet": "DASH 03 V06",
+    "destination_cell": "H23",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Juro anual →",
+    "EN": "Annual interest →"
+  },
+  {
+    "origin_sheet": "EXEC V06",
+    "origin_cell": "K23",
+    "destination_sheet": "DASH 07 V06",
+    "destination_cell": "N25",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Desconto Custom →",
+    "EN": "Custom discount →"
+  },
+  {
+    "origin_sheet": "EXEC V06",
+    "origin_cell": "E37",
+    "destination_sheet": "V06 Hipoteses",
+    "destination_cell": "A4",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Consultar detalhe →",
+    "EN": "Open detail →"
+  },
+  {
+    "origin_sheet": "EXEC V06",
+    "origin_cell": "K37",
+    "destination_sheet": "V06 Dicionario",
+    "destination_cell": "A4",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Definições e bases KPI →",
+    "EN": "KPI definitions and bases →"
+  },
+  {
+    "origin_sheet": "EXEC V06",
+    "origin_cell": "E89",
+    "destination_sheet": "DASH 10 Centro",
+    "destination_cell": "A1",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Relatório consolidado →",
+    "EN": "Consolidated report →"
+  },
+  {
+    "origin_sheet": "EXEC V06",
+    "origin_cell": "K89",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "Excel internal HYPERLINK",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "DASH 01 V06",
+    "origin_cell": "N2",
+    "destination_sheet": "V06 Identidade",
+    "destination_cell": "B8",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Logótipo original",
+    "EN": "Original logo"
+  },
+  {
+    "origin_sheet": "DASH 01 V06",
+    "origin_cell": "B5",
+    "destination_sheet": "DASH 10 Centro",
+    "destination_cell": "H7",
+    "type": "Excel internal HYPERLINK",
+    "PT": "PT | EN ▾",
+    "EN": "PT | EN ▾"
+  },
+  {
+    "origin_sheet": "DASH 01 V06",
+    "origin_cell": "B6",
+    "destination_sheet": "DASH 10 Centro",
+    "destination_cell": "E21",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Menu de navegação",
+    "EN": "Navigation menu"
+  },
+  {
+    "origin_sheet": "DASH 01 V06",
+    "origin_cell": "E5",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "Excel internal HYPERLINK",
+    "PT": "⌂ Início",
+    "EN": "⌂ Home"
+  },
+  {
+    "origin_sheet": "DASH 01 V06",
+    "origin_cell": "H5",
+    "destination_sheet": "DASH 01 V06",
+    "destination_cell": "H23",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Parâmetros ▾",
+    "EN": "Assumptions ▾"
+  },
+  {
+    "origin_sheet": "DASH 01 V06",
+    "origin_cell": "K5",
+    "destination_sheet": "DASH 10 Centro",
+    "destination_cell": "A1",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Relatório 10",
+    "EN": "Report 10"
+  },
+  {
+    "origin_sheet": "DASH 01 V06",
+    "origin_cell": "N5",
+    "destination_sheet": "V06 PDF 02",
+    "destination_cell": "A1",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Imprimir / PDF",
+    "EN": "Print / PDF"
+  },
+  {
+    "origin_sheet": "DASH 01 V06",
+    "origin_cell": "B8",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "sidebar",
+    "PT": "Dashboard Executivo",
+    "EN": "Executive Dashboard"
+  },
+  {
+    "origin_sheet": "DASH 01 V06",
+    "origin_cell": "B13",
+    "destination_sheet": "DASH 01 V06",
+    "destination_cell": "A1",
+    "type": "sidebar",
+    "PT": "Investimento e Orçamento de Construção",
+    "EN": "Investment & Construction Budget"
+  },
+  {
+    "origin_sheet": "DASH 01 V06",
+    "origin_cell": "B18",
+    "destination_sheet": "DASH 02 V06",
+    "destination_cell": "A1",
+    "type": "sidebar",
+    "PT": "Fiscalidade, Incentivos e Seguros",
+    "EN": "Taxation, Incentives & Insurance"
+  },
+  {
+    "origin_sheet": "DASH 01 V06",
+    "origin_cell": "B23",
+    "destination_sheet": "DASH 03 V06",
+    "destination_cell": "A1",
+    "type": "sidebar",
+    "PT": "Desempenho Financeiro Consolidado",
+    "EN": "Consolidated Financial Performance"
+  },
+  {
+    "origin_sheet": "DASH 01 V06",
+    "origin_cell": "B28",
+    "destination_sheet": "DASH 04A V06",
+    "destination_cell": "A1",
+    "type": "sidebar",
+    "PT": "Promoção e Comercialização Imobiliária",
+    "EN": "Real Estate Development & Sales"
+  },
+  {
+    "origin_sheet": "DASH 01 V06",
+    "origin_cell": "B33",
+    "destination_sheet": "DASH 04B V06",
+    "destination_cell": "A1",
+    "type": "sidebar",
+    "PT": "Exploração Residencial e Sell & Leaseback",
+    "EN": "Residential Operations & Sell & Leaseback"
+  },
+  {
+    "origin_sheet": "DASH 01 V06",
+    "origin_cell": "B38",
+    "destination_sheet": "DASH 05 V06",
+    "destination_cell": "A1",
+    "type": "sidebar",
+    "PT": "Exploração Hoteleira e Centro MICE",
+    "EN": "Hotel & MICE Operations"
+  },
+  {
+    "origin_sheet": "DASH 01 V06",
+    "origin_cell": "B43",
+    "destination_sheet": "DASH 06 V06",
+    "destination_cell": "A1",
+    "type": "sidebar",
+    "PT": "Estrutura Acionista e Blocos de Investimento",
+    "EN": "Shareholding & Investment Blocks"
+  },
+  {
+    "origin_sheet": "DASH 01 V06",
+    "origin_cell": "B48",
+    "destination_sheet": "DASH 07 V06",
+    "destination_cell": "A1",
+    "type": "sidebar",
+    "PT": "Rentabilidade dos Acionistas e Distribuições",
+    "EN": "Equity Returns & Distributions"
+  },
+  {
+    "origin_sheet": "DASH 01 V06",
+    "origin_cell": "B53",
+    "destination_sheet": "DASH 10 Centro",
+    "destination_cell": "A1",
+    "type": "sidebar",
+    "PT": "Relatório Executivo Consolidado de Viabilidade e Investimento",
+    "EN": "Consolidated Investment & Feasibility Report"
+  },
+  {
+    "origin_sheet": "DASH 01 V06",
+    "origin_cell": "B60",
+    "destination_sheet": "V06 Identidade",
+    "destination_cell": "B8",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Inserir logótipo original",
+    "EN": "Insert original logo"
+  },
+  {
+    "origin_sheet": "DASH 01 V06",
+    "origin_cell": "H7",
+    "destination_sheet": "V06 Dicionario",
+    "destination_cell": "A4",
+    "type": "Excel internal HYPERLINK",
+    "PT": "ⓘ",
+    "EN": "ⓘ"
+  },
+  {
+    "origin_sheet": "DASH 01 V06",
+    "origin_cell": "L7",
+    "destination_sheet": "V06 Dicionario",
+    "destination_cell": "A4",
+    "type": "Excel internal HYPERLINK",
+    "PT": "ⓘ",
+    "EN": "ⓘ"
+  },
+  {
+    "origin_sheet": "DASH 01 V06",
+    "origin_cell": "P7",
+    "destination_sheet": "V06 Dicionario",
+    "destination_cell": "A4",
+    "type": "Excel internal HYPERLINK",
+    "PT": "ⓘ",
+    "EN": "ⓘ"
+  },
+  {
+    "origin_sheet": "DASH 01 V06",
+    "origin_cell": "H13",
+    "destination_sheet": "V06 Dicionario",
+    "destination_cell": "A4",
+    "type": "Excel internal HYPERLINK",
+    "PT": "ⓘ",
+    "EN": "ⓘ"
+  },
+  {
+    "origin_sheet": "DASH 01 V06",
+    "origin_cell": "L13",
+    "destination_sheet": "V06 Dicionario",
+    "destination_cell": "A4",
+    "type": "Excel internal HYPERLINK",
+    "PT": "ⓘ",
+    "EN": "ⓘ"
+  },
+  {
+    "origin_sheet": "DASH 01 V06",
+    "origin_cell": "P13",
+    "destination_sheet": "V06 Dicionario",
+    "destination_cell": "A4",
+    "type": "Excel internal HYPERLINK",
+    "PT": "ⓘ",
+    "EN": "ⓘ"
+  },
+  {
+    "origin_sheet": "DASH 01 V06",
+    "origin_cell": "E37",
+    "destination_sheet": "V06 Capitulos",
+    "destination_cell": "A4",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Consultar detalhe →",
+    "EN": "Open detail →"
+  },
+  {
+    "origin_sheet": "DASH 01 V06",
+    "origin_cell": "K37",
+    "destination_sheet": "V06 Dicionario",
+    "destination_cell": "A4",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Definições e bases KPI →",
+    "EN": "KPI definitions and bases →"
+  },
+  {
+    "origin_sheet": "DASH 01 V06",
+    "origin_cell": "E89",
+    "destination_sheet": "DASH 10 Centro",
+    "destination_cell": "A1",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Relatório consolidado →",
+    "EN": "Consolidated report →"
+  },
+  {
+    "origin_sheet": "DASH 01 V06",
+    "origin_cell": "K89",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "Excel internal HYPERLINK",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "DASH 02 V06",
+    "origin_cell": "N2",
+    "destination_sheet": "V06 Identidade",
+    "destination_cell": "B8",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Logótipo original",
+    "EN": "Original logo"
+  },
+  {
+    "origin_sheet": "DASH 02 V06",
+    "origin_cell": "B5",
+    "destination_sheet": "DASH 10 Centro",
+    "destination_cell": "H7",
+    "type": "Excel internal HYPERLINK",
+    "PT": "PT | EN ▾",
+    "EN": "PT | EN ▾"
+  },
+  {
+    "origin_sheet": "DASH 02 V06",
+    "origin_cell": "B6",
+    "destination_sheet": "DASH 10 Centro",
+    "destination_cell": "E21",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Menu de navegação",
+    "EN": "Navigation menu"
+  },
+  {
+    "origin_sheet": "DASH 02 V06",
+    "origin_cell": "E5",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "Excel internal HYPERLINK",
+    "PT": "⌂ Início",
+    "EN": "⌂ Home"
+  },
+  {
+    "origin_sheet": "DASH 02 V06",
+    "origin_cell": "H5",
+    "destination_sheet": "DASH 02 V06",
+    "destination_cell": "H23",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Parâmetros ▾",
+    "EN": "Assumptions ▾"
+  },
+  {
+    "origin_sheet": "DASH 02 V06",
+    "origin_cell": "K5",
+    "destination_sheet": "DASH 10 Centro",
+    "destination_cell": "A1",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Relatório 10",
+    "EN": "Report 10"
+  },
+  {
+    "origin_sheet": "DASH 02 V06",
+    "origin_cell": "N5",
+    "destination_sheet": "V06 PDF 03",
+    "destination_cell": "A1",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Imprimir / PDF",
+    "EN": "Print / PDF"
+  },
+  {
+    "origin_sheet": "DASH 02 V06",
+    "origin_cell": "B8",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "sidebar",
+    "PT": "Dashboard Executivo",
+    "EN": "Executive Dashboard"
+  },
+  {
+    "origin_sheet": "DASH 02 V06",
+    "origin_cell": "B13",
+    "destination_sheet": "DASH 01 V06",
+    "destination_cell": "A1",
+    "type": "sidebar",
+    "PT": "Investimento e Orçamento de Construção",
+    "EN": "Investment & Construction Budget"
+  },
+  {
+    "origin_sheet": "DASH 02 V06",
+    "origin_cell": "B18",
+    "destination_sheet": "DASH 02 V06",
+    "destination_cell": "A1",
+    "type": "sidebar",
+    "PT": "Fiscalidade, Incentivos e Seguros",
+    "EN": "Taxation, Incentives & Insurance"
+  },
+  {
+    "origin_sheet": "DASH 02 V06",
+    "origin_cell": "B23",
+    "destination_sheet": "DASH 03 V06",
+    "destination_cell": "A1",
+    "type": "sidebar",
+    "PT": "Desempenho Financeiro Consolidado",
+    "EN": "Consolidated Financial Performance"
+  },
+  {
+    "origin_sheet": "DASH 02 V06",
+    "origin_cell": "B28",
+    "destination_sheet": "DASH 04A V06",
+    "destination_cell": "A1",
+    "type": "sidebar",
+    "PT": "Promoção e Comercialização Imobiliária",
+    "EN": "Real Estate Development & Sales"
+  },
+  {
+    "origin_sheet": "DASH 02 V06",
+    "origin_cell": "B33",
+    "destination_sheet": "DASH 04B V06",
+    "destination_cell": "A1",
+    "type": "sidebar",
+    "PT": "Exploração Residencial e Sell & Leaseback",
+    "EN": "Residential Operations & Sell & Leaseback"
+  },
+  {
+    "origin_sheet": "DASH 02 V06",
+    "origin_cell": "B38",
+    "destination_sheet": "DASH 05 V06",
+    "destination_cell": "A1",
+    "type": "sidebar",
+    "PT": "Exploração Hoteleira e Centro MICE",
+    "EN": "Hotel & MICE Operations"
+  },
+  {
+    "origin_sheet": "DASH 02 V06",
+    "origin_cell": "B43",
+    "destination_sheet": "DASH 06 V06",
+    "destination_cell": "A1",
+    "type": "sidebar",
+    "PT": "Estrutura Acionista e Blocos de Investimento",
+    "EN": "Shareholding & Investment Blocks"
+  },
+  {
+    "origin_sheet": "DASH 02 V06",
+    "origin_cell": "B48",
+    "destination_sheet": "DASH 07 V06",
+    "destination_cell": "A1",
+    "type": "sidebar",
+    "PT": "Rentabilidade dos Acionistas e Distribuições",
+    "EN": "Equity Returns & Distributions"
+  },
+  {
+    "origin_sheet": "DASH 02 V06",
+    "origin_cell": "B53",
+    "destination_sheet": "DASH 10 Centro",
+    "destination_cell": "A1",
+    "type": "sidebar",
+    "PT": "Relatório Executivo Consolidado de Viabilidade e Investimento",
+    "EN": "Consolidated Investment & Feasibility Report"
+  },
+  {
+    "origin_sheet": "DASH 02 V06",
+    "origin_cell": "B60",
+    "destination_sheet": "V06 Identidade",
+    "destination_cell": "B8",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Inserir logótipo original",
+    "EN": "Insert original logo"
+  },
+  {
+    "origin_sheet": "DASH 02 V06",
+    "origin_cell": "H7",
+    "destination_sheet": "V06 Dicionario",
+    "destination_cell": "A4",
+    "type": "Excel internal HYPERLINK",
+    "PT": "ⓘ",
+    "EN": "ⓘ"
+  },
+  {
+    "origin_sheet": "DASH 02 V06",
+    "origin_cell": "L7",
+    "destination_sheet": "V06 Dicionario",
+    "destination_cell": "A4",
+    "type": "Excel internal HYPERLINK",
+    "PT": "ⓘ",
+    "EN": "ⓘ"
+  },
+  {
+    "origin_sheet": "DASH 02 V06",
+    "origin_cell": "P7",
+    "destination_sheet": "V06 Dicionario",
+    "destination_cell": "A4",
+    "type": "Excel internal HYPERLINK",
+    "PT": "ⓘ",
+    "EN": "ⓘ"
+  },
+  {
+    "origin_sheet": "DASH 02 V06",
+    "origin_cell": "H13",
+    "destination_sheet": "V06 Dicionario",
+    "destination_cell": "A4",
+    "type": "Excel internal HYPERLINK",
+    "PT": "ⓘ",
+    "EN": "ⓘ"
+  },
+  {
+    "origin_sheet": "DASH 02 V06",
+    "origin_cell": "L13",
+    "destination_sheet": "V06 Dicionario",
+    "destination_cell": "A4",
+    "type": "Excel internal HYPERLINK",
+    "PT": "ⓘ",
+    "EN": "ⓘ"
+  },
+  {
+    "origin_sheet": "DASH 02 V06",
+    "origin_cell": "P13",
+    "destination_sheet": "V06 Dicionario",
+    "destination_cell": "A4",
+    "type": "Excel internal HYPERLINK",
+    "PT": "ⓘ",
+    "EN": "ⓘ"
+  },
+  {
+    "origin_sheet": "DASH 02 V06",
+    "origin_cell": "E37",
+    "destination_sheet": "V06 Controlos",
+    "destination_cell": "A4",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Consultar detalhe →",
+    "EN": "Open detail →"
+  },
+  {
+    "origin_sheet": "DASH 02 V06",
+    "origin_cell": "K37",
+    "destination_sheet": "V06 Dicionario",
+    "destination_cell": "A4",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Definições e bases KPI →",
+    "EN": "KPI definitions and bases →"
+  },
+  {
+    "origin_sheet": "DASH 02 V06",
+    "origin_cell": "E89",
+    "destination_sheet": "DASH 10 Centro",
+    "destination_cell": "A1",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Relatório consolidado →",
+    "EN": "Consolidated report →"
+  },
+  {
+    "origin_sheet": "DASH 02 V06",
+    "origin_cell": "K89",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "Excel internal HYPERLINK",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "DASH 03 V06",
+    "origin_cell": "N2",
+    "destination_sheet": "V06 Identidade",
+    "destination_cell": "B8",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Logótipo original",
+    "EN": "Original logo"
+  },
+  {
+    "origin_sheet": "DASH 03 V06",
+    "origin_cell": "B5",
+    "destination_sheet": "DASH 10 Centro",
+    "destination_cell": "H7",
+    "type": "Excel internal HYPERLINK",
+    "PT": "PT | EN ▾",
+    "EN": "PT | EN ▾"
+  },
+  {
+    "origin_sheet": "DASH 03 V06",
+    "origin_cell": "B6",
+    "destination_sheet": "DASH 10 Centro",
+    "destination_cell": "E21",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Menu de navegação",
+    "EN": "Navigation menu"
+  },
+  {
+    "origin_sheet": "DASH 03 V06",
+    "origin_cell": "E5",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "Excel internal HYPERLINK",
+    "PT": "⌂ Início",
+    "EN": "⌂ Home"
+  },
+  {
+    "origin_sheet": "DASH 03 V06",
+    "origin_cell": "H5",
+    "destination_sheet": "DASH 03 V06",
+    "destination_cell": "H23",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Parâmetros ▾",
+    "EN": "Assumptions ▾"
+  },
+  {
+    "origin_sheet": "DASH 03 V06",
+    "origin_cell": "K5",
+    "destination_sheet": "DASH 10 Centro",
+    "destination_cell": "A1",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Relatório 10",
+    "EN": "Report 10"
+  },
+  {
+    "origin_sheet": "DASH 03 V06",
+    "origin_cell": "N5",
+    "destination_sheet": "V06 PDF 04",
+    "destination_cell": "A1",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Imprimir / PDF",
+    "EN": "Print / PDF"
+  },
+  {
+    "origin_sheet": "DASH 03 V06",
+    "origin_cell": "B8",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "sidebar",
+    "PT": "Dashboard Executivo",
+    "EN": "Executive Dashboard"
+  },
+  {
+    "origin_sheet": "DASH 03 V06",
+    "origin_cell": "B13",
+    "destination_sheet": "DASH 01 V06",
+    "destination_cell": "A1",
+    "type": "sidebar",
+    "PT": "Investimento e Orçamento de Construção",
+    "EN": "Investment & Construction Budget"
+  },
+  {
+    "origin_sheet": "DASH 03 V06",
+    "origin_cell": "B18",
+    "destination_sheet": "DASH 02 V06",
+    "destination_cell": "A1",
+    "type": "sidebar",
+    "PT": "Fiscalidade, Incentivos e Seguros",
+    "EN": "Taxation, Incentives & Insurance"
+  },
+  {
+    "origin_sheet": "DASH 03 V06",
+    "origin_cell": "B23",
+    "destination_sheet": "DASH 03 V06",
+    "destination_cell": "A1",
+    "type": "sidebar",
+    "PT": "Desempenho Financeiro Consolidado",
+    "EN": "Consolidated Financial Performance"
+  },
+  {
+    "origin_sheet": "DASH 03 V06",
+    "origin_cell": "B28",
+    "destination_sheet": "DASH 04A V06",
+    "destination_cell": "A1",
+    "type": "sidebar",
+    "PT": "Promoção e Comercialização Imobiliária",
+    "EN": "Real Estate Development & Sales"
+  },
+  {
+    "origin_sheet": "DASH 03 V06",
+    "origin_cell": "B33",
+    "destination_sheet": "DASH 04B V06",
+    "destination_cell": "A1",
+    "type": "sidebar",
+    "PT": "Exploração Residencial e Sell & Leaseback",
+    "EN": "Residential Operations & Sell & Leaseback"
+  },
+  {
+    "origin_sheet": "DASH 03 V06",
+    "origin_cell": "B38",
+    "destination_sheet": "DASH 05 V06",
+    "destination_cell": "A1",
+    "type": "sidebar",
+    "PT": "Exploração Hoteleira e Centro MICE",
+    "EN": "Hotel & MICE Operations"
+  },
+  {
+    "origin_sheet": "DASH 03 V06",
+    "origin_cell": "B43",
+    "destination_sheet": "DASH 06 V06",
+    "destination_cell": "A1",
+    "type": "sidebar",
+    "PT": "Estrutura Acionista e Blocos de Investimento",
+    "EN": "Shareholding & Investment Blocks"
+  },
+  {
+    "origin_sheet": "DASH 03 V06",
+    "origin_cell": "B48",
+    "destination_sheet": "DASH 07 V06",
+    "destination_cell": "A1",
+    "type": "sidebar",
+    "PT": "Rentabilidade dos Acionistas e Distribuições",
+    "EN": "Equity Returns & Distributions"
+  },
+  {
+    "origin_sheet": "DASH 03 V06",
+    "origin_cell": "B53",
+    "destination_sheet": "DASH 10 Centro",
+    "destination_cell": "A1",
+    "type": "sidebar",
+    "PT": "Relatório Executivo Consolidado de Viabilidade e Investimento",
+    "EN": "Consolidated Investment & Feasibility Report"
+  },
+  {
+    "origin_sheet": "DASH 03 V06",
+    "origin_cell": "B60",
+    "destination_sheet": "V06 Identidade",
+    "destination_cell": "B8",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Inserir logótipo original",
+    "EN": "Insert original logo"
+  },
+  {
+    "origin_sheet": "DASH 03 V06",
+    "origin_cell": "H7",
+    "destination_sheet": "V06 Dicionario",
+    "destination_cell": "A4",
+    "type": "Excel internal HYPERLINK",
+    "PT": "ⓘ",
+    "EN": "ⓘ"
+  },
+  {
+    "origin_sheet": "DASH 03 V06",
+    "origin_cell": "L7",
+    "destination_sheet": "V06 Dicionario",
+    "destination_cell": "A4",
+    "type": "Excel internal HYPERLINK",
+    "PT": "ⓘ",
+    "EN": "ⓘ"
+  },
+  {
+    "origin_sheet": "DASH 03 V06",
+    "origin_cell": "P7",
+    "destination_sheet": "V06 Dicionario",
+    "destination_cell": "A4",
+    "type": "Excel internal HYPERLINK",
+    "PT": "ⓘ",
+    "EN": "ⓘ"
+  },
+  {
+    "origin_sheet": "DASH 03 V06",
+    "origin_cell": "H13",
+    "destination_sheet": "V06 Dicionario",
+    "destination_cell": "A4",
+    "type": "Excel internal HYPERLINK",
+    "PT": "ⓘ",
+    "EN": "ⓘ"
+  },
+  {
+    "origin_sheet": "DASH 03 V06",
+    "origin_cell": "L13",
+    "destination_sheet": "V06 Dicionario",
+    "destination_cell": "A4",
+    "type": "Excel internal HYPERLINK",
+    "PT": "ⓘ",
+    "EN": "ⓘ"
+  },
+  {
+    "origin_sheet": "DASH 03 V06",
+    "origin_cell": "P13",
+    "destination_sheet": "V06 Dicionario",
+    "destination_cell": "A4",
+    "type": "Excel internal HYPERLINK",
+    "PT": "ⓘ",
+    "EN": "ⓘ"
+  },
+  {
+    "origin_sheet": "DASH 03 V06",
+    "origin_cell": "E37",
+    "destination_sheet": "V06 Anual",
+    "destination_cell": "A4",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Consultar detalhe →",
+    "EN": "Open detail →"
+  },
+  {
+    "origin_sheet": "DASH 03 V06",
+    "origin_cell": "K37",
+    "destination_sheet": "V06 Dicionario",
+    "destination_cell": "A4",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Definições e bases KPI →",
+    "EN": "KPI definitions and bases →"
+  },
+  {
+    "origin_sheet": "DASH 03 V06",
+    "origin_cell": "E89",
+    "destination_sheet": "DASH 10 Centro",
+    "destination_cell": "A1",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Relatório consolidado →",
+    "EN": "Consolidated report →"
+  },
+  {
+    "origin_sheet": "DASH 03 V06",
+    "origin_cell": "K89",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "Excel internal HYPERLINK",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "DASH 04A V06",
+    "origin_cell": "N2",
+    "destination_sheet": "V06 Identidade",
+    "destination_cell": "B8",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Logótipo original",
+    "EN": "Original logo"
+  },
+  {
+    "origin_sheet": "DASH 04A V06",
+    "origin_cell": "B5",
+    "destination_sheet": "DASH 10 Centro",
+    "destination_cell": "H7",
+    "type": "Excel internal HYPERLINK",
+    "PT": "PT | EN ▾",
+    "EN": "PT | EN ▾"
+  },
+  {
+    "origin_sheet": "DASH 04A V06",
+    "origin_cell": "B6",
+    "destination_sheet": "DASH 10 Centro",
+    "destination_cell": "E21",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Menu de navegação",
+    "EN": "Navigation menu"
+  },
+  {
+    "origin_sheet": "DASH 04A V06",
+    "origin_cell": "E5",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "Excel internal HYPERLINK",
+    "PT": "⌂ Início",
+    "EN": "⌂ Home"
+  },
+  {
+    "origin_sheet": "DASH 04A V06",
+    "origin_cell": "H5",
+    "destination_sheet": "DASH 04A V06",
+    "destination_cell": "H23",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Parâmetros ▾",
+    "EN": "Assumptions ▾"
+  },
+  {
+    "origin_sheet": "DASH 04A V06",
+    "origin_cell": "K5",
+    "destination_sheet": "DASH 10 Centro",
+    "destination_cell": "A1",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Relatório 10",
+    "EN": "Report 10"
+  },
+  {
+    "origin_sheet": "DASH 04A V06",
+    "origin_cell": "N5",
+    "destination_sheet": "V06 PDF 05",
+    "destination_cell": "A1",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Imprimir / PDF",
+    "EN": "Print / PDF"
+  },
+  {
+    "origin_sheet": "DASH 04A V06",
+    "origin_cell": "B8",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "sidebar",
+    "PT": "Dashboard Executivo",
+    "EN": "Executive Dashboard"
+  },
+  {
+    "origin_sheet": "DASH 04A V06",
+    "origin_cell": "B13",
+    "destination_sheet": "DASH 01 V06",
+    "destination_cell": "A1",
+    "type": "sidebar",
+    "PT": "Investimento e Orçamento de Construção",
+    "EN": "Investment & Construction Budget"
+  },
+  {
+    "origin_sheet": "DASH 04A V06",
+    "origin_cell": "B18",
+    "destination_sheet": "DASH 02 V06",
+    "destination_cell": "A1",
+    "type": "sidebar",
+    "PT": "Fiscalidade, Incentivos e Seguros",
+    "EN": "Taxation, Incentives & Insurance"
+  },
+  {
+    "origin_sheet": "DASH 04A V06",
+    "origin_cell": "B23",
+    "destination_sheet": "DASH 03 V06",
+    "destination_cell": "A1",
+    "type": "sidebar",
+    "PT": "Desempenho Financeiro Consolidado",
+    "EN": "Consolidated Financial Performance"
+  },
+  {
+    "origin_sheet": "DASH 04A V06",
+    "origin_cell": "B28",
+    "destination_sheet": "DASH 04A V06",
+    "destination_cell": "A1",
+    "type": "sidebar",
+    "PT": "Promoção e Comercialização Imobiliária",
+    "EN": "Real Estate Development & Sales"
+  },
+  {
+    "origin_sheet": "DASH 04A V06",
+    "origin_cell": "B33",
+    "destination_sheet": "DASH 04B V06",
+    "destination_cell": "A1",
+    "type": "sidebar",
+    "PT": "Exploração Residencial e Sell & Leaseback",
+    "EN": "Residential Operations & Sell & Leaseback"
+  },
+  {
+    "origin_sheet": "DASH 04A V06",
+    "origin_cell": "B38",
+    "destination_sheet": "DASH 05 V06",
+    "destination_cell": "A1",
+    "type": "sidebar",
+    "PT": "Exploração Hoteleira e Centro MICE",
+    "EN": "Hotel & MICE Operations"
+  },
+  {
+    "origin_sheet": "DASH 04A V06",
+    "origin_cell": "B43",
+    "destination_sheet": "DASH 06 V06",
+    "destination_cell": "A1",
+    "type": "sidebar",
+    "PT": "Estrutura Acionista e Blocos de Investimento",
+    "EN": "Shareholding & Investment Blocks"
+  },
+  {
+    "origin_sheet": "DASH 04A V06",
+    "origin_cell": "B48",
+    "destination_sheet": "DASH 07 V06",
+    "destination_cell": "A1",
+    "type": "sidebar",
+    "PT": "Rentabilidade dos Acionistas e Distribuições",
+    "EN": "Equity Returns & Distributions"
+  },
+  {
+    "origin_sheet": "DASH 04A V06",
+    "origin_cell": "B53",
+    "destination_sheet": "DASH 10 Centro",
+    "destination_cell": "A1",
+    "type": "sidebar",
+    "PT": "Relatório Executivo Consolidado de Viabilidade e Investimento",
+    "EN": "Consolidated Investment & Feasibility Report"
+  },
+  {
+    "origin_sheet": "DASH 04A V06",
+    "origin_cell": "B60",
+    "destination_sheet": "V06 Identidade",
+    "destination_cell": "B8",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Inserir logótipo original",
+    "EN": "Insert original logo"
+  },
+  {
+    "origin_sheet": "DASH 04A V06",
+    "origin_cell": "H7",
+    "destination_sheet": "V06 Dicionario",
+    "destination_cell": "A4",
+    "type": "Excel internal HYPERLINK",
+    "PT": "ⓘ",
+    "EN": "ⓘ"
+  },
+  {
+    "origin_sheet": "DASH 04A V06",
+    "origin_cell": "L7",
+    "destination_sheet": "V06 Dicionario",
+    "destination_cell": "A4",
+    "type": "Excel internal HYPERLINK",
+    "PT": "ⓘ",
+    "EN": "ⓘ"
+  },
+  {
+    "origin_sheet": "DASH 04A V06",
+    "origin_cell": "P7",
+    "destination_sheet": "V06 Dicionario",
+    "destination_cell": "A4",
+    "type": "Excel internal HYPERLINK",
+    "PT": "ⓘ",
+    "EN": "ⓘ"
+  },
+  {
+    "origin_sheet": "DASH 04A V06",
+    "origin_cell": "H13",
+    "destination_sheet": "V06 Dicionario",
+    "destination_cell": "A4",
+    "type": "Excel internal HYPERLINK",
+    "PT": "ⓘ",
+    "EN": "ⓘ"
+  },
+  {
+    "origin_sheet": "DASH 04A V06",
+    "origin_cell": "L13",
+    "destination_sheet": "V06 Dicionario",
+    "destination_cell": "A4",
+    "type": "Excel internal HYPERLINK",
+    "PT": "ⓘ",
+    "EN": "ⓘ"
+  },
+  {
+    "origin_sheet": "DASH 04A V06",
+    "origin_cell": "P13",
+    "destination_sheet": "V06 Dicionario",
+    "destination_cell": "A4",
+    "type": "Excel internal HYPERLINK",
+    "PT": "ⓘ",
+    "EN": "ⓘ"
+  },
+  {
+    "origin_sheet": "DASH 04A V06",
+    "origin_cell": "E37",
+    "destination_sheet": "V06 Disponibilidade",
+    "destination_cell": "A4",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Consultar detalhe →",
+    "EN": "Open detail →"
+  },
+  {
+    "origin_sheet": "DASH 04A V06",
+    "origin_cell": "K37",
+    "destination_sheet": "V06 Dicionario",
+    "destination_cell": "A4",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Definições e bases KPI →",
+    "EN": "KPI definitions and bases →"
+  },
+  {
+    "origin_sheet": "DASH 04A V06",
+    "origin_cell": "E89",
+    "destination_sheet": "DASH 10 Centro",
+    "destination_cell": "A1",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Relatório consolidado →",
+    "EN": "Consolidated report →"
+  },
+  {
+    "origin_sheet": "DASH 04A V06",
+    "origin_cell": "K89",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "Excel internal HYPERLINK",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "DASH 04B V06",
+    "origin_cell": "N2",
+    "destination_sheet": "V06 Identidade",
+    "destination_cell": "B8",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Logótipo original",
+    "EN": "Original logo"
+  },
+  {
+    "origin_sheet": "DASH 04B V06",
+    "origin_cell": "B5",
+    "destination_sheet": "DASH 10 Centro",
+    "destination_cell": "H7",
+    "type": "Excel internal HYPERLINK",
+    "PT": "PT | EN ▾",
+    "EN": "PT | EN ▾"
+  },
+  {
+    "origin_sheet": "DASH 04B V06",
+    "origin_cell": "B6",
+    "destination_sheet": "DASH 10 Centro",
+    "destination_cell": "E21",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Menu de navegação",
+    "EN": "Navigation menu"
+  },
+  {
+    "origin_sheet": "DASH 04B V06",
+    "origin_cell": "E5",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "Excel internal HYPERLINK",
+    "PT": "⌂ Início",
+    "EN": "⌂ Home"
+  },
+  {
+    "origin_sheet": "DASH 04B V06",
+    "origin_cell": "H5",
+    "destination_sheet": "DASH 04B V06",
+    "destination_cell": "H23",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Parâmetros ▾",
+    "EN": "Assumptions ▾"
+  },
+  {
+    "origin_sheet": "DASH 04B V06",
+    "origin_cell": "K5",
+    "destination_sheet": "DASH 10 Centro",
+    "destination_cell": "A1",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Relatório 10",
+    "EN": "Report 10"
+  },
+  {
+    "origin_sheet": "DASH 04B V06",
+    "origin_cell": "N5",
+    "destination_sheet": "V06 PDF 06",
+    "destination_cell": "A1",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Imprimir / PDF",
+    "EN": "Print / PDF"
+  },
+  {
+    "origin_sheet": "DASH 04B V06",
+    "origin_cell": "B8",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "sidebar",
+    "PT": "Dashboard Executivo",
+    "EN": "Executive Dashboard"
+  },
+  {
+    "origin_sheet": "DASH 04B V06",
+    "origin_cell": "B13",
+    "destination_sheet": "DASH 01 V06",
+    "destination_cell": "A1",
+    "type": "sidebar",
+    "PT": "Investimento e Orçamento de Construção",
+    "EN": "Investment & Construction Budget"
+  },
+  {
+    "origin_sheet": "DASH 04B V06",
+    "origin_cell": "B18",
+    "destination_sheet": "DASH 02 V06",
+    "destination_cell": "A1",
+    "type": "sidebar",
+    "PT": "Fiscalidade, Incentivos e Seguros",
+    "EN": "Taxation, Incentives & Insurance"
+  },
+  {
+    "origin_sheet": "DASH 04B V06",
+    "origin_cell": "B23",
+    "destination_sheet": "DASH 03 V06",
+    "destination_cell": "A1",
+    "type": "sidebar",
+    "PT": "Desempenho Financeiro Consolidado",
+    "EN": "Consolidated Financial Performance"
+  },
+  {
+    "origin_sheet": "DASH 04B V06",
+    "origin_cell": "B28",
+    "destination_sheet": "DASH 04A V06",
+    "destination_cell": "A1",
+    "type": "sidebar",
+    "PT": "Promoção e Comercialização Imobiliária",
+    "EN": "Real Estate Development & Sales"
+  },
+  {
+    "origin_sheet": "DASH 04B V06",
+    "origin_cell": "B33",
+    "destination_sheet": "DASH 04B V06",
+    "destination_cell": "A1",
+    "type": "sidebar",
+    "PT": "Exploração Residencial e Sell & Leaseback",
+    "EN": "Residential Operations & Sell & Leaseback"
+  },
+  {
+    "origin_sheet": "DASH 04B V06",
+    "origin_cell": "B38",
+    "destination_sheet": "DASH 05 V06",
+    "destination_cell": "A1",
+    "type": "sidebar",
+    "PT": "Exploração Hoteleira e Centro MICE",
+    "EN": "Hotel & MICE Operations"
+  },
+  {
+    "origin_sheet": "DASH 04B V06",
+    "origin_cell": "B43",
+    "destination_sheet": "DASH 06 V06",
+    "destination_cell": "A1",
+    "type": "sidebar",
+    "PT": "Estrutura Acionista e Blocos de Investimento",
+    "EN": "Shareholding & Investment Blocks"
+  },
+  {
+    "origin_sheet": "DASH 04B V06",
+    "origin_cell": "B48",
+    "destination_sheet": "DASH 07 V06",
+    "destination_cell": "A1",
+    "type": "sidebar",
+    "PT": "Rentabilidade dos Acionistas e Distribuições",
+    "EN": "Equity Returns & Distributions"
+  },
+  {
+    "origin_sheet": "DASH 04B V06",
+    "origin_cell": "B53",
+    "destination_sheet": "DASH 10 Centro",
+    "destination_cell": "A1",
+    "type": "sidebar",
+    "PT": "Relatório Executivo Consolidado de Viabilidade e Investimento",
+    "EN": "Consolidated Investment & Feasibility Report"
+  },
+  {
+    "origin_sheet": "DASH 04B V06",
+    "origin_cell": "B60",
+    "destination_sheet": "V06 Identidade",
+    "destination_cell": "B8",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Inserir logótipo original",
+    "EN": "Insert original logo"
+  },
+  {
+    "origin_sheet": "DASH 04B V06",
+    "origin_cell": "H7",
+    "destination_sheet": "V06 Dicionario",
+    "destination_cell": "A4",
+    "type": "Excel internal HYPERLINK",
+    "PT": "ⓘ",
+    "EN": "ⓘ"
+  },
+  {
+    "origin_sheet": "DASH 04B V06",
+    "origin_cell": "L7",
+    "destination_sheet": "V06 Dicionario",
+    "destination_cell": "A4",
+    "type": "Excel internal HYPERLINK",
+    "PT": "ⓘ",
+    "EN": "ⓘ"
+  },
+  {
+    "origin_sheet": "DASH 04B V06",
+    "origin_cell": "P7",
+    "destination_sheet": "V06 Dicionario",
+    "destination_cell": "A4",
+    "type": "Excel internal HYPERLINK",
+    "PT": "ⓘ",
+    "EN": "ⓘ"
+  },
+  {
+    "origin_sheet": "DASH 04B V06",
+    "origin_cell": "H13",
+    "destination_sheet": "V06 Dicionario",
+    "destination_cell": "A4",
+    "type": "Excel internal HYPERLINK",
+    "PT": "ⓘ",
+    "EN": "ⓘ"
+  },
+  {
+    "origin_sheet": "DASH 04B V06",
+    "origin_cell": "L13",
+    "destination_sheet": "V06 Dicionario",
+    "destination_cell": "A4",
+    "type": "Excel internal HYPERLINK",
+    "PT": "ⓘ",
+    "EN": "ⓘ"
+  },
+  {
+    "origin_sheet": "DASH 04B V06",
+    "origin_cell": "P13",
+    "destination_sheet": "V06 Dicionario",
+    "destination_cell": "A4",
+    "type": "Excel internal HYPERLINK",
+    "PT": "ⓘ",
+    "EN": "ⓘ"
+  },
+  {
+    "origin_sheet": "DASH 04B V06",
+    "origin_cell": "E33",
+    "destination_sheet": "V06 Operacao",
+    "destination_cell": "A4",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Rendas, custos e reservas →",
+    "EN": "Owner income, costs and reserves →"
+  },
+  {
+    "origin_sheet": "DASH 04B V06",
+    "origin_cell": "E37",
+    "destination_sheet": "V06 Operacao",
+    "destination_cell": "A4",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Consultar detalhe →",
+    "EN": "Open detail →"
+  },
+  {
+    "origin_sheet": "DASH 04B V06",
+    "origin_cell": "K37",
+    "destination_sheet": "V06 Dicionario",
+    "destination_cell": "A4",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Definições e bases KPI →",
+    "EN": "KPI definitions and bases →"
+  },
+  {
+    "origin_sheet": "DASH 04B V06",
+    "origin_cell": "E89",
+    "destination_sheet": "DASH 10 Centro",
+    "destination_cell": "A1",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Relatório consolidado →",
+    "EN": "Consolidated report →"
+  },
+  {
+    "origin_sheet": "DASH 04B V06",
+    "origin_cell": "K89",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "Excel internal HYPERLINK",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "DASH 05 V06",
+    "origin_cell": "N2",
+    "destination_sheet": "V06 Identidade",
+    "destination_cell": "B8",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Logótipo original",
+    "EN": "Original logo"
+  },
+  {
+    "origin_sheet": "DASH 05 V06",
+    "origin_cell": "B5",
+    "destination_sheet": "DASH 10 Centro",
+    "destination_cell": "H7",
+    "type": "Excel internal HYPERLINK",
+    "PT": "PT | EN ▾",
+    "EN": "PT | EN ▾"
+  },
+  {
+    "origin_sheet": "DASH 05 V06",
+    "origin_cell": "B6",
+    "destination_sheet": "DASH 10 Centro",
+    "destination_cell": "E21",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Menu de navegação",
+    "EN": "Navigation menu"
+  },
+  {
+    "origin_sheet": "DASH 05 V06",
+    "origin_cell": "E5",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "Excel internal HYPERLINK",
+    "PT": "⌂ Início",
+    "EN": "⌂ Home"
+  },
+  {
+    "origin_sheet": "DASH 05 V06",
+    "origin_cell": "H5",
+    "destination_sheet": "DASH 05 V06",
+    "destination_cell": "H23",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Parâmetros ▾",
+    "EN": "Assumptions ▾"
+  },
+  {
+    "origin_sheet": "DASH 05 V06",
+    "origin_cell": "K5",
+    "destination_sheet": "DASH 10 Centro",
+    "destination_cell": "A1",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Relatório 10",
+    "EN": "Report 10"
+  },
+  {
+    "origin_sheet": "DASH 05 V06",
+    "origin_cell": "N5",
+    "destination_sheet": "V06 PDF 07",
+    "destination_cell": "A1",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Imprimir / PDF",
+    "EN": "Print / PDF"
+  },
+  {
+    "origin_sheet": "DASH 05 V06",
+    "origin_cell": "B8",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "sidebar",
+    "PT": "Dashboard Executivo",
+    "EN": "Executive Dashboard"
+  },
+  {
+    "origin_sheet": "DASH 05 V06",
+    "origin_cell": "B13",
+    "destination_sheet": "DASH 01 V06",
+    "destination_cell": "A1",
+    "type": "sidebar",
+    "PT": "Investimento e Orçamento de Construção",
+    "EN": "Investment & Construction Budget"
+  },
+  {
+    "origin_sheet": "DASH 05 V06",
+    "origin_cell": "B18",
+    "destination_sheet": "DASH 02 V06",
+    "destination_cell": "A1",
+    "type": "sidebar",
+    "PT": "Fiscalidade, Incentivos e Seguros",
+    "EN": "Taxation, Incentives & Insurance"
+  },
+  {
+    "origin_sheet": "DASH 05 V06",
+    "origin_cell": "B23",
+    "destination_sheet": "DASH 03 V06",
+    "destination_cell": "A1",
+    "type": "sidebar",
+    "PT": "Desempenho Financeiro Consolidado",
+    "EN": "Consolidated Financial Performance"
+  },
+  {
+    "origin_sheet": "DASH 05 V06",
+    "origin_cell": "B28",
+    "destination_sheet": "DASH 04A V06",
+    "destination_cell": "A1",
+    "type": "sidebar",
+    "PT": "Promoção e Comercialização Imobiliária",
+    "EN": "Real Estate Development & Sales"
+  },
+  {
+    "origin_sheet": "DASH 05 V06",
+    "origin_cell": "B33",
+    "destination_sheet": "DASH 04B V06",
+    "destination_cell": "A1",
+    "type": "sidebar",
+    "PT": "Exploração Residencial e Sell & Leaseback",
+    "EN": "Residential Operations & Sell & Leaseback"
+  },
+  {
+    "origin_sheet": "DASH 05 V06",
+    "origin_cell": "B38",
+    "destination_sheet": "DASH 05 V06",
+    "destination_cell": "A1",
+    "type": "sidebar",
+    "PT": "Exploração Hoteleira e Centro MICE",
+    "EN": "Hotel & MICE Operations"
+  },
+  {
+    "origin_sheet": "DASH 05 V06",
+    "origin_cell": "B43",
+    "destination_sheet": "DASH 06 V06",
+    "destination_cell": "A1",
+    "type": "sidebar",
+    "PT": "Estrutura Acionista e Blocos de Investimento",
+    "EN": "Shareholding & Investment Blocks"
+  },
+  {
+    "origin_sheet": "DASH 05 V06",
+    "origin_cell": "B48",
+    "destination_sheet": "DASH 07 V06",
+    "destination_cell": "A1",
+    "type": "sidebar",
+    "PT": "Rentabilidade dos Acionistas e Distribuições",
+    "EN": "Equity Returns & Distributions"
+  },
+  {
+    "origin_sheet": "DASH 05 V06",
+    "origin_cell": "B53",
+    "destination_sheet": "DASH 10 Centro",
+    "destination_cell": "A1",
+    "type": "sidebar",
+    "PT": "Relatório Executivo Consolidado de Viabilidade e Investimento",
+    "EN": "Consolidated Investment & Feasibility Report"
+  },
+  {
+    "origin_sheet": "DASH 05 V06",
+    "origin_cell": "B60",
+    "destination_sheet": "V06 Identidade",
+    "destination_cell": "B8",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Inserir logótipo original",
+    "EN": "Insert original logo"
+  },
+  {
+    "origin_sheet": "DASH 05 V06",
+    "origin_cell": "H7",
+    "destination_sheet": "V06 Dicionario",
+    "destination_cell": "A4",
+    "type": "Excel internal HYPERLINK",
+    "PT": "ⓘ",
+    "EN": "ⓘ"
+  },
+  {
+    "origin_sheet": "DASH 05 V06",
+    "origin_cell": "L7",
+    "destination_sheet": "V06 Dicionario",
+    "destination_cell": "A4",
+    "type": "Excel internal HYPERLINK",
+    "PT": "ⓘ",
+    "EN": "ⓘ"
+  },
+  {
+    "origin_sheet": "DASH 05 V06",
+    "origin_cell": "P7",
+    "destination_sheet": "V06 Dicionario",
+    "destination_cell": "A4",
+    "type": "Excel internal HYPERLINK",
+    "PT": "ⓘ",
+    "EN": "ⓘ"
+  },
+  {
+    "origin_sheet": "DASH 05 V06",
+    "origin_cell": "H13",
+    "destination_sheet": "V06 Dicionario",
+    "destination_cell": "A4",
+    "type": "Excel internal HYPERLINK",
+    "PT": "ⓘ",
+    "EN": "ⓘ"
+  },
+  {
+    "origin_sheet": "DASH 05 V06",
+    "origin_cell": "L13",
+    "destination_sheet": "V06 Dicionario",
+    "destination_cell": "A4",
+    "type": "Excel internal HYPERLINK",
+    "PT": "ⓘ",
+    "EN": "ⓘ"
+  },
+  {
+    "origin_sheet": "DASH 05 V06",
+    "origin_cell": "P13",
+    "destination_sheet": "V06 Dicionario",
+    "destination_cell": "A4",
+    "type": "Excel internal HYPERLINK",
+    "PT": "ⓘ",
+    "EN": "ⓘ"
+  },
+  {
+    "origin_sheet": "DASH 05 V06",
+    "origin_cell": "E38",
+    "destination_sheet": "V06 Matriz ADR",
+    "destination_cell": "B3",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Sensibilidade ADR × Ocupação →",
+    "EN": "ADR × Occupancy sensitivity →"
+  },
+  {
+    "origin_sheet": "DASH 05 V06",
+    "origin_cell": "K38",
+    "destination_sheet": "V06 Operacao",
+    "destination_cell": "A4",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Operação mensal e reservas →",
+    "EN": "Monthly operations and reserves →"
+  },
+  {
+    "origin_sheet": "DASH 05 V06",
+    "origin_cell": "E89",
+    "destination_sheet": "DASH 10 Centro",
+    "destination_cell": "A1",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Relatório consolidado →",
+    "EN": "Consolidated report →"
+  },
+  {
+    "origin_sheet": "DASH 05 V06",
+    "origin_cell": "K89",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "Excel internal HYPERLINK",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "DASH 06 V06",
+    "origin_cell": "N2",
+    "destination_sheet": "V06 Identidade",
+    "destination_cell": "B8",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Logótipo original",
+    "EN": "Original logo"
+  },
+  {
+    "origin_sheet": "DASH 06 V06",
+    "origin_cell": "B5",
+    "destination_sheet": "DASH 10 Centro",
+    "destination_cell": "H7",
+    "type": "Excel internal HYPERLINK",
+    "PT": "PT | EN ▾",
+    "EN": "PT | EN ▾"
+  },
+  {
+    "origin_sheet": "DASH 06 V06",
+    "origin_cell": "B6",
+    "destination_sheet": "DASH 10 Centro",
+    "destination_cell": "E21",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Menu de navegação",
+    "EN": "Navigation menu"
+  },
+  {
+    "origin_sheet": "DASH 06 V06",
+    "origin_cell": "E5",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "Excel internal HYPERLINK",
+    "PT": "⌂ Início",
+    "EN": "⌂ Home"
+  },
+  {
+    "origin_sheet": "DASH 06 V06",
+    "origin_cell": "H5",
+    "destination_sheet": "DASH 06 V06",
+    "destination_cell": "H23",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Parâmetros ▾",
+    "EN": "Assumptions ▾"
+  },
+  {
+    "origin_sheet": "DASH 06 V06",
+    "origin_cell": "K5",
+    "destination_sheet": "DASH 10 Centro",
+    "destination_cell": "A1",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Relatório 10",
+    "EN": "Report 10"
+  },
+  {
+    "origin_sheet": "DASH 06 V06",
+    "origin_cell": "N5",
+    "destination_sheet": "V06 PDF 08",
+    "destination_cell": "A1",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Imprimir / PDF",
+    "EN": "Print / PDF"
+  },
+  {
+    "origin_sheet": "DASH 06 V06",
+    "origin_cell": "B8",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "sidebar",
+    "PT": "Dashboard Executivo",
+    "EN": "Executive Dashboard"
+  },
+  {
+    "origin_sheet": "DASH 06 V06",
+    "origin_cell": "B13",
+    "destination_sheet": "DASH 01 V06",
+    "destination_cell": "A1",
+    "type": "sidebar",
+    "PT": "Investimento e Orçamento de Construção",
+    "EN": "Investment & Construction Budget"
+  },
+  {
+    "origin_sheet": "DASH 06 V06",
+    "origin_cell": "B18",
+    "destination_sheet": "DASH 02 V06",
+    "destination_cell": "A1",
+    "type": "sidebar",
+    "PT": "Fiscalidade, Incentivos e Seguros",
+    "EN": "Taxation, Incentives & Insurance"
+  },
+  {
+    "origin_sheet": "DASH 06 V06",
+    "origin_cell": "B23",
+    "destination_sheet": "DASH 03 V06",
+    "destination_cell": "A1",
+    "type": "sidebar",
+    "PT": "Desempenho Financeiro Consolidado",
+    "EN": "Consolidated Financial Performance"
+  },
+  {
+    "origin_sheet": "DASH 06 V06",
+    "origin_cell": "B28",
+    "destination_sheet": "DASH 04A V06",
+    "destination_cell": "A1",
+    "type": "sidebar",
+    "PT": "Promoção e Comercialização Imobiliária",
+    "EN": "Real Estate Development & Sales"
+  },
+  {
+    "origin_sheet": "DASH 06 V06",
+    "origin_cell": "B33",
+    "destination_sheet": "DASH 04B V06",
+    "destination_cell": "A1",
+    "type": "sidebar",
+    "PT": "Exploração Residencial e Sell & Leaseback",
+    "EN": "Residential Operations & Sell & Leaseback"
+  },
+  {
+    "origin_sheet": "DASH 06 V06",
+    "origin_cell": "B38",
+    "destination_sheet": "DASH 05 V06",
+    "destination_cell": "A1",
+    "type": "sidebar",
+    "PT": "Exploração Hoteleira e Centro MICE",
+    "EN": "Hotel & MICE Operations"
+  },
+  {
+    "origin_sheet": "DASH 06 V06",
+    "origin_cell": "B43",
+    "destination_sheet": "DASH 06 V06",
+    "destination_cell": "A1",
+    "type": "sidebar",
+    "PT": "Estrutura Acionista e Blocos de Investimento",
+    "EN": "Shareholding & Investment Blocks"
+  },
+  {
+    "origin_sheet": "DASH 06 V06",
+    "origin_cell": "B48",
+    "destination_sheet": "DASH 07 V06",
+    "destination_cell": "A1",
+    "type": "sidebar",
+    "PT": "Rentabilidade dos Acionistas e Distribuições",
+    "EN": "Equity Returns & Distributions"
+  },
+  {
+    "origin_sheet": "DASH 06 V06",
+    "origin_cell": "B53",
+    "destination_sheet": "DASH 10 Centro",
+    "destination_cell": "A1",
+    "type": "sidebar",
+    "PT": "Relatório Executivo Consolidado de Viabilidade e Investimento",
+    "EN": "Consolidated Investment & Feasibility Report"
+  },
+  {
+    "origin_sheet": "DASH 06 V06",
+    "origin_cell": "B60",
+    "destination_sheet": "V06 Identidade",
+    "destination_cell": "B8",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Inserir logótipo original",
+    "EN": "Insert original logo"
+  },
+  {
+    "origin_sheet": "DASH 06 V06",
+    "origin_cell": "H7",
+    "destination_sheet": "V06 Dicionario",
+    "destination_cell": "A4",
+    "type": "Excel internal HYPERLINK",
+    "PT": "ⓘ",
+    "EN": "ⓘ"
+  },
+  {
+    "origin_sheet": "DASH 06 V06",
+    "origin_cell": "L7",
+    "destination_sheet": "V06 Dicionario",
+    "destination_cell": "A4",
+    "type": "Excel internal HYPERLINK",
+    "PT": "ⓘ",
+    "EN": "ⓘ"
+  },
+  {
+    "origin_sheet": "DASH 06 V06",
+    "origin_cell": "P7",
+    "destination_sheet": "V06 Dicionario",
+    "destination_cell": "A4",
+    "type": "Excel internal HYPERLINK",
+    "PT": "ⓘ",
+    "EN": "ⓘ"
+  },
+  {
+    "origin_sheet": "DASH 06 V06",
+    "origin_cell": "H13",
+    "destination_sheet": "V06 Dicionario",
+    "destination_cell": "A4",
+    "type": "Excel internal HYPERLINK",
+    "PT": "ⓘ",
+    "EN": "ⓘ"
+  },
+  {
+    "origin_sheet": "DASH 06 V06",
+    "origin_cell": "L13",
+    "destination_sheet": "V06 Dicionario",
+    "destination_cell": "A4",
+    "type": "Excel internal HYPERLINK",
+    "PT": "ⓘ",
+    "EN": "ⓘ"
+  },
+  {
+    "origin_sheet": "DASH 06 V06",
+    "origin_cell": "P13",
+    "destination_sheet": "V06 Dicionario",
+    "destination_cell": "A4",
+    "type": "Excel internal HYPERLINK",
+    "PT": "ⓘ",
+    "EN": "ⓘ"
+  },
+  {
+    "origin_sheet": "DASH 06 V06",
+    "origin_cell": "E37",
+    "destination_sheet": "V06 Blocos",
+    "destination_cell": "A4",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Consultar detalhe →",
+    "EN": "Open detail →"
+  },
+  {
+    "origin_sheet": "DASH 06 V06",
+    "origin_cell": "K37",
+    "destination_sheet": "V06 Dicionario",
+    "destination_cell": "A4",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Definições e bases KPI →",
+    "EN": "KPI definitions and bases →"
+  },
+  {
+    "origin_sheet": "DASH 06 V06",
+    "origin_cell": "E89",
+    "destination_sheet": "DASH 10 Centro",
+    "destination_cell": "A1",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Relatório consolidado →",
+    "EN": "Consolidated report →"
+  },
+  {
+    "origin_sheet": "DASH 06 V06",
+    "origin_cell": "K89",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "Excel internal HYPERLINK",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "DASH 07 V06",
+    "origin_cell": "N2",
+    "destination_sheet": "V06 Identidade",
+    "destination_cell": "B8",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Logótipo original",
+    "EN": "Original logo"
+  },
+  {
+    "origin_sheet": "DASH 07 V06",
+    "origin_cell": "B5",
+    "destination_sheet": "DASH 10 Centro",
+    "destination_cell": "H7",
+    "type": "Excel internal HYPERLINK",
+    "PT": "PT | EN ▾",
+    "EN": "PT | EN ▾"
+  },
+  {
+    "origin_sheet": "DASH 07 V06",
+    "origin_cell": "B6",
+    "destination_sheet": "DASH 10 Centro",
+    "destination_cell": "E21",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Menu de navegação",
+    "EN": "Navigation menu"
+  },
+  {
+    "origin_sheet": "DASH 07 V06",
+    "origin_cell": "E5",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "Excel internal HYPERLINK",
+    "PT": "⌂ Início",
+    "EN": "⌂ Home"
+  },
+  {
+    "origin_sheet": "DASH 07 V06",
+    "origin_cell": "H5",
+    "destination_sheet": "DASH 07 V06",
+    "destination_cell": "H23",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Parâmetros ▾",
+    "EN": "Assumptions ▾"
+  },
+  {
+    "origin_sheet": "DASH 07 V06",
+    "origin_cell": "K5",
+    "destination_sheet": "DASH 10 Centro",
+    "destination_cell": "A1",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Relatório 10",
+    "EN": "Report 10"
+  },
+  {
+    "origin_sheet": "DASH 07 V06",
+    "origin_cell": "N5",
+    "destination_sheet": "V06 PDF 09",
+    "destination_cell": "A1",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Imprimir / PDF",
+    "EN": "Print / PDF"
+  },
+  {
+    "origin_sheet": "DASH 07 V06",
+    "origin_cell": "B8",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "sidebar",
+    "PT": "Dashboard Executivo",
+    "EN": "Executive Dashboard"
+  },
+  {
+    "origin_sheet": "DASH 07 V06",
+    "origin_cell": "B13",
+    "destination_sheet": "DASH 01 V06",
+    "destination_cell": "A1",
+    "type": "sidebar",
+    "PT": "Investimento e Orçamento de Construção",
+    "EN": "Investment & Construction Budget"
+  },
+  {
+    "origin_sheet": "DASH 07 V06",
+    "origin_cell": "B18",
+    "destination_sheet": "DASH 02 V06",
+    "destination_cell": "A1",
+    "type": "sidebar",
+    "PT": "Fiscalidade, Incentivos e Seguros",
+    "EN": "Taxation, Incentives & Insurance"
+  },
+  {
+    "origin_sheet": "DASH 07 V06",
+    "origin_cell": "B23",
+    "destination_sheet": "DASH 03 V06",
+    "destination_cell": "A1",
+    "type": "sidebar",
+    "PT": "Desempenho Financeiro Consolidado",
+    "EN": "Consolidated Financial Performance"
+  },
+  {
+    "origin_sheet": "DASH 07 V06",
+    "origin_cell": "B28",
+    "destination_sheet": "DASH 04A V06",
+    "destination_cell": "A1",
+    "type": "sidebar",
+    "PT": "Promoção e Comercialização Imobiliária",
+    "EN": "Real Estate Development & Sales"
+  },
+  {
+    "origin_sheet": "DASH 07 V06",
+    "origin_cell": "B33",
+    "destination_sheet": "DASH 04B V06",
+    "destination_cell": "A1",
+    "type": "sidebar",
+    "PT": "Exploração Residencial e Sell & Leaseback",
+    "EN": "Residential Operations & Sell & Leaseback"
+  },
+  {
+    "origin_sheet": "DASH 07 V06",
+    "origin_cell": "B38",
+    "destination_sheet": "DASH 05 V06",
+    "destination_cell": "A1",
+    "type": "sidebar",
+    "PT": "Exploração Hoteleira e Centro MICE",
+    "EN": "Hotel & MICE Operations"
+  },
+  {
+    "origin_sheet": "DASH 07 V06",
+    "origin_cell": "B43",
+    "destination_sheet": "DASH 06 V06",
+    "destination_cell": "A1",
+    "type": "sidebar",
+    "PT": "Estrutura Acionista e Blocos de Investimento",
+    "EN": "Shareholding & Investment Blocks"
+  },
+  {
+    "origin_sheet": "DASH 07 V06",
+    "origin_cell": "B48",
+    "destination_sheet": "DASH 07 V06",
+    "destination_cell": "A1",
+    "type": "sidebar",
+    "PT": "Rentabilidade dos Acionistas e Distribuições",
+    "EN": "Equity Returns & Distributions"
+  },
+  {
+    "origin_sheet": "DASH 07 V06",
+    "origin_cell": "B53",
+    "destination_sheet": "DASH 10 Centro",
+    "destination_cell": "A1",
+    "type": "sidebar",
+    "PT": "Relatório Executivo Consolidado de Viabilidade e Investimento",
+    "EN": "Consolidated Investment & Feasibility Report"
+  },
+  {
+    "origin_sheet": "DASH 07 V06",
+    "origin_cell": "B60",
+    "destination_sheet": "V06 Identidade",
+    "destination_cell": "B8",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Inserir logótipo original",
+    "EN": "Insert original logo"
+  },
+  {
+    "origin_sheet": "DASH 07 V06",
+    "origin_cell": "H7",
+    "destination_sheet": "V06 Dicionario",
+    "destination_cell": "A4",
+    "type": "Excel internal HYPERLINK",
+    "PT": "ⓘ",
+    "EN": "ⓘ"
+  },
+  {
+    "origin_sheet": "DASH 07 V06",
+    "origin_cell": "L7",
+    "destination_sheet": "V06 Dicionario",
+    "destination_cell": "A4",
+    "type": "Excel internal HYPERLINK",
+    "PT": "ⓘ",
+    "EN": "ⓘ"
+  },
+  {
+    "origin_sheet": "DASH 07 V06",
+    "origin_cell": "P7",
+    "destination_sheet": "V06 Dicionario",
+    "destination_cell": "A4",
+    "type": "Excel internal HYPERLINK",
+    "PT": "ⓘ",
+    "EN": "ⓘ"
+  },
+  {
+    "origin_sheet": "DASH 07 V06",
+    "origin_cell": "H13",
+    "destination_sheet": "V06 Dicionario",
+    "destination_cell": "A4",
+    "type": "Excel internal HYPERLINK",
+    "PT": "ⓘ",
+    "EN": "ⓘ"
+  },
+  {
+    "origin_sheet": "DASH 07 V06",
+    "origin_cell": "L13",
+    "destination_sheet": "V06 Dicionario",
+    "destination_cell": "A4",
+    "type": "Excel internal HYPERLINK",
+    "PT": "ⓘ",
+    "EN": "ⓘ"
+  },
+  {
+    "origin_sheet": "DASH 07 V06",
+    "origin_cell": "P13",
+    "destination_sheet": "V06 Dicionario",
+    "destination_cell": "A4",
+    "type": "Excel internal HYPERLINK",
+    "PT": "ⓘ",
+    "EN": "ⓘ"
+  },
+  {
+    "origin_sheet": "DASH 07 V06",
+    "origin_cell": "K29",
+    "destination_sheet": "V06 Otimizacao",
+    "destination_cell": "A4",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Simulação dividendos e reservas →",
+    "EN": "Dividend and reserve simulation →"
+  },
+  {
+    "origin_sheet": "DASH 07 V06",
+    "origin_cell": "E37",
+    "destination_sheet": "V06 Fluxos Invest",
+    "destination_cell": "A4",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Consultar detalhe →",
+    "EN": "Open detail →"
+  },
+  {
+    "origin_sheet": "DASH 07 V06",
+    "origin_cell": "K37",
+    "destination_sheet": "V06 Dicionario",
+    "destination_cell": "A4",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Definições e bases KPI →",
+    "EN": "KPI definitions and bases →"
+  },
+  {
+    "origin_sheet": "DASH 07 V06",
+    "origin_cell": "E89",
+    "destination_sheet": "DASH 10 Centro",
+    "destination_cell": "A1",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Relatório consolidado →",
+    "EN": "Consolidated report →"
+  },
+  {
+    "origin_sheet": "DASH 07 V06",
+    "origin_cell": "K89",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "Excel internal HYPERLINK",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 PDF 01",
+    "origin_cell": "J1",
+    "destination_sheet": "V06 Identidade",
+    "destination_cell": "B8",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Logótipo original",
+    "EN": "Original logo"
+  },
+  {
+    "origin_sheet": "V06 PDF 01",
+    "origin_cell": "M1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Início",
+    "EN": "Home"
+  },
+  {
+    "origin_sheet": "V06 PDF 01",
+    "origin_cell": "N1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Voltar",
+    "EN": "Back"
+  },
+  {
+    "origin_sheet": "V06 PDF 01",
+    "origin_cell": "O1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "H23",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Parâmetros",
+    "EN": "Assumptions"
+  },
+  {
+    "origin_sheet": "V06 PDF 01",
+    "origin_cell": "P1",
+    "destination_sheet": "V06 Dicionario",
+    "destination_cell": "A4",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Ajuda",
+    "EN": "Help"
+  },
+  {
+    "origin_sheet": "V06 PDF 02",
+    "origin_cell": "J1",
+    "destination_sheet": "V06 Identidade",
+    "destination_cell": "B8",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Logótipo original",
+    "EN": "Original logo"
+  },
+  {
+    "origin_sheet": "V06 PDF 02",
+    "origin_cell": "M1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Início",
+    "EN": "Home"
+  },
+  {
+    "origin_sheet": "V06 PDF 02",
+    "origin_cell": "N1",
+    "destination_sheet": "DASH 01 V06",
+    "destination_cell": "A1",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Voltar",
+    "EN": "Back"
+  },
+  {
+    "origin_sheet": "V06 PDF 02",
+    "origin_cell": "O1",
+    "destination_sheet": "DASH 01 V06",
+    "destination_cell": "H23",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Parâmetros",
+    "EN": "Assumptions"
+  },
+  {
+    "origin_sheet": "V06 PDF 02",
+    "origin_cell": "P1",
+    "destination_sheet": "V06 Dicionario",
+    "destination_cell": "A4",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Ajuda",
+    "EN": "Help"
+  },
+  {
+    "origin_sheet": "V06 PDF 03",
+    "origin_cell": "J1",
+    "destination_sheet": "V06 Identidade",
+    "destination_cell": "B8",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Logótipo original",
+    "EN": "Original logo"
+  },
+  {
+    "origin_sheet": "V06 PDF 03",
+    "origin_cell": "M1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Início",
+    "EN": "Home"
+  },
+  {
+    "origin_sheet": "V06 PDF 03",
+    "origin_cell": "N1",
+    "destination_sheet": "DASH 02 V06",
+    "destination_cell": "A1",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Voltar",
+    "EN": "Back"
+  },
+  {
+    "origin_sheet": "V06 PDF 03",
+    "origin_cell": "O1",
+    "destination_sheet": "DASH 02 V06",
+    "destination_cell": "H23",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Parâmetros",
+    "EN": "Assumptions"
+  },
+  {
+    "origin_sheet": "V06 PDF 03",
+    "origin_cell": "P1",
+    "destination_sheet": "V06 Dicionario",
+    "destination_cell": "A4",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Ajuda",
+    "EN": "Help"
+  },
+  {
+    "origin_sheet": "V06 PDF 04",
+    "origin_cell": "J1",
+    "destination_sheet": "V06 Identidade",
+    "destination_cell": "B8",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Logótipo original",
+    "EN": "Original logo"
+  },
+  {
+    "origin_sheet": "V06 PDF 04",
+    "origin_cell": "M1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Início",
+    "EN": "Home"
+  },
+  {
+    "origin_sheet": "V06 PDF 04",
+    "origin_cell": "N1",
+    "destination_sheet": "DASH 03 V06",
+    "destination_cell": "A1",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Voltar",
+    "EN": "Back"
+  },
+  {
+    "origin_sheet": "V06 PDF 04",
+    "origin_cell": "O1",
+    "destination_sheet": "DASH 03 V06",
+    "destination_cell": "H23",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Parâmetros",
+    "EN": "Assumptions"
+  },
+  {
+    "origin_sheet": "V06 PDF 04",
+    "origin_cell": "P1",
+    "destination_sheet": "V06 Dicionario",
+    "destination_cell": "A4",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Ajuda",
+    "EN": "Help"
+  },
+  {
+    "origin_sheet": "V06 PDF 05",
+    "origin_cell": "J1",
+    "destination_sheet": "V06 Identidade",
+    "destination_cell": "B8",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Logótipo original",
+    "EN": "Original logo"
+  },
+  {
+    "origin_sheet": "V06 PDF 05",
+    "origin_cell": "M1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Início",
+    "EN": "Home"
+  },
+  {
+    "origin_sheet": "V06 PDF 05",
+    "origin_cell": "N1",
+    "destination_sheet": "DASH 04A V06",
+    "destination_cell": "A1",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Voltar",
+    "EN": "Back"
+  },
+  {
+    "origin_sheet": "V06 PDF 05",
+    "origin_cell": "O1",
+    "destination_sheet": "DASH 04A V06",
+    "destination_cell": "H23",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Parâmetros",
+    "EN": "Assumptions"
+  },
+  {
+    "origin_sheet": "V06 PDF 05",
+    "origin_cell": "P1",
+    "destination_sheet": "V06 Dicionario",
+    "destination_cell": "A4",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Ajuda",
+    "EN": "Help"
+  },
+  {
+    "origin_sheet": "V06 PDF 06",
+    "origin_cell": "J1",
+    "destination_sheet": "V06 Identidade",
+    "destination_cell": "B8",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Logótipo original",
+    "EN": "Original logo"
+  },
+  {
+    "origin_sheet": "V06 PDF 06",
+    "origin_cell": "M1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Início",
+    "EN": "Home"
+  },
+  {
+    "origin_sheet": "V06 PDF 06",
+    "origin_cell": "N1",
+    "destination_sheet": "DASH 04B V06",
+    "destination_cell": "A1",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Voltar",
+    "EN": "Back"
+  },
+  {
+    "origin_sheet": "V06 PDF 06",
+    "origin_cell": "O1",
+    "destination_sheet": "DASH 04B V06",
+    "destination_cell": "H23",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Parâmetros",
+    "EN": "Assumptions"
+  },
+  {
+    "origin_sheet": "V06 PDF 06",
+    "origin_cell": "P1",
+    "destination_sheet": "V06 Dicionario",
+    "destination_cell": "A4",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Ajuda",
+    "EN": "Help"
+  },
+  {
+    "origin_sheet": "V06 PDF 07",
+    "origin_cell": "J1",
+    "destination_sheet": "V06 Identidade",
+    "destination_cell": "B8",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Logótipo original",
+    "EN": "Original logo"
+  },
+  {
+    "origin_sheet": "V06 PDF 07",
+    "origin_cell": "M1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Início",
+    "EN": "Home"
+  },
+  {
+    "origin_sheet": "V06 PDF 07",
+    "origin_cell": "N1",
+    "destination_sheet": "DASH 05 V06",
+    "destination_cell": "A1",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Voltar",
+    "EN": "Back"
+  },
+  {
+    "origin_sheet": "V06 PDF 07",
+    "origin_cell": "O1",
+    "destination_sheet": "DASH 05 V06",
+    "destination_cell": "H23",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Parâmetros",
+    "EN": "Assumptions"
+  },
+  {
+    "origin_sheet": "V06 PDF 07",
+    "origin_cell": "P1",
+    "destination_sheet": "V06 Dicionario",
+    "destination_cell": "A4",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Ajuda",
+    "EN": "Help"
+  },
+  {
+    "origin_sheet": "V06 PDF 08",
+    "origin_cell": "J1",
+    "destination_sheet": "V06 Identidade",
+    "destination_cell": "B8",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Logótipo original",
+    "EN": "Original logo"
+  },
+  {
+    "origin_sheet": "V06 PDF 08",
+    "origin_cell": "M1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Início",
+    "EN": "Home"
+  },
+  {
+    "origin_sheet": "V06 PDF 08",
+    "origin_cell": "N1",
+    "destination_sheet": "DASH 06 V06",
+    "destination_cell": "A1",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Voltar",
+    "EN": "Back"
+  },
+  {
+    "origin_sheet": "V06 PDF 08",
+    "origin_cell": "O1",
+    "destination_sheet": "DASH 06 V06",
+    "destination_cell": "H23",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Parâmetros",
+    "EN": "Assumptions"
+  },
+  {
+    "origin_sheet": "V06 PDF 08",
+    "origin_cell": "P1",
+    "destination_sheet": "V06 Dicionario",
+    "destination_cell": "A4",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Ajuda",
+    "EN": "Help"
+  },
+  {
+    "origin_sheet": "V06 PDF 09",
+    "origin_cell": "J1",
+    "destination_sheet": "V06 Identidade",
+    "destination_cell": "B8",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Logótipo original",
+    "EN": "Original logo"
+  },
+  {
+    "origin_sheet": "V06 PDF 09",
+    "origin_cell": "M1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Início",
+    "EN": "Home"
+  },
+  {
+    "origin_sheet": "V06 PDF 09",
+    "origin_cell": "N1",
+    "destination_sheet": "DASH 07 V06",
+    "destination_cell": "A1",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Voltar",
+    "EN": "Back"
+  },
+  {
+    "origin_sheet": "V06 PDF 09",
+    "origin_cell": "O1",
+    "destination_sheet": "DASH 07 V06",
+    "destination_cell": "H23",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Parâmetros",
+    "EN": "Assumptions"
+  },
+  {
+    "origin_sheet": "V06 PDF 09",
+    "origin_cell": "P1",
+    "destination_sheet": "V06 Dicionario",
+    "destination_cell": "A4",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Ajuda",
+    "EN": "Help"
+  },
+  {
+    "origin_sheet": "DASH 10 Centro",
+    "origin_cell": "N2",
+    "destination_sheet": "V06 Identidade",
+    "destination_cell": "B8",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Logótipo original",
+    "EN": "Original logo"
+  },
+  {
+    "origin_sheet": "DASH 10 Centro",
+    "origin_cell": "B5",
+    "destination_sheet": "DASH 10 Centro",
+    "destination_cell": "H7",
+    "type": "Excel internal HYPERLINK",
+    "PT": "PT | EN ▾",
+    "EN": "PT | EN ▾"
+  },
+  {
+    "origin_sheet": "DASH 10 Centro",
+    "origin_cell": "B6",
+    "destination_sheet": "DASH 10 Centro",
+    "destination_cell": "E21",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Menu de navegação",
+    "EN": "Navigation menu"
+  },
+  {
+    "origin_sheet": "DASH 10 Centro",
+    "origin_cell": "E5",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "Excel internal HYPERLINK",
+    "PT": "⌂ Início",
+    "EN": "⌂ Home"
+  },
+  {
+    "origin_sheet": "DASH 10 Centro",
+    "origin_cell": "H5",
+    "destination_sheet": "DASH 10 Centro",
+    "destination_cell": "H7",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Parâmetros ▾",
+    "EN": "Assumptions ▾"
+  },
+  {
+    "origin_sheet": "DASH 10 Centro",
+    "origin_cell": "K5",
+    "destination_sheet": "DASH 10 Centro",
+    "destination_cell": "A1",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Relatório 10",
+    "EN": "Report 10"
+  },
+  {
+    "origin_sheet": "DASH 10 Centro",
+    "origin_cell": "N5",
+    "destination_sheet": "V06 Imprimir",
+    "destination_cell": "A23",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Imprimir / PDF",
+    "EN": "Print / PDF"
+  },
+  {
+    "origin_sheet": "DASH 10 Centro",
+    "origin_cell": "B8",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "sidebar",
+    "PT": "Dashboard Executivo",
+    "EN": "Executive Dashboard"
+  },
+  {
+    "origin_sheet": "DASH 10 Centro",
+    "origin_cell": "B13",
+    "destination_sheet": "DASH 01 V06",
+    "destination_cell": "A1",
+    "type": "sidebar",
+    "PT": "Investimento e Orçamento de Construção",
+    "EN": "Investment & Construction Budget"
+  },
+  {
+    "origin_sheet": "DASH 10 Centro",
+    "origin_cell": "B18",
+    "destination_sheet": "DASH 02 V06",
+    "destination_cell": "A1",
+    "type": "sidebar",
+    "PT": "Fiscalidade, Incentivos e Seguros",
+    "EN": "Taxation, Incentives & Insurance"
+  },
+  {
+    "origin_sheet": "DASH 10 Centro",
+    "origin_cell": "B23",
+    "destination_sheet": "DASH 03 V06",
+    "destination_cell": "A1",
+    "type": "sidebar",
+    "PT": "Desempenho Financeiro Consolidado",
+    "EN": "Consolidated Financial Performance"
+  },
+  {
+    "origin_sheet": "DASH 10 Centro",
+    "origin_cell": "B28",
+    "destination_sheet": "DASH 04A V06",
+    "destination_cell": "A1",
+    "type": "sidebar",
+    "PT": "Promoção e Comercialização Imobiliária",
+    "EN": "Real Estate Development & Sales"
+  },
+  {
+    "origin_sheet": "DASH 10 Centro",
+    "origin_cell": "B33",
+    "destination_sheet": "DASH 04B V06",
+    "destination_cell": "A1",
+    "type": "sidebar",
+    "PT": "Exploração Residencial e Sell & Leaseback",
+    "EN": "Residential Operations & Sell & Leaseback"
+  },
+  {
+    "origin_sheet": "DASH 10 Centro",
+    "origin_cell": "B38",
+    "destination_sheet": "DASH 05 V06",
+    "destination_cell": "A1",
+    "type": "sidebar",
+    "PT": "Exploração Hoteleira e Centro MICE",
+    "EN": "Hotel & MICE Operations"
+  },
+  {
+    "origin_sheet": "DASH 10 Centro",
+    "origin_cell": "B43",
+    "destination_sheet": "DASH 06 V06",
+    "destination_cell": "A1",
+    "type": "sidebar",
+    "PT": "Estrutura Acionista e Blocos de Investimento",
+    "EN": "Shareholding & Investment Blocks"
+  },
+  {
+    "origin_sheet": "DASH 10 Centro",
+    "origin_cell": "B48",
+    "destination_sheet": "DASH 07 V06",
+    "destination_cell": "A1",
+    "type": "sidebar",
+    "PT": "Rentabilidade dos Acionistas e Distribuições",
+    "EN": "Equity Returns & Distributions"
+  },
+  {
+    "origin_sheet": "DASH 10 Centro",
+    "origin_cell": "B53",
+    "destination_sheet": "DASH 10 Centro",
+    "destination_cell": "A1",
+    "type": "sidebar",
+    "PT": "Relatório Executivo Consolidado de Viabilidade e Investimento",
+    "EN": "Consolidated Investment & Feasibility Report"
+  },
+  {
+    "origin_sheet": "DASH 10 Centro",
+    "origin_cell": "B60",
+    "destination_sheet": "V06 Identidade",
+    "destination_cell": "B8",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Inserir logótipo original",
+    "EN": "Insert original logo"
+  },
+  {
+    "origin_sheet": "DASH 10 Centro",
+    "origin_cell": "E22",
+    "destination_sheet": "DASH 10 V06",
+    "destination_cell": "A1",
+    "type": "Excel internal HYPERLINK",
+    "PT": "01 — Síntese Executiva de Investimento",
+    "EN": "01 — Executive Investment Summary"
+  },
+  {
+    "origin_sheet": "DASH 10 Centro",
+    "origin_cell": "E26",
+    "destination_sheet": "DASH 10 V06",
+    "destination_cell": "A61",
+    "type": "Excel internal HYPERLINK",
+    "PT": "02 — Orçamento de Desenvolvimento e Financiamento",
+    "EN": "02 — Development Budget & Funding"
+  },
+  {
+    "origin_sheet": "DASH 10 Centro",
+    "origin_cell": "E30",
+    "destination_sheet": "DASH 10 V06",
+    "destination_cell": "A121",
+    "type": "Excel internal HYPERLINK",
+    "PT": "03 — Tesouraria e Sustentabilidade da Dívida",
+    "EN": "03 — Cash Flow & Debt Sustainability"
+  },
+  {
+    "origin_sheet": "DASH 10 Centro",
+    "origin_cell": "E34",
+    "destination_sheet": "DASH 10 V06",
+    "destination_cell": "A181",
+    "type": "Excel internal HYPERLINK",
+    "PT": "04 — Promoção Imobiliária e Vendas",
+    "EN": "04 — Real Estate Development & Sales"
+  },
+  {
+    "origin_sheet": "DASH 10 Centro",
+    "origin_cell": "E38",
+    "destination_sheet": "DASH 10 V06",
+    "destination_cell": "A241",
+    "type": "Excel internal HYPERLINK",
+    "PT": "05 — Retornos dos Proprietários Residenciais",
+    "EN": "05 — Residential Owner Returns"
+  },
+  {
+    "origin_sheet": "DASH 10 Centro",
+    "origin_cell": "E42",
+    "destination_sheet": "DASH 10 V06",
+    "destination_cell": "A301",
+    "type": "Excel internal HYPERLINK",
+    "PT": "06 — Exploração Hoteleira e Centro MICE",
+    "EN": "06 — Hotel & MICE Operations"
+  },
+  {
+    "origin_sheet": "DASH 10 Centro",
+    "origin_cell": "E46",
+    "destination_sheet": "DASH 10 V06",
+    "destination_cell": "A361",
+    "type": "Excel internal HYPERLINK",
+    "PT": "07 — Fiscalidade, Operadoras e Reservas",
+    "EN": "07 — Taxation, Operator Terms & Reserves"
+  },
+  {
+    "origin_sheet": "DASH 10 Centro",
+    "origin_cell": "E50",
+    "destination_sheet": "DASH 10 V06",
+    "destination_cell": "A421",
+    "type": "Excel internal HYPERLINK",
+    "PT": "08 — Estrutura Acionista e Retornos",
+    "EN": "08 — Shareholding & Equity Returns"
+  },
+  {
+    "origin_sheet": "DASH 10 Centro",
+    "origin_cell": "E54",
+    "destination_sheet": "DASH 10 V06",
+    "destination_cell": "A481",
+    "type": "Excel internal HYPERLINK",
+    "PT": "09 — Sensibilidades, Riscos e Equilíbrio",
+    "EN": "09 — Sensitivities, Risks & Break-even"
+  },
+  {
+    "origin_sheet": "DASH 10 Centro",
+    "origin_cell": "E58",
+    "destination_sheet": "DASH 10 V06",
+    "destination_cell": "A541",
+    "type": "Excel internal HYPERLINK",
+    "PT": "10 — Avaliação do Investimento e Decisões",
+    "EN": "10 — Investment Assessment & Key Decisions"
+  },
+  {
+    "origin_sheet": "DASH 10 Centro",
+    "origin_cell": "E64",
+    "destination_sheet": "V06 Brief",
+    "destination_cell": "A1",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Resumo executivo · 2 páginas",
+    "EN": "Executive brief · 2 pages"
+  },
+  {
+    "origin_sheet": "DASH 10 Centro",
+    "origin_cell": "K64",
+    "destination_sheet": "DASH 10 V06",
+    "destination_cell": "A1",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Relatório integral · 10 páginas",
+    "EN": "Complete report · 10 pages"
+  },
+  {
+    "origin_sheet": "DASH 10 Centro",
+    "origin_cell": "E69",
+    "destination_sheet": "V06 Imprimir",
+    "destination_cell": "A4",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Procedimento PDF nativo",
+    "EN": "Native PDF procedure"
+  },
+  {
+    "origin_sheet": "DASH 10 Centro",
+    "origin_cell": "K69",
+    "destination_sheet": "V06 Registo Ativo",
+    "destination_cell": "A4",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Registo de parâmetros ativos",
+    "EN": "Active parameter register"
+  },
+  {
+    "origin_sheet": "V06 Identidade",
+    "origin_cell": "B5",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "Início",
+    "EN": "Home"
+  },
+  {
+    "origin_sheet": "V06 Identidade",
+    "origin_cell": "E5",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary Back",
+    "PT": "Voltar ao Dashboard",
+    "EN": "Back to Dashboard"
+  },
+  {
+    "origin_sheet": "V06 Identidade",
+    "origin_cell": "H5",
+    "destination_sheet": "DASH 10 Centro",
+    "destination_cell": "H7",
+    "type": "auxiliary internal link",
+    "PT": "Parâmetros",
+    "EN": "Assumptions"
+  },
+  {
+    "origin_sheet": "V06 Identidade",
+    "origin_cell": "K5",
+    "destination_sheet": "V06 Dicionario",
+    "destination_cell": "A4",
+    "type": "auxiliary internal link",
+    "PT": "Ajuda",
+    "EN": "Help"
+  },
+  {
+    "origin_sheet": "V06 UI Anual",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 Controlos",
+    "origin_cell": "A2",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "Início",
+    "EN": "Home"
+  },
+  {
+    "origin_sheet": "V06 Controlos",
+    "origin_cell": "B2",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary Back",
+    "PT": "Voltar ao Dashboard",
+    "EN": "Back to Dashboard"
+  },
+  {
+    "origin_sheet": "V06 Controlos",
+    "origin_cell": "C2",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "H23",
+    "type": "auxiliary internal link",
+    "PT": "Parâmetros",
+    "EN": "Assumptions"
+  },
+  {
+    "origin_sheet": "V06 Controlos",
+    "origin_cell": "D2",
+    "destination_sheet": "V06 Dicionario",
+    "destination_cell": "A4",
+    "type": "auxiliary internal link",
+    "PT": "Ajuda",
+    "EN": "Help"
+  },
+  {
+    "origin_sheet": "V06 Unidades",
+    "origin_cell": "A2",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "Início",
+    "EN": "Home"
+  },
+  {
+    "origin_sheet": "V06 Unidades",
+    "origin_cell": "B2",
+    "destination_sheet": "DASH 04A V06",
+    "destination_cell": "A1",
+    "type": "auxiliary Back",
+    "PT": "Voltar ao Dashboard",
+    "EN": "Back to Dashboard"
+  },
+  {
+    "origin_sheet": "V06 Unidades",
+    "origin_cell": "C2",
+    "destination_sheet": "DASH 04A V06",
+    "destination_cell": "H23",
+    "type": "auxiliary internal link",
+    "PT": "Parâmetros",
+    "EN": "Assumptions"
+  },
+  {
+    "origin_sheet": "V06 Unidades",
+    "origin_cell": "D2",
+    "destination_sheet": "V06 Dicionario",
+    "destination_cell": "A4",
+    "type": "auxiliary internal link",
+    "PT": "Ajuda",
+    "EN": "Help"
+  },
+  {
+    "origin_sheet": "V06 Curva",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 Capitulos",
+    "origin_cell": "A2",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "Início",
+    "EN": "Home"
+  },
+  {
+    "origin_sheet": "V06 Capitulos",
+    "origin_cell": "B2",
+    "destination_sheet": "DASH 01 V06",
+    "destination_cell": "A1",
+    "type": "auxiliary Back",
+    "PT": "Voltar ao Dashboard",
+    "EN": "Back to Dashboard"
+  },
+  {
+    "origin_sheet": "V06 Capitulos",
+    "origin_cell": "C2",
+    "destination_sheet": "DASH 01 V06",
+    "destination_cell": "H23",
+    "type": "auxiliary internal link",
+    "PT": "Parâmetros",
+    "EN": "Assumptions"
+  },
+  {
+    "origin_sheet": "V06 Capitulos",
+    "origin_cell": "D2",
+    "destination_sheet": "V06 Dicionario",
+    "destination_cell": "A4",
+    "type": "auxiliary internal link",
+    "PT": "Ajuda",
+    "EN": "Help"
+  },
+  {
+    "origin_sheet": "V06 Capital",
+    "origin_cell": "A2",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "Início",
+    "EN": "Home"
+  },
+  {
+    "origin_sheet": "V06 Capital",
+    "origin_cell": "B2",
+    "destination_sheet": "DASH 06 V06",
+    "destination_cell": "A1",
+    "type": "auxiliary Back",
+    "PT": "Voltar ao Dashboard",
+    "EN": "Back to Dashboard"
+  },
+  {
+    "origin_sheet": "V06 Capital",
+    "origin_cell": "C2",
+    "destination_sheet": "DASH 06 V06",
+    "destination_cell": "H23",
+    "type": "auxiliary internal link",
+    "PT": "Parâmetros",
+    "EN": "Assumptions"
+  },
+  {
+    "origin_sheet": "V06 Capital",
+    "origin_cell": "D2",
+    "destination_sheet": "V06 Dicionario",
+    "destination_cell": "A4",
+    "type": "auxiliary internal link",
+    "PT": "Ajuda",
+    "EN": "Help"
+  },
+  {
+    "origin_sheet": "V06 Hipoteses",
+    "origin_cell": "A2",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "Início",
+    "EN": "Home"
+  },
+  {
+    "origin_sheet": "V06 Hipoteses",
+    "origin_cell": "B2",
+    "destination_sheet": "DASH 10 Centro",
+    "destination_cell": "A1",
+    "type": "auxiliary Back",
+    "PT": "Voltar ao Dashboard",
+    "EN": "Back to Dashboard"
+  },
+  {
+    "origin_sheet": "V06 Hipoteses",
+    "origin_cell": "C2",
+    "destination_sheet": "DASH 10 Centro",
+    "destination_cell": "H7",
+    "type": "auxiliary internal link",
+    "PT": "Parâmetros",
+    "EN": "Assumptions"
+  },
+  {
+    "origin_sheet": "V06 Hipoteses",
+    "origin_cell": "D2",
+    "destination_sheet": "V06 Dicionario",
+    "destination_cell": "A4",
+    "type": "auxiliary internal link",
+    "PT": "Ajuda",
+    "EN": "Help"
+  },
+  {
+    "origin_sheet": "V06 Cobrancas",
+    "origin_cell": "A2",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "Início",
+    "EN": "Home"
+  },
+  {
+    "origin_sheet": "V06 Cobrancas",
+    "origin_cell": "B2",
+    "destination_sheet": "DASH 04A V06",
+    "destination_cell": "A1",
+    "type": "auxiliary Back",
+    "PT": "Voltar ao Dashboard",
+    "EN": "Back to Dashboard"
+  },
+  {
+    "origin_sheet": "V06 Cobrancas",
+    "origin_cell": "C2",
+    "destination_sheet": "DASH 04A V06",
+    "destination_cell": "H23",
+    "type": "auxiliary internal link",
+    "PT": "Parâmetros",
+    "EN": "Assumptions"
+  },
+  {
+    "origin_sheet": "V06 Cobrancas",
+    "origin_cell": "D2",
+    "destination_sheet": "V06 Dicionario",
+    "destination_cell": "A4",
+    "type": "auxiliary internal link",
+    "PT": "Ajuda",
+    "EN": "Help"
+  },
+  {
+    "origin_sheet": "V06 Ref Unidades",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 Motor",
+    "origin_cell": "A2",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "Início",
+    "EN": "Home"
+  },
+  {
+    "origin_sheet": "V06 Motor",
+    "origin_cell": "B2",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary Back",
+    "PT": "Voltar ao Dashboard",
+    "EN": "Back to Dashboard"
+  },
+  {
+    "origin_sheet": "V06 Motor",
+    "origin_cell": "C2",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "H23",
+    "type": "auxiliary internal link",
+    "PT": "Parâmetros",
+    "EN": "Assumptions"
+  },
+  {
+    "origin_sheet": "V06 Motor",
+    "origin_cell": "D2",
+    "destination_sheet": "V06 Dicionario",
+    "destination_cell": "A4",
+    "type": "auxiliary internal link",
+    "PT": "Ajuda",
+    "EN": "Help"
+  },
+  {
+    "origin_sheet": "V06 Calend 01",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 S01",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 S02",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 S03",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 S04",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 S05",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 S06",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 S07",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 S08",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 S09",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 S10",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 S11",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 S12",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 S13",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 S14",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 S15",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 S16",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 S17",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 S18",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 Calend 02",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 S19",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 S20",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 S21",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 Calend 03",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 S22",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 S23",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 S24",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 M01",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 M02",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 M03",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 M04",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 M05",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 M06",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 M07",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 M08",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 M09",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 M10",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 M11",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 M12",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 M13",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 M14",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 M15",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 M16",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 M17",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 M18",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 M19",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 M20",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 M21",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 M22",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 M23",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 M24",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 M25",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 M26",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 M27",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 M28",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 M29",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 M30",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 O01",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 O02",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 O03",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 O04",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 O05",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 O06",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 O07",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 O08",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 O09",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 O10",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 O11",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 O12",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 O13",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 Referencia",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 Calend 04",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 Cenarios",
+    "origin_cell": "A2",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "Início",
+    "EN": "Home"
+  },
+  {
+    "origin_sheet": "V06 Cenarios",
+    "origin_cell": "B2",
+    "destination_sheet": "DASH 03 V06",
+    "destination_cell": "A1",
+    "type": "auxiliary Back",
+    "PT": "Voltar ao Dashboard",
+    "EN": "Back to Dashboard"
+  },
+  {
+    "origin_sheet": "V06 Cenarios",
+    "origin_cell": "C2",
+    "destination_sheet": "DASH 03 V06",
+    "destination_cell": "H23",
+    "type": "auxiliary internal link",
+    "PT": "Parâmetros",
+    "EN": "Assumptions"
+  },
+  {
+    "origin_sheet": "V06 Cenarios",
+    "origin_cell": "D2",
+    "destination_sheet": "V06 Dicionario",
+    "destination_cell": "A4",
+    "type": "auxiliary internal link",
+    "PT": "Ajuda",
+    "EN": "Help"
+  },
+  {
+    "origin_sheet": "V06 Fluxos Invest",
+    "origin_cell": "A2",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "Início",
+    "EN": "Home"
+  },
+  {
+    "origin_sheet": "V06 Fluxos Invest",
+    "origin_cell": "B2",
+    "destination_sheet": "DASH 07 V06",
+    "destination_cell": "A1",
+    "type": "auxiliary Back",
+    "PT": "Voltar ao Dashboard",
+    "EN": "Back to Dashboard"
+  },
+  {
+    "origin_sheet": "V06 Fluxos Invest",
+    "origin_cell": "C2",
+    "destination_sheet": "DASH 07 V06",
+    "destination_cell": "H23",
+    "type": "auxiliary internal link",
+    "PT": "Parâmetros",
+    "EN": "Assumptions"
+  },
+  {
+    "origin_sheet": "V06 Fluxos Invest",
+    "origin_cell": "D2",
+    "destination_sheet": "V06 Dicionario",
+    "destination_cell": "A4",
+    "type": "auxiliary internal link",
+    "PT": "Ajuda",
+    "EN": "Help"
+  },
+  {
+    "origin_sheet": "V06 F01",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 F02",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 F03",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 F04",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 F05",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 F06",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 F07",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 F08",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 F09",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 F10",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 F11",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 F12",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 F13",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 F14",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 F15",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 F16",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 F17",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 F18",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 F19",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 F20",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 F21",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 F22",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 F23",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 F24",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 F25",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 F26",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 F27",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 F28",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 F29",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 F30",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 F31",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 F32",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 F33",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 F34",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 F35",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 F36",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 F37",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 F38",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 F39",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 F40",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 F41",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 F42",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 F43",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 F44",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 F45",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 F46",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 F47",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 F48",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 F49",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 F50",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 F51",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 F52",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 F53",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 F54",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 F55",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 F56",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 F57",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 F58",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 F59",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 F60",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 F61",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 F62",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 F63",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 F64",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 F65",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 F66",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 F67",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 F68",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 F69",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 Blocos",
+    "origin_cell": "A2",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "Início",
+    "EN": "Home"
+  },
+  {
+    "origin_sheet": "V06 Blocos",
+    "origin_cell": "B2",
+    "destination_sheet": "DASH 06 V06",
+    "destination_cell": "A1",
+    "type": "auxiliary Back",
+    "PT": "Voltar ao Dashboard",
+    "EN": "Back to Dashboard"
+  },
+  {
+    "origin_sheet": "V06 Blocos",
+    "origin_cell": "C2",
+    "destination_sheet": "DASH 06 V06",
+    "destination_cell": "H23",
+    "type": "auxiliary internal link",
+    "PT": "Parâmetros",
+    "EN": "Assumptions"
+  },
+  {
+    "origin_sheet": "V06 Blocos",
+    "origin_cell": "D2",
+    "destination_sheet": "V06 Dicionario",
+    "destination_cell": "A4",
+    "type": "auxiliary internal link",
+    "PT": "Ajuda",
+    "EN": "Help"
+  },
+  {
+    "origin_sheet": "V06 Anual",
+    "origin_cell": "A2",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "Início",
+    "EN": "Home"
+  },
+  {
+    "origin_sheet": "V06 Anual",
+    "origin_cell": "B2",
+    "destination_sheet": "DASH 03 V06",
+    "destination_cell": "A1",
+    "type": "auxiliary Back",
+    "PT": "Voltar ao Dashboard",
+    "EN": "Back to Dashboard"
+  },
+  {
+    "origin_sheet": "V06 Anual",
+    "origin_cell": "C2",
+    "destination_sheet": "DASH 03 V06",
+    "destination_cell": "H23",
+    "type": "auxiliary internal link",
+    "PT": "Parâmetros",
+    "EN": "Assumptions"
+  },
+  {
+    "origin_sheet": "V06 Anual",
+    "origin_cell": "D2",
+    "destination_sheet": "V06 Dicionario",
+    "destination_cell": "A4",
+    "type": "auxiliary internal link",
+    "PT": "Ajuda",
+    "EN": "Help"
+  },
+  {
+    "origin_sheet": "V06 Trimestral",
+    "origin_cell": "A2",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "Início",
+    "EN": "Home"
+  },
+  {
+    "origin_sheet": "V06 Trimestral",
+    "origin_cell": "B2",
+    "destination_sheet": "DASH 01 V06",
+    "destination_cell": "A1",
+    "type": "auxiliary Back",
+    "PT": "Voltar ao Dashboard",
+    "EN": "Back to Dashboard"
+  },
+  {
+    "origin_sheet": "V06 Trimestral",
+    "origin_cell": "C2",
+    "destination_sheet": "DASH 01 V06",
+    "destination_cell": "H23",
+    "type": "auxiliary internal link",
+    "PT": "Parâmetros",
+    "EN": "Assumptions"
+  },
+  {
+    "origin_sheet": "V06 Trimestral",
+    "origin_cell": "D2",
+    "destination_sheet": "V06 Dicionario",
+    "destination_cell": "A4",
+    "type": "auxiliary internal link",
+    "PT": "Ajuda",
+    "EN": "Help"
+  },
+  {
+    "origin_sheet": "V06 Dicionario",
+    "origin_cell": "A2",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "Início",
+    "EN": "Home"
+  },
+  {
+    "origin_sheet": "V06 Dicionario",
+    "origin_cell": "B2",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary Back",
+    "PT": "Voltar ao Dashboard",
+    "EN": "Back to Dashboard"
+  },
+  {
+    "origin_sheet": "V06 Dicionario",
+    "origin_cell": "C2",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "H23",
+    "type": "auxiliary internal link",
+    "PT": "Parâmetros",
+    "EN": "Assumptions"
+  },
+  {
+    "origin_sheet": "V06 Dicionario",
+    "origin_cell": "D2",
+    "destination_sheet": "V06 Dicionario",
+    "destination_cell": "A4",
+    "type": "auxiliary internal link",
+    "PT": "Ajuda",
+    "EN": "Help"
+  },
+  {
+    "origin_sheet": "V06 Traducoes",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 Matriz ADR",
+    "origin_cell": "A2",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "Início",
+    "EN": "Home"
+  },
+  {
+    "origin_sheet": "V06 Matriz ADR",
+    "origin_cell": "B2",
+    "destination_sheet": "DASH 05 V06",
+    "destination_cell": "A1",
+    "type": "auxiliary Back",
+    "PT": "Voltar ao Dashboard",
+    "EN": "Back to Dashboard"
+  },
+  {
+    "origin_sheet": "V06 Matriz ADR",
+    "origin_cell": "C2",
+    "destination_sheet": "DASH 05 V06",
+    "destination_cell": "H23",
+    "type": "auxiliary internal link",
+    "PT": "Parâmetros",
+    "EN": "Assumptions"
+  },
+  {
+    "origin_sheet": "V06 Matriz ADR",
+    "origin_cell": "D2",
+    "destination_sheet": "V06 Dicionario",
+    "destination_cell": "A4",
+    "type": "auxiliary internal link",
+    "PT": "Ajuda",
+    "EN": "Help"
+  },
+  {
+    "origin_sheet": "V06 Matriz Valores",
+    "origin_cell": "A1",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "← Início",
+    "EN": "← Home"
+  },
+  {
+    "origin_sheet": "V06 Equilibrio",
+    "origin_cell": "A2",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "Início",
+    "EN": "Home"
+  },
+  {
+    "origin_sheet": "V06 Equilibrio",
+    "origin_cell": "B2",
+    "destination_sheet": "DASH 05 V06",
+    "destination_cell": "A1",
+    "type": "auxiliary Back",
+    "PT": "Voltar ao Dashboard",
+    "EN": "Back to Dashboard"
+  },
+  {
+    "origin_sheet": "V06 Equilibrio",
+    "origin_cell": "C2",
+    "destination_sheet": "DASH 05 V06",
+    "destination_cell": "H23",
+    "type": "auxiliary internal link",
+    "PT": "Parâmetros",
+    "EN": "Assumptions"
+  },
+  {
+    "origin_sheet": "V06 Equilibrio",
+    "origin_cell": "D2",
+    "destination_sheet": "V06 Dicionario",
+    "destination_cell": "A4",
+    "type": "auxiliary internal link",
+    "PT": "Ajuda",
+    "EN": "Help"
+  },
+  {
+    "origin_sheet": "V06 Otimizacao",
+    "origin_cell": "A2",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "Início",
+    "EN": "Home"
+  },
+  {
+    "origin_sheet": "V06 Otimizacao",
+    "origin_cell": "B2",
+    "destination_sheet": "DASH 07 V06",
+    "destination_cell": "A1",
+    "type": "auxiliary Back",
+    "PT": "Voltar ao Dashboard",
+    "EN": "Back to Dashboard"
+  },
+  {
+    "origin_sheet": "V06 Otimizacao",
+    "origin_cell": "C2",
+    "destination_sheet": "DASH 07 V06",
+    "destination_cell": "H23",
+    "type": "auxiliary internal link",
+    "PT": "Parâmetros",
+    "EN": "Assumptions"
+  },
+  {
+    "origin_sheet": "V06 Otimizacao",
+    "origin_cell": "D2",
+    "destination_sheet": "V06 Dicionario",
+    "destination_cell": "A4",
+    "type": "auxiliary internal link",
+    "PT": "Ajuda",
+    "EN": "Help"
+  },
+  {
+    "origin_sheet": "V06 Operacao",
+    "origin_cell": "A2",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "Início",
+    "EN": "Home"
+  },
+  {
+    "origin_sheet": "V06 Operacao",
+    "origin_cell": "B2",
+    "destination_sheet": "DASH 05 V06",
+    "destination_cell": "A1",
+    "type": "auxiliary Back",
+    "PT": "Voltar ao Dashboard",
+    "EN": "Back to Dashboard"
+  },
+  {
+    "origin_sheet": "V06 Operacao",
+    "origin_cell": "C2",
+    "destination_sheet": "DASH 05 V06",
+    "destination_cell": "H23",
+    "type": "auxiliary internal link",
+    "PT": "Parâmetros",
+    "EN": "Assumptions"
+  },
+  {
+    "origin_sheet": "V06 Operacao",
+    "origin_cell": "D2",
+    "destination_sheet": "V06 Dicionario",
+    "destination_cell": "A4",
+    "type": "auxiliary internal link",
+    "PT": "Ajuda",
+    "EN": "Help"
+  },
+  {
+    "origin_sheet": "V06 Disponibilidade",
+    "origin_cell": "A2",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "Início",
+    "EN": "Home"
+  },
+  {
+    "origin_sheet": "V06 Disponibilidade",
+    "origin_cell": "B2",
+    "destination_sheet": "DASH 04A V06",
+    "destination_cell": "A1",
+    "type": "auxiliary Back",
+    "PT": "Voltar ao Dashboard",
+    "EN": "Back to Dashboard"
+  },
+  {
+    "origin_sheet": "V06 Disponibilidade",
+    "origin_cell": "C2",
+    "destination_sheet": "DASH 04A V06",
+    "destination_cell": "H23",
+    "type": "auxiliary internal link",
+    "PT": "Parâmetros",
+    "EN": "Assumptions"
+  },
+  {
+    "origin_sheet": "V06 Disponibilidade",
+    "origin_cell": "D2",
+    "destination_sheet": "V06 Dicionario",
+    "destination_cell": "A4",
+    "type": "auxiliary internal link",
+    "PT": "Ajuda",
+    "EN": "Help"
+  },
+  {
+    "origin_sheet": "V06 Conciliacao Vendas",
+    "origin_cell": "A2",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "Início",
+    "EN": "Home"
+  },
+  {
+    "origin_sheet": "V06 Conciliacao Vendas",
+    "origin_cell": "B2",
+    "destination_sheet": "DASH 04A V06",
+    "destination_cell": "A1",
+    "type": "auxiliary Back",
+    "PT": "Voltar ao Dashboard",
+    "EN": "Back to Dashboard"
+  },
+  {
+    "origin_sheet": "V06 Conciliacao Vendas",
+    "origin_cell": "C2",
+    "destination_sheet": "DASH 04A V06",
+    "destination_cell": "H23",
+    "type": "auxiliary internal link",
+    "PT": "Parâmetros",
+    "EN": "Assumptions"
+  },
+  {
+    "origin_sheet": "V06 Conciliacao Vendas",
+    "origin_cell": "D2",
+    "destination_sheet": "V06 Dicionario",
+    "destination_cell": "A4",
+    "type": "auxiliary internal link",
+    "PT": "Ajuda",
+    "EN": "Help"
+  },
+  {
+    "origin_sheet": "V06 Imprimir",
+    "origin_cell": "A2",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "Início",
+    "EN": "Home"
+  },
+  {
+    "origin_sheet": "V06 Imprimir",
+    "origin_cell": "B2",
+    "destination_sheet": "DASH 10 Centro",
+    "destination_cell": "A1",
+    "type": "auxiliary Back",
+    "PT": "Voltar ao Dashboard",
+    "EN": "Back to Dashboard"
+  },
+  {
+    "origin_sheet": "V06 Imprimir",
+    "origin_cell": "C2",
+    "destination_sheet": "DASH 10 Centro",
+    "destination_cell": "H7",
+    "type": "auxiliary internal link",
+    "PT": "Parâmetros",
+    "EN": "Assumptions"
+  },
+  {
+    "origin_sheet": "V06 Imprimir",
+    "origin_cell": "D2",
+    "destination_sheet": "V06 Dicionario",
+    "destination_cell": "A4",
+    "type": "auxiliary internal link",
+    "PT": "Ajuda",
+    "EN": "Help"
+  },
+  {
+    "origin_sheet": "V06 Registo Ativo",
+    "origin_cell": "A2",
+    "destination_sheet": "EXEC V06",
+    "destination_cell": "A1",
+    "type": "auxiliary internal link",
+    "PT": "Início",
+    "EN": "Home"
+  },
+  {
+    "origin_sheet": "V06 Registo Ativo",
+    "origin_cell": "B2",
+    "destination_sheet": "DASH 10 Centro",
+    "destination_cell": "A1",
+    "type": "auxiliary Back",
+    "PT": "Voltar ao Dashboard",
+    "EN": "Back to Dashboard"
+  },
+  {
+    "origin_sheet": "V06 Registo Ativo",
+    "origin_cell": "C2",
+    "destination_sheet": "DASH 10 Centro",
+    "destination_cell": "H7",
+    "type": "auxiliary internal link",
+    "PT": "Parâmetros",
+    "EN": "Assumptions"
+  },
+  {
+    "origin_sheet": "V06 Registo Ativo",
+    "origin_cell": "D2",
+    "destination_sheet": "V06 Dicionario",
+    "destination_cell": "A4",
+    "type": "auxiliary internal link",
+    "PT": "Ajuda",
+    "EN": "Help"
+  }
+]

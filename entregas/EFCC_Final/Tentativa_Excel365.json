@@ -1,0 +1,17 @@
+{
+  "status": "NOT TESTED",
+  "request": "Attempt native Microsoft Excel 365 validation",
+  "timestamp_utc": "2026-10-22T18:00:01.457288+00:00",
+  "platform": "Linux",
+  "executables": {
+    "excel": null,
+    "EXCEL.EXE": null,
+    "powershell": null,
+    "pwsh": null,
+    "wine": null
+  },
+  "available_excel_or_remote_desktop_connector": false,
+  "limitation": "No Excel application or connector is available; no native workbook was opened, recalculated or saved.",
+  "windows_entry_point": "Excel365/Executar_Validacao.cmd",
+  "independent_checks": "Python and LibreOffice; not equivalent to native Excel validation"
+}
