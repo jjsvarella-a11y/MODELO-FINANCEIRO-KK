@@ -1,7 +1,7 @@
 {
-  "release": "V06.3-SYNC-20261022",
+  "release": "V06.3-SYNC-R1-20261022",
   "native_excel365": "NOT TESTED",
-  "reported_old_version_errors": "User reports previous issue appears resolved. Premium revision has independent tests; native Excel acceptance remains NOT TESTED.",
+  "reported_old_version_errors": "Native Excel repair confirmed by user screenshot for sheet492.xml, sheet323.xml and sheet328.xml. R1 removes the three corresponding invalid empty containers. Native retest after fix remains NOT TESTED.",
   "logo_entry": "V06 Identidade: user inserts original JPG/PNG inside the workbook; optional header sync provided, native test pending.",
   "files": [
     {
@@ -26,8 +26,8 @@
     },
     {
       "path": "Auditoria_OOXML.json",
-      "bytes": 407,
-      "sha256": "3edace01312ee0e102094204fd4057c560b4aa62b1e1601922398799464a8553"
+      "bytes": 460,
+      "sha256": "bfec5f450d3614ed6d8e66ef03e877583de7dca2f5c9d342de3cba458534edfb"
     },
     {
       "path": "Comparacao_Cenarios.csv",
@@ -48,6 +48,11 @@
       "path": "Compatibilidade_Excel365.md",
       "bytes": 1412,
       "sha256": "0b1e4ed4196d7ff7ed780cf69cb70696b8078c38d1d17d009d2ba36bc6793c91"
+    },
+    {
+      "path": "Correcao_Reparacao_XML.json",
+      "bytes": 1214,
+      "sha256": "7f7d110241136311ffb6414df6ef078e19f6a93fc91e1886e217c70ebcf60370"
     },
     {
       "path": "Diagnostico_G5.json",
@@ -106,13 +111,13 @@
     },
     {
       "path": "Integridade_Premium.json",
-      "bytes": 6773,
-      "sha256": "f77ab469f89bc7481a19f63a86249b0f4ce34ddeaa73e26f6692cd79e904ac1d"
+      "bytes": 7091,
+      "sha256": "b705d32d41917b9021af92c937ed99386f45f1effff8278ac3e3e45914259655"
     },
     {
       "path": "KK01_V06_Executive_Master.xlsx",
-      "bytes": 36317123,
-      "sha256": "2ea21a3838b9bf9bd7694080ac2072022947cf085bb0856ec999035d06d9ac1e"
+      "bytes": 36317081,
+      "sha256": "4ef37eca1fe8d2bd249900b4e6e74c407d64b7f69dc978f48b656a80b19ae6c0"
     },
     {
       "path": "Mandato_Final.md",
@@ -142,7 +147,7 @@
     {
       "path": "Organizacao_Folhas.json",
       "bytes": 4041,
-      "sha256": "5e9255d8cc45f1996b88de489a6b467a682ebfb1aa660b393c3541b22c0edfa8"
+      "sha256": "b884a8783dc2aec02d1df735e469dc18d24d5857c26bad32dec7154d6d8fb730"
     },
     {
       "path": "PDF/EN/DASH_01_EN.pdf",
@@ -276,8 +281,8 @@
     },
     {
       "path": "Parametros_Ativos_EFCC.xlsx",
-      "bytes": 8339,
-      "sha256": "b1be23d46b283003f517ea639ab364061c1190b53c76c729e44812e0748d92e0"
+      "bytes": 8337,
+      "sha256": "14b70b82ee098f91e607f515351e22bc95c1b3924409e6ca04eb946678c1b07b"
     },
     {
       "path": "Parametros_Interface.json",
@@ -287,32 +292,32 @@
     {
       "path": "Preservacao.json",
       "bytes": 1055,
-      "sha256": "21ed8bfe5b9ad67fea3be9352622b6c6192e0f3f0f07dea74072b7629dbd3482"
+      "sha256": "c103a0b1d0be1dcf82c5b24886678019b16758623f0a7ad1d65bb92c215ad20f"
     },
     {
       "path": "Preservacao_Inputs.json",
       "bytes": 469,
-      "sha256": "6b62000b408d4af7e5c8888bfb8ecdf1e8d0ed70c100d06a502cef29cdc4e347"
+      "sha256": "32c1efb8d457dd4e4b06fa64acbe0a761866a8ce326f368e24be08aadd2e3bdf"
     },
     {
       "path": "Preservacao_Motor_SYNC.json",
-      "bytes": 451,
-      "sha256": "c1f9c4768cf533a0c0f3f057f05fb7b1914a159f49be33bc7084dc6442c6da01"
+      "bytes": 769,
+      "sha256": "c69410b6784ada49ebe0ebbdc92e8c1a385e7258c5191230383fb88559ef444e"
     },
     {
       "path": "Prova_Final_Identidade.json",
       "bytes": 644,
-      "sha256": "02e32565a7eef38020e0ac4283c39a2f7ced0fa4414cad6846f9bdd81f2acdb8"
+      "sha256": "df338b8cca2d9f271cd3352f917003cdfc11c31baf04fec6b723beda010b0f61"
     },
     {
       "path": "README.md",
-      "bytes": 6586,
-      "sha256": "0f81302793d73ba16cc65e673ccad81428f06348a9a7cd8c550523b2e3aa98c4"
+      "bytes": 6816,
+      "sha256": "12a69e0493dc0c061720d3050305e503a8f56b9c744e96ca01bd522de9226255"
     },
     {
       "path": "Reducao_Ficheiro.json",
       "bytes": 308,
-      "sha256": "fdf82adfbc21fbb948ad38fea532124e5d51cbc58adbc249eee09e07c17369a7"
+      "sha256": "5d33c013c93713a73e73ddd6fa6aee5d0623711ce48b410a71efe6df3e3c29d3"
     },
     {
       "path": "Referencia_Python_V06.json.gz",
@@ -355,6 +360,16 @@
       "sha256": "c33d65105db467d3197c35d440cc16ebf2df5740d280b1819d6ef8a6a4f83bf6"
     },
     {
+      "path": "Relatorio_Reparacao_XML_R1.md",
+      "bytes": 2574,
+      "sha256": "7e82a9321b5416e62f3ad3681bbb3f8e08293f26ee7dfa2ddf230d96b6b1b6af"
+    },
+    {
+      "path": "Relatorio_Reparacao_XML_R1.pdf",
+      "bytes": 3383,
+      "sha256": "d5214ae21263b5c90cdc9d20a705227ed102bd482987c7f9eae9165d1ca0e546"
+    },
+    {
       "path": "Relatorio_Sincronizacao_Cenarios.md",
       "bytes": 6118,
       "sha256": "b5a6f8d44b812c59ec15c048567c296876c6e683dafde22b9553a7c00b0c48df"
@@ -372,12 +387,12 @@
     {
       "path": "Separacao_V04.json",
       "bytes": 6786,
-      "sha256": "de5c17900f0c01f8655319e70b3d058ff439b4ede0b134e61b88c89ffbc95a55"
+      "sha256": "3edb1bc24e60425077aec1f962ac6f3a79dbc898b8d6273c008837e75ffba62a"
     },
     {
       "path": "Sincronizacao_Cenarios.json",
-      "bytes": 17083,
-      "sha256": "65ca64eaac6459165a5a5ae01d1072ddd7320915ee7e674bcd7c4fb54af6ca32"
+      "bytes": 17401,
+      "sha256": "69702760bc97a61477e52e3c91a501f581bb1b5db8bc3bb626fd9a02ab461e38"
     },
     {
       "path": "Tentativa_Excel365.json",
@@ -421,8 +436,8 @@
     },
     {
       "path": "Validacao_Financeira.json",
-      "bytes": 565,
-      "sha256": "914867d7072fc883076014b900bad79ca6e8a5acb195585d7e749bad203b080a"
+      "bytes": 757,
+      "sha256": "7f2eec3547b761fa358e1ebf0a3f661d7993e16af07c4c4044cea6000a1af412"
     },
     {
       "path": "Validacao_Navegacao.json",
@@ -456,8 +471,8 @@
     },
     {
       "path": "src/audit_ooxml.py",
-      "bytes": 4858,
-      "sha256": "eeb91122c03ae04fd01adf78935b353ba98ea183d019b4e5b06587423d946ab4"
+      "bytes": 5107,
+      "sha256": "9fb1bb6bbd44c761d49447ea5a8c0f7e4b40b26878881cebec4d48e7f3f6ae63"
     },
     {
       "path": "src/build_base.py",
@@ -531,8 +546,8 @@
     },
     {
       "path": "src/package.py",
-      "bytes": 3472,
-      "sha256": "e3d668525118c6bd235eb91deba07e89e699f5159f8633868adefd1adbd9f532"
+      "bytes": 3608,
+      "sha256": "e3002ac4a5b0ce2adb2d9583de6a6f3b2b2a6df3ac9e8a477d849e729c07026c"
     },
     {
       "path": "src/polish_delivery.py",
@@ -546,8 +561,8 @@
     },
     {
       "path": "src/premium_integrate.py",
-      "bytes": 14594,
-      "sha256": "bf0d5a952fe9d17566dc500cd27eb2a4a677e814da030c4fd1d8deadb4cc0f8d"
+      "bytes": 14750,
+      "sha256": "872a46244c0af6c8d2cdcb5252c4370ad9e0f7a6ef4d7e7b9f13b615fca3632b"
     },
     {
       "path": "src/premium_report.py",
@@ -573,6 +588,11 @@
       "path": "src/release_proof.py",
       "bytes": 1595,
       "sha256": "b24841e45b82abc08433b4df7bb364243dce54d4be1eae8e2a6d7a7d66a0c64c"
+    },
+    {
+      "path": "src/repair_empty_containers.py",
+      "bytes": 3463,
+      "sha256": "a6f3e612aee07bbe09118ff2f5cbcb92238891b0d4a21e37c10841220cba6664"
     },
     {
       "path": "src/report_final.py",
@@ -683,10 +703,16 @@
       "path": "src/write_sync_report.py",
       "bytes": 8667,
       "sha256": "6179162d3bc7c32845df4c5ae6f120450cd777a8364874eb3a1219ffc799233c"
+    },
+    {
+      "path": "src/write_xml_repair_report.py",
+      "bytes": 4923,
+      "sha256": "dcf0ea698825a9704a0568c67164deaaa1f53bf3cd6dd3da1aba965eb880a4c9"
     }
   ],
   "test_evidence": {
     "current": [
+      "Correcao_Reparacao_XML.json",
       "Sincronizacao_Cenarios.json",
       "Testes_Todos_Filtros.json",
       "Testes_Correspondencias_Dashboards.json",

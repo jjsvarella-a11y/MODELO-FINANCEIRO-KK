@@ -12,5 +12,7 @@
   "max_formula_characters": 4201,
   "sheets": 190,
   "reference": "Referencia_Python_V06_SYNC.json.gz",
-  "change": "Corrected Base operational profile; historical reference retained unchanged"
+  "change": "Corrected Base operational profile; historical reference retained unchanged",
+  "structural_patch_evidence": "Correcao_Reparacao_XML.json",
+  "recalculation_after_R1": "Not repeated: exact preservation of all financial cell records and engine/chart ZIP parts verified"
 }

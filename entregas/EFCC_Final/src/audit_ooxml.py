@@ -3,6 +3,7 @@ from zipfile import ZipFile
 from pathlib import Path
 from lxml import etree as E
 import json,posixpath,re,sys
+from repair_empty_containers import empty_containers
 ROOT=Path(__file__).resolve().parents[1];N='http://schemas.openxmlformats.org/spreadsheetml/2006/main';T=lambda n:'{'+N+'}'+n
 
 def audit(path):
@@ -36,6 +37,7 @@ def audit(path):
     if len(ids)!=len(set(ids)):failures.append([name,'Duplicate relationship IDs'])
    elif name.startswith('xl/worksheets/') and '/_rels/' not in name:
     counts['worksheets']+=1;seen=set()
+    for invalid in empty_containers(r):failures.append([name,'Optional container missing mandatory child records',E.QName(invalid).localname])
     for row in r.findall(T('sheetData')+'/'+T('row')):
      lastci=-1
      for c in row:
@@ -68,6 +70,6 @@ def audit(path):
   # Workbook-level names cannot resolve to deleted/new duplicate identities.
   dids=[s.get('sheetId') for s in sheets]
   if len(dids)!=len(set(dids)):failures.append('Duplicate sheetId')
- result={'status':'PASS' if not failures and not long else 'FAIL','scope':'ZIP CRC, XML parsing, relationship targets, style/shared-string indices, numeric types, cell order, named scopes, formula length/references','native_excel365':'NOT TESTED','counts':counts,'failures':failures,'formulas_over_8192':long}
+ result={'status':'PASS' if not failures and not long else 'FAIL','scope':'ZIP CRC, XML parsing, relationship targets, style/shared-string indices, numeric types, cell order, required child cardinality for worksheet containers, named scopes, formula length/references','native_excel365':'NOT TESTED','counts':counts,'failures':failures,'formulas_over_8192':long}
  (ROOT/'Auditoria_OOXML.json').write_text(json.dumps(result,indent=2,ensure_ascii=False));print({'status':result['status'],**counts,'failures':len(failures),'long_formulas':len(long)});assert not failures and not long,(failures[:5],long[:5]);return result
 if __name__=='__main__':audit(Path(sys.argv[1]))

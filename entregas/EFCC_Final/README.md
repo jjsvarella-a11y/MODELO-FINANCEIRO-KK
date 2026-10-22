@@ -1,3 +1,5 @@
+> **Revisão R1:** removidos três contentores XML vazios nas folhas indicadas pelo Excel. [Correção e testes](Relatorio_Reparacao_XML_R1.md). Cálculos e apresentação preservados; reabertura nativa da R1 ainda não testada.
+
 > Atualização V06.3-SYNC: Base Case passa a usar Base (185 EUR / 58%). Resultados e testes atuais: [Relatório de sincronização](Relatorio_Sincronizacao_Cenarios.md). As equivalências anteriores Base=Favorável estão substituídas.
 
 # KK-01 V06 — Executive Financial Control Center

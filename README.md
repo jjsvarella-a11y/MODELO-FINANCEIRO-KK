@@ -1,3 +1,5 @@
+> **Revisão R1:** removidos três contentores XML vazios nas folhas indicadas pelo Excel. [Correção e testes](entregas/EFCC_Final/Relatorio_Reparacao_XML_R1.md). Cálculos e apresentação preservados; reabertura nativa da R1 ainda não testada.
+
 # KK-01 — Modelo Financeiro
 
 A revisão atual está em [EFCC Final](entregas/EFCC_Final/README.md).

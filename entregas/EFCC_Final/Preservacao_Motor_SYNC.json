@@ -1,9 +1,12 @@
 {
   "status": "PASS",
   "before_sha256": "94d0e1c511588a9a045e54f9259204a8c19ad9f3cb648357588c5d98a9f1fb40",
-  "after_sha256": "2ea21a3838b9bf9bd7694080ac2072022947cf085bb0856ec999035d06d9ac1e",
+  "after_sha256": "4ef37eca1fe8d2bd249900b4e6e74c407d64b7f69dc978f48b656a80b19ae6c0",
   "engine_sheets": 69,
   "formula_records_unchanged": 1738873,
   "change_location": "V06 Controlos!B67 is derived from canonical operational selector; no engine formula changes versus previous published premium version",
-  "native_excel365": "NOT TESTED"
+  "native_excel365": "NOT TESTED",
+  "tested_pre_structural_patch_sha256": "2ea21a3838b9bf9bd7694080ac2072022947cf085bb0856ec999035d06d9ac1e",
+  "structural_patch_evidence": "Correcao_Reparacao_XML.json",
+  "carry_forward_reason": "All cell records, financial formulas/values and chart parts preserved; only three invalid empty XML containers removed"
 }

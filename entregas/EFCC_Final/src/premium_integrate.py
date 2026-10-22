@@ -9,6 +9,7 @@ from assemble import paths,T,xml,resolve,relpath
 from premium_ui import ROOT,WORK,BASE,Source,DASHES,CENTER,LANG
 sys.path.insert(0,str(ROOT.parents[0]/'V06/src'))
 from merge import merge,R
+from repair_empty_containers import normalize
 BACK={'V06 Identidade':'EXEC V06','V06 Controlos':'EXEC V06','V06 Unidades':'DASH 04A V06','V06 Capitulos':'DASH 01 V06','V06 Capital':'DASH 06 V06','V06 Hipoteses':CENTER,'V06 Cobrancas':'DASH 04A V06','V06 Motor':'EXEC V06','V06 Cenarios':'DASH 03 V06','V06 Fluxos Invest':'DASH 07 V06','V06 Blocos':'DASH 06 V06','V06 Anual':'DASH 03 V06','V06 Trimestral':'DASH 01 V06','V06 Dicionario':'EXEC V06','V06 Matriz ADR':'DASH 05 V06','V06 Equilibrio':'DASH 05 V06','V06 Otimizacao':'DASH 07 V06','V06 Operacao':'DASH 05 V06','V06 Disponibilidade':'DASH 04A V06','V06 Conciliacao Vendas':'DASH 04A V06','V06 Imprimir':CENTER,'V06 Registo Ativo':CENTER,'DASH 10 V06':CENTER,'V06 Brief':CENTER}
 BACK.update({f'V06 PDF {i+1:02}':n[0] for i,n in enumerate(DASHES[:9])})
 TITLES={'V06 Unidades':('Inventário de unidades','Unit inventory'),'V06 Capitulos':('Capítulos e orçamento','Development budget'),'V06 Capital':('Calendário de capital','Equity subscription calendar'),'V06 Hipoteses':('Registo de pressupostos','Assumption register'),'V06 Cobrancas':('Recebimentos documentais','Documented collections'),'V06 Motor':('Motor financeiro central','Central financial engine'),'V06 Cenarios':('Cenários financeiros','Financial scenarios'),'V06 Fluxos Invest':('Fluxos e dividendos dos investidores','Investor cash flows and dividends'),'V06 Blocos':('Blocos de investimento','Investment blocks'),'V06 Anual':('Resultados anuais','Annual results'),'V06 Trimestral':('Resultados trimestrais','Quarterly results'),'V06 Dicionario':('Dicionário de indicadores','KPI dictionary'),'V06 Matriz ADR':('Sensibilidade ADR × Ocupação','ADR × Occupancy sensitivity'),'V06 Equilibrio':('Equilíbrio na grelha testada','Break-even in tested grid'),'V06 Otimizacao':('Simulações de dividendos, reservas e fees','Dividend, reserve and fee simulations'),'V06 Operacao':('Operação, fees e reservas','Operations, fees and reserves'),'V06 Disponibilidade':('Disponibilidade de unidades','Unit availability'),'V06 Conciliacao Vendas':('Conciliação de vendas','Sales reconciliation'),'V06 Imprimir':('Impressão e exportação PDF','Print and PDF export'),'V06 Registo Ativo':('Parâmetros ativos','Active parameters'),'V06 Controlos':('Pressupostos complementares','Additional assumptions')}
@@ -171,6 +172,10 @@ def integrate():
    if sizes:sizes[0].text=str(len(order))
    changes['docProps/app.xml']=xml(app)
   reachable=prune(z,changes)
+  for sn,path in pp.items():
+   if path in reachable:
+    r=root(sn)
+    if normalize(r):changes[path]=xml(r)
   with ZipFile(dest,'w',ZIP_DEFLATED,compresslevel=6) as zz:
    for p in z.infolist():
     if p.filename in reachable:zz.writestr(p.filename,changes.get(p.filename,z.read(p.filename)))

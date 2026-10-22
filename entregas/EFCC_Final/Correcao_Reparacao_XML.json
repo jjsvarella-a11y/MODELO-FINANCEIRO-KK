@@ -1,0 +1,37 @@
+{
+  "status": "PASS",
+  "release": "V06.3-SYNC-R1",
+  "reported_native_excel_status_before": "User screenshot confirms Excel repaired all three listed parts",
+  "native_excel365_after_fix": "NOT TESTED",
+  "before_sha256": "2ea21a3838b9bf9bd7694080ac2072022947cf085bb0856ec999035d06d9ac1e",
+  "after_sha256": "4ef37eca1fe8d2bd249900b4e6e74c407d64b7f69dc978f48b656a80b19ae6c0",
+  "changes": [
+    {
+      "sheet": "V06 Controlos",
+      "part": "xl/worksheets/sheet323.xml",
+      "removed_empty_elements": [
+        "hyperlinks"
+      ]
+    },
+    {
+      "sheet": "V06 Hipoteses",
+      "part": "xl/worksheets/sheet328.xml",
+      "removed_empty_elements": [
+        "dataValidations"
+      ]
+    },
+    {
+      "sheet": "V06 Identidade",
+      "part": "xl/worksheets/sheet492.xml",
+      "removed_empty_elements": [
+        "hyperlinks"
+      ]
+    }
+  ],
+  "all_other_zip_parts_byte_identical": 312,
+  "cell_records_preserved_in_changed_parts": 1002,
+  "all_cell_formulas_values_styles_and_chart_parts_preserved": true,
+  "regression_before_invalid_containers": 3,
+  "regression_after_invalid_containers": 0,
+  "scope": "Mandatory child cardinality checks; not full Open XML SDK or native Excel certification"
+}
