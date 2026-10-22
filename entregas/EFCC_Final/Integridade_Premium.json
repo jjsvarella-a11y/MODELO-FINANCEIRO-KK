@@ -1,13 +1,13 @@
 {
   "status": "PASS",
   "source_sha256": "d48e89c5ebef86ba9c77686aae8e6ee824eab2e70faf92f957c7336302be4146",
-  "sha256": "94d0e1c511588a9a045e54f9259204a8c19ad9f3cb648357588c5d98a9f1fb40",
+  "sha256": "2ea21a3838b9bf9bd7694080ac2072022947cf085bb0856ec999035d06d9ac1e",
   "worksheets": 190,
   "legacy_v04_sheets": 0,
   "original_engine_formulas_preserved": 1689840,
   "residential_coefficient_exposures": 48960,
   "active_engines_with_direct_residential_controls": 68,
-  "all_existing_engine_caches_unchanged": true,
+  "all_existing_engine_caches_unchanged": false,
   "frozen_reference_engine_unchanged_except_discreet_home_link": true,
   "canonical_input_transfers": [
     {
@@ -248,5 +248,10 @@
     }
   ],
   "native_excel365": "NOT TESTED",
-  "native_logo_bytes_available": false
+  "native_logo_bytes_available": false,
+  "scenario_profile_source": "V06 Controlos!B67 -> DASH 05 V06!H23; Base Case=Base, Conservative=Conservador, other modes=Favorável",
+  "cache_update": "Required correction of Base/F&B/MICE scenario propagation; original engine formula expressions preserved",
+  "formula_caches_refreshed": 1886013,
+  "chart_points_refreshed": 1994,
+  "financial_reference": "Referencia_Python_V06_SYNC.json.gz"
 }

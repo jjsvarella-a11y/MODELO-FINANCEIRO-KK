@@ -1,3 +1,5 @@
+> Atualização V06.3-SYNC: Base Case passa a usar Base (185 EUR / 58%). Resultados e testes atuais: [Relatório de sincronização](Relatorio_Sincronizacao_Cenarios.md). As equivalências anteriores Base=Favorável estão substituídas.
+
 # Integridade financeira
 
 A base estável é identificada por SHA256 `d48e89c5ebef86ba9c77686aae8e6ee824eab2e70faf92f957c7336302be4146`. O master atual tem SHA256 `94d0e1c511588a9a045e54f9259204a8c19ad9f3cb648357588c5d98a9f1fb40`.

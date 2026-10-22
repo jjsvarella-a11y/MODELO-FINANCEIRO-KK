@@ -1,3 +1,5 @@
+> Atualização V06.3-SYNC: Base Case passa a usar Base (185 EUR / 58%). Resultados e testes atuais: [Relatório de sincronização](Relatorio_Sincronizacao_Cenarios.md). As equivalências anteriores Base=Favorável estão substituídas.
+
 # Alterações gráficas e navegação
 
 - Paleta institucional: azul #142337, grafite #252932, vermelho #C8101E, branco, fundo #F5F7FA, azul #1765A8 e cinza #687586; Aptos.

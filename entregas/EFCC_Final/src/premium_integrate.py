@@ -83,6 +83,15 @@ def integrate():
      if n.get('sqref')==a['source_cell']:validations.remove(n)
     validations.set('count',str(len(validations)))
    changes[pp[sn]]=xml(r)
+  # One active operating dataset for ADR/occupancy and MICE/F&B mix.
+  # No engine expression is rebuilt: all 180-month dependencies already use B67.
+  r=root('V06 Controlos');profile='IF(\'DASH 05 V06\'!H23="Conservative","Conservador",IF(\'DASH 05 V06\'!H23="Base Case","Base","Favorável"))';write(r,'B67',profile,'Base')
+  dv=r.find(T('dataValidations'))
+  if dv is not None:
+   for item in list(dv):
+    if item.get('sqref')=='B67':dv.remove(item)
+   dv.set('count',str(len(dv)))
+  changes[pp['V06 Controlos']]=xml(r)
   # Exposing existing coefficients is necessary for direct residential controls.
   # Frozen Reference Case is deliberately excluded. Original values remain exact.
   for sn in pp:
@@ -166,6 +175,6 @@ def integrate():
    for p in z.infolist():
     if p.filename in reachable:zz.writestr(p.filename,changes.get(p.filename,z.read(p.filename)))
   assert len(order)==190,len(order)
- proof={'status':'PASS','source_sha256':hashlib.sha256(BASE.read_bytes()).hexdigest(),'sha256':hashlib.sha256(dest.read_bytes()).hexdigest(),'worksheets':190,'legacy_v04_sheets':0,'original_engine_formulas_preserved':unchanged,'residential_coefficient_exposures':exposure_count,'active_engines_with_direct_residential_controls':len(engine_names),'all_existing_engine_caches_unchanged':True,'frozen_reference_engine_unchanged_except_discreet_home_link':True,'canonical_input_transfers':spec['aliases'],'new_residential_controls':spec['new_constant_inputs'],'native_excel365':'NOT TESTED','native_logo_bytes_available':False}
+ proof={'status':'PASS','source_sha256':hashlib.sha256(BASE.read_bytes()).hexdigest(),'sha256':hashlib.sha256(dest.read_bytes()).hexdigest(),'worksheets':190,'legacy_v04_sheets':0,'original_engine_formulas_preserved':unchanged,'residential_coefficient_exposures':exposure_count,'active_engines_with_direct_residential_controls':len(engine_names),'all_existing_engine_caches_unchanged':True,'frozen_reference_engine_unchanged_except_discreet_home_link':True,'canonical_input_transfers':spec['aliases'],'new_residential_controls':spec['new_constant_inputs'],'native_excel365':'NOT TESTED','native_logo_bytes_available':False,'scenario_profile_source':'V06 Controlos!B67 -> DASH 05 V06!H23; Base Case=Base, Conservative=Conservador, other modes=Favorável'}
  (ROOT/'Integridade_Premium.json').write_text(json.dumps(proof,indent=2,ensure_ascii=False));(ROOT/'Parametros_Interface.json').write_text(json.dumps(spec['inputs'],indent=2,ensure_ascii=False));(ROOT/'Navegacao_Premium.json').write_text(json.dumps(spec['navigation'],indent=2,ensure_ascii=False));(WORK/'Premium_Spec.json').write_text(json.dumps(spec,indent=2,ensure_ascii=False));print(json.dumps(proof,ensure_ascii=False))
 if __name__=='__main__':integrate()

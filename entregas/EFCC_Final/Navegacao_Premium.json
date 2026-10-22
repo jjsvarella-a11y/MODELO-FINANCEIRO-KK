@@ -39,7 +39,7 @@
     "origin_sheet": "EXEC V06",
     "origin_cell": "H5",
     "destination_sheet": "EXEC V06",
-    "destination_cell": "H23",
+    "destination_cell": "E26",
     "type": "Excel internal HYPERLINK",
     "PT": "Parâmetros ▾",
     "EN": "Assumptions ▾"
@@ -322,6 +322,96 @@
     "type": "Excel internal HYPERLINK",
     "PT": "Desconto Custom →",
     "EN": "Custom discount →"
+  },
+  {
+    "origin_sheet": "EXEC V06",
+    "origin_cell": "E27",
+    "destination_sheet": "DASH 05 V06",
+    "destination_cell": "H23",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Cenário operacional",
+    "EN": "Operating scenario"
+  },
+  {
+    "origin_sheet": "EXEC V06",
+    "origin_cell": "K27",
+    "destination_sheet": "DASH 05 V06",
+    "destination_cell": "H32",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Condições Hotel",
+    "EN": "Hotel terms"
+  },
+  {
+    "origin_sheet": "EXEC V06",
+    "origin_cell": "E29",
+    "destination_sheet": "DASH 05 V06",
+    "destination_cell": "H24",
+    "type": "Excel internal HYPERLINK",
+    "PT": "ADR ativo · abertura",
+    "EN": "Active opening ADR"
+  },
+  {
+    "origin_sheet": "EXEC V06",
+    "origin_cell": "K29",
+    "destination_sheet": "DASH 05 V06",
+    "destination_cell": "H26",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Ocupação · abertura",
+    "EN": "Opening occupancy"
+  },
+  {
+    "origin_sheet": "EXEC V06",
+    "origin_cell": "E31",
+    "destination_sheet": "DASH 05 V06",
+    "destination_cell": "N25",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Utilização MICE",
+    "EN": "MICE utilisation"
+  },
+  {
+    "origin_sheet": "EXEC V06",
+    "origin_cell": "K31",
+    "destination_sheet": "DASH 05 V06",
+    "destination_cell": "N27",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Reserva FF&E",
+    "EN": "FF&E reserve"
+  },
+  {
+    "origin_sheet": "EXEC V06",
+    "origin_cell": "E33",
+    "destination_sheet": "V06 Registo Ativo",
+    "destination_cell": "B65",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Desconto efetivo",
+    "EN": "Effective discount"
+  },
+  {
+    "origin_sheet": "EXEC V06",
+    "origin_cell": "K33",
+    "destination_sheet": "DASH 07 V06",
+    "destination_cell": "H23",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Política reservas",
+    "EN": "Reserve policy"
+  },
+  {
+    "origin_sheet": "EXEC V06",
+    "origin_cell": "E35",
+    "destination_sheet": "DASH 07 V06",
+    "destination_cell": "N23",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Política dividendos",
+    "EN": "Dividend policy"
+  },
+  {
+    "origin_sheet": "EXEC V06",
+    "origin_cell": "K35",
+    "destination_sheet": "DASH 05 V06",
+    "destination_cell": "N23",
+    "type": "Excel internal HYPERLINK",
+    "PT": "Ano operacional",
+    "EN": "Operating year"
   },
   {
     "origin_sheet": "EXEC V06",

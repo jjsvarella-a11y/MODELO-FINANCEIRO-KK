@@ -7,5 +7,5 @@
   "scope": "Historical base proof; current premium follow-up is documented separately.",
   "current_premium_integrity": "Integridade_Premium.json",
   "current_input_locations": "Parametros_Interface.json",
-  "current_sha256": "94d0e1c511588a9a045e54f9259204a8c19ad9f3cb648357588c5d98a9f1fb40"
+  "current_sha256": "2ea21a3838b9bf9bd7694080ac2072022947cf085bb0856ec999035d06d9ac1e"
 }

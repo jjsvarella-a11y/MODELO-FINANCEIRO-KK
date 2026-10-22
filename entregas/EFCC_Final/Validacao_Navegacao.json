@@ -1,7 +1,7 @@
 {
   "status": "PASS",
   "scope": "Route destinations, ten sidebars, Home/Back ownership, freeze panes, canonical editable inputs",
-  "route_count": 607,
+  "route_count": 617,
   "canonical_input_aliases": 30,
   "editable_front_panel_inputs": 50,
   "failures": [],

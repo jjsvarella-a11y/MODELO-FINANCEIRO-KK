@@ -160,6 +160,17 @@ try {
         if ([math]::Abs((Number 'DASH 05 V06' 'H24')-160) -gt .0001 -or [math]::Abs((Number 'DASH 05 V06' 'H26')-.52) -gt .000001) { throw 'Active Hotel assumptions not refreshed.' }
         @{active_adr=(Number 'DASH 05 V06' 'H24');active_occupancy=(Number 'DASH 05 V06' 'H26');stored_custom_adr=(Number 'DASH 05 V06' 'H25')}
     }
+    # Scenario propagation: execute all presets, compare lower tables and report,
+    # and restore canonical controls through the existing Mutation helper.
+    foreach ($case in @(@('Base Case',185.0,.58),@('Conservative',160.0,.52),@('Favorable',210.0,.64),@('Upside Stress',250.0,.75),@('Custom',200.0,.65))) {
+        $scenarioName=$case[0];$expectedAdr=[double]$case[1];$expectedOcc=[double]$case[2]
+        Mutation ("Scenario full propagation: " + $scenarioName) @(@('DASH 05 V06','H23',$scenarioName),@('DASH 05 V06','H25',200.0),@('DASH 05 V06','H27',.65)) {
+            if ([math]::Abs((Number 'DASH 05 V06' 'H24')-$expectedAdr) -gt .00001 -or [math]::Abs((Number 'DASH 05 V06' 'H26')-$expectedOcc) -gt .000001) { throw 'Scenario active assumptions mismatch.' }
+            $currentNpv=Number 'EXEC V06' 'M15'
+            if ([math]::Abs((Number 'DASH 07 V06' 'M15')-$currentNpv) -gt .001 -or [math]::Abs((Number 'DASH 10 V06' 'G17')-$currentNpv) -gt .001) { throw 'Investor/report NPV is not synchronised.' }
+            @{mode=$scenarioName;adr=(Number 'DASH 05 V06' 'H24');occupancy=(Number 'DASH 05 V06' 'H26');room_revenue=(Number 'DASH 05 V06' 'K44');ebitda=(Number 'DASH 05 V06' 'N50');operator_fees=(Number 'DASH 05 V06' 'M74');investor_npv=$currentNpv}
+        }
+    }
     Mutation 'Residential target active readouts' @(@('DASH 04B V06','H23','KK Target Terms')) {
         if ([math]::Abs((Number 'DASH 04B V06' 'H24')-.06) -gt .000001 -or [math]::Abs((Number 'DASH 04B V06' 'N24')-.02) -gt .000001) { throw 'Residential effective fees not refreshed.' }
         @{management=(Number 'DASH 04B V06' 'H24');distribution=(Number 'DASH 04B V06' 'N24')}

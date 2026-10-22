@@ -1,7 +1,7 @@
 """Institutional paginated report, using existing report expressions and V06 outputs."""
 from xlsxwriter.utility import xl_col_to_name as col
 from report_final import SECTIONS
-from premium_ui import LANG,CENTER
+from premium_ui import LANG,CENTER,VERSION
 
 def build_reports(wb,F,src,ref,data,chartcols):
  def tr(a,b):return f'IF({LANG}="PT","{a.replace(chr(34),chr(34)*2)}","{b.replace(chr(34),chr(34)*2)}")'
@@ -128,5 +128,5 @@ def build_reports(wb,F,src,ref,data,chartcols):
    else:
     text(s,area('A',51,'L',53),*risks[section],'note')
     text(s,area('A',54,'L',55),'Implicação: validar as condições críticas e negociar estrutura de investimento antes da decisão.','Implication: validate critical conditions and negotiate investment terms before deciding.','note')
-   text(s,area('A',57,'L',58),'Cenário simulado · fontes: motor financeiro V06 · EUR · validar pressupostos e documentação.','Simulated scenario · source: V06 financial engine · EUR · validate assumptions and evidence.','note');text(s,area('A',59,'L',59),f'KK-01 Executive Financial Control Center · V06 · página {page+1}/{pages}',f'KK-01 Executive Financial Control Center · V06 · page {page+1}/{pages}','sub')
+   text(s,area('A',57,'L',58),'Cenário simulado · fontes: motor financeiro V06 · EUR · validar pressupostos e documentação.','Simulated scenario · source: V06 financial engine · EUR · validate assumptions and evidence.','note');text(s,area('A',59,'L',59),f'KK-01 Executive Financial Control Center · {VERSION} · página {page+1}/{pages}',f'KK-01 Executive Financial Control Center · {VERSION} · page {page+1}/{pages}','sub')
  return bindings

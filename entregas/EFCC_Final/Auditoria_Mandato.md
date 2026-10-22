@@ -1,3 +1,5 @@
+> Atualização V06.3-SYNC: Base Case passa a usar Base (185 EUR / 58%). Resultados e testes atuais: [Relatório de sincronização](Relatorio_Sincronizacao_Cenarios.md). As equivalências anteriores Base=Favorável estão substituídas.
+
 # Aderência ao mandato — revisão de navegação
 
 A revisão anterior não cumpria integralmente os mandatos: o Menu abria capítulos, o conjunto de cartões Hotel omitia RevPAR e a decisão final não distinguia os cinco intervenientes. Estes três pontos foram corrigidos. Não se afirma que houve uma regressão financeira: a comparação direta com o ficheiro publicado confirma fórmulas e valores idênticos nos 69 motores.

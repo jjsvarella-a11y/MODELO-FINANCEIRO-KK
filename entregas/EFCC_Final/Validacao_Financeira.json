@@ -4,11 +4,13 @@
   "excel_native": "NOT TESTED",
   "scenario_count": 69,
   "numeric_monthly_comparisons": 1738800,
-  "maximum_absolute_numeric_difference": 5.960464477539063e-08,
+  "maximum_absolute_numeric_difference": 6.705522537231445e-08,
   "errors": [],
   "differences": [],
   "invariant_failures": [],
-  "formula_count": 1885990,
+  "formula_count": 1886013,
   "max_formula_characters": 4201,
-  "sheets": 190
+  "sheets": 190,
+  "reference": "Referencia_Python_V06_SYNC.json.gz",
+  "change": "Corrected Base operational profile; historical reference retained unchanged"
 }

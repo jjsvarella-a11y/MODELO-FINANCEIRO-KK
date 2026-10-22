@@ -1,8 +1,12 @@
 {
-  "formats_checked": 63,
   "status": "PASS",
-  "platform": "LibreOffice independent full recalculation and Python source values",
+  "formats_checked": 63,
+  "scenario_cases": 5,
+  "numeric_bindings_per_case": 34,
+  "numeric_and_text_bindings_checked": 170,
+  "comparison_reference": "Sincronizacao_Cenarios.json and existing core numerical execution",
+  "platform": "LibreOffice with original financial core numeric reference",
   "native_excel365": "NOT TESTED",
-  "numeric_and_text_bindings_checked": 227,
-  "differences": []
+  "differences": [],
+  "scope": "Scenario propagation through Hotel lower tables, Equity returns, report and PDF composition; preserved KPI number formats; historical report caches are not used as expected financial results"
 }

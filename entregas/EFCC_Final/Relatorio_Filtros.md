@@ -1,3 +1,5 @@
+> Atualização V06.3-SYNC: Base Case passa a usar Base (185 EUR / 58%). Resultados e testes atuais: [Relatório de sincronização](Relatorio_Sincronizacao_Cenarios.md). As equivalências anteriores Base=Favorável estão substituídas.
+
 # Verificação dos filtros — todos os dashboards
 
 Resultado: PASS. 50 controlos, 73 mutações/revisões de escolhas, com caches invalidados antes do recálculo. A matriz detalhada está em [Matriz_Testes_Filtros.csv](Matriz_Testes_Filtros.csv); os valores e indicadores alterados constam de Testes_Todos_Filtros.json.

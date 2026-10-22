@@ -208,8 +208,8 @@
     "sheet": "DASH 05 V06",
     "cell": "H25",
     "value": 210,
-    "label_pt": "ADR Custom",
-    "label_en": "Custom ADR"
+    "label_pt": "ADR · apenas Custom",
+    "label_en": "ADR · Custom only"
   },
   {
     "source_sheet": "DASH 05 V06",
@@ -217,8 +217,8 @@
     "sheet": "DASH 05 V06",
     "cell": "H27",
     "value": 0.64,
-    "label_pt": "Ocupação Custom",
-    "label_en": "Custom occupancy"
+    "label_pt": "Ocupação · apenas Custom",
+    "label_en": "Occupancy · Custom only"
   },
   {
     "source_sheet": "DASH 05 V06",

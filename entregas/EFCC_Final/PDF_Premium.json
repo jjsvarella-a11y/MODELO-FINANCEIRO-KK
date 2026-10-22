@@ -9,6 +9,11 @@
       "paper": "A4 portrait"
     },
     {
+      "file": "PDF/PT/Executive_Brief_PT.pdf",
+      "pages": 2,
+      "paper": "A4 portrait"
+    },
+    {
       "file": "PDF/EN/DASH_01_EN.pdf",
       "pages": 1,
       "paper": "A3 landscape"
@@ -52,11 +57,6 @@
       "file": "PDF/EN/DASH_09_EN.pdf",
       "pages": 1,
       "paper": "A3 landscape"
-    },
-    {
-      "file": "PDF/PT/Executive_Brief_PT.pdf",
-      "pages": 2,
-      "paper": "A4 portrait"
     },
     {
       "file": "PDF/PT/DASH_01_PT.pdf",
@@ -113,14 +113,5 @@
       "pages": 2,
       "paper": "A4 portrait"
     }
-  ],
-  "text_bounds_check": {
-    "status": "PASS",
-    "pages": 42,
-    "text_spans_outside_page": 0
-  },
-  "stakeholders": {
-    "status": "PASS",
-    "complete_and_brief": "Five roles and decisions present in PT/EN"
-  }
+  ]
 }

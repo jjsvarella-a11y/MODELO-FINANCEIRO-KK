@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "before_sha256": "94d0e1c511588a9a045e54f9259204a8c19ad9f3cb648357588c5d98a9f1fb40",
+  "after_sha256": "2ea21a3838b9bf9bd7694080ac2072022947cf085bb0856ec999035d06d9ac1e",
+  "engine_sheets": 69,
+  "formula_records_unchanged": 1738873,
+  "change_location": "V06 Controlos!B67 is derived from canonical operational selector; no engine formula changes versus previous published premium version",
+  "native_excel365": "NOT TESTED"
+}

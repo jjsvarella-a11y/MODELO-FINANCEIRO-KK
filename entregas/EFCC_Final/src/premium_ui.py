@@ -11,6 +11,7 @@ from reference_io import load_reference
 from core import legacy
 from report_final import SECTIONS
 ROOT=Path(__file__).resolve().parents[1];WORK=Path('/workspace/kk01_efcc');BASE=WORK/'checkpoints/C1_Stable_4111b2c.xlsx'
+VERSION='V06.3-SYNC'
 CENTER='DASH 10 Centro';LANG="'V06 Controlos'!$B$5"
 DASHES=[('EXEC V06','Dashboard Executivo','Executive Dashboard'),('DASH 01 V06','Investimento e Orçamento de Construção','Investment & Construction Budget'),('DASH 02 V06','Fiscalidade, Incentivos e Seguros','Taxation, Incentives & Insurance'),('DASH 03 V06','Desempenho Financeiro Consolidado','Consolidated Financial Performance'),('DASH 04A V06','Promoção e Comercialização Imobiliária','Real Estate Development & Sales'),('DASH 04B V06','Exploração Residencial e Sell & Leaseback','Residential Operations & Sell & Leaseback'),('DASH 05 V06','Exploração Hoteleira e Centro MICE','Hotel & MICE Operations'),('DASH 06 V06','Estrutura Acionista e Blocos de Investimento','Shareholding & Investment Blocks'),('DASH 07 V06','Rentabilidade dos Acionistas e Distribuições','Equity Returns & Distributions'),(CENTER,'Relatório Executivo Consolidado de Viabilidade e Investimento','Consolidated Investment & Feasibility Report')]
 NAV=[];ALIASES=[];ADDED_INPUTS=[];INPUTS=[]
@@ -51,7 +52,7 @@ def build():
  F={'bg':fmt(bg_color=P['bg']),'brand':fmt(bg_color=P['red'],font_color='FFFFFF',bold=True,font_size=12,text_wrap=True),'header':fmt(bg_color=P['navy'],font_color='FFFFFF',bold=True,font_size=21,text_wrap=True),'sub':fmt(font_color=P['grey'],font_size=10,text_wrap=True),'side':fmt(bg_color=P['navy'],font_color='FFFFFF',font_size=10,text_wrap=True,indent=1),'active':fmt(bg_color=P['red'],font_color='FFFFFF',bold=True,font_size=10,text_wrap=True,indent=1),'nav':fmt(bg_color='E9EFF5',font_color=P['blue'],bold=True,font_size=10,text_wrap=True),'section':fmt(bg_color='E9EFF5',bold=True,font_size=12,text_wrap=True),'label':fmt(bg_color='FFFFFF',font_color=P['grey'],font_size=10,text_wrap=True),'money':fmt(bg_color='FFFFFF',bold=True,font_size=22,num_format='#,##0 "€";[Red](#,##0) "€";–'),'pct':fmt(bg_color='FFFFFF',bold=True,font_size=22,num_format='0.0%'),'count':fmt(bg_color='FFFFFF',bold=True,font_size=22,num_format='#,##0'),'ratio':fmt(bg_color='FFFFFF',bold=True,font_size=22,num_format='0.00"×"'),'input':fmt(bg_color='E6F0FA',font_color=P['blue'],bold=True,num_format='#,##0.00',bottom=1,bottom_color='B8CCE0'),'inputpct':fmt(bg_color='E6F0FA',font_color=P['blue'],bold=True,num_format='0.00%',bottom=1,bottom_color='B8CCE0'),'inputtext':fmt(bg_color='E6F0FA',font_color=P['blue'],bold=True,text_wrap=True,bottom=1,bottom_color='B8CCE0'),'text':fmt(text_wrap=True),'num':fmt(num_format='#,##0 "€";[Red](#,##0) "€";–'),'ratio_small':fmt(num_format='0.00"×"'),'percent':fmt(num_format='0.0%'),'number':fmt(num_format='#,##0.0'),'thead':fmt(bg_color=P['navy'],font_color='FFFFFF',bold=True,text_wrap=True),'note':fmt(bg_color='E9EFF5',font_color=P['grey'],font_size=9,text_wrap=True),'alert':fmt(font_color=P['red'],bold=True,font_size=10,text_wrap=True)}
  F['activepct']=fmt(bg_color='FFFFFF',font_color=P['navy'],bold=True,num_format='0.00%')
  F['activenum']=fmt(bg_color='FFFFFF',font_color=P['navy'],bold=True,num_format='#,##0.00')
- inactive=fmt(bg_color='EEF0F2',font_color='9299A2')
+ inactive=fmt(bg_color='EEF0F2',font_color='9299A2',num_format=';;;')
  F['heat']=fmt(font_size=9,num_format='0.0,," M€";[Red](0.0,," M€")')
  def tr(pt,en):return f'IF({LANG}="PT","{pt.replace(chr(34),chr(34)*2)}","{en.replace(chr(34),chr(34)*2)}")'
  def merge(s,area,expression,value,style='text'):
@@ -96,9 +97,9 @@ def build():
   for r in range(96):
    s.set_row(r,16)
    for c in range(17):s.write_blank(r,c,None,F['side'] if c<4 else F['bg'])
-  s.merge_range('B2:C4','JS-CV\nCONSTRUÇÕES E\nINVESTIMENTOS, LDA.',F['brand']);text(s,'E2:M3','KK-01 | HOTEL & RESIDENCES','KK-01 | HOTEL & RESIDENCES','header');link(s,'N2:P3',('V06 Identidade','B8'),'Logótipo original','Original logo');text(s,'E4:P4',f'{i+1:02} — {DASHES[i][1]}',f'{i+1:02} — {DASHES[i][2]}','sub');merge(s,'E1:P1',"'V06 Hipoteses'!D29&\" · \"&'V06 Hipoteses'!D28",'EFCC-20261022-01 · 2026-10-22','note')
+  s.merge_range('B2:C4','JS-CV\nCONSTRUÇÕES E\nINVESTIMENTOS, LDA.',F['brand']);text(s,'E2:M3','KK-01 | HOTEL & RESIDENCES','KK-01 | HOTEL & RESIDENCES','header');link(s,'N2:P3',('V06 Identidade','B8'),'Logótipo original','Original logo');text(s,'E4:P4',f'{i+1:02} — {DASHES[i][1]}',f'{i+1:02} — {DASHES[i][2]}','sub');merge(s,'E1:P1',f'"{VERSION} · "&\'V06 Hipoteses\'!D29&" · "&\'V06 Hipoteses\'!D28',VERSION+' · EFCC-20261022-01 · 2026-10-22','note')
   link(s,'B5:C5',(CENTER,'H7'),'PT | EN ▾','PT | EN ▾');link(s,'B6:C6',(sn,'E6'),'Menu de navegação','Navigation menu')
-  link(s,'E5:G5',('EXEC V06','A1'),'⌂ Início','⌂ Home');link(s,'H5:J5',(sn,'H23' if i<9 else 'H7'),'Parâmetros ▾','Assumptions ▾');link(s,'K5:M5',(CENTER,'A1'),'Relatório 10','Report 10');link(s,'N5:P5',(f'V06 PDF {i+1:02}','A1') if i<9 else ('V06 Imprimir','A23'),'Imprimir / PDF','Print / PDF')
+  link(s,'E5:G5',('EXEC V06','A1'),'⌂ Início','⌂ Home');link(s,'H5:J5',(sn,'E26' if i==0 else 'H23' if i<9 else 'H7'),'Parâmetros ▾','Assumptions ▾');link(s,'K5:M5',(CENTER,'A1'),'Relatório 10','Report 10');link(s,'N5:P5',(f'V06 PDF {i+1:02}','A1') if i<9 else ('V06 Imprimir','A23'),'Imprimir / PDF','Print / PDF')
   for n,(target,pt,en) in enumerate(DASHES):
    rr=8+n*5;merge(s,f'B{rr}:C{rr+3}',f'HYPERLINK("#\'{target}\'!A1",{tr(f"{n+1:02}  {pt}",f"{n+1:02}  {en}")})',f'{n+1:02}  {pt}','active' if i==n else 'side');NAV.append({'origin_sheet':sn,'origin_cell':f'B{rr}','destination_sheet':target,'destination_cell':'A1','type':'sidebar','PT':pt,'EN':en})
   for n,(target,pt,en) in enumerate(DASHES):
@@ -138,14 +139,14 @@ def build():
    r=7+(n//3)*6;c=4+(n%3)*4;label=src.label(sn,f'{col(c)}{r}');merge(s,f'{col(c)}{r}:{col(c+2)}{r+1}',*label,'label');f,v=src.get(sn,f'{col(c)}{r+2}');kind=src.card_kind(sn,f'{col(c)}{r+2}');merge(s,f'{col(c)}{r+2}:{col(c+3)}{r+4}',f,v,kind);link(s,f'{col(c+3)}{r}:{col(c+3)}{r+1}',('V06 Dicionario','A4'),'ⓘ','ⓘ')
   text(s,'E20:P21',f'{i+1:02} — {pt}',f'{i+1:02} — {en}','section')
   if sn=='DASH 05 V06':
-   inputs=[('H23','H23','Cenário operacional','Operating scenario','inputtext',['Conservative','Base Case','Favorable','Upside Stress','Custom']),('N23','N23','Ano operacional','Operating year','input',None),('H25','H25','ADR Custom','Custom ADR','input',None),('H27','H27','Ocupação Custom','Custom occupancy','inputpct',None),('N25','N25','Utilização MICE','MICE utilisation','inputpct',None),('N27','N27','Reserva FF&E','FF&E reserve','inputpct',None),('N29','N29','Crescimento ADR','ADR growth','inputpct',None),('H32','H32','Condições operadora','Operator terms','inputtext',['Operator Proposed Terms','KK Target Terms','KK Optimized Terms','Custom Terms']),('H34','H34','Marketing Custom','Custom marketing','inputpct',None),('N34','N34','Distribuição Custom','Custom distribution','inputpct',None),('H36','H36','Prioridade ativa 0/1','Priority enabled 0/1','input',None),('N36','N36','Prioridade anual €','Annual priority €','input',None)]
+   inputs=[('H23','H23','Cenário operacional','Operating scenario','inputtext',['Conservative','Base Case','Favorable','Upside Stress','Custom']),('N23','N23','Ano operacional','Operating year','input',None),('H25','H25','ADR · apenas Custom','ADR · Custom only','input',None),('H27','H27','Ocupação · apenas Custom','Occupancy · Custom only','inputpct',None),('N25','N25','Utilização MICE','MICE utilisation','inputpct',None),('N27','N27','Reserva FF&E','FF&E reserve','inputpct',None),('N29','N29','Crescimento ADR','ADR growth','inputpct',None),('H32','H32','Condições operadora','Operator terms','inputtext',['Operator Proposed Terms','KK Target Terms','KK Optimized Terms','Custom Terms']),('H34','H34','Marketing Custom','Custom marketing','inputpct',None),('N34','N34','Distribuição Custom','Custom distribution','inputpct',None),('H36','H36','Prioridade ativa 0/1','Priority enabled 0/1','input',None),('N36','N36','Prioridade anual €','Annual priority €','input',None)]
    for addr,old,a,b,kind,opts in inputs:control(s,addr,sn,old,a,b,kind,opts)
    for addr,old,a,b in [('H29','B68','Base fee Custom','Custom base fee'),('H30','B70','Incentivo Custom','Custom incentive'),('N32','B69','Sistemas Custom','Custom systems')]:control(s,addr,'V06 Controlos',old,a,b,'inputpct',bounds=(0,1))
    effective(s,'H24','ADR ativo · abertura','Active opening ADR',(sn,'E9'),False)
    effective(s,'H26','Ocupação ativa · abertura','Active opening occupancy',(sn,'I9'))
    for addr,r,a,b in [('H28',68,'Base fee ativo','Active base fee'),('N28',69,'Sistemas ativos · total','Active systems · total'),('N30',70,'Incentivo ativo','Active incentive')]:effective(s,addr,a,b,('V06 Registo Ativo','B'+str(r)))
    custom_style(s,['H25','H27'],'H23','Custom');custom_style(s,['H29','H30','N32','H34','N34'],'H32','Custom Terms')
-   text(s,'E39:P39','Branco: valor ativo. Custom cinzento: guardado, não aplicado. Base Case conserva o cenário Hotel de referência.','White: active value. Grey Custom: stored, not applied. Base Case retains the reference Hotel scenario.','note')
+   text(s,'E39:P39','Branco: valor ativo. Custom cinzento: guardado, não aplicado. Base Case usa o perfil Base; o perfil ativo alimenta todo o motor.','White: active value. Grey Custom: stored, not applied. Base Case uses the Base profile; the active profile feeds the whole engine.','note')
    link(s,'E38:J38',('V06 Matriz ADR','B3'),'Sensibilidade ADR × Ocupação →','ADR × Occupancy sensitivity →');link(s,'K38:P38',('V06 Operacao','A4'),'Operação mensal e reservas →','Monthly operations and reserves →')
    text(s,'E40:P40','Indicadores operacionais · ano selecionado','Operating performance · selected year','section')
    selected=[r for r in rows if r['op_age']==4 and r['available_room_nights']>0]
@@ -175,6 +176,17 @@ def build():
     # A single source for discount and interest lives on the responsible dashboard.
     if i==0:link(s,f'{col(xl_cell_to_rowcol(addr)[1]-3)}23:{col(xl_cell_to_rowcol(addr)[1]+2)}24',('DASH 03 V06','H23') if old=='B41' else ('DASH 07 V06','N25'),a+' →',b+' →')
     else:control(s,addr,'V06 Controlos',old,a,b,kind)
+   if i==0:
+    text(s,'E26:P26','Cenário Ativo','Active Scenario','section')
+    panel=[('H27','Cenário operacional','Operating scenario','DASH 05 V06','H23','inputtext'),('N27','Condições Hotel','Hotel terms','DASH 05 V06','H32','inputtext'),('H29','ADR ativo · abertura','Active opening ADR','DASH 05 V06','H24','activenum'),('N29','Ocupação · abertura','Opening occupancy','DASH 05 V06','H26','activepct'),('H31','Utilização MICE','MICE utilisation','DASH 05 V06','N25','activepct'),('N31','Reserva FF&E','FF&E reserve','DASH 05 V06','N27','activepct'),('H33','Desconto efetivo','Effective discount','V06 Registo Ativo','B65','activepct'),('N33','Política reservas','Reserve policy','DASH 07 V06','H23','inputtext'),('H35','Política dividendos','Dividend policy','DASH 07 V06','N23','inputtext'),('N35','Ano operacional','Operating year','DASH 05 V06','N23','activenum')]
+    for addr,a,b,owner,cell,kind in panel:
+     r,c=xl_cell_to_rowcol(addr);label=f'{col(c-3)}{r+1}:{col(c-1)}{r+1}';link(s,label,(owner,cell),a,b);_,v=src.get(owner,cell)
+     if (owner,cell)==('DASH 07 V06','N23'):v=src.get('V06 Controlos','B57')[1]
+     if cell=='H24':v=src.get(owner,'E9')[1]
+     if cell=='H26':v=src.get(owner,'I9')[1]
+     assert v is not None,(owner,cell,'missing Active Scenario cache')
+     merge(s,f'{addr}:{col(c+2)}{r+1}',f"'{owner}'!{cell}",v,kind if kind!='inputtext' else 'note')
+    text(s,'E36:P36','Clique no rótulo para editar na origem. Custom guardado só se aplica no modo Custom.','Click the label to edit at source. Stored Custom applies only in Custom mode.','note')
    if i==3:text(s,'E28:P31','Carência e prazo só alteram prestações enquanto existe dívida. O cash sweep pode liquidar a dívida antes da amortização contratual.','Grace and tenor affect instalments only while debt is outstanding. Cash sweep can repay debt before contractual amortisation.','note')
    if i==5:
     control(s,'H23',sn,'H23','Condições residencial','Residential terms','inputtext',['Reference Study','KK Target Terms','KK Optimized Terms','Custom Terms']);control(s,'H25',sn,'H25','Gestão Custom','Custom management','inputpct');control(s,'N25',sn,'N25','Distribuição Custom','Custom distribution','inputpct')
@@ -222,7 +234,7 @@ def build():
    # Qualify only the hotel year selector; all data ranges are already qualified.
    f=f.replace('$N$23',"'DASH 05 V06'!$N$23");merge(ps,f'I{r}:L{r+1}',f,v,kind)
   text(ps,'A54:L57','Cenário financeiro simulado. Fonte: motor V06. Contratos, dados comerciais, fiscalidade e financiamento exigem validação documental.','Simulated financial scenario. Source: V06 engine. Contracts, commercial data, tax and funding require documentary validation.','note')
-  merge(ps,'A59:L59',"'V06 Hipoteses'!D29&\" · \"&'V06 Hipoteses'!D28",'EFCC-20261022-01 · 2026-10-22','sub')
+  merge(ps,'A59:L59',f'"{VERSION} · "&\'V06 Hipoteses\'!D29&" · "&\'V06 Hipoteses\'!D28',VERSION+' · EFCC-20261022-01 · 2026-10-22','sub')
  # DASH 10 control centre; report pages retain their established technical name.
  s=frame(CENTER,9);text(s,'E18:P19','10 — Centro de relatório e impressão','10 — Report and print centre','section')
  for addr,oldsn,old,pt,en,kind,opts in [('H7','V06 Controlos','B5','Idioma global','Global language','inputtext',['PT','EN']),('H11','V06 Hipoteses','D26','Formato','Format','inputtext',['Complete Report','Executive Brief']),('N11','V06 Hipoteses','D27','Cenário do relatório','Report scenario','inputtext',['Active Scenario','Reference Case']),('H15','V06 Hipoteses','D28','Data referência','Reference date','inputtext',None),('N15','V06 Hipoteses','D29','Identificador cenário','Scenario identifier','inputtext',None)]:control(s,addr,oldsn,old,pt,en,kind,opts)

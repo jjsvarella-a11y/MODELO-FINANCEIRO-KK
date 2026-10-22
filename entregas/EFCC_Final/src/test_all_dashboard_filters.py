@@ -66,7 +66,7 @@ def main():
    for target,row in [('H24',94),('N24',95)]:old.near(cells[R][target],cells['V06 Registo Ativo']['B'+str(row)])
    old.near(cells[Q]['N26'],cells['V06 Registo Ativo']['B65'])
    if (sn,a)==(H,'H23'):
-    adr,occ={'Conservative':legacy.HOTELS['Conservador'][:2],'Base Case':legacy.HOTELS['Favorável'][:2],'Favorable':legacy.HOTELS['Favorável'][:2],'Upside Stress':(250,.75),'Custom':(210,.64)}[value]
+    adr,occ={'Conservative':legacy.HOTELS['Conservador'][:2],'Base Case':legacy.HOTELS['Base'][:2],'Favorable':legacy.HOTELS['Favorável'][:2],'Upside Stress':(250,.75),'Custom':(210,.64)}[value]
     old.near(cells[H]['H24'],adr);old.near(cells[H]['H26'],occ);old.near(cells[H]['H25'],210);old.near(cells[H]['H27'],.64)
    if (sn,a)==(H,'H32'):
     expected={'Operator Proposed Terms':(.04,.04,.10),'KK Target Terms':(.025,.03,.06),'KK Optimized Terms':(.02,.015,.05),'Custom Terms':(.03,.03,.06)}[value]
@@ -83,14 +83,22 @@ def main():
    # Presentation controls intentionally preserve the financial engine.
    if sn==C:assert not changed,changed[:5]
    # Presets equal to the calibrated baseline legitimately have identical results.
-   neutral=(sn==H and a=='H23' and value in ['Base Case','Favorable','Custom']) or value==oldvalue or sn==C or (sn,a)==(H,'N23') or ((sn,a) in [('DASH 03 V06','N23'),('DASH 03 V06','H25')] and not changed and not metric_changed) or ((sn,a)==(Q,'H29') and value=='Custom' and cells[Q]['N26']==base[Q]['N26'])
+   neutral=(sn==H and a=='H23' and value in ['Base Case']) or value==oldvalue or sn==C or (sn,a)==(H,'N23') or ((sn,a) in [('DASH 03 V06','N23'),('DASH 03 V06','H25')] and not changed and not metric_changed) or ((sn,a)==(Q,'H29') and value=='Custom' and cells[Q]['N26']==base[Q]['N26'])
    if (sn,a) in [('DASH 03 V06','N23'),('DASH 03 V06','H25')] and not changed:
     bank=json.loads((ROOT/'Testes_Carencia_Prazo.json').read_text());assert bank['status']=='PASS'
+   if (sn,a,value)==(Q,'N23','Minimum') and not changed and not metric_changed:
+    from xlsxwriter.utility import xl_col_to_name
+    target_col=xl_col_to_name(old.REF['main_columns']['dividend_target'])
+    assert all(m[target_col+str(r)]==base['V06 Motor'][target_col+str(r)]==3000000 for r in range(5,185))
+    neutral=True
+    result['equivalence_evidence']={'reason':'Auto independently selects the same 3M annual target in all 180 months; Minimum changes the policy identifier but not its applicable cash flows','months_checked':180,'target':3000000}
    if not neutral:assert changed or metric_changed,('No engine response',sn,a,value)
    if (sn,a)==(H,'N23'):assert cells[H]['H50']!=base[H]['H50']
    if (sn,a)==(C,'H7') and value=='EN':assert 'Executive Dashboard' in cells['EXEC V06']['B8']
-   if (sn,a)==(C,'N11'):old.near(cells['DASH 10 V06']['G17'],old.REF['metrics']['Reference Case' if value=='Reference Case' else 'Base']['npv'])
+   if (sn,a)==(C,'N11'):old.near(cells['DASH 10 V06']['G17'],old.REF['metrics']['Reference Case']['npv'] if value=='Reference Case' else base['V06 Cenarios']['M5'])
    result.update({'sheet':sn,'cell':a,'choice':value,'label':item['label_pt'],'changed_engine_cells':len(changed),'changed_dashboard_kpis':kpi_changed,'changed_summary_cells':metric_changed,'active_readouts_checked':8,'interpretation':'Nonbinding while cash sweep repays debt; separately tested with outstanding debt' if (sn,a) in [('DASH 03 V06','N23'),('DASH 03 V06','H25')] and not changed else 'Equivalent to baseline / presentation only' if neutral else 'Engine responds'})
+   from verify_all_filter_outputs import inspect as verify_outputs
+   result['correspondences']=verify_outputs(result,cells)
   except Exception as e:result.update(status='FAIL',error=repr(e),sheet=sn,cell=a,choice=value)
   return result
  results=[]
@@ -101,7 +109,7 @@ def main():
   subprocess.run([sys.executable,str(ROOT/'src/test_bank_controls.py')],check=True)
   existing=True
   with ThreadPoolExecutor(max_workers=3) as ex:results=list(ex.map(run,cases))
- proof={'status':'PASS' if all(r['status']=='PASS' for r in results) else 'FAIL','platform':'LibreOffice, cache-invalidated recalculation; live active engine, unrelated scenario branches frozen only in private labs','native_excel365':'NOT TESTED','inputs_covered':len(inputs),'tests':results,'note':'Base Case preserves original Favorável calibration; stored Custom values remain editable but do not apply in preset modes.'}
+ proof={'status':'PASS' if all(r['status']=='PASS' for r in results) else 'FAIL','platform':'LibreOffice, cache-invalidated recalculation; live active engine, unrelated scenario branches frozen only in private labs','native_excel365':'NOT TESTED','inputs_covered':len(inputs),'tests':results,'release':'V06.3-SYNC','note':'Base Case uses the Base profile; stored Custom values remain editable but do not apply in preset modes.'}
  (ROOT/'Testes_Todos_Filtros.json').write_text(json.dumps(proof,indent=2,ensure_ascii=False))
  with (ROOT/'Matriz_Testes_Filtros.csv').open('w',newline='',encoding='utf-8-sig') as f:
   w=csv.DictWriter(f,fieldnames=['test','sheet','cell','label','choice','changed_engine_cells','status','error'],extrasaction='ignore',delimiter=';',lineterminator='\n');w.writeheader();w.writerows(results)

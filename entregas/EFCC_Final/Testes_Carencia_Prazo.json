@@ -6,23 +6,23 @@
       "test": "Filter_BankTenor",
       "status": "PASS",
       "evidence": {
-        "npv": -12476965.5471219,
+        "npv": -15120237.6513441,
         "cash30": 24898166.8225935,
         "div54": 0.0,
-        "operator_fees": 22441070.4980964
+        "operator_fees": 16570484.2393398
       },
-      "engine_cells_changed_relative_to_same_no_sweep_scenario": 2700
+      "engine_cells_changed_relative_to_same_no_sweep_scenario": 2688
     },
     {
       "test": "Filter_BankGrace",
       "status": "PASS",
       "evidence": {
-        "npv": -12480168.6648067,
+        "npv": -15123438.5311848,
         "cash30": 24898166.8225935,
         "div54": 0.0,
-        "operator_fees": 22441070.4980964
+        "operator_fees": 16570484.2393398
       },
-      "engine_cells_changed_relative_to_same_no_sweep_scenario": 2580
+      "engine_cells_changed_relative_to_same_no_sweep_scenario": 2568
     }
   ],
   "native_excel365": "NOT TESTED"

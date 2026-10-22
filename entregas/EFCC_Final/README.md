@@ -1,3 +1,5 @@
+> Atualização V06.3-SYNC: Base Case passa a usar Base (185 EUR / 58%). Resultados e testes atuais: [Relatório de sincronização](Relatorio_Sincronizacao_Cenarios.md). As equivalências anteriores Base=Favorável estão substituídas.
+
 # KK-01 V06 — Executive Financial Control Center
 
 Revisão premium de apresentação, navegação e impressão, sobre a base financeira estável `4111b2c`. O ficheiro `KK01_V06_Executive_Master (2).xlsx` é mencionado no mandato, mas não foi fornecido como anexo acessível; foi usada a revisão estável do repositório que o utilizador indicou parecer ter resolvido o erro.
@@ -5,7 +7,7 @@ Revisão premium de apresentação, navegação e impressão, sobre a base finan
 - [Abrir o modelo](KK01_V06_Executive_Master.xlsx) — 36.3 MB, 190 folhas: dez painéis executivos, auxiliares e motor atual. As 313 folhas V04 continuam fisicamente removidas; a V04 original permanece intacta em `../Arquivo/V04`.
 - [Entrega completa](KK01_EFCC_Entrega_Candidata.zip).
 - [Testes de todos os filtros](Matriz_Testes_Filtros.csv).
-- [Matriz de navegação](Matriz_Navegacao.csv) — 607 ligações verificadas estruturalmente.
+- [Matriz de navegação](Matriz_Navegacao.csv) — 617 ligações verificadas estruturalmente.
 - [Alterações gráficas](Relatorio_Alteracoes_Graficas.md).
 - [Integridade financeira](Relatorio_Integridade_Financeira.md).
 - [Compatibilidade Microsoft Excel 365](Compatibilidade_Excel365.md).

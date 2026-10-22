@@ -35,7 +35,7 @@ A revisão atual está em [EFCC Final](entregas/EFCC_Final/README.md).
 - [Matriz de navegação](entregas/EFCC_Final/Matriz_Navegacao.csv).
 - [Relatório integral PT](entregas/EFCC_Final/PDF/PT/DASH_10_Integral_PT.pdf).
 
-Valores ativos e entradas Custom guardadas são identificados separadamente no Hotel, no residencial e no desconto. Os filtros continuam ligados ao motor central. Base Case conserva a calibração Hotel de referência, atualmente Favorável.
+Valores ativos e entradas Custom guardadas são identificados separadamente no Hotel, no residencial e no desconto. Os filtros continuam ligados ao motor central. Na revisão V06.3-SYNC, Base Case utiliza o perfil Base (185 EUR / 58%) e Conservative utiliza Conservador. As escolhas propagam-se à composição F&B/MICE e ao motor de 180 meses. [Comparação antes/depois](entregas/EFCC_Final/Relatorio_Sincronizacao_Cenarios.md).
 
 As 313 folhas V04 foram fisicamente retiradas do master; a [V04 original](entregas/Arquivo/V04/README.md) permanece preservada em arquivo separado. O logótipo original pode ser inserido em **V06 Identidade**.
 
