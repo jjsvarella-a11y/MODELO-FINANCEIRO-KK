@@ -1,0 +1,1578 @@
+{
+  "base": "/workspace/MODELO-FINANCEIRO-KK/entregas/V06/KK01_V06_Executive_Master.xlsx",
+  "base_sha256": "77a344d2a820443552b228b529b8ebd010dc2bafba67ca4f52548fcd4a822839",
+  "sections": [
+    {
+      "page": 1,
+      "pt": "Síntese Executiva de Investimento",
+      "en": "Executive Investment Summary"
+    },
+    {
+      "page": 2,
+      "pt": "Programa, Orçamento e Financiamento",
+      "en": "Project Scope, Development Budget & Funding"
+    },
+    {
+      "page": 3,
+      "pt": "Promoção Imobiliária e Recebimentos",
+      "en": "Real Estate Development, Sales & Collections"
+    },
+    {
+      "page": 4,
+      "pt": "Exploração Hoteleira e Centro MICE",
+      "en": "Hotel & MICE Operating Performance"
+    },
+    {
+      "page": 5,
+      "pt": "Exploração Residencial e Sell & Leaseback",
+      "en": "Residential Operations & Sell & Leaseback"
+    },
+    {
+      "page": 6,
+      "pt": "Fiscalidade, Incentivos e Seguros",
+      "en": "Taxation, Incentives & Insurance"
+    },
+    {
+      "page": 7,
+      "pt": "Tesouraria, Dívida e Reservas Protegidas",
+      "en": "Treasury, Debt & Protected Reserves"
+    },
+    {
+      "page": 8,
+      "pt": "Acionistas, Capital e Dividendos",
+      "en": "Shareholders, Capital & Dividends"
+    },
+    {
+      "page": 9,
+      "pt": "Retornos, Valor Terminal e Viabilidade",
+      "en": "Returns, Terminal Value & Feasibility"
+    },
+    {
+      "page": 10,
+      "pt": "Sensibilidades, Riscos e Condições de Investimento",
+      "en": "Sensitivities, Risks & Investment Conditions"
+    }
+  ],
+  "financial_bindings": [
+    {
+      "cell": "A16",
+      "formula": "'DASH 04A V06'!I9",
+      "base_value": 50656336.37
+    },
+    {
+      "cell": "G16",
+      "formula": "'DASH 01 V06'!I9",
+      "base_value": 63168000
+    },
+    {
+      "cell": "A21",
+      "formula": "'DASH 07 V06'!E15",
+      "base_value": 0.0770481496666196
+    },
+    {
+      "cell": "G21",
+      "formula": "'DASH 07 V06'!I15",
+      "base_value": 2.68670698655977
+    },
+    {
+      "cell": "A26",
+      "formula": "'DASH 07 V06'!M15",
+      "base_value": -9604777.39034361
+    },
+    {
+      "cell": "G26",
+      "formula": "'DASH 07 V06'!M9",
+      "base_value": 103625929.308455
+    },
+    {
+      "cell": "E38",
+      "formula": "'V06 Controlos'!B65",
+      "base_value": 0.12
+    },
+    {
+      "cell": "I38",
+      "formula": "'V06 Controlos'!B62",
+      "base_value": 12
+    },
+    {
+      "cell": "A66",
+      "formula": "'DASH 01 V06'!E9",
+      "base_value": 4500000
+    },
+    {
+      "cell": "G66",
+      "formula": "'DASH 01 V06'!I9",
+      "base_value": 63168000
+    },
+    {
+      "cell": "A71",
+      "formula": "'DASH 06 V06'!M9",
+      "base_value": 25000000
+    },
+    {
+      "cell": "G71",
+      "formula": "'DASH 06 V06'!E15",
+      "base_value": 25000000
+    },
+    {
+      "cell": "A78",
+      "formula": "'DASH 01 V06'!M9",
+      "base_value": 56400000
+    },
+    {
+      "cell": "E78",
+      "formula": "'DASH 01 V06'!E15",
+      "base_value": 1128000
+    },
+    {
+      "cell": "I78",
+      "formula": "'DASH 01 V06'!I15",
+      "base_value": 5640000
+    },
+    {
+      "cell": "A116",
+      "formula": "'DASH 04A V06'!E9",
+      "base_value": 94
+    },
+    {
+      "cell": "G116",
+      "formula": "'DASH 04A V06'!M9",
+      "base_value": 50656336.37
+    },
+    {
+      "cell": "A121",
+      "formula": "'DASH 04A V06'!E15",
+      "base_value": 1266408.40925
+    },
+    {
+      "cell": "G121",
+      "formula": "'DASH 04A V06'!M15",
+      "base_value": 31484497.7118043
+    },
+    {
+      "cell": "A166",
+      "formula": "'DASH 05 V06'!E9",
+      "base_value": 210
+    },
+    {
+      "cell": "G166",
+      "formula": "'DASH 05 V06'!I9",
+      "base_value": 0.64
+    },
+    {
+      "cell": "A171",
+      "formula": "SUM('V06 Motor'!W5:W184)",
+      "base_value": 80676842.45792486
+    },
+    {
+      "cell": "G171",
+      "formula": "'DASH 05 V06'!E15",
+      "base_value": 7519390.83524176
+    },
+    {
+      "cell": "A178",
+      "formula": "'V06 Controlos'!B68",
+      "base_value": 0.03
+    },
+    {
+      "cell": "E178",
+      "formula": "'V06 Controlos'!B69",
+      "base_value": 0.03
+    },
+    {
+      "cell": "I178",
+      "formula": "'V06 Controlos'!B70",
+      "base_value": 0.06
+    },
+    {
+      "cell": "A216",
+      "formula": "'DASH 04B V06'!E9",
+      "base_value": 78270824.6302655
+    },
+    {
+      "cell": "G216",
+      "formula": "'DASH 04B V06'!I9",
+      "base_value": 35294489.2175542
+    },
+    {
+      "cell": "A221",
+      "formula": "'DASH 04B V06'!M9",
+      "base_value": 164946.241445833
+    },
+    {
+      "cell": "G221",
+      "formula": "'DASH 04B V06'!E15",
+      "base_value": 2641464.10009723
+    },
+    {
+      "cell": "A226",
+      "formula": "'DASH 04B V06'!I15",
+      "base_value": 3130832.98521062
+    },
+    {
+      "cell": "G226",
+      "formula": "'DASH 04B V06'!M15",
+      "base_value": 1173984.04448766
+    },
+    {
+      "cell": "A240",
+      "formula": "'V06 Controlos'!B72",
+      "base_value": 0.0425
+    },
+    {
+      "cell": "E240",
+      "formula": "'V06 Controlos'!B73",
+      "base_value": 0.0025
+    },
+    {
+      "cell": "I240",
+      "formula": "'V06 Controlos'!B80",
+      "base_value": 0
+    },
+    {
+      "cell": "A266",
+      "formula": "'DASH 02 V06'!E9",
+      "base_value": 8629200
+    },
+    {
+      "cell": "G266",
+      "formula": "'DASH 02 V06'!I9",
+      "base_value": 3077345.304
+    },
+    {
+      "cell": "A271",
+      "formula": "'DASH 02 V06'!M9",
+      "base_value": 16909653.5262158
+    },
+    {
+      "cell": "G271",
+      "formula": "'DASH 02 V06'!E15",
+      "base_value": 197400
+    },
+    {
+      "cell": "A278",
+      "formula": "'V06 Controlos'!B9",
+      "base_value": 0.2
+    },
+    {
+      "cell": "E278",
+      "formula": "'V06 Controlos'!B7",
+      "base_value": 1
+    },
+    {
+      "cell": "I278",
+      "formula": "'V06 Controlos'!B8",
+      "base_value": 6
+    },
+    {
+      "cell": "I285",
+      "formula": "'V06 Controlos'!B10",
+      "base_value": 0
+    },
+    {
+      "cell": "A316",
+      "formula": "'DASH 03 V06'!E9",
+      "base_value": 9486927.78068434
+    },
+    {
+      "cell": "G316",
+      "formula": "'DASH 03 V06'!I9",
+      "base_value": 5697584.07419411
+    },
+    {
+      "cell": "A321",
+      "formula": "'DASH 03 V06'!M9",
+      "base_value": 6219194.48561537
+    },
+    {
+      "cell": "G321",
+      "formula": "'V06 Cenarios'!F5",
+      "base_value": 17528049.0570992
+    },
+    {
+      "cell": "I324",
+      "formula": "SUM('V06 Motor'!AI5:AI184)",
+      "base_value": 14521831.64242647
+    },
+    {
+      "cell": "A328",
+      "formula": "'V06 Motor'!BS58",
+      "base_value": 1000000
+    },
+    {
+      "cell": "E328",
+      "formula": "'V06 Cenarios'!G5",
+      "base_value": 0
+    },
+    {
+      "cell": "I328",
+      "formula": "'V06 Cenarios'!H5",
+      "base_value": 0
+    },
+    {
+      "cell": "A366",
+      "formula": "'DASH 06 V06'!E9",
+      "base_value": 15
+    },
+    {
+      "cell": "G366",
+      "formula": "'DASH 06 V06'!I9",
+      "base_value": 8
+    },
+    {
+      "cell": "A371",
+      "formula": "'DASH 07 V06'!E9",
+      "base_value": 2519840.75043494
+    },
+    {
+      "cell": "G371",
+      "formula": "'DASH 07 V06'!I9",
+      "base_value": 32981521.4494995
+    },
+    {
+      "cell": "A378",
+      "formula": "'DASH 06 V06'!I15",
+      "base_value": 0.4
+    },
+    {
+      "cell": "E378",
+      "formula": "'DASH 06 V06'!M15",
+      "base_value": 0.1
+    },
+    {
+      "cell": "I378",
+      "formula": "SUM('V06 Blocos'!D12:D19)",
+      "base_value": 0.5
+    },
+    {
+      "cell": "E385",
+      "formula": "'V06 Controlos'!B58",
+      "base_value": 1.2
+    },
+    {
+      "cell": "A416",
+      "formula": "'V06 Cenarios'!T5",
+      "base_value": 22940513.6246633
+    },
+    {
+      "cell": "G416",
+      "formula": "'V06 Cenarios'!M5",
+      "base_value": -9604777.39034361
+    },
+    {
+      "cell": "A421",
+      "formula": "'V06 Cenarios'!U5",
+      "base_value": 0.195269662277337
+    },
+    {
+      "cell": "G421",
+      "formula": "'V06 Cenarios'!K5",
+      "base_value": 0.0770481496666196
+    },
+    {
+      "cell": "A426",
+      "formula": "'V06 Cenarios'!L5",
+      "base_value": 2.68670698655977
+    },
+    {
+      "cell": "G426",
+      "formula": "'V06 Cenarios'!J5",
+      "base_value": 103625929.308455
+    },
+    {
+      "cell": "A440",
+      "formula": "'V06 Controlos'!B64",
+      "base_value": 180
+    },
+    {
+      "cell": "E440",
+      "formula": "'V06 Controlos'!B62",
+      "base_value": 12
+    },
+    {
+      "cell": "I440",
+      "formula": "'V06 Controlos'!B65",
+      "base_value": 0.12
+    },
+    {
+      "cell": "E466",
+      "formula": "'V06 Cenarios'!K5",
+      "base_value": 0.0770481496666196
+    },
+    {
+      "cell": "G466",
+      "formula": "'V06 Cenarios'!M5",
+      "base_value": -9604777.39034361
+    },
+    {
+      "cell": "J466",
+      "formula": "'V06 Cenarios'!G5",
+      "base_value": 0
+    },
+    {
+      "cell": "E468",
+      "formula": "'V06 Cenarios'!K7",
+      "base_value": 0.0769310968539072
+    },
+    {
+      "cell": "G468",
+      "formula": "'V06 Cenarios'!M7",
+      "base_value": -9624085.76984637
+    },
+    {
+      "cell": "J468",
+      "formula": "'V06 Cenarios'!G7",
+      "base_value": 0
+    },
+    {
+      "cell": "E470",
+      "formula": "'V06 Cenarios'!K9",
+      "base_value": 0.0787951864955134
+    },
+    {
+      "cell": "G470",
+      "formula": "'V06 Cenarios'!M9",
+      "base_value": -9229410.16637327
+    },
+    {
+      "cell": "J470",
+      "formula": "'V06 Cenarios'!G9",
+      "base_value": 0
+    },
+    {
+      "cell": "E472",
+      "formula": "'V06 Cenarios'!K13",
+      "base_value": 0.0754298644933522
+    },
+    {
+      "cell": "G472",
+      "formula": "'V06 Cenarios'!M13",
+      "base_value": -9892920.83122408
+    },
+    {
+      "cell": "J472",
+      "formula": "'V06 Cenarios'!G13",
+      "base_value": 0
+    },
+    {
+      "cell": "E474",
+      "formula": "'V06 Cenarios'!K23",
+      "base_value": 0.0215338361258126
+    },
+    {
+      "cell": "G474",
+      "formula": "'V06 Cenarios'!M23",
+      "base_value": -16925970.4142296
+    },
+    {
+      "cell": "J474",
+      "formula": "'V06 Cenarios'!G23",
+      "base_value": 12009585.2804514
+    }
+  ],
+  "report_cells": {
+    "A4": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"10 — Relatório Executivo Consolidado de Viabilidade e Investimento\",\"10 — Consolidated Investment & Feasibility Report\")",
+      "financial": false,
+      "cached": "10 — Relatório Executivo Consolidado de Viabilidade e Investimento"
+    },
+    "A8": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"01 — Síntese Executiva de Investimento\",\"01 — Executive Investment Summary\")",
+      "financial": false,
+      "cached": "01 — Síntese Executiva de Investimento"
+    },
+    "A47": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"Fonte: dashboards V06 e motor central · EUR · 180 meses · relatório dinâmico.\",\"Source: V06 dashboards and central engine · EUR · 180 months · dynamic report.\")",
+      "financial": false,
+      "cached": "Fonte: dashboards V06 e motor central · EUR · 180 meses · relatório dinâmico."
+    },
+    "A49": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"Candidato de estudo · Teste nativo Microsoft Excel 365 pendente.\",\"Study candidate · Native Microsoft Excel 365 acceptance pending.\")",
+      "financial": false,
+      "cached": "Candidato de estudo · Teste nativo Microsoft Excel 365 pendente."
+    },
+    "A14": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"VGV\",\"Development sales value\")",
+      "financial": false,
+      "cached": "VGV"
+    },
+    "A16": {
+      "formula": "'DASH 04A V06'!I9",
+      "financial": true,
+      "cached": 50656336.37
+    },
+    "G14": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"CAPEX futuro\",\"Future CAPEX\")",
+      "financial": false,
+      "cached": "CAPEX futuro"
+    },
+    "G16": {
+      "formula": "'DASH 01 V06'!I9",
+      "financial": true,
+      "cached": 63168000
+    },
+    "A19": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"TIR novos investidores\",\"New investor IRR\")",
+      "financial": false,
+      "cached": "TIR novos investidores"
+    },
+    "A21": {
+      "formula": "'DASH 07 V06'!E15",
+      "financial": true,
+      "cached": 0.0770481496666196
+    },
+    "G19": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"MOIC novos investidores\",\"New investor MOIC\")",
+      "financial": false,
+      "cached": "MOIC novos investidores"
+    },
+    "G21": {
+      "formula": "'DASH 07 V06'!I15",
+      "financial": true,
+      "cached": 2.68670698655977
+    },
+    "A24": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"VAL investidores\",\"Investor NPV\")",
+      "financial": false,
+      "cached": "VAL investidores"
+    },
+    "A26": {
+      "formula": "'DASH 07 V06'!M15",
+      "financial": true,
+      "cached": -9604777.39034361
+    },
+    "G24": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"Equity Value de saída\",\"Exit Equity Value\")",
+      "financial": false,
+      "cached": "Equity Value de saída"
+    },
+    "G26": {
+      "formula": "'DASH 07 V06'!M9",
+      "financial": true,
+      "cached": 103625929.308455
+    },
+    "A31": {
+      "formula": "IF('V06 Cenarios'!G5>0,IF('V06 Controlos'!$B$5=\"PT\",\"ALERTA: existe défice de financiamento. Os retornos são condicionais.\",\"WARNING: an unfunded financing gap exists. Returns are conditional.\"),IF('V06 Cenarios'!M5<0,IF('V06 Controlos'!$B$5=\"PT\",\"VAL negativo: o retorno não alcança a taxa de desconto selecionada.\",\"Negative NPV: returns do not meet the selected discount rate.\"),IF('V06 Controlos'!$B$5=\"PT\",\"VAL não negativo no cenário ativo; confirmar contratos, capital e risco.\",\"Non-negative NPV in the active case; confirm contracts, capital and risk.\")))",
+      "financial": false,
+      "cached": "VAL negativo: o retorno não alcança a taxa de desconto selecionada."
+    },
+    "A36": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"Hotel\",\"Hotel\")",
+      "financial": false,
+      "cached": "Hotel"
+    },
+    "E36": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"Desconto equity\",\"Equity discount\")",
+      "financial": false,
+      "cached": "Desconto equity"
+    },
+    "I36": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"Saída\",\"Exit multiple\")",
+      "financial": false,
+      "cached": "Saída"
+    },
+    "A38": {
+      "formula": "'V06 Controlos'!B67",
+      "financial": false,
+      "cached": "Favorável"
+    },
+    "E38": {
+      "formula": "'V06 Controlos'!B65",
+      "financial": true,
+      "cached": 0.12
+    },
+    "I38": {
+      "formula": "'V06 Controlos'!B62",
+      "financial": true,
+      "cached": 12
+    },
+    "A43": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"Dividendos, incentivos e saída são simulações; o relatório não certifica viabilidade nem benefícios concedidos.\",\"Dividends, incentives and exit values are simulations; this report does not certify feasibility or granted benefits.\")",
+      "financial": false,
+      "cached": "Dividendos, incentivos e saída são simulações; o relatório não certifica viabilidade nem benefícios concedidos."
+    },
+    "A54": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"10 — Relatório Executivo Consolidado de Viabilidade e Investimento\",\"10 — Consolidated Investment & Feasibility Report\")",
+      "financial": false,
+      "cached": "10 — Relatório Executivo Consolidado de Viabilidade e Investimento"
+    },
+    "A58": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"02 — Programa, Orçamento e Financiamento\",\"02 — Project Scope, Development Budget & Funding\")",
+      "financial": false,
+      "cached": "02 — Programa, Orçamento e Financiamento"
+    },
+    "A97": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"Fonte: dashboards V06 e motor central · EUR · 180 meses · relatório dinâmico.\",\"Source: V06 dashboards and central engine · EUR · 180 months · dynamic report.\")",
+      "financial": false,
+      "cached": "Fonte: dashboards V06 e motor central · EUR · 180 meses · relatório dinâmico."
+    },
+    "A99": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"Candidato de estudo · Teste nativo Microsoft Excel 365 pendente.\",\"Study candidate · Native Microsoft Excel 365 acceptance pending.\")",
+      "financial": false,
+      "cached": "Candidato de estudo · Teste nativo Microsoft Excel 365 pendente."
+    },
+    "A64": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"Investimento histórico, sem caixa futura\",\"Historical investment, no future cash outflow\")",
+      "financial": false,
+      "cached": "Investimento histórico, sem caixa futura"
+    },
+    "A66": {
+      "formula": "'DASH 01 V06'!E9",
+      "financial": true,
+      "cached": 4500000
+    },
+    "G64": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"Orçamento futuro base\",\"Future development budget\")",
+      "financial": false,
+      "cached": "Orçamento futuro base"
+    },
+    "G66": {
+      "formula": "'DASH 01 V06'!I9",
+      "financial": true,
+      "cached": 63168000
+    },
+    "A69": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"Capital alvo\",\"Equity target\")",
+      "financial": false,
+      "cached": "Capital alvo"
+    },
+    "A71": {
+      "formula": "'DASH 06 V06'!M9",
+      "financial": true,
+      "cached": 25000000
+    },
+    "G69": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"Capital KK de cenário\",\"Scenario KK capital\")",
+      "financial": false,
+      "cached": "Capital KK de cenário"
+    },
+    "G71": {
+      "formula": "'DASH 06 V06'!E15",
+      "financial": true,
+      "cached": 25000000
+    },
+    "A74": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"Programa: 200 quartos · MICE até 1.500 participantes · 94 frações.\",\"Programme: 200 rooms · MICE up to 1,500 participants · 94 apartments.\")",
+      "financial": false,
+      "cached": "Programa: 200 quartos · MICE até 1.500 participantes · 94 frações."
+    },
+    "A76": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"Construção / FF&E inicial\",\"Construction / initial FF&E\")",
+      "financial": false,
+      "cached": "Construção / FF&E inicial"
+    },
+    "E76": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"Fiscalização\",\"Supervision\")",
+      "financial": false,
+      "cached": "Fiscalização"
+    },
+    "I76": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"Contingência\",\"Contingency\")",
+      "financial": false,
+      "cached": "Contingência"
+    },
+    "A78": {
+      "formula": "'DASH 01 V06'!M9",
+      "financial": true,
+      "cached": 56400000
+    },
+    "E78": {
+      "formula": "'DASH 01 V06'!E15",
+      "financial": true,
+      "cached": 1128000
+    },
+    "I78": {
+      "formula": "'DASH 01 V06'!I15",
+      "financial": true,
+      "cached": 5640000
+    },
+    "A104": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"10 — Relatório Executivo Consolidado de Viabilidade e Investimento\",\"10 — Consolidated Investment & Feasibility Report\")",
+      "financial": false,
+      "cached": "10 — Relatório Executivo Consolidado de Viabilidade e Investimento"
+    },
+    "A108": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"03 — Promoção Imobiliária e Recebimentos\",\"03 — Real Estate Development, Sales & Collections\")",
+      "financial": false,
+      "cached": "03 — Promoção Imobiliária e Recebimentos"
+    },
+    "A147": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"Fonte: dashboards V06 e motor central · EUR · 180 meses · relatório dinâmico.\",\"Source: V06 dashboards and central engine · EUR · 180 months · dynamic report.\")",
+      "financial": false,
+      "cached": "Fonte: dashboards V06 e motor central · EUR · 180 meses · relatório dinâmico."
+    },
+    "A149": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"Candidato de estudo · Teste nativo Microsoft Excel 365 pendente.\",\"Study candidate · Native Microsoft Excel 365 acceptance pending.\")",
+      "financial": false,
+      "cached": "Candidato de estudo · Teste nativo Microsoft Excel 365 pendente."
+    },
+    "A114": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"Frações\",\"Apartments\")",
+      "financial": false,
+      "cached": "Frações"
+    },
+    "A116": {
+      "formula": "'DASH 04A V06'!E9",
+      "financial": true,
+      "cached": 94
+    },
+    "G114": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"Recebimentos 180M\",\"180M collections\")",
+      "financial": false,
+      "cached": "Recebimentos 180M"
+    },
+    "G116": {
+      "formula": "'DASH 04A V06'!M9",
+      "financial": true,
+      "cached": 50656336.37
+    },
+    "A119": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"Custos comerciais\",\"Sales costs\")",
+      "financial": false,
+      "cached": "Custos comerciais"
+    },
+    "A121": {
+      "formula": "'DASH 04A V06'!E15",
+      "financial": true,
+      "cached": 1266408.40925
+    },
+    "G119": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"Margem promoção — proxy\",\"Development margin — proxy\")",
+      "financial": false,
+      "cached": "Margem promoção — proxy"
+    },
+    "G121": {
+      "formula": "'DASH 04A V06'!M15",
+      "financial": true,
+      "cached": 31484497.7118043
+    },
+    "A142": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"94 frações: inventário único em V06 Unidades. Previsões não equivalem a contratos assinados ou recebimentos comprovados. As frações 504 e 810 conservam o M29 herdado, sujeito a validação.\",\"94 apartments: single inventory in V06 Unidades. Forecasts are not signed contracts or verified receipts. Units 504 and 810 retain inherited M29, subject to validation.\")",
+      "financial": false,
+      "cached": "94 frações: inventário único em V06 Unidades. Previsões não equivalem a contratos assinados ou recebimentos comprovados. As frações 504 e 810 conservam o M29 herdado, sujeito a validação."
+    },
+    "A154": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"10 — Relatório Executivo Consolidado de Viabilidade e Investimento\",\"10 — Consolidated Investment & Feasibility Report\")",
+      "financial": false,
+      "cached": "10 — Relatório Executivo Consolidado de Viabilidade e Investimento"
+    },
+    "A158": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"04 — Exploração Hoteleira e Centro MICE\",\"04 — Hotel & MICE Operating Performance\")",
+      "financial": false,
+      "cached": "04 — Exploração Hoteleira e Centro MICE"
+    },
+    "A197": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"Fonte: dashboards V06 e motor central · EUR · 180 meses · relatório dinâmico.\",\"Source: V06 dashboards and central engine · EUR · 180 months · dynamic report.\")",
+      "financial": false,
+      "cached": "Fonte: dashboards V06 e motor central · EUR · 180 meses · relatório dinâmico."
+    },
+    "A199": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"Candidato de estudo · Teste nativo Microsoft Excel 365 pendente.\",\"Study candidate · Native Microsoft Excel 365 acceptance pending.\")",
+      "financial": false,
+      "cached": "Candidato de estudo · Teste nativo Microsoft Excel 365 pendente."
+    },
+    "A164": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"ADR de abertura\",\"Opening ADR\")",
+      "financial": false,
+      "cached": "ADR de abertura"
+    },
+    "A166": {
+      "formula": "'DASH 05 V06'!E9",
+      "financial": true,
+      "cached": 210
+    },
+    "G164": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"Ocupação quartos — abertura\",\"Room occupancy — opening\")",
+      "financial": false,
+      "cached": "Ocupação quartos — abertura"
+    },
+    "G166": {
+      "formula": "'DASH 05 V06'!I9",
+      "financial": true,
+      "cached": 0.64
+    },
+    "A169": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"Receita MICE — 180 meses\",\"MICE revenue — 180 months\")",
+      "financial": false,
+      "cached": "Receita MICE — 180 meses"
+    },
+    "A171": {
+      "formula": "SUM('V06 Motor'!W5:W184)",
+      "financial": true,
+      "cached": 80676842.45792486
+    },
+    "G169": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"EBITDA Ano15\",\"Year15 EBITDA\")",
+      "financial": false,
+      "cached": "EBITDA Ano15"
+    },
+    "G171": {
+      "formula": "'DASH 05 V06'!E15",
+      "financial": true,
+      "cached": 7519390.83524176
+    },
+    "A176": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"Fee base / receita\",\"Base fee / revenue\")",
+      "financial": false,
+      "cached": "Fee base / receita"
+    },
+    "E176": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"Sistemas / receita\",\"Systems / revenue\")",
+      "financial": false,
+      "cached": "Sistemas / receita"
+    },
+    "I176": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"Incentivo / GOP ajustado\",\"Incentive / adjusted GOP\")",
+      "financial": false,
+      "cached": "Incentivo / GOP ajustado"
+    },
+    "A178": {
+      "formula": "'V06 Controlos'!B68",
+      "financial": true,
+      "cached": 0.03
+    },
+    "E178": {
+      "formula": "'V06 Controlos'!B69",
+      "financial": true,
+      "cached": 0.03
+    },
+    "I178": {
+      "formula": "'V06 Controlos'!B70",
+      "financial": true,
+      "cached": 0.06
+    },
+    "A204": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"10 — Relatório Executivo Consolidado de Viabilidade e Investimento\",\"10 — Consolidated Investment & Feasibility Report\")",
+      "financial": false,
+      "cached": "10 — Relatório Executivo Consolidado de Viabilidade e Investimento"
+    },
+    "A208": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"05 — Exploração Residencial e Sell & Leaseback\",\"05 — Residential Operations & Sell & Leaseback\")",
+      "financial": false,
+      "cached": "05 — Exploração Residencial e Sell & Leaseback"
+    },
+    "A247": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"Fonte: dashboards V06 e motor central · EUR · 180 meses · relatório dinâmico.\",\"Source: V06 dashboards and central engine · EUR · 180 months · dynamic report.\")",
+      "financial": false,
+      "cached": "Fonte: dashboards V06 e motor central · EUR · 180 meses · relatório dinâmico."
+    },
+    "A249": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"Candidato de estudo · Teste nativo Microsoft Excel 365 pendente.\",\"Study candidate · Native Microsoft Excel 365 acceptance pending.\")",
+      "financial": false,
+      "cached": "Candidato de estudo · Teste nativo Microsoft Excel 365 pendente."
+    },
+    "A214": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"Receita residencial 15A\",\"Residential revenue 15Y\")",
+      "financial": false,
+      "cached": "Receita residencial 15A"
+    },
+    "A216": {
+      "formula": "'DASH 04B V06'!E9",
+      "financial": true,
+      "cached": 78270824.6302655
+    },
+    "G214": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"Rendas suportáveis proprietários\",\"Affordable owner distributions\")",
+      "financial": false,
+      "cached": "Rendas suportáveis proprietários"
+    },
+    "G216": {
+      "formula": "'DASH 04B V06'!I9",
+      "financial": true,
+      "cached": 35294489.2175542
+    },
+    "A219": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"Yield alvo não coberto\",\"Uncovered owner yield target\")",
+      "financial": false,
+      "cached": "Yield alvo não coberto"
+    },
+    "A221": {
+      "formula": "'DASH 04B V06'!M9",
+      "financial": true,
+      "cached": 164946.241445833
+    },
+    "G219": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"Residual KK\",\"KK residual cash\")",
+      "financial": false,
+      "cached": "Residual KK"
+    },
+    "G221": {
+      "formula": "'DASH 04B V06'!E15",
+      "financial": true,
+      "cached": 2641464.10009723
+    },
+    "A224": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"Dotações FF&E residencial\",\"Residential FF&E allocations\")",
+      "financial": false,
+      "cached": "Dotações FF&E residencial"
+    },
+    "A226": {
+      "formula": "'DASH 04B V06'!I15",
+      "financial": true,
+      "cached": 3130832.98521062
+    },
+    "G224": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"Fundo adicional residencial\",\"Additional residential fund\")",
+      "financial": false,
+      "cached": "Fundo adicional residencial"
+    },
+    "G226": {
+      "formula": "'DASH 04B V06'!M15",
+      "financial": true,
+      "cached": 1173984.04448766
+    },
+    "A232": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"O modelo separa a exploração do pool da venda das frações. A renda paga é limitada à caixa disponível; o yield é objetivo, não garantia.\",\"The model separates pool operations from apartment development. Owner payments are limited to available cash; target yield is not guaranteed.\")",
+      "financial": false,
+      "cached": "O modelo separa a exploração do pool da venda das frações. A renda paga é limitada à caixa disponível; o yield é objetivo, não garantia."
+    },
+    "A238": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"Yield inicial\",\"Initial yield\")",
+      "financial": false,
+      "cached": "Yield inicial"
+    },
+    "E238": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"Incremento anual\",\"Annual increase\")",
+      "financial": false,
+      "cached": "Incremento anual"
+    },
+    "I238": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"Imposto proprietários — hipótese\",\"Owner tax — assumption\")",
+      "financial": false,
+      "cached": "Imposto proprietários — hipótese"
+    },
+    "A240": {
+      "formula": "'V06 Controlos'!B72",
+      "financial": true,
+      "cached": 0.0425
+    },
+    "E240": {
+      "formula": "'V06 Controlos'!B73",
+      "financial": true,
+      "cached": 0.0025
+    },
+    "I240": {
+      "formula": "'V06 Controlos'!B80",
+      "financial": true,
+      "cached": 0
+    },
+    "A254": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"10 — Relatório Executivo Consolidado de Viabilidade e Investimento\",\"10 — Consolidated Investment & Feasibility Report\")",
+      "financial": false,
+      "cached": "10 — Relatório Executivo Consolidado de Viabilidade e Investimento"
+    },
+    "A258": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"06 — Fiscalidade, Incentivos e Seguros\",\"06 — Taxation, Incentives & Insurance\")",
+      "financial": false,
+      "cached": "06 — Fiscalidade, Incentivos e Seguros"
+    },
+    "A297": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"Fonte: dashboards V06 e motor central · EUR · 180 meses · relatório dinâmico.\",\"Source: V06 dashboards and central engine · EUR · 180 months · dynamic report.\")",
+      "financial": false,
+      "cached": "Fonte: dashboards V06 e motor central · EUR · 180 meses · relatório dinâmico."
+    },
+    "A299": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"Candidato de estudo · Teste nativo Microsoft Excel 365 pendente.\",\"Study candidate · Native Microsoft Excel 365 acceptance pending.\")",
+      "financial": false,
+      "cached": "Candidato de estudo · Teste nativo Microsoft Excel 365 pendente."
+    },
+    "A264": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"IVA suportado\",\"VAT incurred\")",
+      "financial": false,
+      "cached": "IVA suportado"
+    },
+    "A266": {
+      "formula": "'DASH 02 V06'!E9",
+      "financial": true,
+      "cached": 8629200
+    },
+    "G264": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"Pico crédito IVA\",\"Peak VAT credit\")",
+      "financial": false,
+      "cached": "Pico crédito IVA"
+    },
+    "G266": {
+      "formula": "'DASH 02 V06'!I9",
+      "financial": true,
+      "cached": 3077345.304
+    },
+    "A269": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"IRPC pago\",\"Corporate tax paid\")",
+      "financial": false,
+      "cached": "IRPC pago"
+    },
+    "A271": {
+      "formula": "'DASH 02 V06'!M9",
+      "financial": true,
+      "cached": 16909653.5262158
+    },
+    "G269": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"Seguro obra adicional\",\"Additional construction insurance\")",
+      "financial": false,
+      "cached": "Seguro obra adicional"
+    },
+    "G271": {
+      "formula": "'DASH 02 V06'!E15",
+      "financial": true,
+      "cached": 197400
+    },
+    "A276": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"IRPC de estudo\",\"Study corporate tax\")",
+      "financial": false,
+      "cached": "IRPC de estudo"
+    },
+    "E276": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"IVA recuperável\",\"VAT recoverable fraction\")",
+      "financial": false,
+      "cached": "IVA recuperável"
+    },
+    "I276": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"Prazo IVA, meses\",\"VAT lag, months\")",
+      "financial": false,
+      "cached": "Prazo IVA, meses"
+    },
+    "A278": {
+      "formula": "'V06 Controlos'!B9",
+      "financial": true,
+      "cached": 0.2
+    },
+    "E278": {
+      "formula": "'V06 Controlos'!B7",
+      "financial": true,
+      "cached": 1
+    },
+    "I278": {
+      "formula": "'V06 Controlos'!B8",
+      "financial": true,
+      "cached": 6
+    },
+    "A283": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"Estado da Convenção\",\"Convention status\")",
+      "financial": false,
+      "cached": "Estado da Convenção"
+    },
+    "I283": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"Isenção simulada, anos\",\"Simulated exemption, years\")",
+      "financial": false,
+      "cached": "Isenção simulada, anos"
+    },
+    "A285": {
+      "formula": "'V06 Controlos'!B74",
+      "financial": false,
+      "cached": "Em preparação"
+    },
+    "I285": {
+      "formula": "'V06 Controlos'!B10",
+      "financial": true,
+      "cached": 0
+    },
+    "A290": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"Convenção de Estabelecimento Turístico: incentivos pretendidos sujeitos a negociação, aprovação e formalização. O estado da candidatura não concede benefícios. IPI, direitos aduaneiros e selo a zero representam exposições por validar, não isenções confirmadas.\",\"Tourism Investment Convention: requested incentives require negotiation, approval and formalisation. Application status does not grant benefits. Zero property tax, customs and stamp inputs are unresolved exposures, not confirmed exemptions.\")",
+      "financial": false,
+      "cached": "Convenção de Estabelecimento Turístico: incentivos pretendidos sujeitos a negociação, aprovação e formalização. O estado da candidatura não concede benefícios. IPI, direitos aduaneiros e selo a zero representam exposições por validar, não isenções confirmadas."
+    },
+    "A304": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"10 — Relatório Executivo Consolidado de Viabilidade e Investimento\",\"10 — Consolidated Investment & Feasibility Report\")",
+      "financial": false,
+      "cached": "10 — Relatório Executivo Consolidado de Viabilidade e Investimento"
+    },
+    "A308": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"07 — Tesouraria, Dívida e Reservas Protegidas\",\"07 — Treasury, Debt & Protected Reserves\")",
+      "financial": false,
+      "cached": "07 — Tesouraria, Dívida e Reservas Protegidas"
+    },
+    "A347": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"Fonte: dashboards V06 e motor central · EUR · 180 meses · relatório dinâmico.\",\"Source: V06 dashboards and central engine · EUR · 180 months · dynamic report.\")",
+      "financial": false,
+      "cached": "Fonte: dashboards V06 e motor central · EUR · 180 meses · relatório dinâmico."
+    },
+    "A349": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"Candidato de estudo · Teste nativo Microsoft Excel 365 pendente.\",\"Study candidate · Native Microsoft Excel 365 acceptance pending.\")",
+      "financial": false,
+      "cached": "Candidato de estudo · Teste nativo Microsoft Excel 365 pendente."
+    },
+    "A314": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"Caixa M30\",\"Cash M30\")",
+      "financial": false,
+      "cached": "Caixa M30"
+    },
+    "A316": {
+      "formula": "'DASH 03 V06'!E9",
+      "financial": true,
+      "cached": 9486927.78068434
+    },
+    "G314": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"Caixa M42\",\"Cash M42\")",
+      "financial": false,
+      "cached": "Caixa M42"
+    },
+    "G316": {
+      "formula": "'DASH 03 V06'!I9",
+      "financial": true,
+      "cached": 5697584.07419411
+    },
+    "A319": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"Caixa M54\",\"Cash M54\")",
+      "financial": false,
+      "cached": "Caixa M54"
+    },
+    "A321": {
+      "formula": "'DASH 03 V06'!M9",
+      "financial": true,
+      "cached": 6219194.48561537
+    },
+    "G319": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"Pico dívida de fecho\",\"Peak closing debt\")",
+      "financial": false,
+      "cached": "Pico dívida de fecho"
+    },
+    "G321": {
+      "formula": "'V06 Cenarios'!F5",
+      "financial": true,
+      "cached": 17528049.0570992
+    },
+    "A324": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"FF&E Hotel — dotações 180M\",\"Hotel FF&E — 180M allocations\")",
+      "financial": false,
+      "cached": "FF&E Hotel — dotações 180M"
+    },
+    "I324": {
+      "formula": "SUM('V06 Motor'!AI5:AI184)",
+      "financial": true,
+      "cached": 14521831.64242647
+    },
+    "A326": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"Reserva HOTUSA ativa\",\"Active HOTUSA reserve\")",
+      "financial": false,
+      "cached": "Reserva HOTUSA ativa"
+    },
+    "E326": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"Défice máximo\",\"Maximum funding gap\")",
+      "financial": false,
+      "cached": "Défice máximo"
+    },
+    "I326": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"Falta de reserva\",\"Reserve shortfall\")",
+      "financial": false,
+      "cached": "Falta de reserva"
+    },
+    "A328": {
+      "formula": "'V06 Motor'!BS58",
+      "financial": true,
+      "cached": 1000000
+    },
+    "E328": {
+      "formula": "'V06 Cenarios'!G5",
+      "financial": true,
+      "cached": 0
+    },
+    "I328": {
+      "formula": "'V06 Cenarios'!H5",
+      "financial": true,
+      "cached": 0
+    },
+    "A354": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"10 — Relatório Executivo Consolidado de Viabilidade e Investimento\",\"10 — Consolidated Investment & Feasibility Report\")",
+      "financial": false,
+      "cached": "10 — Relatório Executivo Consolidado de Viabilidade e Investimento"
+    },
+    "A358": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"08 — Acionistas, Capital e Dividendos\",\"08 — Shareholders, Capital & Dividends\")",
+      "financial": false,
+      "cached": "08 — Acionistas, Capital e Dividendos"
+    },
+    "A397": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"Fonte: dashboards V06 e motor central · EUR · 180 meses · relatório dinâmico.\",\"Source: V06 dashboards and central engine · EUR · 180 months · dynamic report.\")",
+      "financial": false,
+      "cached": "Fonte: dashboards V06 e motor central · EUR · 180 meses · relatório dinâmico."
+    },
+    "A399": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"Candidato de estudo · Teste nativo Microsoft Excel 365 pendente.\",\"Study candidate · Native Microsoft Excel 365 acceptance pending.\")",
+      "financial": false,
+      "cached": "Candidato de estudo · Teste nativo Microsoft Excel 365 pendente."
+    },
+    "A364": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"Blocos totais\",\"Ownership blocks\")",
+      "financial": false,
+      "cached": "Blocos totais"
+    },
+    "A366": {
+      "formula": "'DASH 06 V06'!E9",
+      "financial": true,
+      "cached": 15
+    },
+    "G364": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"Tickets novos\",\"New investor tickets\")",
+      "financial": false,
+      "cached": "Tickets novos"
+    },
+    "G366": {
+      "formula": "'DASH 06 V06'!I9",
+      "financial": true,
+      "cached": 8
+    },
+    "A369": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"Distribuição M54\",\"M54 distribution\")",
+      "financial": false,
+      "cached": "Distribuição M54"
+    },
+    "A371": {
+      "formula": "'DASH 07 V06'!E9",
+      "financial": true,
+      "cached": 2519840.75043494
+    },
+    "G369": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"Dividendos até saída\",\"Dividends through exit\")",
+      "financial": false,
+      "cached": "Dividendos até saída"
+    },
+    "G371": {
+      "formula": "'DASH 07 V06'!I9",
+      "financial": true,
+      "cached": 32981521.4494995
+    },
+    "A376": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"JSCV\",\"JSCV\")",
+      "financial": false,
+      "cached": "JSCV"
+    },
+    "E376": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"JALS\",\"JALS\")",
+      "financial": false,
+      "cached": "JALS"
+    },
+    "I376": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"Novos investidores\",\"New investors\")",
+      "financial": false,
+      "cached": "Novos investidores"
+    },
+    "A378": {
+      "formula": "'DASH 06 V06'!I15",
+      "financial": true,
+      "cached": 0.4
+    },
+    "E378": {
+      "formula": "'DASH 06 V06'!M15",
+      "financial": true,
+      "cached": 0.1
+    },
+    "I378": {
+      "formula": "SUM('V06 Blocos'!D12:D19)",
+      "financial": true,
+      "cached": 0.5
+    },
+    "A383": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"Política dividendos\",\"Dividend policy\")",
+      "financial": false,
+      "cached": "Política dividendos"
+    },
+    "E383": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"Cobertura 12M\",\"12M coverage\")",
+      "financial": false,
+      "cached": "Cobertura 12M"
+    },
+    "I383": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"Lucros: modo\",\"Profit mode\")",
+      "financial": false,
+      "cached": "Lucros: modo"
+    },
+    "A385": {
+      "formula": "'V06 Controlos'!B57",
+      "financial": false,
+      "cached": "Auto"
+    },
+    "E385": {
+      "formula": "'V06 Controlos'!B58",
+      "financial": true,
+      "cached": 1.2
+    },
+    "I385": {
+      "formula": "'V06 Controlos'!B59",
+      "financial": false,
+      "cached": "Proxy"
+    },
+    "A391": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"Onze datas elegíveis, M54–M174. Cobertura dos 12 meses anteriores e liquidez acumulada são testes distintos. Reservas e lucros condicionam distribuições. Calendários de capital são hipóteses, não entradas comprovadas.\",\"Eleven eligible dates, M54–M174. Prior-12-month coverage and cumulative liquidity are separate tests. Reserves and profit constraints govern distributions. Capital schedules are assumptions, not verified receipts.\")",
+      "financial": false,
+      "cached": "Onze datas elegíveis, M54–M174. Cobertura dos 12 meses anteriores e liquidez acumulada são testes distintos. Reservas e lucros condicionam distribuições. Calendários de capital são hipóteses, não entradas comprovadas."
+    },
+    "A404": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"10 — Relatório Executivo Consolidado de Viabilidade e Investimento\",\"10 — Consolidated Investment & Feasibility Report\")",
+      "financial": false,
+      "cached": "10 — Relatório Executivo Consolidado de Viabilidade e Investimento"
+    },
+    "A408": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"09 — Retornos, Valor Terminal e Viabilidade\",\"09 — Returns, Terminal Value & Feasibility\")",
+      "financial": false,
+      "cached": "09 — Retornos, Valor Terminal e Viabilidade"
+    },
+    "A447": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"Fonte: dashboards V06 e motor central · EUR · 180 meses · relatório dinâmico.\",\"Source: V06 dashboards and central engine · EUR · 180 months · dynamic report.\")",
+      "financial": false,
+      "cached": "Fonte: dashboards V06 e motor central · EUR · 180 meses · relatório dinâmico."
+    },
+    "A449": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"Candidato de estudo · Teste nativo Microsoft Excel 365 pendente.\",\"Study candidate · Native Microsoft Excel 365 acceptance pending.\")",
+      "financial": false,
+      "cached": "Candidato de estudo · Teste nativo Microsoft Excel 365 pendente."
+    },
+    "A414": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"VAL projeto\",\"Project NPV\")",
+      "financial": false,
+      "cached": "VAL projeto"
+    },
+    "A416": {
+      "formula": "'V06 Cenarios'!T5",
+      "financial": true,
+      "cached": 22940513.6246633
+    },
+    "G414": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"VAL novos investidores\",\"New investor NPV\")",
+      "financial": false,
+      "cached": "VAL novos investidores"
+    },
+    "G416": {
+      "formula": "'V06 Cenarios'!M5",
+      "financial": true,
+      "cached": -9604777.39034361
+    },
+    "A419": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"TIR projeto\",\"Project IRR\")",
+      "financial": false,
+      "cached": "TIR projeto"
+    },
+    "A421": {
+      "formula": "'V06 Cenarios'!U5",
+      "financial": true,
+      "cached": 0.195269662277337
+    },
+    "G419": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"TIR novos investidores\",\"New investor IRR\")",
+      "financial": false,
+      "cached": "TIR novos investidores"
+    },
+    "G421": {
+      "formula": "'V06 Cenarios'!K5",
+      "financial": true,
+      "cached": 0.0770481496666196
+    },
+    "A424": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"MOIC novos investidores\",\"New investor MOIC\")",
+      "financial": false,
+      "cached": "MOIC novos investidores"
+    },
+    "A426": {
+      "formula": "'V06 Cenarios'!L5",
+      "financial": true,
+      "cached": 2.68670698655977
+    },
+    "G424": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"Equity Value de saída\",\"Exit Equity Value\")",
+      "financial": false,
+      "cached": "Equity Value de saída"
+    },
+    "G426": {
+      "formula": "'V06 Cenarios'!J5",
+      "financial": true,
+      "cached": 103625929.308455
+    },
+    "A432": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"A saída selecionada é alternativa: M120 ou M180, nunca ambas. Dívida, custos, obrigações e caixa elegível são tratados no motor. Apartamentos vendidos não são somados novamente.\",\"The selected exit is an alternative: M120 or M180, never both. Debt, costs, obligations and eligible cash are handled by the engine. Sold apartments are not added again.\")",
+      "financial": false,
+      "cached": "A saída selecionada é alternativa: M120 ou M180, nunca ambas. Dívida, custos, obrigações e caixa elegível são tratados no motor. Apartamentos vendidos não são somados novamente."
+    },
+    "A438": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"Mês saída\",\"Exit month\")",
+      "financial": false,
+      "cached": "Mês saída"
+    },
+    "E438": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"Múltiplo\",\"Exit multiple\")",
+      "financial": false,
+      "cached": "Múltiplo"
+    },
+    "I438": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"Desconto equity\",\"Equity discount\")",
+      "financial": false,
+      "cached": "Desconto equity"
+    },
+    "A440": {
+      "formula": "'V06 Controlos'!B64",
+      "financial": true,
+      "cached": 180
+    },
+    "E440": {
+      "formula": "'V06 Controlos'!B62",
+      "financial": true,
+      "cached": 12
+    },
+    "I440": {
+      "formula": "'V06 Controlos'!B65",
+      "financial": true,
+      "cached": 0.12
+    },
+    "A444": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"Custos e datas históricos individuais dos promotores não disponíveis: não se inventa TIR histórica.\",\"Individual promoter historical costs and dates are unavailable: historical IRR is not invented.\")",
+      "financial": false,
+      "cached": "Custos e datas históricos individuais dos promotores não disponíveis: não se inventa TIR histórica."
+    },
+    "A454": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"10 — Relatório Executivo Consolidado de Viabilidade e Investimento\",\"10 — Consolidated Investment & Feasibility Report\")",
+      "financial": false,
+      "cached": "10 — Relatório Executivo Consolidado de Viabilidade e Investimento"
+    },
+    "A458": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"10 — Sensibilidades, Riscos e Condições de Investimento\",\"10 — Sensitivities, Risks & Investment Conditions\")",
+      "financial": false,
+      "cached": "10 — Sensibilidades, Riscos e Condições de Investimento"
+    },
+    "A497": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"Fonte: dashboards V06 e motor central · EUR · 180 meses · relatório dinâmico.\",\"Source: V06 dashboards and central engine · EUR · 180 months · dynamic report.\")",
+      "financial": false,
+      "cached": "Fonte: dashboards V06 e motor central · EUR · 180 meses · relatório dinâmico."
+    },
+    "A499": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"Candidato de estudo · Teste nativo Microsoft Excel 365 pendente.\",\"Study candidate · Native Microsoft Excel 365 acceptance pending.\")",
+      "financial": false,
+      "cached": "Candidato de estudo · Teste nativo Microsoft Excel 365 pendente."
+    },
+    "A464": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"Cenário\",\"Scenario\")",
+      "financial": false,
+      "cached": "Cenário"
+    },
+    "E464": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"TIR\",\"IRR\")",
+      "financial": false,
+      "cached": "TIR"
+    },
+    "G464": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"VAL investidores\",\"Investor NPV\")",
+      "financial": false,
+      "cached": "VAL investidores"
+    },
+    "J464": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"Défice máximo\",\"Maximum gap\")",
+      "financial": false,
+      "cached": "Défice máximo"
+    },
+    "A466": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"Base\",\"Base\")",
+      "financial": false,
+      "cached": "Base"
+    },
+    "E466": {
+      "formula": "'V06 Cenarios'!K5",
+      "financial": true,
+      "cached": 0.0770481496666196
+    },
+    "G466": {
+      "formula": "'V06 Cenarios'!M5",
+      "financial": true,
+      "cached": -9604777.39034361
+    },
+    "J466": {
+      "formula": "'V06 Cenarios'!G5",
+      "financial": true,
+      "cached": 0
+    },
+    "A468": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"IVA diferido\",\"VAT delayed\")",
+      "financial": false,
+      "cached": "IVA diferido"
+    },
+    "E468": {
+      "formula": "'V06 Cenarios'!K7",
+      "financial": true,
+      "cached": 0.0769310968539072
+    },
+    "G468": {
+      "formula": "'V06 Cenarios'!M7",
+      "financial": true,
+      "cached": -9624085.76984637
+    },
+    "J468": {
+      "formula": "'V06 Cenarios'!G7",
+      "financial": true,
+      "cached": 0
+    },
+    "A470": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"IRPC 3 anos\",\"IRPC 3 years\")",
+      "financial": false,
+      "cached": "IRPC 3 anos"
+    },
+    "E470": {
+      "formula": "'V06 Cenarios'!K9",
+      "financial": true,
+      "cached": 0.0787951864955134
+    },
+    "G470": {
+      "formula": "'V06 Cenarios'!M9",
+      "financial": true,
+      "cached": -9229410.16637327
+    },
+    "J470": {
+      "formula": "'V06 Cenarios'!G9",
+      "financial": true,
+      "cached": 0
+    },
+    "A472": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"Seguros +50%\",\"Insurance +50%\")",
+      "financial": false,
+      "cached": "Seguros +50%"
+    },
+    "E472": {
+      "formula": "'V06 Cenarios'!K13",
+      "financial": true,
+      "cached": 0.0754298644933522
+    },
+    "G472": {
+      "formula": "'V06 Cenarios'!M13",
+      "financial": true,
+      "cached": -9892920.83122408
+    },
+    "J472": {
+      "formula": "'V06 Cenarios'!G13",
+      "financial": true,
+      "cached": 0
+    },
+    "A474": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"Stress combinado\",\"Combined stress\")",
+      "financial": false,
+      "cached": "Stress combinado"
+    },
+    "E474": {
+      "formula": "'V06 Cenarios'!K23",
+      "financial": true,
+      "cached": 0.0215338361258126
+    },
+    "G474": {
+      "formula": "'V06 Cenarios'!M23",
+      "financial": true,
+      "cached": -16925970.4142296
+    },
+    "J474": {
+      "formula": "'V06 Cenarios'!G23",
+      "financial": true,
+      "cached": 12009585.2804514
+    },
+    "A479": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"Condições para investir: capital e vendas documentados; orçamento e banco confirmados; fiscalidade validada; reservas protegidas; retorno compatível com a taxa exigida.\",\"Investment conditions: documented capital and sales; confirmed budget and financing; validated tax; protected reserves; returns consistent with the required rate.\")",
+      "financial": false,
+      "cached": "Condições para investir: capital e vendas documentados; orçamento e banco confirmados; fiscalidade validada; reservas protegidas; retorno compatível com a taxa exigida."
+    },
+    "A486": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"O relatório reflete o cenário ativo e não otimiza pressupostos para tornar o VAL positivo. Não substitui parecer fiscal, jurídico, bancário ou avaliação independente.\",\"The report reflects the active scenario and does not optimise assumptions to force a positive NPV. It does not replace tax, legal, banking or independent valuation advice.\")",
+      "financial": false,
+      "cached": "O relatório reflete o cenário ativo e não otimiza pressupostos para tornar o VAL positivo. Não substitui parecer fiscal, jurídico, bancário ou avaliação independente."
+    },
+    "A491": {
+      "formula": "IF('V06 Controlos'!$B$5=\"PT\",\"Limites atuais: eventos MICE sem calendário operacional documentado; FF&E sem razão autónoma de gastos e saldo protegido V06; compatibilidade Excel 365 e paridade exata V05.1 não certificadas.\",\"Current limitations: MICE lacks a documented event schedule; FF&E lacks a standalone V06 expenditure/protected-balance ledger; Excel 365 compatibility and exact V05.1 parity are not certified.\")",
+      "financial": false,
+      "cached": "Limites atuais: eventos MICE sem calendário operacional documentado; FF&E sem razão autónoma de gastos e saldo protegido V06; compatibilidade Excel 365 e paridade exata V05.1 não certificadas."
+    }
+  },
+  "pages": 10,
+  "paper": "A4 portrait",
+  "engine_changes": 0
+}

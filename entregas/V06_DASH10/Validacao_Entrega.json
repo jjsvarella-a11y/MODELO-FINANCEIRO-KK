@@ -1,0 +1,85 @@
+{
+  "checks": [
+    {
+      "name": "Financial engine preserved",
+      "passed": true,
+      "detail": 2113521
+    },
+    {
+      "name": "Current workbook matches preservation proof",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Dynamic and language tests passed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "CRC",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Ten dashboards first, names preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "A4 portrait at legible 100% print scale",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Nine explicit page breaks",
+      "passed": true,
+      "detail": [
+        50,
+        100,
+        150,
+        200,
+        250,
+        300,
+        350,
+        400,
+        450
+      ]
+    },
+    {
+      "name": "All financial indicators are source formulas",
+      "passed": true,
+      "detail": 83
+    },
+    {
+      "name": "OPC relationships and XML well formed",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "PT entire unfiltered PDF is exactly ten A4 pages",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "PT PDF includes every section and final page",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "EN entire unfiltered PDF is exactly ten A4 pages",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "EN PDF includes every section and final page",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "passed": 13,
+  "failed": 0,
+  "microsoft_excel_365": "NOT TESTED",
+  "financial_engine_changes": 0,
+  "pdf_export_engine": "LibreOffice supplementary export",
+  "scope": "DASH10 reporting extension only; no new operating simulators or financial optimization from the broader attachment"
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "file": "/workspace/kk01_dash10/recalc_PT/out/Lab_DASH10.xlsx",
+    "language": "PT",
+    "comparisons": 185,
+    "passed": true,
+    "failures": [],
+    "report_npv": -9604777.39034361
+  },
+  {
+    "file": "/workspace/kk01_dash10/recalc_EN/out/EN.xlsx",
+    "language": "EN",
+    "comparisons": 20885,
+    "passed": true,
+    "failures": [],
+    "report_npv": -9604777.39034361
+  },
+  {
+    "file": "/workspace/kk01_dash10/recalc_Juro8/out/Juro8.xlsx",
+    "language": "PT",
+    "comparisons": 185,
+    "passed": true,
+    "failures": [],
+    "report_npv": -9624871.53077474
+  },
+  {
+    "test": "Interest change propagates to report investor NPV",
+    "passed": true,
+    "before": -9604777.39034361,
+    "after": -9624871.53077474
+  }
+]

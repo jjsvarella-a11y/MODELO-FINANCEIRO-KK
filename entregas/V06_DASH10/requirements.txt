@@ -1,0 +1,4 @@
+xlsxwriter
+openpyxl
+lxml
+PyMuPDF

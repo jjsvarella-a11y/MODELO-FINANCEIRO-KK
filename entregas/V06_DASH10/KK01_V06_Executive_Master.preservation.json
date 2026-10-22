@@ -1,0 +1,19 @@
+{
+  "base_sha256": "77a344d2a820443552b228b529b8ebd010dc2bafba67ca4f52548fcd4a822839",
+  "result_sha256": "02cc696a831316711b76cf3b96dcec9524fa69701e7c1148b7574ba413ddfc06",
+  "existing_cells_verified": 2113521,
+  "financial_cells_changed": 0,
+  "navigation_only_changes": [
+    "EXEC V06!B43",
+    "DASH 01 V06!B43",
+    "DASH 02 V06!B43",
+    "DASH 03 V06!B43",
+    "DASH 04A V06!B43",
+    "DASH 04B V06!B43",
+    "DASH 05 V06!B43",
+    "DASH 06 V06!B43",
+    "DASH 07 V06!B43"
+  ],
+  "report_position": 10,
+  "existing_sheet_names_preserved": true
+}
