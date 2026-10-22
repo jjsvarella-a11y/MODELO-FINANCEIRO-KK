@@ -5,11 +5,13 @@ from lxml import etree as E
 import re
 from assemble import paths,T,xml,resolve,relpath
 from concurrent.futures import ThreadPoolExecutor,as_completed
-import json
+import json,os
 from xlsxwriter.utility import xl_col_to_name as col
 import test_links as old
 from premium_ui import ROOT,WORK
-old.SOURCE=ROOT/'KK01_V06_Executive_Master.xlsx'
+ROOT=Path(os.environ.get('KK_TEST_OUTPUT_ROOT',str(ROOT)));WORK=Path(os.environ.get('KK_TEST_WORK',str(WORK)));old.ROOT=ROOT;old.WORK=WORK
+old.SOURCE=Path(os.environ.get('KK_TEST_SOURCE',str(ROOT/'KK01_V06_Executive_Master.xlsx')))
+WORK.mkdir(parents=True,exist_ok=True)
 def extra(name,changes):
  return verify_extra(name,old.run_case(name,changes))
 def verify_extra(name,result):

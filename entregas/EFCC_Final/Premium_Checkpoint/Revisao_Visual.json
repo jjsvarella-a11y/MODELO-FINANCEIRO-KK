@@ -1,0 +1,24 @@
+{
+  "platform": "LibreOffice PDF rendering; human contact-sheet review and detailed Hotel screen/PDF review",
+  "native_excel365": "NOT TESTED",
+  "screens": 20,
+  "report_pages": 20,
+  "hotel_matrix_pdf_values_verified": 20,
+  "languages": [
+    "PT",
+    "EN"
+  ],
+  "visible_hash_overflow_tokens": 0,
+  "methodology_note_present_both_languages": true,
+  "corrections": [
+    "Widened KPI columns to prevent ###",
+    "Raised editable control row heights",
+    "Reduced Hotel print chart extent to reveal matrix",
+    "Split methodology note into readable rows"
+  ],
+  "remaining": [
+    "Native Excel interaction and Print Preview not tested",
+    "Official logo bytes unavailable",
+    "Full pixel-level review of every element not certified"
+  ]
+}

@@ -1,0 +1,197 @@
+{
+  "status": "PASS",
+  "results": [
+    {
+      "file": "/workspace/MODELO-FINANCEIRO-KK/entregas/EFCC_Final/Premium_Checkpoint/KK01_Executive_Financial_Control_Center_CHECKPOINT.xlsx",
+      "removed_unreachable_parts": [],
+      "chart_font_sizes_raised_to_9pt": 0,
+      "financial_formulas_changed": 0
+    },
+    {
+      "file": "/workspace/kk01_efcc/premium_r2/presentation_PT/out/Presentation_PT.xlsx",
+      "removed_unreachable_parts": [],
+      "chart_font_sizes_raised_to_9pt": 0,
+      "financial_formulas_changed": 0
+    },
+    {
+      "file": "/workspace/kk01_efcc/premium_r2/presentation_EN/out/Presentation_EN.xlsx",
+      "removed_unreachable_parts": [],
+      "chart_font_sizes_raised_to_9pt": 0,
+      "financial_formulas_changed": 0
+    }
+  ],
+  "runs": [
+    [
+      {
+        "file": "/workspace/MODELO-FINANCEIRO-KK/entregas/EFCC_Final/Premium_Checkpoint/KK01_Executive_Financial_Control_Center_CHECKPOINT.xlsx",
+        "removed_unreachable_parts": [
+          "xl/charts/chart1.xml",
+          "xl/charts/chart10.xml",
+          "xl/charts/chart11.xml",
+          "xl/charts/chart2.xml",
+          "xl/charts/chart3.xml",
+          "xl/charts/chart4.xml",
+          "xl/charts/chart5.xml",
+          "xl/charts/chart6.xml",
+          "xl/charts/chart7.xml",
+          "xl/charts/chart8.xml",
+          "xl/charts/chart9.xml"
+        ],
+        "chart_font_sizes_raised_to_9pt": 22,
+        "financial_formulas_changed": 0
+      },
+      {
+        "file": "/workspace/kk01_efcc/premium_r2/presentation_PT/out/Presentation_PT.xlsx",
+        "removed_unreachable_parts": [],
+        "chart_font_sizes_raised_to_9pt": 22,
+        "financial_formulas_changed": 0
+      },
+      {
+        "file": "/workspace/kk01_efcc/premium_r2/presentation_EN/out/Presentation_EN.xlsx",
+        "removed_unreachable_parts": [],
+        "chart_font_sizes_raised_to_9pt": 22,
+        "financial_formulas_changed": 0
+      }
+    ],
+    [
+      {
+        "file": "/workspace/MODELO-FINANCEIRO-KK/entregas/EFCC_Final/Premium_Checkpoint/KK01_Executive_Financial_Control_Center_CHECKPOINT.xlsx",
+        "removed_unreachable_parts": [],
+        "chart_font_sizes_raised_to_9pt": 0,
+        "financial_formulas_changed": 0
+      },
+      {
+        "file": "/workspace/kk01_efcc/premium_r2/presentation_PT/out/Presentation_PT.xlsx",
+        "removed_unreachable_parts": [],
+        "chart_font_sizes_raised_to_9pt": 0,
+        "financial_formulas_changed": 0
+      },
+      {
+        "file": "/workspace/kk01_efcc/premium_r2/presentation_EN/out/Presentation_EN.xlsx",
+        "removed_unreachable_parts": [],
+        "chart_font_sizes_raised_to_9pt": 0,
+        "financial_formulas_changed": 0
+      }
+    ],
+    [
+      {
+        "file": "/workspace/MODELO-FINANCEIRO-KK/entregas/EFCC_Final/Premium_Checkpoint/KK01_Executive_Financial_Control_Center_CHECKPOINT.xlsx",
+        "removed_unreachable_parts": [],
+        "chart_font_sizes_raised_to_9pt": 0,
+        "financial_formulas_changed": 0
+      },
+      {
+        "file": "/workspace/kk01_efcc/premium_r2/presentation_PT/out/Presentation_PT.xlsx",
+        "removed_unreachable_parts": [],
+        "chart_font_sizes_raised_to_9pt": 0,
+        "financial_formulas_changed": 0
+      },
+      {
+        "file": "/workspace/kk01_efcc/premium_r2/presentation_EN/out/Presentation_EN.xlsx",
+        "removed_unreachable_parts": [],
+        "chart_font_sizes_raised_to_9pt": 0,
+        "financial_formulas_changed": 0
+      }
+    ],
+    [
+      {
+        "file": "/workspace/MODELO-FINANCEIRO-KK/entregas/EFCC_Final/Premium_Checkpoint/KK01_Executive_Financial_Control_Center_CHECKPOINT.xlsx",
+        "removed_unreachable_parts": [],
+        "chart_font_sizes_raised_to_9pt": 0,
+        "financial_formulas_changed": 0
+      },
+      {
+        "file": "/workspace/kk01_efcc/premium_r2/presentation_PT/out/Presentation_PT.xlsx",
+        "removed_unreachable_parts": [],
+        "chart_font_sizes_raised_to_9pt": 0,
+        "financial_formulas_changed": 0
+      },
+      {
+        "file": "/workspace/kk01_efcc/premium_r2/presentation_EN/out/Presentation_EN.xlsx",
+        "removed_unreachable_parts": [],
+        "chart_font_sizes_raised_to_9pt": 0,
+        "financial_formulas_changed": 0
+      }
+    ],
+    [
+      {
+        "file": "/workspace/MODELO-FINANCEIRO-KK/entregas/EFCC_Final/Premium_Checkpoint/KK01_Executive_Financial_Control_Center_CHECKPOINT.xlsx",
+        "removed_unreachable_parts": [],
+        "chart_font_sizes_raised_to_9pt": 0,
+        "financial_formulas_changed": 0
+      },
+      {
+        "file": "/workspace/kk01_efcc/premium_r2/presentation_PT/out/Presentation_PT.xlsx",
+        "removed_unreachable_parts": [],
+        "chart_font_sizes_raised_to_9pt": 0,
+        "financial_formulas_changed": 0
+      },
+      {
+        "file": "/workspace/kk01_efcc/premium_r2/presentation_EN/out/Presentation_EN.xlsx",
+        "removed_unreachable_parts": [],
+        "chart_font_sizes_raised_to_9pt": 0,
+        "financial_formulas_changed": 0
+      }
+    ],
+    [
+      {
+        "file": "/workspace/MODELO-FINANCEIRO-KK/entregas/EFCC_Final/Premium_Checkpoint/KK01_Executive_Financial_Control_Center_CHECKPOINT.xlsx",
+        "removed_unreachable_parts": [],
+        "chart_font_sizes_raised_to_9pt": 0,
+        "financial_formulas_changed": 0
+      },
+      {
+        "file": "/workspace/kk01_efcc/premium_r2/presentation_PT/out/Presentation_PT.xlsx",
+        "removed_unreachable_parts": [],
+        "chart_font_sizes_raised_to_9pt": 0,
+        "financial_formulas_changed": 0
+      },
+      {
+        "file": "/workspace/kk01_efcc/premium_r2/presentation_EN/out/Presentation_EN.xlsx",
+        "removed_unreachable_parts": [],
+        "chart_font_sizes_raised_to_9pt": 0,
+        "financial_formulas_changed": 0
+      }
+    ],
+    [
+      {
+        "file": "/workspace/MODELO-FINANCEIRO-KK/entregas/EFCC_Final/Premium_Checkpoint/KK01_Executive_Financial_Control_Center_CHECKPOINT.xlsx",
+        "removed_unreachable_parts": [],
+        "chart_font_sizes_raised_to_9pt": 0,
+        "financial_formulas_changed": 0
+      },
+      {
+        "file": "/workspace/kk01_efcc/premium_r2/presentation_PT/out/Presentation_PT.xlsx",
+        "removed_unreachable_parts": [],
+        "chart_font_sizes_raised_to_9pt": 0,
+        "financial_formulas_changed": 0
+      },
+      {
+        "file": "/workspace/kk01_efcc/premium_r2/presentation_EN/out/Presentation_EN.xlsx",
+        "removed_unreachable_parts": [],
+        "chart_font_sizes_raised_to_9pt": 0,
+        "financial_formulas_changed": 0
+      }
+    ],
+    [
+      {
+        "file": "/workspace/MODELO-FINANCEIRO-KK/entregas/EFCC_Final/Premium_Checkpoint/KK01_Executive_Financial_Control_Center_CHECKPOINT.xlsx",
+        "removed_unreachable_parts": [],
+        "chart_font_sizes_raised_to_9pt": 0,
+        "financial_formulas_changed": 0
+      },
+      {
+        "file": "/workspace/kk01_efcc/premium_r2/presentation_PT/out/Presentation_PT.xlsx",
+        "removed_unreachable_parts": [],
+        "chart_font_sizes_raised_to_9pt": 0,
+        "financial_formulas_changed": 0
+      },
+      {
+        "file": "/workspace/kk01_efcc/premium_r2/presentation_EN/out/Presentation_EN.xlsx",
+        "removed_unreachable_parts": [],
+        "chart_font_sizes_raised_to_9pt": 0,
+        "financial_formulas_changed": 0
+      }
+    ]
+  ]
+}

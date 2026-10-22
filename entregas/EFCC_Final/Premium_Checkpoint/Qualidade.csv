@@ -1,0 +1,10 @@
+﻿Requisito,Estado,Evidência / limite
+Motor preservado,PASS,138 folhas de fórmulas financeiras comparadas com R1; 1.738.800 valores mensais reconciliados.
+Filtros e resultados,PASS,74 alterações; 86.875 correspondências de resultados e gráficos.
+Matriz ADR x ocupação,PASS,"20 VAL reais; 12 casos, incluindo fees, fiscalidade, FF&E, MICE e financiamento/saída."
+Base e retorno ao Base,PASS,"Sequência Base > Conservador > Favorável > Custom > Base; diferença mensal máxima inferior a 0,00000011 EUR."
+Navegação estrutural,PASS,849 hiperligações internas com destinos existentes. Cliques nativos pendentes.
+OOXML,PASS,"190 folhas, 47 gráficos; CRC, XML, relações e índices verificados, sem falhas. Não equivale a certificação integral do esquema."
+PT/EN e PDF,PASS,"Exportação LibreOffice; 9 dashboards individuais, relatório A4 de 10 páginas e resumo A4 de 2 páginas por idioma."
+Excel 365 Desktop,NOT TESTED,"Indisponível neste ambiente. Abrir, ativar edição, recalcular, guardar/reabrir e observar reparações ainda exigem execução nativa."
+Logótipo oficial,NOT TESTED,Imagem original sem ficheiro binário acessível; área de inserção em V06 Identidade preservada. Não foi redesenhado.

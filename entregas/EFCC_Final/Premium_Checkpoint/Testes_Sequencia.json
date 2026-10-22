@@ -1,0 +1,75 @@
+{
+  "status": "PASS",
+  "platform": "LibreOffice save/reopen recalculation",
+  "native_excel365": "NOT TESTED",
+  "sequence": [
+    {
+      "mode": "Base Case",
+      "status": "PASS",
+      "monthly_values_compared": 25200,
+      "maximum_reference_difference": 5.4016709327697754e-08,
+      "npv": -12742848.2445606,
+      "irr": 0.0576464356516757,
+      "moic": 2.11743775338615,
+      "exit": 80709171.5947987,
+      "dividends": 26960052.9369736,
+      "display_correspondences": 1174,
+      "errors": 0
+    },
+    {
+      "mode": "Conservative",
+      "status": "PASS",
+      "monthly_values_compared": 25200,
+      "maximum_reference_difference": 8.009374141693115e-08,
+      "npv": -15676780.218302,
+      "irr": 0.0346453866539229,
+      "moic": 1.58074593066189,
+      "exit": 59713105.1878262,
+      "dividends": 20704490.7270735,
+      "display_correspondences": 1174,
+      "errors": 0
+    },
+    {
+      "mode": "Favorable",
+      "status": "PASS",
+      "monthly_values_compared": 25200,
+      "maximum_reference_difference": 7.450580596923828e-08,
+      "npv": -9604777.39034361,
+      "irr": 0.0770481496666196,
+      "moic": 2.68670698655976,
+      "exit": 103625929.308455,
+      "dividends": 32981521.4494995,
+      "display_correspondences": 1174,
+      "errors": 0
+    },
+    {
+      "mode": "Custom",
+      "status": "PASS",
+      "monthly_values_compared": 25200,
+      "maximum_reference_difference": 5.774199962615967e-08,
+      "npv": -10203553.6584507,
+      "irr": 0.073529408648173,
+      "moic": 2.5700877959671,
+      "exit": 98682765.9410645,
+      "dividends": 31991025.5613825,
+      "display_correspondences": 1174,
+      "errors": 0
+    },
+    {
+      "mode": "Base Case",
+      "status": "PASS",
+      "monthly_values_compared": 25200,
+      "maximum_reference_difference": 5.587935447692871e-08,
+      "npv": -12742848.2445606,
+      "irr": 0.0576464356516757,
+      "moic": 2.11743775338615,
+      "exit": 80709171.5947987,
+      "dividends": 26960052.9369735,
+      "display_correspondences": 1174,
+      "errors": 0,
+      "roundtrip_maximum_monthly_difference": 1.043081283569336e-07,
+      "restored_base_financial_kpis": true
+    }
+  ],
+  "scope": "Main monthly engine and refined display; matrix financial propagation is separately tested with all 30 engines live"
+}

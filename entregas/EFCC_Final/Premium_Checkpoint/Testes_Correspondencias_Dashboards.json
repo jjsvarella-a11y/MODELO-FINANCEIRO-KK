@@ -1,0 +1,600 @@
+{
+  "status": "PASS",
+  "scope": "Lower financial tables on all nine dashboards, Hotel selected-year tables, 315 main chart projection values per case and active report NPV",
+  "tests": [
+    {
+      "test": "Filter_02_0",
+      "status": "PASS",
+      "bindings_checked": 1174,
+      "sheet": "DASH 01 V06",
+      "cell": "H25",
+      "choice": 1
+    },
+    {
+      "test": "Filter_00_0",
+      "status": "PASS",
+      "bindings_checked": 1174,
+      "sheet": "DASH 01 V06",
+      "cell": "H23",
+      "choice": 1
+    },
+    {
+      "test": "Filter_01_0",
+      "status": "PASS",
+      "bindings_checked": 1174,
+      "sheet": "DASH 01 V06",
+      "cell": "N23",
+      "choice": 1
+    },
+    {
+      "test": "Filter_05_0",
+      "status": "PASS",
+      "bindings_checked": 1174,
+      "sheet": "DASH 02 V06",
+      "cell": "H25",
+      "choice": 7
+    },
+    {
+      "test": "Filter_04_0",
+      "status": "PASS",
+      "bindings_checked": 1174,
+      "sheet": "DASH 02 V06",
+      "cell": "N23",
+      "choice": 0.16
+    },
+    {
+      "test": "Filter_03_0",
+      "status": "PASS",
+      "bindings_checked": 1174,
+      "sheet": "DASH 02 V06",
+      "cell": "H23",
+      "choice": 0.21
+    },
+    {
+      "test": "Filter_08_0",
+      "status": "PASS",
+      "bindings_checked": 1174,
+      "sheet": "DASH 03 V06",
+      "cell": "N23",
+      "choice": 43
+    },
+    {
+      "test": "Filter_07_0",
+      "status": "PASS",
+      "bindings_checked": 1174,
+      "sheet": "DASH 03 V06",
+      "cell": "H23",
+      "choice": 0.07
+    },
+    {
+      "test": "Filter_06_0",
+      "status": "PASS",
+      "bindings_checked": 1174,
+      "sheet": "DASH 02 V06",
+      "cell": "N25",
+      "choice": 1
+    },
+    {
+      "test": "Filter_10_0",
+      "status": "PASS",
+      "bindings_checked": 1174,
+      "sheet": "DASH 03 V06",
+      "cell": "N25",
+      "choice": 0
+    },
+    {
+      "test": "Filter_11_0",
+      "status": "PASS",
+      "bindings_checked": 1174,
+      "sheet": "DASH 04A V06",
+      "cell": "H23",
+      "choice": 1
+    },
+    {
+      "test": "Filter_09_0",
+      "status": "PASS",
+      "bindings_checked": 1174,
+      "sheet": "DASH 03 V06",
+      "cell": "H25",
+      "choice": 121
+    },
+    {
+      "test": "Filter_13_0",
+      "status": "PASS",
+      "bindings_checked": 1174,
+      "sheet": "DASH 04B V06",
+      "cell": "N23",
+      "choice": 0.0125
+    },
+    {
+      "test": "Filter_14_0",
+      "status": "PASS",
+      "bindings_checked": 1174,
+      "sheet": "DASH 04B V06",
+      "cell": "H23",
+      "choice": "Reference Study"
+    },
+    {
+      "test": "Filter_12_0",
+      "status": "PASS",
+      "bindings_checked": 1174,
+      "sheet": "DASH 04B V06",
+      "cell": "H27",
+      "choice": 0.0525
+    },
+    {
+      "test": "Filter_14_2",
+      "status": "PASS",
+      "bindings_checked": 1174,
+      "sheet": "DASH 04B V06",
+      "cell": "H23",
+      "choice": "KK Optimized Terms"
+    },
+    {
+      "test": "Filter_14_1",
+      "status": "PASS",
+      "bindings_checked": 1174,
+      "sheet": "DASH 04B V06",
+      "cell": "H23",
+      "choice": "KK Target Terms"
+    },
+    {
+      "test": "Filter_14_3",
+      "status": "PASS",
+      "bindings_checked": 1174,
+      "sheet": "DASH 04B V06",
+      "cell": "H23",
+      "choice": "Custom Terms"
+    },
+    {
+      "test": "Filter_17_0",
+      "status": "PASS",
+      "bindings_checked": 1174,
+      "sheet": "DASH 04B V06",
+      "cell": "N27",
+      "choice": 226
+    },
+    {
+      "test": "Filter_15_0",
+      "status": "PASS",
+      "bindings_checked": 1174,
+      "sheet": "DASH 04B V06",
+      "cell": "H25",
+      "choice": 0.04
+    },
+    {
+      "test": "Filter_16_0",
+      "status": "PASS",
+      "bindings_checked": 1174,
+      "sheet": "DASH 04B V06",
+      "cell": "N25",
+      "choice": 0.06
+    },
+    {
+      "test": "Filter_18_0",
+      "status": "PASS",
+      "bindings_checked": 1174,
+      "sheet": "DASH 04B V06",
+      "cell": "H29",
+      "choice": 0.591
+    },
+    {
+      "test": "Filter_20_0",
+      "status": "PASS",
+      "bindings_checked": 1174,
+      "sheet": "DASH 04B V06",
+      "cell": "N31",
+      "choice": 0.05
+    },
+    {
+      "test": "Filter_19_0",
+      "status": "PASS",
+      "bindings_checked": 1174,
+      "sheet": "DASH 04B V06",
+      "cell": "N29",
+      "choice": 0.36
+    },
+    {
+      "test": "Filter_21_0",
+      "status": "PASS",
+      "bindings_checked": 1174,
+      "sheet": "DASH 05 V06",
+      "cell": "H23",
+      "choice": "Conservative"
+    },
+    {
+      "test": "Filter_21_2",
+      "status": "PASS",
+      "bindings_checked": 1174,
+      "sheet": "DASH 05 V06",
+      "cell": "H23",
+      "choice": "Favorable"
+    },
+    {
+      "test": "Filter_21_1",
+      "status": "PASS",
+      "bindings_checked": 1174,
+      "sheet": "DASH 05 V06",
+      "cell": "H23",
+      "choice": "Base Case"
+    },
+    {
+      "test": "Filter_22_0",
+      "status": "PASS",
+      "bindings_checked": 1174,
+      "sheet": "DASH 05 V06",
+      "cell": "N23",
+      "choice": 6
+    },
+    {
+      "test": "Filter_21_3",
+      "status": "PASS",
+      "bindings_checked": 1174,
+      "sheet": "DASH 05 V06",
+      "cell": "H23",
+      "choice": "Upside Stress"
+    },
+    {
+      "test": "Filter_21_4",
+      "status": "PASS",
+      "bindings_checked": 1174,
+      "sheet": "DASH 05 V06",
+      "cell": "H23",
+      "choice": "Custom"
+    },
+    {
+      "test": "Filter_23_0",
+      "status": "PASS",
+      "bindings_checked": 1174,
+      "sheet": "DASH 05 V06",
+      "cell": "H25",
+      "choice": 215
+    },
+    {
+      "test": "Filter_24_0",
+      "status": "PASS",
+      "bindings_checked": 1174,
+      "sheet": "DASH 05 V06",
+      "cell": "H27",
+      "choice": 0.65
+    },
+    {
+      "test": "Filter_25_0",
+      "status": "PASS",
+      "bindings_checked": 1174,
+      "sheet": "DASH 05 V06",
+      "cell": "N25",
+      "choice": 0.55
+    },
+    {
+      "test": "Filter_27_0",
+      "status": "PASS",
+      "bindings_checked": 1174,
+      "sheet": "DASH 05 V06",
+      "cell": "N29",
+      "choice": 0.035
+    },
+    {
+      "test": "Filter_28_0",
+      "status": "PASS",
+      "bindings_checked": 1174,
+      "sheet": "DASH 05 V06",
+      "cell": "H32",
+      "choice": "Operator Proposed Terms"
+    },
+    {
+      "test": "Filter_26_0",
+      "status": "PASS",
+      "bindings_checked": 1174,
+      "sheet": "DASH 05 V06",
+      "cell": "N27",
+      "choice": 0.055
+    },
+    {
+      "test": "Filter_28_1",
+      "status": "PASS",
+      "bindings_checked": 1174,
+      "sheet": "DASH 05 V06",
+      "cell": "H32",
+      "choice": "KK Target Terms"
+    },
+    {
+      "test": "Filter_28_3",
+      "status": "PASS",
+      "bindings_checked": 1174,
+      "sheet": "DASH 05 V06",
+      "cell": "H32",
+      "choice": "Custom Terms"
+    },
+    {
+      "test": "Filter_28_2",
+      "status": "PASS",
+      "bindings_checked": 1174,
+      "sheet": "DASH 05 V06",
+      "cell": "H32",
+      "choice": "KK Optimized Terms"
+    },
+    {
+      "test": "Filter_30_0",
+      "status": "PASS",
+      "bindings_checked": 1174,
+      "sheet": "DASH 05 V06",
+      "cell": "N34",
+      "choice": 1
+    },
+    {
+      "test": "Filter_29_0",
+      "status": "PASS",
+      "bindings_checked": 1174,
+      "sheet": "DASH 05 V06",
+      "cell": "H34",
+      "choice": 1
+    },
+    {
+      "test": "Filter_31_0",
+      "status": "PASS",
+      "bindings_checked": 1174,
+      "sheet": "DASH 05 V06",
+      "cell": "H36",
+      "choice": 1
+    },
+    {
+      "test": "Filter_32_0",
+      "status": "PASS",
+      "bindings_checked": 1174,
+      "sheet": "DASH 05 V06",
+      "cell": "N36",
+      "choice": 1
+    },
+    {
+      "test": "Filter_33_0",
+      "status": "PASS",
+      "bindings_checked": 1174,
+      "sheet": "DASH 05 V06",
+      "cell": "H29",
+      "choice": 0.04
+    },
+    {
+      "test": "Filter_34_0",
+      "status": "PASS",
+      "bindings_checked": 1174,
+      "sheet": "DASH 05 V06",
+      "cell": "H30",
+      "choice": 0.07
+    },
+    {
+      "test": "Filter_35_0",
+      "status": "PASS",
+      "bindings_checked": 1174,
+      "sheet": "DASH 05 V06",
+      "cell": "N32",
+      "choice": 0.04
+    },
+    {
+      "test": "Filter_36_0",
+      "status": "PASS",
+      "bindings_checked": 1174,
+      "sheet": "DASH 06 V06",
+      "cell": "H23",
+      "choice": 1
+    },
+    {
+      "test": "Filter_37_0",
+      "status": "PASS",
+      "bindings_checked": 1174,
+      "sheet": "DASH 06 V06",
+      "cell": "N23",
+      "choice": 0
+    },
+    {
+      "test": "Filter_38_2",
+      "status": "PASS",
+      "bindings_checked": 1174,
+      "sheet": "DASH 07 V06",
+      "cell": "N23",
+      "choice": "Intermediate"
+    },
+    {
+      "test": "Filter_38_1",
+      "status": "PASS",
+      "bindings_checked": 1174,
+      "sheet": "DASH 07 V06",
+      "cell": "N23",
+      "choice": "Minimum"
+    },
+    {
+      "test": "Filter_38_0",
+      "status": "PASS",
+      "bindings_checked": 1174,
+      "sheet": "DASH 07 V06",
+      "cell": "N23",
+      "choice": "Auto"
+    },
+    {
+      "test": "Filter_38_5",
+      "status": "PASS",
+      "bindings_checked": 1174,
+      "sheet": "DASH 07 V06",
+      "cell": "N23",
+      "choice": "Suspended"
+    },
+    {
+      "test": "Filter_38_3",
+      "status": "PASS",
+      "bindings_checked": 1174,
+      "sheet": "DASH 07 V06",
+      "cell": "N23",
+      "choice": "Maximum"
+    },
+    {
+      "test": "Filter_38_4",
+      "status": "PASS",
+      "bindings_checked": 1174,
+      "sheet": "DASH 07 V06",
+      "cell": "N23",
+      "choice": "Partial"
+    },
+    {
+      "test": "Filter_41_0",
+      "status": "PASS",
+      "bindings_checked": 1174,
+      "sheet": "DASH 07 V06",
+      "cell": "H27",
+      "choice": 0.51
+    },
+    {
+      "test": "Filter_39_0",
+      "status": "PASS",
+      "bindings_checked": 1174,
+      "sheet": "DASH 07 V06",
+      "cell": "H25",
+      "choice": 13
+    },
+    {
+      "test": "Filter_40_0",
+      "status": "PASS",
+      "bindings_checked": 1174,
+      "sheet": "DASH 07 V06",
+      "cell": "N25",
+      "choice": 0.13
+    },
+    {
+      "test": "Filter_42_0",
+      "status": "PASS",
+      "bindings_checked": 1174,
+      "sheet": "DASH 07 V06",
+      "cell": "N27",
+      "choice": 2.2
+    },
+    {
+      "test": "Filter_43_0",
+      "status": "PASS",
+      "bindings_checked": 1174,
+      "sheet": "DASH 07 V06",
+      "cell": "H23",
+      "choice": "Conservative"
+    },
+    {
+      "test": "Filter_43_1",
+      "status": "PASS",
+      "bindings_checked": 1174,
+      "sheet": "DASH 07 V06",
+      "cell": "H23",
+      "choice": "Balanced"
+    },
+    {
+      "test": "Filter_43_2",
+      "status": "PASS",
+      "bindings_checked": 1174,
+      "sheet": "DASH 07 V06",
+      "cell": "H23",
+      "choice": "Flexible"
+    },
+    {
+      "test": "Filter_44_1",
+      "status": "PASS",
+      "bindings_checked": 1174,
+      "sheet": "DASH 07 V06",
+      "cell": "H29",
+      "choice": "10%"
+    },
+    {
+      "test": "Filter_44_0",
+      "status": "PASS",
+      "bindings_checked": 1174,
+      "sheet": "DASH 07 V06",
+      "cell": "H29",
+      "choice": "8%"
+    },
+    {
+      "test": "Filter_44_2",
+      "status": "PASS",
+      "bindings_checked": 1174,
+      "sheet": "DASH 07 V06",
+      "cell": "H29",
+      "choice": "12%"
+    },
+    {
+      "test": "Filter_44_3",
+      "status": "PASS",
+      "bindings_checked": 1174,
+      "sheet": "DASH 07 V06",
+      "cell": "H29",
+      "choice": "Custom"
+    },
+    {
+      "test": "Filter_45_0",
+      "status": "PASS",
+      "bindings_checked": 1174,
+      "sheet": "DASH 10 Centro",
+      "cell": "H7",
+      "choice": "PT"
+    },
+    {
+      "test": "Filter_46_1",
+      "status": "PASS",
+      "bindings_checked": 1174,
+      "sheet": "DASH 10 Centro",
+      "cell": "H11",
+      "choice": "Executive Brief"
+    },
+    {
+      "test": "Filter_46_0",
+      "status": "PASS",
+      "bindings_checked": 1174,
+      "sheet": "DASH 10 Centro",
+      "cell": "H11",
+      "choice": "Complete Report"
+    },
+    {
+      "test": "Filter_45_1",
+      "status": "PASS",
+      "bindings_checked": 1174,
+      "sheet": "DASH 10 Centro",
+      "cell": "H7",
+      "choice": "EN"
+    },
+    {
+      "test": "Filter_48_0",
+      "status": "PASS",
+      "bindings_checked": 1174,
+      "sheet": "DASH 10 Centro",
+      "cell": "H15",
+      "choice": "2026-11-01"
+    },
+    {
+      "test": "Filter_47_0",
+      "status": "PASS",
+      "bindings_checked": 1174,
+      "sheet": "DASH 10 Centro",
+      "cell": "N11",
+      "choice": "Active Scenario"
+    },
+    {
+      "test": "Filter_47_1",
+      "status": "PASS",
+      "bindings_checked": 1173,
+      "sheet": "DASH 10 Centro",
+      "cell": "N11",
+      "choice": "Reference Case"
+    },
+    {
+      "test": "Filter_50_0",
+      "status": "PASS",
+      "bindings_checked": 1174,
+      "sheet": "DASH 05 V06",
+      "cell": "W116",
+      "choice": 500001
+    },
+    {
+      "test": "Filter_49_0",
+      "status": "PASS",
+      "bindings_checked": 1174,
+      "sheet": "DASH 10 Centro",
+      "cell": "N15",
+      "choice": "FILTER-TEST"
+    }
+  ],
+  "total_bindings_checked": 86875,
+  "native_excel365": "NOT TESTED"
+}

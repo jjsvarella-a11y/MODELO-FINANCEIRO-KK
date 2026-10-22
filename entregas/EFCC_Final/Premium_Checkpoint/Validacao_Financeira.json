@@ -1,0 +1,69 @@
+{
+  "status": "PASS",
+  "platform": "LibreOffice independent recalculation after invalidating all formula caches",
+  "excel_native": "NOT TESTED",
+  "scenario_count": 69,
+  "numeric_monthly_comparisons": 1738800,
+  "maximum_absolute_numeric_difference": 6.705522537231445e-08,
+  "errors": [],
+  "differences": [],
+  "invariant_failures": [],
+  "formula_count": 1887356,
+  "max_formula_characters": 4201,
+  "sheets": 190,
+  "exact_axis_cases": [
+    {
+      "sheet": "V06 M05",
+      "adr": 185,
+      "occupancy": 0.5
+    },
+    {
+      "sheet": "V06 M06",
+      "adr": 150,
+      "occupancy": 0.58
+    },
+    {
+      "sheet": "V06 M07",
+      "adr": 175,
+      "occupancy": 0.58
+    },
+    {
+      "sheet": "V06 M08",
+      "adr": 200,
+      "occupancy": 0.58
+    },
+    {
+      "sheet": "V06 M09",
+      "adr": 225,
+      "occupancy": 0.58
+    },
+    {
+      "sheet": "V06 M10",
+      "adr": 185,
+      "occupancy": 0.58
+    },
+    {
+      "sheet": "V06 M15",
+      "adr": 185,
+      "occupancy": 0.6
+    },
+    {
+      "sheet": "V06 M20",
+      "adr": 185,
+      "occupancy": 0.65
+    },
+    {
+      "sheet": "V06 M25",
+      "adr": 185,
+      "occupancy": 0.7
+    },
+    {
+      "sheet": "V06 M30",
+      "adr": 185,
+      "occupancy": 0.75
+    }
+  ],
+  "reference": "Original existing-core numeric reference; only nine reused matrix variants recalculated for exact current axes",
+  "original_engine_and_cashflow_formulas_unchanged": 1788898,
+  "financial_model_rebuilt": false
+}

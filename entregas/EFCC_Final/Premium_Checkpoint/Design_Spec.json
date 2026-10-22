@@ -1,0 +1,4496 @@
+{
+  "release": "PREMIUM-R2-CHECKPOINT",
+  "base_sha256": "4ef37eca1fe8d2bd249900b4e6e74c407d64b7f69dc978f48b656a80b19ae6c0",
+  "result_sha256": "308e866dfe6c6b7c7f3dec48203311cb898817299f884ca99649bcd8296f6ce2",
+  "engine_and_cashflow_parts_byte_identical": 138,
+  "canonical_inputs_preserved": 50,
+  "new_ui_input": "DASH 05 V06!W116 (near-zero threshold)",
+  "layout": {
+    "font": "Aptos",
+    "zoom": 85,
+    "freeze": "6 rows / 4 columns",
+    "hidden_public_output_rows": "7:21, 42:53, 65:84; existing results retained and displayed by direct links",
+    "grid": "E:Y; three charts and three financial tables",
+    "sidebar": "separate number/title columns, one selected language",
+    "financial_grid_column_width": 8.3
+  },
+  "native_excel365": "NOT TESTED",
+  "official_logo": "NOT TESTED — original image bytes not available",
+  "routes": [
+    {
+      "origin": "EXEC V06!W2",
+      "destination": "V06 Identidade!B8",
+      "type": "Native HYPERLINK",
+      "PT": "Logótipo original",
+      "EN": "Original logo"
+    },
+    {
+      "origin": "EXEC V06!B5",
+      "destination": "DASH 10 Centro!H7",
+      "type": "Native HYPERLINK",
+      "PT": "PT / EN ▾",
+      "EN": "PT / EN ▾"
+    },
+    {
+      "origin": "EXEC V06!B6",
+      "destination": "EXEC V06!E6",
+      "type": "Native HYPERLINK",
+      "PT": "Navegação",
+      "EN": "Navigation"
+    },
+    {
+      "origin": "EXEC V06!E5",
+      "destination": "EXEC V06!A1",
+      "type": "Native HYPERLINK",
+      "PT": "Início",
+      "EN": "Home"
+    },
+    {
+      "origin": "EXEC V06!I5",
+      "destination": "EXEC V06!E26",
+      "type": "Native HYPERLINK",
+      "PT": "Parâmetros",
+      "EN": "Assumptions"
+    },
+    {
+      "origin": "EXEC V06!M5",
+      "destination": "V06 Dicionario!A4",
+      "type": "Native HYPERLINK",
+      "PT": "Dicionário KPI",
+      "EN": "KPI dictionary"
+    },
+    {
+      "origin": "EXEC V06!Q5",
+      "destination": "V06 PDF 01!A1",
+      "type": "Native HYPERLINK",
+      "PT": "Imprimir / Exportar PDF",
+      "EN": "Print / Export PDF"
+    },
+    {
+      "origin": "EXEC V06!U5",
+      "destination": "DASH 10 Centro!A1",
+      "type": "Native HYPERLINK",
+      "PT": "Relatório 10",
+      "EN": "Report 10"
+    },
+    {
+      "origin": "EXEC V06!B22",
+      "destination": "EXEC V06!A1",
+      "type": "Sidebar number"
+    },
+    {
+      "origin": "EXEC V06!C22",
+      "destination": "EXEC V06!A1",
+      "type": "Sidebar title"
+    },
+    {
+      "origin": "EXEC V06!E6",
+      "destination": "EXEC V06!A1",
+      "type": "Native HYPERLINK",
+      "PT": "01",
+      "EN": "01"
+    },
+    {
+      "origin": "EXEC V06!B26",
+      "destination": "DASH 01 V06!A1",
+      "type": "Sidebar number"
+    },
+    {
+      "origin": "EXEC V06!C26",
+      "destination": "DASH 01 V06!A1",
+      "type": "Sidebar title"
+    },
+    {
+      "origin": "EXEC V06!F6",
+      "destination": "DASH 01 V06!A1",
+      "type": "Native HYPERLINK",
+      "PT": "02",
+      "EN": "02"
+    },
+    {
+      "origin": "EXEC V06!B30",
+      "destination": "DASH 02 V06!A1",
+      "type": "Sidebar number"
+    },
+    {
+      "origin": "EXEC V06!C30",
+      "destination": "DASH 02 V06!A1",
+      "type": "Sidebar title"
+    },
+    {
+      "origin": "EXEC V06!G6",
+      "destination": "DASH 02 V06!A1",
+      "type": "Native HYPERLINK",
+      "PT": "03",
+      "EN": "03"
+    },
+    {
+      "origin": "EXEC V06!B34",
+      "destination": "DASH 03 V06!A1",
+      "type": "Sidebar number"
+    },
+    {
+      "origin": "EXEC V06!C34",
+      "destination": "DASH 03 V06!A1",
+      "type": "Sidebar title"
+    },
+    {
+      "origin": "EXEC V06!H6",
+      "destination": "DASH 03 V06!A1",
+      "type": "Native HYPERLINK",
+      "PT": "04",
+      "EN": "04"
+    },
+    {
+      "origin": "EXEC V06!B38",
+      "destination": "DASH 04A V06!A1",
+      "type": "Sidebar number"
+    },
+    {
+      "origin": "EXEC V06!C38",
+      "destination": "DASH 04A V06!A1",
+      "type": "Sidebar title"
+    },
+    {
+      "origin": "EXEC V06!I6",
+      "destination": "DASH 04A V06!A1",
+      "type": "Native HYPERLINK",
+      "PT": "05",
+      "EN": "05"
+    },
+    {
+      "origin": "EXEC V06!B54",
+      "destination": "DASH 04B V06!A1",
+      "type": "Sidebar number"
+    },
+    {
+      "origin": "EXEC V06!C54",
+      "destination": "DASH 04B V06!A1",
+      "type": "Sidebar title"
+    },
+    {
+      "origin": "EXEC V06!J6",
+      "destination": "DASH 04B V06!A1",
+      "type": "Native HYPERLINK",
+      "PT": "06",
+      "EN": "06"
+    },
+    {
+      "origin": "EXEC V06!B58",
+      "destination": "DASH 05 V06!A1",
+      "type": "Sidebar number"
+    },
+    {
+      "origin": "EXEC V06!C58",
+      "destination": "DASH 05 V06!A1",
+      "type": "Sidebar title"
+    },
+    {
+      "origin": "EXEC V06!K6",
+      "destination": "DASH 05 V06!A1",
+      "type": "Native HYPERLINK",
+      "PT": "07",
+      "EN": "07"
+    },
+    {
+      "origin": "EXEC V06!B62",
+      "destination": "DASH 06 V06!A1",
+      "type": "Sidebar number"
+    },
+    {
+      "origin": "EXEC V06!C62",
+      "destination": "DASH 06 V06!A1",
+      "type": "Sidebar title"
+    },
+    {
+      "origin": "EXEC V06!L6",
+      "destination": "DASH 06 V06!A1",
+      "type": "Native HYPERLINK",
+      "PT": "08",
+      "EN": "08"
+    },
+    {
+      "origin": "EXEC V06!B86",
+      "destination": "DASH 07 V06!A1",
+      "type": "Sidebar number"
+    },
+    {
+      "origin": "EXEC V06!C86",
+      "destination": "DASH 07 V06!A1",
+      "type": "Sidebar title"
+    },
+    {
+      "origin": "EXEC V06!M6",
+      "destination": "DASH 07 V06!A1",
+      "type": "Native HYPERLINK",
+      "PT": "09",
+      "EN": "09"
+    },
+    {
+      "origin": "EXEC V06!B90",
+      "destination": "DASH 10 Centro!A1",
+      "type": "Sidebar number"
+    },
+    {
+      "origin": "EXEC V06!C90",
+      "destination": "DASH 10 Centro!A1",
+      "type": "Sidebar title"
+    },
+    {
+      "origin": "EXEC V06!N6",
+      "destination": "DASH 10 Centro!A1",
+      "type": "Native HYPERLINK",
+      "PT": "10",
+      "EN": "10"
+    },
+    {
+      "origin": "EXEC V06!E112",
+      "destination": "V06 Dicionario!A4",
+      "type": "Native HYPERLINK",
+      "PT": "Dicionário de KPIs",
+      "EN": "KPI dictionary"
+    },
+    {
+      "origin": "EXEC V06!L112",
+      "destination": "EXEC V06!A1",
+      "type": "Native HYPERLINK",
+      "PT": "Início",
+      "EN": "Home"
+    },
+    {
+      "origin": "EXEC V06!S112",
+      "destination": "DASH 10 Centro!A1",
+      "type": "Native HYPERLINK",
+      "PT": "Relatório consolidado",
+      "EN": "Consolidated report"
+    },
+    {
+      "origin": "DASH 01 V06!W2",
+      "destination": "V06 Identidade!B8",
+      "type": "Native HYPERLINK",
+      "PT": "Logótipo original",
+      "EN": "Original logo"
+    },
+    {
+      "origin": "DASH 01 V06!B5",
+      "destination": "DASH 10 Centro!H7",
+      "type": "Native HYPERLINK",
+      "PT": "PT / EN ▾",
+      "EN": "PT / EN ▾"
+    },
+    {
+      "origin": "DASH 01 V06!B6",
+      "destination": "DASH 01 V06!E6",
+      "type": "Native HYPERLINK",
+      "PT": "Navegação",
+      "EN": "Navigation"
+    },
+    {
+      "origin": "DASH 01 V06!E5",
+      "destination": "EXEC V06!A1",
+      "type": "Native HYPERLINK",
+      "PT": "Início",
+      "EN": "Home"
+    },
+    {
+      "origin": "DASH 01 V06!I5",
+      "destination": "DASH 01 V06!H23",
+      "type": "Native HYPERLINK",
+      "PT": "Parâmetros",
+      "EN": "Assumptions"
+    },
+    {
+      "origin": "DASH 01 V06!M5",
+      "destination": "V06 Dicionario!A4",
+      "type": "Native HYPERLINK",
+      "PT": "Dicionário KPI",
+      "EN": "KPI dictionary"
+    },
+    {
+      "origin": "DASH 01 V06!Q5",
+      "destination": "V06 PDF 02!A1",
+      "type": "Native HYPERLINK",
+      "PT": "Imprimir / Exportar PDF",
+      "EN": "Print / Export PDF"
+    },
+    {
+      "origin": "DASH 01 V06!U5",
+      "destination": "DASH 10 Centro!A1",
+      "type": "Native HYPERLINK",
+      "PT": "Relatório 10",
+      "EN": "Report 10"
+    },
+    {
+      "origin": "DASH 01 V06!B22",
+      "destination": "EXEC V06!A1",
+      "type": "Sidebar number"
+    },
+    {
+      "origin": "DASH 01 V06!C22",
+      "destination": "EXEC V06!A1",
+      "type": "Sidebar title"
+    },
+    {
+      "origin": "DASH 01 V06!E6",
+      "destination": "EXEC V06!A1",
+      "type": "Native HYPERLINK",
+      "PT": "01",
+      "EN": "01"
+    },
+    {
+      "origin": "DASH 01 V06!B26",
+      "destination": "DASH 01 V06!A1",
+      "type": "Sidebar number"
+    },
+    {
+      "origin": "DASH 01 V06!C26",
+      "destination": "DASH 01 V06!A1",
+      "type": "Sidebar title"
+    },
+    {
+      "origin": "DASH 01 V06!F6",
+      "destination": "DASH 01 V06!A1",
+      "type": "Native HYPERLINK",
+      "PT": "02",
+      "EN": "02"
+    },
+    {
+      "origin": "DASH 01 V06!B30",
+      "destination": "DASH 02 V06!A1",
+      "type": "Sidebar number"
+    },
+    {
+      "origin": "DASH 01 V06!C30",
+      "destination": "DASH 02 V06!A1",
+      "type": "Sidebar title"
+    },
+    {
+      "origin": "DASH 01 V06!G6",
+      "destination": "DASH 02 V06!A1",
+      "type": "Native HYPERLINK",
+      "PT": "03",
+      "EN": "03"
+    },
+    {
+      "origin": "DASH 01 V06!B34",
+      "destination": "DASH 03 V06!A1",
+      "type": "Sidebar number"
+    },
+    {
+      "origin": "DASH 01 V06!C34",
+      "destination": "DASH 03 V06!A1",
+      "type": "Sidebar title"
+    },
+    {
+      "origin": "DASH 01 V06!H6",
+      "destination": "DASH 03 V06!A1",
+      "type": "Native HYPERLINK",
+      "PT": "04",
+      "EN": "04"
+    },
+    {
+      "origin": "DASH 01 V06!B38",
+      "destination": "DASH 04A V06!A1",
+      "type": "Sidebar number"
+    },
+    {
+      "origin": "DASH 01 V06!C38",
+      "destination": "DASH 04A V06!A1",
+      "type": "Sidebar title"
+    },
+    {
+      "origin": "DASH 01 V06!I6",
+      "destination": "DASH 04A V06!A1",
+      "type": "Native HYPERLINK",
+      "PT": "05",
+      "EN": "05"
+    },
+    {
+      "origin": "DASH 01 V06!B54",
+      "destination": "DASH 04B V06!A1",
+      "type": "Sidebar number"
+    },
+    {
+      "origin": "DASH 01 V06!C54",
+      "destination": "DASH 04B V06!A1",
+      "type": "Sidebar title"
+    },
+    {
+      "origin": "DASH 01 V06!J6",
+      "destination": "DASH 04B V06!A1",
+      "type": "Native HYPERLINK",
+      "PT": "06",
+      "EN": "06"
+    },
+    {
+      "origin": "DASH 01 V06!B58",
+      "destination": "DASH 05 V06!A1",
+      "type": "Sidebar number"
+    },
+    {
+      "origin": "DASH 01 V06!C58",
+      "destination": "DASH 05 V06!A1",
+      "type": "Sidebar title"
+    },
+    {
+      "origin": "DASH 01 V06!K6",
+      "destination": "DASH 05 V06!A1",
+      "type": "Native HYPERLINK",
+      "PT": "07",
+      "EN": "07"
+    },
+    {
+      "origin": "DASH 01 V06!B62",
+      "destination": "DASH 06 V06!A1",
+      "type": "Sidebar number"
+    },
+    {
+      "origin": "DASH 01 V06!C62",
+      "destination": "DASH 06 V06!A1",
+      "type": "Sidebar title"
+    },
+    {
+      "origin": "DASH 01 V06!L6",
+      "destination": "DASH 06 V06!A1",
+      "type": "Native HYPERLINK",
+      "PT": "08",
+      "EN": "08"
+    },
+    {
+      "origin": "DASH 01 V06!B86",
+      "destination": "DASH 07 V06!A1",
+      "type": "Sidebar number"
+    },
+    {
+      "origin": "DASH 01 V06!C86",
+      "destination": "DASH 07 V06!A1",
+      "type": "Sidebar title"
+    },
+    {
+      "origin": "DASH 01 V06!M6",
+      "destination": "DASH 07 V06!A1",
+      "type": "Native HYPERLINK",
+      "PT": "09",
+      "EN": "09"
+    },
+    {
+      "origin": "DASH 01 V06!B90",
+      "destination": "DASH 10 Centro!A1",
+      "type": "Sidebar number"
+    },
+    {
+      "origin": "DASH 01 V06!C90",
+      "destination": "DASH 10 Centro!A1",
+      "type": "Sidebar title"
+    },
+    {
+      "origin": "DASH 01 V06!N6",
+      "destination": "DASH 10 Centro!A1",
+      "type": "Native HYPERLINK",
+      "PT": "10",
+      "EN": "10"
+    },
+    {
+      "origin": "DASH 01 V06!E112",
+      "destination": "V06 Dicionario!A4",
+      "type": "Native HYPERLINK",
+      "PT": "Dicionário de KPIs",
+      "EN": "KPI dictionary"
+    },
+    {
+      "origin": "DASH 01 V06!L112",
+      "destination": "EXEC V06!A1",
+      "type": "Native HYPERLINK",
+      "PT": "Início",
+      "EN": "Home"
+    },
+    {
+      "origin": "DASH 01 V06!S112",
+      "destination": "DASH 10 Centro!A1",
+      "type": "Native HYPERLINK",
+      "PT": "Relatório consolidado",
+      "EN": "Consolidated report"
+    },
+    {
+      "origin": "DASH 02 V06!W2",
+      "destination": "V06 Identidade!B8",
+      "type": "Native HYPERLINK",
+      "PT": "Logótipo original",
+      "EN": "Original logo"
+    },
+    {
+      "origin": "DASH 02 V06!B5",
+      "destination": "DASH 10 Centro!H7",
+      "type": "Native HYPERLINK",
+      "PT": "PT / EN ▾",
+      "EN": "PT / EN ▾"
+    },
+    {
+      "origin": "DASH 02 V06!B6",
+      "destination": "DASH 02 V06!E6",
+      "type": "Native HYPERLINK",
+      "PT": "Navegação",
+      "EN": "Navigation"
+    },
+    {
+      "origin": "DASH 02 V06!E5",
+      "destination": "EXEC V06!A1",
+      "type": "Native HYPERLINK",
+      "PT": "Início",
+      "EN": "Home"
+    },
+    {
+      "origin": "DASH 02 V06!I5",
+      "destination": "DASH 02 V06!H23",
+      "type": "Native HYPERLINK",
+      "PT": "Parâmetros",
+      "EN": "Assumptions"
+    },
+    {
+      "origin": "DASH 02 V06!M5",
+      "destination": "V06 Dicionario!A4",
+      "type": "Native HYPERLINK",
+      "PT": "Dicionário KPI",
+      "EN": "KPI dictionary"
+    },
+    {
+      "origin": "DASH 02 V06!Q5",
+      "destination": "V06 PDF 03!A1",
+      "type": "Native HYPERLINK",
+      "PT": "Imprimir / Exportar PDF",
+      "EN": "Print / Export PDF"
+    },
+    {
+      "origin": "DASH 02 V06!U5",
+      "destination": "DASH 10 Centro!A1",
+      "type": "Native HYPERLINK",
+      "PT": "Relatório 10",
+      "EN": "Report 10"
+    },
+    {
+      "origin": "DASH 02 V06!B22",
+      "destination": "EXEC V06!A1",
+      "type": "Sidebar number"
+    },
+    {
+      "origin": "DASH 02 V06!C22",
+      "destination": "EXEC V06!A1",
+      "type": "Sidebar title"
+    },
+    {
+      "origin": "DASH 02 V06!E6",
+      "destination": "EXEC V06!A1",
+      "type": "Native HYPERLINK",
+      "PT": "01",
+      "EN": "01"
+    },
+    {
+      "origin": "DASH 02 V06!B26",
+      "destination": "DASH 01 V06!A1",
+      "type": "Sidebar number"
+    },
+    {
+      "origin": "DASH 02 V06!C26",
+      "destination": "DASH 01 V06!A1",
+      "type": "Sidebar title"
+    },
+    {
+      "origin": "DASH 02 V06!F6",
+      "destination": "DASH 01 V06!A1",
+      "type": "Native HYPERLINK",
+      "PT": "02",
+      "EN": "02"
+    },
+    {
+      "origin": "DASH 02 V06!B30",
+      "destination": "DASH 02 V06!A1",
+      "type": "Sidebar number"
+    },
+    {
+      "origin": "DASH 02 V06!C30",
+      "destination": "DASH 02 V06!A1",
+      "type": "Sidebar title"
+    },
+    {
+      "origin": "DASH 02 V06!G6",
+      "destination": "DASH 02 V06!A1",
+      "type": "Native HYPERLINK",
+      "PT": "03",
+      "EN": "03"
+    },
+    {
+      "origin": "DASH 02 V06!B34",
+      "destination": "DASH 03 V06!A1",
+      "type": "Sidebar number"
+    },
+    {
+      "origin": "DASH 02 V06!C34",
+      "destination": "DASH 03 V06!A1",
+      "type": "Sidebar title"
+    },
+    {
+      "origin": "DASH 02 V06!H6",
+      "destination": "DASH 03 V06!A1",
+      "type": "Native HYPERLINK",
+      "PT": "04",
+      "EN": "04"
+    },
+    {
+      "origin": "DASH 02 V06!B38",
+      "destination": "DASH 04A V06!A1",
+      "type": "Sidebar number"
+    },
+    {
+      "origin": "DASH 02 V06!C38",
+      "destination": "DASH 04A V06!A1",
+      "type": "Sidebar title"
+    },
+    {
+      "origin": "DASH 02 V06!I6",
+      "destination": "DASH 04A V06!A1",
+      "type": "Native HYPERLINK",
+      "PT": "05",
+      "EN": "05"
+    },
+    {
+      "origin": "DASH 02 V06!B54",
+      "destination": "DASH 04B V06!A1",
+      "type": "Sidebar number"
+    },
+    {
+      "origin": "DASH 02 V06!C54",
+      "destination": "DASH 04B V06!A1",
+      "type": "Sidebar title"
+    },
+    {
+      "origin": "DASH 02 V06!J6",
+      "destination": "DASH 04B V06!A1",
+      "type": "Native HYPERLINK",
+      "PT": "06",
+      "EN": "06"
+    },
+    {
+      "origin": "DASH 02 V06!B58",
+      "destination": "DASH 05 V06!A1",
+      "type": "Sidebar number"
+    },
+    {
+      "origin": "DASH 02 V06!C58",
+      "destination": "DASH 05 V06!A1",
+      "type": "Sidebar title"
+    },
+    {
+      "origin": "DASH 02 V06!K6",
+      "destination": "DASH 05 V06!A1",
+      "type": "Native HYPERLINK",
+      "PT": "07",
+      "EN": "07"
+    },
+    {
+      "origin": "DASH 02 V06!B62",
+      "destination": "DASH 06 V06!A1",
+      "type": "Sidebar number"
+    },
+    {
+      "origin": "DASH 02 V06!C62",
+      "destination": "DASH 06 V06!A1",
+      "type": "Sidebar title"
+    },
+    {
+      "origin": "DASH 02 V06!L6",
+      "destination": "DASH 06 V06!A1",
+      "type": "Native HYPERLINK",
+      "PT": "08",
+      "EN": "08"
+    },
+    {
+      "origin": "DASH 02 V06!B86",
+      "destination": "DASH 07 V06!A1",
+      "type": "Sidebar number"
+    },
+    {
+      "origin": "DASH 02 V06!C86",
+      "destination": "DASH 07 V06!A1",
+      "type": "Sidebar title"
+    },
+    {
+      "origin": "DASH 02 V06!M6",
+      "destination": "DASH 07 V06!A1",
+      "type": "Native HYPERLINK",
+      "PT": "09",
+      "EN": "09"
+    },
+    {
+      "origin": "DASH 02 V06!B90",
+      "destination": "DASH 10 Centro!A1",
+      "type": "Sidebar number"
+    },
+    {
+      "origin": "DASH 02 V06!C90",
+      "destination": "DASH 10 Centro!A1",
+      "type": "Sidebar title"
+    },
+    {
+      "origin": "DASH 02 V06!N6",
+      "destination": "DASH 10 Centro!A1",
+      "type": "Native HYPERLINK",
+      "PT": "10",
+      "EN": "10"
+    },
+    {
+      "origin": "DASH 02 V06!E112",
+      "destination": "V06 Dicionario!A4",
+      "type": "Native HYPERLINK",
+      "PT": "Dicionário de KPIs",
+      "EN": "KPI dictionary"
+    },
+    {
+      "origin": "DASH 02 V06!L112",
+      "destination": "EXEC V06!A1",
+      "type": "Native HYPERLINK",
+      "PT": "Início",
+      "EN": "Home"
+    },
+    {
+      "origin": "DASH 02 V06!S112",
+      "destination": "DASH 10 Centro!A1",
+      "type": "Native HYPERLINK",
+      "PT": "Relatório consolidado",
+      "EN": "Consolidated report"
+    },
+    {
+      "origin": "DASH 03 V06!W2",
+      "destination": "V06 Identidade!B8",
+      "type": "Native HYPERLINK",
+      "PT": "Logótipo original",
+      "EN": "Original logo"
+    },
+    {
+      "origin": "DASH 03 V06!B5",
+      "destination": "DASH 10 Centro!H7",
+      "type": "Native HYPERLINK",
+      "PT": "PT / EN ▾",
+      "EN": "PT / EN ▾"
+    },
+    {
+      "origin": "DASH 03 V06!B6",
+      "destination": "DASH 03 V06!E6",
+      "type": "Native HYPERLINK",
+      "PT": "Navegação",
+      "EN": "Navigation"
+    },
+    {
+      "origin": "DASH 03 V06!E5",
+      "destination": "EXEC V06!A1",
+      "type": "Native HYPERLINK",
+      "PT": "Início",
+      "EN": "Home"
+    },
+    {
+      "origin": "DASH 03 V06!I5",
+      "destination": "DASH 03 V06!H23",
+      "type": "Native HYPERLINK",
+      "PT": "Parâmetros",
+      "EN": "Assumptions"
+    },
+    {
+      "origin": "DASH 03 V06!M5",
+      "destination": "V06 Dicionario!A4",
+      "type": "Native HYPERLINK",
+      "PT": "Dicionário KPI",
+      "EN": "KPI dictionary"
+    },
+    {
+      "origin": "DASH 03 V06!Q5",
+      "destination": "V06 PDF 04!A1",
+      "type": "Native HYPERLINK",
+      "PT": "Imprimir / Exportar PDF",
+      "EN": "Print / Export PDF"
+    },
+    {
+      "origin": "DASH 03 V06!U5",
+      "destination": "DASH 10 Centro!A1",
+      "type": "Native HYPERLINK",
+      "PT": "Relatório 10",
+      "EN": "Report 10"
+    },
+    {
+      "origin": "DASH 03 V06!B22",
+      "destination": "EXEC V06!A1",
+      "type": "Sidebar number"
+    },
+    {
+      "origin": "DASH 03 V06!C22",
+      "destination": "EXEC V06!A1",
+      "type": "Sidebar title"
+    },
+    {
+      "origin": "DASH 03 V06!E6",
+      "destination": "EXEC V06!A1",
+      "type": "Native HYPERLINK",
+      "PT": "01",
+      "EN": "01"
+    },
+    {
+      "origin": "DASH 03 V06!B26",
+      "destination": "DASH 01 V06!A1",
+      "type": "Sidebar number"
+    },
+    {
+      "origin": "DASH 03 V06!C26",
+      "destination": "DASH 01 V06!A1",
+      "type": "Sidebar title"
+    },
+    {
+      "origin": "DASH 03 V06!F6",
+      "destination": "DASH 01 V06!A1",
+      "type": "Native HYPERLINK",
+      "PT": "02",
+      "EN": "02"
+    },
+    {
+      "origin": "DASH 03 V06!B30",
+      "destination": "DASH 02 V06!A1",
+      "type": "Sidebar number"
+    },
+    {
+      "origin": "DASH 03 V06!C30",
+      "destination": "DASH 02 V06!A1",
+      "type": "Sidebar title"
+    },
+    {
+      "origin": "DASH 03 V06!G6",
+      "destination": "DASH 02 V06!A1",
+      "type": "Native HYPERLINK",
+      "PT": "03",
+      "EN": "03"
+    },
+    {
+      "origin": "DASH 03 V06!B34",
+      "destination": "DASH 03 V06!A1",
+      "type": "Sidebar number"
+    },
+    {
+      "origin": "DASH 03 V06!C34",
+      "destination": "DASH 03 V06!A1",
+      "type": "Sidebar title"
+    },
+    {
+      "origin": "DASH 03 V06!H6",
+      "destination": "DASH 03 V06!A1",
+      "type": "Native HYPERLINK",
+      "PT": "04",
+      "EN": "04"
+    },
+    {
+      "origin": "DASH 03 V06!B38",
+      "destination": "DASH 04A V06!A1",
+      "type": "Sidebar number"
+    },
+    {
+      "origin": "DASH 03 V06!C38",
+      "destination": "DASH 04A V06!A1",
+      "type": "Sidebar title"
+    },
+    {
+      "origin": "DASH 03 V06!I6",
+      "destination": "DASH 04A V06!A1",
+      "type": "Native HYPERLINK",
+      "PT": "05",
+      "EN": "05"
+    },
+    {
+      "origin": "DASH 03 V06!B54",
+      "destination": "DASH 04B V06!A1",
+      "type": "Sidebar number"
+    },
+    {
+      "origin": "DASH 03 V06!C54",
+      "destination": "DASH 04B V06!A1",
+      "type": "Sidebar title"
+    },
+    {
+      "origin": "DASH 03 V06!J6",
+      "destination": "DASH 04B V06!A1",
+      "type": "Native HYPERLINK",
+      "PT": "06",
+      "EN": "06"
+    },
+    {
+      "origin": "DASH 03 V06!B58",
+      "destination": "DASH 05 V06!A1",
+      "type": "Sidebar number"
+    },
+    {
+      "origin": "DASH 03 V06!C58",
+      "destination": "DASH 05 V06!A1",
+      "type": "Sidebar title"
+    },
+    {
+      "origin": "DASH 03 V06!K6",
+      "destination": "DASH 05 V06!A1",
+      "type": "Native HYPERLINK",
+      "PT": "07",
+      "EN": "07"
+    },
+    {
+      "origin": "DASH 03 V06!B62",
+      "destination": "DASH 06 V06!A1",
+      "type": "Sidebar number"
+    },
+    {
+      "origin": "DASH 03 V06!C62",
+      "destination": "DASH 06 V06!A1",
+      "type": "Sidebar title"
+    },
+    {
+      "origin": "DASH 03 V06!L6",
+      "destination": "DASH 06 V06!A1",
+      "type": "Native HYPERLINK",
+      "PT": "08",
+      "EN": "08"
+    },
+    {
+      "origin": "DASH 03 V06!B86",
+      "destination": "DASH 07 V06!A1",
+      "type": "Sidebar number"
+    },
+    {
+      "origin": "DASH 03 V06!C86",
+      "destination": "DASH 07 V06!A1",
+      "type": "Sidebar title"
+    },
+    {
+      "origin": "DASH 03 V06!M6",
+      "destination": "DASH 07 V06!A1",
+      "type": "Native HYPERLINK",
+      "PT": "09",
+      "EN": "09"
+    },
+    {
+      "origin": "DASH 03 V06!B90",
+      "destination": "DASH 10 Centro!A1",
+      "type": "Sidebar number"
+    },
+    {
+      "origin": "DASH 03 V06!C90",
+      "destination": "DASH 10 Centro!A1",
+      "type": "Sidebar title"
+    },
+    {
+      "origin": "DASH 03 V06!N6",
+      "destination": "DASH 10 Centro!A1",
+      "type": "Native HYPERLINK",
+      "PT": "10",
+      "EN": "10"
+    },
+    {
+      "origin": "DASH 03 V06!E112",
+      "destination": "V06 Dicionario!A4",
+      "type": "Native HYPERLINK",
+      "PT": "Dicionário de KPIs",
+      "EN": "KPI dictionary"
+    },
+    {
+      "origin": "DASH 03 V06!L112",
+      "destination": "EXEC V06!A1",
+      "type": "Native HYPERLINK",
+      "PT": "Início",
+      "EN": "Home"
+    },
+    {
+      "origin": "DASH 03 V06!S112",
+      "destination": "DASH 10 Centro!A1",
+      "type": "Native HYPERLINK",
+      "PT": "Relatório consolidado",
+      "EN": "Consolidated report"
+    },
+    {
+      "origin": "DASH 04A V06!W2",
+      "destination": "V06 Identidade!B8",
+      "type": "Native HYPERLINK",
+      "PT": "Logótipo original",
+      "EN": "Original logo"
+    },
+    {
+      "origin": "DASH 04A V06!B5",
+      "destination": "DASH 10 Centro!H7",
+      "type": "Native HYPERLINK",
+      "PT": "PT / EN ▾",
+      "EN": "PT / EN ▾"
+    },
+    {
+      "origin": "DASH 04A V06!B6",
+      "destination": "DASH 04A V06!E6",
+      "type": "Native HYPERLINK",
+      "PT": "Navegação",
+      "EN": "Navigation"
+    },
+    {
+      "origin": "DASH 04A V06!E5",
+      "destination": "EXEC V06!A1",
+      "type": "Native HYPERLINK",
+      "PT": "Início",
+      "EN": "Home"
+    },
+    {
+      "origin": "DASH 04A V06!I5",
+      "destination": "DASH 04A V06!H23",
+      "type": "Native HYPERLINK",
+      "PT": "Parâmetros",
+      "EN": "Assumptions"
+    },
+    {
+      "origin": "DASH 04A V06!M5",
+      "destination": "V06 Dicionario!A4",
+      "type": "Native HYPERLINK",
+      "PT": "Dicionário KPI",
+      "EN": "KPI dictionary"
+    },
+    {
+      "origin": "DASH 04A V06!Q5",
+      "destination": "V06 PDF 05!A1",
+      "type": "Native HYPERLINK",
+      "PT": "Imprimir / Exportar PDF",
+      "EN": "Print / Export PDF"
+    },
+    {
+      "origin": "DASH 04A V06!U5",
+      "destination": "DASH 10 Centro!A1",
+      "type": "Native HYPERLINK",
+      "PT": "Relatório 10",
+      "EN": "Report 10"
+    },
+    {
+      "origin": "DASH 04A V06!B22",
+      "destination": "EXEC V06!A1",
+      "type": "Sidebar number"
+    },
+    {
+      "origin": "DASH 04A V06!C22",
+      "destination": "EXEC V06!A1",
+      "type": "Sidebar title"
+    },
+    {
+      "origin": "DASH 04A V06!E6",
+      "destination": "EXEC V06!A1",
+      "type": "Native HYPERLINK",
+      "PT": "01",
+      "EN": "01"
+    },
+    {
+      "origin": "DASH 04A V06!B26",
+      "destination": "DASH 01 V06!A1",
+      "type": "Sidebar number"
+    },
+    {
+      "origin": "DASH 04A V06!C26",
+      "destination": "DASH 01 V06!A1",
+      "type": "Sidebar title"
+    },
+    {
+      "origin": "DASH 04A V06!F6",
+      "destination": "DASH 01 V06!A1",
+      "type": "Native HYPERLINK",
+      "PT": "02",
+      "EN": "02"
+    },
+    {
+      "origin": "DASH 04A V06!B30",
+      "destination": "DASH 02 V06!A1",
+      "type": "Sidebar number"
+    },
+    {
+      "origin": "DASH 04A V06!C30",
+      "destination": "DASH 02 V06!A1",
+      "type": "Sidebar title"
+    },
+    {
+      "origin": "DASH 04A V06!G6",
+      "destination": "DASH 02 V06!A1",
+      "type": "Native HYPERLINK",
+      "PT": "03",
+      "EN": "03"
+    },
+    {
+      "origin": "DASH 04A V06!B34",
+      "destination": "DASH 03 V06!A1",
+      "type": "Sidebar number"
+    },
+    {
+      "origin": "DASH 04A V06!C34",
+      "destination": "DASH 03 V06!A1",
+      "type": "Sidebar title"
+    },
+    {
+      "origin": "DASH 04A V06!H6",
+      "destination": "DASH 03 V06!A1",
+      "type": "Native HYPERLINK",
+      "PT": "04",
+      "EN": "04"
+    },
+    {
+      "origin": "DASH 04A V06!B38",
+      "destination": "DASH 04A V06!A1",
+      "type": "Sidebar number"
+    },
+    {
+      "origin": "DASH 04A V06!C38",
+      "destination": "DASH 04A V06!A1",
+      "type": "Sidebar title"
+    },
+    {
+      "origin": "DASH 04A V06!I6",
+      "destination": "DASH 04A V06!A1",
+      "type": "Native HYPERLINK",
+      "PT": "05",
+      "EN": "05"
+    },
+    {
+      "origin": "DASH 04A V06!B54",
+      "destination": "DASH 04B V06!A1",
+      "type": "Sidebar number"
+    },
+    {
+      "origin": "DASH 04A V06!C54",
+      "destination": "DASH 04B V06!A1",
+      "type": "Sidebar title"
+    },
+    {
+      "origin": "DASH 04A V06!J6",
+      "destination": "DASH 04B V06!A1",
+      "type": "Native HYPERLINK",
+      "PT": "06",
+      "EN": "06"
+    },
+    {
+      "origin": "DASH 04A V06!B58",
+      "destination": "DASH 05 V06!A1",
+      "type": "Sidebar number"
+    },
+    {
+      "origin": "DASH 04A V06!C58",
+      "destination": "DASH 05 V06!A1",
+      "type": "Sidebar title"
+    },
+    {
+      "origin": "DASH 04A V06!K6",
+      "destination": "DASH 05 V06!A1",
+      "type": "Native HYPERLINK",
+      "PT": "07",
+      "EN": "07"
+    },
+    {
+      "origin": "DASH 04A V06!B62",
+      "destination": "DASH 06 V06!A1",
+      "type": "Sidebar number"
+    },
+    {
+      "origin": "DASH 04A V06!C62",
+      "destination": "DASH 06 V06!A1",
+      "type": "Sidebar title"
+    },
+    {
+      "origin": "DASH 04A V06!L6",
+      "destination": "DASH 06 V06!A1",
+      "type": "Native HYPERLINK",
+      "PT": "08",
+      "EN": "08"
+    },
+    {
+      "origin": "DASH 04A V06!B86",
+      "destination": "DASH 07 V06!A1",
+      "type": "Sidebar number"
+    },
+    {
+      "origin": "DASH 04A V06!C86",
+      "destination": "DASH 07 V06!A1",
+      "type": "Sidebar title"
+    },
+    {
+      "origin": "DASH 04A V06!M6",
+      "destination": "DASH 07 V06!A1",
+      "type": "Native HYPERLINK",
+      "PT": "09",
+      "EN": "09"
+    },
+    {
+      "origin": "DASH 04A V06!B90",
+      "destination": "DASH 10 Centro!A1",
+      "type": "Sidebar number"
+    },
+    {
+      "origin": "DASH 04A V06!C90",
+      "destination": "DASH 10 Centro!A1",
+      "type": "Sidebar title"
+    },
+    {
+      "origin": "DASH 04A V06!N6",
+      "destination": "DASH 10 Centro!A1",
+      "type": "Native HYPERLINK",
+      "PT": "10",
+      "EN": "10"
+    },
+    {
+      "origin": "DASH 04A V06!E112",
+      "destination": "V06 Dicionario!A4",
+      "type": "Native HYPERLINK",
+      "PT": "Dicionário de KPIs",
+      "EN": "KPI dictionary"
+    },
+    {
+      "origin": "DASH 04A V06!L112",
+      "destination": "EXEC V06!A1",
+      "type": "Native HYPERLINK",
+      "PT": "Início",
+      "EN": "Home"
+    },
+    {
+      "origin": "DASH 04A V06!S112",
+      "destination": "DASH 10 Centro!A1",
+      "type": "Native HYPERLINK",
+      "PT": "Relatório consolidado",
+      "EN": "Consolidated report"
+    },
+    {
+      "origin": "DASH 04B V06!W2",
+      "destination": "V06 Identidade!B8",
+      "type": "Native HYPERLINK",
+      "PT": "Logótipo original",
+      "EN": "Original logo"
+    },
+    {
+      "origin": "DASH 04B V06!B5",
+      "destination": "DASH 10 Centro!H7",
+      "type": "Native HYPERLINK",
+      "PT": "PT / EN ▾",
+      "EN": "PT / EN ▾"
+    },
+    {
+      "origin": "DASH 04B V06!B6",
+      "destination": "DASH 04B V06!E6",
+      "type": "Native HYPERLINK",
+      "PT": "Navegação",
+      "EN": "Navigation"
+    },
+    {
+      "origin": "DASH 04B V06!E5",
+      "destination": "EXEC V06!A1",
+      "type": "Native HYPERLINK",
+      "PT": "Início",
+      "EN": "Home"
+    },
+    {
+      "origin": "DASH 04B V06!I5",
+      "destination": "DASH 04B V06!H23",
+      "type": "Native HYPERLINK",
+      "PT": "Parâmetros",
+      "EN": "Assumptions"
+    },
+    {
+      "origin": "DASH 04B V06!M5",
+      "destination": "V06 Dicionario!A4",
+      "type": "Native HYPERLINK",
+      "PT": "Dicionário KPI",
+      "EN": "KPI dictionary"
+    },
+    {
+      "origin": "DASH 04B V06!Q5",
+      "destination": "V06 PDF 06!A1",
+      "type": "Native HYPERLINK",
+      "PT": "Imprimir / Exportar PDF",
+      "EN": "Print / Export PDF"
+    },
+    {
+      "origin": "DASH 04B V06!U5",
+      "destination": "DASH 10 Centro!A1",
+      "type": "Native HYPERLINK",
+      "PT": "Relatório 10",
+      "EN": "Report 10"
+    },
+    {
+      "origin": "DASH 04B V06!B22",
+      "destination": "EXEC V06!A1",
+      "type": "Sidebar number"
+    },
+    {
+      "origin": "DASH 04B V06!C22",
+      "destination": "EXEC V06!A1",
+      "type": "Sidebar title"
+    },
+    {
+      "origin": "DASH 04B V06!E6",
+      "destination": "EXEC V06!A1",
+      "type": "Native HYPERLINK",
+      "PT": "01",
+      "EN": "01"
+    },
+    {
+      "origin": "DASH 04B V06!B26",
+      "destination": "DASH 01 V06!A1",
+      "type": "Sidebar number"
+    },
+    {
+      "origin": "DASH 04B V06!C26",
+      "destination": "DASH 01 V06!A1",
+      "type": "Sidebar title"
+    },
+    {
+      "origin": "DASH 04B V06!F6",
+      "destination": "DASH 01 V06!A1",
+      "type": "Native HYPERLINK",
+      "PT": "02",
+      "EN": "02"
+    },
+    {
+      "origin": "DASH 04B V06!B30",
+      "destination": "DASH 02 V06!A1",
+      "type": "Sidebar number"
+    },
+    {
+      "origin": "DASH 04B V06!C30",
+      "destination": "DASH 02 V06!A1",
+      "type": "Sidebar title"
+    },
+    {
+      "origin": "DASH 04B V06!G6",
+      "destination": "DASH 02 V06!A1",
+      "type": "Native HYPERLINK",
+      "PT": "03",
+      "EN": "03"
+    },
+    {
+      "origin": "DASH 04B V06!B34",
+      "destination": "DASH 03 V06!A1",
+      "type": "Sidebar number"
+    },
+    {
+      "origin": "DASH 04B V06!C34",
+      "destination": "DASH 03 V06!A1",
+      "type": "Sidebar title"
+    },
+    {
+      "origin": "DASH 04B V06!H6",
+      "destination": "DASH 03 V06!A1",
+      "type": "Native HYPERLINK",
+      "PT": "04",
+      "EN": "04"
+    },
+    {
+      "origin": "DASH 04B V06!B38",
+      "destination": "DASH 04A V06!A1",
+      "type": "Sidebar number"
+    },
+    {
+      "origin": "DASH 04B V06!C38",
+      "destination": "DASH 04A V06!A1",
+      "type": "Sidebar title"
+    },
+    {
+      "origin": "DASH 04B V06!I6",
+      "destination": "DASH 04A V06!A1",
+      "type": "Native HYPERLINK",
+      "PT": "05",
+      "EN": "05"
+    },
+    {
+      "origin": "DASH 04B V06!B54",
+      "destination": "DASH 04B V06!A1",
+      "type": "Sidebar number"
+    },
+    {
+      "origin": "DASH 04B V06!C54",
+      "destination": "DASH 04B V06!A1",
+      "type": "Sidebar title"
+    },
+    {
+      "origin": "DASH 04B V06!J6",
+      "destination": "DASH 04B V06!A1",
+      "type": "Native HYPERLINK",
+      "PT": "06",
+      "EN": "06"
+    },
+    {
+      "origin": "DASH 04B V06!B58",
+      "destination": "DASH 05 V06!A1",
+      "type": "Sidebar number"
+    },
+    {
+      "origin": "DASH 04B V06!C58",
+      "destination": "DASH 05 V06!A1",
+      "type": "Sidebar title"
+    },
+    {
+      "origin": "DASH 04B V06!K6",
+      "destination": "DASH 05 V06!A1",
+      "type": "Native HYPERLINK",
+      "PT": "07",
+      "EN": "07"
+    },
+    {
+      "origin": "DASH 04B V06!B62",
+      "destination": "DASH 06 V06!A1",
+      "type": "Sidebar number"
+    },
+    {
+      "origin": "DASH 04B V06!C62",
+      "destination": "DASH 06 V06!A1",
+      "type": "Sidebar title"
+    },
+    {
+      "origin": "DASH 04B V06!L6",
+      "destination": "DASH 06 V06!A1",
+      "type": "Native HYPERLINK",
+      "PT": "08",
+      "EN": "08"
+    },
+    {
+      "origin": "DASH 04B V06!B86",
+      "destination": "DASH 07 V06!A1",
+      "type": "Sidebar number"
+    },
+    {
+      "origin": "DASH 04B V06!C86",
+      "destination": "DASH 07 V06!A1",
+      "type": "Sidebar title"
+    },
+    {
+      "origin": "DASH 04B V06!M6",
+      "destination": "DASH 07 V06!A1",
+      "type": "Native HYPERLINK",
+      "PT": "09",
+      "EN": "09"
+    },
+    {
+      "origin": "DASH 04B V06!B90",
+      "destination": "DASH 10 Centro!A1",
+      "type": "Sidebar number"
+    },
+    {
+      "origin": "DASH 04B V06!C90",
+      "destination": "DASH 10 Centro!A1",
+      "type": "Sidebar title"
+    },
+    {
+      "origin": "DASH 04B V06!N6",
+      "destination": "DASH 10 Centro!A1",
+      "type": "Native HYPERLINK",
+      "PT": "10",
+      "EN": "10"
+    },
+    {
+      "origin": "DASH 04B V06!E112",
+      "destination": "V06 Dicionario!A4",
+      "type": "Native HYPERLINK",
+      "PT": "Dicionário de KPIs",
+      "EN": "KPI dictionary"
+    },
+    {
+      "origin": "DASH 04B V06!L112",
+      "destination": "EXEC V06!A1",
+      "type": "Native HYPERLINK",
+      "PT": "Início",
+      "EN": "Home"
+    },
+    {
+      "origin": "DASH 04B V06!S112",
+      "destination": "DASH 10 Centro!A1",
+      "type": "Native HYPERLINK",
+      "PT": "Relatório consolidado",
+      "EN": "Consolidated report"
+    },
+    {
+      "origin": "DASH 05 V06!W2",
+      "destination": "V06 Identidade!B8",
+      "type": "Native HYPERLINK",
+      "PT": "Logótipo original",
+      "EN": "Original logo"
+    },
+    {
+      "origin": "DASH 05 V06!B5",
+      "destination": "DASH 10 Centro!H7",
+      "type": "Native HYPERLINK",
+      "PT": "PT / EN ▾",
+      "EN": "PT / EN ▾"
+    },
+    {
+      "origin": "DASH 05 V06!B6",
+      "destination": "DASH 05 V06!E6",
+      "type": "Native HYPERLINK",
+      "PT": "Navegação",
+      "EN": "Navigation"
+    },
+    {
+      "origin": "DASH 05 V06!E5",
+      "destination": "EXEC V06!A1",
+      "type": "Native HYPERLINK",
+      "PT": "Início",
+      "EN": "Home"
+    },
+    {
+      "origin": "DASH 05 V06!I5",
+      "destination": "DASH 05 V06!H23",
+      "type": "Native HYPERLINK",
+      "PT": "Parâmetros",
+      "EN": "Assumptions"
+    },
+    {
+      "origin": "DASH 05 V06!M5",
+      "destination": "V06 Dicionario!A4",
+      "type": "Native HYPERLINK",
+      "PT": "Dicionário KPI",
+      "EN": "KPI dictionary"
+    },
+    {
+      "origin": "DASH 05 V06!Q5",
+      "destination": "V06 PDF 07!A1",
+      "type": "Native HYPERLINK",
+      "PT": "Imprimir / Exportar PDF",
+      "EN": "Print / Export PDF"
+    },
+    {
+      "origin": "DASH 05 V06!U5",
+      "destination": "DASH 10 Centro!A1",
+      "type": "Native HYPERLINK",
+      "PT": "Relatório 10",
+      "EN": "Report 10"
+    },
+    {
+      "origin": "DASH 05 V06!B22",
+      "destination": "EXEC V06!A1",
+      "type": "Sidebar number"
+    },
+    {
+      "origin": "DASH 05 V06!C22",
+      "destination": "EXEC V06!A1",
+      "type": "Sidebar title"
+    },
+    {
+      "origin": "DASH 05 V06!E6",
+      "destination": "EXEC V06!A1",
+      "type": "Native HYPERLINK",
+      "PT": "01",
+      "EN": "01"
+    },
+    {
+      "origin": "DASH 05 V06!B26",
+      "destination": "DASH 01 V06!A1",
+      "type": "Sidebar number"
+    },
+    {
+      "origin": "DASH 05 V06!C26",
+      "destination": "DASH 01 V06!A1",
+      "type": "Sidebar title"
+    },
+    {
+      "origin": "DASH 05 V06!F6",
+      "destination": "DASH 01 V06!A1",
+      "type": "Native HYPERLINK",
+      "PT": "02",
+      "EN": "02"
+    },
+    {
+      "origin": "DASH 05 V06!B30",
+      "destination": "DASH 02 V06!A1",
+      "type": "Sidebar number"
+    },
+    {
+      "origin": "DASH 05 V06!C30",
+      "destination": "DASH 02 V06!A1",
+      "type": "Sidebar title"
+    },
+    {
+      "origin": "DASH 05 V06!G6",
+      "destination": "DASH 02 V06!A1",
+      "type": "Native HYPERLINK",
+      "PT": "03",
+      "EN": "03"
+    },
+    {
+      "origin": "DASH 05 V06!B34",
+      "destination": "DASH 03 V06!A1",
+      "type": "Sidebar number"
+    },
+    {
+      "origin": "DASH 05 V06!C34",
+      "destination": "DASH 03 V06!A1",
+      "type": "Sidebar title"
+    },
+    {
+      "origin": "DASH 05 V06!H6",
+      "destination": "DASH 03 V06!A1",
+      "type": "Native HYPERLINK",
+      "PT": "04",
+      "EN": "04"
+    },
+    {
+      "origin": "DASH 05 V06!B38",
+      "destination": "DASH 04A V06!A1",
+      "type": "Sidebar number"
+    },
+    {
+      "origin": "DASH 05 V06!C38",
+      "destination": "DASH 04A V06!A1",
+      "type": "Sidebar title"
+    },
+    {
+      "origin": "DASH 05 V06!I6",
+      "destination": "DASH 04A V06!A1",
+      "type": "Native HYPERLINK",
+      "PT": "05",
+      "EN": "05"
+    },
+    {
+      "origin": "DASH 05 V06!B54",
+      "destination": "DASH 04B V06!A1",
+      "type": "Sidebar number"
+    },
+    {
+      "origin": "DASH 05 V06!C54",
+      "destination": "DASH 04B V06!A1",
+      "type": "Sidebar title"
+    },
+    {
+      "origin": "DASH 05 V06!J6",
+      "destination": "DASH 04B V06!A1",
+      "type": "Native HYPERLINK",
+      "PT": "06",
+      "EN": "06"
+    },
+    {
+      "origin": "DASH 05 V06!B58",
+      "destination": "DASH 05 V06!A1",
+      "type": "Sidebar number"
+    },
+    {
+      "origin": "DASH 05 V06!C58",
+      "destination": "DASH 05 V06!A1",
+      "type": "Sidebar title"
+    },
+    {
+      "origin": "DASH 05 V06!K6",
+      "destination": "DASH 05 V06!A1",
+      "type": "Native HYPERLINK",
+      "PT": "07",
+      "EN": "07"
+    },
+    {
+      "origin": "DASH 05 V06!B62",
+      "destination": "DASH 06 V06!A1",
+      "type": "Sidebar number"
+    },
+    {
+      "origin": "DASH 05 V06!C62",
+      "destination": "DASH 06 V06!A1",
+      "type": "Sidebar title"
+    },
+    {
+      "origin": "DASH 05 V06!L6",
+      "destination": "DASH 06 V06!A1",
+      "type": "Native HYPERLINK",
+      "PT": "08",
+      "EN": "08"
+    },
+    {
+      "origin": "DASH 05 V06!B86",
+      "destination": "DASH 07 V06!A1",
+      "type": "Sidebar number"
+    },
+    {
+      "origin": "DASH 05 V06!C86",
+      "destination": "DASH 07 V06!A1",
+      "type": "Sidebar title"
+    },
+    {
+      "origin": "DASH 05 V06!M6",
+      "destination": "DASH 07 V06!A1",
+      "type": "Native HYPERLINK",
+      "PT": "09",
+      "EN": "09"
+    },
+    {
+      "origin": "DASH 05 V06!B90",
+      "destination": "DASH 10 Centro!A1",
+      "type": "Sidebar number"
+    },
+    {
+      "origin": "DASH 05 V06!C90",
+      "destination": "DASH 10 Centro!A1",
+      "type": "Sidebar title"
+    },
+    {
+      "origin": "DASH 05 V06!N6",
+      "destination": "DASH 10 Centro!A1",
+      "type": "Native HYPERLINK",
+      "PT": "10",
+      "EN": "10"
+    },
+    {
+      "origin": "DASH 05 V06!E112",
+      "destination": "V06 Dicionario!A4",
+      "type": "Native HYPERLINK",
+      "PT": "Dicionário de KPIs",
+      "EN": "KPI dictionary"
+    },
+    {
+      "origin": "DASH 05 V06!L112",
+      "destination": "EXEC V06!A1",
+      "type": "Native HYPERLINK",
+      "PT": "Início",
+      "EN": "Home"
+    },
+    {
+      "origin": "DASH 05 V06!S112",
+      "destination": "DASH 10 Centro!A1",
+      "type": "Native HYPERLINK",
+      "PT": "Relatório consolidado",
+      "EN": "Consolidated report"
+    },
+    {
+      "origin": "DASH 06 V06!W2",
+      "destination": "V06 Identidade!B8",
+      "type": "Native HYPERLINK",
+      "PT": "Logótipo original",
+      "EN": "Original logo"
+    },
+    {
+      "origin": "DASH 06 V06!B5",
+      "destination": "DASH 10 Centro!H7",
+      "type": "Native HYPERLINK",
+      "PT": "PT / EN ▾",
+      "EN": "PT / EN ▾"
+    },
+    {
+      "origin": "DASH 06 V06!B6",
+      "destination": "DASH 06 V06!E6",
+      "type": "Native HYPERLINK",
+      "PT": "Navegação",
+      "EN": "Navigation"
+    },
+    {
+      "origin": "DASH 06 V06!E5",
+      "destination": "EXEC V06!A1",
+      "type": "Native HYPERLINK",
+      "PT": "Início",
+      "EN": "Home"
+    },
+    {
+      "origin": "DASH 06 V06!I5",
+      "destination": "DASH 06 V06!H23",
+      "type": "Native HYPERLINK",
+      "PT": "Parâmetros",
+      "EN": "Assumptions"
+    },
+    {
+      "origin": "DASH 06 V06!M5",
+      "destination": "V06 Dicionario!A4",
+      "type": "Native HYPERLINK",
+      "PT": "Dicionário KPI",
+      "EN": "KPI dictionary"
+    },
+    {
+      "origin": "DASH 06 V06!Q5",
+      "destination": "V06 PDF 08!A1",
+      "type": "Native HYPERLINK",
+      "PT": "Imprimir / Exportar PDF",
+      "EN": "Print / Export PDF"
+    },
+    {
+      "origin": "DASH 06 V06!U5",
+      "destination": "DASH 10 Centro!A1",
+      "type": "Native HYPERLINK",
+      "PT": "Relatório 10",
+      "EN": "Report 10"
+    },
+    {
+      "origin": "DASH 06 V06!B22",
+      "destination": "EXEC V06!A1",
+      "type": "Sidebar number"
+    },
+    {
+      "origin": "DASH 06 V06!C22",
+      "destination": "EXEC V06!A1",
+      "type": "Sidebar title"
+    },
+    {
+      "origin": "DASH 06 V06!E6",
+      "destination": "EXEC V06!A1",
+      "type": "Native HYPERLINK",
+      "PT": "01",
+      "EN": "01"
+    },
+    {
+      "origin": "DASH 06 V06!B26",
+      "destination": "DASH 01 V06!A1",
+      "type": "Sidebar number"
+    },
+    {
+      "origin": "DASH 06 V06!C26",
+      "destination": "DASH 01 V06!A1",
+      "type": "Sidebar title"
+    },
+    {
+      "origin": "DASH 06 V06!F6",
+      "destination": "DASH 01 V06!A1",
+      "type": "Native HYPERLINK",
+      "PT": "02",
+      "EN": "02"
+    },
+    {
+      "origin": "DASH 06 V06!B30",
+      "destination": "DASH 02 V06!A1",
+      "type": "Sidebar number"
+    },
+    {
+      "origin": "DASH 06 V06!C30",
+      "destination": "DASH 02 V06!A1",
+      "type": "Sidebar title"
+    },
+    {
+      "origin": "DASH 06 V06!G6",
+      "destination": "DASH 02 V06!A1",
+      "type": "Native HYPERLINK",
+      "PT": "03",
+      "EN": "03"
+    },
+    {
+      "origin": "DASH 06 V06!B34",
+      "destination": "DASH 03 V06!A1",
+      "type": "Sidebar number"
+    },
+    {
+      "origin": "DASH 06 V06!C34",
+      "destination": "DASH 03 V06!A1",
+      "type": "Sidebar title"
+    },
+    {
+      "origin": "DASH 06 V06!H6",
+      "destination": "DASH 03 V06!A1",
+      "type": "Native HYPERLINK",
+      "PT": "04",
+      "EN": "04"
+    },
+    {
+      "origin": "DASH 06 V06!B38",
+      "destination": "DASH 04A V06!A1",
+      "type": "Sidebar number"
+    },
+    {
+      "origin": "DASH 06 V06!C38",
+      "destination": "DASH 04A V06!A1",
+      "type": "Sidebar title"
+    },
+    {
+      "origin": "DASH 06 V06!I6",
+      "destination": "DASH 04A V06!A1",
+      "type": "Native HYPERLINK",
+      "PT": "05",
+      "EN": "05"
+    },
+    {
+      "origin": "DASH 06 V06!B54",
+      "destination": "DASH 04B V06!A1",
+      "type": "Sidebar number"
+    },
+    {
+      "origin": "DASH 06 V06!C54",
+      "destination": "DASH 04B V06!A1",
+      "type": "Sidebar title"
+    },
+    {
+      "origin": "DASH 06 V06!J6",
+      "destination": "DASH 04B V06!A1",
+      "type": "Native HYPERLINK",
+      "PT": "06",
+      "EN": "06"
+    },
+    {
+      "origin": "DASH 06 V06!B58",
+      "destination": "DASH 05 V06!A1",
+      "type": "Sidebar number"
+    },
+    {
+      "origin": "DASH 06 V06!C58",
+      "destination": "DASH 05 V06!A1",
+      "type": "Sidebar title"
+    },
+    {
+      "origin": "DASH 06 V06!K6",
+      "destination": "DASH 05 V06!A1",
+      "type": "Native HYPERLINK",
+      "PT": "07",
+      "EN": "07"
+    },
+    {
+      "origin": "DASH 06 V06!B62",
+      "destination": "DASH 06 V06!A1",
+      "type": "Sidebar number"
+    },
+    {
+      "origin": "DASH 06 V06!C62",
+      "destination": "DASH 06 V06!A1",
+      "type": "Sidebar title"
+    },
+    {
+      "origin": "DASH 06 V06!L6",
+      "destination": "DASH 06 V06!A1",
+      "type": "Native HYPERLINK",
+      "PT": "08",
+      "EN": "08"
+    },
+    {
+      "origin": "DASH 06 V06!B86",
+      "destination": "DASH 07 V06!A1",
+      "type": "Sidebar number"
+    },
+    {
+      "origin": "DASH 06 V06!C86",
+      "destination": "DASH 07 V06!A1",
+      "type": "Sidebar title"
+    },
+    {
+      "origin": "DASH 06 V06!M6",
+      "destination": "DASH 07 V06!A1",
+      "type": "Native HYPERLINK",
+      "PT": "09",
+      "EN": "09"
+    },
+    {
+      "origin": "DASH 06 V06!B90",
+      "destination": "DASH 10 Centro!A1",
+      "type": "Sidebar number"
+    },
+    {
+      "origin": "DASH 06 V06!C90",
+      "destination": "DASH 10 Centro!A1",
+      "type": "Sidebar title"
+    },
+    {
+      "origin": "DASH 06 V06!N6",
+      "destination": "DASH 10 Centro!A1",
+      "type": "Native HYPERLINK",
+      "PT": "10",
+      "EN": "10"
+    },
+    {
+      "origin": "DASH 06 V06!E112",
+      "destination": "V06 Dicionario!A4",
+      "type": "Native HYPERLINK",
+      "PT": "Dicionário de KPIs",
+      "EN": "KPI dictionary"
+    },
+    {
+      "origin": "DASH 06 V06!L112",
+      "destination": "EXEC V06!A1",
+      "type": "Native HYPERLINK",
+      "PT": "Início",
+      "EN": "Home"
+    },
+    {
+      "origin": "DASH 06 V06!S112",
+      "destination": "DASH 10 Centro!A1",
+      "type": "Native HYPERLINK",
+      "PT": "Relatório consolidado",
+      "EN": "Consolidated report"
+    },
+    {
+      "origin": "DASH 07 V06!W2",
+      "destination": "V06 Identidade!B8",
+      "type": "Native HYPERLINK",
+      "PT": "Logótipo original",
+      "EN": "Original logo"
+    },
+    {
+      "origin": "DASH 07 V06!B5",
+      "destination": "DASH 10 Centro!H7",
+      "type": "Native HYPERLINK",
+      "PT": "PT / EN ▾",
+      "EN": "PT / EN ▾"
+    },
+    {
+      "origin": "DASH 07 V06!B6",
+      "destination": "DASH 07 V06!E6",
+      "type": "Native HYPERLINK",
+      "PT": "Navegação",
+      "EN": "Navigation"
+    },
+    {
+      "origin": "DASH 07 V06!E5",
+      "destination": "EXEC V06!A1",
+      "type": "Native HYPERLINK",
+      "PT": "Início",
+      "EN": "Home"
+    },
+    {
+      "origin": "DASH 07 V06!I5",
+      "destination": "DASH 07 V06!H23",
+      "type": "Native HYPERLINK",
+      "PT": "Parâmetros",
+      "EN": "Assumptions"
+    },
+    {
+      "origin": "DASH 07 V06!M5",
+      "destination": "V06 Dicionario!A4",
+      "type": "Native HYPERLINK",
+      "PT": "Dicionário KPI",
+      "EN": "KPI dictionary"
+    },
+    {
+      "origin": "DASH 07 V06!Q5",
+      "destination": "V06 PDF 09!A1",
+      "type": "Native HYPERLINK",
+      "PT": "Imprimir / Exportar PDF",
+      "EN": "Print / Export PDF"
+    },
+    {
+      "origin": "DASH 07 V06!U5",
+      "destination": "DASH 10 Centro!A1",
+      "type": "Native HYPERLINK",
+      "PT": "Relatório 10",
+      "EN": "Report 10"
+    },
+    {
+      "origin": "DASH 07 V06!B22",
+      "destination": "EXEC V06!A1",
+      "type": "Sidebar number"
+    },
+    {
+      "origin": "DASH 07 V06!C22",
+      "destination": "EXEC V06!A1",
+      "type": "Sidebar title"
+    },
+    {
+      "origin": "DASH 07 V06!E6",
+      "destination": "EXEC V06!A1",
+      "type": "Native HYPERLINK",
+      "PT": "01",
+      "EN": "01"
+    },
+    {
+      "origin": "DASH 07 V06!B26",
+      "destination": "DASH 01 V06!A1",
+      "type": "Sidebar number"
+    },
+    {
+      "origin": "DASH 07 V06!C26",
+      "destination": "DASH 01 V06!A1",
+      "type": "Sidebar title"
+    },
+    {
+      "origin": "DASH 07 V06!F6",
+      "destination": "DASH 01 V06!A1",
+      "type": "Native HYPERLINK",
+      "PT": "02",
+      "EN": "02"
+    },
+    {
+      "origin": "DASH 07 V06!B30",
+      "destination": "DASH 02 V06!A1",
+      "type": "Sidebar number"
+    },
+    {
+      "origin": "DASH 07 V06!C30",
+      "destination": "DASH 02 V06!A1",
+      "type": "Sidebar title"
+    },
+    {
+      "origin": "DASH 07 V06!G6",
+      "destination": "DASH 02 V06!A1",
+      "type": "Native HYPERLINK",
+      "PT": "03",
+      "EN": "03"
+    },
+    {
+      "origin": "DASH 07 V06!B34",
+      "destination": "DASH 03 V06!A1",
+      "type": "Sidebar number"
+    },
+    {
+      "origin": "DASH 07 V06!C34",
+      "destination": "DASH 03 V06!A1",
+      "type": "Sidebar title"
+    },
+    {
+      "origin": "DASH 07 V06!H6",
+      "destination": "DASH 03 V06!A1",
+      "type": "Native HYPERLINK",
+      "PT": "04",
+      "EN": "04"
+    },
+    {
+      "origin": "DASH 07 V06!B38",
+      "destination": "DASH 04A V06!A1",
+      "type": "Sidebar number"
+    },
+    {
+      "origin": "DASH 07 V06!C38",
+      "destination": "DASH 04A V06!A1",
+      "type": "Sidebar title"
+    },
+    {
+      "origin": "DASH 07 V06!I6",
+      "destination": "DASH 04A V06!A1",
+      "type": "Native HYPERLINK",
+      "PT": "05",
+      "EN": "05"
+    },
+    {
+      "origin": "DASH 07 V06!B54",
+      "destination": "DASH 04B V06!A1",
+      "type": "Sidebar number"
+    },
+    {
+      "origin": "DASH 07 V06!C54",
+      "destination": "DASH 04B V06!A1",
+      "type": "Sidebar title"
+    },
+    {
+      "origin": "DASH 07 V06!J6",
+      "destination": "DASH 04B V06!A1",
+      "type": "Native HYPERLINK",
+      "PT": "06",
+      "EN": "06"
+    },
+    {
+      "origin": "DASH 07 V06!B58",
+      "destination": "DASH 05 V06!A1",
+      "type": "Sidebar number"
+    },
+    {
+      "origin": "DASH 07 V06!C58",
+      "destination": "DASH 05 V06!A1",
+      "type": "Sidebar title"
+    },
+    {
+      "origin": "DASH 07 V06!K6",
+      "destination": "DASH 05 V06!A1",
+      "type": "Native HYPERLINK",
+      "PT": "07",
+      "EN": "07"
+    },
+    {
+      "origin": "DASH 07 V06!B62",
+      "destination": "DASH 06 V06!A1",
+      "type": "Sidebar number"
+    },
+    {
+      "origin": "DASH 07 V06!C62",
+      "destination": "DASH 06 V06!A1",
+      "type": "Sidebar title"
+    },
+    {
+      "origin": "DASH 07 V06!L6",
+      "destination": "DASH 06 V06!A1",
+      "type": "Native HYPERLINK",
+      "PT": "08",
+      "EN": "08"
+    },
+    {
+      "origin": "DASH 07 V06!B86",
+      "destination": "DASH 07 V06!A1",
+      "type": "Sidebar number"
+    },
+    {
+      "origin": "DASH 07 V06!C86",
+      "destination": "DASH 07 V06!A1",
+      "type": "Sidebar title"
+    },
+    {
+      "origin": "DASH 07 V06!M6",
+      "destination": "DASH 07 V06!A1",
+      "type": "Native HYPERLINK",
+      "PT": "09",
+      "EN": "09"
+    },
+    {
+      "origin": "DASH 07 V06!B90",
+      "destination": "DASH 10 Centro!A1",
+      "type": "Sidebar number"
+    },
+    {
+      "origin": "DASH 07 V06!C90",
+      "destination": "DASH 10 Centro!A1",
+      "type": "Sidebar title"
+    },
+    {
+      "origin": "DASH 07 V06!N6",
+      "destination": "DASH 10 Centro!A1",
+      "type": "Native HYPERLINK",
+      "PT": "10",
+      "EN": "10"
+    },
+    {
+      "origin": "DASH 07 V06!E112",
+      "destination": "V06 Dicionario!A4",
+      "type": "Native HYPERLINK",
+      "PT": "Dicionário de KPIs",
+      "EN": "KPI dictionary"
+    },
+    {
+      "origin": "DASH 07 V06!L112",
+      "destination": "EXEC V06!A1",
+      "type": "Native HYPERLINK",
+      "PT": "Início",
+      "EN": "Home"
+    },
+    {
+      "origin": "DASH 07 V06!S112",
+      "destination": "DASH 10 Centro!A1",
+      "type": "Native HYPERLINK",
+      "PT": "Relatório consolidado",
+      "EN": "Consolidated report"
+    },
+    {
+      "origin": "DASH 10 Centro!W2",
+      "destination": "V06 Identidade!B8",
+      "type": "Native HYPERLINK",
+      "PT": "Logótipo original",
+      "EN": "Original logo"
+    },
+    {
+      "origin": "DASH 10 Centro!B5",
+      "destination": "DASH 10 Centro!H7",
+      "type": "Native HYPERLINK",
+      "PT": "PT / EN ▾",
+      "EN": "PT / EN ▾"
+    },
+    {
+      "origin": "DASH 10 Centro!B6",
+      "destination": "DASH 10 Centro!E6",
+      "type": "Native HYPERLINK",
+      "PT": "Navegação",
+      "EN": "Navigation"
+    },
+    {
+      "origin": "DASH 10 Centro!E5",
+      "destination": "EXEC V06!A1",
+      "type": "Native HYPERLINK",
+      "PT": "Início",
+      "EN": "Home"
+    },
+    {
+      "origin": "DASH 10 Centro!I5",
+      "destination": "DASH 10 Centro!H7",
+      "type": "Native HYPERLINK",
+      "PT": "Parâmetros",
+      "EN": "Assumptions"
+    },
+    {
+      "origin": "DASH 10 Centro!M5",
+      "destination": "V06 Dicionario!A4",
+      "type": "Native HYPERLINK",
+      "PT": "Dicionário KPI",
+      "EN": "KPI dictionary"
+    },
+    {
+      "origin": "DASH 10 Centro!Q5",
+      "destination": "V06 Imprimir!A23",
+      "type": "Native HYPERLINK",
+      "PT": "Imprimir / Exportar PDF",
+      "EN": "Print / Export PDF"
+    },
+    {
+      "origin": "DASH 10 Centro!U5",
+      "destination": "DASH 10 Centro!A1",
+      "type": "Native HYPERLINK",
+      "PT": "Relatório 10",
+      "EN": "Report 10"
+    },
+    {
+      "origin": "DASH 10 Centro!B7",
+      "destination": "EXEC V06!A1",
+      "type": "Sidebar number"
+    },
+    {
+      "origin": "DASH 10 Centro!C7",
+      "destination": "EXEC V06!A1",
+      "type": "Sidebar title"
+    },
+    {
+      "origin": "DASH 10 Centro!E6",
+      "destination": "EXEC V06!A1",
+      "type": "Native HYPERLINK",
+      "PT": "01",
+      "EN": "01"
+    },
+    {
+      "origin": "DASH 10 Centro!B11",
+      "destination": "DASH 01 V06!A1",
+      "type": "Sidebar number"
+    },
+    {
+      "origin": "DASH 10 Centro!C11",
+      "destination": "DASH 01 V06!A1",
+      "type": "Sidebar title"
+    },
+    {
+      "origin": "DASH 10 Centro!F6",
+      "destination": "DASH 01 V06!A1",
+      "type": "Native HYPERLINK",
+      "PT": "02",
+      "EN": "02"
+    },
+    {
+      "origin": "DASH 10 Centro!B15",
+      "destination": "DASH 02 V06!A1",
+      "type": "Sidebar number"
+    },
+    {
+      "origin": "DASH 10 Centro!C15",
+      "destination": "DASH 02 V06!A1",
+      "type": "Sidebar title"
+    },
+    {
+      "origin": "DASH 10 Centro!G6",
+      "destination": "DASH 02 V06!A1",
+      "type": "Native HYPERLINK",
+      "PT": "03",
+      "EN": "03"
+    },
+    {
+      "origin": "DASH 10 Centro!B19",
+      "destination": "DASH 03 V06!A1",
+      "type": "Sidebar number"
+    },
+    {
+      "origin": "DASH 10 Centro!C19",
+      "destination": "DASH 03 V06!A1",
+      "type": "Sidebar title"
+    },
+    {
+      "origin": "DASH 10 Centro!H6",
+      "destination": "DASH 03 V06!A1",
+      "type": "Native HYPERLINK",
+      "PT": "04",
+      "EN": "04"
+    },
+    {
+      "origin": "DASH 10 Centro!B23",
+      "destination": "DASH 04A V06!A1",
+      "type": "Sidebar number"
+    },
+    {
+      "origin": "DASH 10 Centro!C23",
+      "destination": "DASH 04A V06!A1",
+      "type": "Sidebar title"
+    },
+    {
+      "origin": "DASH 10 Centro!I6",
+      "destination": "DASH 04A V06!A1",
+      "type": "Native HYPERLINK",
+      "PT": "05",
+      "EN": "05"
+    },
+    {
+      "origin": "DASH 10 Centro!B27",
+      "destination": "DASH 04B V06!A1",
+      "type": "Sidebar number"
+    },
+    {
+      "origin": "DASH 10 Centro!C27",
+      "destination": "DASH 04B V06!A1",
+      "type": "Sidebar title"
+    },
+    {
+      "origin": "DASH 10 Centro!J6",
+      "destination": "DASH 04B V06!A1",
+      "type": "Native HYPERLINK",
+      "PT": "06",
+      "EN": "06"
+    },
+    {
+      "origin": "DASH 10 Centro!B31",
+      "destination": "DASH 05 V06!A1",
+      "type": "Sidebar number"
+    },
+    {
+      "origin": "DASH 10 Centro!C31",
+      "destination": "DASH 05 V06!A1",
+      "type": "Sidebar title"
+    },
+    {
+      "origin": "DASH 10 Centro!K6",
+      "destination": "DASH 05 V06!A1",
+      "type": "Native HYPERLINK",
+      "PT": "07",
+      "EN": "07"
+    },
+    {
+      "origin": "DASH 10 Centro!B35",
+      "destination": "DASH 06 V06!A1",
+      "type": "Sidebar number"
+    },
+    {
+      "origin": "DASH 10 Centro!C35",
+      "destination": "DASH 06 V06!A1",
+      "type": "Sidebar title"
+    },
+    {
+      "origin": "DASH 10 Centro!L6",
+      "destination": "DASH 06 V06!A1",
+      "type": "Native HYPERLINK",
+      "PT": "08",
+      "EN": "08"
+    },
+    {
+      "origin": "DASH 10 Centro!B39",
+      "destination": "DASH 07 V06!A1",
+      "type": "Sidebar number"
+    },
+    {
+      "origin": "DASH 10 Centro!C39",
+      "destination": "DASH 07 V06!A1",
+      "type": "Sidebar title"
+    },
+    {
+      "origin": "DASH 10 Centro!M6",
+      "destination": "DASH 07 V06!A1",
+      "type": "Native HYPERLINK",
+      "PT": "09",
+      "EN": "09"
+    },
+    {
+      "origin": "DASH 10 Centro!B43",
+      "destination": "DASH 10 Centro!A1",
+      "type": "Sidebar number"
+    },
+    {
+      "origin": "DASH 10 Centro!C43",
+      "destination": "DASH 10 Centro!A1",
+      "type": "Sidebar title"
+    },
+    {
+      "origin": "DASH 10 Centro!N6",
+      "destination": "DASH 10 Centro!A1",
+      "type": "Native HYPERLINK",
+      "PT": "10",
+      "EN": "10"
+    },
+    {
+      "origin": "DASH 10 Centro!Q18",
+      "destination": "DASH 10 V06!A1",
+      "type": "Native HYPERLINK",
+      "PT": "Pré-visualizar relatório · 10 páginas",
+      "EN": "Preview report · 10 pages"
+    },
+    {
+      "origin": "DASH 10 Centro!Q22",
+      "destination": "V06 Brief!A1",
+      "type": "Native HYPERLINK",
+      "PT": "Executive Brief · 2 páginas",
+      "EN": "Executive Brief · 2 pages"
+    },
+    {
+      "origin": "DASH 10 Centro!Q26",
+      "destination": "V06 Imprimir!A4",
+      "type": "Native HYPERLINK",
+      "PT": "Imprimir / Exportar PDF",
+      "EN": "Print / Export PDF"
+    }
+  ],
+  "chart_keys": [
+    "cash",
+    "debt",
+    "reserve",
+    "capex",
+    "receipts",
+    "revenue",
+    "ebitda",
+    "construction",
+    "supervision",
+    "contingency_paid",
+    "equity",
+    "investor_outlay",
+    "draw",
+    "tax_paid",
+    "vat_refund",
+    "construction_insurance",
+    "operating_insurance",
+    "principal",
+    "sweep",
+    "interest",
+    "debt_service",
+    "deed_sales",
+    "sales_profit",
+    "units_deeded",
+    "units_not_deeded",
+    "res_revenue",
+    "res_opex",
+    "res_fees",
+    "owner_distribution",
+    "owner_target",
+    "res_ffe",
+    "res_fund",
+    "dividend",
+    "room_revenue",
+    "fb_revenue",
+    "mice_revenue",
+    "other_revenue",
+    "ebitda_margin"
+  ],
+  "display_bindings": [
+    {
+      "sheet": "EXEC V06",
+      "cell": "W24",
+      "source_sheet": "V06 Controlos",
+      "source_cell": "B67",
+      "value": "Base"
+    },
+    {
+      "sheet": "EXEC V06",
+      "cell": "W27",
+      "source_sheet": "DASH 05 V06",
+      "source_cell": "H24",
+      "value": 185
+    },
+    {
+      "sheet": "EXEC V06",
+      "cell": "W30",
+      "source_sheet": "DASH 05 V06",
+      "source_cell": "H26",
+      "value": 0.58
+    },
+    {
+      "sheet": "EXEC V06",
+      "cell": "W33",
+      "source_sheet": "DASH 07 V06",
+      "source_cell": "N26",
+      "value": 0.12
+    },
+    {
+      "sheet": "EXEC V06",
+      "cell": "W36",
+      "source_sheet": "DASH 07 V06",
+      "source_cell": "H23",
+      "value": "Flexible"
+    },
+    {
+      "sheet": "EXEC V06",
+      "cell": "E54",
+      "source_sheet": "EXEC V06",
+      "source_cell": "E9",
+      "value": 50656336.37
+    },
+    {
+      "sheet": "EXEC V06",
+      "cell": "H54",
+      "source_sheet": "EXEC V06",
+      "source_cell": "I9",
+      "value": 63168000
+    },
+    {
+      "sheet": "EXEC V06",
+      "cell": "K54",
+      "source_sheet": "EXEC V06",
+      "source_cell": "M9",
+      "value": 17528049.0570992
+    },
+    {
+      "sheet": "EXEC V06",
+      "cell": "N54",
+      "source_sheet": "EXEC V06",
+      "source_cell": "E15",
+      "value": 0.0576464356516757
+    },
+    {
+      "sheet": "EXEC V06",
+      "cell": "Q54",
+      "source_sheet": "EXEC V06",
+      "source_cell": "I15",
+      "value": 2.11743775338615
+    },
+    {
+      "sheet": "EXEC V06",
+      "cell": "T54",
+      "source_sheet": "EXEC V06",
+      "source_cell": "M15",
+      "value": -12742848.2445606
+    },
+    {
+      "sheet": "EXEC V06",
+      "cell": "W54",
+      "source_sheet": "V06 Controlos",
+      "source_cell": "B67",
+      "value": "Base"
+    },
+    {
+      "sheet": "EXEC V06",
+      "cell": "I92",
+      "source_sheet": "EXEC V06",
+      "source_cell": "M66",
+      "value": 63168000
+    },
+    {
+      "sheet": "EXEC V06",
+      "cell": "I94",
+      "source_sheet": "EXEC V06",
+      "source_cell": "M68",
+      "value": 25000000
+    },
+    {
+      "sheet": "EXEC V06",
+      "cell": "I96",
+      "source_sheet": "EXEC V06",
+      "source_cell": "M70",
+      "value": 783200.035324653
+    },
+    {
+      "sheet": "EXEC V06",
+      "cell": "P92",
+      "source_sheet": "EXEC V06",
+      "source_cell": "E9",
+      "value": 50656336.37
+    },
+    {
+      "sheet": "EXEC V06",
+      "cell": "P94",
+      "source_sheet": "EXEC V06",
+      "source_cell": "I9",
+      "value": 63168000
+    },
+    {
+      "sheet": "EXEC V06",
+      "cell": "P96",
+      "source_sheet": "EXEC V06",
+      "source_cell": "M9",
+      "value": 17528049.0570992
+    },
+    {
+      "sheet": "EXEC V06",
+      "cell": "P98",
+      "source_sheet": "EXEC V06",
+      "source_cell": "E15",
+      "value": 0.0576464356516757
+    },
+    {
+      "sheet": "EXEC V06",
+      "cell": "P100",
+      "source_sheet": "EXEC V06",
+      "source_cell": "I15",
+      "value": 2.11743775338615
+    },
+    {
+      "sheet": "EXEC V06",
+      "cell": "P102",
+      "source_sheet": "EXEC V06",
+      "source_cell": "M15",
+      "value": -12742848.2445606
+    },
+    {
+      "sheet": "EXEC V06",
+      "cell": "W92",
+      "source_sheet": "DASH 05 V06",
+      "source_cell": "H24",
+      "value": 185
+    },
+    {
+      "sheet": "EXEC V06",
+      "cell": "W94",
+      "source_sheet": "DASH 05 V06",
+      "source_cell": "H26",
+      "value": 0.58
+    },
+    {
+      "sheet": "EXEC V06",
+      "cell": "W96",
+      "source_sheet": "DASH 05 V06",
+      "source_cell": "N25",
+      "value": 0.5
+    },
+    {
+      "sheet": "EXEC V06",
+      "cell": "W98",
+      "source_sheet": "DASH 05 V06",
+      "source_cell": "N27",
+      "value": 0.05
+    },
+    {
+      "sheet": "EXEC V06",
+      "cell": "W100",
+      "source_sheet": "DASH 07 V06",
+      "source_cell": "N26",
+      "value": 0.12
+    },
+    {
+      "sheet": "DASH 01 V06",
+      "cell": "W24",
+      "source_sheet": "V06 Controlos",
+      "source_cell": "B67",
+      "value": "Base"
+    },
+    {
+      "sheet": "DASH 01 V06",
+      "cell": "W27",
+      "source_sheet": "DASH 05 V06",
+      "source_cell": "H24",
+      "value": 185
+    },
+    {
+      "sheet": "DASH 01 V06",
+      "cell": "W30",
+      "source_sheet": "DASH 05 V06",
+      "source_cell": "H26",
+      "value": 0.58
+    },
+    {
+      "sheet": "DASH 01 V06",
+      "cell": "W33",
+      "source_sheet": "DASH 07 V06",
+      "source_cell": "N26",
+      "value": 0.12
+    },
+    {
+      "sheet": "DASH 01 V06",
+      "cell": "W36",
+      "source_sheet": "DASH 07 V06",
+      "source_cell": "H23",
+      "value": "Flexible"
+    },
+    {
+      "sheet": "DASH 01 V06",
+      "cell": "E54",
+      "source_sheet": "DASH 01 V06",
+      "source_cell": "E9",
+      "value": 4500000
+    },
+    {
+      "sheet": "DASH 01 V06",
+      "cell": "H54",
+      "source_sheet": "DASH 01 V06",
+      "source_cell": "I9",
+      "value": 63168000
+    },
+    {
+      "sheet": "DASH 01 V06",
+      "cell": "K54",
+      "source_sheet": "DASH 01 V06",
+      "source_cell": "M9",
+      "value": 56400000
+    },
+    {
+      "sheet": "DASH 01 V06",
+      "cell": "N54",
+      "source_sheet": "DASH 01 V06",
+      "source_cell": "E15",
+      "value": 1128000
+    },
+    {
+      "sheet": "DASH 01 V06",
+      "cell": "Q54",
+      "source_sheet": "DASH 01 V06",
+      "source_cell": "I15",
+      "value": 5640000
+    },
+    {
+      "sheet": "DASH 01 V06",
+      "cell": "T54",
+      "source_sheet": "DASH 01 V06",
+      "source_cell": "M15",
+      "value": 0
+    },
+    {
+      "sheet": "DASH 01 V06",
+      "cell": "W54",
+      "source_sheet": "V06 Controlos",
+      "source_cell": "B67",
+      "value": "Base"
+    },
+    {
+      "sheet": "DASH 01 V06",
+      "cell": "I92",
+      "source_sheet": "DASH 01 V06",
+      "source_cell": "M66",
+      "value": 56400000
+    },
+    {
+      "sheet": "DASH 01 V06",
+      "cell": "I94",
+      "source_sheet": "DASH 01 V06",
+      "source_cell": "M68",
+      "value": 1128000
+    },
+    {
+      "sheet": "DASH 01 V06",
+      "cell": "I96",
+      "source_sheet": "DASH 01 V06",
+      "source_cell": "M70",
+      "value": 5640000
+    },
+    {
+      "sheet": "DASH 01 V06",
+      "cell": "I98",
+      "source_sheet": "DASH 01 V06",
+      "source_cell": "M72",
+      "value": 0
+    },
+    {
+      "sheet": "DASH 01 V06",
+      "cell": "P92",
+      "source_sheet": "DASH 01 V06",
+      "source_cell": "E9",
+      "value": 4500000
+    },
+    {
+      "sheet": "DASH 01 V06",
+      "cell": "P94",
+      "source_sheet": "DASH 01 V06",
+      "source_cell": "I9",
+      "value": 63168000
+    },
+    {
+      "sheet": "DASH 01 V06",
+      "cell": "P96",
+      "source_sheet": "DASH 01 V06",
+      "source_cell": "M9",
+      "value": 56400000
+    },
+    {
+      "sheet": "DASH 01 V06",
+      "cell": "P98",
+      "source_sheet": "DASH 01 V06",
+      "source_cell": "E15",
+      "value": 1128000
+    },
+    {
+      "sheet": "DASH 01 V06",
+      "cell": "P100",
+      "source_sheet": "DASH 01 V06",
+      "source_cell": "I15",
+      "value": 5640000
+    },
+    {
+      "sheet": "DASH 01 V06",
+      "cell": "P102",
+      "source_sheet": "DASH 01 V06",
+      "source_cell": "M15",
+      "value": 0
+    },
+    {
+      "sheet": "DASH 01 V06",
+      "cell": "W92",
+      "source_sheet": "DASH 05 V06",
+      "source_cell": "H24",
+      "value": 185
+    },
+    {
+      "sheet": "DASH 01 V06",
+      "cell": "W94",
+      "source_sheet": "DASH 05 V06",
+      "source_cell": "H26",
+      "value": 0.58
+    },
+    {
+      "sheet": "DASH 01 V06",
+      "cell": "W96",
+      "source_sheet": "DASH 05 V06",
+      "source_cell": "N25",
+      "value": 0.5
+    },
+    {
+      "sheet": "DASH 01 V06",
+      "cell": "W98",
+      "source_sheet": "DASH 05 V06",
+      "source_cell": "N27",
+      "value": 0.05
+    },
+    {
+      "sheet": "DASH 01 V06",
+      "cell": "W100",
+      "source_sheet": "DASH 07 V06",
+      "source_cell": "N26",
+      "value": 0.12
+    },
+    {
+      "sheet": "DASH 02 V06",
+      "cell": "W24",
+      "source_sheet": "V06 Controlos",
+      "source_cell": "B67",
+      "value": "Base"
+    },
+    {
+      "sheet": "DASH 02 V06",
+      "cell": "W27",
+      "source_sheet": "DASH 05 V06",
+      "source_cell": "H24",
+      "value": 185
+    },
+    {
+      "sheet": "DASH 02 V06",
+      "cell": "W30",
+      "source_sheet": "DASH 05 V06",
+      "source_cell": "H26",
+      "value": 0.58
+    },
+    {
+      "sheet": "DASH 02 V06",
+      "cell": "W33",
+      "source_sheet": "DASH 07 V06",
+      "source_cell": "N26",
+      "value": 0.12
+    },
+    {
+      "sheet": "DASH 02 V06",
+      "cell": "W36",
+      "source_sheet": "DASH 07 V06",
+      "source_cell": "H23",
+      "value": "Flexible"
+    },
+    {
+      "sheet": "DASH 02 V06",
+      "cell": "E54",
+      "source_sheet": "DASH 02 V06",
+      "source_cell": "E9",
+      "value": 8629200
+    },
+    {
+      "sheet": "DASH 02 V06",
+      "cell": "H54",
+      "source_sheet": "DASH 02 V06",
+      "source_cell": "I9",
+      "value": 3077345.304
+    },
+    {
+      "sheet": "DASH 02 V06",
+      "cell": "K54",
+      "source_sheet": "DASH 02 V06",
+      "source_cell": "M9",
+      "value": 13407521.4412747
+    },
+    {
+      "sheet": "DASH 02 V06",
+      "cell": "N54",
+      "source_sheet": "DASH 02 V06",
+      "source_cell": "E15",
+      "value": 197400
+    },
+    {
+      "sheet": "DASH 02 V06",
+      "cell": "Q54",
+      "source_sheet": "DASH 02 V06",
+      "source_cell": "I15",
+      "value": 2581418.15690023
+    },
+    {
+      "sheet": "DASH 02 V06",
+      "cell": "T54",
+      "source_sheet": "DASH 02 V06",
+      "source_cell": "M15",
+      "value": 0
+    },
+    {
+      "sheet": "DASH 02 V06",
+      "cell": "W54",
+      "source_sheet": "V06 Controlos",
+      "source_cell": "B67",
+      "value": "Base"
+    },
+    {
+      "sheet": "DASH 02 V06",
+      "cell": "I92",
+      "source_sheet": "DASH 02 V06",
+      "source_cell": "M66",
+      "value": 13407521.4412747
+    },
+    {
+      "sheet": "DASH 02 V06",
+      "cell": "I94",
+      "source_sheet": "DASH 02 V06",
+      "source_cell": "M68",
+      "value": 8629200
+    },
+    {
+      "sheet": "DASH 02 V06",
+      "cell": "I96",
+      "source_sheet": "DASH 02 V06",
+      "source_cell": "M70",
+      "value": 197400
+    },
+    {
+      "sheet": "DASH 02 V06",
+      "cell": "I98",
+      "source_sheet": "DASH 02 V06",
+      "source_cell": "M72",
+      "value": 2581418.15690023
+    },
+    {
+      "sheet": "DASH 02 V06",
+      "cell": "P92",
+      "source_sheet": "DASH 02 V06",
+      "source_cell": "E9",
+      "value": 8629200
+    },
+    {
+      "sheet": "DASH 02 V06",
+      "cell": "P94",
+      "source_sheet": "DASH 02 V06",
+      "source_cell": "I9",
+      "value": 3077345.304
+    },
+    {
+      "sheet": "DASH 02 V06",
+      "cell": "P96",
+      "source_sheet": "DASH 02 V06",
+      "source_cell": "M9",
+      "value": 13407521.4412747
+    },
+    {
+      "sheet": "DASH 02 V06",
+      "cell": "P98",
+      "source_sheet": "DASH 02 V06",
+      "source_cell": "E15",
+      "value": 197400
+    },
+    {
+      "sheet": "DASH 02 V06",
+      "cell": "P100",
+      "source_sheet": "DASH 02 V06",
+      "source_cell": "I15",
+      "value": 2581418.15690023
+    },
+    {
+      "sheet": "DASH 02 V06",
+      "cell": "P102",
+      "source_sheet": "DASH 02 V06",
+      "source_cell": "M15",
+      "value": 0
+    },
+    {
+      "sheet": "DASH 02 V06",
+      "cell": "W92",
+      "source_sheet": "DASH 05 V06",
+      "source_cell": "H24",
+      "value": 185
+    },
+    {
+      "sheet": "DASH 02 V06",
+      "cell": "W94",
+      "source_sheet": "DASH 05 V06",
+      "source_cell": "H26",
+      "value": 0.58
+    },
+    {
+      "sheet": "DASH 02 V06",
+      "cell": "W96",
+      "source_sheet": "DASH 05 V06",
+      "source_cell": "N25",
+      "value": 0.5
+    },
+    {
+      "sheet": "DASH 02 V06",
+      "cell": "W98",
+      "source_sheet": "DASH 05 V06",
+      "source_cell": "N27",
+      "value": 0.05
+    },
+    {
+      "sheet": "DASH 02 V06",
+      "cell": "W100",
+      "source_sheet": "DASH 07 V06",
+      "source_cell": "N26",
+      "value": 0.12
+    },
+    {
+      "sheet": "DASH 03 V06",
+      "cell": "W24",
+      "source_sheet": "V06 Controlos",
+      "source_cell": "B67",
+      "value": "Base"
+    },
+    {
+      "sheet": "DASH 03 V06",
+      "cell": "W27",
+      "source_sheet": "DASH 05 V06",
+      "source_cell": "H24",
+      "value": 185
+    },
+    {
+      "sheet": "DASH 03 V06",
+      "cell": "W30",
+      "source_sheet": "DASH 05 V06",
+      "source_cell": "H26",
+      "value": 0.58
+    },
+    {
+      "sheet": "DASH 03 V06",
+      "cell": "W33",
+      "source_sheet": "DASH 07 V06",
+      "source_cell": "N26",
+      "value": 0.12
+    },
+    {
+      "sheet": "DASH 03 V06",
+      "cell": "W36",
+      "source_sheet": "DASH 07 V06",
+      "source_cell": "H23",
+      "value": "Flexible"
+    },
+    {
+      "sheet": "DASH 03 V06",
+      "cell": "E54",
+      "source_sheet": "DASH 03 V06",
+      "source_cell": "E9",
+      "value": 9486927.78068434
+    },
+    {
+      "sheet": "DASH 03 V06",
+      "cell": "H54",
+      "source_sheet": "DASH 03 V06",
+      "source_cell": "I9",
+      "value": 5111020.28657412
+    },
+    {
+      "sheet": "DASH 03 V06",
+      "cell": "K54",
+      "source_sheet": "DASH 03 V06",
+      "source_cell": "M9",
+      "value": 5514464.74762273
+    },
+    {
+      "sheet": "DASH 03 V06",
+      "cell": "N54",
+      "source_sheet": "DASH 03 V06",
+      "source_cell": "E15",
+      "value": 0
+    },
+    {
+      "sheet": "DASH 03 V06",
+      "cell": "Q54",
+      "source_sheet": "DASH 03 V06",
+      "source_cell": "I15",
+      "value": 0
+    },
+    {
+      "sheet": "DASH 03 V06",
+      "cell": "T54",
+      "source_sheet": "DASH 03 V06",
+      "source_cell": "M15",
+      "value": 783200.035324653
+    },
+    {
+      "sheet": "DASH 03 V06",
+      "cell": "W54",
+      "source_sheet": "V06 Controlos",
+      "source_cell": "B67",
+      "value": "Base"
+    },
+    {
+      "sheet": "DASH 03 V06",
+      "cell": "I92",
+      "source_sheet": "DASH 03 V06",
+      "source_cell": "M66",
+      "value": 23190403.467466
+    },
+    {
+      "sheet": "DASH 03 V06",
+      "cell": "I94",
+      "source_sheet": "DASH 03 V06",
+      "source_cell": "M68",
+      "value": 783200.035324653
+    },
+    {
+      "sheet": "DASH 03 V06",
+      "cell": "I96",
+      "source_sheet": "DASH 03 V06",
+      "source_cell": "M70",
+      "value": 0
+    },
+    {
+      "sheet": "DASH 03 V06",
+      "cell": "I98",
+      "source_sheet": "DASH 03 V06",
+      "source_cell": "M72",
+      "value": 23190403.4674659
+    },
+    {
+      "sheet": "DASH 03 V06",
+      "cell": "P92",
+      "source_sheet": "DASH 03 V06",
+      "source_cell": "E9",
+      "value": 9486927.78068434
+    },
+    {
+      "sheet": "DASH 03 V06",
+      "cell": "P94",
+      "source_sheet": "DASH 03 V06",
+      "source_cell": "I9",
+      "value": 5111020.28657412
+    },
+    {
+      "sheet": "DASH 03 V06",
+      "cell": "P96",
+      "source_sheet": "DASH 03 V06",
+      "source_cell": "M9",
+      "value": 5514464.74762273
+    },
+    {
+      "sheet": "DASH 03 V06",
+      "cell": "P98",
+      "source_sheet": "DASH 03 V06",
+      "source_cell": "E15",
+      "value": 0
+    },
+    {
+      "sheet": "DASH 03 V06",
+      "cell": "P100",
+      "source_sheet": "DASH 03 V06",
+      "source_cell": "I15",
+      "value": 0
+    },
+    {
+      "sheet": "DASH 03 V06",
+      "cell": "P102",
+      "source_sheet": "DASH 03 V06",
+      "source_cell": "M15",
+      "value": 783200.035324653
+    },
+    {
+      "sheet": "DASH 03 V06",
+      "cell": "W92",
+      "source_sheet": "DASH 05 V06",
+      "source_cell": "H24",
+      "value": 185
+    },
+    {
+      "sheet": "DASH 03 V06",
+      "cell": "W94",
+      "source_sheet": "DASH 05 V06",
+      "source_cell": "H26",
+      "value": 0.58
+    },
+    {
+      "sheet": "DASH 03 V06",
+      "cell": "W96",
+      "source_sheet": "DASH 05 V06",
+      "source_cell": "N25",
+      "value": 0.5
+    },
+    {
+      "sheet": "DASH 03 V06",
+      "cell": "W98",
+      "source_sheet": "DASH 05 V06",
+      "source_cell": "N27",
+      "value": 0.05
+    },
+    {
+      "sheet": "DASH 03 V06",
+      "cell": "W100",
+      "source_sheet": "DASH 07 V06",
+      "source_cell": "N26",
+      "value": 0.12
+    },
+    {
+      "sheet": "DASH 04A V06",
+      "cell": "W24",
+      "source_sheet": "V06 Controlos",
+      "source_cell": "B67",
+      "value": "Base"
+    },
+    {
+      "sheet": "DASH 04A V06",
+      "cell": "W27",
+      "source_sheet": "DASH 05 V06",
+      "source_cell": "H24",
+      "value": 185
+    },
+    {
+      "sheet": "DASH 04A V06",
+      "cell": "W30",
+      "source_sheet": "DASH 05 V06",
+      "source_cell": "H26",
+      "value": 0.58
+    },
+    {
+      "sheet": "DASH 04A V06",
+      "cell": "W33",
+      "source_sheet": "DASH 07 V06",
+      "source_cell": "N26",
+      "value": 0.12
+    },
+    {
+      "sheet": "DASH 04A V06",
+      "cell": "W36",
+      "source_sheet": "DASH 07 V06",
+      "source_cell": "H23",
+      "value": "Flexible"
+    },
+    {
+      "sheet": "DASH 04A V06",
+      "cell": "E54",
+      "source_sheet": "DASH 04A V06",
+      "source_cell": "E9",
+      "value": 94
+    },
+    {
+      "sheet": "DASH 04A V06",
+      "cell": "H54",
+      "source_sheet": "DASH 04A V06",
+      "source_cell": "I9",
+      "value": 50656336.37
+    },
+    {
+      "sheet": "DASH 04A V06",
+      "cell": "K54",
+      "source_sheet": "DASH 04A V06",
+      "source_cell": "M9",
+      "value": 50656336.37
+    },
+    {
+      "sheet": "DASH 04A V06",
+      "cell": "N54",
+      "source_sheet": "DASH 04A V06",
+      "source_cell": "E15",
+      "value": 1266408.40925
+    },
+    {
+      "sheet": "DASH 04A V06",
+      "cell": "Q54",
+      "source_sheet": "DASH 04A V06",
+      "source_cell": "I15",
+      "value": 43670.2489457217
+    },
+    {
+      "sheet": "DASH 04A V06",
+      "cell": "T54",
+      "source_sheet": "DASH 04A V06",
+      "source_cell": "M15",
+      "value": 31484497.7118043
+    },
+    {
+      "sheet": "DASH 04A V06",
+      "cell": "W54",
+      "source_sheet": "V06 Controlos",
+      "source_cell": "B67",
+      "value": "Base"
+    },
+    {
+      "sheet": "DASH 04A V06",
+      "cell": "I92",
+      "source_sheet": "DASH 04A V06",
+      "source_cell": "M66",
+      "value": 50656336.37
+    },
+    {
+      "sheet": "DASH 04A V06",
+      "cell": "I94",
+      "source_sheet": "DASH 04A V06",
+      "source_cell": "M68",
+      "value": 50656336.37
+    },
+    {
+      "sheet": "DASH 04A V06",
+      "cell": "I96",
+      "source_sheet": "DASH 04A V06",
+      "source_cell": "M70",
+      "value": 1266408.40925
+    },
+    {
+      "sheet": "DASH 04A V06",
+      "cell": "I98",
+      "source_sheet": "DASH 04A V06",
+      "source_cell": "M72",
+      "value": 31484497.7118043
+    },
+    {
+      "sheet": "DASH 04A V06",
+      "cell": "P92",
+      "source_sheet": "DASH 04A V06",
+      "source_cell": "E9",
+      "value": 94
+    },
+    {
+      "sheet": "DASH 04A V06",
+      "cell": "P94",
+      "source_sheet": "DASH 04A V06",
+      "source_cell": "I9",
+      "value": 50656336.37
+    },
+    {
+      "sheet": "DASH 04A V06",
+      "cell": "P96",
+      "source_sheet": "DASH 04A V06",
+      "source_cell": "M9",
+      "value": 50656336.37
+    },
+    {
+      "sheet": "DASH 04A V06",
+      "cell": "P98",
+      "source_sheet": "DASH 04A V06",
+      "source_cell": "E15",
+      "value": 1266408.40925
+    },
+    {
+      "sheet": "DASH 04A V06",
+      "cell": "P100",
+      "source_sheet": "DASH 04A V06",
+      "source_cell": "I15",
+      "value": 43670.2489457217
+    },
+    {
+      "sheet": "DASH 04A V06",
+      "cell": "P102",
+      "source_sheet": "DASH 04A V06",
+      "source_cell": "M15",
+      "value": 31484497.7118043
+    },
+    {
+      "sheet": "DASH 04A V06",
+      "cell": "W92",
+      "source_sheet": "DASH 05 V06",
+      "source_cell": "H24",
+      "value": 185
+    },
+    {
+      "sheet": "DASH 04A V06",
+      "cell": "W94",
+      "source_sheet": "DASH 05 V06",
+      "source_cell": "H26",
+      "value": 0.58
+    },
+    {
+      "sheet": "DASH 04A V06",
+      "cell": "W96",
+      "source_sheet": "DASH 05 V06",
+      "source_cell": "N25",
+      "value": 0.5
+    },
+    {
+      "sheet": "DASH 04A V06",
+      "cell": "W98",
+      "source_sheet": "DASH 05 V06",
+      "source_cell": "N27",
+      "value": 0.05
+    },
+    {
+      "sheet": "DASH 04A V06",
+      "cell": "W100",
+      "source_sheet": "DASH 07 V06",
+      "source_cell": "N26",
+      "value": 0.12
+    },
+    {
+      "sheet": "DASH 04B V06",
+      "cell": "W24",
+      "source_sheet": "V06 Controlos",
+      "source_cell": "B67",
+      "value": "Base"
+    },
+    {
+      "sheet": "DASH 04B V06",
+      "cell": "W27",
+      "source_sheet": "DASH 05 V06",
+      "source_cell": "H24",
+      "value": 185
+    },
+    {
+      "sheet": "DASH 04B V06",
+      "cell": "W30",
+      "source_sheet": "DASH 05 V06",
+      "source_cell": "H26",
+      "value": 0.58
+    },
+    {
+      "sheet": "DASH 04B V06",
+      "cell": "W33",
+      "source_sheet": "DASH 07 V06",
+      "source_cell": "N26",
+      "value": 0.12
+    },
+    {
+      "sheet": "DASH 04B V06",
+      "cell": "W36",
+      "source_sheet": "DASH 07 V06",
+      "source_cell": "H23",
+      "value": "Flexible"
+    },
+    {
+      "sheet": "DASH 04B V06",
+      "cell": "E54",
+      "source_sheet": "DASH 04B V06",
+      "source_cell": "E9",
+      "value": 78270824.6302655
+    },
+    {
+      "sheet": "DASH 04B V06",
+      "cell": "H54",
+      "source_sheet": "DASH 04B V06",
+      "source_cell": "I9",
+      "value": 35294489.2175542
+    },
+    {
+      "sheet": "DASH 04B V06",
+      "cell": "K54",
+      "source_sheet": "DASH 04B V06",
+      "source_cell": "M9",
+      "value": 164946.241445833
+    },
+    {
+      "sheet": "DASH 04B V06",
+      "cell": "N54",
+      "source_sheet": "DASH 04B V06",
+      "source_cell": "E15",
+      "value": 2641464.10009723
+    },
+    {
+      "sheet": "DASH 04B V06",
+      "cell": "Q54",
+      "source_sheet": "DASH 04B V06",
+      "source_cell": "I15",
+      "value": 3130832.98521062
+    },
+    {
+      "sheet": "DASH 04B V06",
+      "cell": "T54",
+      "source_sheet": "DASH 04B V06",
+      "source_cell": "M15",
+      "value": 1173984.04448766
+    },
+    {
+      "sheet": "DASH 04B V06",
+      "cell": "W54",
+      "source_sheet": "V06 Controlos",
+      "source_cell": "B67",
+      "value": "Base"
+    },
+    {
+      "sheet": "DASH 04B V06",
+      "cell": "I92",
+      "source_sheet": "DASH 04B V06",
+      "source_cell": "M66",
+      "value": 78270824.6302655
+    },
+    {
+      "sheet": "DASH 04B V06",
+      "cell": "I94",
+      "source_sheet": "DASH 04B V06",
+      "source_cell": "M68",
+      "value": 27394788.6205929
+    },
+    {
+      "sheet": "DASH 04B V06",
+      "cell": "I96",
+      "source_sheet": "DASH 04B V06",
+      "source_cell": "M70",
+      "value": 6261665.97042124
+    },
+    {
+      "sheet": "DASH 04B V06",
+      "cell": "I98",
+      "source_sheet": "DASH 04B V06",
+      "source_cell": "M72",
+      "value": 35294489.2175542
+    },
+    {
+      "sheet": "DASH 04B V06",
+      "cell": "I100",
+      "source_sheet": "DASH 04B V06",
+      "source_cell": "M74",
+      "value": 164946.241445833
+    },
+    {
+      "sheet": "DASH 04B V06",
+      "cell": "I102",
+      "source_sheet": "DASH 04B V06",
+      "source_cell": "M76",
+      "value": 3130832.98521062
+    },
+    {
+      "sheet": "DASH 04B V06",
+      "cell": "P92",
+      "source_sheet": "DASH 04B V06",
+      "source_cell": "E9",
+      "value": 78270824.6302655
+    },
+    {
+      "sheet": "DASH 04B V06",
+      "cell": "P94",
+      "source_sheet": "DASH 04B V06",
+      "source_cell": "I9",
+      "value": 35294489.2175542
+    },
+    {
+      "sheet": "DASH 04B V06",
+      "cell": "P96",
+      "source_sheet": "DASH 04B V06",
+      "source_cell": "M9",
+      "value": 164946.241445833
+    },
+    {
+      "sheet": "DASH 04B V06",
+      "cell": "P98",
+      "source_sheet": "DASH 04B V06",
+      "source_cell": "E15",
+      "value": 2641464.10009723
+    },
+    {
+      "sheet": "DASH 04B V06",
+      "cell": "P100",
+      "source_sheet": "DASH 04B V06",
+      "source_cell": "I15",
+      "value": 3130832.98521062
+    },
+    {
+      "sheet": "DASH 04B V06",
+      "cell": "P102",
+      "source_sheet": "DASH 04B V06",
+      "source_cell": "M15",
+      "value": 1173984.04448766
+    },
+    {
+      "sheet": "DASH 04B V06",
+      "cell": "W92",
+      "source_sheet": "DASH 05 V06",
+      "source_cell": "H24",
+      "value": 185
+    },
+    {
+      "sheet": "DASH 04B V06",
+      "cell": "W94",
+      "source_sheet": "DASH 05 V06",
+      "source_cell": "H26",
+      "value": 0.58
+    },
+    {
+      "sheet": "DASH 04B V06",
+      "cell": "W96",
+      "source_sheet": "DASH 05 V06",
+      "source_cell": "N25",
+      "value": 0.5
+    },
+    {
+      "sheet": "DASH 04B V06",
+      "cell": "W98",
+      "source_sheet": "DASH 05 V06",
+      "source_cell": "N27",
+      "value": 0.05
+    },
+    {
+      "sheet": "DASH 04B V06",
+      "cell": "W100",
+      "source_sheet": "DASH 07 V06",
+      "source_cell": "N26",
+      "value": 0.12
+    },
+    {
+      "sheet": "DASH 05 V06",
+      "cell": "Q23",
+      "source_sheet": "DASH 05 V06",
+      "source_cell": "H32",
+      "value": "Custom Terms"
+    },
+    {
+      "sheet": "DASH 05 V06",
+      "cell": "W26",
+      "source_sheet": "DASH 05 V06",
+      "source_cell": "H28",
+      "value": 0.03
+    },
+    {
+      "sheet": "DASH 05 V06",
+      "cell": "W28",
+      "source_sheet": "DASH 05 V06",
+      "source_cell": "N30",
+      "value": 0.06
+    },
+    {
+      "sheet": "DASH 05 V06",
+      "cell": "W30",
+      "source_sheet": "DASH 05 V06",
+      "source_cell": "N28",
+      "value": 0.03
+    },
+    {
+      "sheet": "DASH 05 V06",
+      "cell": "E54",
+      "source_sheet": "DASH 05 V06",
+      "source_cell": "E44",
+      "value": 200
+    },
+    {
+      "sheet": "DASH 05 V06",
+      "cell": "H54",
+      "source_sheet": "DASH 05 V06",
+      "source_cell": "H44",
+      "value": 45844
+    },
+    {
+      "sheet": "DASH 05 V06",
+      "cell": "K54",
+      "source_sheet": "DASH 05 V06",
+      "source_cell": "K50",
+      "value": 130.7616135458
+    },
+    {
+      "sheet": "DASH 05 V06",
+      "cell": "N54",
+      "source_sheet": "DASH 05 V06",
+      "source_cell": "K44",
+      "value": 9545597.7888434
+    },
+    {
+      "sheet": "DASH 05 V06",
+      "cell": "Q54",
+      "source_sheet": "DASH 05 V06",
+      "source_cell": "N44",
+      "value": 1832754.77545793
+    },
+    {
+      "sheet": "DASH 05 V06",
+      "cell": "T54",
+      "source_sheet": "DASH 05 V06",
+      "source_cell": "E50",
+      "value": 3627327.15976049
+    },
+    {
+      "sheet": "DASH 05 V06",
+      "cell": "W54",
+      "source_sheet": "DASH 05 V06",
+      "source_cell": "H50",
+      "value": 15463868.4179263
+    },
+    {
+      "sheet": "DASH 05 V06",
+      "cell": "I92",
+      "source_sheet": "DASH 05 V06",
+      "source_cell": "K44",
+      "value": 9545597.7888434
+    },
+    {
+      "sheet": "DASH 05 V06",
+      "cell": "I94",
+      "source_sheet": "DASH 05 V06",
+      "source_cell": "N44",
+      "value": 1832754.77545793
+    },
+    {
+      "sheet": "DASH 05 V06",
+      "cell": "I96",
+      "source_sheet": "DASH 05 V06",
+      "source_cell": "E50",
+      "value": 3627327.15976049
+    },
+    {
+      "sheet": "DASH 05 V06",
+      "cell": "I98",
+      "source_sheet": "DASH 05 V06",
+      "source_cell": "M84",
+      "value": 458188.693864483
+    },
+    {
+      "sheet": "DASH 05 V06",
+      "cell": "I100",
+      "source_sheet": "DASH 05 V06",
+      "source_cell": "H50",
+      "value": 15463868.4179263
+    },
+    {
+      "sheet": "DASH 05 V06",
+      "cell": "I102",
+      "source_sheet": "DASH 05 V06",
+      "source_cell": "M72",
+      "value": 5497309.76659492
+    },
+    {
+      "sheet": "DASH 05 V06",
+      "cell": "I104",
+      "source_sheet": "DASH 05 V06",
+      "source_cell": "M74",
+      "value": 1202000.76476674
+    },
+    {
+      "sheet": "DASH 05 V06",
+      "cell": "I106",
+      "source_sheet": "DASH 05 V06",
+      "source_cell": "N50",
+      "value": 4093567.3965744
+    },
+    {
+      "sheet": "DASH 05 V06",
+      "cell": "P92",
+      "source_sheet": "DASH 05 V06",
+      "source_cell": "K50",
+      "value": 130.7616135458
+    },
+    {
+      "sheet": "DASH 05 V06",
+      "cell": "P94",
+      "source_sheet": "DASH 05 V06",
+      "source_cell": "M80",
+      "value": 0.264718198961715
+    },
+    {
+      "sheet": "DASH 05 V06",
+      "cell": "P96",
+      "source_sheet": "DASH 05 V06",
+      "source_cell": "H24",
+      "value": 185
+    },
+    {
+      "sheet": "DASH 05 V06",
+      "cell": "P98",
+      "source_sheet": "DASH 05 V06",
+      "source_cell": "H26",
+      "value": 0.58
+    },
+    {
+      "sheet": "DASH 05 V06",
+      "cell": "P100",
+      "source_sheet": "DASH 05 V06",
+      "source_cell": "N25",
+      "value": 0.5
+    },
+    {
+      "sheet": "DASH 05 V06",
+      "cell": "P102",
+      "source_sheet": "DASH 05 V06",
+      "source_cell": "N29",
+      "value": 0.03
+    },
+    {
+      "sheet": "DASH 05 V06",
+      "cell": "W92",
+      "source_sheet": "DASH 05 V06",
+      "source_cell": "M76",
+      "value": 773193.420896315
+    },
+    {
+      "sheet": "DASH 05 V06",
+      "cell": "W94",
+      "source_sheet": "DASH 05 V06",
+      "source_cell": "M78",
+      "value": 773193.420896315
+    },
+    {
+      "sheet": "DASH 05 V06",
+      "cell": "W96",
+      "source_sheet": "DASH 05 V06",
+      "source_cell": "M82",
+      "value": 0
+    },
+    {
+      "sheet": "DASH 05 V06",
+      "cell": "W98",
+      "source_sheet": "DASH 05 V06",
+      "source_cell": "N27",
+      "value": 0.05
+    },
+    {
+      "sheet": "DASH 05 V06",
+      "cell": "W100",
+      "source_sheet": "V06 Motor",
+      "source_cell": "EB184",
+      "value": 2000000
+    },
+    {
+      "sheet": "DASH 06 V06",
+      "cell": "W24",
+      "source_sheet": "V06 Controlos",
+      "source_cell": "B67",
+      "value": "Base"
+    },
+    {
+      "sheet": "DASH 06 V06",
+      "cell": "W27",
+      "source_sheet": "DASH 05 V06",
+      "source_cell": "H24",
+      "value": 185
+    },
+    {
+      "sheet": "DASH 06 V06",
+      "cell": "W30",
+      "source_sheet": "DASH 05 V06",
+      "source_cell": "H26",
+      "value": 0.58
+    },
+    {
+      "sheet": "DASH 06 V06",
+      "cell": "W33",
+      "source_sheet": "DASH 07 V06",
+      "source_cell": "N26",
+      "value": 0.12
+    },
+    {
+      "sheet": "DASH 06 V06",
+      "cell": "W36",
+      "source_sheet": "DASH 07 V06",
+      "source_cell": "H23",
+      "value": "Flexible"
+    },
+    {
+      "sheet": "DASH 06 V06",
+      "cell": "E54",
+      "source_sheet": "DASH 06 V06",
+      "source_cell": "E9",
+      "value": 15
+    },
+    {
+      "sheet": "DASH 06 V06",
+      "cell": "H54",
+      "source_sheet": "DASH 06 V06",
+      "source_cell": "I9",
+      "value": 8
+    },
+    {
+      "sheet": "DASH 06 V06",
+      "cell": "K54",
+      "source_sheet": "DASH 06 V06",
+      "source_cell": "M9",
+      "value": 25000000
+    },
+    {
+      "sheet": "DASH 06 V06",
+      "cell": "N54",
+      "source_sheet": "DASH 06 V06",
+      "source_cell": "E15",
+      "value": 25000000
+    },
+    {
+      "sheet": "DASH 06 V06",
+      "cell": "Q54",
+      "source_sheet": "DASH 06 V06",
+      "source_cell": "I15",
+      "value": 0.4
+    },
+    {
+      "sheet": "DASH 06 V06",
+      "cell": "T54",
+      "source_sheet": "DASH 06 V06",
+      "source_cell": "M15",
+      "value": 0.1
+    },
+    {
+      "sheet": "DASH 06 V06",
+      "cell": "W54",
+      "source_sheet": "V06 Controlos",
+      "source_cell": "B67",
+      "value": "Base"
+    },
+    {
+      "sheet": "DASH 06 V06",
+      "cell": "I92",
+      "source_sheet": "DASH 06 V06",
+      "source_cell": "M66",
+      "value": 25000000
+    },
+    {
+      "sheet": "DASH 06 V06",
+      "cell": "I94",
+      "source_sheet": "DASH 06 V06",
+      "source_cell": "M68",
+      "value": 25000000
+    },
+    {
+      "sheet": "DASH 06 V06",
+      "cell": "I96",
+      "source_sheet": "DASH 06 V06",
+      "source_cell": "M70",
+      "value": 26960052.9369736
+    },
+    {
+      "sheet": "DASH 06 V06",
+      "cell": "P92",
+      "source_sheet": "DASH 06 V06",
+      "source_cell": "E9",
+      "value": 15
+    },
+    {
+      "sheet": "DASH 06 V06",
+      "cell": "P94",
+      "source_sheet": "DASH 06 V06",
+      "source_cell": "I9",
+      "value": 8
+    },
+    {
+      "sheet": "DASH 06 V06",
+      "cell": "P96",
+      "source_sheet": "DASH 06 V06",
+      "source_cell": "M9",
+      "value": 25000000
+    },
+    {
+      "sheet": "DASH 06 V06",
+      "cell": "P98",
+      "source_sheet": "DASH 06 V06",
+      "source_cell": "E15",
+      "value": 25000000
+    },
+    {
+      "sheet": "DASH 06 V06",
+      "cell": "P100",
+      "source_sheet": "DASH 06 V06",
+      "source_cell": "I15",
+      "value": 0.4
+    },
+    {
+      "sheet": "DASH 06 V06",
+      "cell": "P102",
+      "source_sheet": "DASH 06 V06",
+      "source_cell": "M15",
+      "value": 0.1
+    },
+    {
+      "sheet": "DASH 06 V06",
+      "cell": "W92",
+      "source_sheet": "DASH 05 V06",
+      "source_cell": "H24",
+      "value": 185
+    },
+    {
+      "sheet": "DASH 06 V06",
+      "cell": "W94",
+      "source_sheet": "DASH 05 V06",
+      "source_cell": "H26",
+      "value": 0.58
+    },
+    {
+      "sheet": "DASH 06 V06",
+      "cell": "W96",
+      "source_sheet": "DASH 05 V06",
+      "source_cell": "N25",
+      "value": 0.5
+    },
+    {
+      "sheet": "DASH 06 V06",
+      "cell": "W98",
+      "source_sheet": "DASH 05 V06",
+      "source_cell": "N27",
+      "value": 0.05
+    },
+    {
+      "sheet": "DASH 06 V06",
+      "cell": "W100",
+      "source_sheet": "DASH 07 V06",
+      "source_cell": "N26",
+      "value": 0.12
+    },
+    {
+      "sheet": "DASH 07 V06",
+      "cell": "W24",
+      "source_sheet": "V06 Controlos",
+      "source_cell": "B67",
+      "value": "Base"
+    },
+    {
+      "sheet": "DASH 07 V06",
+      "cell": "W27",
+      "source_sheet": "DASH 05 V06",
+      "source_cell": "H24",
+      "value": 185
+    },
+    {
+      "sheet": "DASH 07 V06",
+      "cell": "W30",
+      "source_sheet": "DASH 05 V06",
+      "source_cell": "H26",
+      "value": 0.58
+    },
+    {
+      "sheet": "DASH 07 V06",
+      "cell": "W33",
+      "source_sheet": "DASH 07 V06",
+      "source_cell": "N26",
+      "value": 0.12
+    },
+    {
+      "sheet": "DASH 07 V06",
+      "cell": "W36",
+      "source_sheet": "DASH 07 V06",
+      "source_cell": "H23",
+      "value": "Flexible"
+    },
+    {
+      "sheet": "DASH 07 V06",
+      "cell": "E54",
+      "source_sheet": "DASH 07 V06",
+      "source_cell": "E9",
+      "value": 1945587.80119574
+    },
+    {
+      "sheet": "DASH 07 V06",
+      "cell": "H54",
+      "source_sheet": "DASH 07 V06",
+      "source_cell": "I9",
+      "value": 26960052.9369736
+    },
+    {
+      "sheet": "DASH 07 V06",
+      "cell": "K54",
+      "source_sheet": "DASH 07 V06",
+      "source_cell": "M9",
+      "value": 80709171.5947987
+    },
+    {
+      "sheet": "DASH 07 V06",
+      "cell": "N54",
+      "source_sheet": "DASH 07 V06",
+      "source_cell": "E15",
+      "value": 0.0576464356516757
+    },
+    {
+      "sheet": "DASH 07 V06",
+      "cell": "Q54",
+      "source_sheet": "DASH 07 V06",
+      "source_cell": "I15",
+      "value": 2.11743775338615
+    },
+    {
+      "sheet": "DASH 07 V06",
+      "cell": "T54",
+      "source_sheet": "DASH 07 V06",
+      "source_cell": "M15",
+      "value": -12742848.2445606
+    },
+    {
+      "sheet": "DASH 07 V06",
+      "cell": "W54",
+      "source_sheet": "V06 Controlos",
+      "source_cell": "B67",
+      "value": "Base"
+    },
+    {
+      "sheet": "DASH 07 V06",
+      "cell": "I92",
+      "source_sheet": "DASH 07 V06",
+      "source_cell": "M66",
+      "value": 26960052.9369736
+    },
+    {
+      "sheet": "DASH 07 V06",
+      "cell": "I94",
+      "source_sheet": "DASH 07 V06",
+      "source_cell": "M68",
+      "value": 783200.035324653
+    },
+    {
+      "sheet": "DASH 07 V06",
+      "cell": "I96",
+      "source_sheet": "DASH 07 V06",
+      "source_cell": "M70",
+      "value": 13407521.4412747
+    },
+    {
+      "sheet": "DASH 07 V06",
+      "cell": "P92",
+      "source_sheet": "DASH 07 V06",
+      "source_cell": "E9",
+      "value": 1945587.80119574
+    },
+    {
+      "sheet": "DASH 07 V06",
+      "cell": "P94",
+      "source_sheet": "DASH 07 V06",
+      "source_cell": "I9",
+      "value": 26960052.9369736
+    },
+    {
+      "sheet": "DASH 07 V06",
+      "cell": "P96",
+      "source_sheet": "DASH 07 V06",
+      "source_cell": "M9",
+      "value": 80709171.5947987
+    },
+    {
+      "sheet": "DASH 07 V06",
+      "cell": "P98",
+      "source_sheet": "DASH 07 V06",
+      "source_cell": "E15",
+      "value": 0.0576464356516757
+    },
+    {
+      "sheet": "DASH 07 V06",
+      "cell": "P100",
+      "source_sheet": "DASH 07 V06",
+      "source_cell": "I15",
+      "value": 2.11743775338615
+    },
+    {
+      "sheet": "DASH 07 V06",
+      "cell": "P102",
+      "source_sheet": "DASH 07 V06",
+      "source_cell": "M15",
+      "value": -12742848.2445606
+    },
+    {
+      "sheet": "DASH 07 V06",
+      "cell": "W92",
+      "source_sheet": "DASH 05 V06",
+      "source_cell": "H24",
+      "value": 185
+    },
+    {
+      "sheet": "DASH 07 V06",
+      "cell": "W94",
+      "source_sheet": "DASH 05 V06",
+      "source_cell": "H26",
+      "value": 0.58
+    },
+    {
+      "sheet": "DASH 07 V06",
+      "cell": "W96",
+      "source_sheet": "DASH 05 V06",
+      "source_cell": "N25",
+      "value": 0.5
+    },
+    {
+      "sheet": "DASH 07 V06",
+      "cell": "W98",
+      "source_sheet": "DASH 05 V06",
+      "source_cell": "N27",
+      "value": 0.05
+    },
+    {
+      "sheet": "DASH 07 V06",
+      "cell": "W100",
+      "source_sheet": "DASH 07 V06",
+      "source_cell": "N26",
+      "value": 0.12
+    }
+  ],
+  "sensitivity": [
+    {
+      "sheet": "DASH 05 V06",
+      "cell": "I120",
+      "source": "'V06 Matriz Valores'!C5",
+      "initial_value": -15900791.6172127
+    },
+    {
+      "sheet": "DASH 05 V06",
+      "cell": "M120",
+      "source": "'V06 Matriz Valores'!C6",
+      "initial_value": -14573998.3467573
+    },
+    {
+      "sheet": "DASH 05 V06",
+      "cell": "Q120",
+      "source": "'V06 Matriz Valores'!C7",
+      "initial_value": -13247205.076302
+    },
+    {
+      "sheet": "DASH 05 V06",
+      "cell": "U120",
+      "source": "'V06 Matriz Valores'!C8",
+      "initial_value": -11921191.9641038
+    },
+    {
+      "sheet": "DASH 05 V06",
+      "cell": "I122",
+      "source": "'V06 Matriz Valores'!C15",
+      "initial_value": -14598140.3726229
+    },
+    {
+      "sheet": "DASH 05 V06",
+      "cell": "M122",
+      "source": "'V06 Matriz Valores'!C16",
+      "initial_value": -13054235.3001005
+    },
+    {
+      "sheet": "DASH 05 V06",
+      "cell": "Q122",
+      "source": "'V06 Matriz Valores'!C17",
+      "initial_value": -11512684.6198666
+    },
+    {
+      "sheet": "DASH 05 V06",
+      "cell": "U122",
+      "source": "'V06 Matriz Valores'!C18",
+      "initial_value": -9997582.62158331
+    },
+    {
+      "sheet": "DASH 05 V06",
+      "cell": "I124",
+      "source": "'V06 Matriz Valores'!C20",
+      "initial_value": -14316894.5827196
+    },
+    {
+      "sheet": "DASH 05 V06",
+      "cell": "M124",
+      "source": "'V06 Matriz Valores'!C21",
+      "initial_value": -12726072.6312102
+    },
+    {
+      "sheet": "DASH 05 V06",
+      "cell": "Q124",
+      "source": "'V06 Matriz Valores'!C22",
+      "initial_value": -11144385.7628005
+    },
+    {
+      "sheet": "DASH 05 V06",
+      "cell": "U124",
+      "source": "'V06 Matriz Valores'!C23",
+      "initial_value": -9612482.4296323
+    },
+    {
+      "sheet": "DASH 05 V06",
+      "cell": "I126",
+      "source": "'V06 Matriz Valores'!C25",
+      "initial_value": -14154364.4962769
+    },
+    {
+      "sheet": "DASH 05 V06",
+      "cell": "M126",
+      "source": "'V06 Matriz Valores'!C26",
+      "initial_value": -12536454.1970271
+    },
+    {
+      "sheet": "DASH 05 V06",
+      "cell": "Q126",
+      "source": "'V06 Matriz Valores'!C27",
+      "initial_value": -10928091.767795
+    },
+    {
+      "sheet": "DASH 05 V06",
+      "cell": "U126",
+      "source": "'V06 Matriz Valores'!C28",
+      "initial_value": -9397710.75374368
+    },
+    {
+      "sheet": "DASH 05 V06",
+      "cell": "I128",
+      "source": "'V06 Matriz Valores'!C30",
+      "initial_value": -13977171.8794945
+    },
+    {
+      "sheet": "DASH 05 V06",
+      "cell": "M128",
+      "source": "'V06 Matriz Valores'!C31",
+      "initial_value": -12329688.3534845
+    },
+    {
+      "sheet": "DASH 05 V06",
+      "cell": "Q128",
+      "source": "'V06 Matriz Valores'!C32",
+      "initial_value": -10696297.7784455
+    },
+    {
+      "sheet": "DASH 05 V06",
+      "cell": "U128",
+      "source": "'V06 Matriz Valores'!C33",
+      "initial_value": -9147373.6910207
+    },
+    {
+      "sheet": "DASH 10 V06",
+      "cell": "C508",
+      "source": "'DASH 05 V06'!I120",
+      "initial_value": -15900791.6172127
+    },
+    {
+      "sheet": "DASH 10 V06",
+      "cell": "E508",
+      "source": "'DASH 05 V06'!M120",
+      "initial_value": -14573998.3467573
+    },
+    {
+      "sheet": "DASH 10 V06",
+      "cell": "G508",
+      "source": "'DASH 05 V06'!Q120",
+      "initial_value": -13247205.076302
+    },
+    {
+      "sheet": "DASH 10 V06",
+      "cell": "I508",
+      "source": "'DASH 05 V06'!U120",
+      "initial_value": -11921191.9641038
+    },
+    {
+      "sheet": "DASH 10 V06",
+      "cell": "C510",
+      "source": "'DASH 05 V06'!I122",
+      "initial_value": -14598140.3726229
+    },
+    {
+      "sheet": "DASH 10 V06",
+      "cell": "E510",
+      "source": "'DASH 05 V06'!M122",
+      "initial_value": -13054235.3001005
+    },
+    {
+      "sheet": "DASH 10 V06",
+      "cell": "G510",
+      "source": "'DASH 05 V06'!Q122",
+      "initial_value": -11512684.6198666
+    },
+    {
+      "sheet": "DASH 10 V06",
+      "cell": "I510",
+      "source": "'DASH 05 V06'!U122",
+      "initial_value": -9997582.62158331
+    },
+    {
+      "sheet": "DASH 10 V06",
+      "cell": "C512",
+      "source": "'DASH 05 V06'!I124",
+      "initial_value": -14316894.5827196
+    },
+    {
+      "sheet": "DASH 10 V06",
+      "cell": "E512",
+      "source": "'DASH 05 V06'!M124",
+      "initial_value": -12726072.6312102
+    },
+    {
+      "sheet": "DASH 10 V06",
+      "cell": "G512",
+      "source": "'DASH 05 V06'!Q124",
+      "initial_value": -11144385.7628005
+    },
+    {
+      "sheet": "DASH 10 V06",
+      "cell": "I512",
+      "source": "'DASH 05 V06'!U124",
+      "initial_value": -9612482.4296323
+    },
+    {
+      "sheet": "DASH 10 V06",
+      "cell": "C514",
+      "source": "'DASH 05 V06'!I126",
+      "initial_value": -14154364.4962769
+    },
+    {
+      "sheet": "DASH 10 V06",
+      "cell": "E514",
+      "source": "'DASH 05 V06'!M126",
+      "initial_value": -12536454.1970271
+    },
+    {
+      "sheet": "DASH 10 V06",
+      "cell": "G514",
+      "source": "'DASH 05 V06'!Q126",
+      "initial_value": -10928091.767795
+    },
+    {
+      "sheet": "DASH 10 V06",
+      "cell": "I514",
+      "source": "'DASH 05 V06'!U126",
+      "initial_value": -9397710.75374368
+    },
+    {
+      "sheet": "DASH 10 V06",
+      "cell": "C516",
+      "source": "'DASH 05 V06'!I128",
+      "initial_value": -13977171.8794945
+    },
+    {
+      "sheet": "DASH 10 V06",
+      "cell": "E516",
+      "source": "'DASH 05 V06'!M128",
+      "initial_value": -12329688.3534845
+    },
+    {
+      "sheet": "DASH 10 V06",
+      "cell": "G516",
+      "source": "'DASH 05 V06'!Q128",
+      "initial_value": -10696297.7784455
+    },
+    {
+      "sheet": "DASH 10 V06",
+      "cell": "I516",
+      "source": "'DASH 05 V06'!U128",
+      "initial_value": -9147373.6910207
+    }
+  ],
+  "sensitivity_exact_axes": {
+    "occupancy": "V06 Matriz ADR!B8 -> DASH 05 V06!I9",
+    "adr": "V06 Matriz ADR!G6 -> DASH 05 V06!E9",
+    "exact_current_engine": "V06 M10",
+    "displayed_matrix": "20 fixed ADR/occupancy combinations; active parameters shared with existing 180-month engines"
+  }
+}

@@ -1,0 +1,2193 @@
+{
+  "status": "PASS",
+  "platform": "LibreOffice cache-invalidated recalculation; all 30 existing matrix engines remain live",
+  "native_excel365": "NOT TESTED",
+  "base": {
+    "test": "Base",
+    "status": "PASS",
+    "active_adr": 185.0,
+    "active_occupancy": 0.58,
+    "current_npv": -12742848.2445606,
+    "exact_current_grid_npv": -12742848.2445606,
+    "monthly_values_compared": 126000,
+    "core_reference_corners": 4,
+    "npv_points": [
+      {
+        "adr": 150,
+        "occupancy": 0.5,
+        "npv": -15900791.617212588,
+        "dashboard_cell": "I120",
+        "report_cell": "C508",
+        "independent_core_reference_npv": -15900791.617212594
+      },
+      {
+        "adr": 175,
+        "occupancy": 0.5,
+        "npv": -14573998.346757233,
+        "dashboard_cell": "M120",
+        "report_cell": "E508"
+      },
+      {
+        "adr": 200,
+        "occupancy": 0.5,
+        "npv": -13247205.076301882,
+        "dashboard_cell": "Q120",
+        "report_cell": "G508"
+      },
+      {
+        "adr": 225,
+        "occupancy": 0.5,
+        "npv": -11921191.964103691,
+        "dashboard_cell": "U120",
+        "report_cell": "I508",
+        "independent_core_reference_npv": -11921191.964103699
+      },
+      {
+        "adr": 150,
+        "occupancy": 0.6,
+        "npv": -14598140.37262285,
+        "dashboard_cell": "I122",
+        "report_cell": "C510"
+      },
+      {
+        "adr": 175,
+        "occupancy": 0.6,
+        "npv": -13054235.300100392,
+        "dashboard_cell": "M122",
+        "report_cell": "E510"
+      },
+      {
+        "adr": 200,
+        "occupancy": 0.6,
+        "npv": -11512684.61986649,
+        "dashboard_cell": "Q122",
+        "report_cell": "G510"
+      },
+      {
+        "adr": 225,
+        "occupancy": 0.6,
+        "npv": -9997582.621583167,
+        "dashboard_cell": "U122",
+        "report_cell": "I510"
+      },
+      {
+        "adr": 150,
+        "occupancy": 0.65,
+        "npv": -14316894.582719488,
+        "dashboard_cell": "I124",
+        "report_cell": "C512"
+      },
+      {
+        "adr": 175,
+        "occupancy": 0.65,
+        "npv": -12726072.6312101,
+        "dashboard_cell": "M124",
+        "report_cell": "E512"
+      },
+      {
+        "adr": 200,
+        "occupancy": 0.65,
+        "npv": -11144385.762800379,
+        "dashboard_cell": "Q124",
+        "report_cell": "G512"
+      },
+      {
+        "adr": 225,
+        "occupancy": 0.65,
+        "npv": -9612482.429632157,
+        "dashboard_cell": "U124",
+        "report_cell": "I512"
+      },
+      {
+        "adr": 150,
+        "occupancy": 0.7,
+        "npv": -14154364.496276816,
+        "dashboard_cell": "I126",
+        "report_cell": "C514"
+      },
+      {
+        "adr": 175,
+        "occupancy": 0.7,
+        "npv": -12536454.197026998,
+        "dashboard_cell": "M126",
+        "report_cell": "E514"
+      },
+      {
+        "adr": 200,
+        "occupancy": 0.7,
+        "npv": -10928091.767794857,
+        "dashboard_cell": "Q126",
+        "report_cell": "G514"
+      },
+      {
+        "adr": 225,
+        "occupancy": 0.7,
+        "npv": -9397710.753743533,
+        "dashboard_cell": "U126",
+        "report_cell": "I514"
+      },
+      {
+        "adr": 150,
+        "occupancy": 0.75,
+        "npv": -13977171.879494365,
+        "dashboard_cell": "I128",
+        "report_cell": "C516",
+        "independent_core_reference_npv": -13977171.879494375
+      },
+      {
+        "adr": 175,
+        "occupancy": 0.75,
+        "npv": -12329688.353484409,
+        "dashboard_cell": "M128",
+        "report_cell": "E516"
+      },
+      {
+        "adr": 200,
+        "occupancy": 0.75,
+        "npv": -10696297.778445391,
+        "dashboard_cell": "Q128",
+        "report_cell": "G516"
+      },
+      {
+        "adr": 225,
+        "occupancy": 0.75,
+        "npv": -9147373.691020546,
+        "dashboard_cell": "U128",
+        "report_cell": "I516",
+        "independent_core_reference_npv": -9147373.691020563
+      }
+    ],
+    "color_classes": [
+      "negative",
+      "negative",
+      "negative",
+      "negative",
+      "negative",
+      "negative",
+      "negative",
+      "negative",
+      "negative",
+      "negative",
+      "negative",
+      "negative",
+      "negative",
+      "negative",
+      "negative",
+      "negative",
+      "negative",
+      "negative",
+      "negative",
+      "negative"
+    ],
+    "break_even_adr": null,
+    "break_even_occupancy": null,
+    "errors": 0
+  },
+  "tests": [
+    {
+      "test": "Favorable",
+      "status": "PASS",
+      "active_adr": 210.0,
+      "active_occupancy": 0.64,
+      "current_npv": -9604777.39034361,
+      "exact_current_grid_npv": -9604777.39034361,
+      "monthly_values_compared": 126000,
+      "core_reference_corners": 4,
+      "npv_points": [
+        {
+          "adr": 150,
+          "occupancy": 0.5,
+          "npv": -15293088.173821606,
+          "dashboard_cell": "I120",
+          "report_cell": "C508",
+          "independent_core_reference_npv": -15293088.173821602
+        },
+        {
+          "adr": 175,
+          "occupancy": 0.5,
+          "npv": -13865010.996134413,
+          "dashboard_cell": "M120",
+          "report_cell": "E508"
+        },
+        {
+          "adr": 200,
+          "occupancy": 0.5,
+          "npv": -12436767.634330466,
+          "dashboard_cell": "Q120",
+          "report_cell": "G508"
+        },
+        {
+          "adr": 225,
+          "occupancy": 0.5,
+          "npv": -11014035.068133457,
+          "dashboard_cell": "U120",
+          "report_cell": "I508",
+          "independent_core_reference_npv": -11014035.068133445
+        },
+        {
+          "adr": 150,
+          "occupancy": 0.6,
+          "npv": -13891510.319682762,
+          "dashboard_cell": "I122",
+          "report_cell": "C510"
+        },
+        {
+          "adr": 175,
+          "occupancy": 0.6,
+          "npv": -12229806.08270191,
+          "dashboard_cell": "M122",
+          "report_cell": "E510"
+        },
+        {
+          "adr": 200,
+          "occupancy": 0.6,
+          "npv": -10583893.56636983,
+          "dashboard_cell": "Q122",
+          "report_cell": "G510"
+        },
+        {
+          "adr": 225,
+          "occupancy": 0.6,
+          "npv": -8965863.120125676,
+          "dashboard_cell": "U122",
+          "report_cell": "I510"
+        },
+        {
+          "adr": 150,
+          "occupancy": 0.65,
+          "npv": -13590383.999015624,
+          "dashboard_cell": "I124",
+          "report_cell": "C512"
+        },
+        {
+          "adr": 175,
+          "occupancy": 0.65,
+          "npv": -11879277.542357147,
+          "dashboard_cell": "M124",
+          "report_cell": "E512"
+        },
+        {
+          "adr": 200,
+          "occupancy": 0.65,
+          "npv": -10203553.658450583,
+          "dashboard_cell": "Q124",
+          "report_cell": "G512"
+        },
+        {
+          "adr": 225,
+          "occupancy": 0.65,
+          "npv": -8567435.093743922,
+          "dashboard_cell": "U124",
+          "report_cell": "I512"
+        },
+        {
+          "adr": 150,
+          "occupancy": 0.7,
+          "npv": -13416499.919991914,
+          "dashboard_cell": "I126",
+          "report_cell": "C514"
+        },
+        {
+          "adr": 175,
+          "occupancy": 0.7,
+          "npv": -11676412.783496136,
+          "dashboard_cell": "M126",
+          "report_cell": "E514"
+        },
+        {
+          "adr": 200,
+          "occupancy": 0.7,
+          "npv": -9981867.451653993,
+          "dashboard_cell": "Q126",
+          "report_cell": "G514"
+        },
+        {
+          "adr": 225,
+          "occupancy": 0.7,
+          "npv": -8380548.496990123,
+          "dashboard_cell": "U126",
+          "report_cell": "I514"
+        },
+        {
+          "adr": 150,
+          "occupancy": 0.75,
+          "npv": -13226008.453759078,
+          "dashboard_cell": "I128",
+          "report_cell": "C516",
+          "independent_core_reference_npv": -13226008.45375909
+        },
+        {
+          "adr": 175,
+          "occupancy": 0.75,
+          "npv": -11454920.162182542,
+          "dashboard_cell": "M128",
+          "report_cell": "E516"
+        },
+        {
+          "adr": 200,
+          "occupancy": 0.75,
+          "npv": -9738532.694587752,
+          "dashboard_cell": "Q128",
+          "report_cell": "G516"
+        },
+        {
+          "adr": 225,
+          "occupancy": 0.75,
+          "npv": -8125587.633472213,
+          "dashboard_cell": "U128",
+          "report_cell": "I516",
+          "independent_core_reference_npv": -8125587.6334722135
+        }
+      ],
+      "color_classes": [
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative"
+      ],
+      "break_even_adr": null,
+      "break_even_occupancy": null,
+      "errors": 0,
+      "changed_grid_points_vs_base": 20
+    },
+    {
+      "test": "Conservative",
+      "status": "PASS",
+      "active_adr": 160.0,
+      "active_occupancy": 0.52,
+      "current_npv": -15676780.218302,
+      "exact_current_grid_npv": -15676780.218302,
+      "monthly_values_compared": 126000,
+      "core_reference_corners": 4,
+      "npv_points": [
+        {
+          "adr": 150,
+          "occupancy": 0.5,
+          "npv": -16434328.646096457,
+          "dashboard_cell": "I120",
+          "report_cell": "C508",
+          "independent_core_reference_npv": -16434328.646096453
+        },
+        {
+          "adr": 175,
+          "occupancy": 0.5,
+          "npv": -15196458.21378841,
+          "dashboard_cell": "M120",
+          "report_cell": "E508"
+        },
+        {
+          "adr": 200,
+          "occupancy": 0.5,
+          "npv": -13958587.781480346,
+          "dashboard_cell": "Q120",
+          "report_cell": "G508"
+        },
+        {
+          "adr": 225,
+          "occupancy": 0.5,
+          "npv": -12720586.40434633,
+          "dashboard_cell": "U120",
+          "report_cell": "I508",
+          "independent_core_reference_npv": -12720586.404346325
+        },
+        {
+          "adr": 150,
+          "occupancy": 0.6,
+          "npv": -15218512.66752731,
+          "dashboard_cell": "I122",
+          "report_cell": "C510"
+        },
+        {
+          "adr": 175,
+          "occupancy": 0.6,
+          "npv": -13778006.238791054,
+          "dashboard_cell": "M122",
+          "report_cell": "E510"
+        },
+        {
+          "adr": 200,
+          "occupancy": 0.6,
+          "npv": -12337574.578873873,
+          "dashboard_cell": "Q122",
+          "report_cell": "G510"
+        },
+        {
+          "adr": 225,
+          "occupancy": 0.6,
+          "npv": -10906381.143518541,
+          "dashboard_cell": "U122",
+          "report_cell": "I510"
+        },
+        {
+          "adr": 150,
+          "occupancy": 0.65,
+          "npv": -14954665.604490325,
+          "dashboard_cell": "I124",
+          "report_cell": "C512"
+        },
+        {
+          "adr": 175,
+          "occupancy": 0.65,
+          "npv": -13470184.665247932,
+          "dashboard_cell": "M124",
+          "report_cell": "E512"
+        },
+        {
+          "adr": 200,
+          "occupancy": 0.65,
+          "npv": -11986560.513132703,
+          "dashboard_cell": "Q124",
+          "report_cell": "G512"
+        },
+        {
+          "adr": 225,
+          "occupancy": 0.65,
+          "npv": -10532036.368485251,
+          "dashboard_cell": "U124",
+          "report_cell": "I512"
+        },
+        {
+          "adr": 150,
+          "occupancy": 0.7,
+          "npv": -14802067.038155569,
+          "dashboard_cell": "I126",
+          "report_cell": "C514"
+        },
+        {
+          "adr": 175,
+          "occupancy": 0.7,
+          "npv": -13292153.00452402,
+          "dashboard_cell": "M126",
+          "report_cell": "E514"
+        },
+        {
+          "adr": 200,
+          "occupancy": 0.7,
+          "npv": -11783095.758019697,
+          "dashboard_cell": "Q126",
+          "report_cell": "G514"
+        },
+        {
+          "adr": 225,
+          "occupancy": 0.7,
+          "npv": -10310337.229712496,
+          "dashboard_cell": "U126",
+          "report_cell": "I514"
+        },
+        {
+          "adr": 150,
+          "occupancy": 0.75,
+          "npv": -14636542.279626606,
+          "dashboard_cell": "I128",
+          "report_cell": "C516",
+          "independent_core_reference_npv": -14636542.279626613
+        },
+        {
+          "adr": 175,
+          "occupancy": 0.75,
+          "npv": -13099040.786240261,
+          "dashboard_cell": "M128",
+          "report_cell": "E516"
+        },
+        {
+          "adr": 200,
+          "occupancy": 0.75,
+          "npv": -11563401.132103683,
+          "dashboard_cell": "Q128",
+          "report_cell": "G516"
+        },
+        {
+          "adr": 225,
+          "occupancy": 0.75,
+          "npv": -10072581.807678673,
+          "dashboard_cell": "U128",
+          "report_cell": "I516",
+          "independent_core_reference_npv": -10072581.807678668
+        }
+      ],
+      "color_classes": [
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative"
+      ],
+      "break_even_adr": null,
+      "break_even_occupancy": null,
+      "errors": 0,
+      "changed_grid_points_vs_base": 20
+    },
+    {
+      "test": "Custom_ADR",
+      "status": "PASS",
+      "active_adr": 205.0,
+      "active_occupancy": 0.65,
+      "current_npv": -9873063.64081393,
+      "exact_current_grid_npv": -9873063.64081393,
+      "monthly_values_compared": 126000,
+      "core_reference_corners": 4,
+      "npv_points": [
+        {
+          "adr": 150,
+          "occupancy": 0.5,
+          "npv": -15293088.173821606,
+          "dashboard_cell": "I120",
+          "report_cell": "C508",
+          "independent_core_reference_npv": -15293088.173821602
+        },
+        {
+          "adr": 175,
+          "occupancy": 0.5,
+          "npv": -13865010.996134413,
+          "dashboard_cell": "M120",
+          "report_cell": "E508"
+        },
+        {
+          "adr": 200,
+          "occupancy": 0.5,
+          "npv": -12436767.634330466,
+          "dashboard_cell": "Q120",
+          "report_cell": "G508"
+        },
+        {
+          "adr": 225,
+          "occupancy": 0.5,
+          "npv": -11014035.068133457,
+          "dashboard_cell": "U120",
+          "report_cell": "I508",
+          "independent_core_reference_npv": -11014035.068133445
+        },
+        {
+          "adr": 150,
+          "occupancy": 0.6,
+          "npv": -13891510.319682762,
+          "dashboard_cell": "I122",
+          "report_cell": "C510"
+        },
+        {
+          "adr": 175,
+          "occupancy": 0.6,
+          "npv": -12229806.08270191,
+          "dashboard_cell": "M122",
+          "report_cell": "E510"
+        },
+        {
+          "adr": 200,
+          "occupancy": 0.6,
+          "npv": -10583893.56636983,
+          "dashboard_cell": "Q122",
+          "report_cell": "G510"
+        },
+        {
+          "adr": 225,
+          "occupancy": 0.6,
+          "npv": -8965863.120125676,
+          "dashboard_cell": "U122",
+          "report_cell": "I510"
+        },
+        {
+          "adr": 150,
+          "occupancy": 0.65,
+          "npv": -13590383.999015624,
+          "dashboard_cell": "I124",
+          "report_cell": "C512"
+        },
+        {
+          "adr": 175,
+          "occupancy": 0.65,
+          "npv": -11879277.542357147,
+          "dashboard_cell": "M124",
+          "report_cell": "E512"
+        },
+        {
+          "adr": 200,
+          "occupancy": 0.65,
+          "npv": -10203553.658450583,
+          "dashboard_cell": "Q124",
+          "report_cell": "G512"
+        },
+        {
+          "adr": 225,
+          "occupancy": 0.65,
+          "npv": -8567435.093743922,
+          "dashboard_cell": "U124",
+          "report_cell": "I512"
+        },
+        {
+          "adr": 150,
+          "occupancy": 0.7,
+          "npv": -13416499.919991914,
+          "dashboard_cell": "I126",
+          "report_cell": "C514"
+        },
+        {
+          "adr": 175,
+          "occupancy": 0.7,
+          "npv": -11676412.783496136,
+          "dashboard_cell": "M126",
+          "report_cell": "E514"
+        },
+        {
+          "adr": 200,
+          "occupancy": 0.7,
+          "npv": -9981867.451653993,
+          "dashboard_cell": "Q126",
+          "report_cell": "G514"
+        },
+        {
+          "adr": 225,
+          "occupancy": 0.7,
+          "npv": -8380548.496990123,
+          "dashboard_cell": "U126",
+          "report_cell": "I514"
+        },
+        {
+          "adr": 150,
+          "occupancy": 0.75,
+          "npv": -13226008.453759078,
+          "dashboard_cell": "I128",
+          "report_cell": "C516",
+          "independent_core_reference_npv": -13226008.45375909
+        },
+        {
+          "adr": 175,
+          "occupancy": 0.75,
+          "npv": -11454920.162182542,
+          "dashboard_cell": "M128",
+          "report_cell": "E516"
+        },
+        {
+          "adr": 200,
+          "occupancy": 0.75,
+          "npv": -9738532.694587752,
+          "dashboard_cell": "Q128",
+          "report_cell": "G516"
+        },
+        {
+          "adr": 225,
+          "occupancy": 0.75,
+          "npv": -8125587.633472213,
+          "dashboard_cell": "U128",
+          "report_cell": "I516",
+          "independent_core_reference_npv": -8125587.6334722135
+        }
+      ],
+      "color_classes": [
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative"
+      ],
+      "break_even_adr": null,
+      "break_even_occupancy": null,
+      "errors": 0,
+      "fixed_grid_explanation": "All fixed ADR/occupancy points remain unchanged by definition; marker, exact-current intersection, current NPV and exact-axis break-even data update."
+    },
+    {
+      "test": "Custom",
+      "status": "PASS",
+      "active_adr": 200.0,
+      "active_occupancy": 0.65,
+      "current_npv": -10203553.6584507,
+      "exact_current_grid_npv": -10203553.6584507,
+      "monthly_values_compared": 126000,
+      "core_reference_corners": 4,
+      "npv_points": [
+        {
+          "adr": 150,
+          "occupancy": 0.5,
+          "npv": -15293088.173821606,
+          "dashboard_cell": "I120",
+          "report_cell": "C508",
+          "independent_core_reference_npv": -15293088.173821602
+        },
+        {
+          "adr": 175,
+          "occupancy": 0.5,
+          "npv": -13865010.996134413,
+          "dashboard_cell": "M120",
+          "report_cell": "E508"
+        },
+        {
+          "adr": 200,
+          "occupancy": 0.5,
+          "npv": -12436767.634330466,
+          "dashboard_cell": "Q120",
+          "report_cell": "G508"
+        },
+        {
+          "adr": 225,
+          "occupancy": 0.5,
+          "npv": -11014035.068133457,
+          "dashboard_cell": "U120",
+          "report_cell": "I508",
+          "independent_core_reference_npv": -11014035.068133445
+        },
+        {
+          "adr": 150,
+          "occupancy": 0.6,
+          "npv": -13891510.319682762,
+          "dashboard_cell": "I122",
+          "report_cell": "C510"
+        },
+        {
+          "adr": 175,
+          "occupancy": 0.6,
+          "npv": -12229806.08270191,
+          "dashboard_cell": "M122",
+          "report_cell": "E510"
+        },
+        {
+          "adr": 200,
+          "occupancy": 0.6,
+          "npv": -10583893.56636983,
+          "dashboard_cell": "Q122",
+          "report_cell": "G510"
+        },
+        {
+          "adr": 225,
+          "occupancy": 0.6,
+          "npv": -8965863.120125676,
+          "dashboard_cell": "U122",
+          "report_cell": "I510"
+        },
+        {
+          "adr": 150,
+          "occupancy": 0.65,
+          "npv": -13590383.999015624,
+          "dashboard_cell": "I124",
+          "report_cell": "C512"
+        },
+        {
+          "adr": 175,
+          "occupancy": 0.65,
+          "npv": -11879277.542357147,
+          "dashboard_cell": "M124",
+          "report_cell": "E512"
+        },
+        {
+          "adr": 200,
+          "occupancy": 0.65,
+          "npv": -10203553.658450583,
+          "dashboard_cell": "Q124",
+          "report_cell": "G512"
+        },
+        {
+          "adr": 225,
+          "occupancy": 0.65,
+          "npv": -8567435.093743922,
+          "dashboard_cell": "U124",
+          "report_cell": "I512"
+        },
+        {
+          "adr": 150,
+          "occupancy": 0.7,
+          "npv": -13416499.919991914,
+          "dashboard_cell": "I126",
+          "report_cell": "C514"
+        },
+        {
+          "adr": 175,
+          "occupancy": 0.7,
+          "npv": -11676412.783496136,
+          "dashboard_cell": "M126",
+          "report_cell": "E514"
+        },
+        {
+          "adr": 200,
+          "occupancy": 0.7,
+          "npv": -9981867.451653993,
+          "dashboard_cell": "Q126",
+          "report_cell": "G514"
+        },
+        {
+          "adr": 225,
+          "occupancy": 0.7,
+          "npv": -8380548.496990123,
+          "dashboard_cell": "U126",
+          "report_cell": "I514"
+        },
+        {
+          "adr": 150,
+          "occupancy": 0.75,
+          "npv": -13226008.453759078,
+          "dashboard_cell": "I128",
+          "report_cell": "C516",
+          "independent_core_reference_npv": -13226008.45375909
+        },
+        {
+          "adr": 175,
+          "occupancy": 0.75,
+          "npv": -11454920.162182542,
+          "dashboard_cell": "M128",
+          "report_cell": "E516"
+        },
+        {
+          "adr": 200,
+          "occupancy": 0.75,
+          "npv": -9738532.694587752,
+          "dashboard_cell": "Q128",
+          "report_cell": "G516"
+        },
+        {
+          "adr": 225,
+          "occupancy": 0.75,
+          "npv": -8125587.633472213,
+          "dashboard_cell": "U128",
+          "report_cell": "I516",
+          "independent_core_reference_npv": -8125587.6334722135
+        }
+      ],
+      "color_classes": [
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative"
+      ],
+      "break_even_adr": null,
+      "break_even_occupancy": null,
+      "errors": 0
+    },
+    {
+      "test": "Custom_Occ",
+      "status": "PASS",
+      "active_adr": 200.0,
+      "active_occupancy": 0.66,
+      "current_npv": -10149838.9659764,
+      "exact_current_grid_npv": -10149838.9659764,
+      "monthly_values_compared": 126000,
+      "core_reference_corners": 4,
+      "npv_points": [
+        {
+          "adr": 150,
+          "occupancy": 0.5,
+          "npv": -15293088.173821606,
+          "dashboard_cell": "I120",
+          "report_cell": "C508",
+          "independent_core_reference_npv": -15293088.173821602
+        },
+        {
+          "adr": 175,
+          "occupancy": 0.5,
+          "npv": -13865010.996134413,
+          "dashboard_cell": "M120",
+          "report_cell": "E508"
+        },
+        {
+          "adr": 200,
+          "occupancy": 0.5,
+          "npv": -12436767.634330466,
+          "dashboard_cell": "Q120",
+          "report_cell": "G508"
+        },
+        {
+          "adr": 225,
+          "occupancy": 0.5,
+          "npv": -11014035.068133457,
+          "dashboard_cell": "U120",
+          "report_cell": "I508",
+          "independent_core_reference_npv": -11014035.068133445
+        },
+        {
+          "adr": 150,
+          "occupancy": 0.6,
+          "npv": -13891510.319682762,
+          "dashboard_cell": "I122",
+          "report_cell": "C510"
+        },
+        {
+          "adr": 175,
+          "occupancy": 0.6,
+          "npv": -12229806.08270191,
+          "dashboard_cell": "M122",
+          "report_cell": "E510"
+        },
+        {
+          "adr": 200,
+          "occupancy": 0.6,
+          "npv": -10583893.56636983,
+          "dashboard_cell": "Q122",
+          "report_cell": "G510"
+        },
+        {
+          "adr": 225,
+          "occupancy": 0.6,
+          "npv": -8965863.120125676,
+          "dashboard_cell": "U122",
+          "report_cell": "I510"
+        },
+        {
+          "adr": 150,
+          "occupancy": 0.65,
+          "npv": -13590383.999015624,
+          "dashboard_cell": "I124",
+          "report_cell": "C512"
+        },
+        {
+          "adr": 175,
+          "occupancy": 0.65,
+          "npv": -11879277.542357147,
+          "dashboard_cell": "M124",
+          "report_cell": "E512"
+        },
+        {
+          "adr": 200,
+          "occupancy": 0.65,
+          "npv": -10203553.658450583,
+          "dashboard_cell": "Q124",
+          "report_cell": "G512"
+        },
+        {
+          "adr": 225,
+          "occupancy": 0.65,
+          "npv": -8567435.093743922,
+          "dashboard_cell": "U124",
+          "report_cell": "I512"
+        },
+        {
+          "adr": 150,
+          "occupancy": 0.7,
+          "npv": -13416499.919991914,
+          "dashboard_cell": "I126",
+          "report_cell": "C514"
+        },
+        {
+          "adr": 175,
+          "occupancy": 0.7,
+          "npv": -11676412.783496136,
+          "dashboard_cell": "M126",
+          "report_cell": "E514"
+        },
+        {
+          "adr": 200,
+          "occupancy": 0.7,
+          "npv": -9981867.451653993,
+          "dashboard_cell": "Q126",
+          "report_cell": "G514"
+        },
+        {
+          "adr": 225,
+          "occupancy": 0.7,
+          "npv": -8380548.496990123,
+          "dashboard_cell": "U126",
+          "report_cell": "I514"
+        },
+        {
+          "adr": 150,
+          "occupancy": 0.75,
+          "npv": -13226008.453759078,
+          "dashboard_cell": "I128",
+          "report_cell": "C516",
+          "independent_core_reference_npv": -13226008.45375909
+        },
+        {
+          "adr": 175,
+          "occupancy": 0.75,
+          "npv": -11454920.162182542,
+          "dashboard_cell": "M128",
+          "report_cell": "E516"
+        },
+        {
+          "adr": 200,
+          "occupancy": 0.75,
+          "npv": -9738532.694587752,
+          "dashboard_cell": "Q128",
+          "report_cell": "G516"
+        },
+        {
+          "adr": 225,
+          "occupancy": 0.75,
+          "npv": -8125587.633472213,
+          "dashboard_cell": "U128",
+          "report_cell": "I516",
+          "independent_core_reference_npv": -8125587.6334722135
+        }
+      ],
+      "color_classes": [
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative"
+      ],
+      "break_even_adr": null,
+      "break_even_occupancy": null,
+      "errors": 0,
+      "fixed_grid_explanation": "All fixed ADR/occupancy points remain unchanged by definition; marker, exact-current intersection, current NPV and exact-axis break-even data update."
+    },
+    {
+      "test": "Fees",
+      "status": "PASS",
+      "active_adr": 185.0,
+      "active_occupancy": 0.58,
+      "current_npv": -11464700.8025876,
+      "exact_current_grid_npv": -11464700.8025876,
+      "monthly_values_compared": 126000,
+      "core_reference_corners": 4,
+      "npv_points": [
+        {
+          "adr": 150,
+          "occupancy": 0.5,
+          "npv": -14983479.40030357,
+          "dashboard_cell": "I120",
+          "report_cell": "C508",
+          "independent_core_reference_npv": -14983479.400303569
+        },
+        {
+          "adr": 175,
+          "occupancy": 0.5,
+          "npv": -13503800.76036338,
+          "dashboard_cell": "M120",
+          "report_cell": "E508"
+        },
+        {
+          "adr": 200,
+          "occupancy": 0.5,
+          "npv": -12025213.432099842,
+          "dashboard_cell": "Q120",
+          "report_cell": "G508"
+        },
+        {
+          "adr": 225,
+          "occupancy": 0.5,
+          "npv": -10566893.42469022,
+          "dashboard_cell": "U120",
+          "report_cell": "I508",
+          "independent_core_reference_npv": -10566893.424690222
+        },
+        {
+          "adr": 150,
+          "occupancy": 0.6,
+          "npv": -13529020.229734063,
+          "dashboard_cell": "I122",
+          "report_cell": "C510"
+        },
+        {
+          "adr": 175,
+          "occupancy": 0.6,
+          "npv": -11809019.976469181,
+          "dashboard_cell": "M122",
+          "report_cell": "E510"
+        },
+        {
+          "adr": 200,
+          "occupancy": 0.6,
+          "npv": -10119569.841670485,
+          "dashboard_cell": "Q122",
+          "report_cell": "G510"
+        },
+        {
+          "adr": 225,
+          "occupancy": 0.6,
+          "npv": -8473183.631488994,
+          "dashboard_cell": "U122",
+          "report_cell": "I510"
+        },
+        {
+          "adr": 150,
+          "occupancy": 0.65,
+          "npv": -13210101.149058972,
+          "dashboard_cell": "I124",
+          "report_cell": "C512"
+        },
+        {
+          "adr": 175,
+          "occupancy": 0.65,
+          "npv": -11443264.768078428,
+          "dashboard_cell": "M124",
+          "report_cell": "E512"
+        },
+        {
+          "adr": 200,
+          "occupancy": 0.65,
+          "npv": -9729732.466051022,
+          "dashboard_cell": "Q124",
+          "report_cell": "G512"
+        },
+        {
+          "adr": 225,
+          "occupancy": 0.65,
+          "npv": -8050599.766413844,
+          "dashboard_cell": "U124",
+          "report_cell": "I512"
+        },
+        {
+          "adr": 150,
+          "occupancy": 0.7,
+          "npv": -13025353.115754051,
+          "dashboard_cell": "I126",
+          "report_cell": "C514"
+        },
+        {
+          "adr": 175,
+          "occupancy": 0.7,
+          "npv": -11227863.566237459,
+          "dashboard_cell": "M126",
+          "report_cell": "E514"
+        },
+        {
+          "adr": 200,
+          "occupancy": 0.7,
+          "npv": -9520639.846674697,
+          "dashboard_cell": "Q126",
+          "report_cell": "G514"
+        },
+        {
+          "adr": 225,
+          "occupancy": 0.7,
+          "npv": -7848624.253832518,
+          "dashboard_cell": "U126",
+          "report_cell": "I514"
+        },
+        {
+          "adr": 150,
+          "occupancy": 0.75,
+          "npv": -12826975.088906668,
+          "dashboard_cell": "I128",
+          "report_cell": "C516",
+          "independent_core_reference_npv": -12826975.088906664
+        },
+        {
+          "adr": 175,
+          "occupancy": 0.75,
+          "npv": -11000653.873905426,
+          "dashboard_cell": "M128",
+          "report_cell": "E516"
+        },
+        {
+          "adr": 200,
+          "occupancy": 0.75,
+          "npv": -9282703.84995,
+          "dashboard_cell": "Q128",
+          "report_cell": "G516"
+        },
+        {
+          "adr": 225,
+          "occupancy": 0.75,
+          "npv": -7624919.207498327,
+          "dashboard_cell": "U128",
+          "report_cell": "I516",
+          "independent_core_reference_npv": -7624919.207498331
+        }
+      ],
+      "color_classes": [
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative"
+      ],
+      "break_even_adr": null,
+      "break_even_occupancy": null,
+      "errors": 0,
+      "changed_grid_points_vs_base": 20
+    },
+    {
+      "test": "MICE",
+      "status": "PASS",
+      "active_adr": 185.0,
+      "active_occupancy": 0.58,
+      "current_npv": -12546056.5512421,
+      "exact_current_grid_npv": -12546056.5512421,
+      "monthly_values_compared": 126000,
+      "core_reference_corners": 4,
+      "npv_points": [
+        {
+          "adr": 150,
+          "occupancy": 0.5,
+          "npv": -15759875.429649046,
+          "dashboard_cell": "I120",
+          "report_cell": "C508",
+          "independent_core_reference_npv": -15759875.429649059
+        },
+        {
+          "adr": 175,
+          "occupancy": 0.5,
+          "npv": -14409596.127933107,
+          "dashboard_cell": "M120",
+          "report_cell": "E508"
+        },
+        {
+          "adr": 200,
+          "occupancy": 0.5,
+          "npv": -13059306.096940406,
+          "dashboard_cell": "Q120",
+          "report_cell": "G508"
+        },
+        {
+          "adr": 225,
+          "occupancy": 0.5,
+          "npv": -11710216.2705434,
+          "dashboard_cell": "U120",
+          "report_cell": "I508",
+          "independent_core_reference_npv": -11710216.270543393
+        },
+        {
+          "adr": 150,
+          "occupancy": 0.6,
+          "npv": -14434250.632355131,
+          "dashboard_cell": "I122",
+          "report_cell": "C510"
+        },
+        {
+          "adr": 175,
+          "occupancy": 0.6,
+          "npv": -12862981.109725073,
+          "dashboard_cell": "M122",
+          "report_cell": "E510"
+        },
+        {
+          "adr": 200,
+          "occupancy": 0.6,
+          "npv": -11295582.731249336,
+          "dashboard_cell": "Q122",
+          "report_cell": "G510"
+        },
+        {
+          "adr": 225,
+          "occupancy": 0.6,
+          "npv": -9757282.021215685,
+          "dashboard_cell": "U122",
+          "report_cell": "I510"
+        },
+        {
+          "adr": 150,
+          "occupancy": 0.65,
+          "npv": -14148289.41504675,
+          "dashboard_cell": "I124",
+          "report_cell": "C512"
+        },
+        {
+          "adr": 175,
+          "occupancy": 0.65,
+          "npv": -12529316.331375793,
+          "dashboard_cell": "M124",
+          "report_cell": "E512"
+        },
+        {
+          "adr": 200,
+          "occupancy": 0.65,
+          "npv": -10923675.59478596,
+          "dashboard_cell": "Q124",
+          "report_cell": "G512"
+        },
+        {
+          "adr": 225,
+          "occupancy": 0.65,
+          "npv": -9364844.537467193,
+          "dashboard_cell": "U124",
+          "report_cell": "I512"
+        },
+        {
+          "adr": 150,
+          "occupancy": 0.7,
+          "npv": -13983056.630905129,
+          "dashboard_cell": "I126",
+          "report_cell": "C514"
+        },
+        {
+          "adr": 175,
+          "occupancy": 0.7,
+          "npv": -12336544.749877239,
+          "dashboard_cell": "M126",
+          "report_cell": "E514"
+        },
+        {
+          "adr": 200,
+          "occupancy": 0.7,
+          "npv": -10705136.750856195,
+          "dashboard_cell": "Q126",
+          "report_cell": "G514"
+        },
+        {
+          "adr": 225,
+          "occupancy": 0.7,
+          "npv": -9157189.714240257,
+          "dashboard_cell": "U126",
+          "report_cell": "I514"
+        },
+        {
+          "adr": 150,
+          "occupancy": 0.75,
+          "npv": -13802765.130848601,
+          "dashboard_cell": "I128",
+          "report_cell": "C516",
+          "independent_core_reference_npv": -13802765.130848614
+        },
+        {
+          "adr": 175,
+          "occupancy": 0.75,
+          "npv": -12126176.149549818,
+          "dashboard_cell": "M128",
+          "report_cell": "E516"
+        },
+        {
+          "adr": 200,
+          "occupancy": 0.75,
+          "npv": -10469865.18609983,
+          "dashboard_cell": "Q128",
+          "report_cell": "G516"
+        },
+        {
+          "adr": 225,
+          "occupancy": 0.75,
+          "npv": -8915412.506504582,
+          "dashboard_cell": "U128",
+          "report_cell": "I516",
+          "independent_core_reference_npv": -8915412.506504593
+        }
+      ],
+      "color_classes": [
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative"
+      ],
+      "break_even_adr": null,
+      "break_even_occupancy": null,
+      "errors": 0,
+      "changed_grid_points_vs_base": 20
+    },
+    {
+      "test": "FFE",
+      "status": "PASS",
+      "active_adr": 185.0,
+      "active_occupancy": 0.58,
+      "current_npv": -12139743.382393,
+      "exact_current_grid_npv": -12139743.382393,
+      "monthly_values_compared": 126000,
+      "core_reference_corners": 4,
+      "npv_points": [
+        {
+          "adr": 150,
+          "occupancy": 0.5,
+          "npv": -15469958.754807932,
+          "dashboard_cell": "I120",
+          "report_cell": "C508",
+          "independent_core_reference_npv": -15469958.75480793
+        },
+        {
+          "adr": 175,
+          "occupancy": 0.5,
+          "npv": -14071360.007285131,
+          "dashboard_cell": "M120",
+          "report_cell": "E508"
+        },
+        {
+          "adr": 200,
+          "occupancy": 0.5,
+          "npv": -12673647.236278092,
+          "dashboard_cell": "Q120",
+          "report_cell": "G508"
+        },
+        {
+          "adr": 225,
+          "occupancy": 0.5,
+          "npv": -11293765.408329172,
+          "dashboard_cell": "U120",
+          "report_cell": "I508",
+          "independent_core_reference_npv": -11293765.408329174
+        },
+        {
+          "adr": 150,
+          "occupancy": 0.6,
+          "npv": -14090853.706298389,
+          "dashboard_cell": "I122",
+          "report_cell": "C510"
+        },
+        {
+          "adr": 175,
+          "occupancy": 0.6,
+          "npv": -12463776.471659996,
+          "dashboard_cell": "M122",
+          "report_cell": "E510"
+        },
+        {
+          "adr": 200,
+          "occupancy": 0.6,
+          "npv": -10865002.532387806,
+          "dashboard_cell": "Q122",
+          "report_cell": "G510"
+        },
+        {
+          "adr": 225,
+          "occupancy": 0.6,
+          "npv": -9306150.012014464,
+          "dashboard_cell": "U122",
+          "report_cell": "I510"
+        },
+        {
+          "adr": 150,
+          "occupancy": 0.65,
+          "npv": -13776997.201407434,
+          "dashboard_cell": "I124",
+          "report_cell": "C512"
+        },
+        {
+          "adr": 175,
+          "occupancy": 0.65,
+          "npv": -12103090.341495425,
+          "dashboard_cell": "M124",
+          "report_cell": "E512"
+        },
+        {
+          "adr": 200,
+          "occupancy": 0.65,
+          "npv": -10486880.194779165,
+          "dashboard_cell": "Q124",
+          "report_cell": "G512"
+        },
+        {
+          "adr": 225,
+          "occupancy": 0.65,
+          "npv": -8916288.595532734,
+          "dashboard_cell": "U124",
+          "report_cell": "I512"
+        },
+        {
+          "adr": 150,
+          "occupancy": 0.7,
+          "npv": -13593574.757750096,
+          "dashboard_cell": "I126",
+          "report_cell": "C514"
+        },
+        {
+          "adr": 175,
+          "occupancy": 0.7,
+          "npv": -11889245.179213097,
+          "dashboard_cell": "M126",
+          "report_cell": "E514"
+        },
+        {
+          "adr": 200,
+          "occupancy": 0.7,
+          "npv": -10273944.349289738,
+          "dashboard_cell": "Q126",
+          "report_cell": "G514"
+        },
+        {
+          "adr": 225,
+          "occupancy": 0.7,
+          "npv": -8721419.559790019,
+          "dashboard_cell": "U126",
+          "report_cell": "I514"
+        },
+        {
+          "adr": 150,
+          "occupancy": 0.75,
+          "npv": -13403075.248738742,
+          "dashboard_cell": "I128",
+          "report_cell": "C516",
+          "independent_core_reference_npv": -13403075.248738728
+        },
+        {
+          "adr": 175,
+          "occupancy": 0.75,
+          "npv": -11670042.354140982,
+          "dashboard_cell": "M128",
+          "report_cell": "E516"
+        },
+        {
+          "adr": 200,
+          "occupancy": 0.75,
+          "npv": -10035576.060759272,
+          "dashboard_cell": "Q128",
+          "report_cell": "G516"
+        },
+        {
+          "adr": 225,
+          "occupancy": 0.75,
+          "npv": -8466349.300344503,
+          "dashboard_cell": "U128",
+          "report_cell": "I516",
+          "independent_core_reference_npv": -8466349.30034451
+        }
+      ],
+      "color_classes": [
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative"
+      ],
+      "break_even_adr": null,
+      "break_even_occupancy": null,
+      "errors": 0,
+      "changed_grid_points_vs_base": 20
+    },
+    {
+      "test": "Tax",
+      "status": "PASS",
+      "active_adr": 185.0,
+      "active_occupancy": 0.58,
+      "current_npv": -11596917.6020528,
+      "exact_current_grid_npv": -11596917.6020528,
+      "monthly_values_compared": 126000,
+      "core_reference_corners": 4,
+      "npv_points": [
+        {
+          "adr": 150,
+          "occupancy": 0.5,
+          "npv": -15204146.24883569,
+          "dashboard_cell": "I120",
+          "report_cell": "C508",
+          "independent_core_reference_npv": -15204146.248835694
+        },
+        {
+          "adr": 175,
+          "occupancy": 0.5,
+          "npv": -13681688.417301692,
+          "dashboard_cell": "M120",
+          "report_cell": "E508"
+        },
+        {
+          "adr": 200,
+          "occupancy": 0.5,
+          "npv": -12176255.847878719,
+          "dashboard_cell": "Q120",
+          "report_cell": "G508"
+        },
+        {
+          "adr": 225,
+          "occupancy": 0.5,
+          "npv": -10698599.817580061,
+          "dashboard_cell": "U120",
+          "report_cell": "I508",
+          "independent_core_reference_npv": -10698599.817580068
+        },
+        {
+          "adr": 150,
+          "occupancy": 0.6,
+          "npv": -13692426.435088329,
+          "dashboard_cell": "I122",
+          "report_cell": "C510"
+        },
+        {
+          "adr": 175,
+          "occupancy": 0.6,
+          "npv": -11941059.34553874,
+          "dashboard_cell": "M122",
+          "report_cell": "E510"
+        },
+        {
+          "adr": 200,
+          "occupancy": 0.6,
+          "npv": -10234144.192650769,
+          "dashboard_cell": "Q122",
+          "report_cell": "G510"
+        },
+        {
+          "adr": 225,
+          "occupancy": 0.6,
+          "npv": -8593876.514357848,
+          "dashboard_cell": "U122",
+          "report_cell": "I510"
+        },
+        {
+          "adr": 150,
+          "occupancy": 0.65,
+          "npv": -13322673.430611202,
+          "dashboard_cell": "I124",
+          "report_cell": "C512"
+        },
+        {
+          "adr": 175,
+          "occupancy": 0.65,
+          "npv": -11537658.041892676,
+          "dashboard_cell": "M124",
+          "report_cell": "E512"
+        },
+        {
+          "adr": 200,
+          "occupancy": 0.65,
+          "npv": -9819593.64299424,
+          "dashboard_cell": "Q124",
+          "report_cell": "G512"
+        },
+        {
+          "adr": 225,
+          "occupancy": 0.65,
+          "npv": -8102030.373290582,
+          "dashboard_cell": "U124",
+          "report_cell": "I512"
+        },
+        {
+          "adr": 150,
+          "occupancy": 0.7,
+          "npv": -13101717.788193207,
+          "dashboard_cell": "I126",
+          "report_cell": "C514"
+        },
+        {
+          "adr": 175,
+          "occupancy": 0.7,
+          "npv": -11301228.285456484,
+          "dashboard_cell": "M126",
+          "report_cell": "E514"
+        },
+        {
+          "adr": 200,
+          "occupancy": 0.7,
+          "npv": -9600002.675628688,
+          "dashboard_cell": "Q126",
+          "report_cell": "G514"
+        },
+        {
+          "adr": 225,
+          "occupancy": 0.7,
+          "npv": -7790150.414504174,
+          "dashboard_cell": "U126",
+          "report_cell": "I514"
+        },
+        {
+          "adr": 150,
+          "occupancy": 0.75,
+          "npv": -12887077.255555904,
+          "dashboard_cell": "I128",
+          "report_cell": "C516",
+          "independent_core_reference_npv": -12887077.25555591
+        },
+        {
+          "adr": 175,
+          "occupancy": 0.75,
+          "npv": -11066167.20449425,
+          "dashboard_cell": "M128",
+          "report_cell": "E516"
+        },
+        {
+          "adr": 200,
+          "occupancy": 0.75,
+          "npv": -9350263.137916321,
+          "dashboard_cell": "Q128",
+          "report_cell": "G516"
+        },
+        {
+          "adr": 225,
+          "occupancy": 0.75,
+          "npv": -7428987.972956677,
+          "dashboard_cell": "U128",
+          "report_cell": "I516",
+          "independent_core_reference_npv": -7428987.97295668
+        }
+      ],
+      "color_classes": [
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative"
+      ],
+      "break_even_adr": null,
+      "break_even_occupancy": null,
+      "errors": 0,
+      "changed_grid_points_vs_base": 20
+    },
+    {
+      "test": "Discount",
+      "status": "PASS",
+      "active_adr": 185.0,
+      "active_occupancy": 0.58,
+      "current_npv": -5880828.34223307,
+      "exact_current_grid_npv": -5880828.34223307,
+      "monthly_values_compared": 126000,
+      "core_reference_corners": 4,
+      "npv_points": [
+        {
+          "adr": 150,
+          "occupancy": 0.5,
+          "npv": -10946711.394437118,
+          "dashboard_cell": "I120",
+          "report_cell": "C508",
+          "independent_core_reference_npv": -10946711.394437123
+        },
+        {
+          "adr": 175,
+          "occupancy": 0.5,
+          "npv": -8811250.838441044,
+          "dashboard_cell": "M120",
+          "report_cell": "E508"
+        },
+        {
+          "adr": 200,
+          "occupancy": 0.5,
+          "npv": -6675790.282444981,
+          "dashboard_cell": "Q120",
+          "report_cell": "G508"
+        },
+        {
+          "adr": 225,
+          "occupancy": 0.5,
+          "npv": -4539783.773595064,
+          "dashboard_cell": "U120",
+          "report_cell": "I508",
+          "independent_core_reference_npv": -4539783.773595072
+        },
+        {
+          "adr": 150,
+          "occupancy": 0.6,
+          "npv": -8869133.763752956,
+          "dashboard_cell": "I122",
+          "report_cell": "C510"
+        },
+        {
+          "adr": 175,
+          "occupancy": 0.6,
+          "npv": -6387396.467533057,
+          "dashboard_cell": "M122",
+          "report_cell": "E510"
+        },
+        {
+          "adr": 200,
+          "occupancy": 0.6,
+          "npv": -3906139.6299847346,
+          "dashboard_cell": "Q122",
+          "report_cell": "G510"
+        },
+        {
+          "adr": 225,
+          "occupancy": 0.6,
+          "npv": -1455032.6024327471,
+          "dashboard_cell": "U122",
+          "report_cell": "I510"
+        },
+        {
+          "adr": 150,
+          "occupancy": 0.65,
+          "npv": -8466631.820908962,
+          "dashboard_cell": "I124",
+          "report_cell": "C512"
+        },
+        {
+          "adr": 175,
+          "occupancy": 0.65,
+          "npv": -5917630.666862204,
+          "dashboard_cell": "M124",
+          "report_cell": "E512"
+        },
+        {
+          "adr": 200,
+          "occupancy": 0.65,
+          "npv": -3375616.394196365,
+          "dashboard_cell": "Q124",
+          "report_cell": "G512"
+        },
+        {
+          "adr": 225,
+          "occupancy": 0.65,
+          "npv": -890914.2785306497,
+          "dashboard_cell": "U124",
+          "report_cell": "I512"
+        },
+        {
+          "adr": 150,
+          "occupancy": 0.7,
+          "npv": -8250523.625793071,
+          "dashboard_cell": "I126",
+          "report_cell": "C514"
+        },
+        {
+          "adr": 175,
+          "occupancy": 0.7,
+          "npv": -5665504.439227028,
+          "dashboard_cell": "M126",
+          "report_cell": "E514"
+        },
+        {
+          "adr": 200,
+          "occupancy": 0.7,
+          "npv": -3087881.6358614275,
+          "dashboard_cell": "Q126",
+          "report_cell": "G514"
+        },
+        {
+          "adr": 225,
+          "occupancy": 0.7,
+          "npv": -595128.5359344012,
+          "dashboard_cell": "U126",
+          "report_cell": "I514"
+        },
+        {
+          "adr": 150,
+          "occupancy": 0.75,
+          "npv": -7980081.767702445,
+          "dashboard_cell": "I128",
+          "report_cell": "C516",
+          "independent_core_reference_npv": -7980081.767702449
+        },
+        {
+          "adr": 175,
+          "occupancy": 0.75,
+          "npv": -5349814.902193372,
+          "dashboard_cell": "M128",
+          "report_cell": "E516"
+        },
+        {
+          "adr": 200,
+          "occupancy": 0.75,
+          "npv": -2731441.734833367,
+          "dashboard_cell": "Q128",
+          "report_cell": "G516"
+        },
+        {
+          "adr": 225,
+          "occupancy": 0.75,
+          "npv": -207125.04407428764,
+          "dashboard_cell": "U128",
+          "report_cell": "I516",
+          "independent_core_reference_npv": -207125.04407430813
+        }
+      ],
+      "color_classes": [
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "near"
+      ],
+      "break_even_adr": null,
+      "break_even_occupancy": null,
+      "errors": 0,
+      "changed_grid_points_vs_base": 20
+    },
+    {
+      "test": "FinanceExit",
+      "status": "PASS",
+      "active_adr": 185.0,
+      "active_occupancy": 0.58,
+      "current_npv": -13823306.7197996,
+      "exact_current_grid_npv": -13823306.7197996,
+      "monthly_values_compared": 126000,
+      "core_reference_corners": 4,
+      "npv_points": [
+        {
+          "adr": 150,
+          "occupancy": 0.5,
+          "npv": -16677727.855571408,
+          "dashboard_cell": "I120",
+          "report_cell": "C508",
+          "independent_core_reference_npv": -16677727.855571423
+        },
+        {
+          "adr": 175,
+          "occupancy": 0.5,
+          "npv": -15481326.393533783,
+          "dashboard_cell": "M120",
+          "report_cell": "E508"
+        },
+        {
+          "adr": 200,
+          "occupancy": 0.5,
+          "npv": -14284924.931496164,
+          "dashboard_cell": "Q120",
+          "report_cell": "G508"
+        },
+        {
+          "adr": 225,
+          "occupancy": 0.5,
+          "npv": -13089303.627715705,
+          "dashboard_cell": "U120",
+          "report_cell": "I508",
+          "independent_core_reference_npv": -13089303.627715714
+        },
+        {
+          "adr": 150,
+          "occupancy": 0.6,
+          "npv": -15495196.687216679,
+          "dashboard_cell": "I122",
+          "report_cell": "C510"
+        },
+        {
+          "adr": 175,
+          "occupancy": 0.6,
+          "npv": -14101703.435817761,
+          "dashboard_cell": "M122",
+          "report_cell": "E510"
+        },
+        {
+          "adr": 200,
+          "occupancy": 0.6,
+          "npv": -12710564.576707436,
+          "dashboard_cell": "Q122",
+          "report_cell": "G510"
+        },
+        {
+          "adr": 225,
+          "occupancy": 0.6,
+          "npv": -11345874.39954767,
+          "dashboard_cell": "U122",
+          "report_cell": "I510"
+        },
+        {
+          "adr": 150,
+          "occupancy": 0.65,
+          "npv": -15218782.75878696,
+          "dashboard_cell": "I124",
+          "report_cell": "C512"
+        },
+        {
+          "adr": 175,
+          "occupancy": 0.65,
+          "npv": -13779177.938646747,
+          "dashboard_cell": "M124",
+          "report_cell": "E512"
+        },
+        {
+          "adr": 200,
+          "occupancy": 0.65,
+          "npv": -12348708.201606184,
+          "dashboard_cell": "Q124",
+          "report_cell": "G512"
+        },
+        {
+          "adr": 225,
+          "occupancy": 0.65,
+          "npv": -10968021.999807142,
+          "dashboard_cell": "U124",
+          "report_cell": "I512"
+        },
+        {
+          "adr": 150,
+          "occupancy": 0.7,
+          "npv": -15056252.672344288,
+          "dashboard_cell": "I126",
+          "report_cell": "C514"
+        },
+        {
+          "adr": 175,
+          "occupancy": 0.7,
+          "npv": -13589559.504463626,
+          "dashboard_cell": "M126",
+          "report_cell": "E514"
+        },
+        {
+          "adr": 200,
+          "occupancy": 0.7,
+          "npv": -12132414.206600662,
+          "dashboard_cell": "Q126",
+          "report_cell": "G514"
+        },
+        {
+          "adr": 225,
+          "occupancy": 0.7,
+          "npv": -10753250.323918514,
+          "dashboard_cell": "U126",
+          "report_cell": "I514"
+        },
+        {
+          "adr": 150,
+          "occupancy": 0.75,
+          "npv": -14891320.904051233,
+          "dashboard_cell": "I128",
+          "report_cell": "C516",
+          "independent_core_reference_npv": -14891320.904051239
+        },
+        {
+          "adr": 175,
+          "occupancy": 0.75,
+          "npv": -13397097.98415868,
+          "dashboard_cell": "M128",
+          "report_cell": "E516"
+        },
+        {
+          "adr": 200,
+          "occupancy": 0.75,
+          "npv": -11916968.015237065,
+          "dashboard_cell": "Q128",
+          "report_cell": "G516"
+        },
+        {
+          "adr": 225,
+          "occupancy": 0.75,
+          "npv": -10521304.533929626,
+          "dashboard_cell": "U128",
+          "report_cell": "I516",
+          "independent_core_reference_npv": -10521304.533929627
+        }
+      ],
+      "color_classes": [
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative"
+      ],
+      "break_even_adr": null,
+      "break_even_occupancy": null,
+      "errors": 0,
+      "changed_grid_points_vs_base": 20
+    }
+  ],
+  "independent_corner_monthly_checks_per_case": 100800,
+  "exact_current_engine_monthly_checks_per_case": 25200,
+  "near_zero_precedence": "ABS(NPV) <= editable threshold; negative below minus threshold; positive above threshold",
+  "break_even_scope": "Minimum feasible tested ADR at exact active occupancy, and minimum feasible tested occupancy at exact active ADR; not a continuous extrapolated root"
+}

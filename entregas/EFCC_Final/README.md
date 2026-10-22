@@ -1,3 +1,5 @@
+> **Versão mais recente — PREMIUM R2 CHECKPOINT:** [Excel, matriz de sensibilidade, PDFs PT/EN e testes](Premium_Checkpoint/README.md). Os ficheiros abaixo são a entrega histórica R1. Aceitação nativa Excel 365 e ficheiro original do logótipo permanecem pendentes.
+
 > **Revisão R1:** removidos três contentores XML vazios nas folhas indicadas pelo Excel. [Correção e testes](Relatorio_Reparacao_XML_R1.md). Cálculos e apresentação preservados; reabertura nativa da R1 ainda não testada.
 
 > Atualização V06.3-SYNC: Base Case passa a usar Base (185 EUR / 58%). Resultados e testes atuais: [Relatório de sincronização](Relatorio_Sincronizacao_Cenarios.md). As equivalências anteriores Base=Favorável estão substituídas.

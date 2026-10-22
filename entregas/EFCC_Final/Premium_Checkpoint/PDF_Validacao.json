@@ -1,0 +1,342 @@
+{
+  "platform": "LibreOffice PDF export",
+  "native_excel365": "NOT TESTED",
+  "pages": [
+    {
+      "language": "PT",
+      "document": "Dashboards",
+      "page": 1,
+      "width": 1190.5511474609375,
+      "height": 841.8897705078125,
+      "errors": false
+    },
+    {
+      "language": "PT",
+      "document": "Dashboards",
+      "page": 2,
+      "width": 1190.5511474609375,
+      "height": 841.8897705078125,
+      "errors": false
+    },
+    {
+      "language": "PT",
+      "document": "Dashboards",
+      "page": 3,
+      "width": 1190.5511474609375,
+      "height": 841.8897705078125,
+      "errors": false
+    },
+    {
+      "language": "PT",
+      "document": "Dashboards",
+      "page": 4,
+      "width": 1190.5511474609375,
+      "height": 841.8897705078125,
+      "errors": false
+    },
+    {
+      "language": "PT",
+      "document": "Dashboards",
+      "page": 5,
+      "width": 1190.5511474609375,
+      "height": 841.8897705078125,
+      "errors": false
+    },
+    {
+      "language": "PT",
+      "document": "Dashboards",
+      "page": 6,
+      "width": 1190.5511474609375,
+      "height": 841.8897705078125,
+      "errors": false
+    },
+    {
+      "language": "PT",
+      "document": "Dashboards",
+      "page": 7,
+      "width": 1190.5511474609375,
+      "height": 841.8897705078125,
+      "errors": false
+    },
+    {
+      "language": "PT",
+      "document": "Dashboards",
+      "page": 8,
+      "width": 1190.5511474609375,
+      "height": 841.8897705078125,
+      "errors": false
+    },
+    {
+      "language": "PT",
+      "document": "Dashboards",
+      "page": 9,
+      "width": 1190.5511474609375,
+      "height": 841.8897705078125,
+      "errors": false
+    },
+    {
+      "language": "PT",
+      "document": "DASH_10",
+      "page": 1,
+      "width": 595.303955078125,
+      "height": 841.8897705078125,
+      "errors": false
+    },
+    {
+      "language": "PT",
+      "document": "DASH_10",
+      "page": 2,
+      "width": 595.303955078125,
+      "height": 841.8897705078125,
+      "errors": false
+    },
+    {
+      "language": "PT",
+      "document": "DASH_10",
+      "page": 3,
+      "width": 595.303955078125,
+      "height": 841.8897705078125,
+      "errors": false
+    },
+    {
+      "language": "PT",
+      "document": "DASH_10",
+      "page": 4,
+      "width": 595.303955078125,
+      "height": 841.8897705078125,
+      "errors": false
+    },
+    {
+      "language": "PT",
+      "document": "DASH_10",
+      "page": 5,
+      "width": 595.303955078125,
+      "height": 841.8897705078125,
+      "errors": false
+    },
+    {
+      "language": "PT",
+      "document": "DASH_10",
+      "page": 6,
+      "width": 595.303955078125,
+      "height": 841.8897705078125,
+      "errors": false
+    },
+    {
+      "language": "PT",
+      "document": "DASH_10",
+      "page": 7,
+      "width": 595.303955078125,
+      "height": 841.8897705078125,
+      "errors": false
+    },
+    {
+      "language": "PT",
+      "document": "DASH_10",
+      "page": 8,
+      "width": 595.303955078125,
+      "height": 841.8897705078125,
+      "errors": false
+    },
+    {
+      "language": "PT",
+      "document": "DASH_10",
+      "page": 9,
+      "width": 595.303955078125,
+      "height": 841.8897705078125,
+      "errors": false
+    },
+    {
+      "language": "PT",
+      "document": "DASH_10",
+      "page": 10,
+      "width": 595.303955078125,
+      "height": 841.8897705078125,
+      "errors": false
+    },
+    {
+      "language": "PT",
+      "document": "Executive_Brief",
+      "page": 1,
+      "width": 595.303955078125,
+      "height": 841.8897705078125,
+      "errors": false
+    },
+    {
+      "language": "PT",
+      "document": "Executive_Brief",
+      "page": 2,
+      "width": 595.303955078125,
+      "height": 841.8897705078125,
+      "errors": false
+    },
+    {
+      "language": "EN",
+      "document": "Dashboards",
+      "page": 1,
+      "width": 1190.5511474609375,
+      "height": 841.8897705078125,
+      "errors": false
+    },
+    {
+      "language": "EN",
+      "document": "Dashboards",
+      "page": 2,
+      "width": 1190.5511474609375,
+      "height": 841.8897705078125,
+      "errors": false
+    },
+    {
+      "language": "EN",
+      "document": "Dashboards",
+      "page": 3,
+      "width": 1190.5511474609375,
+      "height": 841.8897705078125,
+      "errors": false
+    },
+    {
+      "language": "EN",
+      "document": "Dashboards",
+      "page": 4,
+      "width": 1190.5511474609375,
+      "height": 841.8897705078125,
+      "errors": false
+    },
+    {
+      "language": "EN",
+      "document": "Dashboards",
+      "page": 5,
+      "width": 1190.5511474609375,
+      "height": 841.8897705078125,
+      "errors": false
+    },
+    {
+      "language": "EN",
+      "document": "Dashboards",
+      "page": 6,
+      "width": 1190.5511474609375,
+      "height": 841.8897705078125,
+      "errors": false
+    },
+    {
+      "language": "EN",
+      "document": "Dashboards",
+      "page": 7,
+      "width": 1190.5511474609375,
+      "height": 841.8897705078125,
+      "errors": false
+    },
+    {
+      "language": "EN",
+      "document": "Dashboards",
+      "page": 8,
+      "width": 1190.5511474609375,
+      "height": 841.8897705078125,
+      "errors": false
+    },
+    {
+      "language": "EN",
+      "document": "Dashboards",
+      "page": 9,
+      "width": 1190.5511474609375,
+      "height": 841.8897705078125,
+      "errors": false
+    },
+    {
+      "language": "EN",
+      "document": "DASH_10",
+      "page": 1,
+      "width": 595.303955078125,
+      "height": 841.8897705078125,
+      "errors": false
+    },
+    {
+      "language": "EN",
+      "document": "DASH_10",
+      "page": 2,
+      "width": 595.303955078125,
+      "height": 841.8897705078125,
+      "errors": false
+    },
+    {
+      "language": "EN",
+      "document": "DASH_10",
+      "page": 3,
+      "width": 595.303955078125,
+      "height": 841.8897705078125,
+      "errors": false
+    },
+    {
+      "language": "EN",
+      "document": "DASH_10",
+      "page": 4,
+      "width": 595.303955078125,
+      "height": 841.8897705078125,
+      "errors": false
+    },
+    {
+      "language": "EN",
+      "document": "DASH_10",
+      "page": 5,
+      "width": 595.303955078125,
+      "height": 841.8897705078125,
+      "errors": false
+    },
+    {
+      "language": "EN",
+      "document": "DASH_10",
+      "page": 6,
+      "width": 595.303955078125,
+      "height": 841.8897705078125,
+      "errors": false
+    },
+    {
+      "language": "EN",
+      "document": "DASH_10",
+      "page": 7,
+      "width": 595.303955078125,
+      "height": 841.8897705078125,
+      "errors": false
+    },
+    {
+      "language": "EN",
+      "document": "DASH_10",
+      "page": 8,
+      "width": 595.303955078125,
+      "height": 841.8897705078125,
+      "errors": false
+    },
+    {
+      "language": "EN",
+      "document": "DASH_10",
+      "page": 9,
+      "width": 595.303955078125,
+      "height": 841.8897705078125,
+      "errors": false
+    },
+    {
+      "language": "EN",
+      "document": "DASH_10",
+      "page": 10,
+      "width": 595.303955078125,
+      "height": 841.8897705078125,
+      "errors": false
+    },
+    {
+      "language": "EN",
+      "document": "Executive_Brief",
+      "page": 1,
+      "width": 595.303955078125,
+      "height": 841.8897705078125,
+      "errors": false
+    },
+    {
+      "language": "EN",
+      "document": "Executive_Brief",
+      "page": 2,
+      "width": 595.303955078125,
+      "height": 841.8897705078125,
+      "errors": false
+    }
+  ]
+}

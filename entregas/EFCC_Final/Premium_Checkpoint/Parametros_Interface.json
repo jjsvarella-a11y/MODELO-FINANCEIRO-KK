@@ -1,0 +1,456 @@
+[
+  {
+    "source_sheet": "V06 Controlos",
+    "source_cell": "B38",
+    "sheet": "DASH 01 V06",
+    "cell": "H23",
+    "value": 0,
+    "label_pt": "Atraso obra · meses",
+    "label_en": "Build delay · months"
+  },
+  {
+    "source_sheet": "V06 Controlos",
+    "source_cell": "B39",
+    "sheet": "DASH 01 V06",
+    "cell": "N23",
+    "value": 0,
+    "label_pt": "Sobrecusto obra",
+    "label_en": "Construction overrun"
+  },
+  {
+    "source_sheet": "V06 Controlos",
+    "source_cell": "B75",
+    "sheet": "DASH 01 V06",
+    "cell": "H25",
+    "value": 0,
+    "label_pt": "ETC adicional €",
+    "label_en": "Additional ETC €"
+  },
+  {
+    "source_sheet": "V06 Controlos",
+    "source_cell": "B9",
+    "sheet": "DASH 02 V06",
+    "cell": "H23",
+    "value": 0.2,
+    "label_pt": "IRPC",
+    "label_en": "Corporate tax"
+  },
+  {
+    "source_sheet": "V06 Controlos",
+    "source_cell": "B6",
+    "sheet": "DASH 02 V06",
+    "cell": "N23",
+    "value": 0.15,
+    "label_pt": "IVA",
+    "label_en": "VAT"
+  },
+  {
+    "source_sheet": "V06 Controlos",
+    "source_cell": "B8",
+    "sheet": "DASH 02 V06",
+    "cell": "H25",
+    "value": 6,
+    "label_pt": "Reembolso IVA · meses",
+    "label_en": "VAT refund · months"
+  },
+  {
+    "source_sheet": "V06 Controlos",
+    "source_cell": "B10",
+    "sheet": "DASH 02 V06",
+    "cell": "N25",
+    "value": 0,
+    "label_pt": "Isenção simulada · anos",
+    "label_en": "Simulated exemption · years"
+  },
+  {
+    "source_sheet": "V06 Controlos",
+    "source_cell": "B41",
+    "sheet": "DASH 03 V06",
+    "cell": "H23",
+    "value": 0.06,
+    "label_pt": "Taxa de juro",
+    "label_en": "Interest rate"
+  },
+  {
+    "source_sheet": "V06 Controlos",
+    "source_cell": "B42",
+    "sheet": "DASH 03 V06",
+    "cell": "N23",
+    "value": 42,
+    "label_pt": "Carência · meses",
+    "label_en": "Grace · months"
+  },
+  {
+    "source_sheet": "V06 Controlos",
+    "source_cell": "B43",
+    "sheet": "DASH 03 V06",
+    "cell": "H25",
+    "value": 120,
+    "label_pt": "Prazo · meses",
+    "label_en": "Tenor · months"
+  },
+  {
+    "source_sheet": "V06 Controlos",
+    "source_cell": "B44",
+    "sheet": "DASH 03 V06",
+    "cell": "N25",
+    "value": 1,
+    "label_pt": "Cash sweep",
+    "label_en": "Cash sweep"
+  },
+  {
+    "source_sheet": "V06 Controlos",
+    "source_cell": "B37",
+    "sheet": "DASH 04A V06",
+    "cell": "H23",
+    "value": 0,
+    "label_pt": "Atraso vendas · meses",
+    "label_en": "Sales delay · months"
+  },
+  {
+    "source_sheet": "V06 Controlos",
+    "source_cell": "B72",
+    "sheet": "DASH 04B V06",
+    "cell": "H27",
+    "value": 0.0425,
+    "label_pt": "Yield alvo inicial",
+    "label_en": "Initial target yield"
+  },
+  {
+    "source_sheet": "V06 Controlos",
+    "source_cell": "B73",
+    "sheet": "DASH 04B V06",
+    "cell": "N23",
+    "value": 0.0025,
+    "label_pt": "Incremento yield anual",
+    "label_en": "Annual yield increment"
+  },
+  {
+    "source_sheet": "DASH 04B V06",
+    "source_cell": "H23",
+    "sheet": "DASH 04B V06",
+    "cell": "H23",
+    "value": "Custom Terms",
+    "label_pt": "Condições residencial",
+    "label_en": "Residential terms"
+  },
+  {
+    "source_sheet": "DASH 04B V06",
+    "source_cell": "H25",
+    "sheet": "DASH 04B V06",
+    "cell": "H25",
+    "value": 0.03,
+    "label_pt": "Gestão Custom",
+    "label_en": "Custom management"
+  },
+  {
+    "source_sheet": "DASH 04B V06",
+    "source_cell": "N25",
+    "sheet": "DASH 04B V06",
+    "cell": "N25",
+    "value": 0.05,
+    "label_pt": "Distribuição Custom",
+    "label_en": "Custom distribution"
+  },
+  {
+    "sheet": "DASH 04B V06",
+    "cell": "N27",
+    "value": 225,
+    "label_pt": "ADR residencial inicial",
+    "label_en": "Initial residential ADR",
+    "new_exposure_of_existing_constant": true
+  },
+  {
+    "sheet": "DASH 04B V06",
+    "cell": "H29",
+    "value": 0.581,
+    "label_pt": "Ocupação inicial",
+    "label_en": "Initial occupancy",
+    "new_exposure_of_existing_constant": true
+  },
+  {
+    "sheet": "DASH 04B V06",
+    "cell": "N29",
+    "value": 0.35,
+    "label_pt": "OPEX / receita",
+    "label_en": "OPEX / revenue",
+    "new_exposure_of_existing_constant": true
+  },
+  {
+    "sheet": "DASH 04B V06",
+    "cell": "N31",
+    "value": 0.04,
+    "label_pt": "Dotação FF&E",
+    "label_en": "FF&E contribution",
+    "new_exposure_of_existing_constant": true
+  },
+  {
+    "source_sheet": "DASH 05 V06",
+    "source_cell": "H23",
+    "sheet": "DASH 05 V06",
+    "cell": "H23",
+    "value": "Base Case",
+    "label_pt": "Cenário operacional",
+    "label_en": "Operating scenario"
+  },
+  {
+    "source_sheet": "DASH 05 V06",
+    "source_cell": "N23",
+    "sheet": "DASH 05 V06",
+    "cell": "N23",
+    "value": 5,
+    "label_pt": "Ano operacional",
+    "label_en": "Operating year"
+  },
+  {
+    "source_sheet": "DASH 05 V06",
+    "source_cell": "H25",
+    "sheet": "DASH 05 V06",
+    "cell": "H25",
+    "value": 210,
+    "label_pt": "ADR · apenas Custom",
+    "label_en": "ADR · Custom only"
+  },
+  {
+    "source_sheet": "DASH 05 V06",
+    "source_cell": "H27",
+    "sheet": "DASH 05 V06",
+    "cell": "H27",
+    "value": 0.64,
+    "label_pt": "Ocupação · apenas Custom",
+    "label_en": "Occupancy · Custom only"
+  },
+  {
+    "source_sheet": "DASH 05 V06",
+    "source_cell": "N25",
+    "sheet": "DASH 05 V06",
+    "cell": "N25",
+    "value": 0.5,
+    "label_pt": "Utilização MICE",
+    "label_en": "MICE utilisation"
+  },
+  {
+    "source_sheet": "DASH 05 V06",
+    "source_cell": "N27",
+    "sheet": "DASH 05 V06",
+    "cell": "N27",
+    "value": 0.05,
+    "label_pt": "Reserva FF&E",
+    "label_en": "FF&E reserve"
+  },
+  {
+    "source_sheet": "DASH 05 V06",
+    "source_cell": "N29",
+    "sheet": "DASH 05 V06",
+    "cell": "N29",
+    "value": 0.03,
+    "label_pt": "Crescimento ADR",
+    "label_en": "ADR growth"
+  },
+  {
+    "source_sheet": "DASH 05 V06",
+    "source_cell": "H32",
+    "sheet": "DASH 05 V06",
+    "cell": "H32",
+    "value": "Custom Terms",
+    "label_pt": "Condições operadora",
+    "label_en": "Operator terms"
+  },
+  {
+    "source_sheet": "DASH 05 V06",
+    "source_cell": "H34",
+    "sheet": "DASH 05 V06",
+    "cell": "H34",
+    "value": 0,
+    "label_pt": "Marketing Custom",
+    "label_en": "Custom marketing"
+  },
+  {
+    "source_sheet": "DASH 05 V06",
+    "source_cell": "N34",
+    "sheet": "DASH 05 V06",
+    "cell": "N34",
+    "value": 0,
+    "label_pt": "Distribuição Custom",
+    "label_en": "Custom distribution"
+  },
+  {
+    "source_sheet": "DASH 05 V06",
+    "source_cell": "H36",
+    "sheet": "DASH 05 V06",
+    "cell": "H36",
+    "value": 0,
+    "label_pt": "Prioridade ativa 0/1",
+    "label_en": "Priority enabled 0/1"
+  },
+  {
+    "source_sheet": "DASH 05 V06",
+    "source_cell": "N36",
+    "sheet": "DASH 05 V06",
+    "cell": "N36",
+    "value": 0,
+    "label_pt": "Prioridade anual €",
+    "label_en": "Annual priority €"
+  },
+  {
+    "source_sheet": "V06 Controlos",
+    "source_cell": "B68",
+    "sheet": "DASH 05 V06",
+    "cell": "H29",
+    "value": 0.03,
+    "label_pt": "Base fee Custom",
+    "label_en": "Custom base fee"
+  },
+  {
+    "source_sheet": "V06 Controlos",
+    "source_cell": "B70",
+    "sheet": "DASH 05 V06",
+    "cell": "H30",
+    "value": 0.06,
+    "label_pt": "Incentivo Custom",
+    "label_en": "Custom incentive"
+  },
+  {
+    "source_sheet": "V06 Controlos",
+    "source_cell": "B69",
+    "sheet": "DASH 05 V06",
+    "cell": "N32",
+    "value": 0.03,
+    "label_pt": "Sistemas Custom",
+    "label_en": "Custom systems"
+  },
+  {
+    "source_sheet": "V06 Controlos",
+    "source_cell": "B35",
+    "sheet": "DASH 06 V06",
+    "cell": "H23",
+    "value": 0,
+    "label_pt": "Atraso capital · meses",
+    "label_en": "Capital delay · months"
+  },
+  {
+    "source_sheet": "V06 Controlos",
+    "source_cell": "B36",
+    "sheet": "DASH 06 V06",
+    "cell": "N23",
+    "value": 1,
+    "label_pt": "Capital recebido de cenário",
+    "label_en": "Scenario capital received"
+  },
+  {
+    "source_sheet": "V06 Controlos",
+    "source_cell": "B57",
+    "sheet": "DASH 07 V06",
+    "cell": "N23",
+    "value": "Auto",
+    "label_pt": "Política dividendos",
+    "label_en": "Dividend policy"
+  },
+  {
+    "source_sheet": "V06 Controlos",
+    "source_cell": "B62",
+    "sheet": "DASH 07 V06",
+    "cell": "H25",
+    "value": 12,
+    "label_pt": "Múltiplo saída",
+    "label_en": "Exit multiple"
+  },
+  {
+    "source_sheet": "V06 Controlos",
+    "source_cell": "B65",
+    "sheet": "DASH 07 V06",
+    "cell": "N25",
+    "value": 0.12,
+    "label_pt": "Desconto Custom",
+    "label_en": "Custom discount"
+  },
+  {
+    "source_sheet": "V06 Controlos",
+    "source_cell": "B61",
+    "sheet": "DASH 07 V06",
+    "cell": "H27",
+    "value": 0.5,
+    "label_pt": "Distribuição parcial",
+    "label_en": "Partial payout"
+  },
+  {
+    "source_sheet": "V06 Controlos",
+    "source_cell": "B58",
+    "sheet": "DASH 07 V06",
+    "cell": "N27",
+    "value": 1.2,
+    "label_pt": "Cobertura 12M",
+    "label_en": "12M coverage"
+  },
+  {
+    "source_sheet": "DASH 07 V06",
+    "source_cell": "H23",
+    "sheet": "DASH 07 V06",
+    "cell": "H23",
+    "value": "Flexible",
+    "label_pt": "Política de reservas",
+    "label_en": "Reserve policy"
+  },
+  {
+    "source_sheet": "V06 Matriz ADR",
+    "source_cell": "F3",
+    "sheet": "DASH 07 V06",
+    "cell": "H29",
+    "value": "12%",
+    "label_pt": "Taxa desconto ativa",
+    "label_en": "Active discount rate"
+  },
+  {
+    "source_sheet": "V06 Controlos",
+    "source_cell": "B5",
+    "sheet": "DASH 10 Centro",
+    "cell": "H7",
+    "value": "PT",
+    "label_pt": "Idioma global",
+    "label_en": "Global language"
+  },
+  {
+    "source_sheet": "V06 Hipoteses",
+    "source_cell": "D26",
+    "sheet": "DASH 10 Centro",
+    "cell": "H11",
+    "value": "Complete Report",
+    "label_pt": "Formato",
+    "label_en": "Format"
+  },
+  {
+    "source_sheet": "V06 Hipoteses",
+    "source_cell": "D27",
+    "sheet": "DASH 10 Centro",
+    "cell": "N11",
+    "value": "Active Scenario",
+    "label_pt": "Cenário do relatório",
+    "label_en": "Report scenario"
+  },
+  {
+    "source_sheet": "V06 Hipoteses",
+    "source_cell": "D28",
+    "sheet": "DASH 10 Centro",
+    "cell": "H15",
+    "value": "2026-10-22",
+    "label_pt": "Data referência",
+    "label_en": "Reference date"
+  },
+  {
+    "source_sheet": "V06 Hipoteses",
+    "source_cell": "D29",
+    "sheet": "DASH 10 Centro",
+    "cell": "N15",
+    "value": "EFCC-20261022-01",
+    "label_pt": "Identificador cenário",
+    "label_en": "Scenario identifier"
+  },
+  {
+    "sheet": "DASH 05 V06",
+    "cell": "W116",
+    "value": 500000,
+    "label_pt": "Limiar perto de zero",
+    "label_en": "Near-zero threshold",
+    "presentation_only": true
+  }
+]

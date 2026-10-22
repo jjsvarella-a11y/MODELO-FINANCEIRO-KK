@@ -83,7 +83,7 @@ def main():
    # Presentation controls intentionally preserve the financial engine.
    if sn==C:assert not changed,changed[:5]
    # Presets equal to the calibrated baseline legitimately have identical results.
-   neutral=(sn==H and a=='H23' and value in ['Base Case']) or value==oldvalue or sn==C or (sn,a)==(H,'N23') or ((sn,a) in [('DASH 03 V06','N23'),('DASH 03 V06','H25')] and not changed and not metric_changed) or ((sn,a)==(Q,'H29') and value=='Custom' and cells[Q]['N26']==base[Q]['N26'])
+   neutral=(sn==H and a=='H23' and value in ['Base Case']) or value==oldvalue or sn==C or (sn,a) in [(H,'N23'),(H,'W116')] or ((sn,a) in [('DASH 03 V06','N23'),('DASH 03 V06','H25')] and not changed and not metric_changed) or ((sn,a)==(Q,'H29') and value=='Custom' and cells[Q]['N26']==base[Q]['N26'])
    if (sn,a) in [('DASH 03 V06','N23'),('DASH 03 V06','H25')] and not changed:
     bank=json.loads((ROOT/'Testes_Carencia_Prazo.json').read_text());assert bank['status']=='PASS'
    if (sn,a,value)==(Q,'N23','Minimum') and not changed and not metric_changed:
@@ -94,7 +94,13 @@ def main():
     result['equivalence_evidence']={'reason':'Auto independently selects the same 3M annual target in all 180 months; Minimum changes the policy identifier but not its applicable cash flows','months_checked':180,'target':3000000}
    if not neutral:assert changed or metric_changed,('No engine response',sn,a,value)
    if (sn,a)==(H,'N23'):assert cells[H]['H50']!=base[H]['H50']
-   if (sn,a)==(C,'H7') and value=='EN':assert 'Executive Dashboard' in cells['EXEC V06']['B8']
+   if (sn,a)==(C,'H7') and value=='EN':
+    specfile=ROOT/'Design_Spec.json'
+    if specfile.exists():
+     spec=json.loads(specfile.read_text());route=next(r for r in spec['routes'] if r['type']=='Sidebar title' and r['origin'].startswith('EXEC V06!') and r['destination']=='EXEC V06!A1');address=route['origin'].split('!')[1]
+    else:address='B8'
+    assert 'Executive Dashboard' in cells['EXEC V06'][address]
+
    if (sn,a)==(C,'N11'):old.near(cells['DASH 10 V06']['G17'],old.REF['metrics']['Reference Case']['npv'] if value=='Reference Case' else base['V06 Cenarios']['M5'])
    result.update({'sheet':sn,'cell':a,'choice':value,'label':item['label_pt'],'changed_engine_cells':len(changed),'changed_dashboard_kpis':kpi_changed,'changed_summary_cells':metric_changed,'active_readouts_checked':8,'interpretation':'Nonbinding while cash sweep repays debt; separately tested with outstanding debt' if (sn,a) in [('DASH 03 V06','N23'),('DASH 03 V06','H25')] and not changed else 'Equivalent to baseline / presentation only' if neutral else 'Engine responds'})
    from verify_all_filter_outputs import inspect as verify_outputs
@@ -106,7 +112,7 @@ def main():
   for f in as_completed([ex.submit(run,c) for c in cases]):
    r=f.result();results.append(r);print(json.dumps(r,ensure_ascii=False),flush=True)
  if not existing:
-  subprocess.run([sys.executable,str(ROOT/'src/test_bank_controls.py')],check=True)
+  subprocess.run([sys.executable,str(__import__('pathlib').Path(__file__).with_name('test_bank_controls.py'))],check=True)
   existing=True
   with ThreadPoolExecutor(max_workers=3) as ex:results=list(ex.map(run,cases))
  proof={'status':'PASS' if all(r['status']=='PASS' for r in results) else 'FAIL','platform':'LibreOffice, cache-invalidated recalculation; live active engine, unrelated scenario branches frozen only in private labs','native_excel365':'NOT TESTED','inputs_covered':len(inputs),'tests':results,'release':'V06.3-SYNC','note':'Base Case uses the Base profile; stored Custom values remain editable but do not apply in preset modes.'}
