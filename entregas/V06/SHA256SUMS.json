@@ -1,0 +1,447 @@
+[
+  {
+    "file": "KK01_V06_Auditoria_Financeira.md",
+    "bytes": 4653,
+    "sha256": "5268c05cae4b717bf9eefdf3b6f059a4098266e51fc2db30605620e9f8861398"
+  },
+  {
+    "file": "KK01_V06_Auditoria_Financeira.pdf",
+    "bytes": 5836,
+    "sha256": "e4d0bc3053c69d550b9e933b80aa30bac17f804653fe44b9d241db6e1408b52f"
+  },
+  {
+    "file": "KK01_V06_Compatibilidade_Excel365.md",
+    "bytes": 2435,
+    "sha256": "15138f918ab1ed0ee7d033ed3976662d1967e4cd089048483b5eb8b64c560419"
+  },
+  {
+    "file": "KK01_V06_Compatibilidade_Excel365.pdf",
+    "bytes": 3469,
+    "sha256": "8f6e8d62f7e012028c07f72b0cea655b8bdeba8f55fee962a0010d78fd686691"
+  },
+  {
+    "file": "KK01_V06_Dashboards.pdf",
+    "bytes": 140187,
+    "sha256": "a11642be739ac48c22795facc5bfca21ad226626570c96ed5da5fbdc50224a9c"
+  },
+  {
+    "file": "KK01_V06_Executive_Master.merge.json",
+    "bytes": 377,
+    "sha256": "a1973956aae473c3ebf7cb5ecdeb6e3d209fe7d550fb4cb9157b2a03d25bf68e"
+  },
+  {
+    "file": "KK01_V06_Executive_Master.xlsx",
+    "bytes": 32354611,
+    "sha256": "77a344d2a820443552b228b529b8ebd010dc2bafba67ca4f52548fcd4a822839"
+  },
+  {
+    "file": "KK01_V06_Manual_Utilizador.md",
+    "bytes": 4005,
+    "sha256": "c707eb1fc0d6bb5c6dc8dcab9b0c6765a9b2030d5c3924d990c4653287be86ca"
+  },
+  {
+    "file": "KK01_V06_Manual_Utilizador.pdf",
+    "bytes": 5242,
+    "sha256": "6aeb03809c801349c1e03bb615466fdd925b1227d956123a4cc47e6943fd9196"
+  },
+  {
+    "file": "KK01_V06_Matriz_Alteracoes.csv",
+    "bytes": 997,
+    "sha256": "bc1a17e5481df50af24c905908860623913408ffd602210a12f81d13b801d864"
+  },
+  {
+    "file": "KK01_V06_Relatorio_Executivo.md",
+    "bytes": 2198,
+    "sha256": "f62b924fccec947894124ec187e5e9e777f9416baef86b6c66919b2288165ca9"
+  },
+  {
+    "file": "KK01_V06_Relatorio_Executivo.pdf",
+    "bytes": 3415,
+    "sha256": "b284b2dd1ba85b6e7af01cee9c95d4a5e777de6e53a1c7315fdbbbccba013b6e"
+  },
+  {
+    "file": "Mandato_V06.md",
+    "bytes": 34856,
+    "sha256": "8a34fde444c1793cbadd0dfcb379de2fafd947a8cf6686b34e7fb2ededc469ce"
+  },
+  {
+    "file": "Manifesto_Fontes.json",
+    "bytes": 471,
+    "sha256": "a320368d462555af06a57554558c84c24110595980c74cd1e86030a5627d2fc2"
+  },
+  {
+    "file": "README.md",
+    "bytes": 2507,
+    "sha256": "df22313dcd352f2e907fbdb089c15f6d268abc254c7d6c9d0ae5545cc7c18ec0"
+  },
+  {
+    "file": "Reconciliacao_V05_V06.csv",
+    "bytes": 1352,
+    "sha256": "c3d3dc17c5875eee2a0e256ae3ce0e5f9ff23c472d23f21754b03b802f6116b3"
+  },
+  {
+    "file": "Referencia_Python_V06.json",
+    "bytes": 18218192,
+    "sha256": "c13ef72e0cd8a8cd9ca8e4dc0e94f5e531942bf3b7ee259213f5350feda8b145"
+  },
+  {
+    "file": "Regressao_V04_Original.json",
+    "bytes": 569,
+    "sha256": "91b021b14c5bc6b1755a594afadc309808dcb0558c430ccec7d28919b34c21c1"
+  },
+  {
+    "file": "Testes_Seletores_V06.json",
+    "bytes": 626,
+    "sha256": "6c13b0a2cb4011973230bf48a3d0e804363d0274cf03374780959145cde9c654"
+  },
+  {
+    "file": "Validation_Final.json",
+    "bytes": 3453,
+    "sha256": "82f40f925ae2fd5ab9257861cef72d87f43527f6bb1b69fd9e76c6276279a3c4"
+  },
+  {
+    "file": "Validation_Modules.json",
+    "bytes": 3243,
+    "sha256": "01b45219ab6d849740d83fd1c35bbf9b4c41e8761a8f152407438bdac1268dc8"
+  },
+  {
+    "file": "checkpoints/C0_Fontes.json",
+    "bytes": 471,
+    "sha256": "a320368d462555af06a57554558c84c24110595980c74cd1e86030a5627d2fc2"
+  },
+  {
+    "file": "checkpoints/C1.json",
+    "bytes": 305,
+    "sha256": "3c909ed2083cd85933b214821b853cee1cf5156454aa16d5f40fc90867b7e66f"
+  },
+  {
+    "file": "checkpoints/C2.json",
+    "bytes": 310,
+    "sha256": "866ff2d428715db13875bb84a2dfea8a69e3e1d407d2cbd80e9518dc88737364"
+  },
+  {
+    "file": "checkpoints/C3.json",
+    "bytes": 304,
+    "sha256": "98d506afb50b647368b330cf385772507c8373cf5ebe36a84985efcab44a06ed"
+  },
+  {
+    "file": "checkpoints/C4.json",
+    "bytes": 299,
+    "sha256": "84ef790d11bb7878f3866d94bef71bbc86bf64977bad12396ea8f65bfae26425"
+  },
+  {
+    "file": "checkpoints/C5.json",
+    "bytes": 299,
+    "sha256": "99d8accebef9b51ec49832c6a5b514b59d79034503be6b4132a345bc128ee30f"
+  },
+  {
+    "file": "fontes/KK01_Fontes_Preservadas.zip",
+    "bytes": 15493645,
+    "sha256": "f95ab88cada6e6996189847fa13324f384c35450293afc0006dbb2e94facd1b6"
+  },
+  {
+    "file": "requirements.txt",
+    "bytes": 62,
+    "sha256": "9b8943393181d9826bc219792085df785304eef5233790ff596132b822996d67"
+  },
+  {
+    "file": "src/.gitignore",
+    "bytes": 19,
+    "sha256": "862263fa1f46c20f0d1e4dac5ffcc75abd55c08211b2c3864c5f8764b9d87793"
+  },
+  {
+    "file": "src/build.py",
+    "bytes": 38500,
+    "sha256": "343ec08e957f1913335d9a5d827f9041e6a75f171c21f00f24b61155c899e1ff"
+  },
+  {
+    "file": "src/core.py",
+    "bytes": 26405,
+    "sha256": "46ce7819d4c398d7423e8056a9aed89796142fe27da9cfd33a504f58b0fd18c6"
+  },
+  {
+    "file": "src/finish.py",
+    "bytes": 20450,
+    "sha256": "55bcb060889f3c5508cbf7ce74ba24c5dd8364ecf1bb3e3267740d2bc67c38b3"
+  },
+  {
+    "file": "src/layout.py",
+    "bytes": 1270,
+    "sha256": "dcb57369a962340f1a8c74ff9f7f0f964358dd21a20258bcf3692dfbd8ad8572"
+  },
+  {
+    "file": "src/merge.py",
+    "bytes": 8150,
+    "sha256": "8dbbe3b9a000e6778a3e358d8b51b4442a5f92168657c22b2c2ee82e010d880e"
+  },
+  {
+    "file": "src/package.py",
+    "bytes": 1823,
+    "sha256": "58af710b5b6493f474207a23f59baa737e314d44ead9d83ec4d39091b93a3d50"
+  },
+  {
+    "file": "src/recalculate.py",
+    "bytes": 1825,
+    "sha256": "37ffd9a923ba9f94b86c80fbeffdc15136a2a60728af4ef8e79c70b637d1d4ea"
+  },
+  {
+    "file": "src/test_selectors.py",
+    "bytes": 4688,
+    "sha256": "48d39e632333ec990d76675973bb1b6578c64e2d3da43f477f6a418b5f6225e3"
+  },
+  {
+    "file": "src/v04/icons/A.png",
+    "bytes": 530,
+    "sha256": "4640b8359454df99dac39799bc60e80ffda67068e8e5ed76dcee05e6f15e49ec"
+  },
+  {
+    "file": "src/v04/icons/B.png",
+    "bytes": 568,
+    "sha256": "ec1ee8d749961e149fa7d3c76dea3aebe982a34dff5ff59c4cebe633d619ec13"
+  },
+  {
+    "file": "src/v04/icons/C.png",
+    "bytes": 530,
+    "sha256": "4640b8359454df99dac39799bc60e80ffda67068e8e5ed76dcee05e6f15e49ec"
+  },
+  {
+    "file": "src/v04/icons/D.png",
+    "bytes": 439,
+    "sha256": "b3f7435adb1c928e1c72279ac63b15d47ed592a506800893eb60352ed79c3179"
+  },
+  {
+    "file": "src/v04/icons/E.png",
+    "bytes": 653,
+    "sha256": "1d4fddfcf5519841a8c212ba2b7e88eafe4e2c86aeaa71189abf6e99fb62c7fe"
+  },
+  {
+    "file": "src/v04/icons/F.png",
+    "bytes": 407,
+    "sha256": "545524e88c58b8f0912ea4c91b31650dea89809d41d533474cde4ff9e2ace3a5"
+  },
+  {
+    "file": "src/v04/icons/G.png",
+    "bytes": 627,
+    "sha256": "1cbeaeae3f1b00567888f6cc8aa8276344b6fa27c7fb9c57e6fae48990676037"
+  },
+  {
+    "file": "src/v04/icons/H.png",
+    "bytes": 691,
+    "sha256": "c45c4e4c6051668ba4d8f6363566e15efe5f99f9b958093e56bdacf11386b65c"
+  },
+  {
+    "file": "src/v04/original/v03/src/engine.py",
+    "bytes": 29232,
+    "sha256": "850dc7102caed5026e5cd3ba04618049ae5bcd004b5dd522eb38f12829df5cdb"
+  },
+  {
+    "file": "src/v04/original/v03/src/source.json",
+    "bytes": 157235,
+    "sha256": "24c39887509611e9758cdc93a0070da47bf7b12bca6a938ac46e445f80a5ed1e"
+  },
+  {
+    "file": "src/v04/src/audit_returns_v04.py",
+    "bytes": 3549,
+    "sha256": "f5876b5bc4ee2b349e4cc5c7cdbcc3c3d5b7c07827e5b46806920a6d46fbd453"
+  },
+  {
+    "file": "src/v04/src/audit_risks.py",
+    "bytes": 1722,
+    "sha256": "d5f7dd36cea568244c08585aa46fba6bd5f8c8681a57334688f7ac7e2b1987de"
+  },
+  {
+    "file": "src/v04/src/build_metadata.json",
+    "bytes": 13778,
+    "sha256": "0f9e7e21f77231214c99c163a31c134af1aade2af357ee26cc0b844f59e3727d"
+  },
+  {
+    "file": "src/v04/src/build_model.py",
+    "bytes": 86358,
+    "sha256": "8d954320d3e39d21b0f8c1908d770e92c0ba0c0f7a6e80a0ea20a20d9afcd953"
+  },
+  {
+    "file": "src/v04/src/completion.py",
+    "bytes": 2818,
+    "sha256": "b1a97fa9dea7c86e4fd97d0a3a7ce59e15f7caf107e5e473e4cbf08c5c1f64d0"
+  },
+  {
+    "file": "src/v04/src/engine.py",
+    "bytes": 38851,
+    "sha256": "18d5eb5ea200a9bb998455a317a4eb0e46e1804a8fe71cfae8988d2374c0fa2c"
+  },
+  {
+    "file": "src/v04/src/export_exec_v04.py",
+    "bytes": 5650,
+    "sha256": "f04299707845538da5df0e06dcb5d2fe39e68fb85a98729ed8efdf31f020f4c8"
+  },
+  {
+    "file": "src/v04/src/finalize_notes_v04.py",
+    "bytes": 5528,
+    "sha256": "4562aa6bf4785a15a7bad4353999b41f6fbac5406db58ebb14cdd3e5ed7677af"
+  },
+  {
+    "file": "src/v04/src/package_v04.py",
+    "bytes": 4052,
+    "sha256": "a5a7f3c223be437e8d6e44b664799a3966d1bd80f4cb5c5ed27a7f9bcafde0e8"
+  },
+  {
+    "file": "src/v04/src/patch_compat_v04.py",
+    "bytes": 1850,
+    "sha256": "e7324fa5c901e44fc79b8686a4836e3a0cb520e2fe8da3e414a1f35d3d1328f5"
+  },
+  {
+    "file": "src/v04/src/patch_draw_dependencies_v04.py",
+    "bytes": 920,
+    "sha256": "b1497d0a69e743b7ad6d17d4bda50ca10a640656c60b521a9f4e83ef8b914df3"
+  },
+  {
+    "file": "src/v04/src/presentation_labels_v04.py",
+    "bytes": 3338,
+    "sha256": "390fecaf0bea0ba48853e58b0e5c7e8861bf7e52105e7e7545f17571de9f88e1"
+  },
+  {
+    "file": "src/v04/src/recheck_compat_v04.py",
+    "bytes": 518,
+    "sha256": "b38e306708376da20764f84075d7adb6292774e723a9552c3c87357cf475e074"
+  },
+  {
+    "file": "src/v04/src/report_base_v04.py",
+    "bytes": 2977,
+    "sha256": "e170e59e42279be5658b6c841cac66517bac752eb38daddbdff8caa957ecaaa9"
+  },
+  {
+    "file": "src/v04/src/reports_v04.py",
+    "bytes": 30471,
+    "sha256": "f183dfaa8869d738221e2d44c9d1271cf2569fb957f02702b78f86dd374a45b8"
+  },
+  {
+    "file": "src/v04/src/returns10.py",
+    "bytes": 3632,
+    "sha256": "8f94a0f1a108aebd952f904b1a9698b7b0b11969e76d2d812758dd41d8d0b2fb"
+  },
+  {
+    "file": "src/v04/src/scenario_seller_formulas.py",
+    "bytes": 3086,
+    "sha256": "2d2931ae987c078eb0366d577164739dea05a15972dc9111ef0475f3520ea2c4"
+  },
+  {
+    "file": "src/v04/src/selected_policy.py",
+    "bytes": 2395,
+    "sha256": "19b10c230b9de9517297e387b0f155606fa60b2d39559bb5d9ee49259e855728"
+  },
+  {
+    "file": "src/v04/src/source.json",
+    "bytes": 157235,
+    "sha256": "24c39887509611e9758cdc93a0070da47bf7b12bca6a938ac46e445f80a5ed1e"
+  },
+  {
+    "file": "src/v04/src/test_phase1.py",
+    "bytes": 4426,
+    "sha256": "495081bc7cf1a3292926272c67209b14ffa95523d1797713a1ba6e41d159e3a7"
+  },
+  {
+    "file": "src/v04/src/test_phase23.py",
+    "bytes": 5003,
+    "sha256": "80595e187959b5c17cb8628c906c539c62bec21b4b49feb9faf9acaf39282467"
+  },
+  {
+    "file": "src/v04/src/test_selectors.py",
+    "bytes": 6897,
+    "sha256": "abe5c8e9d80c0b62c53307ce1333ef5de3f298f9d71b81085b6e08c946449010"
+  },
+  {
+    "file": "src/v04/src/test_structure_v04.py",
+    "bytes": 7085,
+    "sha256": "382960357fb18e6946090f2c92e06d23abe7a4d24317bc4312816b88f3e410fb"
+  },
+  {
+    "file": "src/v04/src/v02_panels.py",
+    "bytes": 31827,
+    "sha256": "b60fefa75445d475d27b88b36ec722b520caf652b01e312ea8ade96d0a6b81cb"
+  },
+  {
+    "file": "src/v04/src/v03_panels.py",
+    "bytes": 23938,
+    "sha256": "1548f7f49fb6c2945c0ea69799e27e06f6f7d36b68195caa4aba6a9021304549"
+  },
+  {
+    "file": "src/v04/src/v04_core.py",
+    "bytes": 4297,
+    "sha256": "42b0be1278ad59bcfb7cd7ab4ff25b2e1ceab3c233bd8925d8d4f25525dd5bd9"
+  },
+  {
+    "file": "src/v04/src/v04_execution.py",
+    "bytes": 14386,
+    "sha256": "803cd2e1bb6ecc3c784d1790fc6f5529dadee59535aad61e452ca211f2476c31"
+  },
+  {
+    "file": "src/v04/src/v04_finance.py",
+    "bytes": 26070,
+    "sha256": "18eacd4615437fdf217cc70f23fdffbdbc874e1206cfe1a198e9c2877abbba8c"
+  },
+  {
+    "file": "src/v04/src/v04_formula_helpers.py",
+    "bytes": 1761,
+    "sha256": "3ccb700d006e06333f99bcfa3e3c2de3225d00c6410ebb55f7b348c36cc750c4"
+  },
+  {
+    "file": "src/v04/src/v04_kpi_dictionary.json",
+    "bytes": 43144,
+    "sha256": "15690cff7d3557ca233dfb5f9bcffe78974931751b5e327a3244fb5a8566aee8"
+  },
+  {
+    "file": "src/v04/src/v04_metadata.json",
+    "bytes": 12536,
+    "sha256": "545fe1bff6e9e11754999ca0c92e121a6b3836b083fab2685570330dcc43652d"
+  },
+  {
+    "file": "src/v04/src/v04_panels.py",
+    "bytes": 1518,
+    "sha256": "945b1228baac684d3be6e6910e0a7873df1e5bc0b5c5eae79bde8053e5af28f5"
+  },
+  {
+    "file": "src/v04/src/v04_patch_finance.py",
+    "bytes": 5244,
+    "sha256": "eee6aeb6b67efb83ed1054d036f27c870feb58d979c8a3344300c5bddfe30a9e"
+  },
+  {
+    "file": "src/v04/src/v04_re.py",
+    "bytes": 2490,
+    "sha256": "8dfc7751d31b11a16ff888eb111bad0bf14ceae8744cbb00839b963446cb17f9"
+  },
+  {
+    "file": "src/v04/src/v04_risk_metadata.json",
+    "bytes": 4812,
+    "sha256": "82d9a7ea52d99991224ef3c4d4c7759d508fd3adddd17a4602b15223d2d8ef76"
+  },
+  {
+    "file": "src/v04/src/v04_risk_results.json",
+    "bytes": 7006754,
+    "sha256": "775ab2c73f9b0ae59772dbac159af5b1816bb42d77f5f7824596b794c61b7d2b"
+  },
+  {
+    "file": "src/v04/src/v04_risks.py",
+    "bytes": 11082,
+    "sha256": "683f6d904052f1d7deba9d52ffe62eddabcafdf54aec611a884c1308f2860700"
+  },
+  {
+    "file": "src/v04/src/v04_ui.py",
+    "bytes": 23375,
+    "sha256": "2c0be6fce6c9372a5334cc81035ceb9a7a2f511a8c90e08786e934a53f2123ea"
+  },
+  {
+    "file": "src/v04/src/verify_reopen_v04.py",
+    "bytes": 1938,
+    "sha256": "a3216d88f8ce87b281b9000d753a150f14ba05e974ad58036ececbb046a15c96"
+  },
+  {
+    "file": "src/v04/src/waterfall.py",
+    "bytes": 7931,
+    "sha256": "dbbbfdc1b2d0260b8626433a13e1b0b6909bb31470c7890b1fb28ce61bc7bbb7"
+  },
+  {
+    "file": "src/validate.py",
+    "bytes": 9244,
+    "sha256": "3be5bee12dceb24e252e09bfe72730167eccf8f111f1b3466066e356217503e1"
+  }
+]

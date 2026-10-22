@@ -1,0 +1,39 @@
+test_01_structure (test_phase1.Phase1.test_01_structure) ... ok
+test_02_pipeline (test_phase1.Phase1.test_02_pipeline) ... ok
+test_03_cash_identities (test_phase1.Phase1.test_03_cash_identities) ... ok
+test_04_v03_regression (test_phase1.Phase1.test_04_v03_regression) ... ok
+test_05_partial (test_phase1.Phase1.test_05_partial) ... ok
+test_06_bank_nonrevolver (test_phase1.Phase1.test_06_bank_nonrevolver) ... ok
+test_07_completion_not_secured (test_phase1.Phase1.test_07_completion_not_secured) ... ok
+test_08_secured (test_phase1.Phase1.test_08_secured) ... ok
+test_09_waterfall (test_phase1.Phase1.test_09_waterfall) ... ok
+test_10_same_category (test_phase1.Phase1.test_10_same_category) ... ok
+test_11_legal_cap (test_phase1.Phase1.test_11_legal_cap) ... ok
+test_12_monthly (test_phase1.Phase1.test_12_monthly) ... ok
+test_13_no_positive_irr_proof (test_phase1.Phase1.test_13_no_positive_irr_proof) ... ok
+test_14_delay (test_phase1.Phase1.test_14_delay) ... ok
+test_01_secondary_sale_not_capital (test_phase23.ExecutionTests.test_01_secondary_sale_not_capital) ... ok
+test_02_advanced_commitments (test_phase23.ExecutionTests.test_02_advanced_commitments) ... ok
+test_03_paid_not_promised (test_phase23.ExecutionTests.test_03_paid_not_promised) ... ok
+test_04_collections_not_new_sales (test_phase23.ExecutionTests.test_04_collections_not_new_sales) ... ok
+test_05_pricing_source_preserved (test_phase23.ExecutionTests.test_05_pricing_source_preserved) ... ok
+test_06_no_false_sequential_delay (test_phase23.ExecutionTests.test_06_no_false_sequential_delay) ... ok
+test_07_physical_delivery (test_phase23.ExecutionTests.test_07_physical_delivery) ... ok
+test_08_residential_available (test_phase23.ExecutionTests.test_08_residential_available) ... ok
+test_09_opening_not_physical (test_phase23.ExecutionTests.test_09_opening_not_physical) ... ok
+test_10_eac_future_only (test_phase23.ExecutionTests.test_10_eac_future_only) ... ok
+test_11_delay_cost (test_phase23.ExecutionTests.test_11_delay_cost) ... ok
+test_12_bankCP (test_phase23.ExecutionTests.test_12_bankCP) ... ok
+test_13_pari_passu (test_phase23.ExecutionTests.test_13_pari_passu) ... ok
+test_14_subordinated_not_automatic_equity (test_phase23.ExecutionTests.test_14_subordinated_not_automatic_equity) ... ok
+test_15_monthly_cash (test_phase23.ExecutionTests.test_15_monthly_cash) ... ok
+test_16_waterfall_infeasible (test_phase23.ExecutionTests.test_16_waterfall_infeasible) ... ok
+test_17_with_operator (test_phase23.ExecutionTests.test_17_with_operator) ... ok
+test_18_documented_completion_timing (test_phase23.ExecutionTests.test_18_documented_completion_timing) ... ok
+test_19_completion_reserves_once (test_phase23.ExecutionTests.test_19_completion_reserves_once) ... ok
+test_20_all_cash_checks (test_phase23.ExecutionTests.test_20_all_cash_checks) ... ok
+
+----------------------------------------------------------------------
+Ran 34 tests in 2.264s
+
+OK

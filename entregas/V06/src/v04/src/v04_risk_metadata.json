@@ -1,0 +1,212 @@
+[
+  {
+    "code": "R00",
+    "label": "Referência",
+    "row": 5,
+    "flow": "Fluxo 180M",
+    "hotel": "Hotel",
+    "capex": "CAPEX",
+    "waterfall": "V04 Waterfall180",
+    "policy": "V04 Politica",
+    "params": {}
+  },
+  {
+    "code": "R01",
+    "label": "Sem novos contratosRE apósM24",
+    "row": 6,
+    "flow": "V04 R01Fluxo",
+    "hotel": "V04 R01Hotel",
+    "capex": "CAPEX",
+    "waterfall": "V04 R01WF",
+    "policy": "V04 R01Politica",
+    "params": {
+      "sales_stop": 24
+    },
+    "capital": "V04 R01Capital",
+    "pipeline": "V04 R01Pipeline"
+  },
+  {
+    "code": "R02",
+    "label": "Sem novas subscrições apósM24",
+    "row": 7,
+    "flow": "V04 R02Fluxo",
+    "hotel": "V04 R02Hotel",
+    "capex": "CAPEX",
+    "waterfall": "V04 R02WF",
+    "policy": "V04 R02Politica",
+    "params": {
+      "capital_stop": 24
+    },
+    "capital": "V04 R02Capital",
+    "pipeline": "V04 R02Pipeline"
+  },
+  {
+    "code": "R03",
+    "label": "Investidores +12M",
+    "row": 8,
+    "flow": "V04 R03Fluxo",
+    "hotel": "V04 R03Hotel",
+    "capex": "CAPEX",
+    "waterfall": "V04 R03WF",
+    "policy": "V04 R03Politica",
+    "params": {
+      "capital_delay": 12
+    },
+    "capital": "V04 R03Capital",
+    "pipeline": "V04 R03Pipeline"
+  },
+  {
+    "code": "R04",
+    "label": "Vendas e escrituras +6M",
+    "row": 9,
+    "flow": "V04 R04Fluxo",
+    "hotel": "V04 R04Hotel",
+    "capex": "CAPEX",
+    "waterfall": "V04 R04WF",
+    "policy": "V04 R04Politica",
+    "params": {
+      "commercial_delay": 6
+    },
+    "capital": "V04 R04Capital",
+    "pipeline": "V04 R04Pipeline"
+  },
+  {
+    "code": "R05",
+    "label": "Investidores+12M e vendas+6M",
+    "row": 10,
+    "flow": "V04 R05Fluxo",
+    "hotel": "V04 R05Hotel",
+    "capex": "CAPEX",
+    "waterfall": "V04 R05WF",
+    "policy": "V04 R05Politica",
+    "params": {
+      "capital_delay": 12,
+      "commercial_delay": 6
+    },
+    "capital": "V04 R05Capital",
+    "pipeline": "V04 R05Pipeline"
+  },
+  {
+    "code": "R06",
+    "label": "CAPEX+10% e conclusão+6M",
+    "row": 11,
+    "flow": "V04 R06Fluxo",
+    "hotel": "V04 R06Hotel",
+    "capex": "V04 R06CAPEX",
+    "waterfall": "V04 R06WF",
+    "policy": "V04 R06Politica",
+    "params": {
+      "cost_overrun": 0.1,
+      "construction_delay": 6
+    },
+    "capital": "V04 R06Capital",
+    "pipeline": "V04 R06Pipeline"
+  },
+  {
+    "code": "R07",
+    "label": "Hotel Conservador e fees maiores",
+    "row": 12,
+    "flow": "V04 R07Fluxo",
+    "hotel": "V04 R07Hotel",
+    "capex": "CAPEX",
+    "waterfall": "V04 R07WF",
+    "policy": "V04 R07Politica",
+    "params": {
+      "hotel": "Conservador",
+      "fee_mode": "Proposta simulada"
+    },
+    "capital": "V04 R07Capital",
+    "pipeline": "V04 R07Pipeline"
+  },
+  {
+    "code": "R08",
+    "label": "Escrituras+6M eADRresidencial−10%",
+    "row": 13,
+    "flow": "V04 R08Fluxo",
+    "hotel": "V04 R08Hotel",
+    "capex": "CAPEX",
+    "waterfall": "V04 R08WF",
+    "policy": "V04 R08Politica",
+    "params": {
+      "deed_delay": 6,
+      "res_adr_multiplier": 0.9
+    },
+    "capital": "V04 R08Capital",
+    "pipeline": "V04 R08Pipeline"
+  },
+  {
+    "code": "R09",
+    "label": "Apenas60%crédito mobilizável",
+    "row": 14,
+    "flow": "V04 R09Fluxo",
+    "hotel": "V04 R09Hotel",
+    "capex": "CAPEX",
+    "waterfall": "V04 R09WF",
+    "policy": "V04 R09Politica",
+    "params": {
+      "bank_available": 0.6
+    },
+    "capital": "V04 R09Capital",
+    "pipeline": "V04 R09Pipeline"
+  },
+  {
+    "code": "R10",
+    "label": "Apenas75%captação prevista",
+    "row": 15,
+    "flow": "V04 R10Fluxo",
+    "hotel": "V04 R10Hotel",
+    "capex": "CAPEX",
+    "waterfall": "V04 R10WF",
+    "policy": "V04 R10Politica",
+    "params": {
+      "capital_fraction": 0.75
+    },
+    "capital": "V04 R10Capital",
+    "pipeline": "V04 R10Pipeline"
+  },
+  {
+    "code": "R11",
+    "label": "Linha20M€",
+    "row": 16,
+    "flow": "V04 R11Fluxo",
+    "hotel": "V04 R11Hotel",
+    "capex": "CAPEX",
+    "waterfall": "V04 R11WF",
+    "policy": "V04 R11Politica",
+    "params": {
+      "limit": 20000000.0
+    },
+    "capital": "V04 R11Capital",
+    "pipeline": "V04 R11Pipeline"
+  },
+  {
+    "code": "R12",
+    "label": "Linha25M€",
+    "row": 17,
+    "flow": "V04 R12Fluxo",
+    "hotel": "V04 R12Hotel",
+    "capex": "CAPEX",
+    "waterfall": "V04 R12WF",
+    "policy": "V04 R12Politica",
+    "params": {
+      "limit": 25000000.0
+    },
+    "capital": "V04 R12Capital",
+    "pipeline": "V04 R12Pipeline"
+  },
+  {
+    "code": "R13",
+    "label": "Linha30M€",
+    "row": 18,
+    "flow": "V04 R13Fluxo",
+    "hotel": "V04 R13Hotel",
+    "capex": "CAPEX",
+    "waterfall": "V04 R13WF",
+    "policy": "V04 R13Politica",
+    "params": {
+      "limit": 30000000.0
+    },
+    "capital": "V04 R13Capital",
+    "pipeline": "V04 R13Pipeline"
+  }
+]

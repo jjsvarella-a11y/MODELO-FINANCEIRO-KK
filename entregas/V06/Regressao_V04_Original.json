@@ -1,0 +1,22 @@
+{
+  "base_sha256": "be8288ced2494ef31c2dbe1d31d77b8277a0753a1209a8df0a83c3a5d86dcdc0",
+  "python_tests": {
+    "executed": 34,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "monthly_comparison": {
+    "months": 180,
+    "comparisons": 9733,
+    "failures": [],
+    "method": "Stored XLSX values compared with freshly executed Python engine; not a native Excel recalculation"
+  },
+  "returns_completion": {
+    "case": "KK01_Modelo_Integrado_V04_Excel_Fix",
+    "ok": true,
+    "comparisons": 17,
+    "failures": []
+  },
+  "microsoft_excel_tested": false
+}

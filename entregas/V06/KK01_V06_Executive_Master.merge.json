@@ -1,0 +1,16 @@
+{
+  "legacy_parts_preserved_byte_for_byte": 550,
+  "modified_global_parts": [
+    "xl/styles.xml",
+    "xl/sharedStrings.xml",
+    "xl/workbook.xml",
+    "xl/_rels/workbook.xml.rels",
+    "[Content_Types].xml"
+  ],
+  "new_parts": 142,
+  "legacy_worksheets_unchanged": false,
+  "view_only_changes": [
+    "xl/worksheets/sheet1.xml"
+  ],
+  "legacy_cell_records_unchanged": true
+}

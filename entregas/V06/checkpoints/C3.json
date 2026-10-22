@@ -1,0 +1,9 @@
+{
+  "checkpoint": "C3",
+  "name": "Nine Dashboards",
+  "status": "PASS with documented assumptions; native Excel NOT TESTED",
+  "final_checks_passed": 27,
+  "final_checks_failed": 0,
+  "all_selectors_passed": true,
+  "workbook_sha256": "77a344d2a820443552b228b529b8ebd010dc2bafba67ca4f52548fcd4a822839"
+}

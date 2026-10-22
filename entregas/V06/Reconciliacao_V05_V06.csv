@@ -1,0 +1,12 @@
+KPI,V05_reported_rounded,V06_calculated,Difference,Status
+cash30,9860218.98,9486927.780684337,-373291.1993156634,Different reconstructed assumptions / method; not forced to target
+cash42,5493562.96,5697584.074194111,204021.11419411097,Different reconstructed assumptions / method; not forced to target
+cash54,5995124.82,6219194.485615367,224069.66561536677,Different reconstructed assumptions / method; not forced to target
+div54,2507809.3,2519840.7504349384,12031.450434938539,Different reconstructed assumptions / method; not forced to target
+debt,18245949.67,17528049.057099238,-717900.6129007638,Different reconstructed assumptions / method; not forced to target
+vatcredit,3077345.3,3077345.3039999995,0.003999999724328518,Benchmark matched at printed precision
+exit,102644161.83,103625929.30845538,981767.4784553796,Different reconstructed assumptions / method; not forced to target
+irr,0.0765,0.07704814967073795,0.0005481496707379491,Benchmark matched at printed precision
+moic,2.67,2.6867069865597655,0.016706986559765546,Different reconstructed assumptions / method; not forced to target
+npv,-9671683.48,-9604777.390343469,66906.08965653181,Different reconstructed assumptions / method; not forced to target
+ebitda15,7479290.84,7519390.835241758,40099.99524175841,Different reconstructed assumptions / method; not forced to target

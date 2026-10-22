@@ -1,0 +1,11 @@
+Module,Change,Status
+CAPITAL,15 blocks and eight calendars,"Implemented, dates reconstructed assumptions"
+VAT,Monthly eligible credit and refund lag,Implemented; recovery legal hypothesis
+IRPC,"Taxable profit, depreciation, interest, losses and delayed payments",Implemented study conventions
+INSURANCE,Construction and operating bases/rates with inclusion controls,Implemented from V05 matrix
+DIVIDENDS,"M54-M174, coverage, liquidity, profits, partial/suspended",Implemented
+EXIT,"M120/M180 alternatives, 10/12/15x, cash once",Implemented proportional rights assumption
+UI,"Nine linked dashboards, PT/EN, dictionary and native charts",Implemented; native Excel visual acceptance pending
+SOURCE,All original V04 cell records retained; old homepage tab deselected,Byte-for-byte retention except single view attribute
+V05_PARITY,Exact financial reconciliation to original V05,NOT CERTIFIED: source inaccessible; differences reported
+EXCEL365,Native open/save/reopen acceptance,NOT TESTED

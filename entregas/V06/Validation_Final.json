@@ -1,0 +1,159 @@
+{
+  "tested_file": "/workspace/MODELO-FINANCEIRO-KK/entregas/V06/KK01_V06_Executive_Master.xlsx",
+  "passed": 27,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "ZIP CRC",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Internal relationships, style/string indices",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "Cell ordering and uniqueness",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "Only one worksheet selected",
+      "passed": true,
+      "detail": [
+        "xl/worksheets/sheet314.xml"
+      ]
+    },
+    {
+      "name": "Excel formula length <=8192",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "No cached formula errors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "Unique worksheet names",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Nine dashboard names present",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Homepage selected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "No external workbook links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "No VBA",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "All 25 x 180-month engines match Python",
+      "passed": true,
+      "detail": {
+        "comparisons": 517500,
+        "mismatches": []
+      }
+    },
+    {
+      "name": "Financial identities and constraints across scenarios",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "94 unique apartment IDs and preserved source prices",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "16920 preserved V04 unit receipt values reconcile",
+      "passed": true,
+      "detail": {
+        "comparisons": 16920,
+        "failures": []
+      }
+    },
+    {
+      "name": "Construction delays do not extend bank draw window",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Operating tax exemptions do not erase development profit",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "94 apartment receipts total GDV",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "CAPEX base 63168000",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "VAT base 8629200",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Construction insurance 197400",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "VAT six-month exposure benchmark",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "HOTUSA protected with no payment",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Combined stress exposes deficit",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Fifteen-block cash-flow allocation",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "15 ownership blocks total 100%",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Scenario return metrics match Python",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "formula_count": 2031372,
+  "sheet_count": 384,
+  "defined_name_count": 358,
+  "chart_count": 26,
+  "style_count": 61,
+  "workbook_bytes": 32354611,
+  "external_workbook_links": 0,
+  "native_excel_365": "NOT TESTED",
+  "recalculation_engine": "LibreOffice (supplementary computation, not Microsoft certification)"
+}

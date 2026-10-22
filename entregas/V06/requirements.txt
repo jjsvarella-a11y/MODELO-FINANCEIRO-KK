@@ -1,0 +1,8 @@
+xlsxwriter
+openpyxl
+scipy
+numpy
+lxml
+reportlab
+PyMuPDF
+Pillow

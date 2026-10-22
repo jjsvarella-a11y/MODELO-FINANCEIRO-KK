@@ -1,0 +1,34 @@
+[
+  {
+    "input": "language",
+    "value": "EN",
+    "expected_scenario": "Base",
+    "comparisons": 20792,
+    "failures": [],
+    "passed": true
+  },
+  {
+    "input": "vat_lag",
+    "value": 18,
+    "expected_scenario": "VAT delayed",
+    "comparisons": 20700,
+    "failures": [],
+    "passed": true
+  },
+  {
+    "input": "rate",
+    "value": 0.08,
+    "expected_scenario": "Interest 8%",
+    "comparisons": 20700,
+    "failures": [],
+    "passed": true
+  },
+  {
+    "input": "capital_delay",
+    "value": 6,
+    "expected_scenario": "Capital delayed",
+    "comparisons": 20700,
+    "failures": [],
+    "passed": true
+  }
+]

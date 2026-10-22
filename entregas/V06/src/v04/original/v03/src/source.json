@@ -1,0 +1,6897 @@
+{
+  "source_sha256": "3422b0c2d83e7961097e03b33bbbd23d9c78694d1e90e243e5c94ecb0a9a3d05",
+  "units": [
+    {
+      "id": "201",
+      "tipo": "T3",
+      "piso": "2",
+      "area": 223,
+      "price_source": 552000,
+      "price": 552000,
+      "sale": 1,
+      "deed": 28,
+      "interior": 175,
+      "varanda": 48,
+      "source_row": 4
+    },
+    {
+      "id": "202",
+      "tipo": "T2",
+      "piso": "2",
+      "area": 135,
+      "price_source": 402500,
+      "price": 402500,
+      "sale": 1,
+      "deed": 29,
+      "interior": 102,
+      "varanda": 33,
+      "source_row": 5
+    },
+    {
+      "id": "203",
+      "tipo": "T1",
+      "piso": "2",
+      "area": 90,
+      "price_source": 253000,
+      "price": 253000,
+      "sale": 1,
+      "deed": 30,
+      "interior": 68,
+      "varanda": 22,
+      "source_row": 6
+    },
+    {
+      "id": "204",
+      "tipo": "T1",
+      "piso": "2",
+      "area": 78,
+      "price_source": 253000,
+      "price": 253000,
+      "sale": 1,
+      "deed": 28,
+      "interior": 48,
+      "varanda": 30,
+      "source_row": 7
+    },
+    {
+      "id": "205",
+      "tipo": "T2",
+      "piso": "2",
+      "area": 132,
+      "price_source": 402500,
+      "price": 402500,
+      "sale": 1,
+      "deed": 29,
+      "interior": 98,
+      "varanda": 34,
+      "source_row": 8
+    },
+    {
+      "id": "206",
+      "tipo": "T2",
+      "piso": "2",
+      "area": 144,
+      "price_source": 408250,
+      "price": 408250,
+      "sale": 1,
+      "deed": 30,
+      "interior": 95,
+      "varanda": 49,
+      "source_row": 9
+    },
+    {
+      "id": "207",
+      "tipo": "T1",
+      "piso": "2",
+      "area": 78,
+      "price_source": 253000,
+      "price": 253000,
+      "sale": 1,
+      "deed": 28,
+      "interior": 48,
+      "varanda": 30,
+      "source_row": 10
+    },
+    {
+      "id": "208",
+      "tipo": "T1",
+      "piso": "2",
+      "area": 90,
+      "price_source": 253000,
+      "price": 253000,
+      "sale": 1,
+      "deed": 29,
+      "interior": 58,
+      "varanda": 32,
+      "source_row": 11
+    },
+    {
+      "id": "209",
+      "tipo": "T2",
+      "piso": "2",
+      "area": 123,
+      "price_source": 402500,
+      "price": 402500,
+      "sale": 4,
+      "deed": 30,
+      "interior": 93,
+      "varanda": 30,
+      "source_row": 12
+    },
+    {
+      "id": "210",
+      "tipo": "T3",
+      "piso": "2",
+      "area": 230,
+      "price_source": 552000,
+      "price": 552000,
+      "sale": 4,
+      "deed": 28,
+      "interior": 175,
+      "varanda": 55,
+      "source_row": 13
+    },
+    {
+      "id": "301",
+      "tipo": "T3",
+      "piso": "3",
+      "area": 223,
+      "price_source": 563040,
+      "price": 563040,
+      "sale": 4,
+      "deed": 29,
+      "interior": 175,
+      "varanda": 48,
+      "source_row": 14
+    },
+    {
+      "id": "302",
+      "tipo": "T2",
+      "piso": "3",
+      "area": 135,
+      "price_source": 410550,
+      "price": 410550,
+      "sale": 4,
+      "deed": 30,
+      "interior": 102,
+      "varanda": 33,
+      "source_row": 15
+    },
+    {
+      "id": "303",
+      "tipo": "T1",
+      "piso": "3",
+      "area": 90,
+      "price_source": 258060,
+      "price": 258060,
+      "sale": 7,
+      "deed": 28,
+      "interior": 68,
+      "varanda": 22,
+      "source_row": 16
+    },
+    {
+      "id": "304",
+      "tipo": "T1",
+      "piso": "3",
+      "area": 78,
+      "price_source": 258060,
+      "price": 258060,
+      "sale": 7,
+      "deed": 29,
+      "interior": 48,
+      "varanda": 30,
+      "source_row": 17
+    },
+    {
+      "id": "305",
+      "tipo": "T2",
+      "piso": "3",
+      "area": 132,
+      "price_source": 410550,
+      "price": 410550,
+      "sale": 7,
+      "deed": 30,
+      "interior": 98,
+      "varanda": 34,
+      "source_row": 18
+    },
+    {
+      "id": "306",
+      "tipo": "T2",
+      "piso": "3",
+      "area": 144,
+      "price_source": 416415,
+      "price": 416415,
+      "sale": 7,
+      "deed": 28,
+      "interior": 95,
+      "varanda": 49,
+      "source_row": 19
+    },
+    {
+      "id": "307",
+      "tipo": "T1",
+      "piso": "3",
+      "area": 78,
+      "price_source": 258060,
+      "price": 258060,
+      "sale": 10,
+      "deed": 29,
+      "interior": 48,
+      "varanda": 30,
+      "source_row": 20
+    },
+    {
+      "id": "308",
+      "tipo": "T1",
+      "piso": "3",
+      "area": 90,
+      "price_source": 258060,
+      "price": 258060,
+      "sale": 10,
+      "deed": 30,
+      "interior": 58,
+      "varanda": 32,
+      "source_row": 21
+    },
+    {
+      "id": "309",
+      "tipo": "T2",
+      "piso": "3",
+      "area": 123,
+      "price_source": 410550,
+      "price": 410550,
+      "sale": 10,
+      "deed": 28,
+      "interior": 93,
+      "varanda": 30,
+      "source_row": 22
+    },
+    {
+      "id": "310",
+      "tipo": "T3",
+      "piso": "3",
+      "area": 230,
+      "price_source": 563040,
+      "price": 563040,
+      "sale": 10,
+      "deed": 29,
+      "interior": 175,
+      "varanda": 55,
+      "source_row": 23
+    },
+    {
+      "id": "401",
+      "tipo": "T3",
+      "piso": "4",
+      "area": 223,
+      "price_source": 585561.6,
+      "price": 585561.6,
+      "sale": 13,
+      "deed": 30,
+      "interior": 175,
+      "varanda": 48,
+      "source_row": 24
+    },
+    {
+      "id": "402",
+      "tipo": "T2",
+      "piso": "4",
+      "area": 135,
+      "price_source": 426972,
+      "price": 426972,
+      "sale": 13,
+      "deed": 28,
+      "interior": 102,
+      "varanda": 33,
+      "source_row": 25
+    },
+    {
+      "id": "403",
+      "tipo": "T1",
+      "piso": "4",
+      "area": 90,
+      "price_source": 268382.4,
+      "price": 268382.4,
+      "sale": 13,
+      "deed": 29,
+      "interior": 68,
+      "varanda": 22,
+      "source_row": 26
+    },
+    {
+      "id": "404",
+      "tipo": "T1",
+      "piso": "4",
+      "area": 78,
+      "price_source": 268382.4,
+      "price": 268382.4,
+      "sale": 13,
+      "deed": 30,
+      "interior": 48,
+      "varanda": 30,
+      "source_row": 27
+    },
+    {
+      "id": "405",
+      "tipo": "T2",
+      "piso": "4",
+      "area": 132,
+      "price_source": 426972,
+      "price": 426972,
+      "sale": 16,
+      "deed": 28,
+      "interior": 98,
+      "varanda": 34,
+      "source_row": 28
+    },
+    {
+      "id": "406",
+      "tipo": "T2",
+      "piso": "4",
+      "area": 144,
+      "price_source": 433071.6,
+      "price": 433071.6,
+      "sale": 16,
+      "deed": 29,
+      "interior": 95,
+      "varanda": 49,
+      "source_row": 29
+    },
+    {
+      "id": "407",
+      "tipo": "T1",
+      "piso": "4",
+      "area": 78,
+      "price_source": 268382.4,
+      "price": 268382.4,
+      "sale": 16,
+      "deed": 30,
+      "interior": 48,
+      "varanda": 30,
+      "source_row": 30
+    },
+    {
+      "id": "408",
+      "tipo": "T1",
+      "piso": "4",
+      "area": 90,
+      "price_source": 268382.4,
+      "price": 268382.4,
+      "sale": 16,
+      "deed": 28,
+      "interior": 58,
+      "varanda": 32,
+      "source_row": 31
+    },
+    {
+      "id": "409",
+      "tipo": "T2",
+      "piso": "4",
+      "area": 123,
+      "price_source": 426972,
+      "price": 426972,
+      "sale": 19,
+      "deed": 29,
+      "interior": 93,
+      "varanda": 30,
+      "source_row": 32
+    },
+    {
+      "id": "410",
+      "tipo": "T3",
+      "piso": "4",
+      "area": 230,
+      "price_source": 585561.6,
+      "price": 585561.6,
+      "sale": 19,
+      "deed": 30,
+      "interior": 175,
+      "varanda": 55,
+      "source_row": 33
+    },
+    {
+      "id": "501",
+      "tipo": "T3",
+      "piso": "5",
+      "area": 223,
+      "price_source": 620695.296,
+      "price": 620695.3,
+      "sale": 19,
+      "deed": 28,
+      "interior": 175,
+      "varanda": 48,
+      "source_row": 34
+    },
+    {
+      "id": "502",
+      "tipo": "T2",
+      "piso": "5",
+      "area": 135,
+      "price_source": 452590.32,
+      "price": 452590.32,
+      "sale": 19,
+      "deed": 29,
+      "interior": 102,
+      "varanda": 33,
+      "source_row": 35
+    },
+    {
+      "id": "503",
+      "tipo": "T1",
+      "piso": "5",
+      "area": 90,
+      "price_source": 284485.344,
+      "price": 284485.34,
+      "sale": 22,
+      "deed": 30,
+      "interior": 68,
+      "varanda": 22,
+      "source_row": 36
+    },
+    {
+      "id": "504",
+      "tipo": "T1",
+      "piso": "5",
+      "area": 78,
+      "price_source": 284485.344,
+      "price": 284485.34,
+      "sale": 22,
+      "deed": 29,
+      "interior": 48,
+      "varanda": 30,
+      "source_row": 37
+    },
+    {
+      "id": "505",
+      "tipo": "T2",
+      "piso": "5",
+      "area": 132,
+      "price_source": 452590.32,
+      "price": 452590.32,
+      "sale": 22,
+      "deed": 29,
+      "interior": 98,
+      "varanda": 34,
+      "source_row": 38
+    },
+    {
+      "id": "506",
+      "tipo": "T2",
+      "piso": "5",
+      "area": 144,
+      "price_source": 459055.896,
+      "price": 459055.9,
+      "sale": 22,
+      "deed": 30,
+      "interior": 95,
+      "varanda": 49,
+      "source_row": 39
+    },
+    {
+      "id": "507",
+      "tipo": "T1",
+      "piso": "5",
+      "area": 78,
+      "price_source": 284485.344,
+      "price": 284485.34,
+      "sale": 1,
+      "deed": 28,
+      "interior": 48,
+      "varanda": 30,
+      "source_row": 40
+    },
+    {
+      "id": "508",
+      "tipo": "T1",
+      "piso": "5",
+      "area": 90,
+      "price_source": 284485.344,
+      "price": 284485.34,
+      "sale": 1,
+      "deed": 29,
+      "interior": 58,
+      "varanda": 32,
+      "source_row": 41
+    },
+    {
+      "id": "509",
+      "tipo": "T2",
+      "piso": "5",
+      "area": 123,
+      "price_source": 452590.32,
+      "price": 452590.32,
+      "sale": 1,
+      "deed": 30,
+      "interior": 93,
+      "varanda": 30,
+      "source_row": 42
+    },
+    {
+      "id": "510",
+      "tipo": "T3",
+      "piso": "5",
+      "area": 230,
+      "price_source": 620695.296,
+      "price": 620695.3,
+      "sale": 1,
+      "deed": 28,
+      "interior": 175,
+      "varanda": 55,
+      "source_row": 43
+    },
+    {
+      "id": "601",
+      "tipo": "T3",
+      "piso": "6",
+      "area": 223,
+      "price_source": 670350.91968,
+      "price": 670350.92,
+      "sale": 1,
+      "deed": 29,
+      "interior": 175,
+      "varanda": 48,
+      "source_row": 44
+    },
+    {
+      "id": "602",
+      "tipo": "T2",
+      "piso": "6",
+      "area": 135,
+      "price_source": 488797.5456,
+      "price": 488797.55,
+      "sale": 1,
+      "deed": 30,
+      "interior": 102,
+      "varanda": 33,
+      "source_row": 45
+    },
+    {
+      "id": "603",
+      "tipo": "T1",
+      "piso": "6",
+      "area": 90,
+      "price_source": 307244.17152,
+      "price": 307244.17,
+      "sale": 1,
+      "deed": 28,
+      "interior": 68,
+      "varanda": 22,
+      "source_row": 46
+    },
+    {
+      "id": "604",
+      "tipo": "T1",
+      "piso": "6",
+      "area": 78,
+      "price_source": 307244.17152,
+      "price": 307244.17,
+      "sale": 4,
+      "deed": 29,
+      "interior": 48,
+      "varanda": 30,
+      "source_row": 47
+    },
+    {
+      "id": "605",
+      "tipo": "T2",
+      "piso": "6",
+      "area": 132,
+      "price_source": 488797.5456,
+      "price": 488797.55,
+      "sale": 4,
+      "deed": 30,
+      "interior": 98,
+      "varanda": 34,
+      "source_row": 48
+    },
+    {
+      "id": "606",
+      "tipo": "T2",
+      "piso": "6",
+      "area": 144,
+      "price_source": 495780.36768,
+      "price": 495780.37,
+      "sale": 4,
+      "deed": 28,
+      "interior": 95,
+      "varanda": 49,
+      "source_row": 49
+    },
+    {
+      "id": "607",
+      "tipo": "T1",
+      "piso": "6",
+      "area": 78,
+      "price_source": 307244.17152,
+      "price": 307244.17,
+      "sale": 4,
+      "deed": 29,
+      "interior": 48,
+      "varanda": 30,
+      "source_row": 50
+    },
+    {
+      "id": "608",
+      "tipo": "T1",
+      "piso": "6",
+      "area": 90,
+      "price_source": 307244.17152,
+      "price": 307244.17,
+      "sale": 4,
+      "deed": 30,
+      "interior": 58,
+      "varanda": 32,
+      "source_row": 51
+    },
+    {
+      "id": "609",
+      "tipo": "T2",
+      "piso": "6",
+      "area": 123,
+      "price_source": 488797.5456,
+      "price": 488797.55,
+      "sale": 7,
+      "deed": 28,
+      "interior": 93,
+      "varanda": 30,
+      "source_row": 52
+    },
+    {
+      "id": "610",
+      "tipo": "T3",
+      "piso": "6",
+      "area": 230,
+      "price_source": 670350.91968,
+      "price": 670350.92,
+      "sale": 7,
+      "deed": 29,
+      "interior": 175,
+      "varanda": 55,
+      "source_row": 53
+    },
+    {
+      "id": "701",
+      "tipo": "T3",
+      "piso": "7",
+      "area": 223,
+      "price_source": 737386.011648,
+      "price": 737386.01,
+      "sale": 7,
+      "deed": 30,
+      "interior": 175,
+      "varanda": 48,
+      "source_row": 54
+    },
+    {
+      "id": "702",
+      "tipo": "T2",
+      "piso": "7",
+      "area": 135,
+      "price_source": 537677.30016,
+      "price": 537677.3,
+      "sale": 7,
+      "deed": 28,
+      "interior": 102,
+      "varanda": 33,
+      "source_row": 55
+    },
+    {
+      "id": "703",
+      "tipo": "T1",
+      "piso": "7",
+      "area": 90,
+      "price_source": 337968.588672,
+      "price": 337968.59,
+      "sale": 10,
+      "deed": 29,
+      "interior": 68,
+      "varanda": 22,
+      "source_row": 56
+    },
+    {
+      "id": "704",
+      "tipo": "T1",
+      "piso": "7",
+      "area": 78,
+      "price_source": 337968.588672,
+      "price": 337968.59,
+      "sale": 10,
+      "deed": 30,
+      "interior": 48,
+      "varanda": 30,
+      "source_row": 57
+    },
+    {
+      "id": "705",
+      "tipo": "T2",
+      "piso": "7",
+      "area": 132,
+      "price_source": 537677.30016,
+      "price": 537677.3,
+      "sale": 10,
+      "deed": 28,
+      "interior": 98,
+      "varanda": 34,
+      "source_row": 58
+    },
+    {
+      "id": "706",
+      "tipo": "T2",
+      "piso": "7",
+      "area": 144,
+      "price_source": 545358.404448,
+      "price": 545358.4,
+      "sale": 10,
+      "deed": 29,
+      "interior": 95,
+      "varanda": 49,
+      "source_row": 59
+    },
+    {
+      "id": "707",
+      "tipo": "T1",
+      "piso": "7",
+      "area": 78,
+      "price_source": 337968.588672,
+      "price": 337968.59,
+      "sale": 13,
+      "deed": 30,
+      "interior": 48,
+      "varanda": 30,
+      "source_row": 60
+    },
+    {
+      "id": "708",
+      "tipo": "T1",
+      "piso": "7",
+      "area": 90,
+      "price_source": 337968.588672,
+      "price": 337968.59,
+      "sale": 13,
+      "deed": 28,
+      "interior": 58,
+      "varanda": 32,
+      "source_row": 61
+    },
+    {
+      "id": "709",
+      "tipo": "T2",
+      "piso": "7",
+      "area": 123,
+      "price_source": 537677.30016,
+      "price": 537677.3,
+      "sale": 13,
+      "deed": 29,
+      "interior": 93,
+      "varanda": 30,
+      "source_row": 62
+    },
+    {
+      "id": "710",
+      "tipo": "T3",
+      "piso": "7",
+      "area": 230,
+      "price_source": 737386.011648,
+      "price": 737386.01,
+      "sale": 13,
+      "deed": 30,
+      "interior": 175,
+      "varanda": 55,
+      "source_row": 63
+    },
+    {
+      "id": "801",
+      "tipo": "T3",
+      "piso": "8",
+      "area": 223,
+      "price_source": 825872.33304576,
+      "price": 825872.33,
+      "sale": 16,
+      "deed": 28,
+      "interior": 175,
+      "varanda": 48,
+      "source_row": 64
+    },
+    {
+      "id": "802",
+      "tipo": "T2",
+      "piso": "8",
+      "area": 135,
+      "price_source": 602198.5761792,
+      "price": 602198.58,
+      "sale": 16,
+      "deed": 29,
+      "interior": 102,
+      "varanda": 33,
+      "source_row": 65
+    },
+    {
+      "id": "803",
+      "tipo": "T1",
+      "piso": "8",
+      "area": 90,
+      "price_source": 378524.81931264,
+      "price": 378524.82,
+      "sale": 16,
+      "deed": 30,
+      "interior": 68,
+      "varanda": 22,
+      "source_row": 66
+    },
+    {
+      "id": "804",
+      "tipo": "T1",
+      "piso": "8",
+      "area": 78,
+      "price_source": 378524.81931264,
+      "price": 378524.82,
+      "sale": 16,
+      "deed": 28,
+      "interior": 48,
+      "varanda": 30,
+      "source_row": 67
+    },
+    {
+      "id": "805",
+      "tipo": "T2",
+      "piso": "8",
+      "area": 132,
+      "price_source": 602198.5761792,
+      "price": 602198.58,
+      "sale": 19,
+      "deed": 29,
+      "interior": 98,
+      "varanda": 34,
+      "source_row": 68
+    },
+    {
+      "id": "806",
+      "tipo": "T2",
+      "piso": "8",
+      "area": 144,
+      "price_source": 610801.41298176,
+      "price": 610801.41,
+      "sale": 19,
+      "deed": 30,
+      "interior": 95,
+      "varanda": 49,
+      "source_row": 69
+    },
+    {
+      "id": "807",
+      "tipo": "T1",
+      "piso": "8",
+      "area": 78,
+      "price_source": 378524.81931264,
+      "price": 378524.82,
+      "sale": 19,
+      "deed": 28,
+      "interior": 48,
+      "varanda": 30,
+      "source_row": 70
+    },
+    {
+      "id": "808",
+      "tipo": "T1",
+      "piso": "8",
+      "area": 90,
+      "price_source": 378524.81931264,
+      "price": 378524.82,
+      "sale": 19,
+      "deed": 29,
+      "interior": 58,
+      "varanda": 32,
+      "source_row": 71
+    },
+    {
+      "id": "809",
+      "tipo": "T2",
+      "piso": "8",
+      "area": 123,
+      "price_source": 602198.5761792,
+      "price": 602198.58,
+      "sale": 22,
+      "deed": 30,
+      "interior": 93,
+      "varanda": 30,
+      "source_row": 72
+    },
+    {
+      "id": "810",
+      "tipo": "T3",
+      "piso": "8",
+      "area": 230,
+      "price_source": 825872.33304576,
+      "price": 825872.33,
+      "sale": 22,
+      "deed": 29,
+      "interior": 175,
+      "varanda": 55,
+      "source_row": 73
+    },
+    {
+      "id": "901",
+      "tipo": "T3",
+      "piso": "9",
+      "area": 223,
+      "price_source": 941494.459672167,
+      "price": 941494.46,
+      "sale": 22,
+      "deed": 29,
+      "interior": 175,
+      "varanda": 48,
+      "source_row": 74
+    },
+    {
+      "id": "902",
+      "tipo": "T2",
+      "piso": "9",
+      "area": 135,
+      "price_source": 686506.376844288,
+      "price": 686506.38,
+      "sale": 22,
+      "deed": 30,
+      "interior": 102,
+      "varanda": 33,
+      "source_row": 75
+    },
+    {
+      "id": "903",
+      "tipo": "T1",
+      "piso": "9",
+      "area": 90,
+      "price_source": 431518.29401641,
+      "price": 431518.29,
+      "sale": 1,
+      "deed": 28,
+      "interior": 68,
+      "varanda": 22,
+      "source_row": 76
+    },
+    {
+      "id": "904",
+      "tipo": "T1",
+      "piso": "9",
+      "area": 78,
+      "price_source": 431518.29401641,
+      "price": 431518.29,
+      "sale": 1,
+      "deed": 29,
+      "interior": 48,
+      "varanda": 30,
+      "source_row": 77
+    },
+    {
+      "id": "905",
+      "tipo": "T2",
+      "piso": "9",
+      "area": 132,
+      "price_source": 686506.376844288,
+      "price": 686506.38,
+      "sale": 1,
+      "deed": 30,
+      "interior": 98,
+      "varanda": 34,
+      "source_row": 78
+    },
+    {
+      "id": "906",
+      "tipo": "T2",
+      "piso": "9",
+      "area": 144,
+      "price_source": 696313.610799207,
+      "price": 696313.61,
+      "sale": 1,
+      "deed": 28,
+      "interior": 95,
+      "varanda": 49,
+      "source_row": 79
+    },
+    {
+      "id": "907",
+      "tipo": "T1",
+      "piso": "9",
+      "area": 78,
+      "price_source": 431518.29401641,
+      "price": 431518.29,
+      "sale": 4,
+      "deed": 29,
+      "interior": 48,
+      "varanda": 30,
+      "source_row": 80
+    },
+    {
+      "id": "908",
+      "tipo": "T1",
+      "piso": "9",
+      "area": 90,
+      "price_source": 431518.29401641,
+      "price": 431518.29,
+      "sale": 4,
+      "deed": 30,
+      "interior": 58,
+      "varanda": 32,
+      "source_row": 81
+    },
+    {
+      "id": "909",
+      "tipo": "T2",
+      "piso": "9",
+      "area": 123,
+      "price_source": 686506.376844288,
+      "price": 686506.38,
+      "sale": 7,
+      "deed": 28,
+      "interior": 93,
+      "varanda": 30,
+      "source_row": 82
+    },
+    {
+      "id": "910",
+      "tipo": "T3",
+      "piso": "9",
+      "area": 230,
+      "price_source": 941494.459672167,
+      "price": 941494.46,
+      "sale": 7,
+      "deed": 29,
+      "interior": 175,
+      "varanda": 55,
+      "source_row": 83
+    },
+    {
+      "id": "1001",
+      "tipo": "T3",
+      "piso": "10",
+      "area": 223,
+      "price_source": 1092133.57321971,
+      "price": 1092133.57,
+      "sale": 10,
+      "deed": 30,
+      "interior": 175,
+      "varanda": 48,
+      "source_row": 84
+    },
+    {
+      "id": "1002",
+      "tipo": "T2",
+      "piso": "10",
+      "area": 135,
+      "price_source": 796347.397139374,
+      "price": 796347.4,
+      "sale": 10,
+      "deed": 28,
+      "interior": 102,
+      "varanda": 33,
+      "source_row": 85
+    },
+    {
+      "id": "1003",
+      "tipo": "T1",
+      "piso": "10",
+      "area": 90,
+      "price_source": 500561.221059035,
+      "price": 500561.22,
+      "sale": 13,
+      "deed": 29,
+      "interior": 68,
+      "varanda": 22,
+      "source_row": 86
+    },
+    {
+      "id": "1004",
+      "tipo": "T1",
+      "piso": "10",
+      "area": 78,
+      "price_source": 500561.221059035,
+      "price": 500561.22,
+      "sale": 13,
+      "deed": 30,
+      "interior": 48,
+      "varanda": 30,
+      "source_row": 87
+    },
+    {
+      "id": "1005",
+      "tipo": "T2",
+      "piso": "10",
+      "area": 132,
+      "price_source": 796347.397139374,
+      "price": 796347.4,
+      "sale": 16,
+      "deed": 28,
+      "interior": 98,
+      "varanda": 34,
+      "source_row": 88
+    },
+    {
+      "id": "1006",
+      "tipo": "T2",
+      "piso": "10",
+      "area": 144,
+      "price_source": 807723.78852708,
+      "price": 807723.79,
+      "sale": 16,
+      "deed": 29,
+      "interior": 95,
+      "varanda": 49,
+      "source_row": 89
+    },
+    {
+      "id": "1007",
+      "tipo": "T1",
+      "piso": "10",
+      "area": 78,
+      "price_source": 500561.221059035,
+      "price": 500561.22,
+      "sale": 19,
+      "deed": 30,
+      "interior": 48,
+      "varanda": 30,
+      "source_row": 90
+    },
+    {
+      "id": "1008",
+      "tipo": "T1",
+      "piso": "10",
+      "area": 90,
+      "price_source": 500561.221059035,
+      "price": 500561.22,
+      "sale": 19,
+      "deed": 28,
+      "interior": 58,
+      "varanda": 32,
+      "source_row": 91
+    },
+    {
+      "id": "1009",
+      "tipo": "T2",
+      "piso": "10",
+      "area": 123,
+      "price_source": 796347.397139374,
+      "price": 796347.4,
+      "sale": 22,
+      "deed": 29,
+      "interior": 93,
+      "varanda": 30,
+      "source_row": 92
+    },
+    {
+      "id": "1010",
+      "tipo": "T3",
+      "piso": "10",
+      "area": 230,
+      "price_source": 1092133.57321971,
+      "price": 1092133.57,
+      "sale": 22,
+      "deed": 30,
+      "interior": 175,
+      "varanda": 55,
+      "source_row": 93
+    },
+    {
+      "id": "1101",
+      "tipo": "Penthouse",
+      "piso": "11",
+      "area": 353,
+      "price_source": 1550000,
+      "price": 1550000,
+      "sale": 22,
+      "deed": 30,
+      "interior": 263,
+      "varanda": 90,
+      "source_row": 94
+    },
+    {
+      "id": "1102",
+      "tipo": "Penthouse",
+      "piso": "11",
+      "area": 341,
+      "price_source": 1515000,
+      "price": 1515000,
+      "sale": 22,
+      "deed": 30,
+      "interior": 247,
+      "varanda": 94,
+      "source_row": 95
+    },
+    {
+      "id": "1103",
+      "tipo": "Penthouse",
+      "piso": "11",
+      "area": 326,
+      "price_source": 1520000,
+      "price": 1520000,
+      "sale": 22,
+      "deed": 30,
+      "interior": 257,
+      "varanda": 69,
+      "source_row": 96
+    },
+    {
+      "id": "1104",
+      "tipo": "Penthouse",
+      "piso": "11",
+      "area": 363,
+      "price_source": 1530100,
+      "price": 1530100,
+      "sale": 22,
+      "deed": 30,
+      "interior": 244,
+      "varanda": 119,
+      "source_row": 97
+    }
+  ],
+  "chapters": [
+    {
+      "id": 1,
+      "name": "PRELIMINARY & LAND MOVEMENT",
+      "share": 0.02,
+      "weights": [
+        0.5,
+        0.3,
+        0.2,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": 2,
+      "name": "FOUNDATIONS & PERIPHERAL CONTENT",
+      "share": 0.028,
+      "weights": [
+        0.0,
+        0.0,
+        0.1,
+        0.3,
+        0.3,
+        0.3,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": 3,
+      "name": "INFRASTRUCTURES",
+      "share": 0.032,
+      "weights": [
+        0.0,
+        0.2,
+        0.3,
+        0.15,
+        0.05,
+        0.05,
+        0.05,
+        0.05,
+        0.05,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.1,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": 4,
+      "name": "SUPER-STRUCTURES",
+      "share": 0.25,
+      "weights": [
+        0.0,
+        0.0,
+        0.0,
+        0.025,
+        0.05,
+        0.05,
+        0.05,
+        0.05,
+        0.05,
+        0.05,
+        0.05,
+        0.05,
+        0.08,
+        0.08,
+        0.08,
+        0.1,
+        0.05,
+        0.05,
+        0.05,
+        0.05,
+        0.035,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": 5,
+      "name": "STRUCTURE LSF",
+      "share": 0.055,
+      "weights": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.05,
+        0.05,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": 6,
+      "name": "MASONRY",
+      "share": 0.006,
+      "weights": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.1,
+        0.15,
+        0.05,
+        0.05,
+        0.05,
+        0.05,
+        0.05,
+        0.05,
+        0.05,
+        0.1,
+        0.1,
+        0.1,
+        0.05,
+        0.05,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": 7,
+      "name": "FLOORING TILE",
+      "share": 0.12,
+      "weights": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.05,
+        0.05,
+        0.05,
+        0.05,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": 8,
+      "name": "COATINGS WORKS",
+      "share": 0.08,
+      "weights": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.1,
+        0.1,
+        0.05,
+        0.1,
+        0.1,
+        0.05,
+        0.05,
+        0.05,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": 9,
+      "name": "MASONRY SILLS ",
+      "share": 0.0013,
+      "weights": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": 10,
+      "name": "SPECIAL STONES",
+      "share": 0.0012,
+      "weights": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.25,
+        0.25,
+        0.4,
+        0.1,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": 11,
+      "name": "ALUMINIUM & GLASES",
+      "share": 0.035,
+      "weights": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": 12,
+      "name": "METALIC FRAMES",
+      "share": 0.0065,
+      "weights": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.2,
+        0.1,
+        0.15,
+        0.25,
+        0.05,
+        0.05,
+        0.05,
+        0.05,
+        0.05,
+        0.05,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": 13,
+      "name": "WATERPROOFING",
+      "share": 0.04,
+      "weights": [
+        0.0,
+        0.0,
+        0.05,
+        0.1,
+        0.1,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.3,
+        0.2,
+        0.15,
+        0.1,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": 14,
+      "name": "CEILINGS AND CROWN MOLDING",
+      "share": 0.016,
+      "weights": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": 15,
+      "name": "PAITINGS",
+      "share": 0.012,
+      "weights": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": 16,
+      "name": "ELEVATORS",
+      "share": 0.027,
+      "weights": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.05,
+        0.1,
+        0.1,
+        0.25,
+        0.5,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": 17,
+      "name": "SANITARY EQUIPMENT",
+      "share": 0.008,
+      "weights": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.2,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": 18,
+      "name": "WATER",
+      "share": 0.02,
+      "weights": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.3,
+        0.2,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": 19,
+      "name": "SEWERS ",
+      "share": 0.02,
+      "weights": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.3,
+        0.2,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": 20,
+      "name": "FIRE SAFETY",
+      "share": 0.008,
+      "weights": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.3,
+        0.2,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": 21,
+      "name": "ELECTRICAL INST",
+      "share": 0.028,
+      "weights": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.1,
+        0.1,
+        0.05,
+        0.05,
+        0.1,
+        0.15,
+        0.05,
+        0.15,
+        0.25,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": 22,
+      "name": "TELECOM",
+      "share": 0.008,
+      "weights": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.1,
+        0.1,
+        0.05,
+        0.05,
+        0.1,
+        0.15,
+        0.05,
+        0.15,
+        0.25,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": 23,
+      "name": "SECURITY",
+      "share": 0.006,
+      "weights": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.1,
+        0.1,
+        0.05,
+        0.05,
+        0.1,
+        0.15,
+        0.05,
+        0.15,
+        0.25,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": 24,
+      "name": "AVAC CLIMATE",
+      "share": 0.025,
+      "weights": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.05,
+        0.05,
+        0.05,
+        0.05,
+        0.05,
+        0.2,
+        0.15,
+        0.15,
+        0.25,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": 25,
+      "name": "CARPENTRY",
+      "share": 0.03,
+      "weights": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.2,
+        0.0,
+        0.05,
+        0.2,
+        0.15,
+        0.15,
+        0.25,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": 26,
+      "name": "ACCESSORY PANELS AND EQUIPMENT",
+      "share": 0.01,
+      "weights": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.2,
+        0.15,
+        0.15,
+        0.1,
+        0.15,
+        0.25,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": 27,
+      "name": "POOLS",
+      "share": 0.005,
+      "weights": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.1,
+        0.1,
+        0.1,
+        0.3,
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": 28,
+      "name": "TECHNICAL ROOFTOP",
+      "share": 0.002,
+      "weights": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.1,
+        0.3,
+        0.4,
+        0.2,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": 29,
+      "name": "FF&E",
+      "share": 0.08,
+      "weights": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.3,
+        0.0,
+        0.0,
+        0.0,
+        0.3,
+        0.0,
+        0.2,
+        0.1,
+        0.1,
+        0.0
+      ]
+    },
+    {
+      "id": 30,
+      "name": "EXTERNAL ARRANGEMENTS ",
+      "share": 0.02,
+      "weights": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.25,
+        0.2,
+        0.05
+      ]
+    }
+  ],
+  "sheets": [
+    {
+      "sheet": "Dashboard",
+      "rows": 25,
+      "columns": 3,
+      "formulas": 21,
+      "dependencies": [
+        "CashFlow 48 Meses",
+        "Inputs",
+        "Orcamento Capitulos",
+        "Quarterly Cash Flow",
+        "Unidades Pricing"
+      ],
+      "charts": 0,
+      "validations": 0
+    },
+    {
+      "sheet": "Inputs",
+      "rows": 23,
+      "columns": 3,
+      "formulas": 0,
+      "dependencies": [],
+      "charts": 0,
+      "validations": 0
+    },
+    {
+      "sheet": "Orcamento Capitulos",
+      "rows": 38,
+      "columns": 34,
+      "formulas": 1054,
+      "dependencies": [
+        "Inputs"
+      ],
+      "charts": 0,
+      "validations": 0
+    },
+    {
+      "sheet": "Unidades Pricing",
+      "rows": 105,
+      "columns": 15,
+      "formulas": 380,
+      "dependencies": [
+        "Inputs"
+      ],
+      "charts": 0,
+      "validations": 0
+    },
+    {
+      "sheet": "CashFlow 48 Meses",
+      "rows": 54,
+      "columns": 18,
+      "formulas": 784,
+      "dependencies": [
+        "Inputs",
+        "Orcamento Capitulos",
+        "Recebimentos 94 Fracoes",
+        "Unidades Pricing"
+      ],
+      "charts": 0,
+      "validations": 0
+    },
+    {
+      "sheet": "Quarterly Cash Flow",
+      "rows": 28,
+      "columns": 10,
+      "formulas": 150,
+      "dependencies": [
+        "CashFlow 48 Meses",
+        "Inputs"
+      ],
+      "charts": 0,
+      "validations": 0
+    },
+    {
+      "sheet": "Cenarios CAPEX",
+      "rows": 10,
+      "columns": 4,
+      "formulas": 21,
+      "dependencies": [
+        "Inputs"
+      ],
+      "charts": 0,
+      "validations": 0
+    },
+    {
+      "sheet": "Notas",
+      "rows": 65,
+      "columns": 3,
+      "formulas": 0,
+      "dependencies": [],
+      "charts": 0,
+      "validations": 0
+    },
+    {
+      "sheet": "Residencial Assuncoes",
+      "rows": 25,
+      "columns": 3,
+      "formulas": 0,
+      "dependencies": [],
+      "charts": 0,
+      "validations": 0
+    },
+    {
+      "sheet": "Yield Residencial 5 Anos",
+      "rows": 17,
+      "columns": 14,
+      "formulas": 76,
+      "dependencies": [
+        "Residencial Assuncoes",
+        "Unidades Pricing"
+      ],
+      "charts": 0,
+      "validations": 0
+    },
+    {
+      "sheet": "Yield por Apartamento",
+      "rows": 99,
+      "columns": 8,
+      "formulas": 758,
+      "dependencies": [
+        "Unidades Pricing",
+        "Yield Residencial 5 Anos"
+      ],
+      "charts": 0,
+      "validations": 0
+    },
+    {
+      "sheet": "ADR por Tipologia",
+      "rows": 19,
+      "columns": 7,
+      "formulas": 8,
+      "dependencies": [
+        "Unidades Pricing"
+      ],
+      "charts": 0,
+      "validations": 0
+    },
+    {
+      "sheet": "Operacao Residencial 10A",
+      "rows": 21,
+      "columns": 21,
+      "formulas": 213,
+      "dependencies": [
+        "ADR por Tipologia",
+        "Residencial Assuncoes"
+      ],
+      "charts": 0,
+      "validations": 0
+    },
+    {
+      "sheet": "Sensibilidade Ocupacao ADR",
+      "rows": 13,
+      "columns": 7,
+      "formulas": 36,
+      "dependencies": [
+        "ADR por Tipologia",
+        "Operacao Residencial 10A"
+      ],
+      "charts": 0,
+      "validations": 0
+    },
+    {
+      "sheet": "Investidor 15 Anos",
+      "rows": 113,
+      "columns": 17,
+      "formulas": 1521,
+      "dependencies": [
+        "Unidades Pricing",
+        "Waterfall Kyenu 15A"
+      ],
+      "charts": 0,
+      "validations": 0
+    },
+    {
+      "sheet": "Recebimentos 94 Fracoes",
+      "rows": 106,
+      "columns": 38,
+      "formulas": 3610,
+      "dependencies": [
+        "Inputs",
+        "Unidades Pricing"
+      ],
+      "charts": 0,
+      "validations": 0
+    },
+    {
+      "sheet": "Matriz Trimestral",
+      "rows": 19,
+      "columns": 19,
+      "formulas": 272,
+      "dependencies": [
+        "CashFlow 48 Meses"
+      ],
+      "charts": 0,
+      "validations": 0
+    },
+    {
+      "sheet": "Capitulos T01-T10",
+      "rows": 38,
+      "columns": 13,
+      "formulas": 434,
+      "dependencies": [
+        "Orcamento Capitulos"
+      ],
+      "charts": 0,
+      "validations": 0
+    },
+    {
+      "sheet": "Vendas T01-T10",
+      "rows": 99,
+      "columns": 21,
+      "formulas": 1894,
+      "dependencies": [
+        "Inputs",
+        "Recebimentos 94 Fracoes",
+        "Unidades Pricing"
+      ],
+      "charts": 0,
+      "validations": 0
+    },
+    {
+      "sheet": "Cenarios Filtraveis",
+      "rows": 25,
+      "columns": 13,
+      "formulas": 77,
+      "dependencies": [
+        "Capitulos T01-T10",
+        "Inputs"
+      ],
+      "charts": 0,
+      "validations": 1
+    },
+    {
+      "sheet": "Pricing Mestre V11",
+      "rows": 119,
+      "columns": 31,
+      "formulas": 2934,
+      "dependencies": [
+        "Inputs",
+        "Unidades Pricing",
+        "Waterfall Kyenu 15A"
+      ],
+      "charts": 0,
+      "validations": 0
+    },
+    {
+      "sheet": "Premissas Exploração 15A",
+      "rows": 35,
+      "columns": 6,
+      "formulas": 6,
+      "dependencies": [
+        "Operação Residencial 15A"
+      ],
+      "charts": 0,
+      "validations": 1
+    },
+    {
+      "sheet": "Operação Residencial 15A",
+      "rows": 32,
+      "columns": 17,
+      "formulas": 464,
+      "dependencies": [
+        "OPEX Detalhado 15A",
+        "Premissas Exploração 15A",
+        "Unidades Pricing",
+        "Waterfall Kyenu 15A"
+      ],
+      "charts": 0,
+      "validations": 0
+    },
+    {
+      "sheet": "Teste Viabilidade 15A",
+      "rows": 23,
+      "columns": 4,
+      "formulas": 14,
+      "dependencies": [
+        "Operação Residencial 15A",
+        "Premissas Exploração 15A",
+        "Unidades Pricing"
+      ],
+      "charts": 0,
+      "validations": 0
+    },
+    {
+      "sheet": "Sensibilidade 15A",
+      "rows": 16,
+      "columns": 7,
+      "formulas": 42,
+      "dependencies": [
+        "ADR por Tipologia",
+        "Operação Residencial 15A",
+        "Premissas Exploração 15A"
+      ],
+      "charts": 0,
+      "validations": 0
+    },
+    {
+      "sheet": "Waterfall Kyenu 15A",
+      "rows": 36,
+      "columns": 17,
+      "formulas": 242,
+      "dependencies": [
+        "Operação Residencial 15A",
+        "Unidades Pricing"
+      ],
+      "charts": 0,
+      "validations": 1
+    },
+    {
+      "sheet": "Comparador Yield 15A",
+      "rows": 13,
+      "columns": 41,
+      "formulas": 102,
+      "dependencies": [
+        "Operação Residencial 15A",
+        "Unidades Pricing"
+      ],
+      "charts": 0,
+      "validations": 0
+    },
+    {
+      "sheet": "OPEX Detalhado 15A",
+      "rows": 38,
+      "columns": 17,
+      "formulas": 275,
+      "dependencies": [
+        "Operação Residencial 15A",
+        "Premissas Exploração 15A",
+        "Waterfall Kyenu 15A"
+      ],
+      "charts": 0,
+      "validations": 0
+    },
+    {
+      "sheet": "Selecao Yield",
+      "rows": 17,
+      "columns": 5,
+      "formulas": 22,
+      "dependencies": [
+        "Comparador Yield 15A",
+        "Operação Residencial 15A",
+        "Unidades Pricing",
+        "Waterfall Kyenu 15A"
+      ],
+      "charts": 0,
+      "validations": 0
+    },
+    {
+      "sheet": "Equity 15M e Conversao",
+      "rows": 48,
+      "columns": 6,
+      "formulas": 34,
+      "dependencies": [
+        "Inputs",
+        "Quarterly Cash Flow",
+        "Unidades Pricing"
+      ],
+      "charts": 0,
+      "validations": 0
+    },
+    {
+      "sheet": "KK01 Painel Integrado",
+      "rows": 18,
+      "columns": 4,
+      "formulas": 14,
+      "dependencies": [
+        "CashFlow 48 Meses",
+        "KK01 Caixa Mensal",
+        "KK01 Controlo",
+        "Orcamento Capitulos"
+      ],
+      "charts": 0,
+      "validations": 0
+    },
+    {
+      "sheet": "KK01 Controlo",
+      "rows": 15,
+      "columns": 3,
+      "formulas": 3,
+      "dependencies": [
+        "CashFlow 48 Meses",
+        "Inputs",
+        "Unidades Pricing"
+      ],
+      "charts": 0,
+      "validations": 0
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "rows": 36,
+      "columns": 22,
+      "formulas": 674,
+      "dependencies": [
+        "CashFlow 48 Meses",
+        "KK01 Controlo"
+      ],
+      "charts": 0,
+      "validations": 0
+    },
+    {
+      "sheet": "KK01 CashFlow Trimestral",
+      "rows": 19,
+      "columns": 18,
+      "formulas": 176,
+      "dependencies": [
+        "KK01 Caixa Mensal"
+      ],
+      "charts": 0,
+      "validations": 0
+    },
+    {
+      "sheet": "KK01 Regras e limites",
+      "rows": 12,
+      "columns": 3,
+      "formulas": 0,
+      "dependencies": [],
+      "charts": 0,
+      "validations": 0
+    },
+    {
+      "sheet": "Equity 0-5-10-15M",
+      "rows": 24,
+      "columns": 10,
+      "formulas": 32,
+      "dependencies": [],
+      "charts": 0,
+      "validations": 0
+    },
+    {
+      "sheet": "Comercial 94 Filtro",
+      "rows": 103,
+      "columns": 29,
+      "formulas": 2729,
+      "dependencies": [
+        "Inputs",
+        "Unidades Pricing"
+      ],
+      "charts": 0,
+      "validations": 0
+    },
+    {
+      "sheet": "Totais Comercial",
+      "rows": 58,
+      "columns": 11,
+      "formulas": 282,
+      "dependencies": [
+        "Comercial 94 Filtro"
+      ],
+      "charts": 0,
+      "validations": 0
+    },
+    {
+      "sheet": "V22 Premissas Integradas",
+      "rows": 34,
+      "columns": 4,
+      "formulas": 7,
+      "dependencies": [
+        "V40 Negociacao Bancaria"
+      ],
+      "charts": 0,
+      "validations": 5
+    },
+    {
+      "sheet": "V22 Fonte Imobiliária",
+      "rows": 39,
+      "columns": 6,
+      "formulas": 186,
+      "dependencies": [
+        "KK01 Caixa Mensal"
+      ],
+      "charts": 0,
+      "validations": 0
+    },
+    {
+      "sheet": "V22 Fluxo Mensal 15A",
+      "rows": 183,
+      "columns": 18,
+      "formulas": 3240,
+      "dependencies": [
+        "V22 Fonte Imobiliária",
+        "V22 Premissas Integradas",
+        "V23 Hotel ACCOR",
+        "V36 Auditoria Financeira"
+      ],
+      "charts": 0,
+      "validations": 0
+    },
+    {
+      "sheet": "V22 Consolidado Anual",
+      "rows": 20,
+      "columns": 18,
+      "formulas": 280,
+      "dependencies": [
+        "V22 Fluxo Mensal 15A",
+        "V22 Premissas Integradas"
+      ],
+      "charts": 0,
+      "validations": 0
+    },
+    {
+      "sheet": "V22 Painel Decisão",
+      "rows": 24,
+      "columns": 4,
+      "formulas": 14,
+      "dependencies": [
+        "V22 Fluxo Mensal 15A",
+        "V22 Fonte Imobiliária",
+        "V22 Premissas Integradas"
+      ],
+      "charts": 0,
+      "validations": 0
+    },
+    {
+      "sheet": "V23 Hotel ACCOR",
+      "rows": 49,
+      "columns": 17,
+      "formulas": 324,
+      "dependencies": [
+        "V23 Cenários ACCOR",
+        "V25 Negociacao Fees ACCOR"
+      ],
+      "charts": 0,
+      "validations": 1
+    },
+    {
+      "sheet": "V23 Cenários ACCOR",
+      "rows": 19,
+      "columns": 5,
+      "formulas": 0,
+      "dependencies": [],
+      "charts": 0,
+      "validations": 0
+    },
+    {
+      "sheet": "V24 Benchmark e Testes",
+      "rows": 27,
+      "columns": 7,
+      "formulas": 28,
+      "dependencies": [
+        "V23 Cenários ACCOR",
+        "V23 Hotel ACCOR"
+      ],
+      "charts": 0,
+      "validations": 0
+    },
+    {
+      "sheet": "V25 Negociacao Fees ACCOR",
+      "rows": 40,
+      "columns": 11,
+      "formulas": 36,
+      "dependencies": [
+        "V23 Hotel ACCOR"
+      ],
+      "charts": 0,
+      "validations": 2
+    },
+    {
+      "sheet": "V26 Ratios Gestao ACCOR",
+      "rows": 35,
+      "columns": 6,
+      "formulas": 22,
+      "dependencies": [
+        "V25 Negociacao Fees ACCOR"
+      ],
+      "charts": 0,
+      "validations": 0
+    },
+    {
+      "sheet": "V27 Equilibrio Hotel MICE",
+      "rows": 38,
+      "columns": 6,
+      "formulas": 27,
+      "dependencies": [
+        "V22 Premissas Integradas",
+        "V25 Negociacao Fees ACCOR"
+      ],
+      "charts": 0,
+      "validations": 0
+    },
+    {
+      "sheet": "V29 Reconciliacao Comercial",
+      "rows": 60,
+      "columns": 5,
+      "formulas": 76,
+      "dependencies": [
+        "Comercial 94 Filtro",
+        "Totais Comercial",
+        "Unidades Pricing",
+        "V22 Fonte Imobiliária"
+      ],
+      "charts": 0,
+      "validations": 0
+    },
+    {
+      "sheet": "V30 Financiamento Decisao",
+      "rows": 29,
+      "columns": 5,
+      "formulas": 16,
+      "dependencies": [
+        "V22 Consolidado Anual",
+        "V22 Fluxo Mensal 15A",
+        "V22 Premissas Integradas"
+      ],
+      "charts": 0,
+      "validations": 0
+    },
+    {
+      "sheet": "V33 Auditoria Selecao",
+      "rows": 18,
+      "columns": 6,
+      "formulas": 18,
+      "dependencies": [
+        "Operação Residencial 15A",
+        "Premissas Exploração 15A",
+        "V22 Fluxo Mensal 15A",
+        "V22 Premissas Integradas",
+        "V23 Hotel ACCOR",
+        "Waterfall Kyenu 15A"
+      ],
+      "charts": 0,
+      "validations": 0
+    },
+    {
+      "sheet": "DASH Real Estate",
+      "rows": 39,
+      "columns": 15,
+      "formulas": 20,
+      "dependencies": [
+        "Totais Comercial",
+        "V22 Painel Decisão"
+      ],
+      "charts": 1,
+      "validations": 0
+    },
+    {
+      "sheet": "DASH Hotel MICE",
+      "rows": 39,
+      "columns": 15,
+      "formulas": 62,
+      "dependencies": [
+        "V23 Hotel ACCOR",
+        "V27 Equilibrio Hotel MICE"
+      ],
+      "charts": 1,
+      "validations": 0
+    },
+    {
+      "sheet": "DASH Investidores",
+      "rows": 39,
+      "columns": 15,
+      "formulas": 16,
+      "dependencies": [
+        "V22 Painel Decisão",
+        "V22 Premissas Integradas",
+        "V23 Hotel ACCOR"
+      ],
+      "charts": 1,
+      "validations": 0
+    },
+    {
+      "sheet": "DASH Consolidado",
+      "rows": 39,
+      "columns": 15,
+      "formulas": 85,
+      "dependencies": [
+        "V22 Consolidado Anual",
+        "V22 Painel Decisão"
+      ],
+      "charts": 1,
+      "validations": 0
+    },
+    {
+      "sheet": "DASH Comercial Interativo",
+      "rows": 65,
+      "columns": 16,
+      "formulas": 392,
+      "dependencies": [
+        "ABC Comercial e Graficos",
+        "Comercial 94 Filtro",
+        "Unidades Pricing",
+        "V36 Auditoria Financeira"
+      ],
+      "charts": 4,
+      "validations": 2
+    },
+    {
+      "sheet": "V36 Auditoria Financeira",
+      "rows": 76,
+      "columns": 8,
+      "formulas": 293,
+      "dependencies": [
+        "Inputs",
+        "Unidades Pricing",
+        "V22 Fluxo Mensal 15A",
+        "V22 Fonte Imobiliária",
+        "V22 Premissas Integradas"
+      ],
+      "charts": 0,
+      "validations": 1
+    },
+    {
+      "sheet": "DASH Viabilidade Final",
+      "rows": 59,
+      "columns": 16,
+      "formulas": 104,
+      "dependencies": [
+        "V22 Consolidado Anual",
+        "V22 Painel Decisão",
+        "V22 Premissas Integradas",
+        "V27 Equilibrio Hotel MICE",
+        "V36 Auditoria Financeira"
+      ],
+      "charts": 2,
+      "validations": 0
+    },
+    {
+      "sheet": "AUDIT Fecho Viabilidade",
+      "rows": 16,
+      "columns": 4,
+      "formulas": 9,
+      "dependencies": [
+        "DASH Viabilidade Final",
+        "V22 Painel Decisão",
+        "V27 Equilibrio Hotel MICE",
+        "V36 Auditoria Financeira"
+      ],
+      "charts": 0,
+      "validations": 0
+    },
+    {
+      "sheet": "V38 Carencia Financiamento",
+      "rows": 34,
+      "columns": 8,
+      "formulas": 43,
+      "dependencies": [
+        "V22 Fluxo Mensal 15A",
+        "V22 Premissas Integradas"
+      ],
+      "charts": 0,
+      "validations": 0
+    },
+    {
+      "sheet": "V39 Target Banco",
+      "rows": 39,
+      "columns": 5,
+      "formulas": 24,
+      "dependencies": [
+        "V22 Fluxo Mensal 15A",
+        "V22 Premissas Integradas",
+        "V40 Negociacao Bancaria"
+      ],
+      "charts": 0,
+      "validations": 0
+    },
+    {
+      "sheet": "V40 Negociacao Bancaria",
+      "rows": 19,
+      "columns": 7,
+      "formulas": 8,
+      "dependencies": [],
+      "charts": 0,
+      "validations": 8
+    },
+    {
+      "sheet": "AUDIT Final Modelo",
+      "rows": 21,
+      "columns": 5,
+      "formulas": 11,
+      "dependencies": [
+        "AUDIT Fecho Viabilidade",
+        "DASH Viabilidade Final",
+        "V26 Ratios Gestao ACCOR"
+      ],
+      "charts": 0,
+      "validations": 0
+    },
+    {
+      "sheet": "V42 Revisao Fecho",
+      "rows": 20,
+      "columns": 4,
+      "formulas": 16,
+      "dependencies": [
+        "AUDIT Final Modelo",
+        "V22 Fluxo Mensal 15A",
+        "V22 Premissas Integradas",
+        "V25 Negociacao Fees ACCOR"
+      ],
+      "charts": 0,
+      "validations": 0
+    },
+    {
+      "sheet": "V43 Retorno Acionista",
+      "rows": 51,
+      "columns": 20,
+      "formulas": 189,
+      "dependencies": [
+        "V22 Consolidado Anual",
+        "V22 Premissas Integradas"
+      ],
+      "charts": 0,
+      "validations": 0
+    },
+    {
+      "sheet": "V44 Auditoria Divida Equity",
+      "rows": 36,
+      "columns": 10,
+      "formulas": 165,
+      "dependencies": [
+        "V22 Consolidado Anual",
+        "V22 Premissas Integradas",
+        "V43 Retorno Acionista"
+      ],
+      "charts": 0,
+      "validations": 0
+    },
+    {
+      "sheet": "ABC Fecho e Auditoria",
+      "rows": 19,
+      "columns": 8,
+      "formulas": 19,
+      "dependencies": [
+        "AUDIT Final Modelo",
+        "DASH Comercial Interativo",
+        "Inputs",
+        "V22 Fluxo Mensal 15A",
+        "V22 Premissas Integradas",
+        "V25 Negociacao Fees ACCOR"
+      ],
+      "charts": 0,
+      "validations": 0
+    },
+    {
+      "sheet": "ABC DASH Viabilidade",
+      "rows": 24,
+      "columns": 10,
+      "formulas": 18,
+      "dependencies": [
+        "ABC Fecho e Auditoria",
+        "DASH Comercial Interativo",
+        "V22 Fluxo Mensal 15A",
+        "V22 Fonte Imobiliária",
+        "V22 Premissas Integradas",
+        "V25 Negociacao Fees ACCOR",
+        "V43 Retorno Acionista"
+      ],
+      "charts": 0,
+      "validations": 0
+    },
+    {
+      "sheet": "ABC Comercial e Graficos",
+      "rows": 66,
+      "columns": 10,
+      "formulas": 192,
+      "dependencies": [
+        "DASH Comercial Interativo",
+        "V22 Fonte Imobiliária"
+      ],
+      "charts": 2,
+      "validations": 2
+    }
+  ],
+  "issues": [
+    {
+      "sheet": "KK01 Painel Integrado",
+      "cell": "B12",
+      "type": "Erro em cache",
+      "formula": "=MAX('KK01 Caixa Mensal'!N5:N34)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Painel Integrado",
+      "cell": "B13",
+      "type": "Erro em cache",
+      "formula": "='KK01 Caixa Mensal'!N34",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Painel Integrado",
+      "cell": "B14",
+      "type": "Erro em cache",
+      "formula": "=SUM('KK01 Caixa Mensal'!O5:O34)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Painel Integrado",
+      "cell": "B15",
+      "type": "Erro em cache",
+      "formula": "='KK01 Caixa Mensal'!M34",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Painel Integrado",
+      "cell": "B16",
+      "type": "Erro em cache",
+      "formula": "=MIN(0,MIN('KK01 Caixa Mensal'!L5:L34))",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Painel Integrado",
+      "cell": "B17",
+      "type": "Erro em cache",
+      "formula": "=SUM('CashFlow 48 Meses'!M4:M33)-B14",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "J5",
+      "type": "Erro em cache",
+      "formula": "=SUM(OFFSET(C5,1,0,MIN('KK01 Controlo'!$B$10,30-A5),1))+SUM(OFFSET(D5,1,0,MIN('KK01 Controlo'!$B$10,30-A5),1))",
+      "cached": "OFFSET is not implemented. reference=631680, rows=1, cols=0, height=3, width=1"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "K5",
+      "type": "Erro em cache",
+      "formula": "=MIN(MAX(0,'KK01 Controlo'!$B$6-T5),MAX(0,J5-U5))",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "L5",
+      "type": "Erro em cache",
+      "formula": "=U5+K5",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "M5",
+      "type": "Erro em cache",
+      "formula": "=MAX(0,-L5)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "N5",
+      "type": "Erro em cache",
+      "formula": "=T5+K5-P5",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "P5",
+      "type": "Erro em cache",
+      "formula": "=MIN(T5+K5,MAX(0,L5-J5)*'KK01 Controlo'!$B$12)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "Q5",
+      "type": "Erro em cache",
+      "formula": "=L5-P5",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "V5",
+      "type": "Erro em cache",
+      "formula": "=MAX(0,'KK01 Controlo'!$B$6-N5)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "I6",
+      "type": "Erro em cache",
+      "formula": "=Q5",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "J6",
+      "type": "Erro em cache",
+      "formula": "=SUM(OFFSET(C6,1,0,MIN('KK01 Controlo'!$B$10,30-A6),1))+SUM(OFFSET(D6,1,0,MIN('KK01 Controlo'!$B$10,30-A6),1))",
+      "cached": "OFFSET is not implemented. reference=783283.2, rows=1, cols=0, height=3, width=1"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "K6",
+      "type": "Erro em cache",
+      "formula": "=MIN(MAX(0,'KK01 Controlo'!$B$6-T6),MAX(0,J6-U6))",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "L6",
+      "type": "Erro em cache",
+      "formula": "=U6+K6",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "M6",
+      "type": "Erro em cache",
+      "formula": "=MAX(0,-L6)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "N6",
+      "type": "Erro em cache",
+      "formula": "=T6+K6-P6",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "O6",
+      "type": "Erro em cache",
+      "formula": "=T6*'KK01 Controlo'!$B$9/12",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "P6",
+      "type": "Erro em cache",
+      "formula": "=MIN(T6+K6,MAX(0,L6-J6)*'KK01 Controlo'!$B$12)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "Q6",
+      "type": "Erro em cache",
+      "formula": "=L6-P6",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "R6",
+      "type": "Erro em cache",
+      "formula": "=C6+D6+O6",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "T6",
+      "type": "Erro em cache",
+      "formula": "=N5",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "U6",
+      "type": "Erro em cache",
+      "formula": "=I6+H6+S6-R6",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "V6",
+      "type": "Erro em cache",
+      "formula": "=MAX(0,'KK01 Controlo'!$B$6-N6)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "I7",
+      "type": "Erro em cache",
+      "formula": "=Q6",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "J7",
+      "type": "Erro em cache",
+      "formula": "=SUM(OFFSET(C7,1,0,MIN('KK01 Controlo'!$B$10,30-A7),1))+SUM(OFFSET(D7,1,0,MIN('KK01 Controlo'!$B$10,30-A7),1))",
+      "cached": "OFFSET is not implemented. reference=1162291.2, rows=1, cols=0, height=3, width=1"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "K7",
+      "type": "Erro em cache",
+      "formula": "=MIN(MAX(0,'KK01 Controlo'!$B$6-T7),MAX(0,J7-U7))",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "L7",
+      "type": "Erro em cache",
+      "formula": "=U7+K7",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "M7",
+      "type": "Erro em cache",
+      "formula": "=MAX(0,-L7)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "N7",
+      "type": "Erro em cache",
+      "formula": "=T7+K7-P7",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "O7",
+      "type": "Erro em cache",
+      "formula": "=T7*'KK01 Controlo'!$B$9/12",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "P7",
+      "type": "Erro em cache",
+      "formula": "=MIN(T7+K7,MAX(0,L7-J7)*'KK01 Controlo'!$B$12)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "Q7",
+      "type": "Erro em cache",
+      "formula": "=L7-P7",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "R7",
+      "type": "Erro em cache",
+      "formula": "=C7+D7+O7",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "T7",
+      "type": "Erro em cache",
+      "formula": "=N6",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "U7",
+      "type": "Erro em cache",
+      "formula": "=I7+H7+S7-R7",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "V7",
+      "type": "Erro em cache",
+      "formula": "=MAX(0,'KK01 Controlo'!$B$6-N7)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "I8",
+      "type": "Erro em cache",
+      "formula": "=Q7",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "J8",
+      "type": "Erro em cache",
+      "formula": "=SUM(OFFSET(C8,1,0,MIN('KK01 Controlo'!$B$10,30-A8),1))+SUM(OFFSET(D8,1,0,MIN('KK01 Controlo'!$B$10,30-A8),1))",
+      "cached": "OFFSET is not implemented. reference=1481289.6, rows=1, cols=0, height=3, width=1"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "K8",
+      "type": "Erro em cache",
+      "formula": "=MIN(MAX(0,'KK01 Controlo'!$B$6-T8),MAX(0,J8-U8))",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "L8",
+      "type": "Erro em cache",
+      "formula": "=U8+K8",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "M8",
+      "type": "Erro em cache",
+      "formula": "=MAX(0,-L8)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "N8",
+      "type": "Erro em cache",
+      "formula": "=T8+K8-P8",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "O8",
+      "type": "Erro em cache",
+      "formula": "=T8*'KK01 Controlo'!$B$9/12",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "P8",
+      "type": "Erro em cache",
+      "formula": "=MIN(T8+K8,MAX(0,L8-J8)*'KK01 Controlo'!$B$12)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "Q8",
+      "type": "Erro em cache",
+      "formula": "=L8-P8",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "R8",
+      "type": "Erro em cache",
+      "formula": "=C8+D8+O8",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "T8",
+      "type": "Erro em cache",
+      "formula": "=N7",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "U8",
+      "type": "Erro em cache",
+      "formula": "=I8+H8+S8-R8",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "V8",
+      "type": "Erro em cache",
+      "formula": "=MAX(0,'KK01 Controlo'!$B$6-N8)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "I9",
+      "type": "Erro em cache",
+      "formula": "=Q8",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "J9",
+      "type": "Erro em cache",
+      "formula": "=SUM(OFFSET(C9,1,0,MIN('KK01 Controlo'!$B$10,30-A9),1))+SUM(OFFSET(D9,1,0,MIN('KK01 Controlo'!$B$10,30-A9),1))",
+      "cached": "OFFSET is not implemented. reference=1673952, rows=1, cols=0, height=3, width=1"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "K9",
+      "type": "Erro em cache",
+      "formula": "=MIN(MAX(0,'KK01 Controlo'!$B$6-T9),MAX(0,J9-U9))",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "L9",
+      "type": "Erro em cache",
+      "formula": "=U9+K9",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "M9",
+      "type": "Erro em cache",
+      "formula": "=MAX(0,-L9)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "N9",
+      "type": "Erro em cache",
+      "formula": "=T9+K9-P9",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "O9",
+      "type": "Erro em cache",
+      "formula": "=T9*'KK01 Controlo'!$B$9/12",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "P9",
+      "type": "Erro em cache",
+      "formula": "=MIN(T9+K9,MAX(0,L9-J9)*'KK01 Controlo'!$B$12)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "Q9",
+      "type": "Erro em cache",
+      "formula": "=L9-P9",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "R9",
+      "type": "Erro em cache",
+      "formula": "=C9+D9+O9",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "T9",
+      "type": "Erro em cache",
+      "formula": "=N8",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "U9",
+      "type": "Erro em cache",
+      "formula": "=I9+H9+S9-R9",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "V9",
+      "type": "Erro em cache",
+      "formula": "=MAX(0,'KK01 Controlo'!$B$6-N9)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "I10",
+      "type": "Erro em cache",
+      "formula": "=Q9",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "J10",
+      "type": "Erro em cache",
+      "formula": "=SUM(OFFSET(C10,1,0,MIN('KK01 Controlo'!$B$10,30-A10),1))+SUM(OFFSET(D10,1,0,MIN('KK01 Controlo'!$B$10,30-A10),1))",
+      "cached": "OFFSET is not implemented. reference=1421280, rows=1, cols=0, height=3, width=1"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "K10",
+      "type": "Erro em cache",
+      "formula": "=MIN(MAX(0,'KK01 Controlo'!$B$6-T10),MAX(0,J10-U10))",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "L10",
+      "type": "Erro em cache",
+      "formula": "=U10+K10",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "M10",
+      "type": "Erro em cache",
+      "formula": "=MAX(0,-L10)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "N10",
+      "type": "Erro em cache",
+      "formula": "=T10+K10-P10",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "O10",
+      "type": "Erro em cache",
+      "formula": "=T10*'KK01 Controlo'!$B$9/12",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "P10",
+      "type": "Erro em cache",
+      "formula": "=MIN(T10+K10,MAX(0,L10-J10)*'KK01 Controlo'!$B$12)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "Q10",
+      "type": "Erro em cache",
+      "formula": "=L10-P10",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "R10",
+      "type": "Erro em cache",
+      "formula": "=C10+D10+O10",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "T10",
+      "type": "Erro em cache",
+      "formula": "=N9",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "U10",
+      "type": "Erro em cache",
+      "formula": "=I10+H10+S10-R10",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "V10",
+      "type": "Erro em cache",
+      "formula": "=MAX(0,'KK01 Controlo'!$B$6-N10)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "I11",
+      "type": "Erro em cache",
+      "formula": "=Q10",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "J11",
+      "type": "Erro em cache",
+      "formula": "=SUM(OFFSET(C11,1,0,MIN('KK01 Controlo'!$B$10,30-A11),1))+SUM(OFFSET(D11,1,0,MIN('KK01 Controlo'!$B$10,30-A11),1))",
+      "cached": "OFFSET is not implemented. reference=890668.8, rows=1, cols=0, height=3, width=1"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "K11",
+      "type": "Erro em cache",
+      "formula": "=MIN(MAX(0,'KK01 Controlo'!$B$6-T11),MAX(0,J11-U11))",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "L11",
+      "type": "Erro em cache",
+      "formula": "=U11+K11",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "M11",
+      "type": "Erro em cache",
+      "formula": "=MAX(0,-L11)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "N11",
+      "type": "Erro em cache",
+      "formula": "=T11+K11-P11",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "O11",
+      "type": "Erro em cache",
+      "formula": "=T11*'KK01 Controlo'!$B$9/12",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "P11",
+      "type": "Erro em cache",
+      "formula": "=MIN(T11+K11,MAX(0,L11-J11)*'KK01 Controlo'!$B$12)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "Q11",
+      "type": "Erro em cache",
+      "formula": "=L11-P11",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "R11",
+      "type": "Erro em cache",
+      "formula": "=C11+D11+O11",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "T11",
+      "type": "Erro em cache",
+      "formula": "=N10",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "U11",
+      "type": "Erro em cache",
+      "formula": "=I11+H11+S11-R11",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "V11",
+      "type": "Erro em cache",
+      "formula": "=MAX(0,'KK01 Controlo'!$B$6-N11)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "I12",
+      "type": "Erro em cache",
+      "formula": "=Q11",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "J12",
+      "type": "Erro em cache",
+      "formula": "=SUM(OFFSET(C12,1,0,MIN('KK01 Controlo'!$B$10,30-A12),1))+SUM(OFFSET(D12,1,0,MIN('KK01 Controlo'!$B$10,30-A12),1))",
+      "cached": "OFFSET is not implemented. reference=890668.8, rows=1, cols=0, height=3, width=1"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "K12",
+      "type": "Erro em cache",
+      "formula": "=MIN(MAX(0,'KK01 Controlo'!$B$6-T12),MAX(0,J12-U12))",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "L12",
+      "type": "Erro em cache",
+      "formula": "=U12+K12",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "M12",
+      "type": "Erro em cache",
+      "formula": "=MAX(0,-L12)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "N12",
+      "type": "Erro em cache",
+      "formula": "=T12+K12-P12",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "O12",
+      "type": "Erro em cache",
+      "formula": "=T12*'KK01 Controlo'!$B$9/12",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "P12",
+      "type": "Erro em cache",
+      "formula": "=MIN(T12+K12,MAX(0,L12-J12)*'KK01 Controlo'!$B$12)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "Q12",
+      "type": "Erro em cache",
+      "formula": "=L12-P12",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "R12",
+      "type": "Erro em cache",
+      "formula": "=C12+D12+O12",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "T12",
+      "type": "Erro em cache",
+      "formula": "=N11",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "U12",
+      "type": "Erro em cache",
+      "formula": "=I12+H12+S12-R12",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "V12",
+      "type": "Erro em cache",
+      "formula": "=MAX(0,'KK01 Controlo'!$B$6-N12)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "I13",
+      "type": "Erro em cache",
+      "formula": "=Q12",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "J13",
+      "type": "Erro em cache",
+      "formula": "=SUM(OFFSET(C13,1,0,MIN('KK01 Controlo'!$B$10,30-A13),1))+SUM(OFFSET(D13,1,0,MIN('KK01 Controlo'!$B$10,30-A13),1))",
+      "cached": "OFFSET is not implemented. reference=928569.6, rows=1, cols=0, height=3, width=1"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "K13",
+      "type": "Erro em cache",
+      "formula": "=MIN(MAX(0,'KK01 Controlo'!$B$6-T13),MAX(0,J13-U13))",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "L13",
+      "type": "Erro em cache",
+      "formula": "=U13+K13",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "M13",
+      "type": "Erro em cache",
+      "formula": "=MAX(0,-L13)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "N13",
+      "type": "Erro em cache",
+      "formula": "=T13+K13-P13",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "O13",
+      "type": "Erro em cache",
+      "formula": "=T13*'KK01 Controlo'!$B$9/12",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "P13",
+      "type": "Erro em cache",
+      "formula": "=MIN(T13+K13,MAX(0,L13-J13)*'KK01 Controlo'!$B$12)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "Q13",
+      "type": "Erro em cache",
+      "formula": "=L13-P13",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "R13",
+      "type": "Erro em cache",
+      "formula": "=C13+D13+O13",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "T13",
+      "type": "Erro em cache",
+      "formula": "=N12",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "U13",
+      "type": "Erro em cache",
+      "formula": "=I13+H13+S13-R13",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "V13",
+      "type": "Erro em cache",
+      "formula": "=MAX(0,'KK01 Controlo'!$B$6-N13)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "I14",
+      "type": "Erro em cache",
+      "formula": "=Q13",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "J14",
+      "type": "Erro em cache",
+      "formula": "=SUM(OFFSET(C14,1,0,MIN('KK01 Controlo'!$B$10,30-A14),1))+SUM(OFFSET(D14,1,0,MIN('KK01 Controlo'!$B$10,30-A14),1))",
+      "cached": "OFFSET is not implemented. reference=846451.2, rows=1, cols=0, height=3, width=1"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "K14",
+      "type": "Erro em cache",
+      "formula": "=MIN(MAX(0,'KK01 Controlo'!$B$6-T14),MAX(0,J14-U14))",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "L14",
+      "type": "Erro em cache",
+      "formula": "=U14+K14",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "M14",
+      "type": "Erro em cache",
+      "formula": "=MAX(0,-L14)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "N14",
+      "type": "Erro em cache",
+      "formula": "=T14+K14-P14",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "O14",
+      "type": "Erro em cache",
+      "formula": "=T14*'KK01 Controlo'!$B$9/12",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "P14",
+      "type": "Erro em cache",
+      "formula": "=MIN(T14+K14,MAX(0,L14-J14)*'KK01 Controlo'!$B$12)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "Q14",
+      "type": "Erro em cache",
+      "formula": "=L14-P14",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "R14",
+      "type": "Erro em cache",
+      "formula": "=C14+D14+O14",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "T14",
+      "type": "Erro em cache",
+      "formula": "=N13",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "U14",
+      "type": "Erro em cache",
+      "formula": "=I14+H14+S14-R14",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "V14",
+      "type": "Erro em cache",
+      "formula": "=MAX(0,'KK01 Controlo'!$B$6-N14)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "I15",
+      "type": "Erro em cache",
+      "formula": "=Q14",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "J15",
+      "type": "Erro em cache",
+      "formula": "=SUM(OFFSET(C15,1,0,MIN('KK01 Controlo'!$B$10,30-A15),1))+SUM(OFFSET(D15,1,0,MIN('KK01 Controlo'!$B$10,30-A15),1))",
+      "cached": "OFFSET is not implemented. reference=1187558.4, rows=1, cols=0, height=3, width=1"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "K15",
+      "type": "Erro em cache",
+      "formula": "=MIN(MAX(0,'KK01 Controlo'!$B$6-T15),MAX(0,J15-U15))",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "L15",
+      "type": "Erro em cache",
+      "formula": "=U15+K15",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "M15",
+      "type": "Erro em cache",
+      "formula": "=MAX(0,-L15)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "N15",
+      "type": "Erro em cache",
+      "formula": "=T15+K15-P15",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "O15",
+      "type": "Erro em cache",
+      "formula": "=T15*'KK01 Controlo'!$B$9/12",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "P15",
+      "type": "Erro em cache",
+      "formula": "=MIN(T15+K15,MAX(0,L15-J15)*'KK01 Controlo'!$B$12)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "Q15",
+      "type": "Erro em cache",
+      "formula": "=L15-P15",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "R15",
+      "type": "Erro em cache",
+      "formula": "=C15+D15+O15",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "T15",
+      "type": "Erro em cache",
+      "formula": "=N14",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "U15",
+      "type": "Erro em cache",
+      "formula": "=I15+H15+S15-R15",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "V15",
+      "type": "Erro em cache",
+      "formula": "=MAX(0,'KK01 Controlo'!$B$6-N15)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "I16",
+      "type": "Erro em cache",
+      "formula": "=Q15",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "J16",
+      "type": "Erro em cache",
+      "formula": "=SUM(OFFSET(C16,1,0,MIN('KK01 Controlo'!$B$10,30-A16),1))+SUM(OFFSET(D16,1,0,MIN('KK01 Controlo'!$B$10,30-A16),1))",
+      "cached": "OFFSET is not implemented. reference=1617100.8, rows=1, cols=0, height=3, width=1"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "K16",
+      "type": "Erro em cache",
+      "formula": "=MIN(MAX(0,'KK01 Controlo'!$B$6-T16),MAX(0,J16-U16))",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "L16",
+      "type": "Erro em cache",
+      "formula": "=U16+K16",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "M16",
+      "type": "Erro em cache",
+      "formula": "=MAX(0,-L16)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "N16",
+      "type": "Erro em cache",
+      "formula": "=T16+K16-P16",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "O16",
+      "type": "Erro em cache",
+      "formula": "=T16*'KK01 Controlo'!$B$9/12",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "P16",
+      "type": "Erro em cache",
+      "formula": "=MIN(T16+K16,MAX(0,L16-J16)*'KK01 Controlo'!$B$12)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "Q16",
+      "type": "Erro em cache",
+      "formula": "=L16-P16",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "R16",
+      "type": "Erro em cache",
+      "formula": "=C16+D16+O16",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "T16",
+      "type": "Erro em cache",
+      "formula": "=N15",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "U16",
+      "type": "Erro em cache",
+      "formula": "=I16+H16+S16-R16",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "V16",
+      "type": "Erro em cache",
+      "formula": "=MAX(0,'KK01 Controlo'!$B$6-N16)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "I17",
+      "type": "Erro em cache",
+      "formula": "=Q16",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "J17",
+      "type": "Erro em cache",
+      "formula": "=SUM(OFFSET(C17,1,0,MIN('KK01 Controlo'!$B$10,30-A17),1))+SUM(OFFSET(D17,1,0,MIN('KK01 Controlo'!$B$10,30-A17),1))",
+      "cached": "OFFSET is not implemented. reference=2555145.6, rows=1, cols=0, height=3, width=1"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "K17",
+      "type": "Erro em cache",
+      "formula": "=MIN(MAX(0,'KK01 Controlo'!$B$6-T17),MAX(0,J17-U17))",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "L17",
+      "type": "Erro em cache",
+      "formula": "=U17+K17",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "M17",
+      "type": "Erro em cache",
+      "formula": "=MAX(0,-L17)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "N17",
+      "type": "Erro em cache",
+      "formula": "=T17+K17-P17",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "O17",
+      "type": "Erro em cache",
+      "formula": "=T17*'KK01 Controlo'!$B$9/12",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "P17",
+      "type": "Erro em cache",
+      "formula": "=MIN(T17+K17,MAX(0,L17-J17)*'KK01 Controlo'!$B$12)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "Q17",
+      "type": "Erro em cache",
+      "formula": "=L17-P17",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "R17",
+      "type": "Erro em cache",
+      "formula": "=C17+D17+O17",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "T17",
+      "type": "Erro em cache",
+      "formula": "=N16",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "U17",
+      "type": "Erro em cache",
+      "formula": "=I17+H17+S17-R17",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "V17",
+      "type": "Erro em cache",
+      "formula": "=MAX(0,'KK01 Controlo'!$B$6-N17)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "I18",
+      "type": "Erro em cache",
+      "formula": "=Q17",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "J18",
+      "type": "Erro em cache",
+      "formula": "=SUM(OFFSET(C18,1,0,MIN('KK01 Controlo'!$B$10,30-A18),1))+SUM(OFFSET(D18,1,0,MIN('KK01 Controlo'!$B$10,30-A18),1))",
+      "cached": "OFFSET is not implemented. reference=2583887.04, rows=1, cols=0, height=3, width=1"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "K18",
+      "type": "Erro em cache",
+      "formula": "=MIN(MAX(0,'KK01 Controlo'!$B$6-T18),MAX(0,J18-U18))",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "L18",
+      "type": "Erro em cache",
+      "formula": "=U18+K18",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "M18",
+      "type": "Erro em cache",
+      "formula": "=MAX(0,-L18)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "N18",
+      "type": "Erro em cache",
+      "formula": "=T18+K18-P18",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "O18",
+      "type": "Erro em cache",
+      "formula": "=T18*'KK01 Controlo'!$B$9/12",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "P18",
+      "type": "Erro em cache",
+      "formula": "=MIN(T18+K18,MAX(0,L18-J18)*'KK01 Controlo'!$B$12)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "Q18",
+      "type": "Erro em cache",
+      "formula": "=L18-P18",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "R18",
+      "type": "Erro em cache",
+      "formula": "=C18+D18+O18",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "T18",
+      "type": "Erro em cache",
+      "formula": "=N17",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "U18",
+      "type": "Erro em cache",
+      "formula": "=I18+H18+S18-R18",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "V18",
+      "type": "Erro em cache",
+      "formula": "=MAX(0,'KK01 Controlo'!$B$6-N18)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "I19",
+      "type": "Erro em cache",
+      "formula": "=Q18",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "J19",
+      "type": "Erro em cache",
+      "formula": "=SUM(OFFSET(C19,1,0,MIN('KK01 Controlo'!$B$10,30-A19),1))+SUM(OFFSET(D19,1,0,MIN('KK01 Controlo'!$B$10,30-A19),1))",
+      "cached": "OFFSET is not implemented. reference=2801816.64, rows=1, cols=0, height=3, width=1"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "K19",
+      "type": "Erro em cache",
+      "formula": "=MIN(MAX(0,'KK01 Controlo'!$B$6-T19),MAX(0,J19-U19))",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "L19",
+      "type": "Erro em cache",
+      "formula": "=U19+K19",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "M19",
+      "type": "Erro em cache",
+      "formula": "=MAX(0,-L19)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "N19",
+      "type": "Erro em cache",
+      "formula": "=T19+K19-P19",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "O19",
+      "type": "Erro em cache",
+      "formula": "=T19*'KK01 Controlo'!$B$9/12",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "P19",
+      "type": "Erro em cache",
+      "formula": "=MIN(T19+K19,MAX(0,L19-J19)*'KK01 Controlo'!$B$12)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "Q19",
+      "type": "Erro em cache",
+      "formula": "=L19-P19",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "R19",
+      "type": "Erro em cache",
+      "formula": "=C19+D19+O19",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "T19",
+      "type": "Erro em cache",
+      "formula": "=N18",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "U19",
+      "type": "Erro em cache",
+      "formula": "=I19+H19+S19-R19",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "V19",
+      "type": "Erro em cache",
+      "formula": "=MAX(0,'KK01 Controlo'!$B$6-N19)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "I20",
+      "type": "Erro em cache",
+      "formula": "=Q19",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "J20",
+      "type": "Erro em cache",
+      "formula": "=SUM(OFFSET(C20,1,0,MIN('KK01 Controlo'!$B$10,30-A20),1))+SUM(OFFSET(D20,1,0,MIN('KK01 Controlo'!$B$10,30-A20),1))",
+      "cached": "OFFSET is not implemented. reference=3240834.24, rows=1, cols=0, height=3, width=1"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "K20",
+      "type": "Erro em cache",
+      "formula": "=MIN(MAX(0,'KK01 Controlo'!$B$6-T20),MAX(0,J20-U20))",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "L20",
+      "type": "Erro em cache",
+      "formula": "=U20+K20",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "M20",
+      "type": "Erro em cache",
+      "formula": "=MAX(0,-L20)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "N20",
+      "type": "Erro em cache",
+      "formula": "=T20+K20-P20",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "O20",
+      "type": "Erro em cache",
+      "formula": "=T20*'KK01 Controlo'!$B$9/12",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "P20",
+      "type": "Erro em cache",
+      "formula": "=MIN(T20+K20,MAX(0,L20-J20)*'KK01 Controlo'!$B$12)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "Q20",
+      "type": "Erro em cache",
+      "formula": "=L20-P20",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "R20",
+      "type": "Erro em cache",
+      "formula": "=C20+D20+O20",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "T20",
+      "type": "Erro em cache",
+      "formula": "=N19",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "U20",
+      "type": "Erro em cache",
+      "formula": "=I20+H20+S20-R20",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "V20",
+      "type": "Erro em cache",
+      "formula": "=MAX(0,'KK01 Controlo'!$B$6-N20)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "I21",
+      "type": "Erro em cache",
+      "formula": "=Q20",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "J21",
+      "type": "Erro em cache",
+      "formula": "=SUM(OFFSET(C21,1,0,MIN('KK01 Controlo'!$B$10,30-A21),1))+SUM(OFFSET(D21,1,0,MIN('KK01 Controlo'!$B$10,30-A21),1))",
+      "cached": "OFFSET is not implemented. reference=2722856.64, rows=1, cols=0, height=3, width=1"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "K21",
+      "type": "Erro em cache",
+      "formula": "=MIN(MAX(0,'KK01 Controlo'!$B$6-T21),MAX(0,J21-U21))",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "L21",
+      "type": "Erro em cache",
+      "formula": "=U21+K21",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "M21",
+      "type": "Erro em cache",
+      "formula": "=MAX(0,-L21)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "N21",
+      "type": "Erro em cache",
+      "formula": "=T21+K21-P21",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "O21",
+      "type": "Erro em cache",
+      "formula": "=T21*'KK01 Controlo'!$B$9/12",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "P21",
+      "type": "Erro em cache",
+      "formula": "=MIN(T21+K21,MAX(0,L21-J21)*'KK01 Controlo'!$B$12)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "Q21",
+      "type": "Erro em cache",
+      "formula": "=L21-P21",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "R21",
+      "type": "Erro em cache",
+      "formula": "=C21+D21+O21",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "T21",
+      "type": "Erro em cache",
+      "formula": "=N20",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "U21",
+      "type": "Erro em cache",
+      "formula": "=I21+H21+S21-R21",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "V21",
+      "type": "Erro em cache",
+      "formula": "=MAX(0,'KK01 Controlo'!$B$6-N21)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "I22",
+      "type": "Erro em cache",
+      "formula": "=Q21",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "J22",
+      "type": "Erro em cache",
+      "formula": "=SUM(OFFSET(C22,1,0,MIN('KK01 Controlo'!$B$10,30-A22),1))+SUM(OFFSET(D22,1,0,MIN('KK01 Controlo'!$B$10,30-A22),1))",
+      "cached": "OFFSET is not implemented. reference=2748123.8400000003, rows=1, cols=0, height=3, width=1"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "K22",
+      "type": "Erro em cache",
+      "formula": "=MIN(MAX(0,'KK01 Controlo'!$B$6-T22),MAX(0,J22-U22))",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "L22",
+      "type": "Erro em cache",
+      "formula": "=U22+K22",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "M22",
+      "type": "Erro em cache",
+      "formula": "=MAX(0,-L22)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "N22",
+      "type": "Erro em cache",
+      "formula": "=T22+K22-P22",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "O22",
+      "type": "Erro em cache",
+      "formula": "=T22*'KK01 Controlo'!$B$9/12",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "P22",
+      "type": "Erro em cache",
+      "formula": "=MIN(T22+K22,MAX(0,L22-J22)*'KK01 Controlo'!$B$12)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "Q22",
+      "type": "Erro em cache",
+      "formula": "=L22-P22",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "R22",
+      "type": "Erro em cache",
+      "formula": "=C22+D22+O22",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "T22",
+      "type": "Erro em cache",
+      "formula": "=N21",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "U22",
+      "type": "Erro em cache",
+      "formula": "=I22+H22+S22-R22",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "V22",
+      "type": "Erro em cache",
+      "formula": "=MAX(0,'KK01 Controlo'!$B$6-N22)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "I23",
+      "type": "Erro em cache",
+      "formula": "=Q22",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "J23",
+      "type": "Erro em cache",
+      "formula": "=SUM(OFFSET(C23,1,0,MIN('KK01 Controlo'!$B$10,30-A23),1))+SUM(OFFSET(D23,1,0,MIN('KK01 Controlo'!$B$10,30-A23),1))",
+      "cached": "OFFSET is not implemented. reference=3146082.24, rows=1, cols=0, height=3, width=1"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "K23",
+      "type": "Erro em cache",
+      "formula": "=MIN(MAX(0,'KK01 Controlo'!$B$6-T23),MAX(0,J23-U23))",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "L23",
+      "type": "Erro em cache",
+      "formula": "=U23+K23",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "M23",
+      "type": "Erro em cache",
+      "formula": "=MAX(0,-L23)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "N23",
+      "type": "Erro em cache",
+      "formula": "=T23+K23-P23",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "O23",
+      "type": "Erro em cache",
+      "formula": "=T23*'KK01 Controlo'!$B$9/12",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "P23",
+      "type": "Erro em cache",
+      "formula": "=MIN(T23+K23,MAX(0,L23-J23)*'KK01 Controlo'!$B$12)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "Q23",
+      "type": "Erro em cache",
+      "formula": "=L23-P23",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "R23",
+      "type": "Erro em cache",
+      "formula": "=C23+D23+O23",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "T23",
+      "type": "Erro em cache",
+      "formula": "=N22",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "U23",
+      "type": "Erro em cache",
+      "formula": "=I23+H23+S23-R23",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "V23",
+      "type": "Erro em cache",
+      "formula": "=MAX(0,'KK01 Controlo'!$B$6-N23)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "I24",
+      "type": "Erro em cache",
+      "formula": "=Q23",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "J24",
+      "type": "Erro em cache",
+      "formula": "=SUM(OFFSET(C24,1,0,MIN('KK01 Controlo'!$B$10,30-A24),1))+SUM(OFFSET(D24,1,0,MIN('KK01 Controlo'!$B$10,30-A24),1))",
+      "cached": "OFFSET is not implemented. reference=3228200.64, rows=1, cols=0, height=3, width=1"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "K24",
+      "type": "Erro em cache",
+      "formula": "=MIN(MAX(0,'KK01 Controlo'!$B$6-T24),MAX(0,J24-U24))",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "L24",
+      "type": "Erro em cache",
+      "formula": "=U24+K24",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "M24",
+      "type": "Erro em cache",
+      "formula": "=MAX(0,-L24)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "N24",
+      "type": "Erro em cache",
+      "formula": "=T24+K24-P24",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "O24",
+      "type": "Erro em cache",
+      "formula": "=T24*'KK01 Controlo'!$B$9/12",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "P24",
+      "type": "Erro em cache",
+      "formula": "=MIN(T24+K24,MAX(0,L24-J24)*'KK01 Controlo'!$B$12)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "Q24",
+      "type": "Erro em cache",
+      "formula": "=L24-P24",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "R24",
+      "type": "Erro em cache",
+      "formula": "=C24+D24+O24",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "T24",
+      "type": "Erro em cache",
+      "formula": "=N23",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "U24",
+      "type": "Erro em cache",
+      "formula": "=I24+H24+S24-R24",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "V24",
+      "type": "Erro em cache",
+      "formula": "=MAX(0,'KK01 Controlo'!$B$6-N24)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "I25",
+      "type": "Erro em cache",
+      "formula": "=Q24",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "J25",
+      "type": "Erro em cache",
+      "formula": "=SUM(OFFSET(C25,1,0,MIN('KK01 Controlo'!$B$10,30-A25),1))+SUM(OFFSET(D25,1,0,MIN('KK01 Controlo'!$B$10,30-A25),1))",
+      "cached": "OFFSET is not implemented. reference=5748603.84, rows=1, cols=0, height=3, width=1"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "K25",
+      "type": "Erro em cache",
+      "formula": "=MIN(MAX(0,'KK01 Controlo'!$B$6-T25),MAX(0,J25-U25))",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "L25",
+      "type": "Erro em cache",
+      "formula": "=U25+K25",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "M25",
+      "type": "Erro em cache",
+      "formula": "=MAX(0,-L25)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "N25",
+      "type": "Erro em cache",
+      "formula": "=T25+K25-P25",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "O25",
+      "type": "Erro em cache",
+      "formula": "=T25*'KK01 Controlo'!$B$9/12",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "P25",
+      "type": "Erro em cache",
+      "formula": "=MIN(T25+K25,MAX(0,L25-J25)*'KK01 Controlo'!$B$12)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "Q25",
+      "type": "Erro em cache",
+      "formula": "=L25-P25",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "R25",
+      "type": "Erro em cache",
+      "formula": "=C25+D25+O25",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "T25",
+      "type": "Erro em cache",
+      "formula": "=N24",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "U25",
+      "type": "Erro em cache",
+      "formula": "=I25+H25+S25-R25",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "V25",
+      "type": "Erro em cache",
+      "formula": "=MAX(0,'KK01 Controlo'!$B$6-N25)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "I26",
+      "type": "Erro em cache",
+      "formula": "=Q25",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "J26",
+      "type": "Erro em cache",
+      "formula": "=SUM(OFFSET(C26,1,0,MIN('KK01 Controlo'!$B$10,30-A26),1))+SUM(OFFSET(D26,1,0,MIN('KK01 Controlo'!$B$10,30-A26),1))",
+      "cached": "OFFSET is not implemented. reference=4166561.28, rows=1, cols=0, height=3, width=1"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "K26",
+      "type": "Erro em cache",
+      "formula": "=MIN(MAX(0,'KK01 Controlo'!$B$6-T26),MAX(0,J26-U26))",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "L26",
+      "type": "Erro em cache",
+      "formula": "=U26+K26",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "M26",
+      "type": "Erro em cache",
+      "formula": "=MAX(0,-L26)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "N26",
+      "type": "Erro em cache",
+      "formula": "=T26+K26-P26",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "O26",
+      "type": "Erro em cache",
+      "formula": "=T26*'KK01 Controlo'!$B$9/12",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "P26",
+      "type": "Erro em cache",
+      "formula": "=MIN(T26+K26,MAX(0,L26-J26)*'KK01 Controlo'!$B$12)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "Q26",
+      "type": "Erro em cache",
+      "formula": "=L26-P26",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "R26",
+      "type": "Erro em cache",
+      "formula": "=C26+D26+O26",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "T26",
+      "type": "Erro em cache",
+      "formula": "=N25",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "U26",
+      "type": "Erro em cache",
+      "formula": "=I26+H26+S26-R26",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "V26",
+      "type": "Erro em cache",
+      "formula": "=MAX(0,'KK01 Controlo'!$B$6-N26)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "I27",
+      "type": "Erro em cache",
+      "formula": "=Q26",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "J27",
+      "type": "Erro em cache",
+      "formula": "=SUM(OFFSET(C27,1,0,MIN('KK01 Controlo'!$B$10,30-A27),1))+SUM(OFFSET(D27,1,0,MIN('KK01 Controlo'!$B$10,30-A27),1))",
+      "cached": "OFFSET is not implemented. reference=2330899.2, rows=1, cols=0, height=3, width=1"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "K27",
+      "type": "Erro em cache",
+      "formula": "=MIN(MAX(0,'KK01 Controlo'!$B$6-T27),MAX(0,J27-U27))",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "L27",
+      "type": "Erro em cache",
+      "formula": "=U27+K27",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "M27",
+      "type": "Erro em cache",
+      "formula": "=MAX(0,-L27)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "N27",
+      "type": "Erro em cache",
+      "formula": "=T27+K27-P27",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "O27",
+      "type": "Erro em cache",
+      "formula": "=T27*'KK01 Controlo'!$B$9/12",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "P27",
+      "type": "Erro em cache",
+      "formula": "=MIN(T27+K27,MAX(0,L27-J27)*'KK01 Controlo'!$B$12)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "Q27",
+      "type": "Erro em cache",
+      "formula": "=L27-P27",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "R27",
+      "type": "Erro em cache",
+      "formula": "=C27+D27+O27",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "T27",
+      "type": "Erro em cache",
+      "formula": "=N26",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "U27",
+      "type": "Erro em cache",
+      "formula": "=I27+H27+S27-R27",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "V27",
+      "type": "Erro em cache",
+      "formula": "=MAX(0,'KK01 Controlo'!$B$6-N27)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "I28",
+      "type": "Erro em cache",
+      "formula": "=Q27",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "J28",
+      "type": "Erro em cache",
+      "formula": "=SUM(OFFSET(C28,1,0,MIN('KK01 Controlo'!$B$10,30-A28),1))+SUM(OFFSET(D28,1,0,MIN('KK01 Controlo'!$B$10,30-A28),1))",
+      "cached": "OFFSET is not implemented. reference=3417388.8, rows=1, cols=0, height=3, width=1"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "K28",
+      "type": "Erro em cache",
+      "formula": "=MIN(MAX(0,'KK01 Controlo'!$B$6-T28),MAX(0,J28-U28))",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "L28",
+      "type": "Erro em cache",
+      "formula": "=U28+K28",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "M28",
+      "type": "Erro em cache",
+      "formula": "=MAX(0,-L28)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "N28",
+      "type": "Erro em cache",
+      "formula": "=T28+K28-P28",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "O28",
+      "type": "Erro em cache",
+      "formula": "=T28*'KK01 Controlo'!$B$9/12",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "P28",
+      "type": "Erro em cache",
+      "formula": "=MIN(T28+K28,MAX(0,L28-J28)*'KK01 Controlo'!$B$12)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "Q28",
+      "type": "Erro em cache",
+      "formula": "=L28-P28",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "R28",
+      "type": "Erro em cache",
+      "formula": "=C28+D28+O28",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "T28",
+      "type": "Erro em cache",
+      "formula": "=N27",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "U28",
+      "type": "Erro em cache",
+      "formula": "=I28+H28+S28-R28",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "V28",
+      "type": "Erro em cache",
+      "formula": "=MAX(0,'KK01 Controlo'!$B$6-N28)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "I29",
+      "type": "Erro em cache",
+      "formula": "=Q28",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "J29",
+      "type": "Erro em cache",
+      "formula": "=SUM(OFFSET(C29,1,0,MIN('KK01 Controlo'!$B$10,30-A29),1))+SUM(OFFSET(D29,1,0,MIN('KK01 Controlo'!$B$10,30-A29),1))",
+      "cached": "OFFSET is not implemented. reference=3635318.4, rows=1, cols=0, height=3, width=1"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "K29",
+      "type": "Erro em cache",
+      "formula": "=MIN(MAX(0,'KK01 Controlo'!$B$6-T29),MAX(0,J29-U29))",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "L29",
+      "type": "Erro em cache",
+      "formula": "=U29+K29",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "M29",
+      "type": "Erro em cache",
+      "formula": "=MAX(0,-L29)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "N29",
+      "type": "Erro em cache",
+      "formula": "=T29+K29-P29",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "O29",
+      "type": "Erro em cache",
+      "formula": "=T29*'KK01 Controlo'!$B$9/12",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "P29",
+      "type": "Erro em cache",
+      "formula": "=MIN(T29+K29,MAX(0,L29-J29)*'KK01 Controlo'!$B$12)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "Q29",
+      "type": "Erro em cache",
+      "formula": "=L29-P29",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "R29",
+      "type": "Erro em cache",
+      "formula": "=C29+D29+O29",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "T29",
+      "type": "Erro em cache",
+      "formula": "=N28",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "U29",
+      "type": "Erro em cache",
+      "formula": "=I29+H29+S29-R29",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "V29",
+      "type": "Erro em cache",
+      "formula": "=MAX(0,'KK01 Controlo'!$B$6-N29)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "I30",
+      "type": "Erro em cache",
+      "formula": "=Q29",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "J30",
+      "type": "Erro em cache",
+      "formula": "=SUM(OFFSET(C30,1,0,MIN('KK01 Controlo'!$B$10,30-A30),1))+SUM(OFFSET(D30,1,0,MIN('KK01 Controlo'!$B$10,30-A30),1))",
+      "cached": "OFFSET is not implemented. reference=2030851.2, rows=1, cols=0, height=3, width=1"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "K30",
+      "type": "Erro em cache",
+      "formula": "=MIN(MAX(0,'KK01 Controlo'!$B$6-T30),MAX(0,J30-U30))",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "L30",
+      "type": "Erro em cache",
+      "formula": "=U30+K30",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "M30",
+      "type": "Erro em cache",
+      "formula": "=MAX(0,-L30)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "N30",
+      "type": "Erro em cache",
+      "formula": "=T30+K30-P30",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "O30",
+      "type": "Erro em cache",
+      "formula": "=T30*'KK01 Controlo'!$B$9/12",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "P30",
+      "type": "Erro em cache",
+      "formula": "=MIN(T30+K30,MAX(0,L30-J30)*'KK01 Controlo'!$B$12)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "Q30",
+      "type": "Erro em cache",
+      "formula": "=L30-P30",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "R30",
+      "type": "Erro em cache",
+      "formula": "=C30+D30+O30",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "T30",
+      "type": "Erro em cache",
+      "formula": "=N29",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "U30",
+      "type": "Erro em cache",
+      "formula": "=I30+H30+S30-R30",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "V30",
+      "type": "Erro em cache",
+      "formula": "=MAX(0,'KK01 Controlo'!$B$6-N30)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "I31",
+      "type": "Erro em cache",
+      "formula": "=Q30",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "J31",
+      "type": "Erro em cache",
+      "formula": "=SUM(OFFSET(C31,1,0,MIN('KK01 Controlo'!$B$10,30-A31),1))+SUM(OFFSET(D31,1,0,MIN('KK01 Controlo'!$B$10,30-A31),1))",
+      "cached": "OFFSET is not implemented. reference=3300528, rows=1, cols=0, height=3, width=1"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "K31",
+      "type": "Erro em cache",
+      "formula": "=MIN(MAX(0,'KK01 Controlo'!$B$6-T31),MAX(0,J31-U31))",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "L31",
+      "type": "Erro em cache",
+      "formula": "=U31+K31",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "M31",
+      "type": "Erro em cache",
+      "formula": "=MAX(0,-L31)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "N31",
+      "type": "Erro em cache",
+      "formula": "=T31+K31-P31",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "O31",
+      "type": "Erro em cache",
+      "formula": "=T31*'KK01 Controlo'!$B$9/12",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "P31",
+      "type": "Erro em cache",
+      "formula": "=MIN(T31+K31,MAX(0,L31-J31)*'KK01 Controlo'!$B$12)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "Q31",
+      "type": "Erro em cache",
+      "formula": "=L31-P31",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "R31",
+      "type": "Erro em cache",
+      "formula": "=C31+D31+O31",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "T31",
+      "type": "Erro em cache",
+      "formula": "=N30",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "U31",
+      "type": "Erro em cache",
+      "formula": "=I31+H31+S31-R31",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "V31",
+      "type": "Erro em cache",
+      "formula": "=MAX(0,'KK01 Controlo'!$B$6-N31)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "I32",
+      "type": "Erro em cache",
+      "formula": "=Q31",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "J32",
+      "type": "Erro em cache",
+      "formula": "=SUM(OFFSET(C32,1,0,MIN('KK01 Controlo'!$B$10,30-A32),1))+SUM(OFFSET(D32,1,0,MIN('KK01 Controlo'!$B$10,30-A32),1))",
+      "cached": "OFFSET is not implemented. reference=1174924.8, rows=1, cols=0, height=2, width=1"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "K32",
+      "type": "Erro em cache",
+      "formula": "=MIN(MAX(0,'KK01 Controlo'!$B$6-T32),MAX(0,J32-U32))",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "L32",
+      "type": "Erro em cache",
+      "formula": "=U32+K32",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "M32",
+      "type": "Erro em cache",
+      "formula": "=MAX(0,-L32)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "N32",
+      "type": "Erro em cache",
+      "formula": "=T32+K32-P32",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "O32",
+      "type": "Erro em cache",
+      "formula": "=T32*'KK01 Controlo'!$B$9/12",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "P32",
+      "type": "Erro em cache",
+      "formula": "=MIN(T32+K32,MAX(0,L32-J32)*'KK01 Controlo'!$B$12)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "Q32",
+      "type": "Erro em cache",
+      "formula": "=L32-P32",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "R32",
+      "type": "Erro em cache",
+      "formula": "=C32+D32+O32",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "T32",
+      "type": "Erro em cache",
+      "formula": "=N31",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "U32",
+      "type": "Erro em cache",
+      "formula": "=I32+H32+S32-R32",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "V32",
+      "type": "Erro em cache",
+      "formula": "=MAX(0,'KK01 Controlo'!$B$6-N32)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "I33",
+      "type": "Erro em cache",
+      "formula": "=Q32",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "J33",
+      "type": "Erro em cache",
+      "formula": "=SUM(OFFSET(C33,1,0,MIN('KK01 Controlo'!$B$10,30-A33),1))+SUM(OFFSET(D33,1,0,MIN('KK01 Controlo'!$B$10,30-A33),1))",
+      "cached": "OFFSET is not implemented. reference=758016, rows=1, cols=0, height=1, width=1"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "K33",
+      "type": "Erro em cache",
+      "formula": "=MIN(MAX(0,'KK01 Controlo'!$B$6-T33),MAX(0,J33-U33))",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "L33",
+      "type": "Erro em cache",
+      "formula": "=U33+K33",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "M33",
+      "type": "Erro em cache",
+      "formula": "=MAX(0,-L33)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "N33",
+      "type": "Erro em cache",
+      "formula": "=T33+K33-P33",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "O33",
+      "type": "Erro em cache",
+      "formula": "=T33*'KK01 Controlo'!$B$9/12",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "P33",
+      "type": "Erro em cache",
+      "formula": "=MIN(T33+K33,MAX(0,L33-J33)*'KK01 Controlo'!$B$12)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "Q33",
+      "type": "Erro em cache",
+      "formula": "=L33-P33",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "R33",
+      "type": "Erro em cache",
+      "formula": "=C33+D33+O33",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "T33",
+      "type": "Erro em cache",
+      "formula": "=N32",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "U33",
+      "type": "Erro em cache",
+      "formula": "=I33+H33+S33-R33",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "V33",
+      "type": "Erro em cache",
+      "formula": "=MAX(0,'KK01 Controlo'!$B$6-N33)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "I34",
+      "type": "Erro em cache",
+      "formula": "=Q33",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "J34",
+      "type": "Erro em cache",
+      "formula": "=SUM(OFFSET(C34,1,0,MIN('KK01 Controlo'!$B$10,30-A34),1))+SUM(OFFSET(D34,1,0,MIN('KK01 Controlo'!$B$10,30-A34),1))",
+      "cached": "OFFSET is not implemented. reference=63168, rows=1, cols=0, height=0, width=1"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "K34",
+      "type": "Erro em cache",
+      "formula": "=MIN(MAX(0,'KK01 Controlo'!$B$6-T34),MAX(0,J34-U34))",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "L34",
+      "type": "Erro em cache",
+      "formula": "=U34+K34",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "M34",
+      "type": "Erro em cache",
+      "formula": "=MAX(0,-L34)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "N34",
+      "type": "Erro em cache",
+      "formula": "=T34+K34-P34",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "O34",
+      "type": "Erro em cache",
+      "formula": "=T34*'KK01 Controlo'!$B$9/12",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "P34",
+      "type": "Erro em cache",
+      "formula": "=MIN(T34+K34,MAX(0,L34-J34)*'KK01 Controlo'!$B$12)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "Q34",
+      "type": "Erro em cache",
+      "formula": "=L34-P34",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "R34",
+      "type": "Erro em cache",
+      "formula": "=C34+D34+O34",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "T34",
+      "type": "Erro em cache",
+      "formula": "=N33",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "U34",
+      "type": "Erro em cache",
+      "formula": "=I34+H34+S34-R34",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "V34",
+      "type": "Erro em cache",
+      "formula": "=MAX(0,'KK01 Controlo'!$B$6-N34)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "K36",
+      "type": "Erro em cache",
+      "formula": "=SUM(K5:K34)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "N36",
+      "type": "Erro em cache",
+      "formula": "=N34",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "O36",
+      "type": "Erro em cache",
+      "formula": "=SUM(O5:O34)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "P36",
+      "type": "Erro em cache",
+      "formula": "=SUM(P5:P34)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "Q36",
+      "type": "Erro em cache",
+      "formula": "=Q34",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "R36",
+      "type": "Erro em cache",
+      "formula": "=SUM(R5:R34)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 Caixa Mensal",
+      "cell": "V36",
+      "type": "Erro em cache",
+      "formula": "=V34",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 CashFlow Trimestral",
+      "cell": "B6",
+      "type": "Erro em cache",
+      "formula": "=SUM('KK01 Caixa Mensal'!O5:O7)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 CashFlow Trimestral",
+      "cell": "C6",
+      "type": "Erro em cache",
+      "formula": "=SUM('KK01 Caixa Mensal'!O8:O10)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 CashFlow Trimestral",
+      "cell": "D6",
+      "type": "Erro em cache",
+      "formula": "=SUM('KK01 Caixa Mensal'!O11:O13)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 CashFlow Trimestral",
+      "cell": "E6",
+      "type": "Erro em cache",
+      "formula": "=SUM('KK01 Caixa Mensal'!O14:O16)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 CashFlow Trimestral",
+      "cell": "F6",
+      "type": "Erro em cache",
+      "formula": "=SUM('KK01 Caixa Mensal'!O17:O19)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 CashFlow Trimestral",
+      "cell": "G6",
+      "type": "Erro em cache",
+      "formula": "=SUM('KK01 Caixa Mensal'!O20:O22)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 CashFlow Trimestral",
+      "cell": "H6",
+      "type": "Erro em cache",
+      "formula": "=SUM('KK01 Caixa Mensal'!O23:O25)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 CashFlow Trimestral",
+      "cell": "I6",
+      "type": "Erro em cache",
+      "formula": "=SUM('KK01 Caixa Mensal'!O26:O28)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 CashFlow Trimestral",
+      "cell": "J6",
+      "type": "Erro em cache",
+      "formula": "=SUM('KK01 Caixa Mensal'!O29:O31)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 CashFlow Trimestral",
+      "cell": "K6",
+      "type": "Erro em cache",
+      "formula": "=SUM('KK01 Caixa Mensal'!O32:O34)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 CashFlow Trimestral",
+      "cell": "L6",
+      "type": "Erro em cache",
+      "formula": "=SUM(B6:K6)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 CashFlow Trimestral",
+      "cell": "B7",
+      "type": "Erro em cache",
+      "formula": "=SUM(B4:B6)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 CashFlow Trimestral",
+      "cell": "C7",
+      "type": "Erro em cache",
+      "formula": "=SUM(C4:C6)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 CashFlow Trimestral",
+      "cell": "D7",
+      "type": "Erro em cache",
+      "formula": "=SUM(D4:D6)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 CashFlow Trimestral",
+      "cell": "E7",
+      "type": "Erro em cache",
+      "formula": "=SUM(E4:E6)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 CashFlow Trimestral",
+      "cell": "F7",
+      "type": "Erro em cache",
+      "formula": "=SUM(F4:F6)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 CashFlow Trimestral",
+      "cell": "G7",
+      "type": "Erro em cache",
+      "formula": "=SUM(G4:G6)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 CashFlow Trimestral",
+      "cell": "H7",
+      "type": "Erro em cache",
+      "formula": "=SUM(H4:H6)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 CashFlow Trimestral",
+      "cell": "I7",
+      "type": "Erro em cache",
+      "formula": "=SUM(I4:I6)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 CashFlow Trimestral",
+      "cell": "J7",
+      "type": "Erro em cache",
+      "formula": "=SUM(J4:J6)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 CashFlow Trimestral",
+      "cell": "K7",
+      "type": "Erro em cache",
+      "formula": "=SUM(K4:K6)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 CashFlow Trimestral",
+      "cell": "L7",
+      "type": "Erro em cache",
+      "formula": "=SUM(B7:K7)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 CashFlow Trimestral",
+      "cell": "B13",
+      "type": "Erro em cache",
+      "formula": "=SUM('KK01 Caixa Mensal'!K5:K7)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 CashFlow Trimestral",
+      "cell": "C13",
+      "type": "Erro em cache",
+      "formula": "=SUM('KK01 Caixa Mensal'!K8:K10)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 CashFlow Trimestral",
+      "cell": "D13",
+      "type": "Erro em cache",
+      "formula": "=SUM('KK01 Caixa Mensal'!K11:K13)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 CashFlow Trimestral",
+      "cell": "E13",
+      "type": "Erro em cache",
+      "formula": "=SUM('KK01 Caixa Mensal'!K14:K16)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 CashFlow Trimestral",
+      "cell": "F13",
+      "type": "Erro em cache",
+      "formula": "=SUM('KK01 Caixa Mensal'!K17:K19)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 CashFlow Trimestral",
+      "cell": "G13",
+      "type": "Erro em cache",
+      "formula": "=SUM('KK01 Caixa Mensal'!K20:K22)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 CashFlow Trimestral",
+      "cell": "H13",
+      "type": "Erro em cache",
+      "formula": "=SUM('KK01 Caixa Mensal'!K23:K25)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 CashFlow Trimestral",
+      "cell": "I13",
+      "type": "Erro em cache",
+      "formula": "=SUM('KK01 Caixa Mensal'!K26:K28)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 CashFlow Trimestral",
+      "cell": "J13",
+      "type": "Erro em cache",
+      "formula": "=SUM('KK01 Caixa Mensal'!K29:K31)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 CashFlow Trimestral",
+      "cell": "K13",
+      "type": "Erro em cache",
+      "formula": "=SUM('KK01 Caixa Mensal'!K32:K34)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 CashFlow Trimestral",
+      "cell": "L13",
+      "type": "Erro em cache",
+      "formula": "=SUM(B13:K13)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 CashFlow Trimestral",
+      "cell": "B14",
+      "type": "Erro em cache",
+      "formula": "=SUM(B11:B13)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 CashFlow Trimestral",
+      "cell": "C14",
+      "type": "Erro em cache",
+      "formula": "=SUM(C11:C13)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 CashFlow Trimestral",
+      "cell": "D14",
+      "type": "Erro em cache",
+      "formula": "=SUM(D11:D13)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 CashFlow Trimestral",
+      "cell": "E14",
+      "type": "Erro em cache",
+      "formula": "=SUM(E11:E13)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 CashFlow Trimestral",
+      "cell": "F14",
+      "type": "Erro em cache",
+      "formula": "=SUM(F11:F13)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 CashFlow Trimestral",
+      "cell": "G14",
+      "type": "Erro em cache",
+      "formula": "=SUM(G11:G13)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 CashFlow Trimestral",
+      "cell": "H14",
+      "type": "Erro em cache",
+      "formula": "=SUM(H11:H13)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 CashFlow Trimestral",
+      "cell": "I14",
+      "type": "Erro em cache",
+      "formula": "=SUM(I11:I13)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 CashFlow Trimestral",
+      "cell": "J14",
+      "type": "Erro em cache",
+      "formula": "=SUM(J11:J13)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 CashFlow Trimestral",
+      "cell": "K14",
+      "type": "Erro em cache",
+      "formula": "=SUM(K11:K13)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 CashFlow Trimestral",
+      "cell": "L14",
+      "type": "Erro em cache",
+      "formula": "=SUM(B14:K14)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 CashFlow Trimestral",
+      "cell": "B15",
+      "type": "Erro em cache",
+      "formula": "=SUM('KK01 Caixa Mensal'!P5:P7)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 CashFlow Trimestral",
+      "cell": "C15",
+      "type": "Erro em cache",
+      "formula": "=SUM('KK01 Caixa Mensal'!P8:P10)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 CashFlow Trimestral",
+      "cell": "D15",
+      "type": "Erro em cache",
+      "formula": "=SUM('KK01 Caixa Mensal'!P11:P13)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 CashFlow Trimestral",
+      "cell": "E15",
+      "type": "Erro em cache",
+      "formula": "=SUM('KK01 Caixa Mensal'!P14:P16)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 CashFlow Trimestral",
+      "cell": "F15",
+      "type": "Erro em cache",
+      "formula": "=SUM('KK01 Caixa Mensal'!P17:P19)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 CashFlow Trimestral",
+      "cell": "G15",
+      "type": "Erro em cache",
+      "formula": "=SUM('KK01 Caixa Mensal'!P20:P22)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 CashFlow Trimestral",
+      "cell": "H15",
+      "type": "Erro em cache",
+      "formula": "=SUM('KK01 Caixa Mensal'!P23:P25)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 CashFlow Trimestral",
+      "cell": "I15",
+      "type": "Erro em cache",
+      "formula": "=SUM('KK01 Caixa Mensal'!P26:P28)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 CashFlow Trimestral",
+      "cell": "J15",
+      "type": "Erro em cache",
+      "formula": "=SUM('KK01 Caixa Mensal'!P29:P31)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 CashFlow Trimestral",
+      "cell": "K15",
+      "type": "Erro em cache",
+      "formula": "=SUM('KK01 Caixa Mensal'!P32:P34)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 CashFlow Trimestral",
+      "cell": "L15",
+      "type": "Erro em cache",
+      "formula": "=SUM(B15:K15)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 CashFlow Trimestral",
+      "cell": "B16",
+      "type": "Erro em cache",
+      "formula": "=B14-B7-B15",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 CashFlow Trimestral",
+      "cell": "C16",
+      "type": "Erro em cache",
+      "formula": "=C14-C7-C15",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 CashFlow Trimestral",
+      "cell": "D16",
+      "type": "Erro em cache",
+      "formula": "=D14-D7-D15",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 CashFlow Trimestral",
+      "cell": "E16",
+      "type": "Erro em cache",
+      "formula": "=E14-E7-E15",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 CashFlow Trimestral",
+      "cell": "F16",
+      "type": "Erro em cache",
+      "formula": "=F14-F7-F15",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 CashFlow Trimestral",
+      "cell": "G16",
+      "type": "Erro em cache",
+      "formula": "=G14-G7-G15",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 CashFlow Trimestral",
+      "cell": "H16",
+      "type": "Erro em cache",
+      "formula": "=H14-H7-H15",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 CashFlow Trimestral",
+      "cell": "I16",
+      "type": "Erro em cache",
+      "formula": "=I14-I7-I15",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 CashFlow Trimestral",
+      "cell": "J16",
+      "type": "Erro em cache",
+      "formula": "=J14-J7-J15",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 CashFlow Trimestral",
+      "cell": "K16",
+      "type": "Erro em cache",
+      "formula": "=K14-K7-K15",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 CashFlow Trimestral",
+      "cell": "L16",
+      "type": "Erro em cache",
+      "formula": "=SUM(B16:K16)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 CashFlow Trimestral",
+      "cell": "B17",
+      "type": "Erro em cache",
+      "formula": "='KK01 Caixa Mensal'!Q7",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 CashFlow Trimestral",
+      "cell": "C17",
+      "type": "Erro em cache",
+      "formula": "='KK01 Caixa Mensal'!Q10",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 CashFlow Trimestral",
+      "cell": "D17",
+      "type": "Erro em cache",
+      "formula": "='KK01 Caixa Mensal'!Q13",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 CashFlow Trimestral",
+      "cell": "E17",
+      "type": "Erro em cache",
+      "formula": "='KK01 Caixa Mensal'!Q16",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 CashFlow Trimestral",
+      "cell": "F17",
+      "type": "Erro em cache",
+      "formula": "='KK01 Caixa Mensal'!Q19",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 CashFlow Trimestral",
+      "cell": "G17",
+      "type": "Erro em cache",
+      "formula": "='KK01 Caixa Mensal'!Q22",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 CashFlow Trimestral",
+      "cell": "H17",
+      "type": "Erro em cache",
+      "formula": "='KK01 Caixa Mensal'!Q25",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 CashFlow Trimestral",
+      "cell": "I17",
+      "type": "Erro em cache",
+      "formula": "='KK01 Caixa Mensal'!Q28",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 CashFlow Trimestral",
+      "cell": "J17",
+      "type": "Erro em cache",
+      "formula": "='KK01 Caixa Mensal'!Q31",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 CashFlow Trimestral",
+      "cell": "K17",
+      "type": "Erro em cache",
+      "formula": "='KK01 Caixa Mensal'!Q34",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 CashFlow Trimestral",
+      "cell": "L17",
+      "type": "Erro em cache",
+      "formula": "=K17",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 CashFlow Trimestral",
+      "cell": "B18",
+      "type": "Erro em cache",
+      "formula": "='KK01 Caixa Mensal'!N7",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 CashFlow Trimestral",
+      "cell": "C18",
+      "type": "Erro em cache",
+      "formula": "='KK01 Caixa Mensal'!N10",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 CashFlow Trimestral",
+      "cell": "D18",
+      "type": "Erro em cache",
+      "formula": "='KK01 Caixa Mensal'!N13",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 CashFlow Trimestral",
+      "cell": "E18",
+      "type": "Erro em cache",
+      "formula": "='KK01 Caixa Mensal'!N16",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 CashFlow Trimestral",
+      "cell": "F18",
+      "type": "Erro em cache",
+      "formula": "='KK01 Caixa Mensal'!N19",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 CashFlow Trimestral",
+      "cell": "G18",
+      "type": "Erro em cache",
+      "formula": "='KK01 Caixa Mensal'!N22",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 CashFlow Trimestral",
+      "cell": "H18",
+      "type": "Erro em cache",
+      "formula": "='KK01 Caixa Mensal'!N25",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 CashFlow Trimestral",
+      "cell": "I18",
+      "type": "Erro em cache",
+      "formula": "='KK01 Caixa Mensal'!N28",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 CashFlow Trimestral",
+      "cell": "J18",
+      "type": "Erro em cache",
+      "formula": "='KK01 Caixa Mensal'!N31",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 CashFlow Trimestral",
+      "cell": "K18",
+      "type": "Erro em cache",
+      "formula": "='KK01 Caixa Mensal'!N34",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 CashFlow Trimestral",
+      "cell": "L18",
+      "type": "Erro em cache",
+      "formula": "=K18",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 CashFlow Trimestral",
+      "cell": "B19",
+      "type": "Erro em cache",
+      "formula": "=MAX('KK01 Caixa Mensal'!M5:M7)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 CashFlow Trimestral",
+      "cell": "C19",
+      "type": "Erro em cache",
+      "formula": "=MAX('KK01 Caixa Mensal'!M8:M10)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 CashFlow Trimestral",
+      "cell": "D19",
+      "type": "Erro em cache",
+      "formula": "=MAX('KK01 Caixa Mensal'!M11:M13)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 CashFlow Trimestral",
+      "cell": "E19",
+      "type": "Erro em cache",
+      "formula": "=MAX('KK01 Caixa Mensal'!M14:M16)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 CashFlow Trimestral",
+      "cell": "F19",
+      "type": "Erro em cache",
+      "formula": "=MAX('KK01 Caixa Mensal'!M17:M19)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 CashFlow Trimestral",
+      "cell": "G19",
+      "type": "Erro em cache",
+      "formula": "=MAX('KK01 Caixa Mensal'!M20:M22)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 CashFlow Trimestral",
+      "cell": "H19",
+      "type": "Erro em cache",
+      "formula": "=MAX('KK01 Caixa Mensal'!M23:M25)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 CashFlow Trimestral",
+      "cell": "I19",
+      "type": "Erro em cache",
+      "formula": "=MAX('KK01 Caixa Mensal'!M26:M28)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 CashFlow Trimestral",
+      "cell": "J19",
+      "type": "Erro em cache",
+      "formula": "=MAX('KK01 Caixa Mensal'!M29:M31)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 CashFlow Trimestral",
+      "cell": "K19",
+      "type": "Erro em cache",
+      "formula": "=MAX('KK01 Caixa Mensal'!M32:M34)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "KK01 CashFlow Trimestral",
+      "cell": "L19",
+      "type": "Erro em cache",
+      "formula": "=SUM(B19:K19)",
+      "cached": "#VALUE!"
+    },
+    {
+      "sheet": "V25 Negociacao Fees ACCOR",
+      "cell": "B31",
+      "type": "Erro em cache",
+      "formula": "=IFERROR(($B$8*$A31+$B$8*$B$6+MAX(0,$B$9-$B$8*$A31-$B$8*$B$6)*$K$5)/MAX(0,$B$9-($B$8*$A31+$B$8*$B$6+MAX(0,$B$9-$B$8*$A31-$B$8*$B$6)*$K$5)-$B$10-$B$11-MAX(0,($B$9-($B$8*$A31+$B$8*$B$6+MAX(0,$B$9-$B$8*$A31-$B$8*$B$6)*$K$5))-$B$10-$B$11)*$B$12)),0)",
+      "cached": "#NAME?"
+    },
+    {
+      "sheet": "V25 Negociacao Fees ACCOR",
+      "cell": "B31",
+      "type": "Parser",
+      "formula": "=IFERROR(($B$8*$A31+$B$8*$B$6+MAX(0,$B$9-$B$8*$A31-$B$8*$B$6)*$K$5)/MAX(0,$B$9-($B$8*$A31+$B$8*$B$6+MAX(0,$B$9-$B$8*$A31-$B$8*$B$6)*$K$5)-$B$10-$B$11-MAX(0,($B$9-($B$8*$A31+$B$8*$B$6+MAX(0,$B$9-$B$8*$A31-$B$8*$B$6)*$K$5))-$B$10-$B$11)*$B$12)),0)",
+      "cached": "pop from empty list"
+    },
+    {
+      "sheet": "V25 Negociacao Fees ACCOR",
+      "cell": "C31",
+      "type": "Erro em cache",
+      "formula": "=IFERROR(($B$8*$A31+$B$8*$B$6+MAX(0,$B$9-$B$8*$A31-$B$8*$B$6)*$K$6)/MAX(0,$B$9-($B$8*$A31+$B$8*$B$6+MAX(0,$B$9-$B$8*$A31-$B$8*$B$6)*$K$6)-$B$10-$B$11-MAX(0,($B$9-($B$8*$A31+$B$8*$B$6+MAX(0,$B$9-$B$8*$A31-$B$8*$B$6)*$K$6))-$B$10-$B$11)*$B$12)),0)",
+      "cached": "#NAME?"
+    },
+    {
+      "sheet": "V25 Negociacao Fees ACCOR",
+      "cell": "C31",
+      "type": "Parser",
+      "formula": "=IFERROR(($B$8*$A31+$B$8*$B$6+MAX(0,$B$9-$B$8*$A31-$B$8*$B$6)*$K$6)/MAX(0,$B$9-($B$8*$A31+$B$8*$B$6+MAX(0,$B$9-$B$8*$A31-$B$8*$B$6)*$K$6)-$B$10-$B$11-MAX(0,($B$9-($B$8*$A31+$B$8*$B$6+MAX(0,$B$9-$B$8*$A31-$B$8*$B$6)*$K$6))-$B$10-$B$11)*$B$12)),0)",
+      "cached": "pop from empty list"
+    },
+    {
+      "sheet": "V25 Negociacao Fees ACCOR",
+      "cell": "D31",
+      "type": "Erro em cache",
+      "formula": "=IFERROR(($B$8*$A31+$B$8*$B$6+MAX(0,$B$9-$B$8*$A31-$B$8*$B$6)*$K$7)/MAX(0,$B$9-($B$8*$A31+$B$8*$B$6+MAX(0,$B$9-$B$8*$A31-$B$8*$B$6)*$K$7)-$B$10-$B$11-MAX(0,($B$9-($B$8*$A31+$B$8*$B$6+MAX(0,$B$9-$B$8*$A31-$B$8*$B$6)*$K$7))-$B$10-$B$11)*$B$12)),0)",
+      "cached": "#NAME?"
+    },
+    {
+      "sheet": "V25 Negociacao Fees ACCOR",
+      "cell": "D31",
+      "type": "Parser",
+      "formula": "=IFERROR(($B$8*$A31+$B$8*$B$6+MAX(0,$B$9-$B$8*$A31-$B$8*$B$6)*$K$7)/MAX(0,$B$9-($B$8*$A31+$B$8*$B$6+MAX(0,$B$9-$B$8*$A31-$B$8*$B$6)*$K$7)-$B$10-$B$11-MAX(0,($B$9-($B$8*$A31+$B$8*$B$6+MAX(0,$B$9-$B$8*$A31-$B$8*$B$6)*$K$7))-$B$10-$B$11)*$B$12)),0)",
+      "cached": "pop from empty list"
+    },
+    {
+      "sheet": "V25 Negociacao Fees ACCOR",
+      "cell": "B32",
+      "type": "Erro em cache",
+      "formula": "=IFERROR(($B$8*$A32+$B$8*$B$6+MAX(0,$B$9-$B$8*$A32-$B$8*$B$6)*$K$5)/MAX(0,$B$9-($B$8*$A32+$B$8*$B$6+MAX(0,$B$9-$B$8*$A32-$B$8*$B$6)*$K$5)-$B$10-$B$11-MAX(0,($B$9-($B$8*$A32+$B$8*$B$6+MAX(0,$B$9-$B$8*$A32-$B$8*$B$6)*$K$5))-$B$10-$B$11)*$B$12)),0)",
+      "cached": "#NAME?"
+    },
+    {
+      "sheet": "V25 Negociacao Fees ACCOR",
+      "cell": "B32",
+      "type": "Parser",
+      "formula": "=IFERROR(($B$8*$A32+$B$8*$B$6+MAX(0,$B$9-$B$8*$A32-$B$8*$B$6)*$K$5)/MAX(0,$B$9-($B$8*$A32+$B$8*$B$6+MAX(0,$B$9-$B$8*$A32-$B$8*$B$6)*$K$5)-$B$10-$B$11-MAX(0,($B$9-($B$8*$A32+$B$8*$B$6+MAX(0,$B$9-$B$8*$A32-$B$8*$B$6)*$K$5))-$B$10-$B$11)*$B$12)),0)",
+      "cached": "pop from empty list"
+    },
+    {
+      "sheet": "V25 Negociacao Fees ACCOR",
+      "cell": "C32",
+      "type": "Erro em cache",
+      "formula": "=IFERROR(($B$8*$A32+$B$8*$B$6+MAX(0,$B$9-$B$8*$A32-$B$8*$B$6)*$K$6)/MAX(0,$B$9-($B$8*$A32+$B$8*$B$6+MAX(0,$B$9-$B$8*$A32-$B$8*$B$6)*$K$6)-$B$10-$B$11-MAX(0,($B$9-($B$8*$A32+$B$8*$B$6+MAX(0,$B$9-$B$8*$A32-$B$8*$B$6)*$K$6))-$B$10-$B$11)*$B$12)),0)",
+      "cached": "#NAME?"
+    },
+    {
+      "sheet": "V25 Negociacao Fees ACCOR",
+      "cell": "C32",
+      "type": "Parser",
+      "formula": "=IFERROR(($B$8*$A32+$B$8*$B$6+MAX(0,$B$9-$B$8*$A32-$B$8*$B$6)*$K$6)/MAX(0,$B$9-($B$8*$A32+$B$8*$B$6+MAX(0,$B$9-$B$8*$A32-$B$8*$B$6)*$K$6)-$B$10-$B$11-MAX(0,($B$9-($B$8*$A32+$B$8*$B$6+MAX(0,$B$9-$B$8*$A32-$B$8*$B$6)*$K$6))-$B$10-$B$11)*$B$12)),0)",
+      "cached": "pop from empty list"
+    },
+    {
+      "sheet": "V25 Negociacao Fees ACCOR",
+      "cell": "D32",
+      "type": "Erro em cache",
+      "formula": "=IFERROR(($B$8*$A32+$B$8*$B$6+MAX(0,$B$9-$B$8*$A32-$B$8*$B$6)*$K$7)/MAX(0,$B$9-($B$8*$A32+$B$8*$B$6+MAX(0,$B$9-$B$8*$A32-$B$8*$B$6)*$K$7)-$B$10-$B$11-MAX(0,($B$9-($B$8*$A32+$B$8*$B$6+MAX(0,$B$9-$B$8*$A32-$B$8*$B$6)*$K$7))-$B$10-$B$11)*$B$12)),0)",
+      "cached": "#NAME?"
+    },
+    {
+      "sheet": "V25 Negociacao Fees ACCOR",
+      "cell": "D32",
+      "type": "Parser",
+      "formula": "=IFERROR(($B$8*$A32+$B$8*$B$6+MAX(0,$B$9-$B$8*$A32-$B$8*$B$6)*$K$7)/MAX(0,$B$9-($B$8*$A32+$B$8*$B$6+MAX(0,$B$9-$B$8*$A32-$B$8*$B$6)*$K$7)-$B$10-$B$11-MAX(0,($B$9-($B$8*$A32+$B$8*$B$6+MAX(0,$B$9-$B$8*$A32-$B$8*$B$6)*$K$7))-$B$10-$B$11)*$B$12)),0)",
+      "cached": "pop from empty list"
+    },
+    {
+      "sheet": "V25 Negociacao Fees ACCOR",
+      "cell": "B33",
+      "type": "Erro em cache",
+      "formula": "=IFERROR(($B$8*$A33+$B$8*$B$6+MAX(0,$B$9-$B$8*$A33-$B$8*$B$6)*$K$5)/MAX(0,$B$9-($B$8*$A33+$B$8*$B$6+MAX(0,$B$9-$B$8*$A33-$B$8*$B$6)*$K$5)-$B$10-$B$11-MAX(0,($B$9-($B$8*$A33+$B$8*$B$6+MAX(0,$B$9-$B$8*$A33-$B$8*$B$6)*$K$5))-$B$10-$B$11)*$B$12)),0)",
+      "cached": "#NAME?"
+    },
+    {
+      "sheet": "V25 Negociacao Fees ACCOR",
+      "cell": "B33",
+      "type": "Parser",
+      "formula": "=IFERROR(($B$8*$A33+$B$8*$B$6+MAX(0,$B$9-$B$8*$A33-$B$8*$B$6)*$K$5)/MAX(0,$B$9-($B$8*$A33+$B$8*$B$6+MAX(0,$B$9-$B$8*$A33-$B$8*$B$6)*$K$5)-$B$10-$B$11-MAX(0,($B$9-($B$8*$A33+$B$8*$B$6+MAX(0,$B$9-$B$8*$A33-$B$8*$B$6)*$K$5))-$B$10-$B$11)*$B$12)),0)",
+      "cached": "pop from empty list"
+    },
+    {
+      "sheet": "V25 Negociacao Fees ACCOR",
+      "cell": "C33",
+      "type": "Erro em cache",
+      "formula": "=IFERROR(($B$8*$A33+$B$8*$B$6+MAX(0,$B$9-$B$8*$A33-$B$8*$B$6)*$K$6)/MAX(0,$B$9-($B$8*$A33+$B$8*$B$6+MAX(0,$B$9-$B$8*$A33-$B$8*$B$6)*$K$6)-$B$10-$B$11-MAX(0,($B$9-($B$8*$A33+$B$8*$B$6+MAX(0,$B$9-$B$8*$A33-$B$8*$B$6)*$K$6))-$B$10-$B$11)*$B$12)),0)",
+      "cached": "#NAME?"
+    },
+    {
+      "sheet": "V25 Negociacao Fees ACCOR",
+      "cell": "C33",
+      "type": "Parser",
+      "formula": "=IFERROR(($B$8*$A33+$B$8*$B$6+MAX(0,$B$9-$B$8*$A33-$B$8*$B$6)*$K$6)/MAX(0,$B$9-($B$8*$A33+$B$8*$B$6+MAX(0,$B$9-$B$8*$A33-$B$8*$B$6)*$K$6)-$B$10-$B$11-MAX(0,($B$9-($B$8*$A33+$B$8*$B$6+MAX(0,$B$9-$B$8*$A33-$B$8*$B$6)*$K$6))-$B$10-$B$11)*$B$12)),0)",
+      "cached": "pop from empty list"
+    },
+    {
+      "sheet": "V25 Negociacao Fees ACCOR",
+      "cell": "D33",
+      "type": "Erro em cache",
+      "formula": "=IFERROR(($B$8*$A33+$B$8*$B$6+MAX(0,$B$9-$B$8*$A33-$B$8*$B$6)*$K$7)/MAX(0,$B$9-($B$8*$A33+$B$8*$B$6+MAX(0,$B$9-$B$8*$A33-$B$8*$B$6)*$K$7)-$B$10-$B$11-MAX(0,($B$9-($B$8*$A33+$B$8*$B$6+MAX(0,$B$9-$B$8*$A33-$B$8*$B$6)*$K$7))-$B$10-$B$11)*$B$12)),0)",
+      "cached": "#NAME?"
+    },
+    {
+      "sheet": "V25 Negociacao Fees ACCOR",
+      "cell": "D33",
+      "type": "Parser",
+      "formula": "=IFERROR(($B$8*$A33+$B$8*$B$6+MAX(0,$B$9-$B$8*$A33-$B$8*$B$6)*$K$7)/MAX(0,$B$9-($B$8*$A33+$B$8*$B$6+MAX(0,$B$9-$B$8*$A33-$B$8*$B$6)*$K$7)-$B$10-$B$11-MAX(0,($B$9-($B$8*$A33+$B$8*$B$6+MAX(0,$B$9-$B$8*$A33-$B$8*$B$6)*$K$7))-$B$10-$B$11)*$B$12)),0)",
+      "cached": "pop from empty list"
+    },
+    {
+      "sheet": "V25 Negociacao Fees ACCOR",
+      "cell": "B34",
+      "type": "Erro em cache",
+      "formula": "=IFERROR(($B$8*$A34+$B$8*$B$6+MAX(0,$B$9-$B$8*$A34-$B$8*$B$6)*$K$5)/MAX(0,$B$9-($B$8*$A34+$B$8*$B$6+MAX(0,$B$9-$B$8*$A34-$B$8*$B$6)*$K$5)-$B$10-$B$11-MAX(0,($B$9-($B$8*$A34+$B$8*$B$6+MAX(0,$B$9-$B$8*$A34-$B$8*$B$6)*$K$5))-$B$10-$B$11)*$B$12)),0)",
+      "cached": "#NAME?"
+    },
+    {
+      "sheet": "V25 Negociacao Fees ACCOR",
+      "cell": "B34",
+      "type": "Parser",
+      "formula": "=IFERROR(($B$8*$A34+$B$8*$B$6+MAX(0,$B$9-$B$8*$A34-$B$8*$B$6)*$K$5)/MAX(0,$B$9-($B$8*$A34+$B$8*$B$6+MAX(0,$B$9-$B$8*$A34-$B$8*$B$6)*$K$5)-$B$10-$B$11-MAX(0,($B$9-($B$8*$A34+$B$8*$B$6+MAX(0,$B$9-$B$8*$A34-$B$8*$B$6)*$K$5))-$B$10-$B$11)*$B$12)),0)",
+      "cached": "pop from empty list"
+    },
+    {
+      "sheet": "V25 Negociacao Fees ACCOR",
+      "cell": "C34",
+      "type": "Erro em cache",
+      "formula": "=IFERROR(($B$8*$A34+$B$8*$B$6+MAX(0,$B$9-$B$8*$A34-$B$8*$B$6)*$K$6)/MAX(0,$B$9-($B$8*$A34+$B$8*$B$6+MAX(0,$B$9-$B$8*$A34-$B$8*$B$6)*$K$6)-$B$10-$B$11-MAX(0,($B$9-($B$8*$A34+$B$8*$B$6+MAX(0,$B$9-$B$8*$A34-$B$8*$B$6)*$K$6))-$B$10-$B$11)*$B$12)),0)",
+      "cached": "#NAME?"
+    },
+    {
+      "sheet": "V25 Negociacao Fees ACCOR",
+      "cell": "C34",
+      "type": "Parser",
+      "formula": "=IFERROR(($B$8*$A34+$B$8*$B$6+MAX(0,$B$9-$B$8*$A34-$B$8*$B$6)*$K$6)/MAX(0,$B$9-($B$8*$A34+$B$8*$B$6+MAX(0,$B$9-$B$8*$A34-$B$8*$B$6)*$K$6)-$B$10-$B$11-MAX(0,($B$9-($B$8*$A34+$B$8*$B$6+MAX(0,$B$9-$B$8*$A34-$B$8*$B$6)*$K$6))-$B$10-$B$11)*$B$12)),0)",
+      "cached": "pop from empty list"
+    },
+    {
+      "sheet": "V25 Negociacao Fees ACCOR",
+      "cell": "D34",
+      "type": "Erro em cache",
+      "formula": "=IFERROR(($B$8*$A34+$B$8*$B$6+MAX(0,$B$9-$B$8*$A34-$B$8*$B$6)*$K$7)/MAX(0,$B$9-($B$8*$A34+$B$8*$B$6+MAX(0,$B$9-$B$8*$A34-$B$8*$B$6)*$K$7)-$B$10-$B$11-MAX(0,($B$9-($B$8*$A34+$B$8*$B$6+MAX(0,$B$9-$B$8*$A34-$B$8*$B$6)*$K$7))-$B$10-$B$11)*$B$12)),0)",
+      "cached": "#NAME?"
+    },
+    {
+      "sheet": "V25 Negociacao Fees ACCOR",
+      "cell": "D34",
+      "type": "Parser",
+      "formula": "=IFERROR(($B$8*$A34+$B$8*$B$6+MAX(0,$B$9-$B$8*$A34-$B$8*$B$6)*$K$7)/MAX(0,$B$9-($B$8*$A34+$B$8*$B$6+MAX(0,$B$9-$B$8*$A34-$B$8*$B$6)*$K$7)-$B$10-$B$11-MAX(0,($B$9-($B$8*$A34+$B$8*$B$6+MAX(0,$B$9-$B$8*$A34-$B$8*$B$6)*$K$7))-$B$10-$B$11)*$B$12)),0)",
+      "cached": "pop from empty list"
+    },
+    {
+      "sheet": "DASH Viabilidade Final",
+      "cell": "B31",
+      "type": "Erro em cache",
+      "formula": "=NA()",
+      "cached": "#N/A"
+    },
+    {
+      "sheet": "AUDIT Final Modelo",
+      "cell": "D4",
+      "type": "Fórmula malformada",
+      "formula": "=IF(=ABS(B4)<0.01,\"OK\",\"ALERTA\")",
+      "cached": "OK"
+    },
+    {
+      "sheet": "AUDIT Final Modelo",
+      "cell": "D5",
+      "type": "Fórmula malformada",
+      "formula": "=IF(=ABS(B5)<0.01,\"OK\",\"ALERTA\")",
+      "cached": "OK"
+    },
+    {
+      "sheet": "AUDIT Final Modelo",
+      "cell": "D6",
+      "type": "Fórmula malformada",
+      "formula": "=IF(=B6>=0,\"OK\",\"ALERTA\")",
+      "cached": "OK"
+    },
+    {
+      "sheet": "AUDIT Final Modelo",
+      "cell": "D7",
+      "type": "Fórmula malformada",
+      "formula": "=IF(=B7<0.01,\"OK\",\"ALERTA\")",
+      "cached": "OK"
+    },
+    {
+      "sheet": "AUDIT Final Modelo",
+      "cell": "D8",
+      "type": "Fórmula malformada",
+      "formula": "=IF(=AND(B8>=0,B8<0.5),\"OK\",\"ALERTA\")",
+      "cached": "OK"
+    }
+  ],
+  "cycles": [],
+  "formula_count": 25294,
+  "formula_edges": 260065,
+  "vgv_source": 50656336.36905625,
+  "vgv_cents": 50656336.37,
+  "external_links": 0
+}
