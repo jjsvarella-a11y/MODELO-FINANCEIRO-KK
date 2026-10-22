@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "validator": "DocumentFormat.OpenXml 3.3.0 OpenXmlValidator",
+  "target": "Microsoft365",
+  "file": "KK01_Executive_Financial_Control_Center_CHECKPOINT_R3.xlsx",
+  "sha256": "ded3bd8871375a04a41cbe6e5f95e3918a617ab9adef05bba31c162b9b7c5e0b",
+  "error_count": 0,
+  "errors": [],
+  "before_R2_error_count": 20,
+  "before_R2_part": "/xl/styles.xml",
+  "native_excel365_R2": "FAIL — user screenshot confirms repair prompt",
+  "native_excel365_R3": "NOT TESTED",
+  "scope": "Package schema and SDK semantic constraints; does not execute Excel or replace native acceptance."
+}

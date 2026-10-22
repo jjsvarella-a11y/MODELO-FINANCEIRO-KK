@@ -1,7 +1,7 @@
 {
-  "release": "PREMIUM-R2-CHECKPOINT",
+  "release": "PREMIUM-CHECKPOINT-R3",
   "base_sha256": "4ef37eca1fe8d2bd249900b4e6e74c407d64b7f69dc978f48b656a80b19ae6c0",
-  "result_sha256": "308e866dfe6c6b7c7f3dec48203311cb898817299f884ca99649bcd8296f6ce2",
+  "result_sha256": "ded3bd8871375a04a41cbe6e5f95e3918a617ab9adef05bba31c162b9b7c5e0b",
   "engine_and_cashflow_parts_byte_identical": 138,
   "canonical_inputs_preserved": 50,
   "new_ui_input": "DASH 05 V06!W116 (near-zero threshold)",
@@ -4492,5 +4492,6 @@
     "adr": "V06 Matriz ADR!G6 -> DASH 05 V06!E9",
     "exact_current_engine": "V06 M10",
     "displayed_matrix": "20 fixed ADR/occupancy combinations; active parameters shared with existing 180-month engines"
-  }
+  },
+  "openxml_sdk_validation": "PASS — zero errors; R2 had 20 font element ordering errors"
 }

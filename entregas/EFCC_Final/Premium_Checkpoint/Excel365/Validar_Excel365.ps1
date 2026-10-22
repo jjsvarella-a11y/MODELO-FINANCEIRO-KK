@@ -2,7 +2,7 @@
 Run on a LOCAL copy: powershell -ExecutionPolicy Bypass -File .\Validar_Excel365.ps1
 Does not modify the supplied source. Does not send data or publish anything.
 #>
-param([string]$WorkbookPath = (Join-Path $PSScriptRoot '..\KK01_Executive_Financial_Control_Center_CHECKPOINT.xlsx'))
+param([string]$WorkbookPath = (Join-Path $PSScriptRoot '..\KK01_Executive_Financial_Control_Center_CHECKPOINT_R3.xlsx'))
 $ErrorActionPreference = 'Stop'
 $WorkbookPath = (Resolve-Path $WorkbookPath).Path
 $stamp = Get-Date -Format 'yyyyMMdd_HHmmss'

@@ -13,6 +13,9 @@ def audit(path):
   if len(parts)!=len(names):failures.append('Duplicate ZIP part names')
   if z.testzip() is not None:failures.append('ZIP CRC failure')
   styles=E.fromstring(z.read('xl/styles.xml'));nstyles=len(styles.find(T('cellXfs')));strings=E.fromstring(z.read('xl/sharedStrings.xml'));nstrings=len(strings);wb=E.fromstring(z.read('xl/workbook.xml'));sheets=wb.find(T('sheets'));sheetnames=[s.get('name') for s in sheets]
+  for index,font in enumerate(styles.find(T('fonts'))):
+   bold=font.find(T('b'))
+   if bold is not None and font.index(bold)>0:failures.append(['xl/styles.xml','Bold font element must precede size/color/name/family',index])
   if len(sheetnames)!=len(set(n.casefold() for n in sheetnames)):failures.append('Duplicate case-insensitive sheet names')
   for name in names:
    counts['parts']+=1

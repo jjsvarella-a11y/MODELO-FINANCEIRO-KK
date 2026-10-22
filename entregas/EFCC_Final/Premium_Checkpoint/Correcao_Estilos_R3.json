@@ -1,0 +1,33 @@
+{
+  "revision": "R3",
+  "cause": "20 bold font elements in styles.xml placed after family; Open XML SDK reports Sch_UnexpectedElementContentExpectingComplex. Move b before sz, retaining exact font properties and indices.",
+  "before_sha256": "308e866dfe6c6b7c7f3dec48203311cb898817299f884ca99649bcd8296f6ce2",
+  "after_sha256": "ded3bd8871375a04a41cbe6e5f95e3918a617ab9adef05bba31c162b9b7c5e0b",
+  "changed_parts": [
+    "xl/styles.xml"
+  ],
+  "font_indices_reordered": [
+    98,
+    99,
+    100,
+    101,
+    102,
+    104,
+    105,
+    110,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    129,
+    131
+  ],
+  "all_other_parts_byte_identical": true,
+  "native_excel365": "NOT TESTED"
+}

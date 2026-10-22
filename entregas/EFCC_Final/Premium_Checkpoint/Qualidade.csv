@@ -8,3 +8,6 @@ OOXML,PASS,"190 folhas, 47 gráficos; CRC, XML, relações e índices verificado
 PT/EN e PDF,PASS,"Exportação LibreOffice; 9 dashboards individuais, relatório A4 de 10 páginas e resumo A4 de 2 páginas por idioma."
 Excel 365 Desktop,NOT TESTED,"Indisponível neste ambiente. Abrir, ativar edição, recalcular, guardar/reabrir e observar reparações ainda exigem execução nativa."
 Logótipo oficial,NOT TESTED,Imagem original sem ficheiro binário acessível; área de inserção em V06 Identidade preservada. Não foi redesenhado.
+Abertura nativa R2,FAIL,Captura do utilizador: Excel solicita recuperação do CHECKPOINT R2. Não usar esta revisão.
+Open XML SDK R3,PASS,"SDK 3.3.0, alvo Microsoft365: 20 erros antes; zero após corrigir ordem de negrito em styles.xml."
+Abertura nativa R3,NOT TESTED,Confirmar abertura sem reparação no Excel 365. Só styles.xml difere da R2; os resultados financeiros não foram alterados.

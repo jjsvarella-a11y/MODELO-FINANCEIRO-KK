@@ -1,8 +1,10 @@
-# KK-01 — PREMIUM R2 CHECKPOINT
+> **R3 — correção de abertura:** a R2 foi rejeitada pelo Excel. Corrigida a ordem de 20 elementos de negrito em `xl/styles.xml`, sem mudar propriedades visuais, fórmulas ou valores. Ver [diagnóstico](Correcao_Estilos_R3.json) e [validação SDK](OpenXmlSDK_R3.json). Reabertura nativa ainda pendente.
+
+# KK-01 — PREMIUM CHECKPOINT R3
 
 Esta é a versão de trabalho mais recente. O Excel R1 na pasta superior permanece como referência histórica intacta.
 
-- [Excel editável](KK01_Executive_Financial_Control_Center_CHECKPOINT.xlsx)
+- [Excel editável](KK01_Executive_Financial_Control_Center_CHECKPOINT_R3.xlsx)
 - [Testes e limites](Relatorio_Testes.pdf) e [matriz de qualidade](Qualidade.csv)
 - [Relatório consolidado — 10 páginas A4](PDF/PT/DASH_10_PT.pdf)
 - [Resumo — 2 páginas A4](PDF/PT/Executive_Brief_PT.pdf)
