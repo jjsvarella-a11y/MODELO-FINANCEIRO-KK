@@ -16,3 +16,7 @@ Execute a partir da raiz do repositório. Dependências: Python 3, xlsxwriter, l
 Os scripts em `Excel365` só podem ser executados em Windows com Excel instalado. Nesta entrega, o resultado nativo é **NOT TESTED**. A causa dos erros #VALOR! reportados não foi demonstrada no Excel. O logótipo permanece pendente de acesso ao ficheiro original.
 
 Atualização solicitada pelo utilizador: executar `src/print_edge.py` e depois `src/add_identity.py` antes da auditoria final. `V06 Identidade` é a área de inserção real do JPG/PNG no Excel; os cabeçalhos abrem essa folha. A sincronização das imagens é opcional e explícita no script Windows/Excel; não depende de funções financeiras, VBA ou IMAGE(). O seu teste nativo continua pendente.
+
+Último passo de apresentação: executar `organise_tabs.py` sobre o master final antes de atualizar manifestos e empacotar. Preserva todos os componentes exceto a visibilidade no workbook.xml; mantém V06 Motor acessível para diagnóstico.
+
+Separação definitiva: após organizar a interface, executar `separate_legacy.py` sobre o master. O script conserva uma cópia binária da V04 em `entregas/Arquivo/V04`, audita dependências, elimina as 313 folhas legadas do ZIP e as partes inacessíveis, remove nomes locais antigos e atualiza propriedades. Executar novamente a auditoria e o recálculo independente antes de empacotar.

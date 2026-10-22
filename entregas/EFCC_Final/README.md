@@ -24,8 +24,8 @@ A 12%, 0 de 30 casos ADR 150–250 € / ocupação 50–75% alcançam VAL não 
 - PASS: 1,738,800 comparações numéricas em 69 cenários; sem erros ou falhas de identidades/restrições nesse recálculo independente.
 - 17/17 testes de alteração real de seletores passaram em LibreOffice. Os testes da taxa de desconto comparam os 30 VAL da matriz com os fluxos de caixa originais.
 - OOXML: PASS, verificações estruturais descritas em `Auditoria_OOXML.json`. Não é validação pelo Open XML SDK nem prova de abertura sem reparações no Excel.
-- Microsoft Excel 365: **NOT TESTED**. Não há Excel Desktop/Windows nem conector Microsoft Excel neste ambiente Linux. A causa exata dos `#VALOR!` reportados em todos os dashboards não foi reproduzida nativamente. Fórmulas comuns foram simplificadas; a eliminação do erro no Excel permanece por confirmar.
-- Logótipo: **ÁREA DE INSERÇÃO DISPONÍVEL** na folha `V06 Identidade`, independente das fórmulas. O utilizador pode inserir e guardar o JPG/PNG no próprio XLSX. A sincronização dos cabeçalhos é explícita no ensaio Windows/Excel e ainda NOT TESTED nativamente. A imagem original não foi redesenhada.
+- Microsoft Excel 365: **NOT TESTED**. Não há Excel Desktop/Windows nem conector Microsoft Excel neste ambiente Linux. A fórmula G5 enviada pelo utilizador contém oito operadores @: o resultado escalar de @SE é incompatível com o vetor de 30 pesos de SOMARPRODUTO. A revisão usa fórmulas escalares nos 69 motores; a eliminação de todos os erros no Excel permanece por confirmar.
+- Logótipo: área de inserção disponível em `V06 Identidade`, independente das fórmulas. O utilizador pode incorporar o JPG/PNG original no XLSX. A sincronização explícita de cabeçalhos pelo ensaio Windows ainda é NOT TESTED nativamente.
 - Contratos, recebimentos reais, calendários e capacidade/dias/eventos/participantes MICE carecem de documentação. O índice MICE normaliza 50% ao modelo original; 1.500 pessoas não representa presença média.
 - Dados documentais em falta aparecem como “Not documented” ou “Unknown”. Previsões não equivalem a vendas, recebimentos ou gastos comprovados.
 
@@ -42,7 +42,7 @@ A 12%, 0 de 30 casos ADR 150–250 € / ocupação 50–75% alcançam VAL não 
 
 ## Reprodutibilidade
 
-O código estende `entregas/V06/src/core.py` e reutiliza a fonte V04 no repositório. As fórmulas do master são autónomas e não dependem de Python para funcionar no Excel. `src/REBUILD.md` descreve a geração e testes neste ambiente. Os checkpoints anteriores V06 e V06_DASH10 permanecem no repositório. As 313 folhas legadas preservam os registos das células; os 115 campos originais do motor conservam as posições e recebem apenas campos adicionais no fim.
+O código estende `entregas/V06/src/core.py` e reutiliza a fonte V04 no repositório. As fórmulas do master são autónomas e não dependem de Python para funcionar no Excel. `src/REBUILD.md` descreve a geração e testes neste ambiente. Os checkpoints anteriores V06 e V06_DASH10 permanecem no repositório. O master atual contém apenas 179 folhas V06. As 313 folhas legadas foram fisicamente removidas e a V04 original ficou intacta em `entregas/Arquivo/V04`, separada do livro operacional. Os 115 campos originais do motor V06 conservam as posições e recebem apenas campos adicionais no fim.
 
 Estado de entrega: **CANDIDATE — aceitação nativa pendente; área de inserção do logótipo disponível**.
 
@@ -54,4 +54,8 @@ Abra **V06 Identidade** pelo link **Inserir logótipo** dos cabeçalhos. Use Ins
 
 O utilizador confirmou que os valores guardados aparecem antes de editar, mas os #VALOR! surgem depois de ativar edição e reabrir. O ensaio nativo tenta Vista Protegida → Ativar Edição, regista os valores antes/depois e segue com recálculo completo, guardar e reabrir. Se a API de Vista Protegida não funcionar, esse passo fica NOT TESTED. Ver valores antes de editar não comprova o cálculo no Excel.
 
-A gravação recebida confirma erros na revisão anterior. Consulte `Analise_Gravacao.md`. Foi solicitado o endereço da primeira célula com erro no motor e o XLSX guardado após o erro, necessários para confirmar a causa específica no Excel.
+## Livro operacional sem V04 incorporada
+
+As 313 folhas legadas foram removidas fisicamente. O master passou de 61,5 MB / 492 folhas para 36,1 MB / 179 folhas, uma redução de 41,3%. Foram retiradas 1.485.103 fórmulas antigas e os respetivos gráficos/partes sem uso. Os 179 XML de folhas V06 foram preservados byte a byte; não foram encontradas dependências para as folhas retiradas. A V04 original está no arquivo separado `entregas/Arquivo/V04`, fora do master e do ZIP operacional. Os dez dashboards atuais e os controlos permanecem acessíveis; os motores auxiliares atuais ficam ocultos. Ver `Separacao_V04.json` e `Reducao_Ficheiro.json`.
+
+A primeira célula de erro reportada pelo utilizador é `V06 Motor!G5`. A ausência de #VALOR! no seu Excel ainda precisa de confirmação; esta redução de volume não é uma correção nativa certificada.

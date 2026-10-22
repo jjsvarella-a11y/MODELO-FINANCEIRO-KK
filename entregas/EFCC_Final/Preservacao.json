@@ -1,20 +1,15 @@
 {
-  "legacy_parts_preserved_byte_for_byte": 551,
-  "modified_global_parts": [
-    "xl/styles.xml",
-    "xl/sharedStrings.xml",
-    "xl/workbook.xml",
-    "xl/_rels/workbook.xml.rels",
-    "[Content_Types].xml"
-  ],
-  "new_parts": 223,
-  "legacy_worksheets_unchanged": true,
-  "view_only_changes": [],
-  "legacy_cell_records_unchanged": true,
-  "legacy_sheets_preserved": 313,
+  "status": "PASS",
+  "result_sha256": "d48e89c5ebef86ba9c77686aae8e6ee824eab2e70faf92f957c7336302be4146",
+  "current_master_worksheets": 179,
+  "legacy_worksheets_in_current_master": 0,
+  "retained_worksheet_parts_byte_for_byte_unchanged": 179,
+  "original_inputs_validation": "Preservacao_Inputs.json",
+  "separation_proof": "Separacao_V04.json",
+  "v04_archive_path": "Arquivo/V04/KK01_Modelo_Integrado_V04_Excel_Fix.xlsx",
+  "v04_archive_sha256": "be8288ced2494ef31c2dbe1d31d77b8277a0753a1209a8df0a83c3a5d86dcdc0",
+  "v04_archive_original_byte_for_byte": true,
   "c0_sha256": "02cc696a831316711b76cf3b96dcec9524fa69701e7c1148b7574ba413ddfc06",
-  "result_sha256": "d404ab94c7ea332fc9d65e16e10644ed116d3511da23860dc4fe40d204e5918b",
-  "current_inputs_preserved": "Verified against C0 before generation; original V06 implementation extended from existing source",
-  "presentation_changes": "Compact rows, annual formula-only chart helper, bilingual report labels. Monthly engine and legacy financial cell records retained.",
-  "identity_financial_sheetData_unchanged": 480
+  "historical_identity_validation": "Prova_Final_Identidade.json",
+  "native_excel365": "NOT TESTED"
 }

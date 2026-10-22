@@ -1,0 +1,11 @@
+{
+  "prior_master_bytes": 61501399,
+  "current_master_bytes": 36120489,
+  "size_reduction_percent": 41.27,
+  "prior_worksheets": 492,
+  "current_worksheets": 179,
+  "prior_formula_count": 3369298,
+  "current_formula_count": 1884195,
+  "removed_legacy_formula_count": 1485103,
+  "v04_archive_separate": true
+}

@@ -21,8 +21,8 @@
     },
     {
       "path": "Auditoria_OOXML.json",
-      "bytes": 407,
-      "sha256": "eda57e0c1a5d3a0168d669b943c724b4ea32883ce08a318fd53005cd5616f66d"
+      "bytes": 406,
+      "sha256": "9a985ea8ac1dd479e0f59e9349cb46004e66246cefebf1be18e42031af1de9d0"
     },
     {
       "path": "Compat_Paridade_Python.json",
@@ -35,6 +35,11 @@
       "sha256": "4155208ebdda87d39b31141679213fdbc2f72b8319068cdfda24e58af1c842d4"
     },
     {
+      "path": "Diagnostico_G5.json",
+      "bytes": 791,
+      "sha256": "ec713597c621f2f4a1e9015ebc0164e4f9bde29ec6e08d0a91960bb1d7e80d95"
+    },
+    {
       "path": "Dicionario_KPI.xlsx",
       "bytes": 9971,
       "sha256": "7c87c45288878c9fb7a319d8838fca1263b940abfc368320a5eca8d9c1f62b73"
@@ -45,6 +50,11 @@
       "sha256": "66546eecc5e988abd13f01e2021717a6b73b923673db4885d9a87379aa32a7e0"
     },
     {
+      "path": "Excel365/Diagnostico_G5.md",
+      "bytes": 1233,
+      "sha256": "69fc34232b623ca72f4c1fb6d3fcae5523b799a7263c97ab4ab3b01eb6df6d83"
+    },
+    {
       "path": "Excel365/Executar_Diagnostico.cmd",
       "bytes": 103,
       "sha256": "b3f788e3a10666aaa4bc3c70605152bc96baf52b95179d29fdb8439e0f7790ba"
@@ -53,6 +63,11 @@
       "path": "Excel365/Executar_Validacao.cmd",
       "bytes": 100,
       "sha256": "f4639ae2fceaa58236ac47cba6de39a37d3323ecddc059c312187968cad94add"
+    },
+    {
+      "path": "Excel365/Formula_G5_Recebida.txt",
+      "bytes": 583,
+      "sha256": "545932408387d96c11a111e4ab00b5ece87b633881259ca0333a6a6142d2aaed"
     },
     {
       "path": "Excel365/LOGOTIPO.md",
@@ -72,17 +87,22 @@
     {
       "path": "Guia_Utilizacao.pdf",
       "bytes": 25594,
-      "sha256": "15af8a5e534c618fb51d59c773e525b77dd40b3ec41bc489a425815e239a690a"
+      "sha256": "ed573c6bfc1817c4f2b51831a0c70003084690606bec558ca75fc32f2f1a7bde"
     },
     {
       "path": "KK01_V06_Executive_Master.xlsx",
-      "bytes": 61501399,
-      "sha256": "d404ab94c7ea332fc9d65e16e10644ed116d3511da23860dc4fe40d204e5918b"
+      "bytes": 36120489,
+      "sha256": "d48e89c5ebef86ba9c77686aae8e6ee824eab2e70faf92f957c7336302be4146"
     },
     {
       "path": "Mandato_Final.md",
       "bytes": 25489,
       "sha256": "680fc3d3adadd5aa93b662610ed0887ad839fff4ddfeb8c84190507866287cbe"
+    },
+    {
+      "path": "Organizacao_Folhas.json",
+      "bytes": 3349,
+      "sha256": "e4a55fc7c4ebda64ac70296ba16bf4acbd1fe6693c0d959523cd4743367baeef"
     },
     {
       "path": "PDF/EN/DASH_01_EN.pdf",
@@ -211,13 +231,13 @@
     },
     {
       "path": "Parametros_Ativos_EFCC.xlsx",
-      "bytes": 8502,
-      "sha256": "9ba22822c7a0cfec91bc2026688f3fdbb78ffde2636b87230a91834dd55b3605"
+      "bytes": 8503,
+      "sha256": "949308077625c7e79432fd484d6f03388a16a42a7d5bbf891de252ee83b4c363"
     },
     {
       "path": "Preservacao.json",
-      "bytes": 886,
-      "sha256": "1ec85013dbe2f129fc82a9b4cf615caba03f14e79a4530f5f433d6bf9be5ab25"
+      "bytes": 752,
+      "sha256": "a06bc5e7886bbac6b23e0b4d9e4cf7af346105a3930e19c05305e89d5fca401d"
     },
     {
       "path": "Preservacao_Inputs.json",
@@ -226,28 +246,38 @@
     },
     {
       "path": "Prova_Final_Identidade.json",
-      "bytes": 312,
-      "sha256": "324cbc67ff246eb91742bdbe16b15c430b9591a6c26a7a02367bfafbb51a9995"
+      "bytes": 446,
+      "sha256": "be8952f7162bcc3f68840614ee7a8b06254c5b0d3d28ac08ff59ea4b67af955d"
     },
     {
       "path": "README.md",
-      "bytes": 6741,
-      "sha256": "8471aad41f410baf92a6021c1a2a7abb6236cd3a183a0dbc407c5d5acb7568e3"
+      "bytes": 7499,
+      "sha256": "bbb0ba7b21573d95d19e1a4d422db867d8d4f3cebf64f93276eebf554e37d812"
+    },
+    {
+      "path": "Reducao_Ficheiro.json",
+      "bytes": 308,
+      "sha256": "b655ef6562849426e29018d011afc79b96d86e7397b2193eb7e7ac0e54f44484"
     },
     {
       "path": "Referencia_Python_V06.json.gz",
-      "bytes": 2826076,
-      "sha256": "00ff8288417373f55030914d661cfd01c0ba9f7bd4a8e2257b1624b6f19d6616"
+      "bytes": 2826095,
+      "sha256": "fe7467de02a5964fb711018cc53de80fd2a659f9a3ecb287b0b1b3d7b6a353b5"
     },
     {
       "path": "Registo_Erros.csv",
-      "bytes": 2097,
-      "sha256": "7490fa2f98c6f5afde75a9715eec10b2f59b57d93b7206e34e664da763b6c38d"
+      "bytes": 2144,
+      "sha256": "a5a215bbce838fd57caa55bec1aed089c86a73e8505cd89fdc093e1df6243b16"
     },
     {
       "path": "Relatorio_Auditoria_EFCC.pdf",
-      "bytes": 27649,
-      "sha256": "fd0e78b218c4821d34a0381c1a7c2579eed8c84f359cbacf01a7b004d3f6e703"
+      "bytes": 28140,
+      "sha256": "af10b8207f399d7a97abfde885708dee8355034ff0fc2a53f5c7f53070e109c8"
+    },
+    {
+      "path": "Separacao_V04.json",
+      "bytes": 6492,
+      "sha256": "0a583ec5f7ff477c0dea0409eabf5899d273274c0996f5095aa275602849fe8b"
     },
     {
       "path": "Testes_Seletores.json",
@@ -262,12 +292,12 @@
     {
       "path": "Validacao_Financeira.json",
       "bytes": 421,
-      "sha256": "252f58addece7037ebb128b68c1ed1bc11322293912367870260a58f4bde706a"
+      "sha256": "d3dc817087854537efb3d2e1e1de493e2ce22b2b41d8fe912eb3e3d606c5e0b3"
     },
     {
       "path": "src/REBUILD.md",
-      "bytes": 3020,
-      "sha256": "45dca0dc02bfe6f6dd7f8d1f9cb8fe34da3b5ccd652db4f33c03e1adc2bbf05b"
+      "bytes": 3653,
+      "sha256": "f430833fdf1b120b7f954e79e000d42a581480d75c8698ada2a4e053768cf4e3"
     },
     {
       "path": "src/add_identity.py",
@@ -345,9 +375,14 @@
       "sha256": "0c757e8794edc90e9b4133a230a892f4a829532067747d3e3da390806c347aa4"
     },
     {
+      "path": "src/organise_tabs.py",
+      "bytes": 3573,
+      "sha256": "2290599d64e0ee19fc4aaecbe78ea2f942c82a9457b368f2937b231af4844f37"
+    },
+    {
       "path": "src/package.py",
-      "bytes": 2356,
-      "sha256": "7c806f516e9c2e0c87e51b2ee0802c515857c4010f4ad89d7e64426d6492a134"
+      "bytes": 2425,
+      "sha256": "fa4f99676990f535797b62d8f9709d2e22f2a8fb0fbc13837317237ba46fb4ab"
     },
     {
       "path": "src/polish_delivery.py",
@@ -380,6 +415,11 @@
       "sha256": "ddb88473bc940119ba4cc2db80762e297370ef992f0361199b3e86754d52104e"
     },
     {
+      "path": "src/separate_legacy.py",
+      "bytes": 7523,
+      "sha256": "5400fa30353e9b11e18143f4cc53ee922e94725c64e2d94d940a8600692fa5ce"
+    },
+    {
       "path": "src/test_extended.py",
       "bytes": 895,
       "sha256": "2d3bad11ff0c61d8de061d0ac061d3191be8c0763b33d088995eb5a3b37cc222"
@@ -395,9 +435,14 @@
       "sha256": "c88c34daf1585032f3a1cd8182459b637bb4e8edcc6095fe8002b555214a127b"
     },
     {
+      "path": "src/verify_g5_intersection.py",
+      "bytes": 2233,
+      "sha256": "00153df28da726f7410bc8e48a9cbf832f9330e15f14095ce86291fdf59fa2e0"
+    },
+    {
       "path": "src/write_docs.py",
-      "bytes": 21013,
-      "sha256": "203005ecca349782ca949995bfc1c6d39acbad2258f93b839c359eda39aa3932"
+      "bytes": 23476,
+      "sha256": "168a36f3aa13558f8a85866b9b31b4281c95d498077cb2f92eff35c69d261a76"
     }
   ]
 }

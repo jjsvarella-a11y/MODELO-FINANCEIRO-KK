@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "scope": "Formula identity and removal of array-context dependencies; not a native Excel acceptance test",
+  "user_reported_cell": "V06 Motor!G5",
+  "received_implicit_intersections": 8,
+  "received_matches_previous_g5_after_locale_and_at_normalisation": true,
+  "identified_g5_failure": "The @IF result is scalar while SUMPRODUCT first argument is a 30-row weight vector, producing mismatched argument dimensions.",
+  "current_engines_inspected": 69,
+  "current_engine_formulas_inspected": 1738800,
+  "current_engine_SUMPRODUCT_at_or_SINGLE_violations": [],
+  "repair": "Scalar SUM/MAX/MIN construction integration and scalar per-unit sales schedules, preserving scenario logic.",
+  "expected_baseline_g5": 0.01,
+  "native_excel365_current_candidate": "NOT TESTED"
+}

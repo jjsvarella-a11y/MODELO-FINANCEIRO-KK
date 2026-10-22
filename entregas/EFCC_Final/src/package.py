@@ -7,7 +7,7 @@ def package():
  tests=[]
  for name in ['Testes_Seletores.json','Testes_Seletores_Adicionais.json']:tests+=json.loads((ROOT/name).read_text())['tests']
  assert len(tests)==17 and all(t['status']=='PASS' for t in tests)
- for file in ['Compat_Paridade_Python.json','Compat_Recalculo.json','Validacao_Financeira.json','Auditoria_OOXML.json','Prova_Final_Identidade.json']:assert json.loads((ROOT/file).read_text())['status']=='PASS',file
+ for file in ['Compat_Paridade_Python.json','Compat_Recalculo.json','Validacao_Financeira.json','Auditoria_OOXML.json','Prova_Final_Identidade.json','Organizacao_Folhas.json','Separacao_V04.json','Diagnostico_G5.json']:assert json.loads((ROOT/file).read_text())['status']=='PASS',file
  pdfs=[]
  for language in ['PT','EN']:
   for p in sorted((ROOT/'PDF'/language).glob('*.pdf')):

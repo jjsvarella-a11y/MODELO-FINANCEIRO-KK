@@ -1,12 +1,14 @@
 {
   "status": "PASS",
-  "sheetData_blocks_compared": 480,
-  "changes": [],
+  "identity_sheet_present": true,
+  "financial_changes_from_logo_area": false,
+  "current_master_worksheets": 179,
+  "retained_worksheets_unchanged_after_separation": 179,
+  "prior_identity_sheetData_blocks_compared": 480,
   "selected_sheets": [
     "EXEC V06"
   ],
-  "identity_sheet_present": true,
-  "financial_changes_from_logo_area": false,
-  "sha256": "d404ab94c7ea332fc9d65e16e10644ed116d3511da23860dc4fe40d204e5918b",
-  "native_excel365": "NOT TESTED"
+  "sha256": "d48e89c5ebef86ba9c77686aae8e6ee824eab2e70faf92f957c7336302be4146",
+  "native_excel365": "NOT TESTED",
+  "latest_revision": "Separacao_V04.json"
 }

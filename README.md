@@ -13,3 +13,5 @@ A revisão mais recente está em [`entregas/EFCC_Final`](entregas/EFCC_Final/REA
 O modelo contém `V06 Identidade`, onde o utilizador pode inserir o JPG/PNG original através de Inserir → Imagens → Este dispositivo. Essa área não interfere nos cálculos.
 
 As revisões anteriores [V06](entregas/V06/README.md) e [DASH 10](entregas/V06_DASH10/README.md) foram preservadas.
+
+O master operacional contém agora apenas o V06: **179 folhas, 36,1 MB**, sem as 313 folhas V04 incorporadas. A [V04 original](entregas/Arquivo/V04/README.md) está preservada num arquivo separado. A remoção das folhas legadas não comprova a resolução dos #VALOR! no Excel 365.
