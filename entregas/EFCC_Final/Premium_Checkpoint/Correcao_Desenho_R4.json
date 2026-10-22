@@ -1,0 +1,71 @@
+{
+  "revision": "R4",
+  "native_R3": "FAIL: user screenshot identifies drawing7.xml removed",
+  "action": "Rebuilt Hotel drawing and three chart parts using standard XlsxWriter primitives; removed bespoke doughnut label/manual-layout configuration. No engine/worksheet changes.",
+  "changed_parts": [
+    "xl/drawings/drawing7.xml",
+    "xl/charts/chart42.xml",
+    "xl/charts/chart44.xml",
+    "xl/charts/chart45.xml"
+  ],
+  "series": [
+    {
+      "chart": 42,
+      "categories": "'V06 Visual'!$A$5:$A$19",
+      "values": "'V06 Visual'!$JN$5:$JN$19",
+      "series_name_formula": "'V06 Visual'!$JN$107",
+      "points": 15
+    },
+    {
+      "chart": 42,
+      "categories": "'V06 Visual'!$A$5:$A$19",
+      "values": "'V06 Visual'!$JO$5:$JO$19",
+      "series_name_formula": "'V06 Visual'!$JO$108",
+      "points": 15
+    },
+    {
+      "chart": 42,
+      "categories": "'V06 Visual'!$A$5:$A$19",
+      "values": "'V06 Visual'!$JP$5:$JP$19",
+      "series_name_formula": "'V06 Visual'!$JP$109",
+      "points": 15
+    },
+    {
+      "chart": 42,
+      "categories": "'V06 Visual'!$A$5:$A$19",
+      "values": "'V06 Visual'!$JQ$5:$JQ$19",
+      "series_name_formula": "'V06 Visual'!$JQ$110",
+      "points": 15
+    },
+    {
+      "chart": 44,
+      "categories": "'V06 Visual'!$MC$201:$MC$204",
+      "values": "'V06 Visual'!$MD$201:$MD$204",
+      "series_name_formula": null,
+      "points": 4
+    },
+    {
+      "chart": 45,
+      "categories": "'V06 Visual'!$A$5:$A$19",
+      "values": "'V06 Visual'!$IM$5:$IM$19",
+      "series_name_formula": "'V06 Visual'!$IM$115",
+      "points": 15
+    },
+    {
+      "chart": 45,
+      "categories": "'V06 Visual'!$A$5:$A$19",
+      "values": "'V06 Visual'!$JR$5:$JR$19",
+      "series_name_formula": null,
+      "points": 15
+    }
+  ],
+  "all_other_parts_byte_identical": true,
+  "sha256": "ce3db20c1b6627be2b564dd558247b7c1530b8a589ec48006168e8ac8818d558",
+  "native_R4": "NOT TESTED",
+  "series_reconciliation": {
+    "status": "PASS",
+    "series_compared": 7,
+    "ranges_identical": true,
+    "cached_numeric_values_identical": true
+  }
+}

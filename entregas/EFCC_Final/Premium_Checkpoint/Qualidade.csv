@@ -11,3 +11,6 @@ Logótipo oficial,NOT TESTED,Imagem original sem ficheiro binário acessível; �
 Abertura nativa R2,FAIL,Captura do utilizador: Excel solicita recuperação do CHECKPOINT R2. Não usar esta revisão.
 Open XML SDK R3,PASS,"SDK 3.3.0, alvo Microsoft365: 20 erros antes; zero após corrigir ordem de negrito em styles.xml."
 Abertura nativa R3,NOT TESTED,Confirmar abertura sem reparação no Excel 365. Só styles.xml difere da R2; os resultados financeiros não foram alterados.
+Abertura nativa R3,FAIL,"Captura do utilizador confirma remoção de drawing7.xml, apesar de SDK sem erros."
+Reconstrução R4,PASS,Só desenho7 e três partes de gráficos substituídos; todo o restante conteúdo idêntico à R3.
+Abertura nativa R4,NOT TESTED,A configuração padrão precisa de confirmação no Excel 365; SDK não garante abertura.

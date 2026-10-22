@@ -1,7 +1,7 @@
 {
-  "release": "PREMIUM-CHECKPOINT-R3",
+  "release": "PREMIUM-CHECKPOINT-R4",
   "base_sha256": "4ef37eca1fe8d2bd249900b4e6e74c407d64b7f69dc978f48b656a80b19ae6c0",
-  "result_sha256": "ded3bd8871375a04a41cbe6e5f95e3918a617ab9adef05bba31c162b9b7c5e0b",
+  "result_sha256": "ce3db20c1b6627be2b564dd558247b7c1530b8a589ec48006168e8ac8818d558",
   "engine_and_cashflow_parts_byte_identical": 138,
   "canonical_inputs_preserved": 50,
   "new_ui_input": "DASH 05 V06!W116 (near-zero threshold)",
@@ -4493,5 +4493,7 @@
     "exact_current_engine": "V06 M10",
     "displayed_matrix": "20 fixed ADR/occupancy combinations; active parameters shared with existing 180-month engines"
   },
-  "openxml_sdk_validation": "PASS — zero errors; R2 had 20 font element ordering errors"
+  "openxml_sdk_validation": "PASS — zero errors; R2 had 20 font element ordering errors",
+  "native_R3": "FAIL — drawing7.xml removed by Excel",
+  "native_R4": "NOT TESTED"
 }

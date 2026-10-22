@@ -1,10 +1,12 @@
+> **R4 — desenho Hotel reconstruído:** a abertura nativa da R3 também falhou, removendo `drawing7.xml`. O desenho e os três gráficos do DASH 07 foram reconstruídos com configuração padrão. Todos os outros conteúdos do Excel permanecem idênticos. Ver [alterações](Correcao_Desenho_R4.json) e [validação R4](OpenXmlSDK_R4.json). Abertura nativa da R4 ainda pendente.
+
 > **R3 — correção de abertura:** a R2 foi rejeitada pelo Excel. Corrigida a ordem de 20 elementos de negrito em `xl/styles.xml`, sem mudar propriedades visuais, fórmulas ou valores. Ver [diagnóstico](Correcao_Estilos_R3.json) e [validação SDK](OpenXmlSDK_R3.json). Reabertura nativa ainda pendente.
 
-# KK-01 — PREMIUM CHECKPOINT R3
+# KK-01 — PREMIUM CHECKPOINT R4
 
 Esta é a versão de trabalho mais recente. O Excel R1 na pasta superior permanece como referência histórica intacta.
 
-- [Excel editável](KK01_Executive_Financial_Control_Center_CHECKPOINT_R3.xlsx)
+- [Excel editável](KK01_Executive_Financial_Control_Center_CHECKPOINT_R4.xlsx)
 - [Testes e limites](Relatorio_Testes.pdf) e [matriz de qualidade](Qualidade.csv)
 - [Relatório consolidado — 10 páginas A4](PDF/PT/DASH_10_PT.pdf)
 - [Resumo — 2 páginas A4](PDF/PT/Executive_Brief_PT.pdf)

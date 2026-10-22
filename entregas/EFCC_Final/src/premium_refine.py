@@ -14,7 +14,7 @@ from premium_ui import Source,ROOT,DASHES,LANG,CENTER
 from repair_empty_containers import normalize
 BASE=Path('/workspace/kk01_efcc/premium_r2/BASE_R1.xlsx');WORK=BASE.parent
 OUT=ROOT/'Premium_Checkpoint';OUT.mkdir(exist_ok=True)
-MASTER=OUT/'KK01_Executive_Financial_Control_Center_CHECKPOINT_R3.xlsx'
+MASTER=OUT/'KK01_Executive_Financial_Control_Center_CHECKPOINT_R4.xlsx'
 NSR='http://schemas.openxmlformats.org/officeDocument/2006/relationships';NSP='http://schemas.openxmlformats.org/package/2006/relationships';NSC='http://schemas.openxmlformats.org/package/2006/content-types'
 CHART_KEYS=['cash','debt','reserve','capex','receipts','revenue','ebitda','construction','supervision','contingency_paid','equity','investor_outlay','draw','tax_paid','vat_refund','construction_insurance','operating_insurance','principal','sweep','interest','debt_service','deed_sales','sales_profit','units_deeded','units_not_deeded','res_revenue','res_opex','res_fees','owner_distribution','owner_target','res_ffe','res_fund','dividend','room_revenue','fb_revenue','mice_revenue','other_revenue','ebitda_margin']
 H='DASH 05 V06';Q='DASH 07 V06';ADRS=[150,175,200,225];OCCS=[.50,.60,.65,.70,.75];OROW=[0,2,3,4,5]

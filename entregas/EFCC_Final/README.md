@@ -1,4 +1,4 @@
-> **Versão mais recente — PREMIUM CHECKPOINT R3 (correção de abertura):** [Excel, matriz de sensibilidade, PDFs PT/EN e testes](Premium_Checkpoint/README.md). Os ficheiros abaixo são a entrega histórica R1. Aceitação nativa Excel 365 e ficheiro original do logótipo permanecem pendentes.
+> **Versão mais recente — PREMIUM CHECKPOINT R4 (desenho Hotel reconstruído):** [Excel, matriz de sensibilidade, PDFs PT/EN e testes](Premium_Checkpoint/README.md). Os ficheiros abaixo são a entrega histórica R1. Aceitação nativa Excel 365 e ficheiro original do logótipo permanecem pendentes.
 
 > **Revisão R1:** removidos três contentores XML vazios nas folhas indicadas pelo Excel. [Correção e testes](Relatorio_Reparacao_XML_R1.md). Cálculos e apresentação preservados; reabertura nativa da R1 ainda não testada.
 
