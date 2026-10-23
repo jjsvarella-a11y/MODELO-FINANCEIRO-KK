@@ -1,0 +1,343 @@
+{
+  "version": "R6 CHECKPOINT",
+  "source_r5_sha256": "2f516e1a02855eb8f2bac1c545ccbf68bf4beeacd1d577138470d56f19cd1ed7",
+  "engine_months_extended": 12240,
+  "parameters": [
+    {
+      "key": "tan",
+      "pt": "TAN fixa anual",
+      "en": "Fixed annual nominal rate",
+      "r4_value": 0.06,
+      "custom_cell": "H23",
+      "type": "pct",
+      "effective_cell": "V06 Banco Dados!B5"
+    },
+    {
+      "key": "grace",
+      "pt": "Carência capital · meses",
+      "en": "Principal grace · months",
+      "r4_value": 42,
+      "custom_cell": "N23",
+      "type": "whole",
+      "effective_cell": "V06 Banco Dados!B6"
+    },
+    {
+      "key": "term",
+      "pt": "Prazo após carência · meses",
+      "en": "Term after grace · months",
+      "r4_value": 120,
+      "custom_cell": "H25",
+      "type": "whole",
+      "effective_cell": "V06 Banco Dados!B7"
+    },
+    {
+      "key": "sweep",
+      "pt": "Cash sweep · fração",
+      "en": "Cash sweep fraction",
+      "r4_value": 1,
+      "custom_cell": "N25",
+      "type": "pct",
+      "effective_cell": "V06 Banco Dados!B8"
+    },
+    {
+      "key": "draw_end",
+      "pt": "Última utilização · mês",
+      "en": "Last draw month",
+      "r4_value": 30,
+      "custom_cell": "H27",
+      "type": "whole",
+      "effective_cell": "V06 Banco Dados!B9"
+    },
+    {
+      "key": "amort",
+      "pt": "Amortização",
+      "en": "Amortisation",
+      "r4_value": "Linear",
+      "custom_cell": "H29",
+      "type": [
+        "Linear",
+        "Bullet"
+      ],
+      "effective_cell": "V06 Banco Dados!B10"
+    },
+    {
+      "key": "facility",
+      "pt": "Linha autorizada €",
+      "en": "Authorised facility EUR",
+      "r4_value": 30000000,
+      "custom_cell": "H31",
+      "type": "money",
+      "effective_cell": "V06 Banco Dados!B11"
+    },
+    {
+      "key": "rate_type",
+      "pt": "Tipo de taxa",
+      "en": "Rate type",
+      "r4_value": "Fixed",
+      "custom_cell": "H454",
+      "type": [
+        "Fixed",
+        "Variable"
+      ],
+      "effective_cell": "V06 Banco Dados!B12"
+    },
+    {
+      "key": "index",
+      "pt": "Indexante anual",
+      "en": "Annual index",
+      "r4_value": 0.025,
+      "custom_cell": "N454",
+      "type": "pct",
+      "effective_cell": "V06 Banco Dados!B13"
+    },
+    {
+      "key": "spread",
+      "pt": "Spread anual",
+      "en": "Annual spread",
+      "r4_value": 0.035,
+      "custom_cell": "H456",
+      "type": "pct",
+      "effective_cell": "V06 Banco Dados!B14"
+    },
+    {
+      "key": "interest_grace",
+      "pt": "Carência juros · meses",
+      "en": "Interest grace · months",
+      "r4_value": 0,
+      "custom_cell": "N456",
+      "type": "whole",
+      "effective_cell": "V06 Banco Dados!B15"
+    },
+    {
+      "key": "opening",
+      "pt": "Comissão abertura / linha",
+      "en": "Opening fee / facility",
+      "r4_value": 0.01,
+      "custom_cell": "H458",
+      "type": "pct",
+      "effective_cell": "V06 Banco Dados!B16"
+    },
+    {
+      "key": "opening_fixed",
+      "pt": "Comissão abertura fixa €",
+      "en": "Fixed opening fee EUR",
+      "r4_value": 0,
+      "custom_cell": "N458",
+      "type": "money",
+      "effective_cell": "V06 Banco Dados!B17"
+    },
+    {
+      "key": "broker",
+      "pt": "Intermediação / linha",
+      "en": "Broker fee / facility",
+      "r4_value": 0.015,
+      "custom_cell": "H460",
+      "type": "pct",
+      "effective_cell": "V06 Banco Dados!B18"
+    },
+    {
+      "key": "availability",
+      "pt": "Disponibilização / linha",
+      "en": "Availability fee / facility",
+      "r4_value": 0.0125,
+      "custom_cell": "N460",
+      "type": "pct",
+      "effective_cell": "V06 Banco Dados!B19"
+    },
+    {
+      "key": "commitment",
+      "pt": "Compromisso anual",
+      "en": "Annual commitment fee",
+      "r4_value": 0,
+      "custom_cell": "H462",
+      "type": "pct",
+      "effective_cell": "V06 Banco Dados!B20"
+    },
+    {
+      "key": "commit_base",
+      "pt": "Base comissão compromisso",
+      "en": "Commitment fee base",
+      "r4_value": "Undrawn cumulative",
+      "custom_cell": "N462",
+      "type": [
+        "Undrawn cumulative",
+        "Undrawn outstanding"
+      ],
+      "effective_cell": "V06 Banco Dados!B21"
+    },
+    {
+      "key": "management",
+      "pt": "Comissão gestão €",
+      "en": "Management fee EUR",
+      "r4_value": 0,
+      "custom_cell": "H464",
+      "type": "money",
+      "effective_cell": "V06 Banco Dados!B22"
+    },
+    {
+      "key": "period",
+      "pt": "Periodicidade gestão · meses",
+      "en": "Management period · months",
+      "r4_value": 12,
+      "custom_cell": "N464",
+      "type": "whole",
+      "effective_cell": "V06 Banco Dados!B23"
+    },
+    {
+      "key": "prepay",
+      "pt": "Comissão amortização antecipada",
+      "en": "Early repayment fee",
+      "r4_value": 0,
+      "custom_cell": "H466",
+      "type": "pct",
+      "effective_cell": "V06 Banco Dados!B24"
+    },
+    {
+      "key": "closing",
+      "pt": "Comissão liquidação final €",
+      "en": "Final settlement fee EUR",
+      "r4_value": 0,
+      "custom_cell": "N466",
+      "type": "money",
+      "effective_cell": "V06 Banco Dados!B25"
+    },
+    {
+      "key": "guarantee",
+      "pt": "Garantias €",
+      "en": "Guarantees EUR",
+      "r4_value": 0,
+      "custom_cell": "H468",
+      "type": "money",
+      "effective_cell": "V06 Banco Dados!B26"
+    },
+    {
+      "key": "expenses",
+      "pt": "Despesas bancárias €",
+      "en": "Bank expenses EUR",
+      "r4_value": 0,
+      "custom_cell": "N468",
+      "type": "money",
+      "effective_cell": "V06 Banco Dados!B27"
+    },
+    {
+      "key": "insurance",
+      "pt": "Seguro crédito adicional €",
+      "en": "Additional credit insurance EUR",
+      "r4_value": 0,
+      "custom_cell": "H470",
+      "type": "money",
+      "effective_cell": "V06 Banco Dados!B28"
+    },
+    {
+      "key": "draw_start",
+      "pt": "Primeira utilização · mês",
+      "en": "First draw month",
+      "r4_value": 1,
+      "custom_cell": "N470",
+      "type": "whole",
+      "effective_cell": "V06 Banco Dados!B29"
+    },
+    {
+      "key": "convention",
+      "pt": "Convenção de juros",
+      "en": "Interest convention",
+      "r4_value": "30/360",
+      "custom_cell": "H472",
+      "type": [
+        "30/360",
+        "ACT/365"
+      ],
+      "effective_cell": "V06 Banco Dados!B30"
+    },
+    {
+      "key": "start_date",
+      "pt": "Data mês 1 · serial Excel",
+      "en": "Month 1 date · Excel serial",
+      "r4_value": 45931,
+      "custom_cell": "N472",
+      "type": "date",
+      "effective_cell": "V06 Banco Dados!B31"
+    },
+    {
+      "key": "prepay_source",
+      "pt": "Origem amortização antecipada",
+      "en": "Early repayment source",
+      "r4_value": "Existing",
+      "custom_cell": "H474",
+      "type": [
+        "Existing",
+        "None",
+        "Excess cash",
+        "Sales",
+        "Custom"
+      ],
+      "effective_cell": "V06 Banco Dados!B32"
+    },
+    {
+      "key": "prepay_custom",
+      "pt": "Amortização máxima mensal €",
+      "en": "Custom maximum monthly repayment EUR",
+      "r4_value": 0,
+      "custom_cell": "N474",
+      "type": "money",
+      "effective_cell": "V06 Banco Dados!B33"
+    },
+    {
+      "key": "dscr_min",
+      "pt": "Meta interna DSCR",
+      "en": "Internal DSCR target",
+      "r4_value": 1.2,
+      "custom_cell": "H476",
+      "type": "ratio",
+      "effective_cell": "V06 Banco Dados!B34"
+    },
+    {
+      "key": "include_fees",
+      "pt": "DSCR inclui demais comissões · 0/1",
+      "en": "DSCR includes other fees · 0/1",
+      "r4_value": 0,
+      "custom_cell": "N476",
+      "type": "whole",
+      "effective_cell": "V06 Banco Dados!B35"
+    },
+    {
+      "key": "status",
+      "pt": "Natureza das condições",
+      "en": "Terms status",
+      "r4_value": "Hypothetical",
+      "custom_cell": "H478",
+      "type": [
+        "Hypothetical",
+        "Bank proposal",
+        "Approved"
+      ],
+      "effective_cell": "V06 Banco Dados!B36"
+    },
+    {
+      "key": "evidence",
+      "pt": "Referência documental",
+      "en": "Documentary reference",
+      "r4_value": "Not supplied",
+      "custom_cell": "N478",
+      "type": "text",
+      "effective_cell": "V06 Banco Dados!B37"
+    },
+    {
+      "key": "institution",
+      "pt": "Instituição / destinatário",
+      "en": "Institution / recipient",
+      "r4_value": "To identify",
+      "custom_cell": "H480",
+      "type": "text",
+      "effective_cell": "V06 Banco Dados!B38"
+    }
+  ],
+  "official_bank_benchmark": {
+    "tan": 0.06,
+    "grace_months": 42,
+    "status": "Hypothetical, pending documentation",
+    "aligned_with": "immutable R4; user confirmed 6%/42m"
+  },
+  "native_excel365": "NOT TESTED",
+  "extra_engine_columns": "EK:EQ; original inventory check EJ preserved"
+}

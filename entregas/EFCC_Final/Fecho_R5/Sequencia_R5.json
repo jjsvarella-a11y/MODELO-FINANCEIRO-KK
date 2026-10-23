@@ -1,0 +1,104 @@
+{
+  "status": "PASS",
+  "sequence": [
+    {
+      "test": "Seq_Test",
+      "status": "PASS",
+      "changes": [
+        [
+          "DASH 05 V06",
+          "H23",
+          "Custom"
+        ],
+        [
+          "DASH 05 V06",
+          "H25",
+          205
+        ],
+        [
+          "DASH 07 V06",
+          "H29",
+          "8%"
+        ]
+      ],
+      "npv": -1391731.12514884,
+      "irr": 0.07516176588827,
+      "moic": 2.62408162682508,
+      "capex": 63168000.0,
+      "peak_debt": 17528049.0570992,
+      "liquidity": 0.0,
+      "rate": 0.08,
+      "investor_npv": -1391731.12514884,
+      "matrix_points_verified": 0,
+      "errors": 0,
+      "base_reference_unchanged": true
+    },
+    {
+      "test": "Seq_Reference",
+      "status": "PASS",
+      "changes": [
+        [
+          "EXEC V06",
+          "H23",
+          "Reference"
+        ]
+      ],
+      "npv": -12742848.2445606,
+      "irr": 0.0576464356516757,
+      "moic": 2.11743775338615,
+      "capex": 63168000.0,
+      "peak_debt": 17528049.0570992,
+      "liquidity": 0.0,
+      "rate": 0.12,
+      "investor_npv": -12742848.2445607,
+      "matrix_points_verified": 0,
+      "errors": 0,
+      "base_reference_unchanged": true
+    },
+    {
+      "test": "Seq_TestResume",
+      "status": "PASS",
+      "changes": [
+        [
+          "EXEC V06",
+          "H23",
+          "Test"
+        ]
+      ],
+      "npv": -1391731.12514885,
+      "irr": 0.07516176588827,
+      "moic": 2.62408162682507,
+      "capex": 63168000.0,
+      "peak_debt": 17528049.0570992,
+      "liquidity": 0.0,
+      "rate": 0.08,
+      "investor_npv": -1391731.12514885,
+      "matrix_points_verified": 0,
+      "errors": 0,
+      "base_reference_unchanged": true
+    },
+    {
+      "test": "Seq_ReferenceEnd",
+      "status": "PASS",
+      "changes": [
+        [
+          "EXEC V06",
+          "H23",
+          "Reference"
+        ]
+      ],
+      "npv": -12742848.2445606,
+      "irr": 0.0576464356516757,
+      "moic": 2.11743775338615,
+      "capex": 63168000.0,
+      "peak_debt": 17528049.0570992,
+      "liquidity": 0.0,
+      "rate": 0.12,
+      "investor_npv": -12742848.2445607,
+      "matrix_points_verified": 0,
+      "errors": 0,
+      "base_reference_unchanged": true
+    }
+  ],
+  "native_excel365": "NOT TESTED"
+}

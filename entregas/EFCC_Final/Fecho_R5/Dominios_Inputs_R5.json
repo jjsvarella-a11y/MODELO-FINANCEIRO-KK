@@ -1,0 +1,76 @@
+{
+  "ranges": [
+    {
+      "sheet": "DASH 01 V06",
+      "cell": "H23",
+      "type": "whole",
+      "min": 0,
+      "max": 120
+    },
+    {
+      "sheet": "DASH 04A V06",
+      "cell": "N23",
+      "type": "whole",
+      "min": 0,
+      "max": 120
+    },
+    {
+      "sheet": "DASH 04A V06",
+      "cell": "N25",
+      "type": "decimal",
+      "min": 0.01,
+      "max": 3
+    },
+    {
+      "sheet": "DASH 02 V06",
+      "cell": "H27",
+      "type": "decimal",
+      "min": 0,
+      "max": 1
+    },
+    {
+      "sheet": "DASH 02 V06",
+      "cell": "N27",
+      "type": "decimal",
+      "min": 0,
+      "max": 10
+    },
+    {
+      "sheet": "DASH 04B V06",
+      "cell": "H31",
+      "type": "decimal",
+      "min": 0,
+      "max": 1
+    },
+    {
+      "sheet": "DASH 03 V06",
+      "cell": "H25",
+      "type": "whole",
+      "min": 1,
+      "max": 360
+    },
+    {
+      "sheet": "DASH 03 V06",
+      "cell": "H27",
+      "type": "whole",
+      "min": 1,
+      "max": 180
+    },
+    {
+      "sheet": "DASH 03 V06",
+      "cell": "H31",
+      "type": "decimal",
+      "min": 0,
+      "max": 1000000000.0
+    },
+    {
+      "sheet": "DASH 07 V06",
+      "cell": "N27",
+      "type": "decimal",
+      "min": 0.01,
+      "max": 10
+    }
+  ],
+  "undefined_IRR": "N/A when no investment return can be computed; differences and percentage points remain N/A, not arithmetic errors.",
+  "method": "ISNUMBER guards for undefined metrics; no IFERROR was added. Invalid zero pricing/coverage is stopped by validation."
+}

@@ -1,0 +1,295 @@
+{
+  "status": "PASS",
+  "tests": [
+    {
+      "test": "Bank_Limit35",
+      "status": "PASS",
+      "changes": [
+        [
+          "DASH 03 V06",
+          "H31",
+          35000000
+        ]
+      ],
+      "npv": -12757616.7542706,
+      "irr": 0.057532889503096,
+      "moic": 2.11420429702361,
+      "capex": 63168000.0,
+      "peak_debt": 17723210.9002821,
+      "liquidity": 0.0,
+      "rate": 0.12,
+      "investor_npv": -12757616.7542706,
+      "matrix_points_verified": 0,
+      "errors": 0,
+      "base_reference_unchanged": true
+    },
+    {
+      "test": "Bank_Draw36",
+      "status": "PASS",
+      "changes": [
+        [
+          "DASH 01 V06",
+          "H23",
+          6
+        ],
+        [
+          "DASH 03 V06",
+          "H27",
+          36
+        ]
+      ],
+      "npv": -13101116.3617832,
+      "irr": 0.055073863906945,
+      "moic": 2.04915514050022,
+      "capex": 63168000.00000003,
+      "peak_debt": 12293910.0558955,
+      "liquidity": 0.0,
+      "rate": 0.12,
+      "investor_npv": -13101116.3617832,
+      "matrix_points_verified": 0,
+      "errors": 0,
+      "base_reference_unchanged": true
+    },
+    {
+      "test": "Bank_Bullet",
+      "status": "PASS",
+      "changes": [
+        [
+          "DASH 03 V06",
+          "H29",
+          "Bullet"
+        ],
+        [
+          "DASH 03 V06",
+          "N25",
+          0
+        ]
+      ],
+      "npv": -15473560.5165682,
+      "irr": 0.0466609208925382,
+      "moic": 1.96194322214156,
+      "capex": 63168000.0,
+      "peak_debt": 17532475.2820275,
+      "liquidity": 0.0,
+      "rate": 0.12,
+      "investor_npv": -15473560.5165682,
+      "matrix_points_verified": 0,
+      "errors": 0,
+      "base_reference_unchanged": true
+    },
+    {
+      "test": "Bank_Interest",
+      "status": "PASS",
+      "changes": [
+        [
+          "DASH 03 V06",
+          "H23",
+          0.08
+        ]
+      ],
+      "npv": -12762942.3849918,
+      "irr": 0.0574918997857585,
+      "moic": 2.11303828942513,
+      "capex": 63168000.0,
+      "peak_debt": 17685678.4971925,
+      "liquidity": 0.0,
+      "rate": 0.12,
+      "investor_npv": -12762942.3849918,
+      "matrix_points_verified": 0,
+      "errors": 0,
+      "base_reference_unchanged": true
+    },
+    {
+      "test": "Bank_Term",
+      "status": "PASS",
+      "changes": [
+        [
+          "DASH 03 V06",
+          "H25",
+          132
+        ]
+      ],
+      "npv": -12742848.2445606,
+      "irr": 0.0576464356516757,
+      "moic": 2.11743775338615,
+      "capex": 63168000.0,
+      "peak_debt": 17528049.0570992,
+      "liquidity": 0.0,
+      "rate": 0.12,
+      "investor_npv": -12742848.2445606,
+      "matrix_points_verified": 0,
+      "errors": 0,
+      "base_reference_unchanged": true
+    },
+    {
+      "test": "Bank_Grace",
+      "status": "PASS",
+      "changes": [
+        [
+          "DASH 03 V06",
+          "N23",
+          48
+        ]
+      ],
+      "npv": -12742848.2445606,
+      "irr": 0.0576464356516757,
+      "moic": 2.11743775338615,
+      "capex": 63168000.0,
+      "peak_debt": 17528049.0570992,
+      "liquidity": 0.0,
+      "rate": 0.12,
+      "investor_npv": -12742848.2445606,
+      "matrix_points_verified": 0,
+      "errors": 0,
+      "base_reference_unchanged": true
+    },
+    {
+      "test": "Res_Fees",
+      "status": "PASS",
+      "changes": [
+        [
+          "DASH 04B V06",
+          "H23",
+          "KK Optimized Terms"
+        ]
+      ],
+      "npv": -12682007.6664385,
+      "irr": 0.0580004134809906,
+      "moic": 2.12547524508839,
+      "capex": 63168000.0,
+      "peak_debt": 17528049.0570992,
+      "liquidity": 0.0,
+      "rate": 0.12,
+      "investor_npv": -12682007.6664385,
+      "matrix_points_verified": 0,
+      "errors": 0,
+      "base_reference_unchanged": true
+    },
+    {
+      "test": "Capital_Delay",
+      "status": "PASS",
+      "changes": [
+        [
+          "DASH 06 V06",
+          "H23",
+          3
+        ]
+      ],
+      "npv": -12085262.9969065,
+      "irr": 0.0585933512550505,
+      "moic": 2.1117540935025,
+      "capex": 63168000.0,
+      "peak_debt": 17885084.0046427,
+      "liquidity": -1441024.09482077,
+      "rate": 0.12,
+      "investor_npv": -12085262.9969065,
+      "matrix_points_verified": 0,
+      "errors": 0,
+      "base_reference_unchanged": true
+    },
+    {
+      "test": "Capital_Fraction",
+      "status": "PASS",
+      "changes": [
+        [
+          "DASH 06 V06",
+          "N23",
+          0.8
+        ]
+      ],
+      "npv": -10228876.2464268,
+      "irr": 0.0654703884268457,
+      "moic": 2.55799261028557,
+      "capex": 63168000.0,
+      "peak_debt": 22774421.0346975,
+      "liquidity": -4347169.77789709,
+      "rate": 0.12,
+      "investor_npv": -10228876.2464268,
+      "matrix_points_verified": 0,
+      "errors": 0,
+      "base_reference_unchanged": true
+    },
+    {
+      "test": "Bank_Reference",
+      "status": "PASS",
+      "changes": [
+        [
+          "DASH 03 V06",
+          "H29",
+          "Bullet"
+        ],
+        [
+          "DASH 03 V06",
+          "H27",
+          42
+        ],
+        [
+          "DASH 03 V06",
+          "H31",
+          35000000
+        ],
+        [
+          "EXEC V06",
+          "H23",
+          "Reference"
+        ]
+      ],
+      "npv": -12742848.2445606,
+      "irr": 0.0576464356516757,
+      "moic": 2.11743775338615,
+      "capex": 63168000.0,
+      "peak_debt": 17528049.0570992,
+      "liquidity": 0.0,
+      "rate": 0.12,
+      "investor_npv": -12742848.2445606,
+      "matrix_points_verified": 0,
+      "errors": 0,
+      "base_reference_unchanged": true
+    },
+    {
+      "test": "Matrix_Chapter",
+      "status": "PASS",
+      "changes": [
+        [
+          "DASH 01 V06",
+          "N194",
+          0.1
+        ]
+      ],
+      "npv": -12754480.4534809,
+      "irr": 0.0575570176700966,
+      "moic": 2.11489096696813,
+      "capex": 63294336.0,
+      "peak_debt": 17659958.4785181,
+      "liquidity": 0.0,
+      "rate": 0.12,
+      "investor_npv": -12754480.4534809,
+      "matrix_points_verified": 20,
+      "errors": 0,
+      "base_reference_unchanged": true
+    },
+    {
+      "test": "Matrix_Pricing",
+      "status": "PASS",
+      "changes": [
+        [
+          "DASH 04A V06",
+          "H25",
+          "Favorable"
+        ]
+      ],
+      "npv": -12553168.3852167,
+      "irr": 0.0594136490168189,
+      "moic": 2.17486911152894,
+      "capex": 63168000.0,
+      "peak_debt": 15013620.1992922,
+      "liquidity": 0.0,
+      "rate": 0.12,
+      "investor_npv": -12553168.3852167,
+      "matrix_points_verified": 20,
+      "errors": 0,
+      "base_reference_unchanged": true
+    }
+  ],
+  "native_excel365": "NOT TESTED"
+}

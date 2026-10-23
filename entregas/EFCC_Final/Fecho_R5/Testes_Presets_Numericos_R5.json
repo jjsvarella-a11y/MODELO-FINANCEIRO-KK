@@ -1,0 +1,72 @@
+{
+  "status": "PASS",
+  "tests": [
+    {
+      "test": "Discount_Numeric8",
+      "status": "PASS",
+      "changes": [
+        [
+          "DASH 07 V06",
+          "H29",
+          0.08
+        ]
+      ],
+      "npv": -5880828.34223307,
+      "irr": 0.0576464356516757,
+      "moic": 2.11743775338615,
+      "capex": 63168000.0,
+      "peak_debt": 17528049.0570992,
+      "liquidity": 0.0,
+      "rate": 0.08,
+      "investor_npv": -5880828.34223307,
+      "matrix_points_verified": 20,
+      "errors": 0,
+      "base_reference_unchanged": true
+    },
+    {
+      "test": "Discount_Numeric10",
+      "status": "PASS",
+      "changes": [
+        [
+          "DASH 07 V06",
+          "H29",
+          0.1
+        ]
+      ],
+      "npv": -9781772.03944352,
+      "irr": 0.0576464356516757,
+      "moic": 2.11743775338615,
+      "capex": 63168000.0,
+      "peak_debt": 17528049.0570992,
+      "liquidity": 0.0,
+      "rate": 0.1,
+      "investor_npv": -9781772.03944352,
+      "matrix_points_verified": 0,
+      "errors": 0,
+      "base_reference_unchanged": true
+    },
+    {
+      "test": "Preset_Numeric12",
+      "status": "PASS",
+      "changes": [
+        [
+          "DASH 07 V06",
+          "H29",
+          0.12
+        ]
+      ],
+      "npv": -12742848.2445606,
+      "irr": 0.0576464356516757,
+      "moic": 2.11743775338615,
+      "capex": 63168000.0,
+      "peak_debt": 17528049.0570992,
+      "liquidity": 0.0,
+      "rate": 0.12,
+      "investor_npv": -12742848.2445606,
+      "matrix_points_verified": 0,
+      "errors": 0,
+      "base_reference_unchanged": true
+    }
+  ],
+  "native_excel365": "NOT TESTED"
+}

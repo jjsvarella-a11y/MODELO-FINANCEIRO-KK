@@ -1,0 +1,72 @@
+{
+  "status": "PASS",
+  "tests": [
+    {
+      "test": "Promoter_Final",
+      "status": "PASS",
+      "errors": 0,
+      "npv": -12742848.2445606,
+      "irr": 0.0576464356516757,
+      "changes": [
+        [
+          "DASH 06 V06",
+          "H27",
+          "Promoters"
+        ],
+        [
+          "DASH 07 V06",
+          "H33",
+          "Promoters"
+        ]
+      ]
+    },
+    {
+      "test": "ETC_200M",
+      "status": "PASS",
+      "errors": 0,
+      "npv": -24469487.464049,
+      "irr": "N/A",
+      "changes": [
+        [
+          "DASH 01 V06",
+          "H25",
+          200000000
+        ]
+      ]
+    },
+    {
+      "test": "Bank_Zero",
+      "status": "PASS",
+      "errors": 0,
+      "npv": -14494656.6715847,
+      "irr": 0.054157089020058,
+      "changes": [
+        [
+          "DASH 03 V06",
+          "H31",
+          0
+        ]
+      ]
+    },
+    {
+      "test": "Pricing_Min",
+      "status": "PASS",
+      "errors": 0,
+      "npv": -17950523.1521695,
+      "irr": 0.0243128790456695,
+      "changes": [
+        [
+          "DASH 04A V06",
+          "H25",
+          "Custom"
+        ],
+        [
+          "DASH 04A V06",
+          "N25",
+          0.01
+        ]
+      ]
+    }
+  ],
+  "native_excel365": "NOT TESTED"
+}

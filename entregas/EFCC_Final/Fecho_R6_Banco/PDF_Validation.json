@@ -1,0 +1,342 @@
+[
+  {
+    "language": "PT",
+    "platform": "LibreOffice export",
+    "native_excel365": "NOT TESTED",
+    "pages": [
+      {
+        "document": "Dashboards",
+        "page": 1,
+        "width": 1190.5511474609375,
+        "height": 841.8897705078125,
+        "text_chars": 1015
+      },
+      {
+        "document": "Dashboards",
+        "page": 2,
+        "width": 1190.5511474609375,
+        "height": 841.8897705078125,
+        "text_chars": 1136
+      },
+      {
+        "document": "Dashboards",
+        "page": 3,
+        "width": 1190.5511474609375,
+        "height": 841.8897705078125,
+        "text_chars": 1024
+      },
+      {
+        "document": "Dashboards",
+        "page": 4,
+        "width": 1190.5511474609375,
+        "height": 841.8897705078125,
+        "text_chars": 1137
+      },
+      {
+        "document": "Dashboards",
+        "page": 5,
+        "width": 1190.5511474609375,
+        "height": 841.8897705078125,
+        "text_chars": 1108
+      },
+      {
+        "document": "Dashboards",
+        "page": 6,
+        "width": 1190.5511474609375,
+        "height": 841.8897705078125,
+        "text_chars": 1119
+      },
+      {
+        "document": "Dashboards",
+        "page": 7,
+        "width": 1190.5511474609375,
+        "height": 841.8897705078125,
+        "text_chars": 1832
+      },
+      {
+        "document": "Dashboards",
+        "page": 8,
+        "width": 1190.5511474609375,
+        "height": 841.8897705078125,
+        "text_chars": 1331
+      },
+      {
+        "document": "Dashboards",
+        "page": 9,
+        "width": 1190.5511474609375,
+        "height": 841.8897705078125,
+        "text_chars": 1462
+      },
+      {
+        "document": "DASH_10",
+        "page": 1,
+        "width": 595.303955078125,
+        "height": 841.8897705078125,
+        "text_chars": 1160
+      },
+      {
+        "document": "DASH_10",
+        "page": 2,
+        "width": 595.303955078125,
+        "height": 841.8897705078125,
+        "text_chars": 1006
+      },
+      {
+        "document": "DASH_10",
+        "page": 3,
+        "width": 595.303955078125,
+        "height": 841.8897705078125,
+        "text_chars": 999
+      },
+      {
+        "document": "DASH_10",
+        "page": 4,
+        "width": 595.303955078125,
+        "height": 841.8897705078125,
+        "text_chars": 979
+      },
+      {
+        "document": "DASH_10",
+        "page": 5,
+        "width": 595.303955078125,
+        "height": 841.8897705078125,
+        "text_chars": 944
+      },
+      {
+        "document": "DASH_10",
+        "page": 6,
+        "width": 595.303955078125,
+        "height": 841.8897705078125,
+        "text_chars": 940
+      },
+      {
+        "document": "DASH_10",
+        "page": 7,
+        "width": 595.303955078125,
+        "height": 841.8897705078125,
+        "text_chars": 929
+      },
+      {
+        "document": "DASH_10",
+        "page": 8,
+        "width": 595.303955078125,
+        "height": 841.8897705078125,
+        "text_chars": 897
+      },
+      {
+        "document": "DASH_10",
+        "page": 9,
+        "width": 595.303955078125,
+        "height": 841.8897705078125,
+        "text_chars": 1668
+      },
+      {
+        "document": "DASH_10",
+        "page": 10,
+        "width": 595.303955078125,
+        "height": 841.8897705078125,
+        "text_chars": 1386
+      },
+      {
+        "document": "Executive_Brief",
+        "page": 1,
+        "width": 595.303955078125,
+        "height": 841.8897705078125,
+        "text_chars": 1026
+      },
+      {
+        "document": "Executive_Brief",
+        "page": 2,
+        "width": 595.303955078125,
+        "height": 841.8897705078125,
+        "text_chars": 1223
+      },
+      {
+        "document": "Budget_Appendix",
+        "page": 1,
+        "width": 1190.5511474609375,
+        "height": 841.8897705078125,
+        "text_chars": 1935
+      },
+      {
+        "document": "Budget_Appendix",
+        "page": 2,
+        "width": 1190.5511474609375,
+        "height": 841.8897705078125,
+        "text_chars": 589
+      }
+    ],
+    "budget_includes_appendix": true,
+    "matrix_values_verified": 20
+  },
+  {
+    "language": "EN",
+    "platform": "LibreOffice export",
+    "native_excel365": "NOT TESTED",
+    "pages": [
+      {
+        "document": "Dashboards",
+        "page": 1,
+        "width": 1190.5511474609375,
+        "height": 841.8897705078125,
+        "text_chars": 940
+      },
+      {
+        "document": "Dashboards",
+        "page": 2,
+        "width": 1190.5511474609375,
+        "height": 841.8897705078125,
+        "text_chars": 1080
+      },
+      {
+        "document": "Dashboards",
+        "page": 3,
+        "width": 1190.5511474609375,
+        "height": 841.8897705078125,
+        "text_chars": 1015
+      },
+      {
+        "document": "Dashboards",
+        "page": 4,
+        "width": 1190.5511474609375,
+        "height": 841.8897705078125,
+        "text_chars": 1039
+      },
+      {
+        "document": "Dashboards",
+        "page": 5,
+        "width": 1190.5511474609375,
+        "height": 841.8897705078125,
+        "text_chars": 1062
+      },
+      {
+        "document": "Dashboards",
+        "page": 6,
+        "width": 1190.5511474609375,
+        "height": 841.8897705078125,
+        "text_chars": 1081
+      },
+      {
+        "document": "Dashboards",
+        "page": 7,
+        "width": 1190.5511474609375,
+        "height": 841.8897705078125,
+        "text_chars": 1766
+      },
+      {
+        "document": "Dashboards",
+        "page": 8,
+        "width": 1190.5511474609375,
+        "height": 841.8897705078125,
+        "text_chars": 1216
+      },
+      {
+        "document": "Dashboards",
+        "page": 9,
+        "width": 1190.5511474609375,
+        "height": 841.8897705078125,
+        "text_chars": 1338
+      },
+      {
+        "document": "DASH_10",
+        "page": 1,
+        "width": 595.303955078125,
+        "height": 841.8897705078125,
+        "text_chars": 1083
+      },
+      {
+        "document": "DASH_10",
+        "page": 2,
+        "width": 595.303955078125,
+        "height": 841.8897705078125,
+        "text_chars": 947
+      },
+      {
+        "document": "DASH_10",
+        "page": 3,
+        "width": 595.303955078125,
+        "height": 841.8897705078125,
+        "text_chars": 936
+      },
+      {
+        "document": "DASH_10",
+        "page": 4,
+        "width": 595.303955078125,
+        "height": 841.8897705078125,
+        "text_chars": 967
+      },
+      {
+        "document": "DASH_10",
+        "page": 5,
+        "width": 595.303955078125,
+        "height": 841.8897705078125,
+        "text_chars": 940
+      },
+      {
+        "document": "DASH_10",
+        "page": 6,
+        "width": 595.303955078125,
+        "height": 841.8897705078125,
+        "text_chars": 923
+      },
+      {
+        "document": "DASH_10",
+        "page": 7,
+        "width": 595.303955078125,
+        "height": 841.8897705078125,
+        "text_chars": 933
+      },
+      {
+        "document": "DASH_10",
+        "page": 8,
+        "width": 595.303955078125,
+        "height": 841.8897705078125,
+        "text_chars": 842
+      },
+      {
+        "document": "DASH_10",
+        "page": 9,
+        "width": 595.303955078125,
+        "height": 841.8897705078125,
+        "text_chars": 1629
+      },
+      {
+        "document": "DASH_10",
+        "page": 10,
+        "width": 595.303955078125,
+        "height": 841.8897705078125,
+        "text_chars": 1285
+      },
+      {
+        "document": "Executive_Brief",
+        "page": 1,
+        "width": 595.303955078125,
+        "height": 841.8897705078125,
+        "text_chars": 959
+      },
+      {
+        "document": "Executive_Brief",
+        "page": 2,
+        "width": 595.303955078125,
+        "height": 841.8897705078125,
+        "text_chars": 1170
+      },
+      {
+        "document": "Budget_Appendix",
+        "page": 1,
+        "width": 1190.5511474609375,
+        "height": 841.8897705078125,
+        "text_chars": 1931
+      },
+      {
+        "document": "Budget_Appendix",
+        "page": 2,
+        "width": 1190.5511474609375,
+        "height": 841.8897705078125,
+        "text_chars": 589
+      }
+    ],
+    "budget_includes_appendix": true,
+    "matrix_values_verified": 20
+  }
+]

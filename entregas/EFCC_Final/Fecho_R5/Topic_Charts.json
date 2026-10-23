@@ -1,0 +1,67 @@
+{
+  "status": "APPLIED",
+  "charts": [
+    {
+      "dashboard": "DASH 01 V06",
+      "target_chart": "xl/charts/chart53.xml",
+      "source_chart": "xl/charts/chart59.xml"
+    },
+    {
+      "dashboard": "DASH 01 V06",
+      "target_chart": "xl/charts/chart54.xml",
+      "source_chart": "xl/charts/chart60.xml"
+    },
+    {
+      "dashboard": "DASH 01 V06",
+      "target_chart": "xl/charts/chart55.xml",
+      "source_chart": "xl/charts/chart61.xml"
+    },
+    {
+      "dashboard": "DASH 03 V06",
+      "target_chart": "xl/charts/chart33.xml",
+      "source_chart": "xl/charts/chart62.xml"
+    },
+    {
+      "dashboard": "DASH 03 V06",
+      "target_chart": "xl/charts/chart34.xml",
+      "source_chart": "xl/charts/chart63.xml"
+    },
+    {
+      "dashboard": "DASH 03 V06",
+      "target_chart": "xl/charts/chart35.xml",
+      "source_chart": "xl/charts/chart64.xml"
+    },
+    {
+      "dashboard": "DASH 06 V06",
+      "target_chart": "xl/charts/chart46.xml",
+      "source_chart": "xl/charts/chart66.xml"
+    },
+    {
+      "dashboard": "DASH 06 V06",
+      "target_chart": "xl/charts/chart47.xml",
+      "source_chart": "xl/charts/chart67.xml"
+    },
+    {
+      "dashboard": "DASH 06 V06",
+      "target_chart": "xl/charts/chart48.xml",
+      "source_chart": "xl/charts/chart68.xml"
+    },
+    {
+      "dashboard": "DASH 04A V06",
+      "target_chart": "xl/charts/chart36.xml",
+      "source_chart": "xl/charts/chart69.xml"
+    },
+    {
+      "dashboard": "DASH 04A V06",
+      "target_chart": "xl/charts/chart37.xml",
+      "source_chart": "xl/charts/chart70.xml"
+    },
+    {
+      "dashboard": "DASH 04A V06",
+      "target_chart": "xl/charts/chart38.xml",
+      "source_chart": "xl/charts/chart71.xml"
+    }
+  ],
+  "Hotel_drawing_preserved": true,
+  "additional_cash_chart": 1
+}

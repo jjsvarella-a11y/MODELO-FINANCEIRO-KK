@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "monthly_comparisons": 1713600,
+  "max_difference": 1.0477378964424133e-09,
+  "npv": -12742848.2445606,
+  "irr": 0.0576464356516757,
+  "formula_errors": 0,
+  "native_excel365": "NOT TESTED"
+}

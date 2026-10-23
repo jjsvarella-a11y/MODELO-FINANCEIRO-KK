@@ -1,0 +1,10 @@
+{
+  "annual_rate": "V06 Registo Ativo!B65",
+  "selector": "DASH 07 V06!H29",
+  "custom": "DASH 07 V06!N25, only when Custom is selected",
+  "native_numeric_percent": "Numeric values such as 0.08 and 0.10 are accepted directly, as well as text 8% / 10% / 12%.",
+  "monthly_conversion": "(1+annual)^(1/12)-1",
+  "cashflows": "V06 F01!B6:B185 plus month-zero B5; all matrix point cashflows use the same annual rate",
+  "IRR": "Independent of the discount rate",
+  "native_excel365": "NOT TESTED"
+}

@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "engine_sheets": 69,
+  "monthly_numeric_comparisons": 1738800,
+  "maximum_difference": 0,
+  "npv": -12742848.2445606,
+  "irr": 0.0576464356516757,
+  "new_investor_selected_npv": -12742848.2445606,
+  "native_excel365": "NOT TESTED"
+}
