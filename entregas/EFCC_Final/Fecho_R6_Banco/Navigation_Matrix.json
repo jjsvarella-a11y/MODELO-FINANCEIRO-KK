@@ -567,6 +567,13 @@
     "excel365_native": "NOT TESTED"
   },
   {
+    "origin": "EXEC V06!Q40",
+    "destination": "EXEC V06!E650",
+    "type": "native internal hyperlink",
+    "result": "PASS (structural)",
+    "excel365_native": "NOT TESTED"
+  },
+  {
     "origin": "EXEC V06!B54",
     "destination": "DASH 04B V06!A1",
     "type": "native internal hyperlink",
@@ -938,6 +945,13 @@
     "excel365_native": "NOT TESTED"
   },
   {
+    "origin": "DASH 01 V06!Q40",
+    "destination": "DASH 01 V06!E650",
+    "type": "native internal hyperlink",
+    "result": "PASS (structural)",
+    "excel365_native": "NOT TESTED"
+  },
+  {
     "origin": "DASH 01 V06!B54",
     "destination": "DASH 04B V06!A1",
     "type": "native internal hyperlink",
@@ -1304,6 +1318,13 @@
   {
     "origin": "DASH 02 V06!C38",
     "destination": "DASH 04A V06!A1",
+    "type": "native internal hyperlink",
+    "result": "PASS (structural)",
+    "excel365_native": "NOT TESTED"
+  },
+  {
+    "origin": "DASH 02 V06!Q40",
+    "destination": "DASH 02 V06!E650",
     "type": "native internal hyperlink",
     "result": "PASS (structural)",
     "excel365_native": "NOT TESTED"
@@ -1689,6 +1710,13 @@
   {
     "origin": "DASH 03 V06!E38",
     "destination": "DASH 03 V06!E190",
+    "type": "native internal hyperlink",
+    "result": "PASS (structural)",
+    "excel365_native": "NOT TESTED"
+  },
+  {
+    "origin": "DASH 03 V06!Q40",
+    "destination": "DASH 03 V06!E650",
     "type": "native internal hyperlink",
     "result": "PASS (structural)",
     "excel365_native": "NOT TESTED"
@@ -2086,6 +2114,13 @@
     "excel365_native": "NOT TESTED"
   },
   {
+    "origin": "DASH 04A V06!Q40",
+    "destination": "DASH 04A V06!E650",
+    "type": "native internal hyperlink",
+    "result": "PASS (structural)",
+    "excel365_native": "NOT TESTED"
+  },
+  {
     "origin": "DASH 04A V06!B54",
     "destination": "DASH 04B V06!A1",
     "type": "native internal hyperlink",
@@ -2445,6 +2480,13 @@
   {
     "origin": "DASH 04B V06!C38",
     "destination": "DASH 04A V06!A1",
+    "type": "native internal hyperlink",
+    "result": "PASS (structural)",
+    "excel365_native": "NOT TESTED"
+  },
+  {
+    "origin": "DASH 04B V06!Q40",
+    "destination": "DASH 04B V06!E650",
     "type": "native internal hyperlink",
     "result": "PASS (structural)",
     "excel365_native": "NOT TESTED"
@@ -2814,6 +2856,13 @@
     "excel365_native": "NOT TESTED"
   },
   {
+    "origin": "DASH 05 V06!Q40",
+    "destination": "DASH 05 V06!E650",
+    "type": "native internal hyperlink",
+    "result": "PASS (structural)",
+    "excel365_native": "NOT TESTED"
+  },
+  {
     "origin": "DASH 05 V06!B54",
     "destination": "DASH 04B V06!A1",
     "type": "native internal hyperlink",
@@ -3178,6 +3227,13 @@
     "excel365_native": "NOT TESTED"
   },
   {
+    "origin": "DASH 06 V06!Q40",
+    "destination": "DASH 06 V06!E650",
+    "type": "native internal hyperlink",
+    "result": "PASS (structural)",
+    "excel365_native": "NOT TESTED"
+  },
+  {
     "origin": "DASH 06 V06!B54",
     "destination": "DASH 04B V06!A1",
     "type": "native internal hyperlink",
@@ -3523,6 +3579,13 @@
   {
     "origin": "DASH 07 V06!C38",
     "destination": "DASH 04A V06!A1",
+    "type": "native internal hyperlink",
+    "result": "PASS (structural)",
+    "excel365_native": "NOT TESTED"
+  },
+  {
+    "origin": "DASH 07 V06!Q40",
+    "destination": "DASH 07 V06!E650",
     "type": "native internal hyperlink",
     "result": "PASS (structural)",
     "excel365_native": "NOT TESTED"
@@ -3929,6 +3992,13 @@
   {
     "origin": "DASH 10 Centro!C39",
     "destination": "DASH 07 V06!A1",
+    "type": "native internal hyperlink",
+    "result": "PASS (structural)",
+    "excel365_native": "NOT TESTED"
+  },
+  {
+    "origin": "DASH 10 Centro!Q40",
+    "destination": "DASH 10 Centro!E650",
     "type": "native internal hyperlink",
     "result": "PASS (structural)",
     "excel365_native": "NOT TESTED"

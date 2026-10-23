@@ -80,6 +80,7 @@ EXEC V06!K35,DASH 05 V06!N23,native internal hyperlink,PASS (structural),NOT TES
 EXEC V06!Q35,EXEC V06!H23,native internal hyperlink,PASS (structural),NOT TESTED
 EXEC V06!B38,DASH 04A V06!A1,native internal hyperlink,PASS (structural),NOT TESTED
 EXEC V06!C38,DASH 04A V06!A1,native internal hyperlink,PASS (structural),NOT TESTED
+EXEC V06!Q40,EXEC V06!E650,native internal hyperlink,PASS (structural),NOT TESTED
 EXEC V06!B54,DASH 04B V06!A1,native internal hyperlink,PASS (structural),NOT TESTED
 EXEC V06!C54,DASH 04B V06!A1,native internal hyperlink,PASS (structural),NOT TESTED
 EXEC V06!B58,DASH 05 V06!A1,native internal hyperlink,PASS (structural),NOT TESTED
@@ -133,6 +134,7 @@ DASH 01 V06!K37,V06 Dicionario!A4,native internal hyperlink,PASS (structural),NO
 DASH 01 V06!B38,DASH 04A V06!A1,native internal hyperlink,PASS (structural),NOT TESTED
 DASH 01 V06!C38,DASH 04A V06!A1,native internal hyperlink,PASS (structural),NOT TESTED
 DASH 01 V06!E38,DASH 01 V06!E190,native internal hyperlink,PASS (structural),NOT TESTED
+DASH 01 V06!Q40,DASH 01 V06!E650,native internal hyperlink,PASS (structural),NOT TESTED
 DASH 01 V06!B54,DASH 04B V06!A1,native internal hyperlink,PASS (structural),NOT TESTED
 DASH 01 V06!C54,DASH 04B V06!A1,native internal hyperlink,PASS (structural),NOT TESTED
 DASH 01 V06!B58,DASH 05 V06!A1,native internal hyperlink,PASS (structural),NOT TESTED
@@ -186,6 +188,7 @@ DASH 02 V06!E37,V06 Controlos!A4,native internal hyperlink,PASS (structural),NOT
 DASH 02 V06!K37,V06 Dicionario!A4,native internal hyperlink,PASS (structural),NOT TESTED
 DASH 02 V06!B38,DASH 04A V06!A1,native internal hyperlink,PASS (structural),NOT TESTED
 DASH 02 V06!C38,DASH 04A V06!A1,native internal hyperlink,PASS (structural),NOT TESTED
+DASH 02 V06!Q40,DASH 02 V06!E650,native internal hyperlink,PASS (structural),NOT TESTED
 DASH 02 V06!B54,DASH 04B V06!A1,native internal hyperlink,PASS (structural),NOT TESTED
 DASH 02 V06!C54,DASH 04B V06!A1,native internal hyperlink,PASS (structural),NOT TESTED
 DASH 02 V06!B58,DASH 05 V06!A1,native internal hyperlink,PASS (structural),NOT TESTED
@@ -241,6 +244,7 @@ DASH 03 V06!Q35,EXEC V06!H23,native internal hyperlink,PASS (structural),NOT TES
 DASH 03 V06!B38,DASH 04A V06!A1,native internal hyperlink,PASS (structural),NOT TESTED
 DASH 03 V06!C38,DASH 04A V06!A1,native internal hyperlink,PASS (structural),NOT TESTED
 DASH 03 V06!E38,DASH 03 V06!E190,native internal hyperlink,PASS (structural),NOT TESTED
+DASH 03 V06!Q40,DASH 03 V06!E650,native internal hyperlink,PASS (structural),NOT TESTED
 DASH 03 V06!B54,DASH 04B V06!A1,native internal hyperlink,PASS (structural),NOT TESTED
 DASH 03 V06!C54,DASH 04B V06!A1,native internal hyperlink,PASS (structural),NOT TESTED
 DASH 03 V06!B58,DASH 05 V06!A1,native internal hyperlink,PASS (structural),NOT TESTED
@@ -297,6 +301,7 @@ DASH 04A V06!E37,V06 Disponibilidade!A4,native internal hyperlink,PASS (structur
 DASH 04A V06!K37,V06 Dicionario!A4,native internal hyperlink,PASS (structural),NOT TESTED
 DASH 04A V06!B38,DASH 04A V06!A1,native internal hyperlink,PASS (structural),NOT TESTED
 DASH 04A V06!C38,DASH 04A V06!A1,native internal hyperlink,PASS (structural),NOT TESTED
+DASH 04A V06!Q40,DASH 04A V06!E650,native internal hyperlink,PASS (structural),NOT TESTED
 DASH 04A V06!B54,DASH 04B V06!A1,native internal hyperlink,PASS (structural),NOT TESTED
 DASH 04A V06!C54,DASH 04B V06!A1,native internal hyperlink,PASS (structural),NOT TESTED
 DASH 04A V06!B58,DASH 05 V06!A1,native internal hyperlink,PASS (structural),NOT TESTED
@@ -349,6 +354,7 @@ DASH 04B V06!E37,V06 Operacao!A4,native internal hyperlink,PASS (structural),NOT
 DASH 04B V06!K37,V06 Dicionario!A4,native internal hyperlink,PASS (structural),NOT TESTED
 DASH 04B V06!B38,DASH 04A V06!A1,native internal hyperlink,PASS (structural),NOT TESTED
 DASH 04B V06!C38,DASH 04A V06!A1,native internal hyperlink,PASS (structural),NOT TESTED
+DASH 04B V06!Q40,DASH 04B V06!E650,native internal hyperlink,PASS (structural),NOT TESTED
 DASH 04B V06!B54,DASH 04B V06!A1,native internal hyperlink,PASS (structural),NOT TESTED
 DASH 04B V06!C54,DASH 04B V06!A1,native internal hyperlink,PASS (structural),NOT TESTED
 DASH 04B V06!B58,DASH 05 V06!A1,native internal hyperlink,PASS (structural),NOT TESTED
@@ -401,6 +407,7 @@ DASH 05 V06!B38,DASH 04A V06!A1,native internal hyperlink,PASS (structural),NOT 
 DASH 05 V06!C38,DASH 04A V06!A1,native internal hyperlink,PASS (structural),NOT TESTED
 DASH 05 V06!E38,V06 Matriz ADR!B3,native internal hyperlink,PASS (structural),NOT TESTED
 DASH 05 V06!K38,V06 Operacao!A4,native internal hyperlink,PASS (structural),NOT TESTED
+DASH 05 V06!Q40,DASH 05 V06!E650,native internal hyperlink,PASS (structural),NOT TESTED
 DASH 05 V06!B54,DASH 04B V06!A1,native internal hyperlink,PASS (structural),NOT TESTED
 DASH 05 V06!C54,DASH 04B V06!A1,native internal hyperlink,PASS (structural),NOT TESTED
 DASH 05 V06!B58,DASH 05 V06!A1,native internal hyperlink,PASS (structural),NOT TESTED
@@ -453,6 +460,7 @@ DASH 06 V06!E37,V06 Blocos!A4,native internal hyperlink,PASS (structural),NOT TE
 DASH 06 V06!K37,V06 Dicionario!A4,native internal hyperlink,PASS (structural),NOT TESTED
 DASH 06 V06!B38,DASH 04A V06!A1,native internal hyperlink,PASS (structural),NOT TESTED
 DASH 06 V06!C38,DASH 04A V06!A1,native internal hyperlink,PASS (structural),NOT TESTED
+DASH 06 V06!Q40,DASH 06 V06!E650,native internal hyperlink,PASS (structural),NOT TESTED
 DASH 06 V06!B54,DASH 04B V06!A1,native internal hyperlink,PASS (structural),NOT TESTED
 DASH 06 V06!C54,DASH 04B V06!A1,native internal hyperlink,PASS (structural),NOT TESTED
 DASH 06 V06!B58,DASH 05 V06!A1,native internal hyperlink,PASS (structural),NOT TESTED
@@ -503,6 +511,7 @@ DASH 07 V06!C34,DASH 03 V06!A1,native internal hyperlink,PASS (structural),NOT T
 DASH 07 V06!Q35,EXEC V06!H23,native internal hyperlink,PASS (structural),NOT TESTED
 DASH 07 V06!B38,DASH 04A V06!A1,native internal hyperlink,PASS (structural),NOT TESTED
 DASH 07 V06!C38,DASH 04A V06!A1,native internal hyperlink,PASS (structural),NOT TESTED
+DASH 07 V06!Q40,DASH 07 V06!E650,native internal hyperlink,PASS (structural),NOT TESTED
 DASH 07 V06!B54,DASH 04B V06!A1,native internal hyperlink,PASS (structural),NOT TESTED
 DASH 07 V06!C54,DASH 04B V06!A1,native internal hyperlink,PASS (structural),NOT TESTED
 DASH 07 V06!B58,DASH 05 V06!A1,native internal hyperlink,PASS (structural),NOT TESTED
@@ -561,6 +570,7 @@ DASH 10 Centro!Q35,EXEC V06!H23,native internal hyperlink,PASS (structural),NOT 
 DASH 10 Centro!E38,DASH 10 V06!A241,native internal hyperlink,PASS (structural),NOT TESTED
 DASH 10 Centro!B39,DASH 07 V06!A1,native internal hyperlink,PASS (structural),NOT TESTED
 DASH 10 Centro!C39,DASH 07 V06!A1,native internal hyperlink,PASS (structural),NOT TESTED
+DASH 10 Centro!Q40,DASH 10 Centro!E650,native internal hyperlink,PASS (structural),NOT TESTED
 DASH 10 Centro!E42,DASH 10 V06!A301,native internal hyperlink,PASS (structural),NOT TESTED
 DASH 10 Centro!B43,DASH 10 Centro!A1,native internal hyperlink,PASS (structural),NOT TESTED
 DASH 10 Centro!C43,DASH 10 Centro!A1,native internal hyperlink,PASS (structural),NOT TESTED

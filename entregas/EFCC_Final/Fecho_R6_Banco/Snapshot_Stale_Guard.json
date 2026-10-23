@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "case": "Unchanged",
+      "status": "PASS",
+      "comparison_message": "Snapshot v\u00e1lido \u00b7 KK01-BANK-20261023T175546Z",
+      "npv": -12737905.7044101
+    },
+    {
+      "case": "Changed",
+      "status": "PASS",
+      "comparison_message": "DESATUALIZADO \u2014 recalcular e emitir novamente",
+      "npv": -12762942.3849918
+    }
+  ],
+  "native_excel365": "NOT TESTED"
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "case": "selected",
+    "input_sha256": "541c6053ec3ad3a808f1b42d03a26ead002582d9b25486de4e3efb5c678eb909",
+    "calculated_sha256": "514804a54e125cb207e9de266327ff6f942c687f87a648df8b7c00bc7a0c60ca",
+    "reused_completed_full_recalculation": true,
+    "input_bitwise_match": true
+  },
+  {
+    "case": "comparison",
+    "input_sha256": "0f2c2c065dca0736ddc014f1a2aa6dc92682de7f1908b2846b55dcc23ff550d3",
+    "calculated_sha256": "f659a2a945c3f392059ee7db2b1206ac012fad5a9ccbc4a615ef52247c0d4e99",
+    "reused_completed_full_recalculation": true,
+    "input_bitwise_match": true
+  },
+  {
+    "case": "stress_1",
+    "input_sha256": "ab2ec0144f41be988967122ec0baf812c3dfbaa8d1a86558ae79c1ede8a6962f",
+    "calculated_sha256": "559b0ae500f98b33d2ad3d27c1f7203d43493638c673140b79652d1028b67391",
+    "reused_completed_full_recalculation": true,
+    "input_bitwise_match": true
+  },
+  {
+    "case": "stress_2",
+    "input_sha256": "11b8335b216799f4e03beb8b9b2b32ab5145e97293d20e76ba01e0371cf16d31",
+    "calculated_sha256": "2d4b3eafd5db762eb628458ad386c4d45a660494f58482157425d9bca7790858",
+    "reused_completed_full_recalculation": true,
+    "input_bitwise_match": true
+  },
+  {
+    "case": "stress_3",
+    "input_sha256": "b0b324423a6f86472cc6914c7b93ae647a753ed6fc899d5e4180d57ecb2cfbd0",
+    "calculated_sha256": "6c328e724ecec759f6a00b0e35b2dd801916785efdfce2e03eec69132ef86eb0",
+    "reused_completed_full_recalculation": false,
+    "input_bitwise_match": true
+  }
+]

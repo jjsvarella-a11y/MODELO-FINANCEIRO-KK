@@ -9,7 +9,7 @@ def stamp(snapshot,data,base):
  source=Source(snapshot);expected=[]
  for sn,addresses in [(DAT,['B'+str(P[x[0]]) for x in PARAMS]),(ACT,['B'+str(i) for i in range(5,5+len(INPUTS))]),('V06 Registo Ativo',['B65']),('V06 Cenarios',['M5','K5','F5','J5']),(BN,['H33','N33']),(CENTER,['H122'])]:
   for addr in addresses:
-   value=base['active_profile'] if sn==BN and addr=='N33' else source.get(sn,addr)[1];ref=q(sn,addr)
+   value=base['active_profile'] if sn==BN and addr=='N33' else source.get(sn,addr)[1];ref=q(sn,'$'+re.match('[A-Z]+',addr)[0]+'$'+re.search('[0-9]+',addr)[0])
    if isinstance(value,(int,float)):expr='ABS('+ref+'-('+str(value)+'))<'+str(max(1e-9,abs(value)*1e-12))
    elif isinstance(value,str):expr=ref+'="'+value.replace('"','""')+'"'
    else:continue

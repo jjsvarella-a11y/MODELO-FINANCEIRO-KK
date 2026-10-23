@@ -1,0 +1,22 @@
+{
+  "status": "PASS INDEPENDENT - CHECKPOINT",
+  "functional_steps": 89,
+  "stress_scenarios": 3,
+  "bank_matrix_points": 20,
+  "navigation_links": 972,
+  "selected_tabs": [
+    "EXEC V06"
+  ],
+  "pdf_documents": 30,
+  "formula_errors": 0,
+  "native_excel365": "NOT TESTED",
+  "hotel_graphics_byte_preserved": {
+    "xl/drawings/drawing7.xml": true,
+    "xl/charts/chart42.xml": true,
+    "xl/charts/chart44.xml": true,
+    "xl/charts/chart45.xml": true
+  },
+  "chart_parts_are_unique": true,
+  "workbook_sheets": 202,
+  "workbook_bytes": 63861346
+}

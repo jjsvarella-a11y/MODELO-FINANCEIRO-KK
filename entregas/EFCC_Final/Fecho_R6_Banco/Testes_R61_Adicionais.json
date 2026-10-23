@@ -1,0 +1,227 @@
+{
+  "status": "PASS",
+  "tests": [
+    {
+      "test": "FeesDefinition_0",
+      "status": "PASS",
+      "changes": [
+        [
+          "DASH 03 V06",
+          "H464",
+          10000
+        ],
+        [
+          "DASH 03 V06",
+          "N464",
+          1
+        ],
+        [
+          "DASH 03 V06",
+          "H27",
+          150
+        ],
+        [
+          "DASH 03 V06",
+          "N476",
+          0
+        ]
+      ],
+      "npv": -12835194.668011153,
+      "irr": 0.0568455502602478,
+      "metrics": {
+        "Maximum annual debt service": 470432.461316419,
+        "Minimum DSCR": 0.0,
+        "Peak outstanding debt": 17776313.4905664,
+        "Final debt repayment month": 30.0,
+        "Total interest paid": 780876.097053141,
+        "Total financing fees": 2625000.0,
+        "Total financing cost": 3405876.09705314,
+        "Effective annual financing cost": 0.283643875316346,
+        "Funding gap": 0.0,
+        "Minimum liquidity headroom": 0.0,
+        "Remaining non-revolving capacity": 8446728.55599111,
+        "New investor NPV": -12835194.6680113,
+        "New investor IRR": 0.0568455502602478,
+        "MOIC": 2.09322160306516,
+        "Exit equity value": 79321030.7454159,
+        "Cumulative dividends": 27150052.9369736,
+        "Interest accrued / due": 780876.097053141
+      },
+      "checks": {
+        "cash_max_error": 1.86264514923096e-09,
+        "debt_max_error": 0.0,
+        "matrix_errors": 0
+      }
+    },
+    {
+      "test": "InterestGrace_Excess",
+      "status": "PASS",
+      "changes": [
+        [
+          "DASH 03 V06",
+          "N456",
+          24
+        ],
+        [
+          "DASH 03 V06",
+          "H474",
+          "Excess cash"
+        ]
+      ],
+      "npv": -12742645.99637218,
+      "irr": 0.0576479893682638,
+      "metrics": {
+        "Maximum annual debt service": 320007.59771495,
+        "Minimum DSCR": -32.9098119463119,
+        "Peak outstanding debt": 17526305.919963,
+        "Final debt repayment month": 31.0,
+        "Total interest paid": 320007.59771495,
+        "Total financing fees": 1125000.0,
+        "Total financing cost": 1905432.48842798,
+        "Effective annual financing cost": 0.199404466869779,
+        "Funding gap": 0.0,
+        "Minimum liquidity headroom": 0.0,
+        "Remaining non-revolving capacity": 7153660.85029239,
+        "New investor NPV": -12742645.9963723,
+        "New investor IRR": 0.0576479893682638,
+        "MOIC": 2.11748203413649,
+        "Exit equity value": 80711385.632316,
+        "Cumulative dividends": 26960052.9369736,
+        "Interest accrued / due": 780432.488427981
+      },
+      "checks": {
+        "cash_max_error": 1.20053300634027e-10,
+        "debt_max_error": 8.44011083245277e-10,
+        "matrix_errors": 0
+      }
+    },
+    {
+      "test": "FeesDefinition_1",
+      "status": "PASS",
+      "changes": [
+        [
+          "DASH 03 V06",
+          "H464",
+          10000
+        ],
+        [
+          "DASH 03 V06",
+          "N464",
+          1
+        ],
+        [
+          "DASH 03 V06",
+          "H27",
+          150
+        ],
+        [
+          "DASH 03 V06",
+          "N476",
+          1
+        ]
+      ],
+      "npv": -12835194.668011153,
+      "irr": 0.0568455502602478,
+      "metrics": {
+        "Maximum annual debt service": 1715432.46131642,
+        "Minimum DSCR": -31.261046565,
+        "Peak outstanding debt": 17776313.4905664,
+        "Final debt repayment month": 30.0,
+        "Total interest paid": 780876.097053141,
+        "Total financing fees": 2625000.0,
+        "Total financing cost": 3405876.09705314,
+        "Effective annual financing cost": 0.283643875316346,
+        "Funding gap": 0.0,
+        "Minimum liquidity headroom": 0.0,
+        "Remaining non-revolving capacity": 8446728.55599111,
+        "New investor NPV": -12835194.6680113,
+        "New investor IRR": 0.0568455502602478,
+        "MOIC": 2.09322160306516,
+        "Exit equity value": 79321030.7454159,
+        "Cumulative dividends": 27150052.9369736,
+        "Interest accrued / due": 780876.097053141
+      },
+      "checks": {
+        "cash_max_error": 1.86264514923096e-09,
+        "debt_max_error": 0.0,
+        "matrix_errors": 0
+      }
+    },
+    {
+      "test": "Official_R61",
+      "status": "PASS",
+      "changes": [
+        [
+          "DASH 03 V06",
+          "H33",
+          "Official KK-01 6%"
+        ]
+      ],
+      "npv": -12742848.244560543,
+      "irr": 0.0576464356516757,
+      "metrics": {
+        "Maximum annual debt service": 462168.027849229,
+        "Minimum DSCR": -32.8656117185948,
+        "Peak outstanding debt": 17528049.0570992,
+        "Final debt repayment month": 31.0,
+        "Total interest paid": 783200.035324653,
+        "Total financing fees": 1125000.0,
+        "Total financing cost": 1908200.03532465,
+        "Effective annual financing cost": 0.199377388534322,
+        "Funding gap": 0.0,
+        "Minimum liquidity headroom": 0.0,
+        "Remaining non-revolving capacity": 6809596.53253405,
+        "New investor NPV": -12742848.2445606,
+        "New investor IRR": 0.0576464356516757,
+        "MOIC": 2.11743775338615,
+        "Exit equity value": 80709171.5947987,
+        "Cumulative dividends": 26960052.9369736,
+        "Interest accrued / due": 783200.035324653
+      },
+      "checks": {
+        "cash_max_error": 1.1423253454268e-09,
+        "debt_max_error": 0.0,
+        "matrix_errors": 0
+      }
+    },
+    {
+      "test": "ACT365_R61",
+      "status": "PASS",
+      "changes": [
+        [
+          "DASH 03 V06",
+          "H472",
+          "ACT/365"
+        ]
+      ],
+      "npv": -12743111.66082075,
+      "irr": 0.0576444119775621,
+      "metrics": {
+        "Maximum annual debt service": 462925.045431226,
+        "Minimum DSCR": -33.2667053938805,
+        "Peak outstanding debt": 17528806.0746812,
+        "Final debt repayment month": 31.0,
+        "Total interest paid": 786804.600880612,
+        "Total financing fees": 1125000.0,
+        "Total financing cost": 1911804.60088061,
+        "Effective annual financing cost": 0.19974828425138,
+        "Funding gap": 0.0,
+        "Minimum liquidity headroom": 0.0,
+        "Remaining non-revolving capacity": 6810932.71400366,
+        "New investor NPV": -12743111.6608209,
+        "New investor IRR": 0.0576444119775621,
+        "MOIC": 2.11738008033725,
+        "Exit equity value": 80706287.9423539,
+        "Cumulative dividends": 26960052.9369736,
+        "Interest accrued / due": 786804.600880612
+      },
+      "checks": {
+        "cash_max_error": 9.24046617001295e-10,
+        "debt_max_error": 0.0,
+        "matrix_errors": 0
+      }
+    }
+  ],
+  "DSCR_definition_does_not_change_cash_NPV_or_dividends": true,
+  "native_excel365": "NOT TESTED"
+}

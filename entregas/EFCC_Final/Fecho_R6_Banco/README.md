@@ -1,8 +1,8 @@
-# KK-01 — R6 BANK CHECKPOINT
+# KK-01 — R6.1 BANK CHECKPOINT
 
 Base Oficial confirmada pelo utilizador: **TAN 6% e carência de capital 42 meses**. A menção anterior a 7%/30 meses foi substituída. O prazo de 120 meses é contado **após** a carência; o último mês de utilização continua a ser 30, campo independente da carência.
 
-[Excel de trabalho](KK01_Executive_Financial_Control_Center_R6_BANK_CHECKPOINT.xlsx) · [Matriz de navegação](Navigation_Matrix.csv) · [Implementação](Bank_Implementation.json) · [Procedimento Excel 365](Excel365/LEIA-ME.md).
+[Excel de trabalho](KK01_Executive_Financial_Control_Center_R6_1_BANK_CHECKPOINT.xlsx) · [Matriz de navegação](Navigation_Matrix.csv) · [Implementação](Bank_Implementation.json) · [Procedimento Excel 365](Excel365/LEIA-ME.md).
 
 Esta revisão integra o fecho R5 dos dez dashboards e acrescenta o simulador de financiamento e a emissão controlada de relatórios bancários. É **CHECKPOINT**: não há Microsoft Excel 365 Desktop neste ambiente. Os resultados executados e as limitações devem ser consultados em `Relatorio_Testes.md`; a validação de esquema não substitui abertura, edição, gravação e reabertura nativas.
 
@@ -49,7 +49,7 @@ python entregas/EFCC_Final/src/bank_emit.py \
   --stress
 ```
 
-Requer Python, lxml, XlsxWriter, ReportLab, Matplotlib, PyMuPDF e LibreOffice. Sem os argumentos scenario/comparison, são usados os seletores gravados no Excel; sem recipient, é usado DASH 10 Centro!H122, que deve estar identificado. `--selected-only` omite a comparação no PDF. O modo Base vs Test é o padrão. O relatório bancário de dez páginas e o resumo de duas são disponibilizados na emissão; o relatório consolidado conserva a sua composição própria no workbook.
+Requer Python, lxml, XlsxWriter, ReportLab, Matplotlib, PyMuPDF e LibreOffice. Sem os argumentos scenario/comparison, são usados os seletores gravados no Excel; sem recipient, é usado DASH 10 Centro!H122, que deve estar identificado. `--selected-only` omite a comparação no PDF. O modo Base vs Test é o padrão. O formato gravado no DASH 10 é respeitado. `--format bank`, `brief`, `consolidated` ou `all` permite escolher os documentos. A demonstração entregue inclui os três formatos.
 
 Cada perfil é recalculado integralmente no **mesmo motor de 180 meses**. O emissor procura erros em todas as folhas, verifica saldos de caixa/dívida/reservas/inventário, limite de utilização, pagamentos, comissões e VAL a partir dos 181 cash flows. Só depois produz PDFs A4 PT/EN. Com `--stress`, recalcula obra +6 meses, operação Conservador e recebimentos +6 meses. Os stresses são condições explícitas de estudo; não uma certificação exaustiva de risco.
 
@@ -66,3 +66,13 @@ Estão incluídos Impacto Global Reference/Active/Delta nos dez painéis, filtro
 Os direitos económicos adquiridos JSCV/JALS não são transformados em investimento histórico fictício. Existem 25 M€ de subscrições previstas; 0€ documentados nos campos de recebimento do ficheiro não demonstra ausência de pagamentos reais. A distribuição segue as regras do modelo e não é presumida pro rata.
 
 O logótipo original continua sem bytes JPG/PNG acessíveis; permanece a área **V06 Identidade** para inserir o original diretamente no Excel. Não foi redesenhado. A eventual cópia para cabeçalhos e o acabamento após inserção precisam de verificação nativa.
+
+## Entrega e evidências
+
+[Relatório de testes PDF](Relatorio_Testes.pdf) · [Relatório detalhado](Relatorio_Testes.md) · [Quality Control](Quality_Control.csv) · [PDFs PT](PDF/PT) · [PDFs EN](PDF/EN) · [Emissão de demonstração 6% vs. 5,5%](Emissao_Demonstracao_6_vs_5_5/LEIA-ME.md) · [Recuperação](KK01_R61_Recovery.zip).
+
+A R6.1 inclui comparação de financiamento nos dez dashboards e distingue claramente campos Custom guardados dos parâmetros ativos. O arquivo de emissão preserva o cenário calculado na R6; usar o master R6.1 para simulações novas. O custo efetivo não é TAEG regulamentar. O DSCR de estudo inclui construção e não é covenant aprovado.
+
+Durante carência de juros, os encargos são capitalizados e deduzidos na base fiscal por competência, hipótese contabilística/fiscal a confirmar antes de adotar condições contratuais. A data indicativa M1 é uma hipótese editável usada somente em ACT/365.
+
+A configuração do ambiente foi guardada (`install_script` e `start_skill`); requer revisão, gravação e publicação nas definições do ambiente. A instância atual está validada; o restauro numa tarefa nova ainda não foi testado.

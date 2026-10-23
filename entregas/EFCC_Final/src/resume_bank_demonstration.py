@@ -12,6 +12,10 @@ def main():
  def complete(label,scenario,overrides=None,need_snapshot=False):
   folder=work/label;calculated=folder/'recalc/out/Input.xlsx';inputfile=folder/'Input.xlsx';changes=[('EXEC V06','H23','Test'),(BN,'H33',scenario),(CENTER,'H122',recipient)]+(overrides or [])
   if calculated.exists() and inputfile.exists():
+   if label.startswith('stress_') and Source(inputfile).get(CENTER,'H122')[1]==Source(BM).get(CENTER,'H122')[1]:
+    # Original private stresses did not apply the PDF recipient; this is
+    # presentation-only. Rebuild that exact input and verify every other byte.
+    changes=[v for v in changes if (v[0],v[1])!=(CENTER,'H122')]
    expected=folder/'ExpectedInput.xlsx';mutate(BM,expected,changes)
    if sha(expected)!=sha(inputfile):raise ValueError('Input hash changed; full recalculation required: '+label)
    expected.unlink();data=evaluate(calculated);snapshot=folder/'Snapshot.xlsx'
@@ -35,4 +39,10 @@ def main():
   pres=cp.lab(lang);cp.chart_cache(pres);pdf=export(pres,['DASH 10 V06'],'Consolidated',work/('pdf_'+lang));shutil.copy2(pdf,dest/f'Consolidated_10_{lang}.pdf')
  if sha(BM)!=sourcehash:raise ValueError('Source changed during issue')
  files={str(p.relative_to(dest)):sha(p) for p in dest.rglob('*') if p.is_file() and p.name!='Manifest.json'};(dest/'Manifest.json').write_text(json.dumps({'status':'CALCULATED CHECKPOINT - native Excel acceptance pending','id':ident,'files':files,'source_sha256':sourcehash,'source_unchanged':True},indent=2));print('ISSUED',dest,flush=True)
-if __name__=='__main__':main()
+if __name__=='__main__':
+ try:main()
+ except Exception as ex:
+  dest=BOUT/'Emissao_Demonstracao_6_vs_5_5'
+  for f in dest.glob('*.pdf'):f.unlink()
+  (dest/'BLOCKED.json').write_text(json.dumps({'status':'BLOCKED','reason':repr(ex)},indent=2))
+  raise

@@ -1,0 +1,20 @@
+{
+  "status": "CALCULATED CHECKPOINT - native Excel acceptance pending",
+  "id": "KK01-BANK-20261023T175546Z",
+  "source_git_commit": "b900fdd5f752051096bb3ea65a097a87d7e819c9",
+  "source_sha256": "301cac5acb3bca63dfa6a1735adbaf229415ae6724f3cc87c12e2f7804ed2d62",
+  "files": {
+    "LEIA-ME.md": "0c0c694d7921be459d3b2b6b2364ab46843ed978ed38e6b12490672cd1c3774e",
+    "Snapshot.xlsx": "702018728ea280a64c37e1e850c7a7a8906c019bfde57212b8b370070c3144df",
+    "Executive_2_EN.pdf": "62330b564639333f9194b69e0e2c65928bf6b732a9e5af2b16b33ca23f93eabe",
+    "Bank_Report_10_PT.pdf": "0322011632bbfb9e49c832c74ef43f078fbd59210e7dfb276541d6e0362059fa",
+    "Bank_Report_10_EN.pdf": "4197d8299ab25b53ce04167b7ba220b8a0062c00cb79b987db43daf1a62f5dcf",
+    "Recalculation_Provenance.json": "27e6d84501780c7b8a568ec1b4cae7f750cc885cb394610cdbd65b84a7c8cdc0",
+    "Monthly_180.csv": "de7453723b361dfb2dd36e3349b5eeffde2f7cfb6658b71750f9b27d119ed2e1",
+    "Consolidated_10_EN.pdf": "01af48b225cd3e622fff02c872dc9309ff0acaa9d915429958b75da30fbef690",
+    "Consolidated_10_PT.pdf": "5ff3414fdf8d7bb6e13c4ff096052df9c70b75cfaae5c68103015b9edf20d6f9",
+    "Executive_2_PT.pdf": "8f0058ac3163d472d4d8c62d345644eaba6d37359ffd7ad79e06574a30a13b73",
+    "Snapshot.json": "82604fb09d10c4026ef49d569f312261efa8e12c9407726ff11a3e317b9f6dc3"
+  },
+  "engine_financial_records_unchanged_during_archive_formatting": 137
+}

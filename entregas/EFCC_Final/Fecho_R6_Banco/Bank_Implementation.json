@@ -1,5 +1,5 @@
 {
-  "version": "R6 CHECKPOINT",
+  "version": "R6.1 BANK CHECKPOINT",
   "source_r5_sha256": "2f516e1a02855eb8f2bac1c545ccbf68bf4beeacd1d577138470d56f19cd1ed7",
   "engine_months_extended": 12240,
   "parameters": [
@@ -334,10 +334,23 @@
   ],
   "official_bank_benchmark": {
     "tan": 0.06,
-    "grace_months": 42,
-    "status": "Hypothetical, pending documentation",
-    "aligned_with": "immutable R4; user confirmed 6%/42m"
+    "principal_grace_months": 42,
+    "aligned_with": "R4 reference; confirmed by user",
+    "approval_status": "Hypothetical / documentary confirmation required"
   },
   "native_excel365": "NOT TESTED",
-  "extra_engine_columns": "EK:EQ; original inventory check EJ preserved"
+  "extra_engine_columns": "EK:EQ; original inventory check EJ preserved",
+  "effective_parameters": "V06 Banco Dados!B5:B38; effective nominal TAN B42; annual equivalent interest B43",
+  "engine_columns": {
+    "EJ": "original inventory check, preserved",
+    "EK": "interest due",
+    "EL": "capitalised interest",
+    "EM": "early repayment fee",
+    "EN": "closing fee",
+    "EO": "all bank fees/charges",
+    "EP": "contractual debt service",
+    "EQ": "total bank payments"
+  },
+  "named_reference_fix": "KK6_Bank_Custom and KK6_Emission_Current use absolute references",
+  "full_financing_impact": "all 10 dashboards E650:Y677"
 }

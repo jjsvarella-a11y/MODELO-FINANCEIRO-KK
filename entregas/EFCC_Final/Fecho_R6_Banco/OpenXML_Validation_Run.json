@@ -1,0 +1,8 @@
+{
+  "platform": "Open XML SDK 3.3.0 / Microsoft365 schema",
+  "master_sha256": "7e918cd56c1f044dab4a060284f5c82b8711b17ec41bf9202d37bc43d456cab0",
+  "snapshot_sha256": "702018728ea280a64c37e1e850c7a7a8906c019bfde57212b8b370070c3144df",
+  "master_errors": 0,
+  "snapshot_errors": 0,
+  "native_excel365": "NOT TESTED"
+}
