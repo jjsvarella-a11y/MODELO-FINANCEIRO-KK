@@ -1,0 +1,62 @@
+{
+  "status": "PASS",
+  "method": "Full independent recalculation; all 238 worksheets, no frozen engines",
+  "native_excel365": "NOT TESTED",
+  "active_inputs": {
+    "edits": [
+      [
+        "DASH 03 V06",
+        "H23",
+        0.05
+      ],
+      [
+        "DASH 05 V06",
+        "H23",
+        200
+      ],
+      [
+        "DASH 05 V06",
+        "H25",
+        0.65
+      ],
+      [
+        "DASH 05 V06",
+        "H29",
+        0.6
+      ],
+      [
+        "DASH 05 V06",
+        "H31",
+        0.04
+      ],
+      [
+        "DASH 05 V06",
+        "H37",
+        0.06
+      ],
+      [
+        "DASH 07 V06",
+        "H29",
+        0.1
+      ]
+    ]
+  },
+  "active_investor_npv": -8330657.10525437,
+  "matrix_original_npv": -8330657.10525437,
+  "matrix_central_npv": -8330657.10525437,
+  "report_blocked_unsaved_base": true,
+  "checks": {
+    "Base": {
+      "cash_check": 1.58615875989199e-09,
+      "debt_check": 0.0,
+      "ffe_fund_check": 0.0,
+      "inventory_check": 0.0
+    },
+    "Comparative": {
+      "cash_check": 1.58615875989199e-09,
+      "debt_check": 0.0,
+      "ffe_fund_check": 0.0,
+      "inventory_check": 0.0
+    }
+  }
+}

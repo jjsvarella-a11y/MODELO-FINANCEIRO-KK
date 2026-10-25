@@ -1,0 +1,30 @@
+[
+  {
+    "pdf": "01_Executive_One_Page_PT.pdf",
+    "snapshot": "01_Executive_One_Page_PT.json",
+    "id": "KK01-20261025T201208531587Z-Executive_One_Page-PT",
+    "pdf_sha256": "7c4e5c540b9861a241d9ea27c110141824f49fc0dc6da2b73495269f2f90a551",
+    "snapshot_sha256": "b10a1dd33cf421cb8164c50dbed0aebbcb443b6da18f546ce5897bafa1097ca5"
+  },
+  {
+    "pdf": "02_Bank_Financing_PT.pdf",
+    "snapshot": "02_Bank_Financing_PT.json",
+    "id": "KK01-20261025T201208685561Z-Bank_Financing-PT",
+    "pdf_sha256": "6f3ab2e83c8c88e8402a98c11c7d1327b40cdf03849a49aa717a86691c349233",
+    "snapshot_sha256": "ca705b346e6bfcc76092febf5de6c893458f827d043f16e514d293244f5c861e"
+  },
+  {
+    "pdf": "03_Equity_Investor_PT.pdf",
+    "snapshot": "03_Equity_Investor_PT.json",
+    "id": "KK01-20261025T201208949171Z-Equity_Investor-PT",
+    "pdf_sha256": "b296db7c54b5f3ae90da7725593373dbe3ac23451b526a329a33e3591725e826",
+    "snapshot_sha256": "240b81e7806162729fa74c60bfabf2c6d773fa235d1a6060151b1f876bab2f64"
+  },
+  {
+    "pdf": "04_Comprehensive_Project_PT.pdf",
+    "snapshot": "04_Comprehensive_Project_PT.json",
+    "id": "KK01-20261025T201209108478Z-Comprehensive_Project-PT",
+    "pdf_sha256": "8617ca194d266bd78d41f38f23c6326abbe471a7dd30a3e8c0c3e5490a87e0d1",
+    "snapshot_sha256": "f4719cbff09b1def28d830cb982f9c657a5fb71c6d428873319751205f0d65db"
+  }
+]

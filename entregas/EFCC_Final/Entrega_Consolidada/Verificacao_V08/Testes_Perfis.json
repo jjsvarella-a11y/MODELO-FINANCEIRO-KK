@@ -1,0 +1,68 @@
+[
+  {
+    "test": "Operating_Custom",
+    "status": "PASS",
+    "native_excel365": "NOT TESTED",
+    "base": {
+      "Future CAPEX": 63168000,
+      "Peak Bank Debt": 17528049.0570992,
+      "Minimum Liquidity Headroom": 0,
+      "Planned Dividends": 31652439.0654835,
+      "Investor NPV": -10006305.3771399,
+      "Investor IRR": 0.0749047238302947,
+      "MOIC": 2.62328089686946,
+      "Exit Equity Value": 101658435.049022,
+      "M54 Dividends": 2383563.79667384,
+      "Financing Cost": 1908200.03532465,
+      "Room Revenue": 153806364.08249,
+      "EBITDA": 72118965.4330005,
+      "Operator Fees": 21391389.1165927,
+      "Funding Gap": 0
+    },
+    "comparative_unchanged": true
+  },
+  {
+    "test": "Operator_Target",
+    "status": "PASS",
+    "native_excel365": "NOT TESTED",
+    "base": {
+      "Future CAPEX": 63168000,
+      "Peak Bank Debt": 17528049.0570992,
+      "Minimum Liquidity Headroom": 0,
+      "Planned Dividends": 27485832.0236594,
+      "Investor NPV": -12517026.8802143,
+      "Investor IRR": 0.0591617711857764,
+      "MOIC": 2.15716840957473,
+      "Exit Equity Value": 82204977.2566545,
+      "M54 Dividends": 1987430.19252014,
+      "Financing Cost": 1908200.03532465,
+      "Room Revenue": 131593242.160542,
+      "EBITDA": 57634596.7098265,
+      "Operator Fees": 15568533.2935294,
+      "Funding Gap": 0
+    },
+    "comparative_unchanged": true
+  },
+  {
+    "test": "English_Final",
+    "status": "PASS",
+    "native_excel365": "NOT TESTED",
+    "base": {
+      "Future CAPEX": 63168000,
+      "Peak Bank Debt": 17528049.0570992,
+      "Minimum Liquidity Headroom": 0,
+      "Planned Dividends": 26960052.9369736,
+      "Investor NPV": -12742848.2445606,
+      "Investor IRR": 0.0576464356516757,
+      "MOIC": 2.11743775338615,
+      "Exit Equity Value": 80709171.5947987,
+      "M54 Dividends": 1945587.80119574,
+      "Financing Cost": 1908200.03532465,
+      "Room Revenue": 131593242.160542,
+      "EBITDA": 56632645.7640161,
+      "Operator Fees": 16570484.2393398,
+      "Funding Gap": 0
+    },
+    "comparative_unchanged": true
+  }
+]

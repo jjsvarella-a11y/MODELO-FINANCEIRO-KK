@@ -72,7 +72,9 @@ def build():
        if vf.startswith(chr(34)):options=vf.strip(chr(34)).split(',')
     if key=='discount':options=['8%','10%','12%','Custom']
     if options:s.data_validation('B'+str(rr),{'validate':'list','source':[str(x) for x in options]})
-   f=f'IF(B{rr}="Custom",C{rr},IF(ISNUMBER(B{rr}),B{rr},IF(RIGHT(B{rr},1)="%",VALUE(SUBSTITUTE(B{rr},"%",""))/100,'+ (f'VALUE(B{rr})' if isinstance(v,(int,float)) else f'B{rr}')+')))'
+   if isinstance(v,(int,float)):
+    f=f'IF(B{rr}="Custom",C{rr},IF(ISNUMBER(B{rr}),B{rr},IF(RIGHT(B{rr},1)="%",_xlfn.NUMBERVALUE(SUBSTITUTE(B{rr},"%",""),".",",")/100,_xlfn.NUMBERVALUE(B{rr},".",","))))'
+   else:f=f'B{rr}'  # Categories remain text, including the legitimate Custom mode.
    if key in ['adr','occ']:
     pf=inp(mode,IRO[('DASH 05 V06','H23')]);rates=[160,185,210,250] if key=='adr' else [.52,.58,.64,.75];profile_formula=f'IF({pf}="Conservative",{rates[0]},IF({pf}="Favorable",{rates[2]},IF({pf}="Upside Stress",{rates[3]},{rates[1]})))';f=f'IF(B{rr}="Profile",{profile_formula},{f})'
    if key in ['basefee','systems','incentive']:
@@ -219,7 +221,7 @@ def patch(source):
      if any(20<=int(re.sub('[^0-9]','',a.split(':')[0]) or '0')<=39 for a in node.get('sqref','').split()):dvs.remove(node)
    for j,(key,pt,en,options) in enumerate(panel):
     rr=23+j*2;fullkey='bank_'+key if sn==BN else key;definition=next(d for d in DEFS if d['key']==fullkey);choice=initial_choice(definition)
-    # Numeric preset strings have consistent locale-independent VALUE conversion.
+    # V08 uses native numeric preset ranges and explicit decimal conversion.
     if key=='tan':choice='6.0%'
     for mode,lc,vc,end in [('Base','E','H','J'),('Comparative','K','N','P')]:
      s.text(f'{lc}{rr}:{chr(ord(vc)-1)}{rr+1}',pt,en,'label');s.merge(f'{vc}{rr}:{end}{rr+1}',choice,style='input_pct' if definition.get('kind')=='pct' else 'input');dv(s,vc+str(rr),options)
@@ -253,5 +255,13 @@ def patch(source):
   cp=wb.find(T('calcPr'))
   if cp is not None:cp.set('calcMode','auto');cp.set('fullCalcOnLoad','1');cp.set('forceFullCalc','1')
   changes['xl/workbook.xml']=xml(wb)
+  # XlsxWriter modules and original workbook may each retain a selected tab.
+  # Only the active executive sheet may remain selected after assembly.
+  for sn,path in pp.items():
+   root=E.fromstring(changes.get(path,z.read(path)));dirty=False
+   for view in root.findall('.//'+T('sheetView')):
+    selected='1' if sn=='EXEC V06' else '0'
+    if view.get('tabSelected','0')!=selected:view.set('tabSelected',selected);dirty=True
+   if dirty:changes[path]=xml(root)
  tmp=WORK7/"Patched.xlsx";rewrite(FINAL7,tmp,changes);tmp.replace(FINAL7)
 if __name__=='__main__':build()

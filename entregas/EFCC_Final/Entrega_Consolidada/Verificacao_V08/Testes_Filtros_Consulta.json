@@ -1,0 +1,26 @@
+[
+  {
+    "test": "Promoters",
+    "status": "PASS",
+    "native_excel365": "NOT TESTED",
+    "formula_errors": []
+  },
+  {
+    "test": "Inventory_T1",
+    "status": "PASS",
+    "native_excel365": "NOT TESTED",
+    "formula_errors": []
+  },
+  {
+    "test": "Pricing_Custom",
+    "status": "PASS",
+    "native_excel365": "NOT TESTED",
+    "formula_errors": []
+  },
+  {
+    "test": "English_UI",
+    "status": "PASS",
+    "native_excel365": "NOT TESTED",
+    "formula_errors": []
+  }
+]

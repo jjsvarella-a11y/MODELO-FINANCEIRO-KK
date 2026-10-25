@@ -1,0 +1,74 @@
+{
+  "aggregates_preserved": {
+    "M71": "BM2071",
+    "M72": "BM2072",
+    "M74": "BM2074",
+    "M76": "BM2076",
+    "M78": "BM2078",
+    "M80": "BM2080",
+    "M82": "BM2082",
+    "M84": "BM2084"
+  },
+  "references_corrected": [
+    {
+      "sheet": "DASH 05 V06",
+      "cell": "W92",
+      "before": "'DASH 05 V06'!M76",
+      "after": "'V07 Estado'!BM2076"
+    },
+    {
+      "sheet": "DASH 05 V06",
+      "cell": "P94",
+      "before": "'DASH 05 V06'!M80",
+      "after": "'V07 Estado'!BM2080"
+    },
+    {
+      "sheet": "DASH 05 V06",
+      "cell": "W94",
+      "before": "'DASH 05 V06'!M78",
+      "after": "'V07 Estado'!BM2078"
+    },
+    {
+      "sheet": "DASH 05 V06",
+      "cell": "W96",
+      "before": "'DASH 05 V06'!M82",
+      "after": "'V07 Estado'!BM2082"
+    },
+    {
+      "sheet": "DASH 05 V06",
+      "cell": "I98",
+      "before": "'DASH 05 V06'!M84",
+      "after": "'V07 Estado'!BM2084"
+    },
+    {
+      "sheet": "DASH 05 V06",
+      "cell": "I102",
+      "before": "'DASH 05 V06'!M72",
+      "after": "'V07 Estado'!BM2072"
+    },
+    {
+      "sheet": "DASH 05 V06",
+      "cell": "I104",
+      "before": "'DASH 05 V06'!M74",
+      "after": "'V07 Estado'!BM2074"
+    },
+    {
+      "sheet": "V06 PDF 07",
+      "cell": "E43",
+      "before": "'DASH 05 V06'!M72",
+      "after": "'V07 Estado'!BM2072"
+    },
+    {
+      "sheet": "V06 PDF 07",
+      "cell": "E44",
+      "before": "'DASH 05 V06'!M74",
+      "after": "'V07 Estado'!BM2074"
+    },
+    {
+      "sheet": "V06 PDF 07",
+      "cell": "E46",
+      "before": "'DASH 05 V06'!M76",
+      "after": "'V07 Estado'!BM2076"
+    }
+  ]
+}

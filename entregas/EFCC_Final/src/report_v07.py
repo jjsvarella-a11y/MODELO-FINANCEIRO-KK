@@ -111,7 +111,7 @@ def pdf_report(file,data,context,comparisons,kind,lang,settings,identifier):
    if kind in ['Bank Financing','Comprehensive Project']:
     section('Cronograma mensal completo — 180 meses','Complete monthly schedule — 180 months');table([say('Mês','Month'),say('Dívida inicial','Opening debt'),say('Utilização','Draw'),say('Capital + sweep','Principal + sweep'),say('Juros','Interest'),say('Dívida final','Closing debt')],[[r['month'],number(r['debt_open']),number(r['draw']),number(r['principal']+r['sweep']),number(r['interest']),number(r['debt'])] for r in monthly])
  def footer(canvas,doc):
-  canvas.setFont('KK',7);canvas.setFillColor(colors.HexColor('#687586'));canvas.drawString(40,22,'KK-01 | JS-CV | '+settings['confidentiality']);canvas.drawRightString(A4[0]-40,22,str(doc.page));canvas.setStrokeColor(colors.HexColor('#C8101E'));canvas.line(40,34,A4[0]-40,34)
+  canvas.setFont('KK',9);canvas.setFillColor(colors.HexColor('#687586'));canvas.drawString(40,22,'KK-01 | JS-CV | '+settings['confidentiality']);canvas.drawRightString(A4[0]-40,22,str(doc.page));canvas.setStrokeColor(colors.HexColor('#C8101E'));canvas.line(40,34,A4[0]-40,34)
  SimpleDocTemplate(str(file),pagesize=A4,rightMargin=40,leftMargin=40,topMargin=30,bottomMargin=44).build(flow,onFirstPage=footer,onLaterPages=footer)
 
 def issue(file=FINAL7,types=None,languages=None,data=None):
@@ -133,7 +133,9 @@ def issue(file=FINAL7,types=None,languages=None,data=None):
     if snapshot['classification']!='Comparative':raise ValueError('Not a comparative scenario: '+identifier)
     temp=WORK7/(identifier+'.xlsx');shutil.copy2(file,temp);edits=[]
     for key,raw in snapshot['raw_inputs'].items():
-     sn,addr=PANELREF.get((key,'Comparative'),(CMP7,'B'+str(ROWS[key])));edits.extend([(sn,addr,raw['selection']),(CMP7,'C'+str(ROWS[key]),raw['custom'])])
+     sn,addr=selection_location(source,'Comparative',key)
+     if key not in ALIASES:edits.append((sn,addr,raw['selection']))
+     edits.append((CMP7,'C'+str(ROWS[key]),raw['custom']))
     patch_cells(temp,edits);d=full_recalc(temp,WORK7/('Comparison_'+identifier));c=d['contexts']['Comparative'];c['id']=identifier;comparisons.append(c)
  data['report_tables']=capture_tables(data['workbook'],'Base')
  types=types or (TYPES if settings['type']=='All Formats' else [settings['type']]);languages=languages or (['PT','EN'] if settings['language']=='Both' else [settings['language']]);outputs=[];edits=[];last=max([int(re.sub('[A-Z]','',a)) for a in source.cells(REPORT7) if a.startswith('A')]+[24]);source.z.close()
@@ -144,7 +146,7 @@ def issue(file=FINAL7,types=None,languages=None,data=None):
     import fitz
     with fitz.open(pdf) as doc:
      if len(doc)!=1:pdf.unlink();raise ValueError('Executive report exceeds one page')
-   snapshot={'report_tables':data['report_tables'],'id':identifier,'base_id':data['contexts']['Base']['id'],'comparative_ids':[c['id'] for c in comparisons],'settings':settings,'format':kind,'language':lang,'calculated_at':data['calculated_at'],'source_sha256':data['source_sha256'],'pdf_sha256':sha(pdf),'base':data['contexts']['Base'],'comparisons':comparisons,'calculation_platform':data['calculation_platform'],'native_excel365':'NOT TESTED'};jsonfile=pdf.with_suffix('.json');jsonfile.write_text(json.dumps(snapshot,ensure_ascii=False,indent=2));outputs.append(str(pdf));last+=1;row=[identifier,data['calculated_at'],kind,lang,settings['recipient'],snapshot['base_id'],','.join(snapshot['comparative_ids']),data['contexts']['Base']['params']['effective_tan'],data['contexts']['Base']['effective_inputs']['discount'],'Reconciled; native not tested',sha(pdf),sha(jsonfile)];edits +=[(REPORT7,col(j)+str(last),v) for j,v in enumerate(row)]
+   snapshot={'report_tables':data['report_tables'],'id':identifier,'base_id':data['contexts']['Base']['id'],'comparative_ids':[c['id'] for c in comparisons],'settings':{**settings,'type':kind,'language':lang},'format':kind,'language':lang,'calculated_at':data['calculated_at'],'source_sha256':data['source_sha256'],'pdf_sha256':sha(pdf),'base':data['contexts']['Base'],'comparisons':comparisons,'calculation_platform':data['calculation_platform'],'native_excel365':'NOT TESTED'};jsonfile=pdf.with_suffix('.json');jsonfile.write_text(json.dumps(snapshot,ensure_ascii=False,indent=2));outputs.append(str(pdf));last+=1;row=[identifier,data['calculated_at'],kind,lang,settings['recipient'],snapshot['base_id'],','.join(snapshot['comparative_ids']),data['contexts']['Base']['params']['effective_tan'],data['contexts']['Base']['effective_inputs']['discount'],'Reconciled; native not tested',sha(pdf),sha(jsonfile)];edits +=[(REPORT7,col(j)+str(last),v) for j,v in enumerate(row)]
  patch_cells(file,edits);return outputs
 if __name__=='__main__':
  p=argparse.ArgumentParser();p.add_argument('--file',type=Path,default=FINAL7);p.add_argument('--all',action='store_true');p.add_argument('--both-languages',action='store_true');a=p.parse_args();print('\n'.join(issue(a.file,TYPES if a.all else None,['PT','EN'] if a.both_languages else None)))

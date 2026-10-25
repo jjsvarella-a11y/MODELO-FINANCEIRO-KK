@@ -1,0 +1,28 @@
+{
+  "global_language": "PT",
+  "global_input": "EXEC V06!W5",
+  "canonical_link": "DASH 10 Centro!H7 → EXEC V06!W5",
+  "preserved_metadata": [
+    {
+      "cell": "DASH 10 Centro!H11",
+      "value": null,
+      "formula": null
+    },
+    {
+      "cell": "DASH 10 Centro!N11",
+      "value": null,
+      "formula": null
+    },
+    {
+      "cell": "DASH 10 Centro!H15",
+      "value": "2026-10-22",
+      "formula": null
+    },
+    {
+      "cell": "DASH 10 Centro!N15",
+      "value": "EFCC-20261022-01",
+      "formula": null
+    }
+  ],
+  "bank_recipient": "Active bank institution, no artificial zero"
+}

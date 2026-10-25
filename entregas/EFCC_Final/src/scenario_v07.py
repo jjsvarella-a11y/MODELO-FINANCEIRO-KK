@@ -61,10 +61,19 @@ def patch_cells(file,edits,target=None):
 def full_recalc(file,folder):
  calculated=recalculate(Path(file),Path(folder));data=evaluate7(calculated);cached=WORK7/('Cached_'+datetime.now().strftime('%H%M%S%f')+'.xlsx');inject_caches(file,calculated,cached);shutil.move(cached,file);data['_validated_file_sha256']=sha(file);data['calculation_file_sha256']=data['source_sha256'];data['source_sha256']=sha(file);data['calculated_at']=datetime.now(timezone.utc).isoformat();return data
 
+def selection_location(source,mode,key):
+ # V08 additionally exposes existing Base inputs directly on their dashboards.
+ # Discover the canonical location from its simple B-column reference so old
+ # versions remain compatible and restore never overwrites a binding formula.
+ f,_=source.get(store(mode),'B'+str(ROWS[key]))
+ match=re.fullmatch(r"'([^']+)'!(\$?[A-Z]+\$?\d+)",f or '')
+ if match and match[1] in [x[0] for x in DASHES]:return match[1],match[2].replace('$','')
+ return PANELREF.get((key,mode),(store(mode),'B'+str(ROWS[key])))
+
 def raw_snapshot(source,mode):
  data={}
  for d in DEFS:
-  key=d['key'];rr=ROWS[key];panel=PANELREF.get((key,mode));data[key]={'selection':source.get(*(panel or (store(mode),'B'+str(rr))))[1],'custom':source.get(store(mode),'C'+str(rr))[1]}
+  key=d['key'];rr=ROWS[key];panel=selection_location(source,mode,key);data[key]={'selection':source.get(*panel)[1],'custom':source.get(store(mode),'C'+str(rr))[1]}
  return data
 
 def save(file,mode,description='',data=None):
@@ -94,12 +103,12 @@ def save(file,mode,description='',data=None):
  return identifier,data
 
 def restore(file,identifier,mode=None):
- path=VERSIONS/(identifier+'.json');snapshot=json.loads(path.read_text(encoding='utf-8-sig'));mode=mode or snapshot['classification'];edits=[]
+ path=VERSIONS/(identifier+'.json');snapshot=json.loads(path.read_text(encoding='utf-8-sig'));mode=mode or snapshot['classification'];edits=[];source=Source(file)
  for key,raw in snapshot['raw_inputs'].items():
-  rr=ROWS[key];sn,addr=PANELREF.get((key,mode),(store(mode),'B'+str(rr)))
+  rr=ROWS[key];sn,addr=selection_location(source,mode,key)
   if key not in ALIASES:edits.append((sn,addr,raw['selection']))
   edits.append((store(mode),'C'+str(rr),raw['custom']))
- patch_cells(file,edits);return save(file,mode,'Restored '+identifier)
+ source.z.close();patch_cells(file,edits);return save(file,mode,'Restored '+identifier)
 if __name__=='__main__':
  p=argparse.ArgumentParser();p.add_argument('action',choices=['save-base','save-comparative','restore','validate']);p.add_argument('--file',type=Path,default=FINAL7);p.add_argument('--id');p.add_argument('--description',default='');a=p.parse_args()
  if a.action=='restore':print(restore(a.file,a.id)[0])

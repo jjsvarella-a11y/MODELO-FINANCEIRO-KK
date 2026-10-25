@@ -12,7 +12,10 @@
       "initial": 0,
       "row": 6,
       "calculated_alias": false,
-      "base_panel": null,
+      "base_panel": {
+        "sheet": "DASH 01 V06",
+        "cell": "H23"
+      },
       "comparative_panel": null
     },
     {
@@ -27,7 +30,10 @@
       "initial": 0,
       "row": 7,
       "calculated_alias": false,
-      "base_panel": null,
+      "base_panel": {
+        "sheet": "DASH 01 V06",
+        "cell": "N23"
+      },
       "comparative_panel": null
     },
     {
@@ -42,7 +48,10 @@
       "initial": 0,
       "row": 8,
       "calculated_alias": false,
-      "base_panel": null,
+      "base_panel": {
+        "sheet": "DASH 01 V06",
+        "cell": "H25"
+      },
       "comparative_panel": null
     },
     {
@@ -57,7 +66,10 @@
       "initial": 0.2,
       "row": 9,
       "calculated_alias": false,
-      "base_panel": null,
+      "base_panel": {
+        "sheet": "DASH 02 V06",
+        "cell": "H23"
+      },
       "comparative_panel": null
     },
     {
@@ -72,7 +84,10 @@
       "initial": 0.15,
       "row": 10,
       "calculated_alias": false,
-      "base_panel": null,
+      "base_panel": {
+        "sheet": "DASH 02 V06",
+        "cell": "N23"
+      },
       "comparative_panel": null
     },
     {
@@ -87,7 +102,10 @@
       "initial": 6,
       "row": 11,
       "calculated_alias": false,
-      "base_panel": null,
+      "base_panel": {
+        "sheet": "DASH 02 V06",
+        "cell": "H25"
+      },
       "comparative_panel": null
     },
     {
@@ -102,7 +120,10 @@
       "initial": 0,
       "row": 12,
       "calculated_alias": false,
-      "base_panel": null,
+      "base_panel": {
+        "sheet": "DASH 02 V06",
+        "cell": "N25"
+      },
       "comparative_panel": null
     },
     {
@@ -177,7 +198,10 @@
       "initial": 0,
       "row": 17,
       "calculated_alias": false,
-      "base_panel": null,
+      "base_panel": {
+        "sheet": "DASH 04A V06",
+        "cell": "H23"
+      },
       "comparative_panel": null
     },
     {
@@ -192,7 +216,10 @@
       "initial": 0.0425,
       "row": 18,
       "calculated_alias": false,
-      "base_panel": null,
+      "base_panel": {
+        "sheet": "DASH 04B V06",
+        "cell": "H27"
+      },
       "comparative_panel": null
     },
     {
@@ -207,7 +234,10 @@
       "initial": 0.0025,
       "row": 19,
       "calculated_alias": false,
-      "base_panel": null,
+      "base_panel": {
+        "sheet": "DASH 04B V06",
+        "cell": "N23"
+      },
       "comparative_panel": null
     },
     {
@@ -222,7 +252,10 @@
       "initial": "Custom Terms",
       "row": 20,
       "calculated_alias": false,
-      "base_panel": null,
+      "base_panel": {
+        "sheet": "DASH 04B V06",
+        "cell": "H23"
+      },
       "comparative_panel": null
     },
     {
@@ -237,7 +270,10 @@
       "initial": 0.03,
       "row": 21,
       "calculated_alias": false,
-      "base_panel": null,
+      "base_panel": {
+        "sheet": "DASH 04B V06",
+        "cell": "H25"
+      },
       "comparative_panel": null
     },
     {
@@ -252,7 +288,10 @@
       "initial": 0.05,
       "row": 22,
       "calculated_alias": false,
-      "base_panel": null,
+      "base_panel": {
+        "sheet": "DASH 04B V06",
+        "cell": "N25"
+      },
       "comparative_panel": null
     },
     {
@@ -266,7 +305,10 @@
       "initial": 225,
       "row": 23,
       "calculated_alias": false,
-      "base_panel": null,
+      "base_panel": {
+        "sheet": "DASH 04B V06",
+        "cell": "N27"
+      },
       "comparative_panel": null
     },
     {
@@ -280,7 +322,10 @@
       "initial": 0.581,
       "row": 24,
       "calculated_alias": false,
-      "base_panel": null,
+      "base_panel": {
+        "sheet": "DASH 04B V06",
+        "cell": "H29"
+      },
       "comparative_panel": null
     },
     {
@@ -294,7 +339,10 @@
       "initial": 0.35,
       "row": 25,
       "calculated_alias": false,
-      "base_panel": null,
+      "base_panel": {
+        "sheet": "DASH 04B V06",
+        "cell": "N29"
+      },
       "comparative_panel": null
     },
     {
@@ -308,7 +356,10 @@
       "initial": 0.04,
       "row": 26,
       "calculated_alias": false,
-      "base_panel": null,
+      "base_panel": {
+        "sheet": "DASH 04B V06",
+        "cell": "N31"
+      },
       "comparative_panel": null
     },
     {
@@ -323,8 +374,14 @@
       "initial": "Base Case",
       "row": 27,
       "calculated_alias": false,
-      "base_panel": null,
-      "comparative_panel": null
+      "base_panel": {
+        "sheet": "DASH 05 V06",
+        "cell": "Q24"
+      },
+      "comparative_panel": {
+        "sheet": "DASH 05 V06",
+        "cell": "U24"
+      }
     },
     {
       "source_sheet": "DASH 05 V06",
@@ -413,8 +470,14 @@
       "initial": "Custom Terms",
       "row": 33,
       "calculated_alias": false,
-      "base_panel": null,
-      "comparative_panel": null
+      "base_panel": {
+        "sheet": "DASH 05 V06",
+        "cell": "Q28"
+      },
+      "comparative_panel": {
+        "sheet": "DASH 05 V06",
+        "cell": "U28"
+      }
     },
     {
       "source_sheet": "DASH 05 V06",
@@ -533,7 +596,10 @@
       "initial": 0,
       "row": 41,
       "calculated_alias": false,
-      "base_panel": null,
+      "base_panel": {
+        "sheet": "DASH 06 V06",
+        "cell": "H23"
+      },
       "comparative_panel": null
     },
     {
@@ -548,7 +614,10 @@
       "initial": 1,
       "row": 42,
       "calculated_alias": false,
-      "base_panel": null,
+      "base_panel": {
+        "sheet": "DASH 06 V06",
+        "cell": "N23"
+      },
       "comparative_panel": null
     },
     {
@@ -563,7 +632,10 @@
       "initial": "Auto",
       "row": 43,
       "calculated_alias": false,
-      "base_panel": null,
+      "base_panel": {
+        "sheet": "DASH 07 V06",
+        "cell": "N23"
+      },
       "comparative_panel": null
     },
     {
@@ -578,7 +650,10 @@
       "initial": 12,
       "row": 44,
       "calculated_alias": false,
-      "base_panel": null,
+      "base_panel": {
+        "sheet": "DASH 07 V06",
+        "cell": "H25"
+      },
       "comparative_panel": null
     },
     {
@@ -608,7 +683,10 @@
       "initial": 0.5,
       "row": 46,
       "calculated_alias": false,
-      "base_panel": null,
+      "base_panel": {
+        "sheet": "DASH 07 V06",
+        "cell": "H27"
+      },
       "comparative_panel": null
     },
     {
@@ -623,7 +701,10 @@
       "initial": 1.2,
       "row": 47,
       "calculated_alias": false,
-      "base_panel": null,
+      "base_panel": {
+        "sheet": "DASH 07 V06",
+        "cell": "N27"
+      },
       "comparative_panel": null
     },
     {
@@ -638,7 +719,10 @@
       "initial": "Flexible",
       "row": 48,
       "calculated_alias": false,
-      "base_panel": null,
+      "base_panel": {
+        "sheet": "DASH 07 V06",
+        "cell": "H23"
+      },
       "comparative_panel": null
     },
     {
@@ -668,7 +752,10 @@
       "initial": 1,
       "row": 50,
       "calculated_alias": false,
-      "base_panel": null,
+      "base_panel": {
+        "sheet": "DASH 02 V06",
+        "cell": "H27"
+      },
       "comparative_panel": null
     },
     {
@@ -683,7 +770,10 @@
       "initial": 1,
       "row": 51,
       "calculated_alias": false,
-      "base_panel": null,
+      "base_panel": {
+        "sheet": "DASH 02 V06",
+        "cell": "N27"
+      },
       "comparative_panel": null
     },
     {
@@ -698,7 +788,10 @@
       "initial": 0,
       "row": 52,
       "calculated_alias": false,
-      "base_panel": null,
+      "base_panel": {
+        "sheet": "DASH 04A V06",
+        "cell": "N23"
+      },
       "comparative_panel": null
     },
     {
@@ -718,7 +811,10 @@
       "initial": "Base",
       "row": 53,
       "calculated_alias": false,
-      "base_panel": null,
+      "base_panel": {
+        "sheet": "DASH 04A V06",
+        "cell": "H25"
+      },
       "comparative_panel": null
     },
     {
@@ -733,7 +829,10 @@
       "initial": 1,
       "row": 54,
       "calculated_alias": false,
-      "base_panel": null,
+      "base_panel": {
+        "sheet": "DASH 04A V06",
+        "cell": "N25"
+      },
       "comparative_panel": null
     },
     {
@@ -748,7 +847,10 @@
       "initial": 0,
       "row": 55,
       "calculated_alias": false,
-      "base_panel": null,
+      "base_panel": {
+        "sheet": "DASH 04B V06",
+        "cell": "H31"
+      },
       "comparative_panel": null
     },
     {
@@ -768,7 +870,10 @@
       "initial": "Base",
       "row": 56,
       "calculated_alias": false,
-      "base_panel": null,
+      "base_panel": {
+        "sheet": "DASH 04B V06",
+        "cell": "H33"
+      },
       "comparative_panel": null
     },
     {
@@ -786,7 +891,10 @@
       "initial": 180,
       "row": 57,
       "calculated_alias": false,
-      "base_panel": null,
+      "base_panel": {
+        "sheet": "DASH 07 V06",
+        "cell": "N29"
+      },
       "comparative_panel": null
     },
     {
@@ -801,7 +909,10 @@
       "initial": 0,
       "row": 58,
       "calculated_alias": false,
-      "base_panel": null,
+      "base_panel": {
+        "sheet": "DASH 01 V06",
+        "cell": "N194"
+      },
       "comparative_panel": null
     },
     {
@@ -816,7 +927,10 @@
       "initial": 0,
       "row": 59,
       "calculated_alias": false,
-      "base_panel": null,
+      "base_panel": {
+        "sheet": "DASH 01 V06",
+        "cell": "T194"
+      },
       "comparative_panel": null
     },
     {
@@ -831,7 +945,10 @@
       "initial": 0,
       "row": 60,
       "calculated_alias": false,
-      "base_panel": null,
+      "base_panel": {
+        "sheet": "DASH 01 V06",
+        "cell": "N195"
+      },
       "comparative_panel": null
     },
     {
@@ -846,7 +963,10 @@
       "initial": 0,
       "row": 61,
       "calculated_alias": false,
-      "base_panel": null,
+      "base_panel": {
+        "sheet": "DASH 01 V06",
+        "cell": "T195"
+      },
       "comparative_panel": null
     },
     {
@@ -861,7 +981,10 @@
       "initial": 0,
       "row": 62,
       "calculated_alias": false,
-      "base_panel": null,
+      "base_panel": {
+        "sheet": "DASH 01 V06",
+        "cell": "N196"
+      },
       "comparative_panel": null
     },
     {
@@ -876,7 +999,10 @@
       "initial": 0,
       "row": 63,
       "calculated_alias": false,
-      "base_panel": null,
+      "base_panel": {
+        "sheet": "DASH 01 V06",
+        "cell": "T196"
+      },
       "comparative_panel": null
     },
     {
@@ -891,7 +1017,10 @@
       "initial": 0,
       "row": 64,
       "calculated_alias": false,
-      "base_panel": null,
+      "base_panel": {
+        "sheet": "DASH 01 V06",
+        "cell": "N197"
+      },
       "comparative_panel": null
     },
     {
@@ -906,7 +1035,10 @@
       "initial": 0,
       "row": 65,
       "calculated_alias": false,
-      "base_panel": null,
+      "base_panel": {
+        "sheet": "DASH 01 V06",
+        "cell": "T197"
+      },
       "comparative_panel": null
     },
     {
@@ -921,7 +1053,10 @@
       "initial": 0,
       "row": 66,
       "calculated_alias": false,
-      "base_panel": null,
+      "base_panel": {
+        "sheet": "DASH 01 V06",
+        "cell": "N198"
+      },
       "comparative_panel": null
     },
     {
@@ -936,7 +1071,10 @@
       "initial": 0,
       "row": 67,
       "calculated_alias": false,
-      "base_panel": null,
+      "base_panel": {
+        "sheet": "DASH 01 V06",
+        "cell": "T198"
+      },
       "comparative_panel": null
     },
     {
@@ -951,7 +1089,10 @@
       "initial": 0,
       "row": 68,
       "calculated_alias": false,
-      "base_panel": null,
+      "base_panel": {
+        "sheet": "DASH 01 V06",
+        "cell": "N199"
+      },
       "comparative_panel": null
     },
     {
@@ -966,7 +1107,10 @@
       "initial": 0,
       "row": 69,
       "calculated_alias": false,
-      "base_panel": null,
+      "base_panel": {
+        "sheet": "DASH 01 V06",
+        "cell": "T199"
+      },
       "comparative_panel": null
     },
     {
@@ -981,7 +1125,10 @@
       "initial": 0,
       "row": 70,
       "calculated_alias": false,
-      "base_panel": null,
+      "base_panel": {
+        "sheet": "DASH 01 V06",
+        "cell": "N200"
+      },
       "comparative_panel": null
     },
     {
@@ -996,7 +1143,10 @@
       "initial": 0,
       "row": 71,
       "calculated_alias": false,
-      "base_panel": null,
+      "base_panel": {
+        "sheet": "DASH 01 V06",
+        "cell": "T200"
+      },
       "comparative_panel": null
     },
     {
@@ -1011,7 +1161,10 @@
       "initial": 0,
       "row": 72,
       "calculated_alias": false,
-      "base_panel": null,
+      "base_panel": {
+        "sheet": "DASH 01 V06",
+        "cell": "N201"
+      },
       "comparative_panel": null
     },
     {
@@ -1026,7 +1179,10 @@
       "initial": 0,
       "row": 73,
       "calculated_alias": false,
-      "base_panel": null,
+      "base_panel": {
+        "sheet": "DASH 01 V06",
+        "cell": "T201"
+      },
       "comparative_panel": null
     },
     {
@@ -1041,7 +1197,10 @@
       "initial": 0,
       "row": 74,
       "calculated_alias": false,
-      "base_panel": null,
+      "base_panel": {
+        "sheet": "DASH 01 V06",
+        "cell": "N202"
+      },
       "comparative_panel": null
     },
     {
@@ -1056,7 +1215,10 @@
       "initial": 0,
       "row": 75,
       "calculated_alias": false,
-      "base_panel": null,
+      "base_panel": {
+        "sheet": "DASH 01 V06",
+        "cell": "T202"
+      },
       "comparative_panel": null
     },
     {
@@ -1071,7 +1233,10 @@
       "initial": 0,
       "row": 76,
       "calculated_alias": false,
-      "base_panel": null,
+      "base_panel": {
+        "sheet": "DASH 01 V06",
+        "cell": "N203"
+      },
       "comparative_panel": null
     },
     {
@@ -1086,7 +1251,10 @@
       "initial": 0,
       "row": 77,
       "calculated_alias": false,
-      "base_panel": null,
+      "base_panel": {
+        "sheet": "DASH 01 V06",
+        "cell": "T203"
+      },
       "comparative_panel": null
     },
     {
@@ -1101,7 +1269,10 @@
       "initial": 0,
       "row": 78,
       "calculated_alias": false,
-      "base_panel": null,
+      "base_panel": {
+        "sheet": "DASH 01 V06",
+        "cell": "N204"
+      },
       "comparative_panel": null
     },
     {
@@ -1116,7 +1287,10 @@
       "initial": 0,
       "row": 79,
       "calculated_alias": false,
-      "base_panel": null,
+      "base_panel": {
+        "sheet": "DASH 01 V06",
+        "cell": "T204"
+      },
       "comparative_panel": null
     },
     {
@@ -1131,7 +1305,10 @@
       "initial": 0,
       "row": 80,
       "calculated_alias": false,
-      "base_panel": null,
+      "base_panel": {
+        "sheet": "DASH 01 V06",
+        "cell": "N205"
+      },
       "comparative_panel": null
     },
     {
@@ -1146,7 +1323,10 @@
       "initial": 0,
       "row": 81,
       "calculated_alias": false,
-      "base_panel": null,
+      "base_panel": {
+        "sheet": "DASH 01 V06",
+        "cell": "T205"
+      },
       "comparative_panel": null
     },
     {
@@ -1161,7 +1341,10 @@
       "initial": 0,
       "row": 82,
       "calculated_alias": false,
-      "base_panel": null,
+      "base_panel": {
+        "sheet": "DASH 01 V06",
+        "cell": "N206"
+      },
       "comparative_panel": null
     },
     {
@@ -1176,7 +1359,10 @@
       "initial": 0,
       "row": 83,
       "calculated_alias": false,
-      "base_panel": null,
+      "base_panel": {
+        "sheet": "DASH 01 V06",
+        "cell": "T206"
+      },
       "comparative_panel": null
     },
     {
@@ -1191,7 +1377,10 @@
       "initial": 0,
       "row": 84,
       "calculated_alias": false,
-      "base_panel": null,
+      "base_panel": {
+        "sheet": "DASH 01 V06",
+        "cell": "N207"
+      },
       "comparative_panel": null
     },
     {
@@ -1206,7 +1395,10 @@
       "initial": 0,
       "row": 85,
       "calculated_alias": false,
-      "base_panel": null,
+      "base_panel": {
+        "sheet": "DASH 01 V06",
+        "cell": "T207"
+      },
       "comparative_panel": null
     },
     {
@@ -1221,7 +1413,10 @@
       "initial": 0,
       "row": 86,
       "calculated_alias": false,
-      "base_panel": null,
+      "base_panel": {
+        "sheet": "DASH 01 V06",
+        "cell": "N208"
+      },
       "comparative_panel": null
     },
     {
@@ -1236,7 +1431,10 @@
       "initial": 0,
       "row": 87,
       "calculated_alias": false,
-      "base_panel": null,
+      "base_panel": {
+        "sheet": "DASH 01 V06",
+        "cell": "T208"
+      },
       "comparative_panel": null
     },
     {
@@ -1251,7 +1449,10 @@
       "initial": 0,
       "row": 88,
       "calculated_alias": false,
-      "base_panel": null,
+      "base_panel": {
+        "sheet": "DASH 01 V06",
+        "cell": "N209"
+      },
       "comparative_panel": null
     },
     {
@@ -1266,7 +1467,10 @@
       "initial": 0,
       "row": 89,
       "calculated_alias": false,
-      "base_panel": null,
+      "base_panel": {
+        "sheet": "DASH 01 V06",
+        "cell": "T209"
+      },
       "comparative_panel": null
     },
     {
@@ -1281,7 +1485,10 @@
       "initial": 0,
       "row": 90,
       "calculated_alias": false,
-      "base_panel": null,
+      "base_panel": {
+        "sheet": "DASH 01 V06",
+        "cell": "N210"
+      },
       "comparative_panel": null
     },
     {
@@ -1296,7 +1503,10 @@
       "initial": 0,
       "row": 91,
       "calculated_alias": false,
-      "base_panel": null,
+      "base_panel": {
+        "sheet": "DASH 01 V06",
+        "cell": "T210"
+      },
       "comparative_panel": null
     },
     {
@@ -1311,7 +1521,10 @@
       "initial": 0,
       "row": 92,
       "calculated_alias": false,
-      "base_panel": null,
+      "base_panel": {
+        "sheet": "DASH 01 V06",
+        "cell": "N211"
+      },
       "comparative_panel": null
     },
     {
@@ -1326,7 +1539,10 @@
       "initial": 0,
       "row": 93,
       "calculated_alias": false,
-      "base_panel": null,
+      "base_panel": {
+        "sheet": "DASH 01 V06",
+        "cell": "T211"
+      },
       "comparative_panel": null
     },
     {
@@ -1341,7 +1557,10 @@
       "initial": 0,
       "row": 94,
       "calculated_alias": false,
-      "base_panel": null,
+      "base_panel": {
+        "sheet": "DASH 01 V06",
+        "cell": "N212"
+      },
       "comparative_panel": null
     },
     {
@@ -1356,7 +1575,10 @@
       "initial": 0,
       "row": 95,
       "calculated_alias": false,
-      "base_panel": null,
+      "base_panel": {
+        "sheet": "DASH 01 V06",
+        "cell": "T212"
+      },
       "comparative_panel": null
     },
     {
@@ -1371,7 +1593,10 @@
       "initial": 0,
       "row": 96,
       "calculated_alias": false,
-      "base_panel": null,
+      "base_panel": {
+        "sheet": "DASH 01 V06",
+        "cell": "N213"
+      },
       "comparative_panel": null
     },
     {
@@ -1386,7 +1611,10 @@
       "initial": 0,
       "row": 97,
       "calculated_alias": false,
-      "base_panel": null,
+      "base_panel": {
+        "sheet": "DASH 01 V06",
+        "cell": "T213"
+      },
       "comparative_panel": null
     },
     {
@@ -1401,7 +1629,10 @@
       "initial": 0,
       "row": 98,
       "calculated_alias": false,
-      "base_panel": null,
+      "base_panel": {
+        "sheet": "DASH 01 V06",
+        "cell": "N214"
+      },
       "comparative_panel": null
     },
     {
@@ -1416,7 +1647,10 @@
       "initial": 0,
       "row": 99,
       "calculated_alias": false,
-      "base_panel": null,
+      "base_panel": {
+        "sheet": "DASH 01 V06",
+        "cell": "T214"
+      },
       "comparative_panel": null
     },
     {
@@ -1431,7 +1665,10 @@
       "initial": 0,
       "row": 100,
       "calculated_alias": false,
-      "base_panel": null,
+      "base_panel": {
+        "sheet": "DASH 01 V06",
+        "cell": "N215"
+      },
       "comparative_panel": null
     },
     {
@@ -1446,7 +1683,10 @@
       "initial": 0,
       "row": 101,
       "calculated_alias": false,
-      "base_panel": null,
+      "base_panel": {
+        "sheet": "DASH 01 V06",
+        "cell": "T215"
+      },
       "comparative_panel": null
     },
     {
@@ -1461,7 +1701,10 @@
       "initial": 0,
       "row": 102,
       "calculated_alias": false,
-      "base_panel": null,
+      "base_panel": {
+        "sheet": "DASH 01 V06",
+        "cell": "N216"
+      },
       "comparative_panel": null
     },
     {
@@ -1476,7 +1719,10 @@
       "initial": 0,
       "row": 103,
       "calculated_alias": false,
-      "base_panel": null,
+      "base_panel": {
+        "sheet": "DASH 01 V06",
+        "cell": "T216"
+      },
       "comparative_panel": null
     },
     {
@@ -1491,7 +1737,10 @@
       "initial": 0,
       "row": 104,
       "calculated_alias": false,
-      "base_panel": null,
+      "base_panel": {
+        "sheet": "DASH 01 V06",
+        "cell": "N217"
+      },
       "comparative_panel": null
     },
     {
@@ -1506,7 +1755,10 @@
       "initial": 0,
       "row": 105,
       "calculated_alias": false,
-      "base_panel": null,
+      "base_panel": {
+        "sheet": "DASH 01 V06",
+        "cell": "T217"
+      },
       "comparative_panel": null
     },
     {
@@ -1521,7 +1773,10 @@
       "initial": 0,
       "row": 106,
       "calculated_alias": false,
-      "base_panel": null,
+      "base_panel": {
+        "sheet": "DASH 01 V06",
+        "cell": "N218"
+      },
       "comparative_panel": null
     },
     {
@@ -1536,7 +1791,10 @@
       "initial": 0,
       "row": 107,
       "calculated_alias": false,
-      "base_panel": null,
+      "base_panel": {
+        "sheet": "DASH 01 V06",
+        "cell": "T218"
+      },
       "comparative_panel": null
     },
     {
@@ -1551,7 +1809,10 @@
       "initial": 0,
       "row": 108,
       "calculated_alias": false,
-      "base_panel": null,
+      "base_panel": {
+        "sheet": "DASH 01 V06",
+        "cell": "N219"
+      },
       "comparative_panel": null
     },
     {
@@ -1566,7 +1827,10 @@
       "initial": 0,
       "row": 109,
       "calculated_alias": false,
-      "base_panel": null,
+      "base_panel": {
+        "sheet": "DASH 01 V06",
+        "cell": "T219"
+      },
       "comparative_panel": null
     },
     {
@@ -1581,7 +1845,10 @@
       "initial": 0,
       "row": 110,
       "calculated_alias": false,
-      "base_panel": null,
+      "base_panel": {
+        "sheet": "DASH 01 V06",
+        "cell": "N220"
+      },
       "comparative_panel": null
     },
     {
@@ -1596,7 +1863,10 @@
       "initial": 0,
       "row": 111,
       "calculated_alias": false,
-      "base_panel": null,
+      "base_panel": {
+        "sheet": "DASH 01 V06",
+        "cell": "T220"
+      },
       "comparative_panel": null
     },
     {
@@ -1611,7 +1881,10 @@
       "initial": 0,
       "row": 112,
       "calculated_alias": false,
-      "base_panel": null,
+      "base_panel": {
+        "sheet": "DASH 01 V06",
+        "cell": "N221"
+      },
       "comparative_panel": null
     },
     {
@@ -1626,7 +1899,10 @@
       "initial": 0,
       "row": 113,
       "calculated_alias": false,
-      "base_panel": null,
+      "base_panel": {
+        "sheet": "DASH 01 V06",
+        "cell": "T221"
+      },
       "comparative_panel": null
     },
     {
@@ -1641,7 +1917,10 @@
       "initial": 0,
       "row": 114,
       "calculated_alias": false,
-      "base_panel": null,
+      "base_panel": {
+        "sheet": "DASH 01 V06",
+        "cell": "N222"
+      },
       "comparative_panel": null
     },
     {
@@ -1656,7 +1935,10 @@
       "initial": 0,
       "row": 115,
       "calculated_alias": false,
-      "base_panel": null,
+      "base_panel": {
+        "sheet": "DASH 01 V06",
+        "cell": "T222"
+      },
       "comparative_panel": null
     },
     {
@@ -1671,7 +1953,10 @@
       "initial": 0,
       "row": 116,
       "calculated_alias": false,
-      "base_panel": null,
+      "base_panel": {
+        "sheet": "DASH 01 V06",
+        "cell": "N223"
+      },
       "comparative_panel": null
     },
     {
@@ -1686,7 +1971,10 @@
       "initial": 0,
       "row": 117,
       "calculated_alias": false,
-      "base_panel": null,
+      "base_panel": {
+        "sheet": "DASH 01 V06",
+        "cell": "T223"
+      },
       "comparative_panel": null
     },
     {
@@ -2220,8 +2508,14 @@
       "cell": "H478",
       "row": 152,
       "calculated_alias": false,
-      "base_panel": null,
-      "comparative_panel": null
+      "base_panel": {
+        "sheet": "DASH 03 V06",
+        "cell": "Q24"
+      },
+      "comparative_panel": {
+        "sheet": "DASH 03 V06",
+        "cell": "U24"
+      }
     },
     {
       "key": "bank_evidence",
@@ -2233,8 +2527,14 @@
       "cell": "N478",
       "row": 153,
       "calculated_alias": false,
-      "base_panel": null,
-      "comparative_panel": null
+      "base_panel": {
+        "sheet": "DASH 03 V06",
+        "cell": "Q34"
+      },
+      "comparative_panel": {
+        "sheet": "DASH 03 V06",
+        "cell": "U34"
+      }
     },
     {
       "key": "bank_institution",
@@ -2246,8 +2546,14 @@
       "cell": "H480",
       "row": 154,
       "calculated_alias": false,
-      "base_panel": null,
-      "comparative_panel": null
+      "base_panel": {
+        "sheet": "DASH 03 V06",
+        "cell": "Q29"
+      },
+      "comparative_panel": {
+        "sheet": "DASH 03 V06",
+        "cell": "U29"
+      }
     },
     {
       "key": "adr",
@@ -2393,8 +2699,14 @@
       "kind": "pct",
       "row": 163,
       "calculated_alias": false,
-      "base_panel": null,
-      "comparative_panel": null
+      "base_panel": {
+        "sheet": "DASH 07 V06",
+        "cell": "H29"
+      },
+      "comparative_panel": {
+        "sheet": "DASH 07 V06",
+        "cell": "N25"
+      }
     }
   ],
   "model": "V07"

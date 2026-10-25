@@ -1,0 +1,34 @@
+[
+  {
+    "file": "01_Executive_One_Page_PT.pdf",
+    "pages": 1,
+    "min_font_pt": 9.0,
+    "A4": true,
+    "bounds": "PASS",
+    "snapshot_hash": "PASS"
+  },
+  {
+    "file": "02_Bank_Financing_PT.pdf",
+    "pages": 11,
+    "min_font_pt": 9.0,
+    "A4": true,
+    "bounds": "PASS",
+    "snapshot_hash": "PASS"
+  },
+  {
+    "file": "03_Equity_Investor_PT.pdf",
+    "pages": 5,
+    "min_font_pt": 9.0,
+    "A4": true,
+    "bounds": "PASS",
+    "snapshot_hash": "PASS"
+  },
+  {
+    "file": "04_Comprehensive_Project_PT.pdf",
+    "pages": 15,
+    "min_font_pt": 9.0,
+    "A4": true,
+    "bounds": "PASS",
+    "snapshot_hash": "PASS"
+  }
+]

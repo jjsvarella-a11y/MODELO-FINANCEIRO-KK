@@ -1,0 +1,26 @@
+[
+  {
+    "profile": "Conservative",
+    "adr": 160,
+    "occupancy": 0.52,
+    "status": "PASS",
+    "npv": -15676780.218302,
+    "comparison_preserved": true
+  },
+  {
+    "profile": "Favorable",
+    "adr": 210,
+    "occupancy": 0.64,
+    "status": "PASS",
+    "npv": -9604777.39034361,
+    "comparison_preserved": true
+  },
+  {
+    "profile": "Base Case",
+    "adr": 185,
+    "occupancy": 0.58,
+    "status": "PASS",
+    "npv": -12742848.2445606,
+    "comparison_preserved": true
+  }
+]

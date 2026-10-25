@@ -1,0 +1,326 @@
+[
+  {
+    "test": "Base_TAN",
+    "status": "PASS",
+    "context": "Base",
+    "metrics": {
+      "Base": {
+        "Future CAPEX": 63168000,
+        "Peak Bank Debt": 17449911.7591094,
+        "Minimum Liquidity Headroom": 0,
+        "Planned Dividends": 26960052.9369736,
+        "Investor NPV": -12732995.1999499,
+        "Investor IRR": 0.0577220898744992,
+        "MOIC": 2.11959500489038,
+        "Exit Equity Value": 80817034.1700103,
+        "M54 Dividends": 1945587.80119574,
+        "Financing Cost": 1773371.81631007,
+        "Room Revenue": 131593242.160542,
+        "EBITDA": 56632645.7640161,
+        "Operator Fees": 16570484.2393398,
+        "Funding Gap": 0
+      },
+      "Comparative": {
+        "Future CAPEX": 63168000,
+        "Peak Bank Debt": 17449911.7591094,
+        "Minimum Liquidity Headroom": 0,
+        "Planned Dividends": 28571060.306682,
+        "Investor NPV": -11832458.3003516,
+        "Investor IRR": 0.0637516849440161,
+        "MOIC": 2.28511930497304,
+        "Exit Equity Value": 87589642.2957487,
+        "M54 Dividends": 2083763.14442894,
+        "Financing Cost": 1773371.81631007,
+        "Room Revenue": 142262964.497883,
+        "EBITDA": 61381931.2313688,
+        "Operator Fees": 17914037.0155025,
+        "Funding Gap": 0
+      }
+    },
+    "checks": {
+      "Base": {
+        "cash_check": 1.58615875989199e-09,
+        "debt_check": 0.0,
+        "ffe_fund_check": 0.0,
+        "inventory_check": 0.0
+      },
+      "Comparative": {
+        "cash_check": 1.58615875989199e-09,
+        "debt_check": 0.0,
+        "ffe_fund_check": 0.0,
+        "inventory_check": 0.0
+      }
+    },
+    "method": "Independent LibreOffice calculation; unrelated historic sensitivity engines frozen only in private lab; not Excel Desktop"
+  },
+  {
+    "test": "Comparative_TAN",
+    "status": "PASS",
+    "context": "Comparative",
+    "metrics": {
+      "Base": {
+        "Future CAPEX": 63168000,
+        "Peak Bank Debt": 17528049.0570992,
+        "Minimum Liquidity Headroom": 0,
+        "Planned Dividends": 26960052.9369736,
+        "Investor NPV": -12742848.2445606,
+        "Investor IRR": 0.0576464356516757,
+        "MOIC": 2.11743775338615,
+        "Exit Equity Value": 80709171.5947987,
+        "M54 Dividends": 1945587.80119574,
+        "Financing Cost": 1908200.03532465,
+        "Room Revenue": 131593242.160542,
+        "EBITDA": 56632645.7640161,
+        "Operator Fees": 16570484.2393398,
+        "Funding Gap": 0
+      },
+      "Comparative": {
+        "Future CAPEX": 63168000,
+        "Peak Bank Debt": 17567286.4995727,
+        "Minimum Liquidity Headroom": 0,
+        "Planned Dividends": 28571060.306682,
+        "Investor NPV": -11847286.1011784,
+        "Investor IRR": 0.063646055854369,
+        "MOIC": 2.28187286725741,
+        "Exit Equity Value": 87427320.4099674,
+        "M54 Dividends": 2083763.14442894,
+        "Financing Cost": 1976274.1735366,
+        "Room Revenue": 142262964.497883,
+        "EBITDA": 61381931.2313688,
+        "Operator Fees": 17914037.0155025,
+        "Funding Gap": 0
+      }
+    },
+    "checks": {
+      "Base": {
+        "cash_check": 1.1423253454268e-09,
+        "debt_check": 0.0,
+        "ffe_fund_check": 0.0,
+        "inventory_check": 0.0
+      },
+      "Comparative": {
+        "cash_check": 1.83354131877422e-09,
+        "debt_check": 0.0,
+        "ffe_fund_check": 0.0,
+        "inventory_check": 0.0
+      }
+    },
+    "method": "Independent LibreOffice calculation; unrelated historic sensitivity engines frozen only in private lab; not Excel Desktop"
+  },
+  {
+    "test": "Hotel_ADR_Occupancy",
+    "status": "PASS",
+    "context": "Base",
+    "metrics": {
+      "Base": {
+        "Future CAPEX": 63168000,
+        "Peak Bank Debt": 17528049.0570992,
+        "Minimum Liquidity Headroom": 0,
+        "Planned Dividends": 33150551.5591016,
+        "Investor NPV": -9612482.4296323,
+        "Investor IRR": 0.076928618991486,
+        "MOIC": 2.67939463566715,
+        "Exit Equity Value": 103102550.328196,
+        "M54 Dividends": 2560108.37993406,
+        "Financing Cost": 1908200.03532465,
+        "Room Revenue": 174422741.114069,
+        "EBITDA": 75696826.6792122,
+        "Operator Fees": 21963660.4065658,
+        "Funding Gap": 0
+      },
+      "Comparative": {
+        "Future CAPEX": 63168000,
+        "Peak Bank Debt": 17449911.7591094,
+        "Minimum Liquidity Headroom": 0,
+        "Planned Dividends": 28571060.306682,
+        "Investor NPV": -11832458.3003516,
+        "Investor IRR": 0.0637516849440161,
+        "MOIC": 2.28511930497304,
+        "Exit Equity Value": 87589642.2957487,
+        "M54 Dividends": 2083763.14442894,
+        "Financing Cost": 1773371.81631007,
+        "Room Revenue": 142262964.497883,
+        "EBITDA": 61381931.2313688,
+        "Operator Fees": 17914037.0155025,
+        "Funding Gap": 0
+      }
+    },
+    "checks": {
+      "Base": {
+        "cash_check": 1.80443748831749e-09,
+        "debt_check": 0.0,
+        "ffe_fund_check": 0.0,
+        "inventory_check": 0.0
+      },
+      "Comparative": {
+        "cash_check": 1.58615875989199e-09,
+        "debt_check": 0.0,
+        "ffe_fund_check": 0.0,
+        "inventory_check": 0.0
+      }
+    },
+    "method": "Independent LibreOffice calculation; unrelated historic sensitivity engines frozen only in private lab; not Excel Desktop"
+  },
+  {
+    "test": "Operator_Fees",
+    "status": "PASS",
+    "context": "Base",
+    "metrics": {
+      "Base": {
+        "Future CAPEX": 63168000,
+        "Peak Bank Debt": 17528049.0570992,
+        "Minimum Liquidity Headroom": 0,
+        "Planned Dividends": 23273537.0837432,
+        "Investor NPV": -14175208.4015131,
+        "Investor IRR": 0.0474431844661254,
+        "MOIC": 1.8658290310708,
+        "Exit Equity Value": 71569483.6087129,
+        "M54 Dividends": 1680113.38037894,
+        "Financing Cost": 1908200.03532465,
+        "Room Revenue": 131593242.160542,
+        "EBITDA": 50275639.4217247,
+        "Operator Fees": 22927490.5816312,
+        "Funding Gap": 0
+      },
+      "Comparative": {
+        "Future CAPEX": 63168000,
+        "Peak Bank Debt": 17449911.7591094,
+        "Minimum Liquidity Headroom": 0,
+        "Planned Dividends": 28571060.306682,
+        "Investor NPV": -11832458.3003516,
+        "Investor IRR": 0.0637516849440161,
+        "MOIC": 2.28511930497304,
+        "Exit Equity Value": 87589642.2957487,
+        "M54 Dividends": 2083763.14442894,
+        "Financing Cost": 1773371.81631007,
+        "Room Revenue": 142262964.497883,
+        "EBITDA": 61381931.2313688,
+        "Operator Fees": 17914037.0155025,
+        "Funding Gap": 0
+      }
+    },
+    "checks": {
+      "Base": {
+        "cash_check": 1.1423253454268e-09,
+        "debt_check": 0.0,
+        "ffe_fund_check": 0.0,
+        "inventory_check": 0.0
+      },
+      "Comparative": {
+        "cash_check": 1.58615875989199e-09,
+        "debt_check": 0.0,
+        "ffe_fund_check": 0.0,
+        "inventory_check": 0.0
+      }
+    },
+    "method": "Independent LibreOffice calculation; unrelated historic sensitivity engines frozen only in private lab; not Excel Desktop"
+  },
+  {
+    "test": "Custom",
+    "status": "PASS",
+    "context": "Base",
+    "metrics": {
+      "Base": {
+        "Future CAPEX": 63168000,
+        "Peak Bank Debt": 17508472.6041917,
+        "Minimum Liquidity Headroom": 0,
+        "Planned Dividends": 29231200.8356592,
+        "Investor NPV": -11421092.4890301,
+        "Investor IRR": 0.0663799546068273,
+        "MOIC": 2.36087088963525,
+        "Exit Equity Value": 90761090.3684808,
+        "M54 Dividends": 2148244.9712711,
+        "Financing Cost": 1874328.43651736,
+        "Room Revenue": 147242168.255309,
+        "EBITDA": 63598264.4494667,
+        "Operator Fees": 18541028.311045,
+        "Funding Gap": 0
+      },
+      "Comparative": {
+        "Future CAPEX": 63168000,
+        "Peak Bank Debt": 17449911.7591094,
+        "Minimum Liquidity Headroom": 0,
+        "Planned Dividends": 28571060.306682,
+        "Investor NPV": -11832458.3003516,
+        "Investor IRR": 0.0637516849440161,
+        "MOIC": 2.28511930497304,
+        "Exit Equity Value": 87589642.2957487,
+        "M54 Dividends": 2083763.14442894,
+        "Financing Cost": 1773371.81631007,
+        "Room Revenue": 142262964.497883,
+        "EBITDA": 61381931.2313688,
+        "Operator Fees": 17914037.0155025,
+        "Funding Gap": 0
+      }
+    },
+    "checks": {
+      "Base": {
+        "cash_check": 1.82626536116004e-09,
+        "debt_check": 0.0,
+        "ffe_fund_check": 0.0,
+        "inventory_check": 0.0
+      },
+      "Comparative": {
+        "cash_check": 1.58615875989199e-09,
+        "debt_check": 0.0,
+        "ffe_fund_check": 0.0,
+        "inventory_check": 0.0
+      }
+    },
+    "method": "Independent LibreOffice calculation; unrelated historic sensitivity engines frozen only in private lab; not Excel Desktop"
+  },
+  {
+    "test": "Discount",
+    "status": "PASS",
+    "context": "Base",
+    "metrics": {
+      "Base": {
+        "Future CAPEX": 63168000,
+        "Peak Bank Debt": 17528049.0570992,
+        "Minimum Liquidity Headroom": 0,
+        "Planned Dividends": 26960052.9369736,
+        "Investor NPV": -9781772.03944352,
+        "Investor IRR": 0.0576464356516757,
+        "MOIC": 2.11743775338615,
+        "Exit Equity Value": 80709171.5947987,
+        "M54 Dividends": 1945587.80119574,
+        "Financing Cost": 1908200.03532465,
+        "Room Revenue": 131593242.160542,
+        "EBITDA": 56632645.7640161,
+        "Operator Fees": 16570484.2393398,
+        "Funding Gap": 0
+      },
+      "Comparative": {
+        "Future CAPEX": 63168000,
+        "Peak Bank Debt": 17449911.7591094,
+        "Minimum Liquidity Headroom": 0,
+        "Planned Dividends": 28571060.306682,
+        "Investor NPV": -11832458.3003516,
+        "Investor IRR": 0.0637516849440161,
+        "MOIC": 2.28511930497304,
+        "Exit Equity Value": 87589642.2957487,
+        "M54 Dividends": 2083763.14442894,
+        "Financing Cost": 1773371.81631007,
+        "Room Revenue": 142262964.497883,
+        "EBITDA": 61381931.2313688,
+        "Operator Fees": 17914037.0155025,
+        "Funding Gap": 0
+      }
+    },
+    "checks": {
+      "Base": {
+        "cash_check": 1.1423253454268e-09,
+        "debt_check": 0.0,
+        "ffe_fund_check": 0.0,
+        "inventory_check": 0.0
+      },
+      "Comparative": {
+        "cash_check": 1.58615875989199e-09,
+        "debt_check": 0.0,
+        "ffe_fund_check": 0.0,
+        "inventory_check": 0.0
+      }
+    },
+    "method": "Independent LibreOffice calculation; unrelated historic sensitivity engines frozen only in private lab; not Excel Desktop"
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "source_version": "Repository V07 workbook, unchanged by incoming commit 9d361a7",
+  "user_edited_excel_included": false,
+  "sheet_count": 238,
+  "formulas": 2117006,
+  "stored_formula_errors": [],
+  "explicit_broken_references": [],
+  "VALUE_calls_in_input_stores": 0,
+  "selected_tabs": [
+    "EXEC V06"
+  ],
+  "unchanged_non_UI_formula_input_records": 222,
+  "internal_link_checks": 1077,
+  "navigation_errors": [],
+  "native_excel365": "NOT TESTED",
+  "original_media_parts_preserved": 0,
+  "source_sha256": "0c937badf07a04de702e0ffbd1047721f71cbf905c8a21d9504c66e50659f638",
+  "delivery_sha256": "1d13da1affe131258d3deecdb861aa571884da927edae7cc6b120f3bb0f6855c",
+  "effective_inputs_preserved": true,
+  "economic_monthly_comparisons": 53280
+}
