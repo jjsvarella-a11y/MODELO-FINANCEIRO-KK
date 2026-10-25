@@ -1,0 +1,115 @@
+{
+  "status": "PASS",
+  "reports": [
+    {
+      "file": "KK01-20261025T074536279245Z-Comprehensive_Project-PT.pdf",
+      "format": "Comprehensive Project",
+      "language": "PT",
+      "comparison": "Base Only",
+      "pages": 15,
+      "A4": true,
+      "body_font_minimum": 9,
+      "footer_font": 7,
+      "text_bounding_boxes": "PASS",
+      "hashes_and_register": "PASS"
+    },
+    {
+      "file": "KK01-20261025T074535952378Z-Equity_Investor-PT.pdf",
+      "format": "Equity Investor",
+      "language": "PT",
+      "comparison": "Base Only",
+      "pages": 5,
+      "A4": true,
+      "body_font_minimum": 9,
+      "footer_font": 7,
+      "text_bounding_boxes": "PASS",
+      "hashes_and_register": "PASS"
+    },
+    {
+      "file": "KK01-20261025T074535389797Z-Executive_One_Page-EN.pdf",
+      "format": "Executive One Page",
+      "language": "EN",
+      "comparison": "Base Only",
+      "pages": 1,
+      "A4": true,
+      "body_font_minimum": 9,
+      "footer_font": 7,
+      "text_bounding_boxes": "PASS",
+      "hashes_and_register": "PASS"
+    },
+    {
+      "file": "KK01-20261025T074535684243Z-Bank_Financing-EN.pdf",
+      "format": "Bank Financing",
+      "language": "EN",
+      "comparison": "Base Only",
+      "pages": 11,
+      "A4": true,
+      "body_font_minimum": 9,
+      "footer_font": 7,
+      "text_bounding_boxes": "PASS",
+      "hashes_and_register": "PASS"
+    },
+    {
+      "file": "KK01-20261025T074536117697Z-Equity_Investor-EN.pdf",
+      "format": "Equity Investor",
+      "language": "EN",
+      "comparison": "Base Only",
+      "pages": 5,
+      "A4": true,
+      "body_font_minimum": 9,
+      "footer_font": 7,
+      "text_bounding_boxes": "PASS",
+      "hashes_and_register": "PASS"
+    },
+    {
+      "file": "KK01-20261025T074536706491Z-Comprehensive_Project-EN.pdf",
+      "format": "Comprehensive Project",
+      "language": "EN",
+      "comparison": "Base Only",
+      "pages": 15,
+      "A4": true,
+      "body_font_minimum": 9,
+      "footer_font": 7,
+      "text_bounding_boxes": "PASS",
+      "hashes_and_register": "PASS"
+    },
+    {
+      "file": "KK01-20261025T075900269011Z-Bank_Comparison-PT.pdf",
+      "format": "Bank Financing",
+      "language": "PT",
+      "comparison": "Base vs Selected",
+      "pages": 11,
+      "A4": true,
+      "body_font_minimum": 9,
+      "footer_font": 7,
+      "text_bounding_boxes": "PASS",
+      "hashes_and_register": "PASS"
+    },
+    {
+      "file": "KK01-20261025T074535269077Z-Executive_One_Page-PT.pdf",
+      "format": "Executive One Page",
+      "language": "PT",
+      "comparison": "Base Only",
+      "pages": 1,
+      "A4": true,
+      "body_font_minimum": 9,
+      "footer_font": 7,
+      "text_bounding_boxes": "PASS",
+      "hashes_and_register": "PASS"
+    },
+    {
+      "file": "KK01-20261025T074535415546Z-Bank_Financing-PT.pdf",
+      "format": "Bank Financing",
+      "language": "PT",
+      "comparison": "Base Only",
+      "pages": 11,
+      "A4": true,
+      "body_font_minimum": 9,
+      "footer_font": 7,
+      "text_bounding_boxes": "PASS",
+      "hashes_and_register": "PASS"
+    }
+  ],
+  "generation": "ReportLab with actual reconciled model values",
+  "native_excel365_pdf": "NOT TESTED"
+}

@@ -1,0 +1,76 @@
+{
+  "status": "PASS",
+  "context": {
+    "Future CAPEX": 63168000,
+    "Peak Bank Debt": 17449911.7591094,
+    "Minimum Liquidity Headroom": 0,
+    "Planned Dividends": 27016978.6189896,
+    "Investor NPV": -9491808.68905679,
+    "Investor IRR": 0.0592542561568255,
+    "MOIC": 2.16168153592735,
+    "Exit Equity Value": 82868230.0853103,
+    "M54 Dividends": 1983174.65776037,
+    "Financing Cost": 1773371.81631007,
+    "Room Revenue": 143414253.804901,
+    "EBITDA": 61983020.8339815,
+    "Operator Fees": 21153028.7792077,
+    "Funding Gap": 0
+  },
+  "unchanged_comparative": {
+    "Future CAPEX": 63168000,
+    "Peak Bank Debt": 17528049.0570992,
+    "Minimum Liquidity Headroom": 0,
+    "Planned Dividends": 26960052.9369736,
+    "Investor NPV": -12742848.2445606,
+    "Investor IRR": 0.0576464356516757,
+    "MOIC": 2.11743775338615,
+    "Exit Equity Value": 80709171.5947987,
+    "M54 Dividends": 1945587.80119574,
+    "Financing Cost": 1908200.03532465,
+    "Room Revenue": 131593242.160542,
+    "EBITDA": 56632645.7640161,
+    "Operator Fees": 16570484.2393398,
+    "Funding Gap": 0
+  },
+  "active_matrix_npv": -9491808.68905679,
+  "all_monthly_checks": {
+    "cash_check": 1.58615875989199e-09,
+    "debt_check": 0.0,
+    "ffe_fund_check": 0.0,
+    "inventory_check": 0.0
+  },
+  "changes": [
+    [
+      "DASH 03 V06",
+      "H23",
+      "5.0%"
+    ],
+    [
+      "DASH 05 V06",
+      "H25",
+      "65%"
+    ],
+    [
+      "DASH 05 V06",
+      "H29",
+      "60%"
+    ],
+    [
+      "DASH 05 V06",
+      "H31",
+      "4.0%"
+    ],
+    [
+      "DASH 05 V06",
+      "H37",
+      "6%"
+    ],
+    [
+      "V07 Base",
+      "B163",
+      "10%"
+    ]
+  ],
+  "formula_errors": [],
+  "native_excel365": "NOT TESTED"
+}

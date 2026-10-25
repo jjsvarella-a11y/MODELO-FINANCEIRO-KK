@@ -1,0 +1,51 @@
+{
+  "test": "EN",
+  "status": "PASS",
+  "Base": {
+    "Future CAPEX": 63168000,
+    "Peak Bank Debt": 17528049.0570992,
+    "Minimum Liquidity Headroom": 0,
+    "Planned Dividends": 26960052.9369736,
+    "Investor NPV": -12742848.2445606,
+    "Investor IRR": 0.0576464356516757,
+    "MOIC": 2.11743775338615,
+    "Exit Equity Value": 80709171.5947987,
+    "M54 Dividends": 1945587.80119574,
+    "Financing Cost": 1908200.03532465,
+    "Room Revenue": 131593242.160542,
+    "EBITDA": 56632645.7640161,
+    "Operator Fees": 16570484.2393398,
+    "Funding Gap": 0
+  },
+  "Comparative": {
+    "Future CAPEX": 63168000,
+    "Peak Bank Debt": 17528049.0570992,
+    "Minimum Liquidity Headroom": 0,
+    "Planned Dividends": 26960052.9369736,
+    "Investor NPV": -12742848.2445606,
+    "Investor IRR": 0.0576464356516757,
+    "MOIC": 2.11743775338615,
+    "Exit Equity Value": 80709171.5947987,
+    "M54 Dividends": 1945587.80119574,
+    "Financing Cost": 1908200.03532465,
+    "Room Revenue": 131593242.160542,
+    "EBITDA": 56632645.7640161,
+    "Operator Fees": 16570484.2393398,
+    "Funding Gap": 0
+  },
+  "checks": {
+    "Base": {
+      "cash_check": 1.1423253454268e-09,
+      "debt_check": 0.0,
+      "ffe_fund_check": 0.0,
+      "inventory_check": 0.0
+    },
+    "Comparative": {
+      "cash_check": 1.1423253454268e-09,
+      "debt_check": 0.0,
+      "ffe_fund_check": 0.0,
+      "inventory_check": 0.0
+    }
+  },
+  "platform": "LibreOffice; private lab; historic branches frozen"
+}

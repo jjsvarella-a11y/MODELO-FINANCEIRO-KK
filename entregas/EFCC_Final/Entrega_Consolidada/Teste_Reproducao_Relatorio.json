@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "report_snapshot": "KK01-20261025T074536279245Z-Comprehensive_Project-PT.json",
+  "pages": 15,
+  "current_workbook_read": false,
+  "text_and_values_identical": true,
+  "captured_tables": [
+    "30 budget chapters",
+    "94 apartments",
+    "20 actual NPV values",
+    "break-even and gap",
+    "near-zero threshold"
+  ],
+  "native_excel365": "NOT TESTED"
+}

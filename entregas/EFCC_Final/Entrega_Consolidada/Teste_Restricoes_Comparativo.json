@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "active_view": "Base",
+  "base_liquidity_headroom": 0,
+  "comparative_liquidity_headroom": -6789077.00787202,
+  "comparison_binding_message": "Comparativo: reserva não coberta",
+  "comparison_narrative": "VAL do Comparativo melhorou mas permanece negativo. Comparativo sem cobertura integral das reservas.",
+  "formula_errors": []
+}

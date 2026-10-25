@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "save_id": "BASE-20261025T073616269964Z",
+  "restore_id": "BASE-20261025T073721389933Z",
+  "previous_version_preserved": true,
+  "base_restored_exactly": true,
+  "unsaved_base_report_blocked": true,
+  "native_excel365": "NOT TESTED"
+}
